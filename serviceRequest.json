@@ -18,5 +18,5 @@
   "requester": { "reference": "Practitioner/PRR00001 (NOTE: Exemple Julie)" },
   "subject": { "reference": "Patient/P000001" },
   "encounter": { "reference": "encounter/EN03938  Note: c'est le encounter du medecin traitant" },
-  "specimen": { "reference": "specimen/SP39383" }
+  "specimen": [{ "reference": "specimen/SP39383" }]
 }
