@@ -41,7 +41,7 @@
   "name": {
     "use": "official",
     "family": "Bertrand",
-    "given": [{"Stephane"}]
+    "given": ["Stephane"]
   },
   "birthDate": "2018-10-11",
   "gender": "male",
