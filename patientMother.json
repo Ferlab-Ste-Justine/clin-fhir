@@ -39,7 +39,11 @@
   "name": {
     "use": "official",
     "family": "Bertrand",
+<<<<<<< HEAD
     "given": ["Francine"]
+=======
+    "given": [{"Francine"}]
+>>>>>>> 03bc4b9... correction cardinalites
   },
   "birthDate": "2018-10-11",
   "gender": "female",
