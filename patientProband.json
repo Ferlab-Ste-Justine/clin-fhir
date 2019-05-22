@@ -54,6 +54,9 @@
         {
           "url": "familyId",
           "valueId": "FA03939"
+        },{
+          "url": "familyComposition",
+          "valueCode": "trio +"
         },
         {
           "url": "ethnicity",
@@ -72,7 +75,7 @@
       "type": "refer",
       "extension": [
         {
-          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
           "valueCode": "FTH"
         }
       ]
@@ -82,8 +85,17 @@
       "type": "refer",
       "extension": [
         {
-          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype",
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
           "valueCode": "MTH"
+        }
+      ]
+    },{
+      "other": {"reference": "Patient/PT000949"},
+      "type": "refer",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/valueset-relatedperson-relationshiptype.html",
+          "valueCode": "BRO || SIS || HBRO || HSIS || FTWINBRO || ITWINBRO || TWINSIS || FTWINSIS || ITWINSIS || TWIN || FTWIN || ITWIN"
         }
       ]
     }
