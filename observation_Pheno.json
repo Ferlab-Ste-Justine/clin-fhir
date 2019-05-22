@@ -10,7 +10,7 @@
   
   "code": { "text": "phenotype observation" },
   "subject": { "reference": "Patient/P002" },
-  "performer": { "reference": "Practitioner/PR00001" },
+  "performer": [{ "reference": "Practitioner/PR00001" }],
   "effectivedateTime": "2012-05-27T01:18:39+04:00",
   "encounter": { "reference": "Encounter/EN0393" },
 
