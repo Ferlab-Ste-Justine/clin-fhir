@@ -23,20 +23,20 @@
         "path": "Observation.extension"
       },
       {
-        "id": "Observation.extension:age-at-event",
+        "id": "Observation.extension:age-at-onset",
         "path": "Observation.extension",
-        "sliceName": "age-at-event",
+        "sliceName": "age-at-onset",
         "sliceIsConstraining": false,
-        "label": "age_at_event",
-        "short": "Age at the time of phenotype observation",
-        "definition": "Age (in days since birth) of the Clin Patient at the time of phenotype observation.",
+        "label": "age_at_onset",
+        "short": "Age range during which the anomaly occurred",
+        "definition": "Period of life during which the phenotype was noted. The value reverts to an HPO code",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event"
+              "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset"
             ]
           }
         ],
