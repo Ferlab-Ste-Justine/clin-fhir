@@ -50,7 +50,7 @@
         "path": "Extension.value[x]",
         "type": [
           {
-            "code": "Coding"
+            "code": "CodeableConcept"
           }
         ],
         "binding": {
