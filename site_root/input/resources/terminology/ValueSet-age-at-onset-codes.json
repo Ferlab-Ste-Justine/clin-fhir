@@ -1,0 +1,151 @@
+{
+    "resourceType": "ValueSet",
+    "id": "age-at-onset",
+    "url": "http://fhir.clin.ferlab.bio/ValueSet/age-at-onset",
+    "version": "0.1.0",
+    "name": "age-at-onset",
+    "title": "Age at Onset Codes",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "This value set includes age at onset codes from Human Phenotype Ontology.",
+    "compose": {
+      "include": [
+        {
+          "system": "http://purl.obolibrary.org/obo/hp.owl",
+          "concept": [
+            {
+              "code": "HP:0410280",
+              "display": "Apparition pédiatrique",
+              "designation":[
+                  {
+                      "language":"en",
+                      "value":"Pediatric onset"
+                  }
+              ]
+            },
+            {
+                "code": "HP:0003593",
+                "display": "Apparition dans l'enfance",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Infantile onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0003621",
+                "display": "Apparition juvénile",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Juvenile onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0011463",
+                "display": "d'apparition chez l'enfant",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Childhood onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0030674",
+                "display": "d'apparition anténatale",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Antenatal onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0011460",
+                "display": "d'apparition embryonnaire",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Embryonal onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0011461",
+                "display": "d'apparition foetale",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Fetal onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0003577",
+                "display": "d'apparition congénitale",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Congenital onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0003623",
+                "display": "d'apparition néonatale",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Neonatal onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0003581",
+                "display": "Début à l'âge adulte",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Adult onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0003596",
+                "display": "d'apparition à l'âge moyen",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Middle age onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0011462",
+                "display": "d'apparition chez l'adulte jeune",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Young adult onset"
+                    }
+                ]
+            },
+            {
+                "code": "HP:0003584",
+                "display": "Début tardif",
+                "designation":[
+                    {
+                        "language":"en",
+                        "value":"Late onset"
+                    }
+                ]
+            }
+          ]
+        }
+      ]
+    }
+  }

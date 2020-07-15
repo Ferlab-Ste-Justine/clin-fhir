@@ -1,0 +1,49 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "qc-ethnicity",
+    "url": "http://fhir.clin.ferlab.bio/CodeSystem/qc-ethnicity",
+    "version": "0.1.0",
+    "name": "qc-ethnicity",
+    "title": "Qc ethnicity",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 8,
+    "concept": [
+      {
+        "code": "CA-FR",
+        "display": "CANADIEN FRANÇAIS"
+      },
+      {
+        "code": "EU",
+        "display": "CAUCASIEN EUROPÉEN"
+      },
+      {
+        "code": "AF-AM",
+        "display": "AFRO-AMÉRICAIN"
+      },
+      {
+        "code": "HIS",
+        "display": "HISPANIQUE"
+      },
+      {
+        "code": "ASI",
+        "display": "ASIATIQUE"
+      },
+      {
+        "code": "JF",
+        "display": "JUIF"
+      },
+      {
+        "code": "AM-IN",
+        "display": "AMÉRINDIEN"
+      },
+      {
+        "code": "AU",
+        "display": "AUTRE"
+      }
+    ]
+  }
