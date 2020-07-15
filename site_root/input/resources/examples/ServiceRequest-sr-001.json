@@ -1,0 +1,34 @@
+{
+    "resourceType": "ServiceRequest",
+    "id": "sr-001",
+    "meta": {
+      "profile":[
+          "http://fhir.clin.ferlab.bio/StructureDefinition/clin-service-request"
+      ]
+    },
+
+    "extension": [
+        {
+          "url": "http://fhir.clin.ferlab.bio/StructureDefinition/ref-clin-impression",
+          "valueReference": {"reference": "ClinicalImpression/ci-001"}
+        }
+    ],
+  
+    "status": "active",
+    "intent": "order",
+    "authoredOn": "2019-05-09T11:00:00+00:00",
+    "code": {
+      "text": "WXS"
+    },
+    "requester": {
+      "reference": "PractitionerRole/pr-001"
+    },
+    "subject": {
+      "reference": "Patient/pt-001"
+    },
+    "specimen": [
+      {
+        "reference": "Specimen/sp-001"
+      }
+    ]
+}

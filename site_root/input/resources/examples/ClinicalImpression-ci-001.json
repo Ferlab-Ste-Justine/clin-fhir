@@ -1,0 +1,54 @@
+
+{
+    "resourceType": "ClinicalImpression",
+    "id": "ci-001",
+    "meta": {
+        "profile": [
+            "http://fhir.clin.ferlab.bio/StructureDefinition/clin-clinical-impression"
+        ]
+    },
+
+
+    "extension": [
+        {
+            "url":"http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event",
+            "valueAge": {
+                "value": 234,
+                "unit": "days",
+                "system": "http://unitsofmeasure.org",
+                "code":"d"
+            }
+        }
+    ],
+
+    "status":"in-progress",
+    "subject": {
+        "reference": "Patient/pt-001"
+    },
+    "effectiveDateTime":"2019-03-09T10:33:38.304+00:00",
+    "assessor":{"reference":"PractitionerRole/prr-001"},
+    "investigation": [
+        {
+            "code": {
+                "text": "initial-examination"
+            },
+            "item": [
+                {
+                    "reference": "Observation/ph-001"
+                },
+                {
+                    "reference": "Observation/cgh-001"
+                },
+                {
+                    "reference": "Observation/inv-001"
+                },
+                {
+                    "reference": "Observation/ind-001"
+                },
+                {
+                    "reference": "Observation/fmh-001"
+                }
+            ]
+        }
+    ]
+}

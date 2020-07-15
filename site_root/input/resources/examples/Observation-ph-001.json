@@ -1,47 +1,47 @@
 {
-  "resourceType": "Observation",
-  "id": "ph-001",
-  "meta": {
-    "profile": [
-      "http://fhir.clin.ferlab.bio/StructureDefinition/clin-phenotype"
-    ]
-  },
-  "extension": [
-    {
-      "url": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event",
-      "valueAge": {
-        "value": 10,
-        "unit": "d",
-        "system": "http://unitsofmeasure.org",
-        "code": "days"
-      }
-    }
-  ],
-  "status": "preliminary",
-  "code": {
-    "coding": [
-      {
-        "system": "http://purl.obolibrary.org/obo/hp.owl",
-        "code": "HP:0004307",
-        "display": "Abnormal anatomic location of the heart"
-      }
-    ],
-    "text": "Abnormal Cardiac Situs"
-  },
-  "subject": {
-    "reference": "Patient/pt-001"
-  },
-  "effectiveDateTime": "2019-06-15",
-  "interpretation": [
-    {
-      "coding": [
+    "resourceType": "Observation",
+    "id": "ph-001",
+    "meta": {
+        "profile": [
+            "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset"
+        ]
+    },
+    
+    "extension": [
         {
-          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-          "code": "POS",
-          "display": "Positive"
+          "url": "http://fhir.kids-first.io/StructureDefinition/age-at-onset",
+          "valueCoding": {
+            "code": "HP:0003577",
+            "display": "d'apparition congénitale"
+          }
         }
       ],
-      "text": "Positive"
-    }
-  ]
-}
+
+    "status": "final",
+    
+    "code": { "text": "phenotype-observation" },
+    "subject": { "reference": "Patient/pt-001" },
+  
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://purl.obolibrary.org/obo/hp.owl",
+          "code": "HP:0001252",
+          "display": "Abnormal anatomic location of the heart"
+        }
+      ]
+    },
+    "note": [{"text" : "une note en texte libre sur l'observation"}],
+    "interpretation": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+            "code": "POS",
+            "display": "Positive"
+          }
+        ],
+        "text": "Observé"
+      }
+    ]
+  }

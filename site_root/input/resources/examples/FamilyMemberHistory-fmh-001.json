@@ -1,0 +1,23 @@
+{
+    "resourceType": "FamilyMemberHistory",
+    "id": "fmh-001",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory"
+        ]
+    },
+    
+    "status": "completed",
+    "patient": { "reference": "Patient/pt-001" },
+    "relationship":{
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "72705000",
+          "display": "Mother"
+        }
+      ],
+      "text":"Mère"
+    },
+    "note": [ {"text" : "retard de croissance"}]
+}

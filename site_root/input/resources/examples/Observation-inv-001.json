@@ -1,0 +1,17 @@
+{
+    "resourceType": "Observation",
+    "id": "inv-001",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/Observation"
+        ]
+    },
+  
+    "status": "final",
+    
+    "code": { "text": "investigations" },
+    "subject": { "reference": "Patient/pt-001" },
+    "performer": [{ "reference": "Practitioner/pr-001" }],
+  
+    "note": [ {"text" : "Resume de l'investigation clinique et paraclinique realisees"}]
+  }
