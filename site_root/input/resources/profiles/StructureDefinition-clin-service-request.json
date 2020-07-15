@@ -46,7 +46,7 @@
                 {
                   "code": "Reference",
                   "targetProfile": [
-                    "http://hl7.org/fhir/StructureDefinition/servicerequest.html"
+                    "http://hl7.org/fhir/StructureDefinition/servicerequest"
                   ]
                 }
               ],
