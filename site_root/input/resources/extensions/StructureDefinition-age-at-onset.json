@@ -1,0 +1,64 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "age-at-onset",
+    "url": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset",
+    "version": "0.1.0",
+    "name": "age-at-onset",
+    "title": "Age At Onset",
+    "status": "draft",
+    "description": "The age of appearance of the clinical sign (refers to an age group defined by a term HPO)",
+    "fhirVersion": "4.0.0",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+      {
+        "type": "element",
+        "expression": "Observation"
+      }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Extension",
+          "path": "Extension",
+          "short": "Age at onset",
+          "definition": "The age of appearance of the clinical sign (refers to an age group defined by a term HPO)",
+          "min": 0,
+          "max": "1",
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Extension.extension",
+          "path": "Extension.extension"
+        },
+        {
+          "id": "Extension.url",
+          "path": "Extension.url",
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset"
+        },
+        {
+          "id": "Extension.value[x]",
+          "path": "Extension.value[x]",
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "The age of appearance of the clinical sign is an HPO term, the possible values ​​of which are limited to a list defined in a ValueSet source",
+            "valueSet": "http://fhir.clin.ferlab.bio/ValueSet/age-at-onset"
+          }
+        }
+      ]
+    }
+  }
