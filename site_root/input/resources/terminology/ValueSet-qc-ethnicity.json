@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "id": "species",
+    "id": "qc-ethnicity",
     "url": "http://fhir.clin.ferlab.bio/ValueSet/qc-ethnicity",
     "version": "0.1.0",
     "name": "qc-ethnicity",
