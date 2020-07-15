@@ -53,7 +53,7 @@
         "isModifier": false
       },
       {
-        "id": "Patient.extension:relation",
+        "id": "Patient.extension:is-proband",
         "path": "Patient.extension",
         "sliceName": "is-proband",
         "short": "Position of Clin Patient",
@@ -72,11 +72,11 @@
         "isModifier": false
       },
       {
-        "id": "Patient.extension:relation",
+        "id": "Patient.extension:blood-relationship",
         "path": "Patient.extension",
         "sliceName": "blood-relationship",
         "short": "Parents' consanguinity concept",
-        "definition": "Allows to know if the patient is a proband or not",
+        "definition": "This field gives us information if the parents are inbred",
         "min": 0,
         "max": "1",
         "type": [
