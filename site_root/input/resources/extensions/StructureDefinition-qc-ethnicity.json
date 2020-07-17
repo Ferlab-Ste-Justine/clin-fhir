@@ -1,0 +1,64 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "qc-ethnicity",
+  "url": "http://fhir.clin.ferlab.bio/StructureDefinition/qc-ethnicity",
+  "version": "0.1.0",
+  "name": "qc-ethnicity",
+  "title": "Qc Ethnicity",
+  "status": "draft",
+  "description": "Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+  "fhirVersion": "4.0.0",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Qc Ethnicity",
+        "definition": "",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/qc-ethnicity"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+          "valueSet": "http://fhir.clin.ferlab.bio/ValueSet/qc-ethnicity"
+        }
+      }
+    ]
+  }
+}
