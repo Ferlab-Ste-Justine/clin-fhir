@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "clin-phenotype",
-  "url": "http://fhir.clin.ferlab.bio/StructureDefinition/clin-phenotype",
+  "id": "cqgc-phenotype",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-phenotype",
   "version": "0.1.0",
-  "name": "clin-phenotype",
-  "title": "Clin Phenotype",
+  "name": "cqgc-phenotype",
+  "title": "cqgc Phenotype",
   "status": "draft",
   "fhirVersion": "4.0.0",
   "kind": "resource",
@@ -36,7 +36,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset"
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset"
             ]
           }
         ],
