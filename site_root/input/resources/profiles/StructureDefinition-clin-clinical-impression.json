@@ -46,7 +46,7 @@
               {
                 "code": "Extension",
                 "profile": [
-                  "http://fhir.kids-first.io/StructureDefinition/age-at-event"
+                  "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event"
                 ]
               }
             ],
