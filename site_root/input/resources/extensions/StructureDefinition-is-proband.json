@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "is-proband",
-    "url": "http://fhir.clin.ferlab.bio/StructureDefinition/is-proband",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband",
     "version": "0.1.0",
     "name": "is-proband",
     "title": "Patient is a proband",
@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/is-proband"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband"
         },
         {
           "id": "Extension.value[x]",

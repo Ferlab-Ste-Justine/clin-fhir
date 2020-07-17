@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "age-at-event",
-  "url": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
   "version": "0.1.0",
   "name": "age-at-event",
   "title": "Age At Event",
@@ -43,7 +43,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-event"
+        "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event"
       },
       {
         "id": "Extension.value[x]",

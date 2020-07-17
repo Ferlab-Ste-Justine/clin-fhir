@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "ref-clin-impression",
-    "url": "http://fhir.clin.ferlab.bio/StructureDefinition/ref-clin-impression",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression",
     "version": "0.1.0",
     "name": "ref-clin-impression",
     "title": "Ref Clinical Impression",
@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "http://fhir.kids-first.io/StructureDefinition/ref-clin-impression"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression"
         },
         {
           "id": "Extension.value[x]",

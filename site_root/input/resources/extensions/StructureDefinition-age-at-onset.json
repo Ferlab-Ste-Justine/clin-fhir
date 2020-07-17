@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "age-at-onset",
-    "url": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
     "version": "0.1.0",
     "name": "age-at-onset",
     "title": "Age At Onset",
@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset"
         },
         {
           "id": "Extension.value[x]",
@@ -56,7 +56,7 @@
           "binding": {
             "strength": "required",
             "description": "The age of appearance of the clinical sign is an HPO term, the possible values ​​of which are limited to a list defined in a ValueSet source",
-            "valueSet": "http://fhir.clin.ferlab.bio/ValueSet/age-at-onset"
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"
           }
         }
       ]

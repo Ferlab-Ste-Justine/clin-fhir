@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "blood-relationship",
-    "url": "http://fhir.clin.ferlab.bio/StructureDefinition/blood-relationship",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
     "version": "0.1.0",
     "name": "blood-relationship",
     "title": "Blood relationship",
@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "http://fhir.clin.ferlab.bio/StructureDefinition/blood-relationship"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship"
         },
         {
           "id": "Extension.value[x]",
