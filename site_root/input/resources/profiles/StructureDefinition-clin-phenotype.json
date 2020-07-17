@@ -1,0 +1,48 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "clin-phenotype",
+  "url": "http://fhir.clin.ferlab.bio/StructureDefinition/clin-phenotype",
+  "version": "0.1.0",
+  "name": "clin-phenotype",
+  "title": "Clin Phenotype",
+  "status": "draft",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      },
+      {
+        "id": "Observation.extension",
+        "path": "Observation.extension"
+      },
+      {
+        "id": "Observation.extension:age-at-onset",
+        "path": "Observation.extension",
+        "sliceName": "age-at-onset",
+        "sliceIsConstraining": false,
+        "label": "age_at_onset",
+        "short": "Age range during which the anomaly occurred",
+        "definition": "Period of life during which the phenotype was noted. The value reverts to an HPO code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.clin.ferlab.bio/StructureDefinition/age-at-onset"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "clin-clinical-impression",
+  "url": "http://fhir.clin.ferlab.bio/StructureDefinition/clin-clinical-impression",
+  "version": "0.1.0",
+  "name": "clin-clinical-impression",
+  "title": "Clin Clinical Impression",
+  "status": "draft",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ClinicalImpression",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ClinicalImpression",
+  "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "ClinicalImpression",
+          "path": "ClinicalImpression"
+        },
+        {
+          "id": "ClinicalImpression.extension",
+          "path": "ClinicalImpression.extension",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          }
+        },
+        {
+            "id": "ClinicalImpression.extension:age-at-event",
+            "path": "ClinicalImpression.extension",
+            "sliceName": "age-at-event",
+            "sliceIsConstraining": false,
+            "label": "age_at_event",
+            "short": "Age at the time of medical consultation",
+            "definition": "Patient's age (in days since birth) at the time of medical consultation",
+            "min": 0,
+            "max": "1",
+            "type": [
+              {
+                "code": "Extension",
+                "profile": [
+                  "http://fhir.kids-first.io/StructureDefinition/age-at-event"
+                ]
+              }
+            ],
+          "mustSupport": true,
+          "isModifier": false
+        }
+      ]
+    }
+  }
