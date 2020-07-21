@@ -22,10 +22,11 @@
     ],
 
     "status":"in-progress",
+    "description":"This source refers to the consultation with the doctor",
     "subject": {
         "reference": "Patient/pt-001"
     },
-    "effectiveDateTime":"2019-03-09T10:33:38.304+00:00",
+    "effectiveDateTime":"2019-03-09",
     "assessor":{"reference":"PractitionerRole/prr-001"},
     "investigation": [
         {
