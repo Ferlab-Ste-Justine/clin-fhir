@@ -6,7 +6,7 @@
   "name": "cqgc-patient",
   "title": "cqgc Patient",
   "status": "draft",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
@@ -91,5 +91,6 @@
         "isModifier": false
       }
     ]
-  }
+  },
+  "date": "2020-07-21T10:17:51-04:00"
 }
