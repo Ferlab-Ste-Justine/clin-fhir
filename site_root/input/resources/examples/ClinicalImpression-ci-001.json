@@ -26,7 +26,7 @@
     "subject": {
         "reference": "Patient/pt-001"
     },
-    "effectiveDateTime":"2019-03-09",
+    "date":"2019-03-09",
     "assessor":{"reference":"PractitionerRole/prr-001"},
     "investigation": [
         {
