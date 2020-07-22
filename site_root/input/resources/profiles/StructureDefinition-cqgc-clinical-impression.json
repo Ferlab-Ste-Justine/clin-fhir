@@ -6,7 +6,7 @@
   "name": "cqgc-clinical-impression",
   "title": "cqgc Clinical Impression",
   "status": "draft",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "ClinicalImpression",
