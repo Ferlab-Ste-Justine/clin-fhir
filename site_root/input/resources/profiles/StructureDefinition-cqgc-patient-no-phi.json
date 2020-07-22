@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "cqgc-patient-no-phi",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient-no-phi",
     "version": "0.1.0",
     "name": "cqgc-patient-no-phi",
     "title": "CQGC Patient constraints: different cardinalities and fields removed from the original FHIR source",
@@ -22,56 +22,80 @@
           "id": "Patient.name",
           "path": "Patient.name",
           "min": 1,
-          "max": "*"
+          "max": "*",
+          "mustSupported":true
         },
         {
-            "id": "Patient.gender",
-            "path": "Patient.gender",
-            "min": 1,
-            "max": "1"
+          "id": "Patient.gender",
+          "path": "Patient.gender",
+          "min": 1,
+          "max": "1",
+          "mustSupported":true
         },
         {
-            "id": "Patient.birthDate",
-            "path": "Patient.birthDate",
-            "min": 1,
-            "max": "1"
+          "id": "Patient.birthDate",
+          "path": "Patient.birthDate",
+          "min": 1,
+          "max": "1",
+          "mustSupported":true
         },
         {
           "id": "Patient.telecom",
           "path": "Patient.telecom",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         },
         {
           "id": "Patient.deceased[x]",
           "path": "Patient.deceased[x]",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         },
         {
           "id": "Patient.address",
           "path": "Patient.address",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         },
         {
           "id": "Patient.maritalStatus",
           "path": "Patient.maritalStatus",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
+        },
+        {
+          "id": "Patient.multipleBirth[x]",
+          "path": "Patient.multipleBirth[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         },
         {
           "id": "Patient.photo",
           "path": "Patient.photo",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         },
         {
           "id": "Patient.contact",
           "path": "Patient.contact",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         },
         {
           "id": "Patient.communication",
           "path": "Patient.communication",
-          "max": "0"
+          "min":0,
+          "max": "0",
+          "mustSupported":false
         }
       ]
     },
-    "date": "2020-07-21T10:16:00-04:00"
+    "date": "2020-07-22T14:32:19-04:00"
   }
