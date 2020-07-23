@@ -6,7 +6,7 @@
     "name": "cqgc-service-request",
     "title": "cqgc Service Request",
     "status": "draft",
-    "fhirVersion": "4.0.0",
+    "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
     "type": "ServiceRequest",
@@ -52,7 +52,176 @@
               ],
             "mustSupport": true,
             "isModifier": false
+          },
+          {
+            "id": "Observation.identifier",
+            "path": "Observation.identifier",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.instantiatesCanonical",
+            "path": "Observation.instantiatesCanonical",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.instantiatesUri",
+            "path": "Observation.instantiatesUri",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.basedOn",
+            "path": "Observation.basedOn",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.replaces",
+            "path": "Observation.replaces",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.requisition",
+            "path": "Observation.requisition",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.doNotPerform",
+            "path": "Observation.doNotPerform",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.orderDetail",
+            "path": "Observation.orderDetail",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.quantity[x]",
+            "path": "Observation.quantity[x]",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.encounter",
+            "path": "Observation.encounter",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.occurrence[x]",
+            "path": "Observation.occurrence[x]",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.asNeeded[x]",
+            "path": "Observation.asNeeded[x]",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.performerType",
+            "path": "Observation.performerType",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.performer",
+            "path": "Observation.performer",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.locationCode",
+            "path": "Observation.locationCode",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.locationReference",
+            "path": "Observation.locationReference",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.reasonCode",
+            "path": "Observation.reasonCode",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.reasonReference",
+            "path": "Observation.reasonReference",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.insurance",
+            "path": "Observation.insurance",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.supportingInfo",
+            "path": "Observation.supportingInfo",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.bodySite",
+            "path": "Observation.bodySite",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.note",
+            "path": "Observation.note",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.patientInstruction",
+            "path": "Observation.patientInstruction",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
+          },
+          {
+            "id": "Observation.relevantHistory",
+            "path": "Observation.relevantHistory",
+            "min":0,
+            "max": "0",
+            "mustSupported": false
           }
         ]
-      }
-    }
+      },
+      "date": "2020-07-23T14:58:54-04:00"
+  }
