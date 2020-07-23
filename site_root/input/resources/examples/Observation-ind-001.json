@@ -21,7 +21,6 @@
       }
     ],
     "code": { "text": "indications" },
-    "subject": { "reference": "Patient/pt-001" },
-  
+    "subject": { "reference": "Patient/pt-001" },  
     "note": [ {"text" : "Syndrome de microdélétion"}]
   }

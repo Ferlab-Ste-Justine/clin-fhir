@@ -22,7 +22,6 @@
     ],
     "code": { "text": "cgh" },
     "subject": { "reference": "Patient/pt-001" },
-
     "valueBoolean":true,
     "note": [ {"text" : "Si anormal - donc valueBoolean=True"}]
   }

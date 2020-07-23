@@ -8,10 +8,19 @@
     },
   
     "status": "final",
-    
+    "category": [
+      {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        }
+      ],
+      "text": "Indications - hypothèse(s) de diagnostique"
+      }
+    ],
     "code": { "text": "investigations" },
     "subject": { "reference": "Patient/pt-001" },
-    "performer": [{ "reference": "Practitioner/pr-001" }],
-  
     "note": [ {"text" : "Resume de l'investigation clinique et paraclinique realisees"}]
   }
