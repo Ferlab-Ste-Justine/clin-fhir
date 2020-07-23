@@ -1,0 +1,160 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "cqgc-ind",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-ind",
+    "version": "0.1.0",
+    "name": "cqgc-ind",
+    "title": "cqgc indications",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Observation",
+    "baseDefinition": "http://www.hl7.org/fhir/observation",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Observation",
+          "path": "Observation"
+        },
+        {
+          "id": "Observation.basedOn",
+          "path": "Observation.basedOn",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.partOf",
+          "path": "Observation.partOf",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.focus",
+          "path": "Observation.focus",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.encounter",
+          "path": "Observation.encounter",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.effective[x]",
+          "path": "Observation.effective[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.issued",
+          "path": "Observation.issued",
+          "min":"0",
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.performer",
+          "path": "Observation.performer",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.value[x]",
+          "path": "Observation.value[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.value[x]",
+          "path": "Observation.value[x]",
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "mustSupported": true
+        },
+        {
+          "id": "Observation.dataAbsentReason",
+          "path": "Observation.dataAbsentReason",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.interpretation",
+          "path": "Observation.interpretation",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.bodySite",
+          "path": "Observation.bodySite",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.method",
+          "path": "Observation.method",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.specimen",
+          "path": "Observation.specimen",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.device",
+          "path": "Observation.device",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.referenceRange",
+          "path": "Observation.referenceRange",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.hasMember",
+          "path": "Observation.hasMember",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.derivedFrom",
+          "path": "Observation.derivedFrom",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.component",
+          "path": "Observation.component",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        }
+      ]
+    },
+    "date": "2020-07-22T15:20:01-04:00"
+  }
