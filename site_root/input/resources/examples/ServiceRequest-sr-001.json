@@ -17,6 +17,11 @@
     "status": "active",
     "intent": "order",
     "authoredOn": "2019-05-09T11:00:00+00:00",
+    "category": [
+      {
+      "text": "Practitioner-Request"
+      }
+    ],
     "code": {
       "text": "WXS"
     },
@@ -25,10 +30,5 @@
     },
     "subject": {
       "reference": "Patient/pt-001"
-    },
-    "specimen": [
-      {
-        "reference": "Specimen/sp-001"
-      }
-    ]
+    }
 }
