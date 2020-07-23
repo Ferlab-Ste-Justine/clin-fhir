@@ -22,6 +22,7 @@
       "text": "Practitioner-Request"
       }
     ],
+    "priority":"urgent",
     "code": {
       "text": "WXS"
     },
