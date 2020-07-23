@@ -18,6 +18,18 @@
       ],
 
     "status": "final",
+    "category": [
+      {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        }
+      ],
+      "text": "Signes cliniques relevés par le praticien lors de la consultation"
+      }
+    ],
     
     "code": { "text": "phenotype-observation" },
     "subject": { "reference": "Patient/pt-001" },
