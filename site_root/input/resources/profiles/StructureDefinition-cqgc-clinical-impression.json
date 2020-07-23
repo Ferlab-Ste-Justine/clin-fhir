@@ -52,8 +52,113 @@
             ],
           "mustSupport": true,
           "isModifier": false
+        },
+        {
+          "id": "ClinicalImpression.statusReason",
+          "path": "ClinicalImpression.statusReason",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.code",
+          "path": "ClinicalImpression.code",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.subject",
+          "path": "ClinicalImpression.subject",
+          "min": 1,
+          "max": "1",
+          "mustSupported": true
+        },
+        {
+          "id": "ClinicalImpression.encounter",
+          "path": "ClinicalImpression.encounter",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.date",
+          "path": "ClinicalImpression.date",
+          "min": 1,
+          "max": "1",
+          "mustSupported": true
+        },
+        {
+          "id": "ClinicalImpression.assessor",
+          "path": "ClinicalImpression.assessor",
+          "min": 1,
+          "max": "1",
+          "mustSupported": true
+        },
+        {
+          "id": "ClinicalImpression.previous",
+          "path": "ClinicalImpression.previous",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.problem",
+          "path": "ClinicalImpression.problem",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.protocol",
+          "path": "ClinicalImpression.protocol",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.summary",
+          "path": "ClinicalImpression.summary",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.finding",
+          "path": "ClinicalImpression.finding",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.prognosisCodeableConcept",
+          "path": "ClinicalImpression.prognosisCodeableConcept",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.prognosisReference",
+          "path": "ClinicalImpression.prognosisReference",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.supportingInfo",
+          "path": "ClinicalImpression.supportingInfo",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "ClinicalImpression.note",
+          "path": "ClinicalImpression.note",
+          "min": 0,
+          "max": "0",
+          "mustSupported": false
         }
       ]
     },
-    "date": "2020-07-21T14:22:05-04:00"
+    "date": "2020-07-23T12:02:40-04:00"
   }
