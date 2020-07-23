@@ -43,7 +43,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity"
+        "fixedUri": "qc-ethnicity"
       },
       {
         "id": "Extension.value[x]",

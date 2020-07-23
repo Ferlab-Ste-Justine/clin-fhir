@@ -43,7 +43,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event"
+        "fixedUri": "age-at-event"
       },
       {
         "id": "Extension.value[x]",

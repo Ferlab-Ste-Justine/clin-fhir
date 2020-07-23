@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband"
+          "fixedUri": "is-proband"
         },
         {
           "id": "Extension.value[x]",
