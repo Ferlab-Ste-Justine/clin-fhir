@@ -1,0 +1,152 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "cqgc-patient-no-phi",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-phenotype-no-phi",
+    "version": "0.1.0",
+    "name": "cqgc-phenotype",
+    "title": "cqgc Phenotype",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Observation",
+    "baseDefinition": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-phenotype",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Observation",
+          "path": "Observation"
+        },
+        {
+          "id": "Observation.identifier",
+          "path": "Observation.identifier",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.basedOn",
+          "path": "Observation.basedOn",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.partOf",
+          "path": "Observation.partOf",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.focus",
+          "path": "Observation.focus",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.encounter",
+          "path": "Observation.encounter",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.effective[x]",
+          "path": "Observation.effective[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.issued",
+          "path": "Observation.issued",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.performer",
+          "path": "Observation.performer",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.value[x]",
+          "path": "Observation.value[x]",
+          "type": [
+            {
+              "code": "CodeableConcept"
+            }
+          ],
+          "mustSupported": true
+        },
+        {
+          "id": "Observation.dataAbsentReason",
+          "path": "Observation.dataAbsentReason",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.bodySite",
+          "path": "Observation.bodySite",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.method",
+          "path": "Observation.method",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.specimen",
+          "path": "Observation.specimen",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.device",
+          "path": "Observation.device",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.referenceRange",
+          "path": "Observation.referenceRange",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.hasMember",
+          "path": "Observation.hasMember",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.derivedFrom",
+          "path": "Observation.derivedFrom",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "Observation.component",
+          "path": "Observation.component",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        }
+    ],
+    "date": "2020-07-23T10:25:59-04:00"
+  }
