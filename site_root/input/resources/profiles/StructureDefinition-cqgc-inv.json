@@ -10,7 +10,7 @@
     "kind": "resource",
     "abstract": false,
     "type": "Observation",
-    "baseDefinition": "http://www.hl7.org/fhir/observation",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
     "derivation": "constraint",
     "differential": {
       "element": [
