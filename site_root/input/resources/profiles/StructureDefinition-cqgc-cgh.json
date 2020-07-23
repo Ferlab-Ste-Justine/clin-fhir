@@ -1,16 +1,16 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "cqgc-patient-no-phi",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-cgh-no-phi",
+    "id": "cqgc-cgh",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-cgh",
     "version": "0.1.0",
-    "name": "cqgc-cgh-no-phi",
-    "title": "cqgc CGH no phi",
+    "name": "cqgc-cgh",
+    "title": "cqgc CGH",
     "status": "draft",
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
     "type": "Observation",
-    "baseDefinition": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-cgh",
+    "baseDefinition": "http://www.hl7.org/fhir/observation",
     "derivation": "constraint",
     "differential": {
       "element": [
@@ -149,5 +149,5 @@
         }
       ]
     },
-    "date": "2020-07-22T15:20:01-04:00"
+    "date": "2020-07-23T12:17:19-04:00"
   }
