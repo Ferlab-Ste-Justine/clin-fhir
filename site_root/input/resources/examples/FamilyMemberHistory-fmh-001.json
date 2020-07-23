@@ -3,7 +3,7 @@
     "id": "fmh-001",
     "meta": {
         "profile": [
-            "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh"
         ]
     },
     
@@ -12,12 +12,11 @@
     "relationship":{
       "coding": [
         {
-          "system": "http://snomed.info/sct",
-          "code": "72705000",
-          "display": "Mother"
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship",
+          "code": "MGRFTH",
+          "display": "maternal grandfather"
         }
-      ],
-      "text":"Mère"
+      ]
     },
     "note": [ {"text" : "retard de croissance"}]
 }
