@@ -69,6 +69,62 @@
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship"
           },
           "mustSupported": true
+        },
+        {
+          "id": "FamilyMemberHistory.born[x]",
+          "path": "FamilyMemberHistory.born[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.age[x]",
+          "path": "FamilyMemberHistory.age[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.estimatedAge",
+          "path": "FamilyMemberHistory.estimatedAge",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.deceased[x]",
+          "path": "FamilyMemberHistory.deceased[x]",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.reasonCode",
+          "path": "FamilyMemberHistory.reasonCode",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.reasonReference",
+          "path": "FamilyMemberHistory.reasonReference",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.note",
+          "path": "FamilyMemberHistory.note",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
+        },
+        {
+          "id": "FamilyMemberHistory.condition",
+          "path": "FamilyMemberHistory.condition",
+          "min":0,
+          "max": "0",
+          "mustSupported": false
         }
       ]
     },
