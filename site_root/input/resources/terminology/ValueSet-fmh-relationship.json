@@ -1,0 +1,234 @@
+{
+    "resourceType": "ValueSet",
+    "id": "fmh-relationship",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
+    "version": "0.1.0",
+    "name": "fmh-relationship",
+    "title": "Family Member Relationship",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Values ​​assigned to relationship fields",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "concept":[
+              {
+                "code":"FTH",
+                "display":"Father",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Père"
+                    }
+                ]
+              },
+              {
+                "code":"MTH",
+                "display":"Mother",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Mère"
+                    }
+                ]
+              },
+              {
+                "code":"BRO",
+                "display":"Brother",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Frère"
+                    }
+                ]
+              },
+              {
+                "code":"SIS",
+                "display":"Sister",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Sœur"
+                    }
+                ]
+              },
+              {
+                "code":"HBRO",
+                "display":"Half-brother",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Demi-frère"
+                    }
+                ]
+              },
+              {
+                "code":"HSIS",
+                "display":"Half-sister",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Demi-sœur"
+                    }
+                ]
+              },
+              {
+                "code":"ITWIN",
+                "display":"Identical twin",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Jumeaux identiques"
+                    }
+                ]
+              },
+              {
+                "code":"FTWIN",
+                "display":"Fraternal twin",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Jumeaux fraternels"
+                    }
+                ]
+              },
+              {
+                "code":"SONC",
+                "display":"Son",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Fils"
+                    }
+                ]
+              },
+              {
+                "code":"MAUNT",
+                "display":"Maternal aunt",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Tante maternelle"
+                    }
+                ]
+              },
+              {
+                "code":"PAUNT",
+                "display":"Paternal aunt",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Tante paternelle"
+                    }
+                ]
+              },
+              {
+                "code":"MUNCLE",
+                "display":"Maternal uncle",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Oncle maternel"
+                    }
+                ]
+              },
+              {
+                "code":"PUNCLE",
+                "display":"Paternal uncle",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Oncle paternel"
+                    }
+                ]
+              },
+              {
+                "code":"MCOUSN",
+                "display":"Maternal cousin",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Cousin(e) maternel(le)"
+                    }
+                ]
+              },
+              {
+                "code":"PCOUSN",
+                "display":"Paternal cousin",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Cousin(e) paternel(le)"
+                    }
+                ]
+              },
+              {
+                "code":"MGRFTH",
+                "display":"Maternal grandfather",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Grand-père maternel"
+                    }
+                ]
+              },
+              {
+                "code":"PGRFTH",
+                "display":"Paternal grandfather",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Grand-père paternel"
+                    }
+                ]
+              },
+              {
+                "code":"MGRMTH",
+                "display":"Maternal grandmother",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Grand-mère maternelle"
+                    }
+                ]
+              },
+              {
+                "code":"PGRMTH",
+                "display":"Paternal grandmother",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Grand-mère paternelle"
+                    }
+                ]
+              },
+              {
+                "code":"NEPHEW",
+                "display":"Nephew",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Neveu"
+                    }
+                ]
+              },
+              {
+                "code":"NIECE",
+                "display":"Niece",
+                "designation":[
+                    {
+                      "language":"fr",
+                      "value":"Nièce"
+                    }
+                ]
+              }
+          ]
+        },
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus"
+        }
+      ]
+    }
+  }
