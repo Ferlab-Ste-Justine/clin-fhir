@@ -1,10 +1,10 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "cqgc-cgh",
+    "id": "cqgc-fmh",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",
     "version": "0.1.0",
-    "name": "cqgc-cgh",
-    "title": "cqgc CGH",
+    "name": "cqgc-fmh",
+    "title": "cqgc FMH",
     "status": "draft",
     "fhirVersion": "4.0.1",
     "kind": "resource",
