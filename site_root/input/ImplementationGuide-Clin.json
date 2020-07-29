@@ -1,7 +1,7 @@
 {
   "contact": [
     {
-      "name": "Clin",
+      "name": "Cqgc",
       "telecom": [
         {
           "system": "email",
@@ -18,7 +18,7 @@
         {
           "generation": "markdown",
           "nameUrl": "index.html",
-          "title": "Clin Implementation Guide"
+          "title": "cqgc Implementation Guide"
         }
       ],
       "title": "Table of Contents"
@@ -55,11 +55,11 @@
     ],
     "resource": [
       {
-        "description": "StructureDefinition clin-patient, Base: Patient",
+        "description": "StructureDefinition cqgc-patient, Base: Patient",
         "exampleBoolean": false,
-        "name": "StructureDefinition/clin-patient",
+        "name": "StructureDefinition/cqgc-patient",
         "reference": {
-          "reference": "StructureDefinition/clin-patient"
+          "reference": "StructureDefinition/cqgc-patient"
         }
       },
       {
@@ -72,18 +72,18 @@
       }
     ]
   },
-  "description": "Documentation for the Clin FHIR data model",
+  "description": "Documentation for the cqgc FHIR data model",
   "fhirVersion": [
     "4.0.1"
   ],
-  "id": "Clin",
+  "id": "Cqgc",
   "license": "CC0-1.0",
-  "name": "ClinImplementationGuide",
-  "packageId": "clin",
+  "name": "CqgcImplementationGuide",
+  "packageId": "cqgc",
   "publisher": "Ferlab.bio",
   "resourceType": "ImplementationGuide",
   "status": "active",
-  "title": "Clin Implementation Guide",
-  "url": "http://fhir.clin.ferlab.bio/ImplementationGuide/Clin",
+  "title": "Cqgc Implementation Guide",
+  "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
   "version": "0.1.0"
 }
