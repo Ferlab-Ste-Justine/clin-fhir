@@ -3,7 +3,7 @@
     "id": "inv-001",
     "meta": {
         "profile": [
-            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-invistigations"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-investigations"
         ]
     },
   

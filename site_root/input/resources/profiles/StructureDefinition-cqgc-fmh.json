@@ -9,7 +9,7 @@
     "fhirVersion": "4.0.1",
     "kind": "resource",
     "abstract": false,
-    "type": "Observation",
+    "type": "FamilyMemberHistory",
     "baseDefinition": "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory",
     "derivation": "constraint",
     "differential": {
@@ -21,112 +21,78 @@
         {
           "id": "FamilyMemberHistory.identifier",
           "path": "FamilyMemberHistory.identifier",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.instantiatesCanonical",
           "path": "FamilyMemberHistory.instantiatesCanonical",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.instantiatesUri",
           "path": "FamilyMemberHistory.instantiatesUri",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.dataAbsentReason",
           "path": "FamilyMemberHistory.dataAbsentReason",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.name",
           "path": "FamilyMemberHistory.name",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.relationship",
           "path": "FamilyMemberHistory.relationship",
-          "min":1,
-          "max": "1",
           "type": [
             {
-              "code": "Coding"
+              "code": "CodeableConcept"
             }
           ],
           "binding": {
             "strength": "required",
             "description": "FMH relashionship",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship"
-          },
-          "mustSupported": true
+          }
         },
         {
           "id": "FamilyMemberHistory.born[x]",
           "path": "FamilyMemberHistory.born[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.age[x]",
           "path": "FamilyMemberHistory.age[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.estimatedAge",
           "path": "FamilyMemberHistory.estimatedAge",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.deceased[x]",
           "path": "FamilyMemberHistory.deceased[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.reasonCode",
           "path": "FamilyMemberHistory.reasonCode",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.reasonReference",
           "path": "FamilyMemberHistory.reasonReference",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
-        },
-        {
-          "id": "FamilyMemberHistory.note",
-          "path": "FamilyMemberHistory.note",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "FamilyMemberHistory.condition",
           "path": "FamilyMemberHistory.condition",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         }
       ]
     },
-    "date": "2020-07-23T19:30:15-04:00"
+    "date": "2020-08-04T12:07:30-04:00"
   }

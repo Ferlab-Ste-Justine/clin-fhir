@@ -27,7 +27,7 @@
       "text": "WXS"
     },
     "requester": {
-      "reference": "PractitionerRole/pr-001"
+      "reference": "PractitionerRole/prr-001"
     },
     "subject": {
       "reference": "Patient/pt-001"

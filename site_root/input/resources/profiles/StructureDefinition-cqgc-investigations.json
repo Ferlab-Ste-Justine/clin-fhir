@@ -1,9 +1,9 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "cqgc-invistigations",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-invistigations",
+    "id": "cqgc-investigations",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-investigations",
     "version": "0.1.0",
-    "name": "cqgc-invistigations",
+    "name": "cqgc-investigations",
     "title": "cqgc investigations",
     "status": "draft",
     "fhirVersion": "4.0.1",
@@ -21,140 +21,94 @@
         {
           "id": "Observation.basedOn",
           "path": "Observation.basedOn",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.partOf",
           "path": "Observation.partOf",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.focus",
           "path": "Observation.focus",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.encounter",
           "path": "Observation.encounter",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.effective[x]",
           "path": "Observation.effective[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.issued",
           "path": "Observation.issued",
-          "min":"0",
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.performer",
           "path": "Observation.performer",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.value[x]",
           "path": "Observation.value[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
-        },
-        {
-          "id": "Observation.value[x]",
-          "path": "Observation.value[x]",
-          "type": [
-            {
-              "code": "boolean"
-            }
-          ],
-          "mustSupported": true
+          "max": "0"
         },
         {
           "id": "Observation.dataAbsentReason",
           "path": "Observation.dataAbsentReason",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.interpretation",
           "path": "Observation.interpretation",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.bodySite",
           "path": "Observation.bodySite",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.method",
           "path": "Observation.method",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.specimen",
           "path": "Observation.specimen",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.device",
           "path": "Observation.device",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.referenceRange",
           "path": "Observation.referenceRange",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.hasMember",
           "path": "Observation.hasMember",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.derivedFrom",
           "path": "Observation.derivedFrom",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         },
         {
           "id": "Observation.component",
           "path": "Observation.component",
-          "min":0,
-          "max": "0",
-          "mustSupported": false
+          "max": "0"
         }
       ]
     },
-    "date": "2020-08-04T09:59:56-04:00"
+    "date": "2020-08-04T13:16:20-04:00"
   }

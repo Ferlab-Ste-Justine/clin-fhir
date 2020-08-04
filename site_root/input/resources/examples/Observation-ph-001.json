@@ -3,7 +3,7 @@
     "id": "ph-001",
     "meta": {
         "profile": [
-            "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-phenotype"
         ]
     },
     
@@ -11,8 +11,9 @@
         {
           "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
           "valueCoding": {
-            "code": "HP:0003577",
-            "display": "d'apparition congénitale"
+            "code": "HP:0410280",
+            "display": "Pediatric onset"
+
           }
         }
       ],
@@ -25,9 +26,7 @@
           "system": "http://terminology.hl7.org/CodeSystem/observation-category",
           "code": "exam",
           "display": "Exam"
-        }
-      ],
-      "text": "Signes cliniques relevés par le praticien lors de la consultation"
+        }]
       }
     ],
     
@@ -38,7 +37,7 @@
       "coding": [
         {
           "system": "http://purl.obolibrary.org/obo/hp.owl",
-          "code": "HP:0001252",
+          "code": "HP:0004307",
           "display": "Abnormal anatomic location of the heart"
         }
       ]

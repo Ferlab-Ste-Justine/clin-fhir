@@ -79,7 +79,7 @@
         }
       },
       {
-        "description": "Observation inv-001, Profiles: Observation",
+        "description": "Observation inv-001, Profiles: cqgc-investigations",
         "exampleBoolean": true,
         "name": "Observation/inv-001",
         "reference": {
@@ -103,7 +103,7 @@
         }
       },
       {
-        "description": "Observation ind-001, Profiles: Observation",
+        "description": "Observation ind-001, Profiles: cqgc-indications",
         "exampleBoolean": true,
         "name": "Observation/ind-001",
         "reference": {
@@ -135,7 +135,7 @@
         }
       },
       {
-        "description": "Observation ph-001, Profiles: age-at-onset",
+        "description": "Observation ph-001, Profiles: cqgc-phenotype",
         "exampleBoolean": true,
         "name": "Observation/ph-001",
         "reference": {
@@ -143,7 +143,7 @@
         }
       },
       {
-        "description": "Observation cgh-001, Profiles: Observation",
+        "description": "Observation cgh-001, Profiles: cqgc-cgh",
         "exampleBoolean": true,
         "name": "Observation/cgh-001",
         "reference": {
@@ -239,14 +239,6 @@
         }
       },
       {
-        "description": "StructureDefinition cqgc-inv, Base: Observation",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-inv",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-inv"
-        }
-      },
-      {
         "description": "StructureDefinition cqgc-cgh, Base: Observation",
         "exampleBoolean": false,
         "name": "StructureDefinition/cqgc-cgh",
@@ -260,14 +252,6 @@
         "name": "StructureDefinition/cqgc-fmh",
         "reference": {
           "reference": "StructureDefinition/cqgc-fmh"
-        }
-      },
-      {
-        "description": "StructureDefinition cqgc-ind, Base: Observation",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-ind",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-ind"
         }
       },
       {
@@ -308,6 +292,30 @@
         "name": "StructureDefinition/age-at-event",
         "reference": {
           "reference": "StructureDefinition/age-at-event"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-investigations, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-investigations",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-investigations"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-indications, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-indications",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-indications"
+        }
+      },
+      {
+        "description": "CodeSystem age-at-onset",
+        "exampleBoolean": false,
+        "name": "CodeSystem/age-at-onset",
+        "reference": {
+          "reference": "CodeSystem/age-at-onset"
         }
       }
     ]

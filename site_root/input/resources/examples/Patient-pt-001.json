@@ -22,7 +22,7 @@
         },
         {
             "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
-            "valueBoolean": null
+            "valueString":"Inconnu" 
         }
       ],
   
@@ -63,5 +63,5 @@
     "birthDate": "2018-10-11",
     "gender": "female",
     "generalPractitioner": [{ "reference": "PractitionerRole/prr-001" }],
-    "managingOrganization": { "reference": "Organization/org-001" }
+    "managingOrganization": { "reference": "Organization/or-001" }
   }

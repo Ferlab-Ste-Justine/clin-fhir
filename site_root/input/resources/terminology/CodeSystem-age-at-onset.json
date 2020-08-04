@@ -1,0 +1,149 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "age-at-onset",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/age-at-onset",
+    "version": "http://purl.obolibrary.org/obo/hp/releases/2020-03-27/hp.owl",
+    "name": "http://purl.obolibrary.org/obo/hp.owl",
+    "title": "Age of onset of phenotype",
+    "status": "draft",
+    "experimental": false,
+    "description": "Please see license of HPO at http://www.human-phenotype-ontology.org",
+    "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/phenotype-codes",
+    "hierarchyMeaning": "is-a",
+    "compositional": false,
+    "versionNeeded": false,
+    "content": "complete",
+    "concept": [
+        {
+          "code": "HP:0410280",
+          "display": "Pediatric onset",
+          "designation":[
+              {
+                  "language":"fr",
+                  "value":"Apparition pédiatrique"
+              }
+          ]
+        },
+        {
+            "code": "HP:0003593",
+            "display": "Infantile onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"Apparition dans l'enfance"
+                }
+            ]
+        },
+        {
+            "code": "HP:0003621",
+            "display": "Juvenile onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"Apparition juvénile"
+                }
+            ]
+        },
+        {
+            "code": "HP:0011463",
+            "display": "Childhood onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition chez l'enfant"
+                }
+            ]
+        },
+        {
+            "code": "HP:0030674",
+            "display": "Antenatal onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition anténatale"
+                }
+            ]
+        },
+        {
+            "code": "HP:0011460",
+            "display": "Embryonal onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition embryonnaire"
+                }
+            ]
+        },
+        {
+            "code": "HP:0011461",
+            "display": "Fetal onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition foetale"
+                }
+            ]
+        },
+        {
+            "code": "HP:0003577",
+            "display": "Congenital onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition congénitale"
+                }
+            ]
+        },
+        {
+            "code": "HP:0003623",
+            "display": "Neonatal onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition néonatale"
+                }
+            ]
+        },
+        {
+            "code": "HP:0003581",
+            "display": "Adult onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"Début à l'âge adulte"
+                }
+            ]
+        },
+        {
+            "code": "HP:0003596",
+            "display": "Middle age onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition à l'âge moyen"
+                }
+            ]
+        },
+        {
+            "code": "HP:0011462",
+            "display":"Young adult onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"d'apparition chez l'adulte jeune"
+                }
+            ]
+        },
+        {
+            "code": "HP:0003584",
+            "display": "Late onset",
+            "designation":[
+                {
+                    "language":"fr",
+                    "value":"Début tardif"
+                }
+            ]
+        }
+    ]
+}
+  

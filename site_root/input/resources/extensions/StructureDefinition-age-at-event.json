@@ -7,7 +7,7 @@
   "title": "Age At Event",
   "status": "draft",
   "description": "Patient's age (in days since birth) at the time of medical consultation",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
@@ -43,7 +43,7 @@
             "code": "uri"
           }
         ],
-        "fixedUri": "age-at-event"
+        "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event"
       },
       {
         "id": "Extension.value[x]",
@@ -55,5 +55,6 @@
         ]
       }
     ]
-  }
+  },
+  "date": "2020-08-04T15:39:58-04:00"
 }

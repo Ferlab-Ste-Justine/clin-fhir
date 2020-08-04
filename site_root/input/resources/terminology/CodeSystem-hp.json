@@ -6,59 +6,15 @@
   "name": "http://purl.obolibrary.org/obo/hp.owl",
   "title": "Human Phenotype Ontology",
   "status": "draft",
+  "valueSet": "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
   "experimental": false,
   "description": "Please see license of HPO at http://www.human-phenotype-ontology.org",
-  "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/phenotype-codes",
   "hierarchyMeaning": "is-a",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",
   "count": 1,
-  "filter": [
-    {
-      "code": "root",
-      "operator": [
-        "="
-      ],
-      "value": "True or false."
-    },
-    {
-      "code": "deprecated",
-      "operator": [
-        "="
-      ],
-      "value": "True or false."
-    },
-    {
-      "code": "imported",
-      "operator": [
-        "="
-      ],
-      "value": "True or false"
-    }
-  ],
-  "property": [
-    {
-      "code": "parent",
-      "description": "Parent codes.",
-      "type": "code"
-    },
-    {
-      "code": "imported",
-      "description": "Indicates if the concept is imported from another code system.",
-      "type": "boolean"
-    },
-    {
-      "code": "root",
-      "description": "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)",
-      "type": "boolean"
-    },
-    {
-      "code": "deprecated",
-      "description": "Indicates if this concept is deprecated.",
-      "type": "boolean"
-    }
-  ],
+  
   "concept": [
     {
       "code": "HP:0004307",

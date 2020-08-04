@@ -39,186 +39,129 @@
               "sliceIsConstraining": false,
               "label": "clinical_impression",
               "short": "Medical Consultation",
-              "definition": "Refers to the consultation from which the request results",
-              "min": 1,
-              "max": "1",
-              "type": [
-                {
-                  "code": "http://hl7.org/fhir/StructureDefinition/ClinicalImpression"
-                }
-              ],
-            "mustSupport": true,
-            "isModifier": false
+              "definition": "Refers to the consultation from which the request results"
           },
           {
             "id": "Observation.identifier",
             "path": "Observation.identifier",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.instantiatesCanonical",
             "path": "Observation.instantiatesCanonical",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.instantiatesUri",
             "path": "Observation.instantiatesUri",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.basedOn",
             "path": "Observation.basedOn",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.replaces",
             "path": "Observation.replaces",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.requisition",
             "path": "Observation.requisition",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.doNotPerform",
             "path": "Observation.doNotPerform",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.orderDetail",
             "path": "Observation.orderDetail",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.quantity[x]",
             "path": "Observation.quantity[x]",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.encounter",
             "path": "Observation.encounter",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.occurrence[x]",
             "path": "Observation.occurrence[x]",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.asNeeded[x]",
             "path": "Observation.asNeeded[x]",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.performerType",
             "path": "Observation.performerType",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.performer",
             "path": "Observation.performer",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.locationCode",
             "path": "Observation.locationCode",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.locationReference",
             "path": "Observation.locationReference",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.reasonCode",
             "path": "Observation.reasonCode",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.reasonReference",
             "path": "Observation.reasonReference",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.insurance",
             "path": "Observation.insurance",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.supportingInfo",
             "path": "Observation.supportingInfo",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.bodySite",
             "path": "Observation.bodySite",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.note",
             "path": "Observation.note",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.patientInstruction",
             "path": "Observation.patientInstruction",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           },
           {
             "id": "Observation.relevantHistory",
             "path": "Observation.relevantHistory",
-            "min":0,
-            "max": "0",
-            "mustSupported": false
+            "max": "0"
           }
         ]
       },
-      "date": "2020-07-29T12:23:04-04:00"
+      "date": "2020-08-04T12:14:16-04:00"
   }

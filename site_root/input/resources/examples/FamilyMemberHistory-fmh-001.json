@@ -9,7 +9,15 @@
     
     "status": "completed",
     "patient": { "reference": "Patient/pt-001" },
-    "sex":"male",
+    "sex":{
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/administrative-gender",
+          "code": "male",
+          "display": "Male"
+        }
+      ]
+    },
     "relationship":{
       "coding": [
         {

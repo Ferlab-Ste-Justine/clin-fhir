@@ -39,7 +39,6 @@
         "sliceIsConstraining": false,
         "short": "QC Ethnicity Extension",
         "definition": "Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
-        "min": 0,
         "max": "1",
         "type": [
           {
@@ -48,9 +47,7 @@
               "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity"
             ]
           }
-        ],
-        "mustSupport": true,
-        "isModifier": false
+        ]
       },
       {
         "id": "Patient.extension:is-proband",
@@ -58,7 +55,7 @@
         "sliceName": "is-proband",
         "short": "Position of cqgc Patient",
         "definition": "Allows to know if the patient is a proband or not",
-        "min": 1,
+        "min":0,
         "max": "1",
         "type": [
           {
@@ -67,9 +64,7 @@
               "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband"
             ]
           }
-        ],
-        "mustSupport": true,
-        "isModifier": false
+        ]
       },
       {
         "id": "Patient.extension:blood-relationship",
@@ -77,7 +72,6 @@
         "sliceName": "blood-relationship",
         "short": "Parents' consanguinity concept",
         "definition": "This field gives us information if the parents are inbred",
-        "min": 0,
         "max": "1",
         "type": [
           {
@@ -86,88 +80,49 @@
               "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship"
             ]
           }
-        ],
-        "mustSupport": true,
-        "isModifier": false
+        ]
       },
-      {
-          "id": "Patient.name",
-          "path": "Patient.name",
-          "min": 1,
-          "max": "*",
-          "mustSupported":true
-        },
-        {
-          "id": "Patient.gender",
-          "path": "Patient.gender",
-          "min": 1,
-          "max": "1",
-          "mustSupported":true
-        },
-        {
-          "id": "Patient.birthDate",
-          "path": "Patient.birthDate",
-          "min": 1,
-          "max": "1",
-          "mustSupported":true
-        },
         {
           "id": "Patient.telecom",
           "path": "Patient.telecom",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.deceased[x]",
           "path": "Patient.deceased[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.address",
           "path": "Patient.address",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.maritalStatus",
           "path": "Patient.maritalStatus",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.multipleBirth[x]",
           "path": "Patient.multipleBirth[x]",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.photo",
           "path": "Patient.photo",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.contact",
           "path": "Patient.contact",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         },
         {
           "id": "Patient.communication",
           "path": "Patient.communication",
-          "min":0,
-          "max": "0",
-          "mustSupported":false
+          "max": "0"
         }
     ]
   },
-  "date": "2020-07-21T10:17:51-04:00"
+  "date": "2020-08-04T13:13:12-04:00"
 }

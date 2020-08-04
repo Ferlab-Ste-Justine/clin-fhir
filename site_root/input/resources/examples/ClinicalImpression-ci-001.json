@@ -46,7 +46,7 @@
                     "reference": "Observation/ind-001"
                 },
                 {
-                    "reference": "Observation/fmh-001"
+                    "reference": "FamilyMemberHistory/fmh-001"
                 }
             ]
         }
