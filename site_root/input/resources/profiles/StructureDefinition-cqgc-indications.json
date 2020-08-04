@@ -1,9 +1,9 @@
 {
     "resourceType": "StructureDefinition",
-    "id": "cqgc-ind",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-ind",
+    "id": "cqgc-indications",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-indications",
     "version": "0.1.0",
-    "name": "cqgc-ind",
+    "name": "cqgc-indications",
     "title": "cqgc indications",
     "status": "draft",
     "fhirVersion": "4.0.1",
@@ -156,5 +156,5 @@
         }
       ]
     },
-    "date": "2020-07-22T15:20:01-04:00"
+    "date": "2020-08-04T09:56:17-04:00"
   }

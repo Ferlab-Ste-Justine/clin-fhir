@@ -3,7 +3,7 @@
     "id": "ind-001",
     "meta": {
         "profile": [
-            "http://hl7.org/fhir/StructureDefinition/Observation"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-indications"
         ]
     },
   
@@ -16,8 +16,7 @@
           "code": "exam",
           "display": "Exam"
         }
-      ],
-      "text": "Indications - hypothèse(s) de diagnostique"
+      ]
       }
     ],
     "code": { "text": "indications" },
