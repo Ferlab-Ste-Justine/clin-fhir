@@ -69,6 +69,246 @@
         "reference": {
           "reference": "StructureDefinition/blood-relationship"
         }
+      },
+      {
+        "description": "Organization or-001, Profiles: Organization",
+        "exampleBoolean": true,
+        "name": "Organization/or-001",
+        "reference": {
+          "reference": "Organization/or-001"
+        }
+      },
+      {
+        "description": "Observation inv-001, Profiles: Observation",
+        "exampleBoolean": true,
+        "name": "Observation/inv-001",
+        "reference": {
+          "reference": "Observation/inv-001"
+        }
+      },
+      {
+        "description": "PractitionerRole prr-001, Profiles: PractitionerRole",
+        "exampleBoolean": true,
+        "name": "PractitionerRole/prr-001",
+        "reference": {
+          "reference": "PractitionerRole/prr-001"
+        }
+      },
+      {
+        "description": "Patient pt-001, Profiles: cqgc-patient",
+        "exampleBoolean": true,
+        "name": "Patient/pt-001",
+        "reference": {
+          "reference": "Patient/pt-001"
+        }
+      },
+      {
+        "description": "Observation ind-001, Profiles: Observation",
+        "exampleBoolean": true,
+        "name": "Observation/ind-001",
+        "reference": {
+          "reference": "Observation/ind-001"
+        }
+      },
+      {
+        "description": "FamilyMemberHistory fmh-001, Profiles: cqgc-fmh",
+        "exampleBoolean": true,
+        "name": "FamilyMemberHistory/fmh-001",
+        "reference": {
+          "reference": "FamilyMemberHistory/fmh-001"
+        }
+      },
+      {
+        "description": "Practitioner pr-001, Profiles: Practitioner",
+        "exampleBoolean": true,
+        "name": "Practitioner/pr-001",
+        "reference": {
+          "reference": "Practitioner/pr-001"
+        }
+      },
+      {
+        "description": "ClinicalImpression ci-001, Profiles: cqdg-clinical-impression",
+        "exampleBoolean": true,
+        "name": "ClinicalImpression/ci-001",
+        "reference": {
+          "reference": "ClinicalImpression/ci-001"
+        }
+      },
+      {
+        "description": "Observation ph-001, Profiles: age-at-onset",
+        "exampleBoolean": true,
+        "name": "Observation/ph-001",
+        "reference": {
+          "reference": "Observation/ph-001"
+        }
+      },
+      {
+        "description": "Observation cgh-001, Profiles: Observation",
+        "exampleBoolean": true,
+        "name": "Observation/cgh-001",
+        "reference": {
+          "reference": "Observation/cgh-001"
+        }
+      },
+      {
+        "description": "ServiceRequest sr-001, Profiles: cqgc-service-request",
+        "exampleBoolean": true,
+        "name": "ServiceRequest/sr-001",
+        "reference": {
+          "reference": "ServiceRequest/sr-001"
+        }
+      },
+      {
+        "description": "CodeSystem hp",
+        "exampleBoolean": false,
+        "name": "CodeSystem/hp",
+        "reference": {
+          "reference": "CodeSystem/hp"
+        }
+      },
+      {
+        "description": "CodeSystem qc-ethnicity",
+        "exampleBoolean": false,
+        "name": "CodeSystem/qc-ethnicity",
+        "reference": {
+          "reference": "CodeSystem/qc-ethnicity"
+        }
+      },
+      {
+        "description": "ValueSet age-at-onset",
+        "exampleBoolean": false,
+        "name": "ValueSet/age-at-onset",
+        "reference": {
+          "reference": "ValueSet/age-at-onset"
+        }
+      },
+      {
+        "description": "ValueSet fmh-relationship",
+        "exampleBoolean": false,
+        "name": "ValueSet/fmh-relationship",
+        "reference": {
+          "reference": "ValueSet/fmh-relationship"
+        }
+      },
+      {
+        "description": "ValueSet phenotype-codes",
+        "exampleBoolean": false,
+        "name": "ValueSet/phenotype-codes",
+        "reference": {
+          "reference": "ValueSet/phenotype-codes"
+        }
+      },
+      {
+        "description": "CodeSystem fmh-relationship-plus",
+        "exampleBoolean": false,
+        "name": "CodeSystem/fmh-relationship-plus",
+        "reference": {
+          "reference": "CodeSystem/fmh-relationship-plus"
+        }
+      },
+      {
+        "description": "ValueSet qc-ethnicity",
+        "exampleBoolean": false,
+        "name": "ValueSet/qc-ethnicity",
+        "reference": {
+          "reference": "ValueSet/qc-ethnicity"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-service-request, Base: ServiceRequest",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-service-request",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-service-request"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-phenotype, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-phenotype",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-phenotype"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-clinical-impression, Base: ClinicalImpression",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-clinical-impression",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-clinical-impression"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-inv, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-inv",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-inv"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-cgh, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-cgh",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-cgh"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-fmh, Base: FamilyMemberHistory",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-fmh",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-fmh"
+        }
+      },
+      {
+        "description": "StructureDefinition cqgc-ind, Base: Observation",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/cqgc-ind",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-ind"
+        }
+      },
+      {
+        "description": "StructureDefinition is-proband, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/is-proband",
+        "reference": {
+          "reference": "StructureDefinition/is-proband"
+        }
+      },
+      {
+        "description": "StructureDefinition qc-ethnicity, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/qc-ethnicity",
+        "reference": {
+          "reference": "StructureDefinition/qc-ethnicity"
+        }
+      },
+      {
+        "description": "StructureDefinition ref-clin-impression, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/ref-clin-impression",
+        "reference": {
+          "reference": "StructureDefinition/ref-clin-impression"
+        }
+      },
+      {
+        "description": "StructureDefinition age-at-onset, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/age-at-onset",
+        "reference": {
+          "reference": "StructureDefinition/age-at-onset"
+        }
+      },
+      {
+        "description": "StructureDefinition age-at-event, Base: Extension",
+        "exampleBoolean": false,
+        "name": "StructureDefinition/age-at-event",
+        "reference": {
+          "reference": "StructureDefinition/age-at-event"
+        }
       }
     ]
   },
