@@ -3,7 +3,7 @@
     "id": "cgh-001",
     "meta": {
         "profile": [
-            "http://hl7.org/fhir/StructureDefinition/Observation"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-cgh"
         ]
     },
   
@@ -16,12 +16,20 @@
           "code": "laboratory",
           "display": "Laboratory"
         }
-      ],
-      "text": "Cytogénétique moléculaire: conclusion de l'analyse des variations du nombre de copies dans l'ADN par hybridation génomique comparative"
+      ]
       }
     ],
     "code": { "text": "cgh" },
     "subject": { "reference": "Patient/pt-001" },
-    "valueBoolean":true,
-    "note": [ {"text" : "Si anormal - donc valueBoolean=True"}]
+    "interpretation":[
+      {
+        "coding":[
+          {
+            "code":"A",
+            "display":"Abnormal"
+          }
+        ]
+      }
+    ],
+    "note": [ {"text" : "Si anormal - donne la conclusion redigeee par le laboratoire par ex."}]
   }

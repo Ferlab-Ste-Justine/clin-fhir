@@ -70,23 +70,13 @@
         {
           "id": "Observation.value[x]",
           "path": "Observation.value[x]",
-          "type": [
-            {
-              "code": "boolean"
-            }
-          ],
-          "mustSupported": true
-        },
-        {
-          "id": "Observation.dataAbsentReason",
-          "path": "Observation.dataAbsentReason",
           "min":0,
           "max": "0",
           "mustSupported": false
         },
         {
-          "id": "Observation.interpretation",
-          "path": "Observation.interpretation",
+          "id": "Observation.dataAbsentReason",
+          "path": "Observation.dataAbsentReason",
           "min":0,
           "max": "0",
           "mustSupported": false
@@ -149,5 +139,5 @@
         }
       ]
     },
-    "date": "2020-07-23T12:17:19-04:00"
+    "date": "2020-08-04T10:19:59-04:00"
   }
