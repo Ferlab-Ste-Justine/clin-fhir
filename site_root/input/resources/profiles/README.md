@@ -10,4 +10,8 @@ La figure suivante résume grossièrement les séquences nécessaires a la créa
 ![IG](https://user-images.githubusercontent.com/12585875/88959280-bc440a80-d26f-11ea-932d-2f5fde8e611e.png)
 
 
+<<<<<<< HEAD
 Le fichier **Profiles** permet de définir les profiles de chaque source de notre modèle avec leurs contraintes.
+=======
+Le fichier **Profiles** permet de définir les profiles de chaque source de notre modèle avec leurs contraintes.
+>>>>>>> 22c6d4057022df34b66364095b9c79c552912154
