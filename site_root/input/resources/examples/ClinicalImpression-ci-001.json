@@ -22,7 +22,6 @@
     ],
 
     "status":"in-progress",
-    "description":"This source refers to the consultation with the doctor",
     "subject": {
         "reference": "Patient/pt-001"
     },
