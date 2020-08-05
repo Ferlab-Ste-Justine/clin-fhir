@@ -79,7 +79,7 @@
         }
       },
       {
-        "description": "Observation inv-001, Profiles: cqgc-investigations",
+        "description": "Observation inv-001, Profiles: Observation",
         "exampleBoolean": true,
         "name": "Observation/inv-001",
         "reference": {
@@ -103,7 +103,7 @@
         }
       },
       {
-        "description": "Observation ind-001, Profiles: cqgc-indications",
+        "description": "Observation ind-001, Profiles: Observation",
         "exampleBoolean": true,
         "name": "Observation/ind-001",
         "reference": {
