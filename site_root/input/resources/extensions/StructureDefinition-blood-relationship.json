@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "blood-relationship"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship"
         },
         {
           "id": "Extension.value[x]",

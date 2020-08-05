@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "age-at-onset"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset"
         },
         {
           "id": "Extension.value[x]",

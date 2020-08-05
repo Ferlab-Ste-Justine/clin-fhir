@@ -43,7 +43,7 @@
               "code": "uri"
             }
           ],
-          "fixedUri": "ref-clin-impression"
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression"
         },
         {
           "id": "Extension.value[x]",

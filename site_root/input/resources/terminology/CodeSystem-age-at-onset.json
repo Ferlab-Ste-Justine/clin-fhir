@@ -17,6 +17,7 @@
         {
           "code": "HP:0410280",
           "display": "Pediatric onset",
+          "definition":"Onset of disease manifestations before adulthood, defined here as before the age of 16 years, but excluding neonatal or congenital onset.",
           "designation":[
               {
                   "language":"fr",
@@ -27,6 +28,7 @@
         {
             "code": "HP:0003593",
             "display": "Infantile onset",
+            "definition":"Onset of signs or symptoms of disease between 28 days to one year of life.",
             "designation":[
                 {
                     "language":"fr",
@@ -37,6 +39,7 @@
         {
             "code": "HP:0003621",
             "display": "Juvenile onset",
+            "definition":"Onset of signs or symptoms of disease between the age of 5 and 15 years.",
             "designation":[
                 {
                     "language":"fr",
@@ -47,6 +50,7 @@
         {
             "code": "HP:0011463",
             "display": "Childhood onset",
+            "definition":"Onset of disease at the age of between 1 and 5 years.",
             "designation":[
                 {
                     "language":"fr",
@@ -57,6 +61,7 @@
         {
             "code": "HP:0030674",
             "display": "Antenatal onset",
+            "definition":"Onset prior to birth.",
             "designation":[
                 {
                     "language":"fr",
@@ -67,6 +72,7 @@
         {
             "code": "HP:0011460",
             "display": "Embryonal onset",
+            "definition":"Onset of disease at up to 8 weeks of gestation.",
             "designation":[
                 {
                     "language":"fr",
@@ -77,6 +83,7 @@
         {
             "code": "HP:0011461",
             "display": "Fetal onset",
+            "definition":"Onset prior to birth but after 8 weeks of gestation.",
             "designation":[
                 {
                     "language":"fr",
@@ -87,6 +94,7 @@
         {
             "code": "HP:0003577",
             "display": "Congenital onset",
+            "definition":"A phenotypic abnormality that is present at birth.",
             "designation":[
                 {
                     "language":"fr",
@@ -97,6 +105,7 @@
         {
             "code": "HP:0003623",
             "display": "Neonatal onset",
+            "definition":"Onset of signs or symptoms of disease within the first 28 days of life.",
             "designation":[
                 {
                     "language":"fr",
@@ -107,6 +116,7 @@
         {
             "code": "HP:0003581",
             "display": "Adult onset",
+            "definition":"Onset of disease manifestations in adulthood, defined here as at the age of 16 years or later.",
             "designation":[
                 {
                     "language":"fr",
@@ -117,6 +127,7 @@
         {
             "code": "HP:0003596",
             "display": "Middle age onset",
+            "definition":"A type of adult onset with onset of symptoms at the age of 40 to 60 years.",
             "designation":[
                 {
                     "language":"fr",
@@ -127,6 +138,7 @@
         {
             "code": "HP:0011462",
             "display":"Young adult onset",
+            "definition":"Onset of disease at the age of between 16 and 40 years.",
             "designation":[
                 {
                     "language":"fr",
@@ -137,6 +149,7 @@
         {
             "code": "HP:0003584",
             "display": "Late onset",
+            "definition":"A type of adult onset with onset of symptoms after the age of 60 years.",
             "designation":[
                 {
                     "language":"fr",

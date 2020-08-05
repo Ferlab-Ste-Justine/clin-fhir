@@ -11,7 +11,7 @@
 
     "extension": [
         {
-            "url":"http://fhir.cqdg.ferlab.bio/StructureDefinition/age-at-event",
+            "url":"http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
             "valueAge": {
                 "value": 234,
                 "unit": "days",
