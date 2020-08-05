@@ -1,0 +1,36 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "observation-code",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+    "version": "0.1.0",
+    "name": "observation-code",
+    "title": "observation code",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Codes of observations in our system",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+      {
+        "code": "CGH",
+        "display":"cgh",
+        "definition": "Hybridation génomique comparative"
+      },
+      {
+        "code": "INDIC",
+        "display":"indications",
+        "definition": "Hypothèse(s) diagnostique"
+      },
+      {
+        "code": "INVES",
+        "display": "investigations",
+        "definition": "Résumé du tableau clinique avec l’ensemble des investigations réalisé dans le cadre de la pathologie du patient"
+      },
+      {
+        "code": "PHENO",
+        "display": "phenotype",
+        "definition": "Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou bien l'interrogatoire"
+      }
+    ]
+  }

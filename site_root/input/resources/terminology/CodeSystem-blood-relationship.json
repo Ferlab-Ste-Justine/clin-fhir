@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "blood-relationship",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship",
+    "version": "0.1.0",
+    "name": "blood-relationship",
+    "title": "Blood relationship",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "This field gives us information if the parents of the patient are inbred",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+      {
+        "code": "Y",
+        "display": "Yes"
+      },
+      {
+        "code": "N",
+        "display": "No"
+      },
+      {
+        "code": "U",
+        "display": "Unknown"
+      }
+    ]
+  }

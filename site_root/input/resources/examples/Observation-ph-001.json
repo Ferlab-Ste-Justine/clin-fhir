@@ -3,7 +3,7 @@
     "id": "ph-001",
     "meta": {
         "profile": [
-            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-phenotype"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation"
         ]
     },
     
@@ -30,7 +30,15 @@
       }
     ],
     
-    "code": { "text": "phenotype-observation" },
+    "code": { 
+      "coding": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code": "PHENO",
+          "display": "phenotype"
+        }
+      ]
+    },
     "subject": { "reference": "Patient/pt-001" },
   
     "valueCodeableConcept": {

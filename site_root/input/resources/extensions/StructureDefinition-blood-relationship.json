@@ -50,9 +50,14 @@
           "path": "Extension.value[x]",
           "type": [
             {
-              "code": "string"
+              "code": "Coding"
             }
-          ]
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "This field gives us information if the parents of the patient are inbred",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/blood-relationship"
+          }
         }
       ]
     }

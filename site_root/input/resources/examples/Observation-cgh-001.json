@@ -3,7 +3,7 @@
     "id": "cgh-001",
     "meta": {
         "profile": [
-            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-cgh"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation"
         ]
     },
   
@@ -19,7 +19,15 @@
       ]
       }
     ],
-    "code": { "text": "cgh" },
+    "code": { 
+      "coding": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code": "CGH",
+          "display": "cgh"
+        }
+      ]
+    },
     "subject": { "reference": "Patient/pt-001" },
     "interpretation":[
       {

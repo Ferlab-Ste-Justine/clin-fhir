@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "blood-relationship",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/blood-relationship",
+    "version": "0.1.0",
+    "name": "blood-relationship",
+    "title": "Blood relationship",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "This field gives us information if the parents of the patient are inbred",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship"
+        }
+      ]
+    }
+  }

@@ -39,7 +39,7 @@
             "sliceIsConstraining": false,
             "label": "age_at_event",
             "short": "Age at the time of medical consultation",
-            "definition": "Patient's age (in days since birth) at the time of medical consultation",
+            "definition": "Patient's age at the time of medical consultation",
             "min": 0,
             "max": "1",
             "type": [

@@ -55,251 +55,291 @@
     ],
     "resource": [
       {
-        "description": "StructureDefinition cqgc-patient, Base: Patient",
+        "description": "Kids First StructureDefinition cqgc-patient, Base: Patient",
         "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-patient",
+        "name": "Kids First StructureDefinition/cqgc-patient",
         "reference": {
           "reference": "StructureDefinition/cqgc-patient"
         }
       },
       {
-        "description": "StructureDefinition blood-relationship, Base: Extension",
+        "description": "Kids First StructureDefinition blood-relationship, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/blood-relationship",
+        "name": "Kids First StructureDefinition/blood-relationship",
         "reference": {
           "reference": "StructureDefinition/blood-relationship"
         }
       },
       {
-        "description": "Organization or-001, Profiles: Organization",
+        "description": "Kids First Organization or-001, Profiles: Organization",
         "exampleBoolean": true,
-        "name": "Organization/or-001",
+        "name": "Kids First Organization/or-001",
         "reference": {
           "reference": "Organization/or-001"
         }
       },
       {
-        "description": "Observation inv-001, Profiles: Observation",
+        "description": "Kids First Observation inv-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
-        "name": "Observation/inv-001",
+        "name": "Kids First Observation/inv-001",
         "reference": {
           "reference": "Observation/inv-001"
         }
       },
       {
-        "description": "PractitionerRole prr-001, Profiles: PractitionerRole",
+        "description": "Kids First PractitionerRole prr-001, Profiles: PractitionerRole",
         "exampleBoolean": true,
-        "name": "PractitionerRole/prr-001",
+        "name": "Kids First PractitionerRole/prr-001",
         "reference": {
           "reference": "PractitionerRole/prr-001"
         }
       },
       {
-        "description": "Patient pt-001, Profiles: cqgc-patient",
+        "description": "Kids First Patient pt-001, Profiles: cqgc-patient",
         "exampleBoolean": true,
-        "name": "Patient/pt-001",
+        "name": "Kids First Patient/pt-001",
         "reference": {
           "reference": "Patient/pt-001"
         }
       },
       {
-        "description": "Observation ind-001, Profiles: Observation",
+        "description": "Kids First Observation ind-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
-        "name": "Observation/ind-001",
+        "name": "Kids First Observation/ind-001",
         "reference": {
           "reference": "Observation/ind-001"
         }
       },
       {
-        "description": "FamilyMemberHistory fmh-001, Profiles: cqgc-fmh",
+        "description": "Kids First FamilyMemberHistory fmh-001, Profiles: cqgc-fmh",
         "exampleBoolean": true,
-        "name": "FamilyMemberHistory/fmh-001",
+        "name": "Kids First FamilyMemberHistory/fmh-001",
         "reference": {
           "reference": "FamilyMemberHistory/fmh-001"
         }
       },
       {
-        "description": "Practitioner pr-001, Profiles: Practitioner",
+        "description": "Kids First Practitioner pr-001, Profiles: Practitioner",
         "exampleBoolean": true,
-        "name": "Practitioner/pr-001",
+        "name": "Kids First Practitioner/pr-001",
         "reference": {
           "reference": "Practitioner/pr-001"
         }
       },
       {
-        "description": "ClinicalImpression ci-001, Profiles: cqdg-clinical-impression",
+        "description": "Kids First ClinicalImpression ci-001, Profiles: cqdg-clinical-impression",
         "exampleBoolean": true,
-        "name": "ClinicalImpression/ci-001",
+        "name": "Kids First ClinicalImpression/ci-001",
         "reference": {
           "reference": "ClinicalImpression/ci-001"
         }
       },
       {
-        "description": "Observation ph-001, Profiles: cqgc-phenotype",
+        "description": "Kids First Observation ph-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
-        "name": "Observation/ph-001",
+        "name": "Kids First Observation/ph-001",
         "reference": {
           "reference": "Observation/ph-001"
         }
       },
       {
-        "description": "Observation cgh-001, Profiles: cqgc-cgh",
+        "description": "Kids First Observation cgh-001, Profiles: cqgc-observation",
         "exampleBoolean": true,
-        "name": "Observation/cgh-001",
+        "name": "Kids First Observation/cgh-001",
         "reference": {
           "reference": "Observation/cgh-001"
         }
       },
       {
-        "description": "ServiceRequest sr-001, Profiles: cqgc-service-request",
+        "description": "Kids First ServiceRequest sr-001, Profiles: cqgc-service-request",
         "exampleBoolean": true,
-        "name": "ServiceRequest/sr-001",
+        "name": "Kids First ServiceRequest/sr-001",
         "reference": {
           "reference": "ServiceRequest/sr-001"
         }
       },
       {
-        "description": "CodeSystem hp",
+        "description": "Kids First CodeSystem hp",
         "exampleBoolean": false,
-        "name": "CodeSystem/hp",
+        "name": "Kids First CodeSystem/hp",
         "reference": {
           "reference": "CodeSystem/hp"
         }
       },
       {
-        "description": "CodeSystem qc-ethnicity",
+        "description": "Kids First CodeSystem qc-ethnicity",
         "exampleBoolean": false,
-        "name": "CodeSystem/qc-ethnicity",
+        "name": "Kids First CodeSystem/qc-ethnicity",
         "reference": {
           "reference": "CodeSystem/qc-ethnicity"
         }
       },
       {
-        "description": "ValueSet age-at-onset",
+        "description": "Kids First ValueSet age-at-onset",
         "exampleBoolean": false,
-        "name": "ValueSet/age-at-onset",
+        "name": "Kids First ValueSet/age-at-onset",
         "reference": {
           "reference": "ValueSet/age-at-onset"
         }
       },
       {
-        "description": "ValueSet fmh-relationship",
+        "description": "Kids First ValueSet fmh-relationship",
         "exampleBoolean": false,
-        "name": "ValueSet/fmh-relationship",
+        "name": "Kids First ValueSet/fmh-relationship",
         "reference": {
           "reference": "ValueSet/fmh-relationship"
         }
       },
       {
-        "description": "ValueSet phenotype-codes",
+        "description": "Kids First ValueSet phenotype-codes",
         "exampleBoolean": false,
-        "name": "ValueSet/phenotype-codes",
+        "name": "Kids First ValueSet/phenotype-codes",
         "reference": {
           "reference": "ValueSet/phenotype-codes"
         }
       },
       {
-        "description": "CodeSystem fmh-relationship-plus",
+        "description": "Kids First CodeSystem fmh-relationship-plus",
         "exampleBoolean": false,
-        "name": "CodeSystem/fmh-relationship-plus",
+        "name": "Kids First CodeSystem/fmh-relationship-plus",
         "reference": {
           "reference": "CodeSystem/fmh-relationship-plus"
         }
       },
       {
-        "description": "ValueSet qc-ethnicity",
+        "description": "Kids First ValueSet qc-ethnicity",
         "exampleBoolean": false,
-        "name": "ValueSet/qc-ethnicity",
+        "name": "Kids First ValueSet/qc-ethnicity",
         "reference": {
           "reference": "ValueSet/qc-ethnicity"
         }
       },
       {
-        "description": "StructureDefinition cqgc-service-request, Base: ServiceRequest",
+        "description": "Kids First StructureDefinition cqgc-service-request, Base: ServiceRequest",
         "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-service-request",
+        "name": "Kids First StructureDefinition/cqgc-service-request",
         "reference": {
           "reference": "StructureDefinition/cqgc-service-request"
         }
       },
       {
-        "description": "StructureDefinition cqgc-phenotype, Base: Observation",
+        "description": "Kids First StructureDefinition cqgc-clinical-impression, Base: ClinicalImpression",
         "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-phenotype",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-phenotype"
-        }
-      },
-      {
-        "description": "StructureDefinition cqgc-clinical-impression, Base: ClinicalImpression",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-clinical-impression",
+        "name": "Kids First StructureDefinition/cqgc-clinical-impression",
         "reference": {
           "reference": "StructureDefinition/cqgc-clinical-impression"
         }
       },
       {
-        "description": "StructureDefinition cqgc-cgh, Base: Observation",
+        "description": "Kids First StructureDefinition cqgc-fmh, Base: FamilyMemberHistory",
         "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-cgh",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-cgh"
-        }
-      },
-      {
-        "description": "StructureDefinition cqgc-fmh, Base: FamilyMemberHistory",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-fmh",
+        "name": "Kids First StructureDefinition/cqgc-fmh",
         "reference": {
           "reference": "StructureDefinition/cqgc-fmh"
         }
       },
       {
-        "description": "StructureDefinition is-proband, Base: Extension",
+        "description": "Kids First StructureDefinition is-proband, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/is-proband",
+        "name": "Kids First StructureDefinition/is-proband",
         "reference": {
           "reference": "StructureDefinition/is-proband"
         }
       },
       {
-        "description": "StructureDefinition qc-ethnicity, Base: Extension",
+        "description": "Kids First StructureDefinition qc-ethnicity, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/qc-ethnicity",
+        "name": "Kids First StructureDefinition/qc-ethnicity",
         "reference": {
           "reference": "StructureDefinition/qc-ethnicity"
         }
       },
       {
-        "description": "StructureDefinition ref-clin-impression, Base: Extension",
+        "description": "Kids First StructureDefinition ref-clin-impression, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/ref-clin-impression",
+        "name": "Kids First StructureDefinition/ref-clin-impression",
         "reference": {
           "reference": "StructureDefinition/ref-clin-impression"
         }
       },
       {
-        "description": "StructureDefinition age-at-onset, Base: Extension",
+        "description": "Kids First StructureDefinition age-at-onset, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/age-at-onset",
+        "name": "Kids First StructureDefinition/age-at-onset",
         "reference": {
           "reference": "StructureDefinition/age-at-onset"
         }
       },
       {
-        "description": "StructureDefinition age-at-event, Base: Extension",
+        "description": "Kids First StructureDefinition age-at-event, Base: Extension",
         "exampleBoolean": false,
-        "name": "StructureDefinition/age-at-event",
+        "name": "Kids First StructureDefinition/age-at-event",
         "reference": {
           "reference": "StructureDefinition/age-at-event"
         }
       },
       {
-        "description": "CodeSystem age-at-onset",
+        "description": "Kids First CodeSystem age-at-onset",
         "exampleBoolean": false,
-        "name": "CodeSystem/age-at-onset",
+        "name": "Kids First CodeSystem/age-at-onset",
         "reference": {
           "reference": "CodeSystem/age-at-onset"
+        }
+      },
+      {
+        "description": "Kids First ValueSet observation-code",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/observation-code",
+        "reference": {
+          "reference": "ValueSet/observation-code"
+        }
+      },
+      {
+        "description": "Kids First CodeSystem observation-code",
+        "exampleBoolean": false,
+        "name": "Kids First CodeSystem/observation-code",
+        "reference": {
+          "reference": "CodeSystem/observation-code"
+        }
+      },
+      {
+        "description": "Kids First StructureDefinition cqgc-observation, Base: Observation",
+        "exampleBoolean": false,
+        "name": "Kids First StructureDefinition/cqgc-observation",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-observation"
+        }
+      },
+      {
+        "description": "Kids First ValueSet service-request-code",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/service-request-code",
+        "reference": {
+          "reference": "ValueSet/service-request-code"
+        }
+      },
+      {
+        "description": "Kids First CodeSystem service-request-code",
+        "exampleBoolean": false,
+        "name": "Kids First CodeSystem/service-request-code",
+        "reference": {
+          "reference": "CodeSystem/service-request-code"
+        }
+      },
+      {
+        "description": "Kids First CodeSystem blood-relationship",
+        "exampleBoolean": false,
+        "name": "Kids First CodeSystem/blood-relationship",
+        "reference": {
+          "reference": "CodeSystem/blood-relationship"
+        }
+      },
+      {
+        "description": "Kids First ValueSet blood-relationship",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/blood-relationship",
+        "reference": {
+          "reference": "ValueSet/blood-relationship"
         }
       }
     ]

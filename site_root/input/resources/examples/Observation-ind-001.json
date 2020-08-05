@@ -3,7 +3,7 @@
     "id": "ind-001",
     "meta": {
         "profile": [
-            "http://hl7.org/fhir/StructureDefinition/Observation"
+            "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation"
         ]
     },
   
@@ -19,7 +19,15 @@
       ]
       }
     ],
-    "code": { "text": "indications" },
+    "code": { 
+      "coding": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code": "INDIC",
+          "display": "indications"
+        }
+      ]
+    },
     "subject": { "reference": "Patient/pt-001" },  
     "note": [ {"text" : "Syndrome de microdélétion"}]
   }

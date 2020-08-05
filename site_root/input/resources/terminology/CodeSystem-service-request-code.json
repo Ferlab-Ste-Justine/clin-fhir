@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "service-request-code",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+    "version": "0.1.0",
+    "name": "service-request-code",
+    "title": "service request code",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Codes of service request in our system",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+      {
+        "code": "WXS",
+        "display":"Whole Exome Sequencing"
+      },
+      {
+        "code": "WGS",
+        "display":"Whole Genome Sequencing"
+      },
+      {
+        "code": "GP",
+        "display":"Gene Panel"
+      }
+    ]
+  }

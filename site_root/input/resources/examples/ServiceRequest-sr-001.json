@@ -14,17 +14,23 @@
         }
     ],
   
-    "status": "active",
+    "status": "draft",
     "intent": "order",
     "authoredOn": "2019-05-09T11:00:00+00:00",
     "category": [
       {
-      "text": "Practitioner-Request"
+      "text": "MedicalRequest"
       }
     ],
     "priority":"urgent",
-    "code": {
-      "text": "WXS"
+    "code": { 
+      "coding": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code": "WGS",
+          "display": "Whole Genome Sequencing"
+        }
+      ]
     },
     "requester": {
       "reference": "PractitionerRole/prr-001"

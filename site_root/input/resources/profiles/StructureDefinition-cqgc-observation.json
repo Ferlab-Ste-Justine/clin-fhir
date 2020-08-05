@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cqgc-phenotype",
-  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-phenotype",
+  "id": "cqgc-observation",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation",
   "version": "0.1.0",
-  "name": "cqgc-phenotype",
-  "title": "cqgc Phenotype",
+  "name": "cqgc-observation",
+  "title": "cqgc observation",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -59,9 +59,18 @@
         "max": "0"
       },
       {
-        "id": "Observation.focus",
-        "path": "Observation.focus",
-        "max": "0"
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Observations codes",
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code"
+        }
       },
       {
         "id": "Observation.encounter",

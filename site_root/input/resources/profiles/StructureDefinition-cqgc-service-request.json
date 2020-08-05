@@ -1,167 +1,73 @@
 {
-    "resourceType": "StructureDefinition",
-    "id": "cqgc-service-request",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
-    "version": "0.1.0",
-    "name": "cqgc-service-request",
-    "title": "cqgc Service Request",
-    "status": "draft",
-    "fhirVersion": "4.0.1",
-    "kind": "resource",
-    "abstract": false,
-    "type": "ServiceRequest",
-    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
-    "derivation": "constraint",
-      "differential": {
-        "element": [
-          {
-            "id": "ServiceRequest",
-            "path": "ServiceRequest"
-          },
-          {
-            "id": "ServiceRequest.extension",
-            "path": "ServiceRequest.extension",
-            "slicing": {
-              "discriminator": [
-                {
-                  "type": "value",
-                  "path": "url"
-                }
-              ],
-              "ordered": false,
-              "rules": "open"
-            }
-          },
-          {
-              "id": "ServiceRequest.extension:clinical-impression",
-              "path": "ServiceRequest.extension",
-              "sliceName": "clinical-impression",
-              "sliceIsConstraining": false,
-              "label": "clinical_impression",
-              "short": "Medical Consultation",
-              "definition": "Refers to the consultation from which the request results"
-          },
-          {
-            "id": "Observation.identifier",
-            "path": "Observation.identifier",
-            "max": "0"
-          },
-          {
-            "id": "Observation.instantiatesCanonical",
-            "path": "Observation.instantiatesCanonical",
-            "max": "0"
-          },
-          {
-            "id": "Observation.instantiatesUri",
-            "path": "Observation.instantiatesUri",
-            "max": "0"
-          },
-          {
-            "id": "Observation.basedOn",
-            "path": "Observation.basedOn",
-            "max": "0"
-          },
-          {
-            "id": "Observation.replaces",
-            "path": "Observation.replaces",
-            "max": "0"
-          },
-          {
-            "id": "Observation.requisition",
-            "path": "Observation.requisition",
-            "max": "0"
-          },
-          {
-            "id": "Observation.doNotPerform",
-            "path": "Observation.doNotPerform",
-            "max": "0"
-          },
-          {
-            "id": "Observation.orderDetail",
-            "path": "Observation.orderDetail",
-            "max": "0"
-          },
-          {
-            "id": "Observation.quantity[x]",
-            "path": "Observation.quantity[x]",
-            "max": "0"
-          },
-          {
-            "id": "Observation.encounter",
-            "path": "Observation.encounter",
-            "max": "0"
-          },
-          {
-            "id": "Observation.occurrence[x]",
-            "path": "Observation.occurrence[x]",
-            "max": "0"
-          },
-          {
-            "id": "Observation.asNeeded[x]",
-            "path": "Observation.asNeeded[x]",
-            "max": "0"
-          },
-          {
-            "id": "Observation.performerType",
-            "path": "Observation.performerType",
-            "max": "0"
-          },
-          {
-            "id": "Observation.performer",
-            "path": "Observation.performer",
-            "max": "0"
-          },
-          {
-            "id": "Observation.locationCode",
-            "path": "Observation.locationCode",
-            "max": "0"
-          },
-          {
-            "id": "Observation.locationReference",
-            "path": "Observation.locationReference",
-            "max": "0"
-          },
-          {
-            "id": "Observation.reasonCode",
-            "path": "Observation.reasonCode",
-            "max": "0"
-          },
-          {
-            "id": "Observation.reasonReference",
-            "path": "Observation.reasonReference",
-            "max": "0"
-          },
-          {
-            "id": "Observation.insurance",
-            "path": "Observation.insurance",
-            "max": "0"
-          },
-          {
-            "id": "Observation.supportingInfo",
-            "path": "Observation.supportingInfo",
-            "max": "0"
-          },
-          {
-            "id": "Observation.bodySite",
-            "path": "Observation.bodySite",
-            "max": "0"
-          },
-          {
-            "id": "Observation.note",
-            "path": "Observation.note",
-            "max": "0"
-          },
-          {
-            "id": "Observation.patientInstruction",
-            "path": "Observation.patientInstruction",
-            "max": "0"
-          },
-          {
-            "id": "Observation.relevantHistory",
-            "path": "Observation.relevantHistory",
-            "max": "0"
-          }
-        ]
+  "resourceType": "StructureDefinition",
+  "id": "cqgc-service-request",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
+  "version": "0.1.0",
+  "name": "cqgc-service-request",
+  "title": "cqgc Service Request",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ServiceRequest",
+        "path": "ServiceRequest"
       },
-      "date": "2020-08-04T12:14:16-04:00"
-  }
+      {
+        "id": "ServiceRequest.extension",
+        "path": "ServiceRequest.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ServiceRequest.extension:clinical-impression",
+        "path": "ServiceRequest.extension",
+        "sliceName": "clinical-impression",
+        "sliceIsConstraining": false,
+        "label": "clinical_impression",
+        "short": "Medical Consultation",
+        "definition": "Refers to the consultation from which the request results",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "ServiceRequest.code",
+        "path": "ServiceRequest.code",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "ServiceRequest codes",
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code"
+        }
+      }
+    ]
+  },
+  "date": "2020-08-04T12:14:16-04:00"
+}

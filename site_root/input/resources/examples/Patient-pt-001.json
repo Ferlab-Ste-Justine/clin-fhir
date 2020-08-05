@@ -21,9 +21,13 @@
             "valueBoolean": true
         },
         {
-            "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
-            "valueString":"Inconnu" 
-        }
+          "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
+          "valueCoding":{
+              "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship",
+              "code": "Y",
+              "display": "Yes"
+          }
+      }
       ],
   
     "identifier": [

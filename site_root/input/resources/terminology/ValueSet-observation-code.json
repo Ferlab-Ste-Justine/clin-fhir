@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "observation-code",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
+    "version": "0.1.0",
+    "name": "observation-code",
+    "title": "observation code",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Codes of observations in our system",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"
+        }
+      ]
+    }
+  }
