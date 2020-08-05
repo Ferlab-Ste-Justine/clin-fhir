@@ -295,22 +295,6 @@
         }
       },
       {
-        "description": "StructureDefinition cqgc-investigations, Base: Observation",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-investigations",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-investigations"
-        }
-      },
-      {
-        "description": "StructureDefinition cqgc-indications, Base: Observation",
-        "exampleBoolean": false,
-        "name": "StructureDefinition/cqgc-indications",
-        "reference": {
-          "reference": "StructureDefinition/cqgc-indications"
-        }
-      },
-      {
         "description": "CodeSystem age-at-onset",
         "exampleBoolean": false,
         "name": "CodeSystem/age-at-onset",
