@@ -16,20 +16,22 @@
       {
         "code": "MATMEM",
         "display": "Maternal Member",
+        "definition":"This value is indicated if the position of the member in the maternal branch is unknown",
         "designation":[
             {
               "language":"fr",
-              "value":"Membre maternel"
+              "value":"Membre de la branche maternelle"
             }
         ]
       },
       {
         "code": "PATMEM",
         "display": "Maternal Member",
+        "definition":"This value is indicated if the position of the member in the paternal branch is unknown",
         "designation":[
             {
               "language":"fr",
-              "value":"Membre paternel"
+              "value":"Membre de la branche paternelle"
             }
         ]
       }

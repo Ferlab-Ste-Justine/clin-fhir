@@ -14,15 +14,36 @@
     "concept": [
       {
         "code": "WXS",
-        "display":"Whole Exome Sequencing"
+        "display":"Whole Exome Sequencing",
+        "definition":"Process of determining the complete DNA sequence of the genome at a single time",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Séquençage du Génome Entier"
+          }
+        ]
       },
       {
         "code": "WGS",
-        "display":"Whole Genome Sequencing"
+        "display":"Whole Genome Sequencing",
+        "definition":"Process of determining all of the exons within the genome sequence at a single time",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Séquençage de l'Exome Entier"
+          }
+        ]
       },
       {
         "code": "GP",
-        "display":"Gene Panel"
+        "display":"Gene Panel",
+        "definition":"Process of determining the complete sequences of the indicated gene panel at a single time",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Panel de Gènes"
+          }
+        ]
       }
     ]
   }

@@ -14,15 +14,36 @@
     "concept": [
       {
         "code": "Y",
-        "display": "Yes"
+        "display": "Yes",
+        "definition":"Consanguinity relationship of the patient's parents",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Oui"
+          }
+        ]
       },
       {
         "code": "N",
-        "display": "No"
+        "display": "No",
+        "definition":"No consanguinity relationship of the patient's parents",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Non"
+          }
+        ]
       },
       {
         "code": "U",
-        "display": "Unknown"
+        "display": "Unknown",
+        "definition":"Inbreeding relationship unknown to the patient's parents",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Inconnu"
+          }
+        ]
       }
     ]
   }

@@ -14,35 +14,92 @@
     "concept": [
       {
         "code": "CA-FR",
-        "display": "CANADIEN FRANÇAIS"
+        "display": "Franch Canadian",
+        "definition":"Descendants of the First Nations of the St. Lawrence Valley",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Canadien Francais"
+          }
+        ]
       },
       {
         "code": "EU",
-        "display": "CAUCASIEN EUROPÉEN"
+        "display": "European Caucasia",
+        "definition":"Anyone from or whose ancestors originate from the European continent (excluding French Canadians).",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Caucasien Européen"
+          }
+        ]
       },
       {
         "code": "AF-AM",
-        "display": "AFRO-AMÉRICAIN"
+        "display": "African Americans",
+        "definition":"Person belonging to ethnic group of Americans with total or partial ancestry from any of the black racial groups of Africa.",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Afro-américain"
+          }
+        ]
       },
       {
         "code": "HIS",
-        "display": "HISPANIQUE"
+        "display": "Hispanic and Latino Americans",
+        "definition":"Canadian or Quebecois who are descendants of people from Latin America",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Hispanique"
+          }
+        ]
+        
       },
       {
         "code": "ASI",
-        "display": "ASIATIQUE"
+        "display": "Asian",
+        "definition":"Canadian or Quebecois who are descendants of people from asia",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Asiatique"
+          }
+        ]
       },
       {
-        "code": "JF",
-        "display": "JUIF"
+        "code": "JW",
+        "display": "Jewish",
+        "definition":"Canadian or Quebecois who are descendants of Jewish communities",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Juif"
+          }
+        ]
       },
       {
         "code": "AM-IN",
-        "display": "AMÉRINDIEN"
+        "display": "Native American",
+        "definition":"Person who are descendants of the natives or the indigenous peoples of the Americas",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Amérindien"
+          }
+        ]
       },
       {
-        "code": "AU",
-        "display": "AUTRE"
+        "code": "OTH",
+        "display": "Other",
+        "definition":"Other ethnicity",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Autre"
+          }
+        ]
       }
     ]
   }
