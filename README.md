@@ -20,7 +20,7 @@ integration tests.
 2. Install the necessary requirements
 
     ```shell
-    script/build.sh
+    scripts/build.sh
     ```
    
 3. Setup the Python virtual environment
