@@ -26,7 +26,7 @@
       },
       {
         "code": "PATMEM",
-        "display": "Maternal Member",
+        "display": "Paternal Member",
         "definition":"This value is indicated if the position of the member in the paternal branch is unknown",
         "designation":[
             {
