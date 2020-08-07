@@ -35,18 +35,18 @@
         ]
       },
       {
-        "code": "AF-AM",
-        "display": "African Americans",
-        "definition":"Person belonging to ethnic group of Americans with total or partial ancestry from any of the black racial groups of Africa.",
+        "code": "AFR",
+        "display": "African or Carabean",
+        "definition":"Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.",
         "designation":[
           {
             "language":"fr",
-            "value":"Afro-américain"
+            "value":"Africain ou caribéen"
           }
         ]
       },
       {
-        "code": "HIS",
+        "code": "Latin American",
         "display": "Hispanic and Latino Americans",
         "definition":"Canadian or Quebecois who are descendants of people from Latin America",
         "designation":[
@@ -58,35 +58,46 @@
         
       },
       {
-        "code": "ASI",
-        "display": "Asian",
-        "definition":"Canadian or Quebecois who are descendants of people from asia",
+        "code": "ES-AS",
+        "display": "East and Southeast Asian",
+        "definition":"Canadian or Quebecois who are descendants of people from east and southeast asia",
         "designation":[
           {
             "language":"fr",
-            "value":"Asiatique"
+            "value":"Asiatique de l'est et du sud-est"
           }
         ]
       },
       {
-        "code": "JW",
-        "display": "Jewish",
-        "definition":"Canadian or Quebecois who are descendants of Jewish communities",
+        "code": "SO-AS",
+        "display": "South Asian",
+        "definition":"Canadian or Quebecois who are descendants of people from south asia",
         "designation":[
           {
             "language":"fr",
-            "value":"Juif"
+            "value":"Asiatique du sud"
           }
         ]
       },
       {
-        "code": "AM-IN",
-        "display": "Native American",
+        "code": "ABOR",
+        "display": "Aboriginal",
         "definition":"Person who are descendants of the natives or the indigenous peoples of the Americas",
         "designation":[
           {
             "language":"fr",
             "value":"Amérindien"
+          }
+        ]
+      },
+      {
+        "code": "MIX",
+        "display": "Mixted descent",
+        "definition":"Individual descending from more than one ethnic group",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Origine mixte"
           }
         ]
       },

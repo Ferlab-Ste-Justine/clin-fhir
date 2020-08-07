@@ -13,7 +13,7 @@
             "valueCoding":{
                 "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
                 "code": "CA-FR",
-                "display": "CANADIEN FRANÇAIS"
+                "display": "French Canadian"
             }
         },
         {
