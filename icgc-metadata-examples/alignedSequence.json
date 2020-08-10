@@ -1,0 +1,133 @@
+{
+  "analysisId": "444bc89c-daaa-478c-8bc8-9cdaaa978c5c",
+  "studyId": "LUCA-KR",
+  "analysisState": "PUBLISHED",
+  "samples": [
+    {
+      "sampleId": "SA520453",
+      "specimenId": "SP133682",
+      "submitterSampleId": "J32_T",
+      "matchedNormalSubmitterSampleId": "J32_N",
+      "sampleType": "Total DNA",
+      "specimen": {
+        "specimenId": "SP133682",
+        "donorId": "DO224570",
+        "submitterSpecimenId": "J32_T",
+        "tumourNormalDesignation": "Tumour",
+        "specimenTissueSource": "Other",
+        "specimenType": "Primary tumour"
+      },
+      "donor": {
+        "donorId": "DO224570",
+        "studyId": "LUCA-KR",
+        "gender": "Male",
+        "submitterDonorId": "SC_LUNG_11"
+      }
+    }
+  ],
+  "files": [
+    {
+      "info": {
+        "analysis_tools": [
+          "BWA-MEM",
+          "biobambam2:bammarkduplicates2"
+        ],
+        "data_category": "Sequencing Reads"
+      },
+      "objectId": "a8786639-16a3-598c-911e-aa60e0afc40d",
+      "studyId": "LUCA-KR",
+      "analysisId": "444bc89c-daaa-478c-8bc8-9cdaaa978c5c",
+      "fileName": "LUCA-KR.DO224570.SA520453.wgs.20200710.aln.cram",
+      "fileSize": 114095194425,
+      "fileType": "CRAM",
+      "fileMd5sum": "647bb015fa119dfa5498f00960e8b09d",
+      "fileAccess": "controlled",
+      "dataType": "Aligned Reads"
+    },
+    {
+      "info": {
+        "analysis_tools": [
+          "BWA-MEM",
+          "biobambam2:bammarkduplicates2"
+        ],
+        "data_category": "Sequencing Reads"
+      },
+      "objectId": "a72bfdb1-abfb-58c3-b64f-6756c295d1ba",
+      "studyId": "LUCA-KR",
+      "analysisId": "444bc89c-daaa-478c-8bc8-9cdaaa978c5c",
+      "fileName": "LUCA-KR.DO224570.SA520453.wgs.20200710.aln.cram.crai",
+      "fileSize": 2195035,
+      "fileType": "CRAI",
+      "fileMd5sum": "fc42741af9787fff81a8ddefda6a87fd",
+      "fileAccess": "controlled",
+      "dataType": "Aligned Reads Index"
+    }
+  ],
+  "analysisType": {
+    "name": "sequencing_alignment",
+    "version": 7
+  },
+  "workflow": {
+    "inputs": [
+      {
+        "analysis_type": "sequencing_experiment",
+        "input_analysis_id": "816a3ba7-ffac-4b74-aa3b-a7ffac2b74c6"
+      }
+    ],
+    "run_id": "wes-d5fd01246d5740ba97380458c00cd9cd",
+    "session_id": "edf9345d-3779-41be-ac12-a9b20133f558",
+    "genome_build": "GRCh38_hla_decoy_ebv",
+    "workflow_name": "DNA Seq Alignment",
+    "workflow_version": "1.3.0"
+  },
+  "experiment": {
+    "platform": "ILLUMINA",
+    "platform_model": null,
+    "sequencing_date": null,
+    "sequencing_center": null,
+    "experimental_strategy": "WGS",
+    "submitter_sequencing_experiment_id": "EXP-17"
+  },
+  "read_groups": [
+    {
+      "file_r1": "bce6ad78a342182f4c7f2e819c050b06.J32-T_60x_sort_dup_rea_recal.bam",
+      "file_r2": "bce6ad78a342182f4c7f2e819c050b06.J32-T_60x_sort_dup_rea_recal.bam",
+      "insert_size": null,
+      "library_name": "bar",
+      "is_paired_end": true,
+      "platform_unit": "foo_J32_T",
+      "read_length_r1": null,
+      "read_length_r2": null,
+      "sample_barcode": null,
+      "read_group_id_in_bam": "foo",
+      "submitter_read_group_id": "foo_J32_T"
+    },
+    {
+      "file_r1": "bce6ad78a342182f4c7f2e819c050b06.J32-T_60x_sort_dup_rea_recal.bam",
+      "file_r2": "bce6ad78a342182f4c7f2e819c050b06.J32-T_60x_sort_dup_rea_recal.bam",
+      "insert_size": null,
+      "library_name": "bar",
+      "is_paired_end": true,
+      "platform_unit": "foo-214A7E94_J32_T",
+      "read_length_r1": null,
+      "read_length_r2": null,
+      "sample_barcode": null,
+      "read_group_id_in_bam": "foo-214A7E94",
+      "submitter_read_group_id": "foo-214A7E94_J32_T"
+    },
+    {
+      "file_r1": "bce6ad78a342182f4c7f2e819c050b06.J32-T_60x_sort_dup_rea_recal.bam",
+      "file_r2": "bce6ad78a342182f4c7f2e819c050b06.J32-T_60x_sort_dup_rea_recal.bam",
+      "insert_size": null,
+      "library_name": "bar",
+      "is_paired_end": true,
+      "platform_unit": "foo-319C2B7B_J32_T",
+      "read_length_r1": null,
+      "read_length_r2": null,
+      "sample_barcode": null,
+      "read_group_id_in_bam": "foo-319C2B7B",
+      "submitter_read_group_id": "foo-319C2B7B_J32_T"
+    }
+  ],
+  "read_group_count": 3
+}

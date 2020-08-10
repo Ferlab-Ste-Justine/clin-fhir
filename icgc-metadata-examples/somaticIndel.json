@@ -1,0 +1,90 @@
+{
+  "analysisId": "0f442d0a-1f84-4d30-842d-0a1f846d300e",
+  "studyId": "PACA-CA",
+  "analysisState": "PUBLISHED",
+  "samples": [
+    {
+      "sampleId": "SA520221",
+      "specimenId": "SP125732",
+      "submitterSampleId": "PCSI_0083_Pa_P_526",
+      "matchedNormalSubmitterSampleId": "PCSI_0083_Du_R",
+      "sampleType": "Total DNA",
+      "specimen": {
+        "specimenId": "SP125732",
+        "donorId": "DO35442",
+        "submitterSpecimenId": "PCSI_0083_Pa_P_526",
+        "tumourNormalDesignation": "Tumour",
+        "specimenTissueSource": "Other",
+        "specimenType": "Primary tumour"
+      },
+      "donor": {
+        "donorId": "DO35442",
+        "studyId": "PACA-CA",
+        "gender": "Female",
+        "submitterDonorId": "PCSI_0083"
+      }
+    }
+  ],
+  "files": [
+    {
+      "info": {
+        "analysis_tools": [
+          "Pindel"
+        ],
+        "data_category": "Simple Nucleotide Variation"
+      },
+      "objectId": "b7ed370f-8dff-5f50-90e6-14929a81ead4",
+      "studyId": "PACA-CA",
+      "analysisId": "0f442d0a-1f84-4d30-842d-0a1f846d300e",
+      "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.indel.vcf.gz",
+      "fileSize": 98849915,
+      "fileType": "VCF",
+      "fileMd5sum": "dce0d7648c6ddc2a7d6b296b01051cb9",
+      "fileAccess": "controlled",
+      "dataType": "Raw InDel Calls"
+    },
+    {
+      "info": {
+        "analysis_tools": [
+          "Pindel"
+        ],
+        "data_category": "Simple Nucleotide Variation"
+      },
+      "objectId": "b74ff8a0-4719-5ec6-ba1f-e01a76235f36",
+      "studyId": "PACA-CA",
+      "analysisId": "0f442d0a-1f84-4d30-842d-0a1f846d300e",
+      "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.indel.vcf.gz.tbi",
+      "fileSize": 1579789,
+      "fileType": "TBI",
+      "fileMd5sum": "4bd0d2fe8abffd3d62269235b641bbee",
+      "fileAccess": "controlled",
+      "dataType": "VCF Index"
+    }
+  ],
+  "analysisType": {
+    "name": "variant_calling",
+    "version": 2
+  },
+  "workflow": {
+    "inputs": [
+      {
+        "analysis_type": "sequencing_alignment",
+        "tumour_analysis_id": "bd11cd7a-fdfc-45bb-91cd-7afdfc85bb4f"
+      },
+      {
+        "analysis_type": "sequencing_alignment",
+        "normal_analysis_id": "141945de-472b-472a-9945-de472b372a3e"
+      }
+    ],
+    "run_id": "wes-c8afea453d7a4f3b84ae58b63e05c16a",
+    "genome_build": "GRCh38_hla_decoy_ebv",
+    "workflow_name": "Sanger WGS Variant Calling",
+    "workflow_version": "2.1.0-9-1.0",
+    "workflow_short_name": "sanger-wgs"
+  },
+  "experiment": {
+    "platform": "ILLUMINA",
+    "experimental_strategy": "WGS"
+  },
+  "variant_class": "Somatic"
+}

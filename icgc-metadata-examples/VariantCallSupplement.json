@@ -1,0 +1,206 @@
+{
+    "analysisId": "83e0caa1-1472-48c1-a0ca-a1147288c117",
+    "studyId": "PACA-CA",
+    "analysisState": "PUBLISHED",
+    "samples": [{
+        "sampleId": "SA520221",
+        "specimenId": "SP125732",
+        "submitterSampleId": "PCSI_0083_Pa_P_526",
+        "matchedNormalSubmitterSampleId": "PCSI_0083_Du_R",
+        "sampleType": "Total DNA",
+        "specimen": {
+            "specimenId": "SP125732",
+            "donorId": "DO35442",
+            "submitterSpecimenId": "PCSI_0083_Pa_P_526",
+            "tumourNormalDesignation": "Tumour",
+            "specimenTissueSource": "Other",
+            "specimenType": "Primary tumour"
+        },
+        "donor": {
+            "donorId": "DO35442",
+            "studyId": "PACA-CA",
+            "gender": "Female",
+            "submitterDonorId": "PCSI_0083"
+        }
+    }],
+    "files": [{
+            "info": {
+                "analysis_tools": [
+                    "ASCAT"
+                ],
+                "data_category": "Copy Number Variation",
+                "description": "Files provided by ASCAT tool, bw files removed",
+                "files_in_tgz": [
+                    "SA520221.ASCATprofile.png",
+                    "SA520221.ASPCF.png",
+                    "SA520221.copynumber.caveman.csv",
+                    "SA520221.copynumber.caveman.vcf.gz",
+                    "SA520221.copynumber.caveman.vcf.gz.tbi",
+                    "SA520221.copynumber.txt.gz",
+                    "SA520221.germline.png",
+                    "SA520221.rawprofile.png",
+                    "SA520221.samplestatistics.txt",
+                    "SA520221.sunrise.png",
+                    "SA520221.tumour.png"
+                ]
+            },
+            "objectId": "3bfa9ef9-d633-5bb4-9da0-8ac006c1c97e",
+            "studyId": "PACA-CA",
+            "analysisId": "83e0caa1-1472-48c1-a0ca-a1147288c117",
+            "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.ascat-supplement.tgz",
+            "fileSize": 54822402,
+            "fileType": "TGZ",
+            "fileMd5sum": "b01293c43728531ff9de2b458052c2f3",
+            "fileAccess": "controlled",
+            "dataType": "Variant Calling Supplement"
+        },
+        {
+            "info": {
+                "analysis_tools": [
+                    "BRASS"
+                ],
+                "data_category": "Structural Variation",
+                "description": "Files provided by BRASS tool, bw files and intermediates.tar.gz removed",
+                "files_in_tgz": [
+                    "SA520221_vs_SA520217.annot.bedpe.gz",
+                    "SA520221_vs_SA520217.annot.bedpe.gz.tbi",
+                    "SA520221_vs_SA520217.annot.vcf.gz",
+                    "SA520221_vs_SA520217.annot.vcf.gz.tbi"
+                ]
+            },
+            "objectId": "d9e8bcaa-cf91-591b-b5f9-1dfd8d5d0810",
+            "studyId": "PACA-CA",
+            "analysisId": "83e0caa1-1472-48c1-a0ca-a1147288c117",
+            "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.brass-supplement.tgz",
+            "fileSize": 76973,
+            "fileType": "TGZ",
+            "fileMd5sum": "24766bd55112a6881af4a9f25efaade6",
+            "fileAccess": "controlled",
+            "dataType": "Variant Calling Supplement"
+        },
+        {
+            "info": {
+                "analysis_tools": [
+                    "CaVEMan"
+                ],
+                "data_category": "Simple Nucleotide Variation",
+                "description": "Files provided by CaVEMan tool",
+                "files_in_tgz": [
+                    "SA520221_vs_SA520217.flagged.muts.vcf.gz",
+                    "SA520221_vs_SA520217.flagged.muts.vcf.gz.tbi",
+                    "SA520221_vs_SA520217.muts.ids.vcf.gz",
+                    "SA520221_vs_SA520217.muts.ids.vcf.gz.tbi",
+                    "SA520221_vs_SA520217.no_analysis.bed",
+                    "SA520221_vs_SA520217.snps.ids.vcf.gz",
+                    "SA520221_vs_SA520217.snps.ids.vcf.gz.tbi",
+                    "alg_bean",
+                    "caveman.cfg.ini",
+                    "cov_arr",
+                    "prob_arr",
+                    "splitList"
+                ]
+            },
+            "objectId": "a2022140-f081-52b1-8492-bc320b3634db",
+            "studyId": "PACA-CA",
+            "analysisId": "83e0caa1-1472-48c1-a0ca-a1147288c117",
+            "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.caveman-supplement.tgz",
+            "fileSize": 226768258,
+            "fileType": "TGZ",
+            "fileMd5sum": "cb2980ceaa20802e1deddb3de90d478a",
+            "fileAccess": "controlled",
+            "dataType": "Variant Calling Supplement"
+        },
+        {
+            "info": {
+                "analysis_tools": [
+                    "Pindel"
+                ],
+                "data_category": "Simple Nucleotide Variation",
+                "description": "Files provided by Pindel tool",
+                "files_in_tgz": [
+                    "SA520221_vs_SA520217.flagged.vcf.gz",
+                    "SA520221_vs_SA520217.flagged.vcf.gz.tbi",
+                    "SA520221_vs_SA520217.germline.bed.gz",
+                    "SA520221_vs_SA520217.germline.bed.gz.tbi",
+                    "SA520221_vs_SA520217_mt.cram",
+                    "SA520221_vs_SA520217_mt.cram.crai",
+                    "SA520221_vs_SA520217_mt.cram.md5",
+                    "SA520221_vs_SA520217_wt.cram",
+                    "SA520221_vs_SA520217_wt.cram.crai",
+                    "SA520221_vs_SA520217_wt.cram.md5"
+                ]
+            },
+            "objectId": "9f9b7533-7359-5f45-9938-e077577196a0",
+            "studyId": "PACA-CA",
+            "analysisId": "83e0caa1-1472-48c1-a0ca-a1147288c117",
+            "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.pindel-supplement.tgz",
+            "fileSize": 480448536,
+            "fileType": "TGZ",
+            "fileMd5sum": "d064eb9a666dd2d1c4a80be50edb9e60",
+            "fileAccess": "controlled",
+            "dataType": "Variant Calling Supplement"
+        },
+        {
+            "info": {
+                "analysis_tools": [
+                    "CaVEMan",
+                    "Pindel",
+                    "ASCAT",
+                    "BRASS"
+                ],
+                "description": "Files contain timing information for different processing steps",
+                "files_in_tgz": [
+                    "WGS_SA520217.time.verify_WT",
+                    "WGS_SA520221.time.verify_MT",
+                    "WGS_SA520221_vs_SA520217.time.BRASS",
+                    "WGS_SA520221_vs_SA520217.time.BRASS_cover",
+                    "WGS_SA520221_vs_SA520217.time.BRASS_input",
+                    "WGS_SA520221_vs_SA520217.time.CaVEMan",
+                    "WGS_SA520221_vs_SA520217.time.CaVEMan_annot",
+                    "WGS_SA520221_vs_SA520217.time.CaVEMan_flag",
+                    "WGS_SA520221_vs_SA520217.time.CaVEMan_setup",
+                    "WGS_SA520221_vs_SA520217.time.CaVEMan_split",
+                    "WGS_SA520221_vs_SA520217.time.ascat",
+                    "WGS_SA520221_vs_SA520217.time.cache_POP",
+                    "WGS_SA520221_vs_SA520217.time.cgpPindel",
+                    "WGS_SA520221_vs_SA520217.time.cgpPindel_annot",
+                    "WGS_SA520221_vs_SA520217.time.geno"
+                ]
+            },
+            "objectId": "d74aec20-4331-5e88-9a38-47fb02d533a0",
+            "studyId": "PACA-CA",
+            "analysisId": "83e0caa1-1472-48c1-a0ca-a1147288c117",
+            "fileName": "PACA-CA.DO35442.SA520221.wgs.20200525.sanger-wgs.somatic.timings-supplement.tgz",
+            "fileSize": 90312,
+            "fileType": "TGZ",
+            "fileMd5sum": "8d4dba75d4fb8400a0072f01eb9cc404",
+            "fileAccess": "controlled",
+            "dataType": "Variant Calling Supplement"
+        }
+    ],
+    "analysisType": {
+        "name": "variant_calling_supplement",
+        "version": 3
+    },
+    "workflow": {
+        "inputs": [{
+                "analysis_type": "sequencing_alignment",
+                "tumour_analysis_id": "bd11cd7a-fdfc-45bb-91cd-7afdfc85bb4f"
+            },
+            {
+                "analysis_type": "sequencing_alignment",
+                "normal_analysis_id": "141945de-472b-472a-9945-de472b372a3e"
+            }
+        ],
+        "run_id": "wes-c8afea453d7a4f3b84ae58b63e05c16a",
+        "genome_build": "GRCh38_hla_decoy_ebv",
+        "workflow_name": "Sanger WGS Variant Calling",
+        "workflow_version": "2.1.0-9-1.0",
+        "workflow_short_name": "sanger-wgs"
+    },
+    "experiment": {
+        "platform": "ILLUMINA",
+        "experimental_strategy": "WGS"
+    },
+    "variant_class": "Somatic"
+}

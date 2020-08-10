@@ -28,15 +28,23 @@ integration tests.
     ```shell
     source ./venv/bin/activate
     ```
+
+4. Install Jekyll following these [instructions](https://learn.cloudcannon.com/jekyll/install-jekyll-on-linux/)
    
-### 3. Validate the model and generate the Implementation Guide
+### 3. Validate the model
 
 ```shell
 fhirutil validate ./site_root/ig.ini --publisher_opts='-tx n/a'
 ```
 
-### 4. Publish the model
+### 4. Validate and Generate the IG
 
+In case you have new resources files :
 ```shell
-fhirutil publish .site_root/input/resources/ --base_url="http://localhost:8080/hapi-fhir-jpaserver/fhir"
+fhirutil add ./site_root/input/resources
+```
+
+And then to generate the IG :
+```shell
+java -jar scripts/publisher.jar -ig site_root/ig.ini -tx n/a
 ```
