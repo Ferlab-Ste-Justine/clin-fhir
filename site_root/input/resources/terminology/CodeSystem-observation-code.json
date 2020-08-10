@@ -15,22 +15,46 @@
       {
         "code": "CGH",
         "display":"cgh",
-        "definition": "Hybridation génomique comparative"
+        "definition": "Comparative genomic hybridization",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Hybridation génomique comparative"
+          }
+        ]
       },
       {
         "code": "INDIC",
         "display":"indications",
-        "definition": "Hypothèse(s) diagnostique"
+        "definition": "Diagnostic hypothesis (s)",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Hypothèse(s) diagnostique"
+          }
+        ]
       },
       {
         "code": "INVES",
         "display": "investigations",
-        "definition": "Résumé du tableau clinique avec l’ensemble des investigations réalisé dans le cadre de la pathologie du patient"
+        "definition": "Clinical summary with all the investigations carried out in the context of the patient's pathology",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Résumé du tableau clinique avec l’ensemble des investigations réalisées dans le cadre de la pathologie du patient"
+          }
+        ]
       },
       {
         "code": "PHENO",
         "display": "phenotype",
-        "definition": "Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou bien l'interrogatoire"
+        "definition": "Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou l'interrogatoire du patient"
+          }
+        ]
       }
     ]
   }
