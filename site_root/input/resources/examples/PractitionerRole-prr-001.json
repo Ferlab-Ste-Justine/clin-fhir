@@ -1,6 +1,6 @@
 {
     "resourceType": "PractitionerRole",
-    "id": "prr-001",
+    "id": "PRR00101",
     "meta": {
         "profile": [
             "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
@@ -9,16 +9,16 @@
     
     "active": true,
     "practitioner": {
-        "reference": "Practitioner/pr-001"
+        "reference": "Practitioner/PR00101"
     },
     "organization": {
-        "reference": "Organization/or-001"
+        "reference": "Organization/OR00201"
     },
     
     "telecom":[
         {
             "system": "phone",
-            "value": "514 456-84736",
+            "value": "514 456 8473",
             "use": "work",
             "rank":1
           },
@@ -30,7 +30,7 @@
           },
           {
             "system": "email",
-            "value": "dr.stejustine@example.org",
+            "value": "laflamme.felix@hvo.msss.qc.ca",
             "use": "work"
           }
     ],
@@ -39,11 +39,11 @@
             "coding": [
                 {
                     "system": "http://www.hl7.org/FHIR/valueset-practitioner-role.html",
-                    "code": "158967008",
-                    "display": "Consultant physician  (NOTE: other roles : Geneticist (Julie), Healthcare service manager (Rene), Supporting services personnel (Virginie)"
+                    "code": "doctor",
+                    "display": "Doctor"
                 }
             ],
-            "text": "Médecin consultant"
+            "text": "Médecin prescripteur"
         }
     ]
 }
