@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="or-001"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>type</b>: <span title="Codes: ">prov</span></p><p><b>name</b>: CHU Ste Justine</p><p><b>alias</b>: CHUSJ</p></div>
+  </text>
+  <type>
+    <coding>
+      <code value="prov"/>
+    </coding>
+  </type>
+  <name value="CHU Ste Justine"/>
+  <alias value="CHUSJ"/>
+</Organization>

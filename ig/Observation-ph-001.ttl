@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/Observation/ph-001> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ph-001"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation";
+       fhir:index 0;
+       fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Age At Onset</b>: </p><p><b>HPO category</b>: </p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category exam}\">Exam</span></p><p><b>code</b>: <span title=\"Codes: {http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code PHENO}\">phenotype</span></p><p><b>subject</b>: <a href=\"Patient-pt-001.html\">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></p><p><b>value</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.owl HP:0004307}\">Abnormal anatomic location of the heart</span></p><p><b>interpretation</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation POS}\">Observé</span></p><p><b>note</b>: une note en texte libre sur l'observation</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.code [ fhir:value "HP:0410280" ];
+       fhir:Coding.display [ fhir:value "Pediatric onset" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.code [ fhir:value "HP:0001626" ];
+       fhir:Coding.display [ fhir:value "Abnormality of the cardiovascular system" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "exam" ];
+       fhir:Coding.display [ fhir:value "Exam" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code" ];
+       fhir:Coding.code [ fhir:value "PHENO" ];
+       fhir:Coding.display [ fhir:value "phenotype" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://fhir.cqgc.ferlab.bio/Patient/pt-001>;
+     fhir:Reference.reference [ fhir:value "Patient/pt-001" ]
+  ];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
+       fhir:Coding.code [ fhir:value "HP:0004307" ];
+       fhir:Coding.display [ fhir:value "Abnormal anatomic location of the heart" ]
+     ]
+  ];
+  fhir:Observation.interpretation [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ];
+       fhir:Coding.code [ fhir:value "POS" ];
+       fhir:Coding.display [ fhir:value "Positive" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Observé" ]
+  ];
+  fhir:Observation.note [
+     fhir:index 0;
+     fhir:Annotation.text [ fhir:value "une note en texte libre sur l'observation" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/Observation/ph-001.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

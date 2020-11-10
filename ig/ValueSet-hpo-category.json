@@ -1,0 +1,167 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hpo-category",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0001197</td><td>Abnormality of prenatal development or birth</td><td>Anomalie du développement prénatal ou de la naissance</td></tr><tr><td>HP:0001507</td><td>Growth abnormality</td><td>Anomalie de la croissance</td></tr><tr><td>HP:0000478</td><td>Abnormality of the eye</td><td>Anomalie oculaire</td></tr><tr><td>HP:0000598</td><td>Abnormality of the ear</td><td>Anomalie de l'oreille</td></tr><tr><td>HP:0001574</td><td>Abnormality of the integument</td><td>Anomalie des téguments</td></tr><tr><td>HP:0001626</td><td>Abnormality of the cardiovascular system</td><td>Anomalie du système cardiovasculaire</td></tr><tr><td>HP:0002086</td><td>Abnormality of the respiratory system</td><td>Anomalie du système respiratoire</td></tr><tr><td>HP:0000924</td><td>Abnormality of the skeletal system</td><td>Anomalie du système musculosquelettique</td></tr><tr><td>HP:0003011</td><td>Abnormality of the musculature</td><td>Anomalie de la musculature</td></tr><tr><td>HP:0000119</td><td>Abnormality of the genitourinary system</td><td>Anomalie du système génito-urinaire</td></tr><tr><td>HP:0025031</td><td>Abnormality of the digestive system</td><td>Anomalie du système digestif</td></tr><tr><td>HP:0000152</td><td>Abnormality of head or neck</td><td>Anomalie de la tête ou du cou</td></tr><tr><td>HP:0000707</td><td>Abnormality of the nervous system</td><td>Anomalie du système nerveux</td></tr></table></li></ul></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/hpo-category",
+  "version": "0.1.0",
+  "name": "hpo-category",
+  "title": "HPO category",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-08-13T10:49:27-04:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Category of anomaly (HPO code)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "concept": [
+          {
+            "code": "HP:0001197",
+            "display": "Abnormality of prenatal development or birth",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du développement prénatal ou de la naissance"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001507",
+            "display": "Growth abnormality",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie de la croissance"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000478",
+            "display": "Abnormality of the eye",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie oculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000598",
+            "display": "Abnormality of the ear",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie de l'oreille"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001574",
+            "display": "Abnormality of the integument",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie des téguments"
+              }
+            ]
+          },
+          {
+            "code": "HP:0001626",
+            "display": "Abnormality of the cardiovascular system",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du système cardiovasculaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0002086",
+            "display": "Abnormality of the respiratory system",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du système respiratoire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000924",
+            "display": "Abnormality of the skeletal system",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du système musculosquelettique"
+              }
+            ]
+          },
+          {
+            "code": "HP:0003011",
+            "display": "Abnormality of the musculature",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie de la musculature"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000119",
+            "display": "Abnormality of the genitourinary system",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du système génito-urinaire"
+              }
+            ]
+          },
+          {
+            "code": "HP:0025031",
+            "display": "Abnormality of the digestive system",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du système digestif"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000152",
+            "display": "Abnormality of head or neck",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie de la tête ou du cou"
+              }
+            ]
+          },
+          {
+            "code": "HP:0000707",
+            "display": "Abnormality of the nervous system",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "Anomalie du système nerveux"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

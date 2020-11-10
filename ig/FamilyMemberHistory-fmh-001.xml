@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FamilyMemberHistory xmlns="http://hl7.org/fhir">
+  <id value="fmh-001"/>
+  <meta>
+    <profile value="http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: completed</p><p><b>patient</b>: <a href="Patient-pt-001.html">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode FTH}">Père</span></p><p><b>note</b>: retard de croissance</p></div>
+  </text>
+  <status value="completed"/>
+  <patient>
+    <reference value="Patient/pt-001"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="FTH"/>
+      <display value="P&#xE8;re"/>
+    </coding>
+  </relationship>
+  <note>
+    <text value="retard de croissance"/>
+  </note>
+</FamilyMemberHistory>

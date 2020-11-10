@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "blood-relationship",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Y<a name=\"blood-relationship-Y\"> </a></td><td>Yes</td><td>Consanguinity relationship of the patient's parents</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"blood-relationship-N\"> </a></td><td>No</td><td>No consanguinity relationship of the patient's parents</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"blood-relationship-U\"> </a></td><td>Unknown</td><td>Inbreeding relationship unknown to the patient's parents</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>Y</td><td>Oui</td></tr><tr><td>N</td><td>Non</td></tr><tr><td>U</td><td>Inconnu</td></tr></table></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship",
+  "version": "0.1.0",
+  "name": "blood-relationship",
+  "title": "Blood relationship",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-08-13T10:54:02-04:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "This field gives us information if the parents of the patient are inbred",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "Y",
+      "display": "Yes",
+      "definition": "Consanguinity relationship of the patient's parents",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Oui"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "No",
+      "definition": "No consanguinity relationship of the patient's parents",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Non"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "definition": "Inbreeding relationship unknown to the patient's parents",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "request-status-plus"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">accepted<a name=\"request-status-plus-accepted\"> </a></td><td>Accepted</td><td>The request that was submitted by the doctor is accepted by the diagnostic laboratory</td></tr><tr><td style=\"white-space:nowrap\">sequenced<a name=\"request-status-plus-sequenced\"> </a></td><td>Sequenced</td><td>The files resulting from the sequencing of the genetic material contained in the sample are available</td></tr><tr><td style=\"white-space:nowrap\">analyzed<a name=\"request-status-plus-analyzed\"> </a></td><td>Analyzed</td><td>After sequencing, the list of variants is analyzed by geneticists and some mutations have been selected to be included in the final report, which will be edited after the multidisciplinary consultation meeting</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "request-status-plus"];
+  fhir:CodeSystem.title [ fhir:value "ServiceRequest status-plus"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2020-08-20T10:50:16-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "accepted" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Accepted" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "The request that was submitted by the doctor is accepted by the diagnostic laboratory" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "sequenced" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sequenced" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "The files resulting from the sequencing of the genetic material contained in the sample are available" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "analyzed" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Analyzed" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "After sequencing, the list of variants is analyzed by geneticists and some mutations have been selected to be included in the final report, which will be edited after the multidisciplinary consultation meeting" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

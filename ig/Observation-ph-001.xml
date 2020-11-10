@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ph-001"/>
+  <meta>
+    <profile value="http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Age At Onset</b>: </p><p><b>HPO category</b>: </p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category exam}">Exam</span></p><p><b>code</b>: <span title="Codes: {http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code PHENO}">phenotype</span></p><p><b>subject</b>: <a href="Patient-pt-001.html">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></p><p><b>value</b>: <span title="Codes: {http://purl.obolibrary.org/obo/hp.owl HP:0004307}">Abnormal anatomic location of the heart</span></p><p><b>interpretation</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation POS}">Observé</span></p><p><b>note</b>: une note en texte libre sur l'observation</p></div>
+  </text>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset">
+    <valueCoding>
+      <code value="HP:0410280"/>
+      <display value="Pediatric onset"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category">
+    <valueCoding>
+      <code value="HP:0001626"/>
+      <display value="Abnormality of the cardiovascular system"/>
+    </valueCoding>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="exam"/>
+      <display value="Exam"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+      <code value="PHENO"/>
+      <display value="phenotype"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/pt-001"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/hp.owl"/>
+      <code value="HP:0004307"/>
+      <display value="Abnormal anatomic location of the heart"/>
+    </coding>
+  </valueCodeableConcept>
+  <interpretation>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <code value="POS"/>
+      <display value="Positive"/>
+    </coding>
+    <text value="Observ&#xE9;"/>
+  </interpretation>
+  <note>
+    <text value="une note en texte libre sur l&#39;observation"/>
+  </note>
+</Observation>

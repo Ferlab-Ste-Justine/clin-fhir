@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="prr-001"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-pr-001.html">Generated Summary: Numero de License Médicale du Québec: 000002516 (OFFICIAL); Patrick Dujardin (OFFICIAL)</a></p><p><b>organization</b>: <a href="Organization-or-001.html">Generated Summary: <span title="Codes: ">prov</span>; name: CHU Ste Justine; alias: CHUSJ</a></p><p><b>code</b>: <span title="Codes: {http://www.hl7.org/FHIR/valueset-practitioner-role.html 158967008}">Médecin consultant</span></p><p><b>telecom</b>: ph: 514 456-84736(WORK), ph: 4567(WORK), <a href="mailto:dr.stejustine@example.org">dr.stejustine@example.org</a></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/pr-001"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/or-001"/>
+  </organization>
+  <code>
+    <coding>
+      <system value="http://www.hl7.org/FHIR/valueset-practitioner-role.html"/>
+      <code value="158967008"/>
+      <display value="Consultant physician  (NOTE: other roles : Geneticist (Julie), Healthcare service manager (Rene), Supporting services personnel (Virginie)"/>
+    </coding>
+    <text value="M&#xE9;decin consultant"/>
+  </code>
+  <telecom>
+    <system value="phone"/>
+    <value value="514 456-84736"/>
+    <use value="work"/>
+    <rank value="1"/>
+  </telecom>
+  <telecom>
+    <system value="phone"/>
+    <value value="4567"/>
+    <use value="work"/>
+    <rank value="2"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="dr.stejustine@example.org"/>
+    <use value="work"/>
+  </telecom>
+</PractitionerRole>

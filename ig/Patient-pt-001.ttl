@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/Patient/pt-001> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pt-001"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient";
+       fhir:index 0;
+       fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Qc Ethnicity</b>: </p><p><b>Family ID</b>: </p><p><b>Patient is a proband</b>: </p><p><b>Blood relationship</b>: </p><p><b>identifier</b>: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921</p><p><b>active</b>: true</p><p><b>name</b>: Francine Bertrand (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2018-10-11</p><p><b>generalPractitioner</b>: <a href=\"Practitioner-pr-001.html\">Generated Summary: Numero de License Médicale du Québec: 000002516 (OFFICIAL); Patrick Dujardin (OFFICIAL)</a></p><p><b>managingOrganization</b>: <a href=\"Organization-or-001.html\">Generated Summary: <span title=\"Codes: \">prov</span>; name: CHU Ste Justine; alias: CHUSJ</a></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity" ];
+       fhir:Coding.code [ fhir:value "CA-FR" ];
+       fhir:Coding.display [ fhir:value "French Canadian" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id" ];
+     fhir:Extension.valueReference [
+       fhir:link <http://fhir.cqgc.ferlab.bio/Group/fa-001>;
+       fhir:Reference.reference [ fhir:value "Group/fa-001" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband" ];
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship" ];
+       fhir:Coding.code [ fhir:value "Y" ];
+       fhir:Coding.display [ fhir:value "Yes" ]
+     ]
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "MR" ];
+         fhir:Coding.display [ fhir:value "Medical record number" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Numéro du dossier médical" ]
+     ];
+     fhir:Identifier.value [ fhir:value "4533941" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "JHN" ];
+         fhir:Coding.display [ fhir:value "Jurisdictional health number (Canada)" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Numéro assurance maladie du Québec" ]
+     ];
+     fhir:Identifier.value [ fhir:value "BERF18106921" ]
+  ];
+  fhir:Patient.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.family [ fhir:value "Bertrand" ];
+     fhir:HumanName.given [
+       fhir:value "Francine";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "female"];
+  fhir:Patient.birthDate [ fhir:value "2018-10-11"^^xsd:date];
+  fhir:Patient.generalPractitioner [
+     fhir:index 0;
+     fhir:link <http://fhir.cqgc.ferlab.bio/Practitioner/pr-001>;
+     fhir:Reference.reference [ fhir:value "Practitioner/pr-001" ]
+  ];
+  fhir:Patient.managingOrganization [
+     fhir:link <http://fhir.cqgc.ferlab.bio/Organization/or-001>;
+     fhir:Reference.reference [ fhir:value "Organization/or-001" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/Patient/pt-001.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

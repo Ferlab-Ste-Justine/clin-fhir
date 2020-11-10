@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/Group/fa-001> a fhir:Group;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fa-001"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group";
+       fhir:index 0;
+       fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Family structure</b>: </p><p><b>type</b>: person</p><p><b>actual</b>: true</p><p><b>quantity</b>: 1</p><h3>Members</h3><table class=\"grid\"><tr><td>-</td><td><b>Entity</b></td></tr><tr><td>*</td><td><a href=\"Patient-pt-001.html\">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.code [ fhir:value "SOL" ];
+       fhir:Coding.display [ fhir:value "Solo" ]
+     ]
+  ];
+  fhir:Group.type [ fhir:value "person"];
+  fhir:Group.actual [ fhir:value "true"^^xsd:boolean];
+  fhir:Group.quantity [ fhir:value "1"^^xsd:nonNegativeInteger];
+  fhir:Group.member [
+     fhir:index 0;
+     fhir:Group.member.entity [
+       fhir:link <http://fhir.cqgc.ferlab.bio/Patient/pt-001>;
+       fhir:Reference.reference [ fhir:value "Patient/pt-001" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/Group/fa-001.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

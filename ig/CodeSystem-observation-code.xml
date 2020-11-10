@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="observation-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">CGH<a name="observation-code-CGH"> </a></td><td>cgh</td><td>Comparative genomic hybridization</td></tr><tr><td style="white-space:nowrap">INDIC<a name="observation-code-INDIC"> </a></td><td>indications</td><td>Diagnostic hypothesis (s)</td></tr><tr><td style="white-space:nowrap">INVES<a name="observation-code-INVES"> </a></td><td>investigations</td><td>Clinical summary with all the investigations carried out in the context of the patient's pathology</td></tr><tr><td style="white-space:nowrap">PHENO<a name="observation-code-PHENO"> </a></td><td>phenotype</td><td>Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CGH</td><td>Hybridation génomique comparative</td></tr><tr><td>INDIC</td><td>Hypothèse(s) diagnostique</td></tr><tr><td>INVES</td><td>Résumé du tableau clinique avec l’ensemble des investigations réalisées dans le cadre de la pathologie du patient</td></tr><tr><td>PHENO</td><td>Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou l'interrogatoire du patient</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+  <version value="0.1.0"/>
+  <name value="observation-code"/>
+  <title value="observation code"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-11-10T17:18:18+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Codes of observations in our system"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="CGH"/>
+    <display value="cgh"/>
+    <definition value="Comparative genomic hybridization"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Hybridation g&#xE9;nomique comparative"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="INDIC"/>
+    <display value="indications"/>
+    <definition value="Diagnostic hypothesis (s)"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Hypoth&#xE8;se(s) diagnostique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="INVES"/>
+    <display value="investigations"/>
+    <definition value="Clinical summary with all the investigations carried out in the context of the patient&#39;s pathology"/>
+    <designation>
+      <language value="fr"/>
+      <value value="R&#xE9;sum&#xE9; du tableau clinique avec l&#x2019;ensemble des investigations r&#xE9;alis&#xE9;es dans le cadre de la pathologie du patient"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PHENO"/>
+    <display value="phenotype"/>
+    <definition value="Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Signe clinique relev&#xE9; chez le patient - rapport&#xE9; par le m&#xE9;decin a la suite de l&#39;examen physique ou l&#39;interrogatoire du patient"/>
+    </designation>
+  </concept>
+</CodeSystem>

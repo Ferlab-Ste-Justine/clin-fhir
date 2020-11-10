@@ -1,0 +1,186 @@
+{
+  "package": "cqgc",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
+      "title": "Age At Event",
+      "types": [
+        "Age"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
+      "title": "Age At Onset",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
+      "title": "Blood relationship",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id",
+      "title": "Family ID",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure",
+      "title": "Family structure",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
+      "title": "HPO category",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband",
+      "title": "Patient is a proband",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity",
+      "title": "Qc Ethnicity",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression",
+      "title": "Ref Clinical Impression",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
+      "title": "Status history",
+      "types": [
+        "Annotation"
+      ]
+    }
+  ],
+  "profiles": {
+    "ClinicalImpression": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression",
+        "title": "cqgc Clinical Impression"
+      }
+    ],
+    "Group": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group",
+        "title": "cqgc Family"
+      }
+    ],
+    "FamilyMemberHistory": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",
+        "title": "cqgc FMH"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation",
+        "title": "cqgc observation"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization",
+        "title": "cqgc Service Request"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient",
+        "title": "cqgc Patient"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
+        "title": "cqgc Service Request"
+      }
+    ]
+  },
+  "usage": {
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event": [
+      "ClinicalImpression"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset": [
+      "Observation"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship": [
+      "Patient"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id": [
+      "Patient"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure": [
+      "Group"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category": [
+      "Observation"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband": [
+      "Patient"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity": [
+      "Patient"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression": [
+      "ServiceRequest"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

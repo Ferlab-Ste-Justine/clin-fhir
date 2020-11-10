@@ -1,0 +1,94 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fm-structure"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">SOL<a name=\"fm-structure-SOL\"> </a></td><td>Solo</td><td>Family with only one member (proband alone)</td></tr><tr><td style=\"white-space:nowrap\">DUO<a name=\"fm-structure-DUO\"> </a></td><td>Duo</td><td>Family with two members</td></tr><tr><td style=\"white-space:nowrap\">TRI<a name=\"fm-structure-TRI\"> </a></td><td>Trio</td><td>Family with three members</td></tr><tr><td style=\"white-space:nowrap\">QUA<a name=\"fm-structure-QUA\"> </a></td><td>Quatuor</td><td>Family with four members</td></tr><tr><td style=\"white-space:nowrap\">QUI<a name=\"fm-structure-QUI\"> </a></td><td>Quintette</td><td>Family with five members</td></tr><tr><td style=\"white-space:nowrap\">SEX<a name=\"fm-structure-SEX\"> </a></td><td>Sextuor</td><td>Family with six members</td></tr><tr><td style=\"white-space:nowrap\">SEP<a name=\"fm-structure-SEP\"> </a></td><td>Septuor</td><td>Family with seven members</td></tr><tr><td style=\"white-space:nowrap\">OCT<a name=\"fm-structure-OCT\"> </a></td><td>Octuor</td><td>Family with eight members</td></tr><tr><td style=\"white-space:nowrap\">NON<a name=\"fm-structure-NON\"> </a></td><td>Nonette</td><td>Family with nine members</td></tr><tr><td style=\"white-space:nowrap\">DIX<a name=\"fm-structure-DIX\"> </a></td><td>Dixtuor</td><td>Family with ten members</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "fm-structure"];
+  fhir:CodeSystem.title [ fhir:value "Family structure code system"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2020-08-13T16:27:34-04:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "This field gives possible valueSet of the family structure"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "SOL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Solo" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with only one member (proband alone)" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "DUO" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Duo" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with two members" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "TRI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trio" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with three members" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "QUA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Quatuor" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with four members" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "QUI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Quintette" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with five members" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "SEX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sextuor" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with six members" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "SEP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Septuor" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with seven members" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "OCT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Octuor" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with eight members" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "NON" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nonette" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with nine members" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "DIX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dixtuor" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family with ten members" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

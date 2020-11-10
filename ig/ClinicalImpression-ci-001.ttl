@@ -1,0 +1,76 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/ClinicalImpression/ci-001> a fhir:ClinicalImpression;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ci-001"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-clinical-impression";
+       fhir:index 0;
+       fhir:link <http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-clinical-impression>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Age At Event</b>: </p><p><b>status</b>: in-progress</p><p><b>subject</b>: <a href=\"Patient-pt-001.html\">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></p><p><b>date</b>: 2019-03-09</p><p><b>assessor</b>: <a href=\"Practitioner-pr-001.html\">Generated Summary: Numero de License Médicale du Québec: 000002516 (OFFICIAL); Patrick Dujardin (OFFICIAL)</a></p><h3>Investigations</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Item</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">initial-examination</span></td><td><a href=\"Observation-ph-001.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category exam}\">Exam</span>; <span title=\"Codes: {http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code PHENO}\">phenotype</span>; <span title=\"Codes: {http://purl.obolibrary.org/obo/hp.owl HP:0004307}\">Abnormal anatomic location of the heart</span>; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation POS}\">Observé</span>; une note en texte libre sur l'observation</a></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event" ];
+     fhir:Extension.valueAge [
+       fhir:Quantity.value [ fhir:value "234"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "days" ];
+       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+       fhir:Quantity.code [ fhir:value "d" ]
+     ]
+  ];
+  fhir:ClinicalImpression.status [ fhir:value "in-progress"];
+  fhir:ClinicalImpression.subject [
+     fhir:link <http://fhir.cqgc.ferlab.bio/Patient/pt-001>;
+     fhir:Reference.reference [ fhir:value "Patient/pt-001" ]
+  ];
+  fhir:ClinicalImpression.date [ fhir:value "2019-03-09"^^xsd:date];
+  fhir:ClinicalImpression.assessor [
+     fhir:link <http://fhir.cqgc.ferlab.bio/Practitioner/pr-001>;
+     fhir:Reference.reference [ fhir:value "Practitioner/pr-001" ]
+  ];
+  fhir:ClinicalImpression.investigation [
+     fhir:index 0;
+     fhir:ClinicalImpression.investigation.code [
+       fhir:CodeableConcept.text [ fhir:value "initial-examination" ]
+     ];
+     fhir:ClinicalImpression.investigation.item [
+       fhir:index 0;
+       fhir:link <http://fhir.cqgc.ferlab.bio/Observation/ph-001>;
+       fhir:Reference.reference [ fhir:value "Observation/ph-001" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://fhir.cqgc.ferlab.bio/Observation/cgh-001>;
+       fhir:Reference.reference [ fhir:value "Observation/cgh-001" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://fhir.cqgc.ferlab.bio/Observation/inv-001>;
+       fhir:Reference.reference [ fhir:value "Observation/inv-001" ]
+     ], [
+       fhir:index 3;
+       fhir:link <http://fhir.cqgc.ferlab.bio/Observation/ind-001>;
+       fhir:Reference.reference [ fhir:value "Observation/ind-001" ]
+     ], [
+       fhir:index 4;
+       fhir:link <http://fhir.cqgc.ferlab.bio/FamilyMemberHistory/fmh-001>;
+       fhir:Reference.reference [ fhir:value "FamilyMemberHistory/fmh-001" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/ClinicalImpression/ci-001.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

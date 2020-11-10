@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="request-status-plus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">accepted<a name="request-status-plus-accepted"> </a></td><td>Accepted</td><td>The request that was submitted by the doctor is accepted by the diagnostic laboratory</td></tr><tr><td style="white-space:nowrap">sequenced<a name="request-status-plus-sequenced"> </a></td><td>Sequenced</td><td>The files resulting from the sequencing of the genetic material contained in the sample are available</td></tr><tr><td style="white-space:nowrap">analyzed<a name="request-status-plus-analyzed"> </a></td><td>Analyzed</td><td>After sequencing, the list of variants is analyzed by geneticists and some mutations have been selected to be included in the final report, which will be edited after the multidisciplinary consultation meeting</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus"/>
+  <version value="0.1.0"/>
+  <name value="request-status-plus"/>
+  <title value="ServiceRequest status-plus"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-20T10:50:16-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="The added values &#x200B;&#x200B;(specific to our systems) which extend the CodeSystem provided by HL7"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="accepted"/>
+    <display value="Accepted"/>
+    <definition value="The request that was submitted by the doctor is accepted by the diagnostic laboratory"/>
+  </concept>
+  <concept>
+    <code value="sequenced"/>
+    <display value="Sequenced"/>
+    <definition value="The files resulting from the sequencing of the genetic material contained in the sample are available"/>
+  </concept>
+  <concept>
+    <code value="analyzed"/>
+    <display value="Analyzed"/>
+    <definition value="After sequencing, the list of variants is analyzed by geneticists and some mutations have been selected to be included in the final report, which will be edited after the multidisciplinary consultation meeting"/>
+  </concept>
+</CodeSystem>

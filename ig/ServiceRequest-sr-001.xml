@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="sr-001"/>
+  <meta>
+    <profile value="http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Ref Clinical Impression</b>: </p><p><b>status</b>: draft</p><p><b>intent</b>: order</p><p><b>category</b>: <span title="Codes: ">MedicalRequest</span></p><p><b>priority</b>: routine</p><p><b>code</b>: <span title="Codes: {http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code WGS}">Whole Genome Sequencing</span></p><p><b>subject</b>: <a href="Patient-pt-001.html">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></p><p><b>authoredOn</b>: May 9, 2019 11:00:00 AM</p><p><b>requester</b>: <a href="Practitioner-pr-001.html">Generated Summary: Numero de License Médicale du Québec: 000002516 (OFFICIAL); Patrick Dujardin (OFFICIAL)</a></p></div>
+  </text>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression">
+    <valueReference>
+      <reference value="ClinicalImpression/ci-001"/>
+    </valueReference>
+  </extension>
+  <status value="draft"/>
+  <intent value="order"/>
+  <category>
+    <text value="MedicalRequest"/>
+  </category>
+  <priority value="routine"/>
+  <code>
+    <coding>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+      <code value="WGS"/>
+      <display value="Whole Genome Sequencing"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/pt-001"/>
+  </subject>
+  <authoredOn value="2019-05-09T11:00:00+00:00"/>
+  <requester>
+    <reference value="Practitioner/pr-001"/>
+  </requester>
+</ServiceRequest>

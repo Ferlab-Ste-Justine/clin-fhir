@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="fmh-relationship"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTH">FTH</a></td><td>Father</td><td>The player of the role is a male who begets or raises or nurtures the scoping entity (child).</td><td>Père</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTH">MTH</a></td><td>Mother</td><td>The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).</td><td>Mère</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-BRO">BRO</a></td><td>Brother</td><td>The player of the role is a male sharing one or both parents in common with the scoping entity.</td><td>Frère</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIS">SIS</a></td><td>Sister</td><td>The player of the role is a female sharing one or both parents in common with the scoping entity.</td><td>Sœur</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HBRO">HBRO</a></td><td>Half-brother</td><td>The player of the role is a male related to the scoping entity by sharing only one biological parent.</td><td>Demi-frère</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HSIS">HSIS</a></td><td>Half-sister</td><td>The player of the role is a female related to the scoping entity by sharing only one biological parent.</td><td>Demi-sœur</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ITWIN">ITWIN</a></td><td>Identical twin</td><td>The scoper and player are offspring of the same egg-sperm pair.</td><td>Jumeaux identiques</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTWIN">FTWIN</a></td><td>Fraternal twin</td><td>The scoper and player were carried in the same womb and share common biological parents but are the product of distinct egg/sperm pairs.</td><td>Jumeaux fraternels</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONC">SONC</a></td><td>Son</td><td>**Description:** The player of the role is a male child (of any type) of scoping entity (parent)</td><td>Fils</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MAUNT">MAUNT</a></td><td>Maternal aunt</td><td>**Description:**The player of the role is a biological sister of the scoping person's biological mother.</td><td>Tante maternelle</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PAUNT">PAUNT</a></td><td>Paternal aunt</td><td>**Description:**The player of the role is a biological sister of the scoping person's biological father.</td><td>Tante paternelle</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MUNCLE">MUNCLE</a></td><td>Maternal uncle</td><td>**Description:**The player of the role is a biological brother of the scoping person's biological mother.</td><td>Oncle maternel</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PUNCLE">PUNCLE</a></td><td>Paternal uncle</td><td>**Description:**The player of the role is a biological brother of the scoping person's biological father.</td><td>Oncle paternel</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MCOUSN">MCOUSN</a></td><td>Maternal cousin</td><td>**Description:**The player of the role is a biological relative of the scoping person descended from a common ancestor on the player's mother's side, such as a grandparent, by two or more steps in a diverging line.</td><td>Cousin(e) maternel(le)</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PCOUSN">PCOUSN</a></td><td>Paternal cousin</td><td>**Description:**The player of the role is a biological relative of the scoping person descended from a common ancestor on the player's father's side, such as a grandparent, by two or more steps in a diverging line.</td><td>Cousin(e) paternel(le)</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRFTH">MGRFTH</a></td><td>Maternal grandfather</td><td>**Description:**The player of the role is the biological father of the scoping person's biological mother.</td><td>Grand-père maternel</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRFTH">PGRFTH</a></td><td>Paternal grandfather</td><td>**Description:**The player of the role is the biological father of the scoping person's biological father.</td><td>Grand-père paternel</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRMTH">MGRMTH</a></td><td>Maternal grandmother</td><td>**Description:**The player of the role is the biological mother of the scoping person's biological mother.</td><td>Grand-mère maternelle</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRMTH">PGRMTH</a></td><td>Paternal grandmother</td><td>**Description:**The player of the role is the biological mother of the scoping person's biological father.</td><td>Grand-mère paternelle</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NEPHEW">NEPHEW</a></td><td>Nephew</td><td>The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td><td>Neveu</td></tr><tr><td><a href="http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIECE">NIECE</a></td><td>Niece</td><td>The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td><td>Nièce</td></tr></table></li><li>Include all codes defined in <a href="CodeSystem-fmh-relationship-plus.html"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship"/>
+  <version value="0.1.0"/>
+  <name value="fmh-relationship"/>
+  <title value="Family Member Relationship"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-20T10:53:21-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Values &#x200B;&#x200B;assigned to relationship fields"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <concept>
+        <code value="FTH"/>
+        <display value="Father"/>
+        <designation>
+          <language value="fr"/>
+          <value value="P&#xE8;re"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MTH"/>
+        <display value="Mother"/>
+        <designation>
+          <language value="fr"/>
+          <value value="M&#xE8;re"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="BRO"/>
+        <display value="Brother"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fr&#xE8;re"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SIS"/>
+        <display value="Sister"/>
+        <designation>
+          <language value="fr"/>
+          <value value="S&#x153;ur"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HBRO"/>
+        <display value="Half-brother"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Demi-fr&#xE8;re"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HSIS"/>
+        <display value="Half-sister"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Demi-s&#x153;ur"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ITWIN"/>
+        <display value="Identical twin"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Jumeaux identiques"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="FTWIN"/>
+        <display value="Fraternal twin"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Jumeaux fraternels"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SONC"/>
+        <display value="Son"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fils"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MAUNT"/>
+        <display value="Maternal aunt"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Tante maternelle"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PAUNT"/>
+        <display value="Paternal aunt"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Tante paternelle"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MUNCLE"/>
+        <display value="Maternal uncle"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Oncle maternel"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PUNCLE"/>
+        <display value="Paternal uncle"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Oncle paternel"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MCOUSN"/>
+        <display value="Maternal cousin"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Cousin(e) maternel(le)"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PCOUSN"/>
+        <display value="Paternal cousin"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Cousin(e) paternel(le)"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MGRFTH"/>
+        <display value="Maternal grandfather"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Grand-p&#xE8;re maternel"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PGRFTH"/>
+        <display value="Paternal grandfather"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Grand-p&#xE8;re paternel"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="MGRMTH"/>
+        <display value="Maternal grandmother"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Grand-m&#xE8;re maternelle"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="PGRMTH"/>
+        <display value="Paternal grandmother"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Grand-m&#xE8;re paternelle"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="NEPHEW"/>
+        <display value="Nephew"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Neveu"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="NIECE"/>
+        <display value="Niece"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Ni&#xE8;ce"/>
+        </designation>
+      </concept>
+    </include>
+    <include>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus"/>
+    </include>
+  </compose>
+</ValueSet>

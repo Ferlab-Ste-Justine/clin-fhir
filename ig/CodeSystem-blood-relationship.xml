@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="blood-relationship"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">Y<a name="blood-relationship-Y"> </a></td><td>Yes</td><td>Consanguinity relationship of the patient's parents</td></tr><tr><td style="white-space:nowrap">N<a name="blood-relationship-N"> </a></td><td>No</td><td>No consanguinity relationship of the patient's parents</td></tr><tr><td style="white-space:nowrap">U<a name="blood-relationship-U"> </a></td><td>Unknown</td><td>Inbreeding relationship unknown to the patient's parents</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>Y</td><td>Oui</td></tr><tr><td>N</td><td>Non</td></tr><tr><td>U</td><td>Inconnu</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship"/>
+  <version value="0.1.0"/>
+  <name value="blood-relationship"/>
+  <title value="Blood relationship"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-13T10:54:02-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="This field gives us information if the parents of the patient are inbred"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="Y"/>
+    <display value="Yes"/>
+    <definition value="Consanguinity relationship of the patient&#39;s parents"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Oui"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="No"/>
+    <definition value="No consanguinity relationship of the patient&#39;s parents"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Non"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Unknown"/>
+    <definition value="Inbreeding relationship unknown to the patient&#39;s parents"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Inconnu"/>
+    </designation>
+  </concept>
+</CodeSystem>

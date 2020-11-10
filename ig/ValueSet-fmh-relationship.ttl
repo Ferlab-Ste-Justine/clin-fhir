@@ -1,0 +1,239 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fmh-relationship"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTH\">FTH</a></td><td>Father</td><td>The player of the role is a male who begets or raises or nurtures the scoping entity (child).</td><td>Père</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTH\">MTH</a></td><td>Mother</td><td>The player of the role is a female who conceives, gives birth to, or raises and nurtures the scoping entity (child).</td><td>Mère</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-BRO\">BRO</a></td><td>Brother</td><td>The player of the role is a male sharing one or both parents in common with the scoping entity.</td><td>Frère</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIS\">SIS</a></td><td>Sister</td><td>The player of the role is a female sharing one or both parents in common with the scoping entity.</td><td>Sœur</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HBRO\">HBRO</a></td><td>Half-brother</td><td>The player of the role is a male related to the scoping entity by sharing only one biological parent.</td><td>Demi-frère</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HSIS\">HSIS</a></td><td>Half-sister</td><td>The player of the role is a female related to the scoping entity by sharing only one biological parent.</td><td>Demi-sœur</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ITWIN\">ITWIN</a></td><td>Identical twin</td><td>The scoper and player are offspring of the same egg-sperm pair.</td><td>Jumeaux identiques</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTWIN\">FTWIN</a></td><td>Fraternal twin</td><td>The scoper and player were carried in the same womb and share common biological parents but are the product of distinct egg/sperm pairs.</td><td>Jumeaux fraternels</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONC\">SONC</a></td><td>Son</td><td>**Description:** The player of the role is a male child (of any type) of scoping entity (parent)</td><td>Fils</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MAUNT\">MAUNT</a></td><td>Maternal aunt</td><td>**Description:**The player of the role is a biological sister of the scoping person's biological mother.</td><td>Tante maternelle</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PAUNT\">PAUNT</a></td><td>Paternal aunt</td><td>**Description:**The player of the role is a biological sister of the scoping person's biological father.</td><td>Tante paternelle</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MUNCLE\">MUNCLE</a></td><td>Maternal uncle</td><td>**Description:**The player of the role is a biological brother of the scoping person's biological mother.</td><td>Oncle maternel</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PUNCLE\">PUNCLE</a></td><td>Paternal uncle</td><td>**Description:**The player of the role is a biological brother of the scoping person's biological father.</td><td>Oncle paternel</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MCOUSN\">MCOUSN</a></td><td>Maternal cousin</td><td>**Description:**The player of the role is a biological relative of the scoping person descended from a common ancestor on the player's mother's side, such as a grandparent, by two or more steps in a diverging line.</td><td>Cousin(e) maternel(le)</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PCOUSN\">PCOUSN</a></td><td>Paternal cousin</td><td>**Description:**The player of the role is a biological relative of the scoping person descended from a common ancestor on the player's father's side, such as a grandparent, by two or more steps in a diverging line.</td><td>Cousin(e) paternel(le)</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRFTH\">MGRFTH</a></td><td>Maternal grandfather</td><td>**Description:**The player of the role is the biological father of the scoping person's biological mother.</td><td>Grand-père maternel</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRFTH\">PGRFTH</a></td><td>Paternal grandfather</td><td>**Description:**The player of the role is the biological father of the scoping person's biological father.</td><td>Grand-père paternel</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRMTH\">MGRMTH</a></td><td>Maternal grandmother</td><td>**Description:**The player of the role is the biological mother of the scoping person's biological mother.</td><td>Grand-mère maternelle</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRMTH\">PGRMTH</a></td><td>Paternal grandmother</td><td>**Description:**The player of the role is the biological mother of the scoping person's biological father.</td><td>Grand-mère paternelle</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NEPHEW\">NEPHEW</a></td><td>Nephew</td><td>The player of the role is a son of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td><td>Neveu</td></tr><tr><td><a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIECE\">NIECE</a></td><td>Niece</td><td>The player of the role is a daughter of the scoping person's brother or sister or of the brother or sister of the scoping person's spouse.</td><td>Nièce</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-fmh-relationship-plus.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "fmh-relationship"];
+  fhir:ValueSet.title [ fhir:value "Family Member Relationship"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2020-08-20T10:53:21-04:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Values ​​assigned to relationship fields"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FTH" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Father" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Père" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MTH" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mother" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Mère" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BRO" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brother" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Frère" ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SIS" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sister" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Sœur" ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HBRO" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Half-brother" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Demi-frère" ]
+         ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HSIS" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Half-sister" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Demi-sœur" ]
+         ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ITWIN" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Identical twin" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Jumeaux identiques" ]
+         ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "FTWIN" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fraternal twin" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Jumeaux fraternels" ]
+         ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SONC" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Son" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Fils" ]
+         ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAUNT" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maternal aunt" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Tante maternelle" ]
+         ]
+       ], [
+         fhir:index 10;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAUNT" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paternal aunt" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Tante paternelle" ]
+         ]
+       ], [
+         fhir:index 11;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MUNCLE" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maternal uncle" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Oncle maternel" ]
+         ]
+       ], [
+         fhir:index 12;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PUNCLE" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paternal uncle" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Oncle paternel" ]
+         ]
+       ], [
+         fhir:index 13;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MCOUSN" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maternal cousin" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Cousin(e) maternel(le)" ]
+         ]
+       ], [
+         fhir:index 14;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PCOUSN" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paternal cousin" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Cousin(e) paternel(le)" ]
+         ]
+       ], [
+         fhir:index 15;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MGRFTH" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maternal grandfather" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Grand-père maternel" ]
+         ]
+       ], [
+         fhir:index 16;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PGRFTH" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paternal grandfather" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Grand-père paternel" ]
+         ]
+       ], [
+         fhir:index 17;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MGRMTH" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Maternal grandmother" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Grand-mère maternelle" ]
+         ]
+       ], [
+         fhir:index 18;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PGRMTH" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Paternal grandmother" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Grand-mère paternelle" ]
+         ]
+       ], [
+         fhir:index 19;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NEPHEW" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nephew" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Neveu" ]
+         ]
+       ], [
+         fhir:index 20;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NIECE" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Niece" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Nièce" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

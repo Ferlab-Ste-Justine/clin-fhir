@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "observation-code"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CGH<a name=\"observation-code-CGH\"> </a></td><td>cgh</td><td>Comparative genomic hybridization</td></tr><tr><td style=\"white-space:nowrap\">INDIC<a name=\"observation-code-INDIC\"> </a></td><td>indications</td><td>Diagnostic hypothesis (s)</td></tr><tr><td style=\"white-space:nowrap\">INVES<a name=\"observation-code-INVES\"> </a></td><td>investigations</td><td>Clinical summary with all the investigations carried out in the context of the patient's pathology</td></tr><tr><td style=\"white-space:nowrap\">PHENO<a name=\"observation-code-PHENO\"> </a></td><td>phenotype</td><td>Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CGH</td><td>Hybridation génomique comparative</td></tr><tr><td>INDIC</td><td>Hypothèse(s) diagnostique</td></tr><tr><td>INVES</td><td>Résumé du tableau clinique avec l’ensemble des investigations réalisées dans le cadre de la pathologie du patient</td></tr><tr><td>PHENO</td><td>Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou l'interrogatoire du patient</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "observation-code"];
+  fhir:CodeSystem.title [ fhir:value "observation code"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2020-11-10T17:18:18+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Codes of observations in our system"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "CGH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "cgh" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Comparative genomic hybridization" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Hybridation génomique comparative" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "INDIC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "indications" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Diagnostic hypothesis (s)" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Hypothèse(s) diagnostique" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "INVES" ];
+     fhir:CodeSystem.concept.display [ fhir:value "investigations" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Clinical summary with all the investigations carried out in the context of the patient's pathology" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Résumé du tableau clinique avec l’ensemble des investigations réalisées dans le cadre de la pathologie du patient" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "PHENO" ];
+     fhir:CodeSystem.concept.display [ fhir:value "phenotype" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou l'interrogatoire du patient" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

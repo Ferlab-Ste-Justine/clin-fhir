@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="fm-structure"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">SOL<a name="fm-structure-SOL"> </a></td><td>Solo</td><td>Family with only one member (proband alone)</td></tr><tr><td style="white-space:nowrap">DUO<a name="fm-structure-DUO"> </a></td><td>Duo</td><td>Family with two members</td></tr><tr><td style="white-space:nowrap">TRI<a name="fm-structure-TRI"> </a></td><td>Trio</td><td>Family with three members</td></tr><tr><td style="white-space:nowrap">QUA<a name="fm-structure-QUA"> </a></td><td>Quatuor</td><td>Family with four members</td></tr><tr><td style="white-space:nowrap">QUI<a name="fm-structure-QUI"> </a></td><td>Quintette</td><td>Family with five members</td></tr><tr><td style="white-space:nowrap">SEX<a name="fm-structure-SEX"> </a></td><td>Sextuor</td><td>Family with six members</td></tr><tr><td style="white-space:nowrap">SEP<a name="fm-structure-SEP"> </a></td><td>Septuor</td><td>Family with seven members</td></tr><tr><td style="white-space:nowrap">OCT<a name="fm-structure-OCT"> </a></td><td>Octuor</td><td>Family with eight members</td></tr><tr><td style="white-space:nowrap">NON<a name="fm-structure-NON"> </a></td><td>Nonette</td><td>Family with nine members</td></tr><tr><td style="white-space:nowrap">DIX<a name="fm-structure-DIX"> </a></td><td>Dixtuor</td><td>Family with ten members</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure"/>
+  <version value="0.1.0"/>
+  <name value="fm-structure"/>
+  <title value="Family structure code system"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-13T16:27:34-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="This field gives possible valueSet of the family structure"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="SOL"/>
+    <display value="Solo"/>
+    <definition value="Family with only one member (proband alone)"/>
+  </concept>
+  <concept>
+    <code value="DUO"/>
+    <display value="Duo"/>
+    <definition value="Family with two members"/>
+  </concept>
+  <concept>
+    <code value="TRI"/>
+    <display value="Trio"/>
+    <definition value="Family with three members"/>
+  </concept>
+  <concept>
+    <code value="QUA"/>
+    <display value="Quatuor"/>
+    <definition value="Family with four members"/>
+  </concept>
+  <concept>
+    <code value="QUI"/>
+    <display value="Quintette"/>
+    <definition value="Family with five members"/>
+  </concept>
+  <concept>
+    <code value="SEX"/>
+    <display value="Sextuor"/>
+    <definition value="Family with six members"/>
+  </concept>
+  <concept>
+    <code value="SEP"/>
+    <display value="Septuor"/>
+    <definition value="Family with seven members"/>
+  </concept>
+  <concept>
+    <code value="OCT"/>
+    <display value="Octuor"/>
+    <definition value="Family with eight members"/>
+  </concept>
+  <concept>
+    <code value="NON"/>
+    <display value="Nonette"/>
+    <definition value="Family with nine members"/>
+  </concept>
+  <concept>
+    <code value="DIX"/>
+    <display value="Dixtuor"/>
+    <definition value="Family with ten members"/>
+  </concept>
+</CodeSystem>

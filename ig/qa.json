@@ -1,0 +1,12 @@
+{
+  "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
+  "name": "CqgcImplementationGuide",
+  "package-id": "cqgc",
+  "ig-ver": "0.1.0",
+  "date": "Tue, 10 Nov, 2020 17:18:18 +0000",
+  "errs": 0,
+  "warnings": 53,
+  "hints": 4,
+  "version": "4.0.1",
+  "tool": "4.5.0 (3)"
+}

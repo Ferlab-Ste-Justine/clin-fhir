@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "service-request-code",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-service-request-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code</code></a></li></ul></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code",
+  "version": "0.1.0",
+  "name": "service-request-code",
+  "title": "Service request code",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-11-10T17:18:18+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Codes of service request in our system",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"
+      }
+    ]
+  }
+}

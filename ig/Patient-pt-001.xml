@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="pt-001"/>
+  <meta>
+    <profile value="http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>Qc Ethnicity</b>: </p><p><b>Family ID</b>: </p><p><b>Patient is a proband</b>: </p><p><b>Blood relationship</b>: </p><p><b>identifier</b>: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921</p><p><b>active</b>: true</p><p><b>name</b>: Francine Bertrand (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2018-10-11</p><p><b>generalPractitioner</b>: <a href="Practitioner-pr-001.html">Generated Summary: Numero de License Médicale du Québec: 000002516 (OFFICIAL); Patrick Dujardin (OFFICIAL)</a></p><p><b>managingOrganization</b>: <a href="Organization-or-001.html">Generated Summary: <span title="Codes: ">prov</span>; name: CHU Ste Justine; alias: CHUSJ</a></p></div>
+  </text>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity">
+    <valueCoding>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity"/>
+      <code value="CA-FR"/>
+      <display value="French Canadian"/>
+    </valueCoding>
+  </extension>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id">
+    <valueReference>
+      <reference value="Group/fa-001"/>
+    </valueReference>
+  </extension>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband">
+    <valueBoolean value="true"/>
+  </extension>
+  <extension url="http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship">
+    <valueCoding>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship"/>
+      <code value="Y"/>
+      <display value="Yes"/>
+    </valueCoding>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MR"/>
+        <display value="Medical record number"/>
+      </coding>
+      <text value="Num&#xE9;ro du dossier m&#xE9;dical"/>
+    </type>
+    <value value="4533941"/>
+  </identifier>
+  <identifier>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="JHN"/>
+        <display value="Jurisdictional health number (Canada)"/>
+      </coding>
+      <text value="Num&#xE9;ro assurance maladie du Qu&#xE9;bec"/>
+    </type>
+    <value value="BERF18106921"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <family value="Bertrand"/>
+    <given value="Francine"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="2018-10-11"/>
+  <generalPractitioner>
+    <reference value="Practitioner/pr-001"/>
+  </generalPractitioner>
+  <managingOrganization>
+    <reference value="Organization/or-001"/>
+  </managingOrganization>
+</Patient>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ind-001"/>
+  <meta>
+    <profile value="http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category exam}">Exam</span></p><p><b>code</b>: <span title="Codes: {http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code INDIC}">indications</span></p><p><b>subject</b>: <a href="Patient-pt-001.html">Generated Summary: Numéro du dossier médical: 4533941, Numéro assurance maladie du Québec: BERF18106921; active; Francine Bertrand (OFFICIAL); gender: female; birthDate: 2018-10-11</a></p><p><b>note</b>: Syndrome de microdélétion</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="exam"/>
+      <display value="Exam"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+      <code value="INDIC"/>
+      <display value="indications"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/pt-001"/>
+  </subject>
+  <note>
+    <text value="Syndrome de microd&#xE9;l&#xE9;tion"/>
+  </note>
+</Observation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="service-request-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">WXS<a name="service-request-code-WXS"> </a></td><td>Whole Exome Sequencing</td><td>Process of determining the complete DNA sequence of the genome at a single time</td></tr><tr><td style="white-space:nowrap">WGS<a name="service-request-code-WGS"> </a></td><td>Whole Genome Sequencing</td><td>Process of determining all of the exons within the genome sequence at a single time</td></tr><tr><td style="white-space:nowrap">GP<a name="service-request-code-GP"> </a></td><td>Gene Panel</td><td>Process of determining the complete sequences of the indicated gene panel at a single time</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>WXS</td><td>Séquençage du Génome Entier</td></tr><tr><td>WGS</td><td>Séquençage de l'Exome Entier</td></tr><tr><td>GP</td><td>Panel de Gènes</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+  <version value="0.1.0"/>
+  <name value="service-request-code"/>
+  <title value="service request code"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-11-10T17:18:18+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Codes of service request in our system"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="WXS"/>
+    <display value="Whole Exome Sequencing"/>
+    <definition value="Process of determining the complete DNA sequence of the genome at a single time"/>
+    <designation>
+      <language value="fr"/>
+      <value value="S&#xE9;quen&#xE7;age du G&#xE9;nome Entier"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="WGS"/>
+    <display value="Whole Genome Sequencing"/>
+    <definition value="Process of determining all of the exons within the genome sequence at a single time"/>
+    <designation>
+      <language value="fr"/>
+      <value value="S&#xE9;quen&#xE7;age de l&#39;Exome Entier"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GP"/>
+    <display value="Gene Panel"/>
+    <definition value="Process of determining the complete sequences of the indicated gene panel at a single time"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Panel de G&#xE8;nes"/>
+    </designation>
+  </concept>
+</CodeSystem>

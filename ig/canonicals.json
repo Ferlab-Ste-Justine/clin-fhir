@@ -1,0 +1,261 @@
+[
+  {
+    "id": "phenotype-codes",
+    "type": "ValueSet",
+    "url": "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
+    "version": "0.1.0",
+    "name": "phenotype-codes"
+  },
+  {
+    "id": "blood-relationship",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship",
+    "version": "0.1.0",
+    "name": "blood-relationship"
+  },
+  {
+    "id": "fm-structure",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure",
+    "version": "0.1.0",
+    "name": "fm-structure"
+  },
+  {
+    "id": "fmh-relationship-plus",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
+    "version": "0.1.0",
+    "name": "fmh-relationship-plus"
+  },
+  {
+    "id": "observation-code",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+    "version": "0.1.0",
+    "name": "observation-code"
+  },
+  {
+    "id": "organization-type-plus",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
+    "version": "0.1.0",
+    "name": "organization-type-plus"
+  },
+  {
+    "id": "qc-ethnicity",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+    "version": "0.1.0",
+    "name": "qc-ethnicity"
+  },
+  {
+    "id": "request-status-plus",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus",
+    "version": "0.1.0",
+    "name": "request-status-plus"
+  },
+  {
+    "id": "service-request-code",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+    "version": "0.1.0",
+    "name": "service-request-code"
+  },
+  {
+    "id": "Cqgc",
+    "type": "ImplementationGuide",
+    "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
+    "version": "0.1.0",
+    "name": "CqgcImplementationGuide"
+  },
+  {
+    "id": "age-at-event",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
+    "version": "0.1.0",
+    "name": "age-at-event"
+  },
+  {
+    "id": "age-at-onset",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
+    "version": "0.1.0",
+    "name": "age-at-onset"
+  },
+  {
+    "id": "blood-relationship",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
+    "version": "0.1.0",
+    "name": "blood-relationship"
+  },
+  {
+    "id": "cqgc-clinical-impression",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression",
+    "version": "0.1.0",
+    "name": "cqgc-clinical-impression"
+  },
+  {
+    "id": "cqgc-family-group",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group",
+    "version": "0.1.0",
+    "name": "cqgc-family-group"
+  },
+  {
+    "id": "cqgc-fmh",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",
+    "version": "0.1.0",
+    "name": "cqgc-fmh"
+  },
+  {
+    "id": "cqgc-observation",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation",
+    "version": "0.1.0",
+    "name": "cqgc-observation"
+  },
+  {
+    "id": "cqgc-organization",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization",
+    "version": "0.1.0",
+    "name": "cqgc-service-request"
+  },
+  {
+    "id": "cqgc-patient",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient",
+    "version": "0.1.0",
+    "name": "cqgc-patient"
+  },
+  {
+    "id": "cqgc-service-request",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request",
+    "version": "0.1.0",
+    "name": "cqgc-service-request"
+  },
+  {
+    "id": "family-id",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id",
+    "version": "0.1.0",
+    "name": "family-id"
+  },
+  {
+    "id": "fm-structure",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure",
+    "version": "0.1.0",
+    "name": "fm-structure"
+  },
+  {
+    "id": "hpo-category",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
+    "version": "0.1.0",
+    "name": "hpo-category"
+  },
+  {
+    "id": "is-proband",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband",
+    "version": "0.1.0",
+    "name": "is-proband"
+  },
+  {
+    "id": "qc-ethnicity",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity",
+    "version": "0.1.0",
+    "name": "qc-ethnicity"
+  },
+  {
+    "id": "ref-clin-impression",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression",
+    "version": "0.1.0",
+    "name": "ref-clin-impression"
+  },
+  {
+    "id": "status-history",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
+    "version": "0.1.0",
+    "name": "status-history"
+  },
+  {
+    "id": "age-at-onset",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset",
+    "version": "0.1.0",
+    "name": "age-at-onset"
+  },
+  {
+    "id": "blood-relationship",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/blood-relationship",
+    "version": "0.1.0",
+    "name": "blood-relationship"
+  },
+  {
+    "id": "fm-structure",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fm-structure",
+    "version": "0.1.0",
+    "name": "fm-structure"
+  },
+  {
+    "id": "fmh-relationship",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
+    "version": "0.1.0",
+    "name": "fmh-relationship"
+  },
+  {
+    "id": "hpo-category",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/hpo-category",
+    "version": "0.1.0",
+    "name": "hpo-category"
+  },
+  {
+    "id": "observation-code",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
+    "version": "0.1.0",
+    "name": "observation-code"
+  },
+  {
+    "id": "organization-type",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
+    "version": "0.1.0",
+    "name": "organization-type"
+  },
+  {
+    "id": "qc-ethnicity",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+    "version": "0.1.0",
+    "name": "qc-ethnicity"
+  },
+  {
+    "id": "request-status",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/request-status",
+    "version": "0.1.0",
+    "name": "request-status"
+  },
+  {
+    "id": "service-request-code",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code",
+    "version": "0.1.0",
+    "name": "service-request-code"
+  }
+]

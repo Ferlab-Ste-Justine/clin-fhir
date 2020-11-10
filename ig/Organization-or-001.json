@@ -1,0 +1,26 @@
+{
+  "resourceType": "Organization",
+  "id": "or-001",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Organization"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>type</b>: <span title=\"Codes: \">prov</span></p><p><b>name</b>: CHU Ste Justine</p><p><b>alias</b>: CHUSJ</p></div>"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "prov"
+        }
+      ]
+    }
+  ],
+  "name": "CHU Ste Justine",
+  "alias": [
+    "CHUSJ"
+  ]
+}
