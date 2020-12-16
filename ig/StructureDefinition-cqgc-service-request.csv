@@ -24,6 +24,10 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ServiceRequest.extension","is-submitted","","",1,1,"Y","","","Extension {[CanonicalType[http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted]]} {[]}
+","Submission status of ServiceRequest","Whether the Service Request is submitted or not","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ServiceRequest.extension","clinical-impression","","clinical_impression",0,1,"Y","","","Extension {[CanonicalType[http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression]]} {[]}
 ","Medical Consultation","Refers to the consultation from which the request results","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

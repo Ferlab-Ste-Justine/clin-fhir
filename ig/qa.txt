@@ -1,9 +1,9 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 0, warn = 53, info = 4
-IG Publisher Version: 1.1.35 Out of date - current version is 1.1.39
-Generated Tue Nov 10 17:53:03 UTC 2020. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 0, warn = 54, info = 4
+IG Publisher Version: 1.1.35 Out of date - current version is 1.1.53
+Generated Wed Dec 16 18:02:55 UTC 2020. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
 
  Build Errors : 1 / 1 / 0
  /data/input/ImplementationGuide-Clin : 0 / 0 / 1
@@ -26,6 +26,7 @@ Generated Tue Nov 10 17:53:03 UTC 2020. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /data/input/resources/extensions/StructureDefinition-fm-structure : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-hpo-category : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-is-proband : 0 / 1 / 1
+ /data/input/resources/extensions/StructureDefinition-is-submitted : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-qc-ethnicity : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-ref-clin-impression : 0 / 1 / 2
  /data/input/resources/extensions/StructureDefinition-status-history : 0 / 2 / 1
@@ -125,6 +126,9 @@ WARNING: StructureDefinition/hpo-category: StructureDefinition: sdf-0: Name shou
 == /data/input/resources/extensions/StructureDefinition-is-proband.json ==
 INFORMATION: StructureDefinition/is-proband: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/is-proband: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/extensions/StructureDefinition-is-submitted.json ==
+INFORMATION: StructureDefinition/is-submitted: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/is-submitted: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/extensions/StructureDefinition-qc-ethnicity.json ==
 INFORMATION: StructureDefinition/qc-ethnicity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/qc-ethnicity: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]

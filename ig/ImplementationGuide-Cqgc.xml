@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-11-10T17:52:20+00:00"/>
+  <date value="2020-12-16T18:02:12+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -703,6 +703,17 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/status-history"/>
       <description value="Ferlab.bio StructureDefinition status-history, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/is-submitted"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/is-submitted"/>
+      <description value="Ferlab.bio StructureDefinition is-submitted, Base: Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

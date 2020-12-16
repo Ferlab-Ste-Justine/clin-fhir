@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2020-11-10T17:52:20+00:00",
+  "date": "2020-12-16T18:02:12+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -950,6 +950,20 @@
         },
         "name": "Ferlab.bio StructureDefinition/status-history",
         "description": "Ferlab.bio StructureDefinition status-history, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/is-submitted"
+        },
+        "name": "Ferlab.bio StructureDefinition/is-submitted",
+        "description": "Ferlab.bio StructureDefinition is-submitted, Base: Extension",
         "exampleBoolean": false
       }
     ],

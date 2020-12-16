@@ -53,6 +53,13 @@
       ]
     },
     {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted",
+      "title": "Request is submitted",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
       "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity",
       "title": "Qc Ethnicity",
       "types": [
@@ -139,6 +146,9 @@
     ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband": [
       "Patient"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted": [
+      "ServiceRequest"
     ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity": [
       "Patient"

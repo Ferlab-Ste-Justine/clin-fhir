@@ -168,6 +168,13 @@
     "name": "is-proband"
   },
   {
+    "id": "is-submitted",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted",
+    "version": "0.1.0",
+    "name": "is-submitted"
+  },
+  {
     "id": "qc-ethnicity",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity",
