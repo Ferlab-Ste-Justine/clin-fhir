@@ -1,42 +1,30 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 0, warn = 54, info = 4
-IG Publisher Version: 1.1.35 Out of date - current version is 1.1.53
-Generated Wed Dec 16 18:02:55 UTC 2020. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 0, warn = 58, info = 0
+IG Publisher Version: 1.1.35 Out of date - current version is 1.1.56
+Generated Fri Jan 08 17:10:58 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
 
  Build Errors : 1 / 1 / 0
  /data/input/ImplementationGuide-Clin : 0 / 0 / 1
- /data/input/resources/examples/ClinicalImpression-ci-001 : 0 / 1 / 1
- /data/input/resources/examples/FamilyMemberHistory-fmh-001 : 0 / 1 / 2
- /data/input/resources/examples/Group-fa-001 : 0 / 1 / 2
- /data/input/resources/examples/Observation-cgh-001 : 0 / 1 / 2
- /data/input/resources/examples/Observation-ind-001 : 0 / 0 / 2
- /data/input/resources/examples/Observation-inv-001 : 0 / 0 / 2
- /data/input/resources/examples/Observation-ph-001 : 0 / 2 / 3
- /data/input/resources/examples/Organization-or-001 : 0 / 1 / 1
- /data/input/resources/examples/Patient-pt-001 : 0 / 1 / 2
- /data/input/resources/examples/Practitioner-pr-001 : 0 / 0 / 1
- /data/input/resources/examples/PractitionerRole-prr-001 : 0 / 0 / 2
- /data/input/resources/examples/ServiceRequest-sr-001 : 0 / 0 / 2
- /data/input/resources/extensions/StructureDefinition-age-at-event : 0 / 1 / 1
- /data/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 1 / 1
+ /data/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-blood-relationship : 0 / 1 / 1
- /data/input/resources/extensions/StructureDefinition-family-id : 0 / 1 / 2
- /data/input/resources/extensions/StructureDefinition-fm-structure : 0 / 1 / 1
- /data/input/resources/extensions/StructureDefinition-hpo-category : 0 / 1 / 1
+ /data/input/resources/extensions/StructureDefinition-family-id : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-fm-structure : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-hpo-category : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-is-proband : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-is-submitted : 0 / 1 / 1
- /data/input/resources/extensions/StructureDefinition-qc-ethnicity : 0 / 1 / 1
- /data/input/resources/extensions/StructureDefinition-ref-clin-impression : 0 / 1 / 2
+ /data/input/resources/extensions/StructureDefinition-qc-ethnicity : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-ref-clin-impression : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-status-history : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 2 / 1
- /data/input/resources/profiles/StructureDefinition-cqgc-family-group : 0 / 1 / 1
- /data/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 1 / 1
- /data/input/resources/profiles/StructureDefinition-cqgc-observation : 0 / 1 / 1
+ /data/input/resources/profiles/StructureDefinition-cqgc-family-group : 0 / 2 / 1
+ /data/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 2 / 1
+ /data/input/resources/profiles/StructureDefinition-cqgc-observation : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-organization : 0 / 2 / 1
- /data/input/resources/profiles/StructureDefinition-cqgc-patient : 0 / 1 / 1
- /data/input/resources/profiles/StructureDefinition-cqgc-service-request : 0 / 1 / 1
+ /data/input/resources/profiles/StructureDefinition-cqgc-patient : 0 / 2 / 1
+ /data/input/resources/profiles/StructureDefinition-cqgc-service-request : 0 / 2 / 1
  /data/input/resources/terminology/CodeSystem-blood-relationship : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-fm-structure : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-fmh-relationship-plus : 0 / 1 / 1
@@ -62,67 +50,29 @@ WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be 
 ERROR: /data/output/searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
 == /data/input/ImplementationGuide-Clin.json ==
 INFORMATION: ImplementationGuide/Cqgc: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-== /data/input/resources/examples/ClinicalImpression-ci-001.json ==
-INFORMATION: ClinicalImpression/ci-001: ClinicalImpression: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ClinicalImpression
-WARNING: ClinicalImpression/ci-001: ClinicalImpression.meta.profile[0]: Profile reference 'http://fhir.cqdg.ferlab.bio/StructureDefinition/cqdg-clinical-impression' could not be resolved, so has not been checked
-== /data/input/resources/examples/FamilyMemberHistory-fmh-001.json ==
-INFORMATION: FamilyMemberHistory/fmh-001: FamilyMemberHistory: Validate resource against profile http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory
-WARNING: FamilyMemberHistory/fmh-001: FamilyMemberHistory.relationship.coding[0]: Internal error: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleCode#FTH should be one of 'father' instead of 'Père'
-INFORMATION: FamilyMemberHistory/fmh-001: FamilyMemberHistory: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh - listed in meta
-== /data/input/resources/examples/Group-fa-001.json ==
-INFORMATION: Group/fa-001: Group: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Group
-WARNING: Group/fa-001: Group.extension[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-INFORMATION: Group/fa-001: Group: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group - listed in meta
-== /data/input/resources/examples/Observation-cgh-001.json ==
-INFORMATION: Observation/cgh-001: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/cgh-001: Observation.interpretation[0].coding[0]: A code with no system has no defined meaning. A system should be provided
-INFORMATION: Observation/cgh-001: Observation: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation - listed in meta
-== /data/input/resources/examples/Observation-ind-001.json ==
-INFORMATION: Observation/ind-001: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-INFORMATION: Observation/ind-001: Observation: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation - listed in meta
-== /data/input/resources/examples/Observation-inv-001.json ==
-INFORMATION: Observation/inv-001: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-INFORMATION: Observation/inv-001: Observation: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation - listed in meta
-== /data/input/resources/examples/Observation-ph-001.json ==
-INFORMATION: Observation/ph-001: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/ph-001: Observation.extension[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Observation/ph-001: Observation.extension[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-INFORMATION: Observation/ph-001: Observation.value.ofType(CodeableConcept).coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated
-INFORMATION: Observation/ph-001: Observation: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation - listed in meta
-== /data/input/resources/examples/Organization-or-001.json ==
-INFORMATION: Organization/or-001: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
-WARNING: Organization/or-001: Organization.type[0].coding[0]: A code with no system has no defined meaning. A system should be provided
-== /data/input/resources/examples/Patient-pt-001.json ==
-INFORMATION: Patient/pt-001: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
-WARNING: Patient/pt-001: Patient.identifier[1].type: Display Name for http://terminology.hl7.org/CodeSystem/v2-0203#JHN should be one of 'Jurisdictional health number' instead of 'Jurisdictional health number (Canada)'
-INFORMATION: Patient/pt-001: Patient: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient - listed in meta
-== /data/input/resources/examples/Practitioner-pr-001.json ==
-INFORMATION: Practitioner/pr-001: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /data/input/resources/examples/PractitionerRole-prr-001.json ==
-INFORMATION: PractitionerRole/prr-001: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/prr-001: PractitionerRole.code[0].coding[0]: Code System URI 'http://www.hl7.org/FHIR/valueset-practitioner-role.html' is unknown so the code cannot be validated
-== /data/input/resources/examples/ServiceRequest-sr-001.json ==
-INFORMATION: ServiceRequest/sr-001: ServiceRequest: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ServiceRequest
-INFORMATION: ServiceRequest/sr-001: ServiceRequest: Validate resource against profile http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request - listed in meta
 == /data/input/resources/extensions/StructureDefinition-age-at-event.json ==
 INFORMATION: StructureDefinition/age-at-event: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/age-at-event: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-age-at-onset.json ==
 INFORMATION: StructureDefinition/age-at-onset: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/age-at-onset: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-blood-relationship.json ==
 INFORMATION: StructureDefinition/blood-relationship: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/blood-relationship: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/extensions/StructureDefinition-family-id.json ==
 INFORMATION: StructureDefinition/family-id: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/family-id: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-INFORMATION: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id'): The Implementation Guide contains no explicitly linked examples for this profile
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/extensions/StructureDefinition-fm-structure.json ==
 INFORMATION: StructureDefinition/fm-structure: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/fm-structure: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-hpo-category.json ==
 INFORMATION: StructureDefinition/hpo-category: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/hpo-category: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-is-proband.json ==
 INFORMATION: StructureDefinition/is-proband: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/is-proband: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -132,10 +82,11 @@ WARNING: StructureDefinition/is-submitted: StructureDefinition: sdf-0: Name shou
 == /data/input/resources/extensions/StructureDefinition-qc-ethnicity.json ==
 INFORMATION: StructureDefinition/qc-ethnicity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/qc-ethnicity: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-ref-clin-impression.json ==
 INFORMATION: StructureDefinition/ref-clin-impression: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/ref-clin-impression: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-INFORMATION: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression'): The Implementation Guide contains no explicitly linked examples for this profile
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/extensions/StructureDefinition-status-history.json ==
 INFORMATION: StructureDefinition/status-history: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/status-history: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -147,12 +98,15 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 == /data/input/resources/profiles/StructureDefinition-cqgc-family-group.json ==
 INFORMATION: StructureDefinition/cqgc-family-group: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-family-group: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/profiles/StructureDefinition-cqgc-fmh.json ==
 INFORMATION: StructureDefinition/cqgc-fmh: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-fmh: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/profiles/StructureDefinition-cqgc-observation.json ==
 INFORMATION: StructureDefinition/cqgc-observation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-observation: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/profiles/StructureDefinition-cqgc-organization.json ==
 INFORMATION: StructureDefinition/cqgc-organization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-organization: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -160,9 +114,11 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 == /data/input/resources/profiles/StructureDefinition-cqgc-patient.json ==
 INFORMATION: StructureDefinition/cqgc-patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-patient: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/profiles/StructureDefinition-cqgc-service-request.json ==
 INFORMATION: StructureDefinition/cqgc-service-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-service-request: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/terminology/CodeSystem-blood-relationship.json ==
 INFORMATION: CodeSystem/blood-relationship: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 WARNING: CodeSystem/blood-relationship: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]

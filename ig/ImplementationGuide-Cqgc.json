@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2020-12-16T18:02:12+00:00",
+  "date": "2021-01-08T17:10:17+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -307,160 +307,6 @@
         "name": "Ferlab.bio StructureDefinition/blood-relationship",
         "description": "Ferlab.bio StructureDefinition blood-relationship, Base: Extension",
         "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/or-001"
-        },
-        "name": "Ferlab.bio Organization/or-001",
-        "description": "Ferlab.bio Organization or-001, Profiles: Organization",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/inv-001"
-        },
-        "name": "Ferlab.bio Observation/inv-001",
-        "description": "Ferlab.bio Observation inv-001, Profiles: cqgc-observation",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PractitionerRole"
-          }
-        ],
-        "reference": {
-          "reference": "PractitionerRole/prr-001"
-        },
-        "name": "Ferlab.bio PractitionerRole/prr-001",
-        "description": "Ferlab.bio PractitionerRole prr-001, Profiles: PractitionerRole",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Patient"
-          }
-        ],
-        "reference": {
-          "reference": "Patient/pt-001"
-        },
-        "name": "Ferlab.bio Patient/pt-001",
-        "description": "Ferlab.bio Patient pt-001, Profiles: cqgc-patient",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/ind-001"
-        },
-        "name": "Ferlab.bio Observation/ind-001",
-        "description": "Ferlab.bio Observation ind-001, Profiles: cqgc-observation",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "FamilyMemberHistory"
-          }
-        ],
-        "reference": {
-          "reference": "FamilyMemberHistory/fmh-001"
-        },
-        "name": "Ferlab.bio FamilyMemberHistory/fmh-001",
-        "description": "Ferlab.bio FamilyMemberHistory fmh-001, Profiles: cqgc-fmh",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Practitioner"
-          }
-        ],
-        "reference": {
-          "reference": "Practitioner/pr-001"
-        },
-        "name": "Ferlab.bio Practitioner/pr-001",
-        "description": "Ferlab.bio Practitioner pr-001, Profiles: Practitioner",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ClinicalImpression"
-          }
-        ],
-        "reference": {
-          "reference": "ClinicalImpression/ci-001"
-        },
-        "name": "Ferlab.bio ClinicalImpression/ci-001",
-        "description": "Ferlab.bio ClinicalImpression ci-001, Profiles: cqdg-clinical-impression",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/ph-001"
-        },
-        "name": "Ferlab.bio Observation/ph-001",
-        "description": "Ferlab.bio Observation ph-001, Profiles: cqgc-observation",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/cgh-001"
-        },
-        "name": "Ferlab.bio Observation/cgh-001",
-        "description": "Ferlab.bio Observation cgh-001, Profiles: cqgc-observation",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ServiceRequest"
-          }
-        ],
-        "reference": {
-          "reference": "ServiceRequest/sr-001"
-        },
-        "name": "Ferlab.bio ServiceRequest/sr-001",
-        "description": "Ferlab.bio ServiceRequest sr-001, Profiles: cqgc-service-request",
-        "exampleBoolean": true
       },
       {
         "extension": [
@@ -783,20 +629,6 @@
         "name": "Ferlab.bio StructureDefinition/hpo-category",
         "description": "Ferlab.bio StructureDefinition hpo-category, Base: Extension",
         "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Group"
-          }
-        ],
-        "reference": {
-          "reference": "Group/fa-001"
-        },
-        "name": "Ferlab.bio Group/fa-001",
-        "description": "Ferlab.bio Group fa-001, Profiles: cqgc-family-group",
-        "exampleBoolean": true
       },
       {
         "extension": [

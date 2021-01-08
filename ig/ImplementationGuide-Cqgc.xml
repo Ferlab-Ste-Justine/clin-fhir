@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2020-12-16T18:02:12+00:00"/>
+  <date value="2021-01-08T17:10:17+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -198,127 +198,6 @@
       <name value="Ferlab.bio StructureDefinition/blood-relationship"/>
       <description value="Ferlab.bio StructureDefinition blood-relationship, Base: Extension"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/or-001"/>
-      </reference>
-      <name value="Ferlab.bio Organization/or-001"/>
-      <description value="Ferlab.bio Organization or-001, Profiles: Organization"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/inv-001"/>
-      </reference>
-      <name value="Ferlab.bio Observation/inv-001"/>
-      <description value="Ferlab.bio Observation inv-001, Profiles: cqgc-observation"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PractitionerRole"/>
-      </extension>
-      <reference>
-        <reference value="PractitionerRole/prr-001"/>
-      </reference>
-      <name value="Ferlab.bio PractitionerRole/prr-001"/>
-      <description value="Ferlab.bio PractitionerRole prr-001, Profiles: PractitionerRole"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/pt-001"/>
-      </reference>
-      <name value="Ferlab.bio Patient/pt-001"/>
-      <description value="Ferlab.bio Patient pt-001, Profiles: cqgc-patient"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ind-001"/>
-      </reference>
-      <name value="Ferlab.bio Observation/ind-001"/>
-      <description value="Ferlab.bio Observation ind-001, Profiles: cqgc-observation"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="FamilyMemberHistory"/>
-      </extension>
-      <reference>
-        <reference value="FamilyMemberHistory/fmh-001"/>
-      </reference>
-      <name value="Ferlab.bio FamilyMemberHistory/fmh-001"/>
-      <description value="Ferlab.bio FamilyMemberHistory fmh-001, Profiles: cqgc-fmh"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/pr-001"/>
-      </reference>
-      <name value="Ferlab.bio Practitioner/pr-001"/>
-      <description value="Ferlab.bio Practitioner pr-001, Profiles: Practitioner"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ClinicalImpression"/>
-      </extension>
-      <reference>
-        <reference value="ClinicalImpression/ci-001"/>
-      </reference>
-      <name value="Ferlab.bio ClinicalImpression/ci-001"/>
-      <description value="Ferlab.bio ClinicalImpression ci-001, Profiles: cqdg-clinical-impression"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ph-001"/>
-      </reference>
-      <name value="Ferlab.bio Observation/ph-001"/>
-      <description value="Ferlab.bio Observation ph-001, Profiles: cqgc-observation"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/cgh-001"/>
-      </reference>
-      <name value="Ferlab.bio Observation/cgh-001"/>
-      <description value="Ferlab.bio Observation cgh-001, Profiles: cqgc-observation"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/sr-001"/>
-      </reference>
-      <name value="Ferlab.bio ServiceRequest/sr-001"/>
-      <description value="Ferlab.bio ServiceRequest sr-001, Profiles: cqgc-service-request"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -572,17 +451,6 @@
       <name value="Ferlab.bio StructureDefinition/hpo-category"/>
       <description value="Ferlab.bio StructureDefinition hpo-category, Base: Extension"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Group"/>
-      </extension>
-      <reference>
-        <reference value="Group/fa-001"/>
-      </reference>
-      <name value="Ferlab.bio Group/fa-001"/>
-      <description value="Ferlab.bio Group fa-001, Profiles: cqgc-family-group"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
