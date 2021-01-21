@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "data-category",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+    "version": "0.1.0",
+    "name": "data-category",
+    "title": "Data categories",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"
+        }
+      ]
+    }
+  }

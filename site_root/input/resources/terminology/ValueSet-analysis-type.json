@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "analysis-type",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type",
+    "version": "0.1.0",
+    "name": "analysis-type",
+    "title": "Analysis types",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type"
+        }
+      ]
+    }
+  }

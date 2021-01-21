@@ -1,0 +1,72 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "data-type",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+    "version": "0.1.0",
+    "name": "data-type",
+    "title": "Data types",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 5,
+    "concept": [
+      {
+        "code": "AR",
+        "display": "Aligned Reads",
+        "definition":"Aligned reads",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fragments alignés"
+          }
+        ]
+      },
+      {
+        "code": "SNV",
+        "display": "Raw SNV Calls",
+        "definition":"Raw SNV calls",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"SNVs sans annotation"
+          }
+        ]
+      },
+      {
+        "code": "QC",
+        "display": "QC Report",
+        "definition":"QC report",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Rapport contrôle de qualité"
+          }
+        ]
+      },
+      {
+        "code": "INDEX",
+        "display": "Sequencing Data Index",
+        "definition":"Sequencing data index",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Index de données de séquençage"
+          }
+        ]
+      },
+      {
+        "code": "CF",
+        "display": "Consent Form",
+        "definition":"Consent form",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Formulaire de consentement"
+          }
+        ]
+      }
+    ]
+  }

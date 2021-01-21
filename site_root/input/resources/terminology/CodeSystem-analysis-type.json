@@ -1,0 +1,50 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "analysis-type",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+    "version": "0.1.0",
+    "name": "analysis-type",
+    "title": "Analysis types",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 3,
+    "concept": [
+      {
+        "code": "SA",
+        "display": "Sequencing Alignment Analysis",
+        "definition":"Sequencing alignement analysis",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Alignement de fragments"
+          }
+        ]
+      },
+      {
+        "code": "VC",
+        "display": "Variant Calling Analysis",
+        "definition":"Variant calling analysis",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Identification de variants"
+          }
+        ]
+      },
+      {
+        "code": "QC",
+        "display": "Sequencing QC Analysis",
+        "definition":"Sequencing QC analysis",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Contrôle de qualité de séquençage"
+          }
+        ]
+      }
+    ]
+  }

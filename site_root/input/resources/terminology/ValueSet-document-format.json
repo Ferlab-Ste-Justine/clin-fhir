@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "document-format",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
+    "version": "0.1.0",
+    "name": "document-format",
+    "title": "Document formats",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"
+        }
+      ]
+    }
+  }

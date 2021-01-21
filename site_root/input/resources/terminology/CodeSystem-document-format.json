@@ -1,0 +1,72 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "document-format",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+    "version": "0.1.0",
+    "name": "document-format",
+    "title": "Document formats",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 5,
+    "concept": [
+      {
+        "code": "CRAM",
+        "display": "CRAM File",
+        "definition":"CRAM file",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fichier CRAM"
+          }
+        ]
+      },
+      {
+        "code": "CRAI",
+        "display": "CRAI Index File",
+        "definition":"CRAI index file",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fichier d'index CRAI"
+          }
+        ]
+      },
+      {
+        "code": "VCF",
+        "display": "VCF File",
+        "definition":"VCF file",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fichier VCF"
+          }
+        ]
+      },
+      {
+        "code": "TBI",
+        "display": "TBI Index File",
+        "definition":"TBI index file",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fichier d'index TBI"
+          }
+        ]
+      },
+      {
+        "code": "TGZ",
+        "display": "TGZ Archive File",
+        "definition":"TGZ archive file",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fichier d'archive TGZ"
+          }
+        ]
+      }
+    ]
+  }

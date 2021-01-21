@@ -349,6 +349,198 @@
         "reference": {
           "reference": "StructureDefinition/is-submitted"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition variant-type, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/variant-type",
+        "reference": {
+          "reference": "StructureDefinition/variant-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition document-format, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/document-format",
+        "reference": {
+          "reference": "StructureDefinition/document-format"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition specimen-type, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/specimen-type",
+        "reference": {
+          "reference": "StructureDefinition/specimen-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition data-type, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/data-type",
+        "reference": {
+          "reference": "StructureDefinition/data-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition data-category, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/data-category",
+        "reference": {
+          "reference": "StructureDefinition/data-category"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition genome-build, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/genome-build",
+        "reference": {
+          "reference": "StructureDefinition/genome-build"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition experimental-strategy, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/experimental-strategy",
+        "reference": {
+          "reference": "StructureDefinition/experimental-strategy"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition analysis-type, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/analysis-type",
+        "reference": {
+          "reference": "StructureDefinition/analysis-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem data-category",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/data-category",
+        "reference": {
+          "reference": "CodeSystem/data-category"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet specimen-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/specimen-type",
+        "reference": {
+          "reference": "ValueSet/specimen-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem document-format",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/document-format",
+        "reference": {
+          "reference": "CodeSystem/document-format"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet data-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/data-type",
+        "reference": {
+          "reference": "ValueSet/data-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet data-category",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/data-category",
+        "reference": {
+          "reference": "ValueSet/data-category"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem experimental-strategy",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/experimental-strategy",
+        "reference": {
+          "reference": "CodeSystem/experimental-strategy"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet document-format",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/document-format",
+        "reference": {
+          "reference": "ValueSet/document-format"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem specimen-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/specimen-type",
+        "reference": {
+          "reference": "CodeSystem/specimen-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet experimental-strategy",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/experimental-strategy",
+        "reference": {
+          "reference": "ValueSet/experimental-strategy"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem data-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/data-type",
+        "reference": {
+          "reference": "CodeSystem/data-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet variant-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/variant-type",
+        "reference": {
+          "reference": "ValueSet/variant-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet analysis-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/analysis-type",
+        "reference": {
+          "reference": "ValueSet/analysis-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem variant-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/variant-type",
+        "reference": {
+          "reference": "CodeSystem/variant-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet genome-build",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/genome-build",
+        "reference": {
+          "reference": "ValueSet/genome-build"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem analysis-type",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/analysis-type",
+        "reference": {
+          "reference": "CodeSystem/analysis-type"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem genome-build",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/genome-build",
+        "reference": {
+          "reference": "CodeSystem/genome-build"
+        }
       }
     ]
   },

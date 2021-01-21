@@ -1,0 +1,39 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "experimental-strategy",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+    "version": "0.1.0",
+    "name": "experimental-strategy",
+    "title": "Experimental strategies",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 2,
+    "concept": [
+      {
+        "code": "WXS",
+        "display": "Whole Exome Sequencing",
+        "definition":"Whole Exome Sequencing",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Séquençage d'exome complet"
+          }
+        ]
+      },
+      {
+        "code": "WGS",
+        "display": "Whole Genome Sequencing",
+        "definition":"Whole Genome Sequencing",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Séquençage de génome complet"
+          }
+        ]
+      }
+    ]
+  }

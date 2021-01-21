@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "genome-build",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
+    "version": "0.1.0",
+    "name": "genome-build",
+    "title": "Genome build",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 1,
+    "concept": [
+      {
+        "code": "GRCh38",
+        "display": "GRCh38",
+        "definition":"GRCh38",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"GRCh38"
+          }
+        ]
+      }
+    ]
+  }

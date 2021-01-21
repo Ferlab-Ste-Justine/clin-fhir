@@ -1,0 +1,19 @@
+{
+    "resourceType": "ValueSet",
+    "id": "experimental-strategy",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+    "version": "0.1.0",
+    "name": "experimental-strategy",
+    "title": "Experimental strategies",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,65 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "data-category",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/data-category",
+    "version": "0.1.0",
+    "name": "data-category",
+    "title": "Data categories",
+    "status": "draft",
+    "description": "",
+    "fhirVersion": "4.0.1",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+      {
+        "type": "element",
+        "expression": "Patient"
+      }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Extension",
+          "path": "Extension",
+          "short": "data-category",
+          "definition": "Data categories",
+          "min": 0,
+          "max": "1",
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Extension.extension",
+          "path": "Extension.extension"
+        },
+        {
+          "id": "Extension.url",
+          "path": "Extension.url",
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/data-category"
+        },
+        {
+          "id": "Extension.value[x]",
+          "path": "Extension.value[x]",
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/data-category"
+          }
+        }
+      ]
+    },
+    "date": "2020-08-12T13:29:08-04:00"
+  }

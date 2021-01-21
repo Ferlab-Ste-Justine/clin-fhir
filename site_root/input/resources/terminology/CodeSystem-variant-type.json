@@ -1,0 +1,39 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "variant-type",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
+    "version": "0.1.0",
+    "name": "variant-type",
+    "title": "Variant types",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 2,
+    "concept": [
+      {
+        "code": "S",
+        "display": "Somatic",
+        "definition":"Somatic variant",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Somatique"
+          }
+        ]
+      },
+      {
+        "code": "G",
+        "display": "Germline",
+        "definition":"Germline variant",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Germinale"
+          }
+        ]
+      }
+    ]
+  }
