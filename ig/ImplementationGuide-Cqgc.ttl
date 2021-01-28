@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "CqgcImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Cqgc Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-01-21T15:59:26+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-01-28T15:32:27+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Ferlab.bio"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

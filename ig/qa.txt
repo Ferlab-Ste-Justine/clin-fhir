@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 58, info = 0
-IG Publisher Version: 1.1.35 Out of date - current version is 1.1.57
-Generated Thu Jan 21 16:00:07 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+IG Publisher Version: 1.1.35 Out of date - current version is 1.1.59
+Generated Thu Jan 28 15:33:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
 
  Build Errors : 1 / 1 / 0
  /data/input/ImplementationGuide-Clin : 0 / 0 / 1
