@@ -6,7 +6,7 @@
     "name": "data-type",
     "title": "Data types",
     "status": "draft",
-    "description": "",
+    "description": "A specific classification of data types",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",
     "abstract": false,
@@ -55,7 +55,7 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "",
+            "description": "A specific classification of data types",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/data-type"
           }
         }

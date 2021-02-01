@@ -6,7 +6,7 @@
     "name": "document-format",
     "title": "Document formats",
     "status": "draft",
-    "description": "",
+    "description": "A list of file formats",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",
     "abstract": false,

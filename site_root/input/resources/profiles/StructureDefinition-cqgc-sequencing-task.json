@@ -1,0 +1,99 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "cqgc-sequencing-task",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-task",
+    "version": "0.1.0",
+    "name": "cqgc-sequencing-task",
+    "title": "cqgc Sequencing task",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Sequencing",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Task",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Task",
+          "path": "Task"
+        },
+        {
+            "id": "Task.status",
+            "path": "Task.status",
+            "max": "0"
+        },
+        {
+            "id": "Task.intent",
+            "path": "Task.intent",
+            "max": "0"
+        },
+        {
+            "id": "Task.priority",
+            "path": "Task.priority",
+            "max": "0"
+        },
+        {
+            "id": "Task.focus",
+            "path": "Task.focus",
+            "max": "0"
+        },
+        {
+            "id": "Task.code",
+            "path": "Task.code",
+            "max": "0"
+        },
+        {
+            "id": "Task.for",
+            "path": "Task.for",
+            "max": "0"
+        },
+        {
+            "id": "Task.authoredOn",
+            "path": "Task.authoredOn",
+            "max": "0"
+        },
+        {
+            "id": "Task.owner",
+            "path": "Task.owner",
+            "max": "0"
+        },
+        {
+            "id": "Task.note",
+            "path": "Task.note",
+            "max": "0"
+        },
+        {
+            "id": "Task.input",
+            "path": "Task.input",
+            "max": "0"
+        },
+        {
+            "id": "Task.output",
+            "path": "Task.output",
+            "max": "0"
+        },
+        {
+            "id": "Patient.extension:qc-ethnicity",
+            "path": "Patient.extension",
+            "sliceName": "qc-ethnicity",
+            "sliceIsConstraining": false,
+            "short": "QC Ethnicity Extension",
+            "definition": "Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+            "min": 0,
+            "max": "1",
+            "type": [
+              {
+                "code": "Extension",
+                "profile": [
+                  "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity"
+                ]
+              }
+            ],
+            "mustSupport": true,
+            "isModifier": false
+          },
+      ]
+    },
+    "date": "2020-08-14T12:07:27-04:00"
+  }

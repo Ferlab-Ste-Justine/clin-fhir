@@ -8,7 +8,7 @@
     "status": "draft",
     "experimental": false,
     "publisher": "Ferlab.bio",
-    "description": "",
+    "description": "A list of file formats",
     "caseSensitive": true,
     "content": "complete",
     "count": 5,
@@ -65,6 +65,17 @@
           {
             "language":"fr",
             "value":"Fichier d'archive TGZ"
+          }
+        ]
+      },
+      {
+        "code": "GCVF",
+        "display": "gVCF File",
+        "definition":"gVCF file",
+        "designation":[
+          {
+            "language":"fr",
+            "value":"Fichier gVCF"
           }
         ]
       }

@@ -6,7 +6,7 @@
     "name": "genome-build",
     "title": "Genome build",
     "status": "draft",
-    "description": "",
+    "description": "A list of genome builds",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",
     "abstract": false,
@@ -55,7 +55,7 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "",
+            "description": "A list of genome builds",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build"
           }
         }

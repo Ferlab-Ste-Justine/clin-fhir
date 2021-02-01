@@ -6,7 +6,7 @@
     "name": "analysis-type",
     "title": "Analysis types",
     "status": "draft",
-    "description": "",
+    "description": "A list of sequencing data analyses",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",
     "abstract": false,
@@ -55,7 +55,7 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "",
+            "description": "A list of sequencing data analyses",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type"
           }
         }

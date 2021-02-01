@@ -6,7 +6,7 @@
     "name": "experimental-strategy",
     "title": "Experimental strategies",
     "status": "draft",
-    "description": "",
+    "description": "A list of sequencing experimental strategies",
     "fhirVersion": "4.0.1",
     "kind": "complex-type",
     "abstract": false,
@@ -55,7 +55,7 @@
           ],
           "binding": {
             "strength": "required",
-            "description": "",
+            "description": "A list of sequencing experimental strategies",
             "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy"
           }
         }

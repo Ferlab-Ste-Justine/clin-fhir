@@ -8,7 +8,7 @@
     "status": "draft",
     "experimental": false,
     "publisher": "Ferlab.bio",
-    "description": "",
+    "description": "A specific classification of data types",
     "compose": {
       "include": [
         {
