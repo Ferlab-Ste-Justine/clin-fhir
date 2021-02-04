@@ -1,0 +1,422 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "cqgc-variant-calling-task",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-variant-calling-task",
+    "version": "0.1.0",
+    "name": "cqgc-variant-calling-task",
+    "title": "cqgc variant calling task",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "Sequencing",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Task",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Task",
+          "path": "Task"
+        },
+        {
+          "id": "Task.status",
+          "path": "Task.status",
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Task status",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/task-status"
+          }
+        },
+        {
+            "id": "Task.instantiatesCanonical",
+            "path": "Task.instantiatesCanonical",
+            "max": "0"
+        },
+        {
+            "id": "Task.instantiatesUri",
+            "path": "Task.instantiatesUri",
+            "max": "0"
+        },
+        {
+            "id": "Task.basedOn",
+            "path": "Task.basedOn",
+            "max": "0"
+        },
+        {
+            "id": "Task.groupIdentifier",
+            "path": "Task.groupIdentifier",
+            "max": "0"
+        },
+        {
+            "id": "Task.partOf",
+            "path": "Task.partOf",
+            "max": "0"
+        },
+        {
+            "id": "Task.statusReason",
+            "path": "Task.statusReason",
+            "max": "0"
+        },
+        {
+            "id": "Task.businessStatus",
+            "path": "Task.businessStatus",
+            "max": "0"
+        },
+        {
+          "id": "Task.intent",
+          "path": "Task.intent",
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Task intent",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/task-intent"
+          }
+        },
+        {
+          "id": "Task.priority",
+          "path": "Task.priority",
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Task priority",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/task-priority"
+          }
+        },
+        {
+          "id": "Task.code",
+          "path": "Task.code",
+          "type": [
+            {
+              "code": "CodeableConcept"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Task code",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type"
+          }
+        },
+        {
+            "id": "Task.description",
+            "path": "Task.description",
+            "max": "0"
+        },
+        {
+          "id": "Task.focus",
+          "path": "Task.focus",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+             }
+           ]
+         }
+        },
+        {
+           "id": "Task.for",
+           "path": "Task.for",
+           "slicing": {
+             "discriminator": [
+               {
+                 "type": "value",
+                 "path": "url"
+              }
+            ]
+          }
+        },
+        {
+            "id": "Task.encounter",
+            "path": "Task.encounter",
+            "max": "0"
+        },
+        {
+            "id": "Task.executionPeriod",
+            "path": "Task.executionPeriod",
+            "max": "0"
+        },
+        {
+          "id": "Task.authoredOn",
+          "path": "Task.authoredOn",
+          "sliceName": "Created date",
+          "sliceIsConstraining": false,
+          "label": "creation-date",
+          "short": "Sequencing request creation date",
+          "definition": "Date and time sequencing request was created",
+          "min": "0",
+          "max": "1",
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+            "id": "Task.lastModified",
+            "path": "Task.lastModified",
+            "max": "0"
+        },
+        {
+            "id": "Task.requester",
+            "path": "Task.requester",
+            "max": "0"
+        },
+        {
+            "id": "Task.performerType",
+            "path": "Task.performerType",
+            "max": "0"
+        },
+        {
+          "id": "Task.owner",
+          "path": "Task.owner",
+          "type": [
+            {
+              "code": "CodeableConcept"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Organization",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type"
+          }
+        },
+        {
+            "id": "Task.location",
+            "path": "Task.location",
+            "max": "0"
+        },
+        {
+            "id": "Task.reasonCode",
+            "path": "Task.reasonCode",
+            "max": "0"
+        },
+        {
+            "id": "Task.reasonReference",
+            "path": "Task.reasonReference",
+            "max": "0"
+        },
+        {
+            "id": "Task.insurance",
+            "path": "Task.insurance",
+            "max": "0"
+        },
+        {
+          "id": "Task.note",
+          "path": "Task.note",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          }
+        },
+        {
+            "id": "Task.relevantHistory",
+            "path": "Task.relevantHistory",
+            "max": "0"
+        },
+        {
+            "id": "Task.restriction",
+            "path": "Task.restriction",
+            "max": "0"
+        },
+        {
+          "id": "Task.input",
+          "path": "Task.input",
+          "type": [
+            {
+              "code": "CodeableConcept"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Organization",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type"
+          }
+        },
+        {
+          "id": "Task.output",
+          "path": "Task.output",
+          "type": [
+            {
+              "code": "CodeableConcept"
+            }
+          ],
+          "binding": {
+            "strength": "required",
+            "description": "Organization",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/document-format"
+          }
+        },
+        {
+          "id": "Task.extension",
+          "path": "Task.extension",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          }
+        },
+        {
+          "id": "Task.extension:workflow-name",
+          "path": "Task.extension",
+          "sliceName": "workflow-name",
+          "sliceIsConstraining": false,
+          "short": "Workflow name",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow-name"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Task.extension:workflow-version",
+          "path": "Task.extension",
+          "sliceName": "workflow-version",
+          "sliceIsConstraining": false,
+          "short": "Workflow version",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow-version"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Task.extension:genome-build",
+          "path": "Task.extension",
+          "sliceName": "genome-build",
+          "sliceIsConstraining": false,
+          "short": "Genome build",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/genome-build"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Task.extension:sequencing-experiment",
+          "path": "Task.extension",
+          "sliceName": "sequencing-experimental-strategy",
+          "sliceIsConstraining": false,
+          "short": "Sequencing experimental strategry",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/Sequencing-experiment-strategy"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Task.extension:sequencing-experiment",
+          "path": "Task.extension",
+          "sliceName": "sequencing-experiment-labaliquotid",
+          "sliceIsConstraining": false,
+          "short": "Sequencing experiment lab Aliquot ID",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/Sequencing-experiment"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Task.extension:sequencing-experiment",
+          "path": "Task.extension",
+          "sliceName": "sequencing-experiment-capture-kit",
+          "sliceIsConstraining": false,
+          "short": "Sequencing experiment capture kit",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/Sequencing-experiment"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Task.extension:sequencing-experiment",
+          "path": "Task.extension",
+          "sliceName": "sequencing-experiment-bait-definition",
+          "sliceIsConstraining": false,
+          "short": "Sequencing experiment bait definition",
+          "definition": "",
+          "min": 0,
+          "max": "1",
+          "type": [
+            {
+              "code": "Extension",
+              "profile": [
+                "http://fhir.cqgc.ferlab.bio/StructureDefinition/Sequencing-experiment"
+              ]
+            }
+          ],
+          "mustSupport": true,
+          "isModifier": false
+        }
+      ]
+    },
+    "date": "2020-08-14T12:07:27-04:00"
+  }

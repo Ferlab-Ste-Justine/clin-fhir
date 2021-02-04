@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "documentReference-relatesTo",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/documentReference-relatesTo",
+    "version": "0.1.0",
+    "name": "documentReference-relatesTo",
+    "title": "DocumentReference relatesTo",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Values ​​assigned to the composition status of the document",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-relatesTo"
+        }
+      ]
+    },
+    "date": "2020-08-20T10:53:21-04:00"
+  }

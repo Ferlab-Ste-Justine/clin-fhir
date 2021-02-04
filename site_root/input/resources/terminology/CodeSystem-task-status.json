@@ -1,0 +1,28 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "task-status",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/task-status",
+    "version": "0.1.0",
+    "name": "task-status",
+    "title": "Task status",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 2,
+    "concept": [
+      {
+        "code": "draft",
+        "display": "Draft",
+        "definition":"The task is in progress"
+      },
+      {
+        "code": "completed",
+        "display": "Completed",
+        "definition":"The task was completed"
+      }
+    ],
+    "date": "2020-08-20T10:50:16-04:00"
+  }

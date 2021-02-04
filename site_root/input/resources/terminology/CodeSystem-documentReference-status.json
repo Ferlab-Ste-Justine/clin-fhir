@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "documentReference-status",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-status",
+    "version": "0.1.0",
+    "name": "documentReference-status",
+    "title": "Document reference status",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "This is the current reference for this document",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 1,
+    "concept": [
+      {
+        "code": "current",
+        "display": "Current",
+        "definition":"The task is in progress"
+      }
+    ],
+    "date": "2020-08-20T10:50:16-04:00"
+  }

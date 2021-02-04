@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "task-priority",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/task-priority",
+    "version": "0.1.0",
+    "name": "task-priority",
+    "title": "Task priority",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 1,
+    "concept": [
+      {
+        "code": "routine",
+        "display": "Routine",
+        "definition":"The request has normal priority"
+      }
+    ],
+    "date": "2020-08-20T10:50:16-04:00"
+  }

@@ -1,0 +1,60 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "seq-metrics",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/seq-metrics",
+    "version": "0.1.0",
+    "name": "seq-metrics",
+    "title": "seq metrics",
+    "status": "draft",
+    "description": "Concepts of sequencing metrics",
+    "fhirVersion": "4.0.1",
+    "kind": "complex-type",
+    "abstract": false,
+    "context": [
+      {
+        "type": "element",
+        "expression": "DocumentReference"
+      }
+    ],
+    "type": "Extension",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "Extension",
+          "path": "Extension",
+          "short": "seq metrics",
+          "definition": "Sequencing metrics",
+          "min": 0,
+          "max": "n",
+          "mustSupport": true,
+          "isModifier": false
+        },
+        {
+          "id": "Extension.extension",
+          "path": "Extension.extension"
+        },
+        {
+          "id": "Extension.url",
+          "path": "Extension.url",
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/seq-metrics"
+        },
+        {
+          "id": "Extension.value[x]",
+          "path": "Extension.value[x]",
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ]
+        }
+      ]
+    },
+    "date": "2020-08-12T13:29:08-04:00"
+  }

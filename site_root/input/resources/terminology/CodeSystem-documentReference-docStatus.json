@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "documentReference-docStatus",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-docStatus",
+    "version": "0.1.0",
+    "name": "documentReference-docStatus",
+    "title": "Document reference composition status",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "This is the state of the document's composition",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 1,
+    "concept": [
+      {
+        "code": "final",
+        "display": "Final",
+        "definition":"The composition of this document is final"
+      }
+    ],
+    "date": "2020-08-20T10:50:16-04:00"
+  }

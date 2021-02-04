@@ -1,0 +1,164 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "cqgc-document-reference-cram",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-document-reference-cram",
+    "version": "0.1.0",
+    "name": "cqgc-document-reference-cram",
+    "title": "cqgc document reference cram",
+    "status": "draft",
+    "fhirVersion": "4.0.1",
+    "kind": "resource",
+    "abstract": false,
+    "type": "DocumentReference",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+    "derivation": "constraint",
+    "differential": {
+      "element": [
+        {
+          "id": "DocumentReference",
+          "path": "DocumentReference"
+        },
+        {
+          "id": "documentReference.status",
+          "path": "documentReference.status",
+          "binding": {
+            "strength": "required",
+            "description": "DocumentReference status",
+            "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/documentReference-status"
+          }
+        },
+        {
+            "id": "DocumentReference.docStatus",
+            "path": "DocumentReference.docStatus",
+            "binding": {
+              "strength": "required",
+              "description": "DocumentReference doc status",
+              "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/DocumentReference-docStatus"
+            }
+        },
+        {
+            "id": "DocumentReference.type",
+            "path": "DocumentReference.type",
+            "type": [
+                { 
+                "code": "CodeableConcept"
+                }
+            ],
+            "binding": {
+                "strength": "required",
+                "description": "DocumentReference types",
+                "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/data-type"
+            }
+        },
+        {
+            "id": "DocumentReference.category",
+            "path": "DocumentReference.category",
+            "type": [
+                { 
+                "code": "CodeableConcept"
+                }
+            ],
+            "binding": {
+                "strength": "required",
+                "description": "DocumentReference categories",
+                "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/data-category"
+            }
+        },
+        {
+            "id": "DocumentReference.subject",
+            "path": "DocumentReference.subject",
+            "slicing": {
+              "discriminator": [
+                {
+                  "type": "reference"
+                }
+              ],
+              "ordered": false,
+              "rules": "open"
+            }
+        },
+        {
+            "id": "DocumentReference.date",
+            "path": "DocumentReference.date",
+            "slicing": {
+              "discriminator": [
+                {
+                  "type": "date"
+                }
+              ],
+              "ordered": false,
+              "rules": "open"
+            }
+        },                 
+        {
+            "id": "DocumentReference.author",
+            "path": "DocumentReference.author",
+            "max": "0"
+        },
+        {
+            "id": "DocumentReference.authenticator",
+            "path": "DocumentReference.authenticator",
+            "max": "0"
+        },
+        {
+            "id": "DocumentReference.custodian",
+            "path": "DocumentReference.custodian",
+            "slicing": {
+              "discriminator": [
+                {
+                  "type": "reference"
+                }
+              ],
+              "ordered": false,
+              "rules": "open"
+            }
+        },
+        {
+            "id": "DocumentReference.securityLabel",
+            "path": "DocumentReference.securityLabel",
+            "type": [
+                { 
+                "code": "CodeableConcept"
+                }
+            ],
+            "binding": {
+                "strength": "required",
+                "description": "DocumentReference security labels",
+                "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/v3-Confidentiality"
+            }
+        },
+        {
+            "id": "DocumentReference.content",
+            "path": "DocumentReference.content",
+            "binding": {
+                "strength": "required",
+                "description": "DocumentReference attachments' contents",
+                "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/document-format"
+            }
+        },
+        {
+          "id": "DocumentReference.context",
+          "path": "DocumentReference.context",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "reference"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          }
+      },
+        {
+            "id": "DocumentReference.relatesTo",
+            "path": "DocumentReference.relatesTo",
+            "binding": {
+                "strength": "required",
+                "description": "DocumentReference related to files",
+                "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/documentReference-relatesTo"
+              }
+        }
+      ]
+    },
+    "date": "2020-08-14T12:07:27-04:00"
+  }

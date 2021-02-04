@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "documentReference-status",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/documentReference-status",
+    "version": "0.1.0",
+    "name": "documentReference-status",
+    "title": "Document reference status",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Values ​​assigned to the document status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-status"
+        }
+      ]
+    },
+    "date": "2020-08-20T10:53:21-04:00"
+  }

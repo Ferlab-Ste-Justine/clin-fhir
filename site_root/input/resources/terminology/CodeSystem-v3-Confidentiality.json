@@ -1,0 +1,48 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "v3-Confidentiality",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/v3-Confidentiality",
+    "version": "0.1.0",
+    "name": "v3-Confidentiality",
+    "title": "Confidentiality v3",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 6,
+    "concept": [
+      {
+        "code": "low",
+        "display": "Low",
+        "definition":"Privacy metadata indicating that the information has been de-identified, and there are mitigating circumstances that prevent re-identification"
+      }
+      {
+        "code": "moderate",
+        "display": "Moderate",
+        "definition":"Privacy metadata indicating moderately sensitive information"
+      }
+      {
+        "code": "normal",
+        "display": "Normal",
+        "definition":"Privacy metadata indicating that the information is typical"
+      }
+      {
+        "code": "restricted",
+        "display": "Restricted",
+        "definition":"Privacy metadata indicating highly sensitive, potentially stigmatizing information"
+      }
+      {
+        "code": "unrestricted",
+        "display": "Unrestricted",
+        "definition":"Privacy metadata indicating that the information is not classified as sensitive"
+      }
+      {
+        "code": "very restricted",
+        "display": "Very restricted",
+        "definition":"Privacy metadata indicating that the information is extremely sensitive and likely stigmatizing health information that presents a very high risk if disclosed without authorization. This information must be kept in the highest confidence"
+      }
+    ],
+    "date": "2020-08-20T10:50:16-04:00"
+  }

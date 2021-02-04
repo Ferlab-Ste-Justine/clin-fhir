@@ -1,0 +1,20 @@
+{
+    "resourceType": "ValueSet",
+    "id": "task-priority",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/task-priority",
+    "version": "0.1.0",
+    "name": "task-priority",
+    "title": "Task priority",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "Ferlab.bio",
+    "description": "Values ​​assigned to the task priority",
+    "compose": {
+      "include": [
+        {
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/task-priority"
+        }
+      ]
+    },
+    "date": "2020-08-20T10:53:21-04:00"
+  }
