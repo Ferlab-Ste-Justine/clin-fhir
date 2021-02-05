@@ -3,9 +3,9 @@
   "name": "CqgcImplementationGuide",
   "package-id": "cqgc",
   "ig-ver": "0.1.0",
-  "date": "Thu, 28 Jan, 2021 15:32:27 +0000",
+  "date": "Fri, 05 Feb, 2021 12:09:36 +0000",
   "errs": 0,
-  "warnings": 58,
+  "warnings": 61,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.5.0 (3)"

@@ -147,6 +147,13 @@
     "name": "family-id"
   },
   {
+    "id": "family-relation",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation",
+    "version": "0.1.0",
+    "name": "family-relation"
+  },
+  {
     "id": "fm-structure",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure",
@@ -159,6 +166,13 @@
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
     "version": "0.1.0",
     "name": "hpo-category"
+  },
+  {
+    "id": "is-fetus",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-fetus",
+    "version": "0.1.0",
+    "name": "is-fetus"
   },
   {
     "id": "is-proband",

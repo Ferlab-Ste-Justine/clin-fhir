@@ -1,9 +1,9 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 0, warn = 58, info = 0
+err = 0, warn = 61, info = 0
 IG Publisher Version: 1.1.35 Out of date - current version is 1.1.59
-Generated Thu Jan 28 15:33:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+Generated Fri Feb 05 12:10:23 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
 
  Build Errors : 1 / 1 / 0
  /data/input/ImplementationGuide-Clin : 0 / 0 / 1
@@ -11,8 +11,10 @@ Generated Thu Jan 28 15:33:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /data/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-blood-relationship : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-family-id : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-fm-structure : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-hpo-category : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-is-fetus : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-is-proband : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-is-submitted : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-qc-ethnicity : 0 / 2 / 1
@@ -65,6 +67,10 @@ WARNING: StructureDefinition/blood-relationship: StructureDefinition: sdf-0: Nam
 INFORMATION: StructureDefinition/family-id: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/family-id: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id'): The Implementation Guide contains no examples for this profile
+== /data/input/resources/extensions/StructureDefinition-family-relation.json ==
+INFORMATION: StructureDefinition/family-relation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/family-relation: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-fm-structure.json ==
 INFORMATION: StructureDefinition/fm-structure: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/fm-structure: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -73,6 +79,9 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 INFORMATION: StructureDefinition/hpo-category: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/hpo-category: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category'): The Implementation Guide contains no examples for this extension
+== /data/input/resources/extensions/StructureDefinition-is-fetus.json ==
+INFORMATION: StructureDefinition/is-fetus: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/is-fetus: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/extensions/StructureDefinition-is-proband.json ==
 INFORMATION: StructureDefinition/is-proband: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/is-proband: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
