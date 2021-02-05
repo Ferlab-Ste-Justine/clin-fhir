@@ -1,5 +1,5 @@
 "Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"Extension","","","",0,*,"Y","","","","Patients de la même famille","Patients de la même famille.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+"Extension","","","",0,*,"Y","","","","Patient from the same family","Patient from the same family.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -10,7 +10,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension","subject","","",0,1,"","","","Extension {[]} {[]}
-","Reference to the related entity","Reference to the related entity (Patient | Person).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Reference to the related patient (membre de la famille)","Reference to the related patient or person (Patient | Person).","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -37,7 +37,7 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension","relation","","",0,1,"","","","Extension {[]} {[]}
-","Type of the related entity","Type of the related entity.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Type of the relationship with the related patient","Type of the relationship with the related patient.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"

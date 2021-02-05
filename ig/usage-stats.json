@@ -205,7 +205,7 @@
     },
     {
       "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-fetus",
-      "title": "Patient is fetus",
+      "title": "Patient is a fetus",
       "types": [
         "boolean"
       ]

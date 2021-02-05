@@ -12,9 +12,9 @@
   <url value="http://fhir.cqgc.ferlab.bio/StructureDefinition/is-fetus"/>
   <version value="0.1.0"/>
   <name value="is-fetus"/>
-  <title value="Patient is fetus"/>
+  <title value="Patient is a fetus"/>
   <status value="draft"/>
-  <date value="2020-08-12T13:29:08-04:00"/>
+  <date value="2021-02-05T13:19:16+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>

@@ -8,9 +8,9 @@
   "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-fetus",
   "version": "0.1.0",
   "name": "is-fetus",
-  "title": "Patient is fetus",
+  "title": "Patient is a fetus",
   "status": "draft",
-  "date": "2020-08-12T13:29:08-04:00",
+  "date": "2021-02-05T13:19:16+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
