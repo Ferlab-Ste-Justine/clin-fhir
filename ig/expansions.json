@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "298909c6-d9aa-4782-a51a-2ecedf72953c",
+  "id" : "dc46326d-40cb-471d-b90d-25a1118209ad",
   "meta" : {
-    "lastUpdated" : "2021-02-05T13:19:16.399+00:00"
+    "lastUpdated" : "2021-02-12T15:22:49.903+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -31,8 +31,8 @@
       }],
       "description" : "Values ​​assigned to relationship fields",
       "expansion" : {
-        "identifier" : "urn:uuid:91419b9d-e717-4da8-8444-7cb697ccef5e",
-        "timestamp" : "2021-02-05T13:19:33+00:00",
+        "identifier" : "urn:uuid:9eab8e3a-6530-4423-a4c2-674cea5b3681",
+        "timestamp" : "2021-02-12T15:23:06+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -179,7 +179,7 @@
       "title" : "Qc ethnicity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-05T13:19:16+00:00",
+      "date" : "2021-02-12T15:22:49+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -190,8 +190,8 @@
       }],
       "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
       "expansion" : {
-        "identifier" : "urn:uuid:867b7b52-f99f-4a76-8b29-4ec41add831c",
-        "timestamp" : "2021-02-05T13:19:34+00:00",
+        "identifier" : "urn:uuid:350ec9b7-efc8-4a1c-b87e-6b2bd8c1374f",
+        "timestamp" : "2021-02-12T15:23:07+00:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -264,7 +264,7 @@
       "title" : "observation code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-05T13:19:16+00:00",
+      "date" : "2021-02-12T15:22:49+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -275,8 +275,8 @@
       }],
       "description" : "Codes of observations in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:b6010503-bf05-4189-95d6-3608163e5ae1",
-        "timestamp" : "2021-02-05T13:19:36+00:00",
+        "identifier" : "urn:uuid:7dc49ef4-9467-47a3-b56c-ba542a231278",
+        "timestamp" : "2021-02-12T15:23:08+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -316,7 +316,7 @@
       "id" : "service-request-code",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-service-request-code.html\">service request code v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-service-request-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-WXS\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-WXS\">WXS</a></td><td>Whole Exome Sequencing</td><td>Process of determining the complete DNA sequence of the genome at a single time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-WGS\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-WGS\">WGS</a></td><td>Whole Genome Sequencing</td><td>Process of determining all of the exons within the genome sequence at a single time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-GP\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-GP\">GP</a></td><td>Gene Panel</td><td>Process of determining the complete sequences of the indicated gene panel at a single time</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 18 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-service-request-code.html\">service request code v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-service-request-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-WXS\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-WXS\">WXS</a></td><td>Whole Exome Sequencing</td><td>Process of determining the complete DNA sequence of the genome at a single time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-WGS\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-WGS\">WGS</a></td><td>Whole Genome Sequencing</td><td>Process of determining all of the exons within the genome sequence at a single time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-GP\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-GP\">GP</a></td><td>Gene Panel</td><td>Process of determining the complete sequences of the indicated gene panel at a single time</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-PCA\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-PCA\">PCA</a></td><td>Prédisposition aux cancers chez l'adulte</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-PTSE\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-PTSE\">PTSE</a></td><td>Prédisposition aux tumeurs solides de l'enfant</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-PHME\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-PHME\">PHME</a></td><td>Prédisposition aux hématopathies malignes de l'enfant</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SED\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-SED\">SED</a></td><td>Syndrome d’Ehlers-Danlos</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SP\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-SP\">SP</a></td><td>Syndromes polymalformatifs (trio)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-MM\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-MM\">MM</a></td><td>Maladies musculaires</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SLA\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-SLA\">SLA</a></td><td>Sclérose latérale amyotrophique</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-RET\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-RET\">RET</a></td><td>Retinopathies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SUR\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-SUR\">SUR</a></td><td>Surdité</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-DI\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-DI\">DI</a></td><td>Déficience Intellectuelle (trio)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-GMN\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-GMN\">GMN</a></td><td>Gènes mitochondriaux nucléaires</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-RAS\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-RAS\">RAS</a></td><td>Rasopathies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-CAR\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-CAR\">CAR</a></td><td>Cardiomyopathies</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-AH\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-AH\">AH</a></td><td>Arythmies héréditaires</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-AOR\"> </a><a href=\"CodeSystem-service-request-code.html#service-request-code-AOR\">AOR</a></td><td>Aortopathies</td><td/></tr></table></div>"
       },
       "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code",
       "version" : "0.1.0",
@@ -324,7 +324,7 @@
       "title" : "Service request code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-05T13:19:16+00:00",
+      "date" : "2021-02-12T15:22:49+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -335,9 +335,9 @@
       }],
       "description" : "Codes of service request in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:25e8185a-9f21-4674-af98-18122c89723f",
-        "timestamp" : "2021-02-05T13:19:36+00:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:62b03d41-3ed3-4005-a53d-d8ac56783946",
+        "timestamp" : "2021-02-12T15:23:09+00:00",
+        "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -360,6 +360,81 @@
           "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
           "code" : "GP",
           "display" : "Gene Panel"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "PCA",
+          "display" : "Prédisposition aux cancers chez l'adulte"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "PTSE",
+          "display" : "Prédisposition aux tumeurs solides de l'enfant"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "PHME",
+          "display" : "Prédisposition aux hématopathies malignes de l'enfant"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "SED",
+          "display" : "Syndrome d’Ehlers-Danlos"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "SP",
+          "display" : "Syndromes polymalformatifs (trio)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "MM",
+          "display" : "Maladies musculaires"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "SLA",
+          "display" : "Sclérose latérale amyotrophique"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "RET",
+          "display" : "Retinopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "SUR",
+          "display" : "Surdité"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "DI",
+          "display" : "Déficience Intellectuelle (trio)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "GMN",
+          "display" : "Gènes mitochondriaux nucléaires"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "RAS",
+          "display" : "Rasopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "CAR",
+          "display" : "Cardiomyopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "AH",
+          "display" : "Arythmies héréditaires"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
+          "code" : "AOR",
+          "display" : "Aortopathies"
         }]
       }
     }
@@ -379,7 +454,7 @@
       "title" : "Blood relationship",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-05T13:19:16+00:00",
+      "date" : "2021-02-12T15:22:49+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -390,8 +465,8 @@
       }],
       "description" : "This field gives us information if the parents of the patient are inbred",
       "expansion" : {
-        "identifier" : "urn:uuid:745c9e02-f32b-4ead-b380-767042ad0d13",
-        "timestamp" : "2021-02-05T13:19:36+00:00",
+        "identifier" : "urn:uuid:610c6dbd-5b1d-4053-a7a9-552e0c60fa86",
+        "timestamp" : "2021-02-12T15:23:09+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -445,8 +520,8 @@
       }],
       "description" : "This field gives possible valueSet of the family structure",
       "expansion" : {
-        "identifier" : "urn:uuid:27d80440-bd42-4bf3-aae4-94c679ca4a8f",
-        "timestamp" : "2021-02-05T13:19:37+00:00",
+        "identifier" : "urn:uuid:31b3281a-030e-47bd-b90f-24df440ac473",
+        "timestamp" : "2021-02-12T15:23:09+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -535,8 +610,8 @@
       }],
       "description" : "Types of organization",
       "expansion" : {
-        "identifier" : "urn:uuid:dc3b0341-99b3-460e-8c9d-281b71bff487",
-        "timestamp" : "2021-02-05T13:19:37+00:00",
+        "identifier" : "urn:uuid:5863c7fd-9923-447f-8221-de013f0b15d0",
+        "timestamp" : "2021-02-12T15:23:10+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -599,8 +674,8 @@
       }],
       "description" : "Values ​​assigned to the request status",
       "expansion" : {
-        "identifier" : "urn:uuid:79af83e7-62ae-4e9a-9385-90ae859d4eee",
-        "timestamp" : "2021-02-05T13:19:37+00:00",
+        "identifier" : "urn:uuid:cfc511cf-dba8-4e9a-8284-7ac79d1c9f15",
+        "timestamp" : "2021-02-12T15:23:10+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",

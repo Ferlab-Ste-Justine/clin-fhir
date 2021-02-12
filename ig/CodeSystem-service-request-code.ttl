@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "service-request-code"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"service-request-code-WXS\"> </a></td><td>Whole Exome Sequencing</td><td>Process of determining the complete DNA sequence of the genome at a single time</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"service-request-code-WGS\"> </a></td><td>Whole Genome Sequencing</td><td>Process of determining all of the exons within the genome sequence at a single time</td></tr><tr><td style=\"white-space:nowrap\">GP<a name=\"service-request-code-GP\"> </a></td><td>Gene Panel</td><td>Process of determining the complete sequences of the indicated gene panel at a single time</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>WXS</td><td>Séquençage du Génome Entier</td></tr><tr><td>WGS</td><td>Séquençage de l'Exome Entier</td></tr><tr><td>GP</td><td>Panel de Gènes</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"service-request-code-WXS\"> </a></td><td>Whole Exome Sequencing</td><td>Process of determining the complete DNA sequence of the genome at a single time</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"service-request-code-WGS\"> </a></td><td>Whole Genome Sequencing</td><td>Process of determining all of the exons within the genome sequence at a single time</td></tr><tr><td style=\"white-space:nowrap\">GP<a name=\"service-request-code-GP\"> </a></td><td>Gene Panel</td><td>Process of determining the complete sequences of the indicated gene panel at a single time</td></tr><tr><td style=\"white-space:nowrap\">PCA<a name=\"service-request-code-PCA\"> </a></td><td>Prédisposition aux cancers chez l'adulte</td><td/></tr><tr><td style=\"white-space:nowrap\">PTSE<a name=\"service-request-code-PTSE\"> </a></td><td>Prédisposition aux tumeurs solides de l'enfant</td><td/></tr><tr><td style=\"white-space:nowrap\">PHME<a name=\"service-request-code-PHME\"> </a></td><td>Prédisposition aux hématopathies malignes de l'enfant</td><td/></tr><tr><td style=\"white-space:nowrap\">SED<a name=\"service-request-code-SED\"> </a></td><td>Syndrome d’Ehlers-Danlos</td><td/></tr><tr><td style=\"white-space:nowrap\">SP<a name=\"service-request-code-SP\"> </a></td><td>Syndromes polymalformatifs (trio)</td><td/></tr><tr><td style=\"white-space:nowrap\">MM<a name=\"service-request-code-MM\"> </a></td><td>Maladies musculaires</td><td/></tr><tr><td style=\"white-space:nowrap\">SLA<a name=\"service-request-code-SLA\"> </a></td><td>Sclérose latérale amyotrophique</td><td/></tr><tr><td style=\"white-space:nowrap\">RET<a name=\"service-request-code-RET\"> </a></td><td>Retinopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">SUR<a name=\"service-request-code-SUR\"> </a></td><td>Surdité</td><td/></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience Intellectuelle (trio)</td><td/></tr><tr><td style=\"white-space:nowrap\">GMN<a name=\"service-request-code-GMN\"> </a></td><td>Gènes mitochondriaux nucléaires</td><td/></tr><tr><td style=\"white-space:nowrap\">RAS<a name=\"service-request-code-RAS\"> </a></td><td>Rasopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">CAR<a name=\"service-request-code-CAR\"> </a></td><td>Cardiomyopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">AH<a name=\"service-request-code-AH\"> </a></td><td>Arythmies héréditaires</td><td/></tr><tr><td style=\"white-space:nowrap\">AOR<a name=\"service-request-code-AOR\"> </a></td><td>Aortopathies</td><td/></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>WXS</td><td>Séquençage du Génome Entier</td></tr><tr><td>WGS</td><td>Séquençage de l'Exome Entier</td></tr><tr><td>GP</td><td>Panel de Gènes</td></tr><tr><td>PCA</td><td>Prédisposition aux cancers chez l'adulte</td></tr><tr><td>PTSE</td><td>Prédisposition aux tumeurs solides de l'enfant</td></tr><tr><td>PHME</td><td>Prédisposition aux hématopathies malignes de l'enfant</td></tr><tr><td>SED</td><td>Syndrome d’Ehlers-Danlos</td></tr><tr><td>SP</td><td>Syndromes polymalformatifs (trio)</td></tr><tr><td>MM</td><td>Maladies musculaires</td></tr><tr><td>SLA</td><td>Sclérose latérale amyotrophique</td></tr><tr><td>RET</td><td>Retinopathies</td></tr><tr><td>SUR</td><td>Surdité</td></tr><tr><td>DI</td><td>Déficience Intellectuelle (trio)</td></tr><tr><td>GMN</td><td>Gènes mitochondriaux nucléaires</td></tr><tr><td>RAS</td><td>Rasopathies</td></tr><tr><td>CAR</td><td>Cardiomyopathies</td></tr><tr><td>AH</td><td>Arythmies héréditaires</td></tr><tr><td>AOR</td><td>Aortopathies</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "service request code"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2021-02-05T13:19:16+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-02-12T15:22:49+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -32,7 +32,6 @@
   fhir:CodeSystem.description [ fhir:value "Codes of service request in our system"];
   fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "WXS" ];
@@ -62,6 +61,141 @@
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
        fhir:CodeSystem.concept.designation.value [ fhir:value "Panel de Gènes" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "PCA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prédisposition aux cancers chez l'adulte" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Prédisposition aux cancers chez l'adulte" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "PTSE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prédisposition aux tumeurs solides de l'enfant" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Prédisposition aux tumeurs solides de l'enfant" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "PHME" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prédisposition aux hématopathies malignes de l'enfant" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Prédisposition aux hématopathies malignes de l'enfant" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "SED" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Syndrome d’Ehlers-Danlos" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Syndrome d’Ehlers-Danlos" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "SP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Syndromes polymalformatifs (trio)" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Syndromes polymalformatifs (trio)" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "MM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Maladies musculaires" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Maladies musculaires" ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "SLA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sclérose latérale amyotrophique" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Sclérose latérale amyotrophique" ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "RET" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Retinopathies" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Retinopathies" ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "SUR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Surdité" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Surdité" ]
+     ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "DI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Déficience Intellectuelle (trio)" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Déficience Intellectuelle (trio)" ]
+     ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "GMN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gènes mitochondriaux nucléaires" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Gènes mitochondriaux nucléaires" ]
+     ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "RAS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Rasopathies" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Rasopathies" ]
+     ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "CAR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cardiomyopathies" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Cardiomyopathies" ]
+     ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "AH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Arythmies héréditaires" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Arythmies héréditaires" ]
+     ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "AOR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Aortopathies" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Aortopathies" ]
      ]
   ] .
 

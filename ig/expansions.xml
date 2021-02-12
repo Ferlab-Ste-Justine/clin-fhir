@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="298909c6-d9aa-4782-a51a-2ecedf72953c"/>
+  <id value="dc46326d-40cb-471d-b90d-25a1118209ad"/>
   <meta>
-    <lastUpdated value="2021-02-05T13:19:16.399+00:00"/>
+    <lastUpdated value="2021-02-12T15:22:49.903+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -268,8 +268,8 @@
         </contact>
         <description value="Values &#x200B;&#x200B;assigned to relationship fields"/>
         <expansion>
-          <identifier value="urn:uuid:91419b9d-e717-4da8-8444-7cb697ccef5e"/>
-          <timestamp value="2021-02-05T13:19:33+00:00"/>
+          <identifier value="urn:uuid:9eab8e3a-6530-4423-a4c2-674cea5b3681"/>
+          <timestamp value="2021-02-12T15:23:06+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -512,7 +512,7 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-02-05T13:19:16+00:00"/>
+        <date value="2021-02-12T15:22:49+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -523,8 +523,8 @@
         </contact>
         <description value="Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"/>
         <expansion>
-          <identifier value="urn:uuid:867b7b52-f99f-4a76-8b29-4ec41add831c"/>
-          <timestamp value="2021-02-05T13:19:34+00:00"/>
+          <identifier value="urn:uuid:350ec9b7-efc8-4a1c-b87e-6b2bd8c1374f"/>
+          <timestamp value="2021-02-12T15:23:07+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -653,7 +653,7 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-02-05T13:19:16+00:00"/>
+        <date value="2021-02-12T15:22:49+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -664,8 +664,8 @@
         </contact>
         <description value="Codes of observations in our system"/>
         <expansion>
-          <identifier value="urn:uuid:b6010503-bf05-4189-95d6-3608163e5ae1"/>
-          <timestamp value="2021-02-05T13:19:36+00:00"/>
+          <identifier value="urn:uuid:7dc49ef4-9467-47a3-b56c-ba542a231278"/>
+          <timestamp value="2021-02-12T15:23:08+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -707,7 +707,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 18 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-service-request-code.html">service request code v0.1.0 (CodeSystem)</a>
             </p>
@@ -752,6 +752,126 @@
                 <td>Gene Panel</td>
                 <td>Process of determining the complete sequences of the indicated gene panel at a single time</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-PCA"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-PCA">PCA</a>
+                </td>
+                <td>Prédisposition aux cancers chez l&#39;adulte</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-PTSE"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-PTSE">PTSE</a>
+                </td>
+                <td>Prédisposition aux tumeurs solides de l&#39;enfant</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-PHME"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-PHME">PHME</a>
+                </td>
+                <td>Prédisposition aux hématopathies malignes de l&#39;enfant</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SED"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-SED">SED</a>
+                </td>
+                <td>Syndrome d’Ehlers-Danlos</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SP"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-SP">SP</a>
+                </td>
+                <td>Syndromes polymalformatifs (trio)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-MM"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-MM">MM</a>
+                </td>
+                <td>Maladies musculaires</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SLA"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-SLA">SLA</a>
+                </td>
+                <td>Sclérose latérale amyotrophique</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-RET"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-RET">RET</a>
+                </td>
+                <td>Retinopathies</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-SUR"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-SUR">SUR</a>
+                </td>
+                <td>Surdité</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-DI"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-DI">DI</a>
+                </td>
+                <td>Déficience Intellectuelle (trio)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-GMN"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-GMN">GMN</a>
+                </td>
+                <td>Gènes mitochondriaux nucléaires</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-RAS"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-RAS">RAS</a>
+                </td>
+                <td>Rasopathies</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-CAR"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-CAR">CAR</a>
+                </td>
+                <td>Cardiomyopathies</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-AH"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-AH">AH</a>
+                </td>
+                <td>Arythmies héréditaires</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-service-request-code-AOR"> </a>
+                  <a href="CodeSystem-service-request-code.html#service-request-code-AOR">AOR</a>
+                </td>
+                <td>Aortopathies</td>
+                <td/>
+              </tr>
             </table>
           </div>
         </text>
@@ -761,7 +881,7 @@
         <title value="Service request code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-02-05T13:19:16+00:00"/>
+        <date value="2021-02-12T15:22:49+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -772,9 +892,9 @@
         </contact>
         <description value="Codes of service request in our system"/>
         <expansion>
-          <identifier value="urn:uuid:25e8185a-9f21-4674-af98-18122c89723f"/>
-          <timestamp value="2021-02-05T13:19:36+00:00"/>
-          <total value="3"/>
+          <identifier value="urn:uuid:62b03d41-3ed3-4005-a53d-d8ac56783946"/>
+          <timestamp value="2021-02-12T15:23:09+00:00"/>
+          <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -797,6 +917,81 @@
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="GP"/>
             <display value="Gene Panel"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="PCA"/>
+            <display value="Pr&#xE9;disposition aux cancers chez l&#39;adulte"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="PTSE"/>
+            <display value="Pr&#xE9;disposition aux tumeurs solides de l&#39;enfant"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="PHME"/>
+            <display value="Pr&#xE9;disposition aux h&#xE9;matopathies malignes de l&#39;enfant"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="SED"/>
+            <display value="Syndrome d&#x2019;Ehlers-Danlos"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="SP"/>
+            <display value="Syndromes polymalformatifs (trio)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="MM"/>
+            <display value="Maladies musculaires"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="SLA"/>
+            <display value="Scl&#xE9;rose lat&#xE9;rale amyotrophique"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="RET"/>
+            <display value="Retinopathies"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="SUR"/>
+            <display value="Surdit&#xE9;"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="DI"/>
+            <display value="D&#xE9;ficience Intellectuelle (trio)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="GMN"/>
+            <display value="G&#xE8;nes mitochondriaux nucl&#xE9;aires"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="RAS"/>
+            <display value="Rasopathies"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="CAR"/>
+            <display value="Cardiomyopathies"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="AH"/>
+            <display value="Arythmies h&#xE9;r&#xE9;ditaires"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
+            <code value="AOR"/>
+            <display value="Aortopathies"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -864,7 +1059,7 @@
         <title value="Blood relationship"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-02-05T13:19:16+00:00"/>
+        <date value="2021-02-12T15:22:49+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -875,8 +1070,8 @@
         </contact>
         <description value="This field gives us information if the parents of the patient are inbred"/>
         <expansion>
-          <identifier value="urn:uuid:745c9e02-f32b-4ead-b380-767042ad0d13"/>
-          <timestamp value="2021-02-05T13:19:36+00:00"/>
+          <identifier value="urn:uuid:610c6dbd-5b1d-4053-a7a9-552e0c60fa86"/>
+          <timestamp value="2021-02-12T15:23:09+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1034,8 +1229,8 @@
         </contact>
         <description value="This field gives possible valueSet of the family structure"/>
         <expansion>
-          <identifier value="urn:uuid:27d80440-bd42-4bf3-aae4-94c679ca4a8f"/>
-          <timestamp value="2021-02-05T13:19:37+00:00"/>
+          <identifier value="urn:uuid:31b3281a-030e-47bd-b90f-24df440ac473"/>
+          <timestamp value="2021-02-12T15:23:09+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1190,8 +1385,8 @@
         </contact>
         <description value="Types of organization"/>
         <expansion>
-          <identifier value="urn:uuid:dc3b0341-99b3-460e-8c9d-281b71bff487"/>
-          <timestamp value="2021-02-05T13:19:37+00:00"/>
+          <identifier value="urn:uuid:5863c7fd-9923-447f-8221-de013f0b15d0"/>
+          <timestamp value="2021-02-12T15:23:10+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1347,8 +1542,8 @@
         </contact>
         <description value="Values &#x200B;&#x200B;assigned to the request status"/>
         <expansion>
-          <identifier value="urn:uuid:79af83e7-62ae-4e9a-9385-90ae859d4eee"/>
-          <timestamp value="2021-02-05T13:19:37+00:00"/>
+          <identifier value="urn:uuid:cfc511cf-dba8-4e9a-8284-7ac79d1c9f15"/>
+          <timestamp value="2021-02-12T15:23:10+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
