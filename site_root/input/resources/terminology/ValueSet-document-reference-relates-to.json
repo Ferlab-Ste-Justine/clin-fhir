@@ -1,9 +1,9 @@
 {
     "resourceType": "ValueSet",
-    "id": "documentReference-relatesTo",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/documentReference-relatesTo",
+    "id": "document-reference-relates-to",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/document-reference-relates-to",
     "version": "0.1.0",
-    "name": "documentReference-relatesTo",
+    "name": "document-reference-relates-to",
     "title": "DocumentReference relatesTo",
     "status": "draft",
     "experimental": false,
@@ -12,7 +12,7 @@
     "compose": {
       "include": [
         {
-          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-relatesTo"
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-reference-relates-to"
         }
       ]
     },

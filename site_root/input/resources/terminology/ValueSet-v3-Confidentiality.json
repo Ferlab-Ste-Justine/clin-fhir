@@ -1,10 +1,10 @@
 {
     "resourceType": "ValueSet",
-    "id": "v3-Confidentiality",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/v3-Confidentiality",
+    "id": "v3-confidentiality",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/v3-confidentiality",
     "version": "0.1.0",
-    "name": "v3-Confidentiality",
-    "title": "v3 Confidentiality",
+    "name": "v3-confidentiality",
+    "title": "v3 confidentiality",
     "status": "draft",
     "experimental": false,
     "publisher": "Ferlab.bio",
@@ -12,7 +12,7 @@
     "compose": {
       "include": [
         {
-          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/v3-Confidentiality"
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/v3-confidentiality"
         }
       ]
     },

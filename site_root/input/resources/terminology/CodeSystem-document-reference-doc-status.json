@@ -1,9 +1,9 @@
 {
     "resourceType": "CodeSystem",
-    "id": "documentReference-docStatus",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-docStatus",
+    "id": "document-reference-doc-status",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-reference-doc-status",
     "version": "0.1.0",
-    "name": "documentReference-docStatus",
+    "name": "document-reference-doc-status",
     "title": "Document reference composition status",
     "status": "draft",
     "experimental": false,

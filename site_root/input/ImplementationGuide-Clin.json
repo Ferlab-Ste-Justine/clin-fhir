@@ -541,6 +541,174 @@
         "reference": {
           "reference": "CodeSystem/genome-build"
         }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-vcf, Base: DocumentReference",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-vcf",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-document-reference-vcf"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-cram, Base: DocumentReference",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-cram",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-document-reference-cram"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-qc-report, Base: DocumentReference",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-qc-report",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-document-reference-qc-report"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-crai, Base: DocumentReference",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-crai",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-document-reference-crai"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition cqgc-document-reference-tbi, Base: DocumentReference",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/cqgc-document-reference-tbi",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-document-reference-tbi"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition cqgc-variant-calling-task, Base: Task",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/cqgc-variant-calling-task",
+        "reference": {
+          "reference": "StructureDefinition/cqgc-variant-calling-task"
+        }
+      },
+      {
+        "description": "Ferlab.bio StructureDefinition seq-metrics, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio StructureDefinition/seq-metrics",
+        "reference": {
+          "reference": "StructureDefinition/seq-metrics"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet v3-confidentiality",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/v3-confidentiality",
+        "reference": {
+          "reference": "ValueSet/v3-confidentiality"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet document-reference-doc-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/document-reference-doc-status",
+        "reference": {
+          "reference": "ValueSet/document-reference-doc-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem document-reference-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/document-reference-status",
+        "reference": {
+          "reference": "CodeSystem/document-reference-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem document-reference-doc-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/document-reference-doc-status",
+        "reference": {
+          "reference": "CodeSystem/document-reference-doc-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem task-intent",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/task-intent",
+        "reference": {
+          "reference": "CodeSystem/task-intent"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet task-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/task-status",
+        "reference": {
+          "reference": "ValueSet/task-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem task-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/task-status",
+        "reference": {
+          "reference": "CodeSystem/task-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet task-intent",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/task-intent",
+        "reference": {
+          "reference": "ValueSet/task-intent"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet document-reference-status",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/document-reference-status",
+        "reference": {
+          "reference": "ValueSet/document-reference-status"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet document-reference-relates-to",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/document-reference-relates-to",
+        "reference": {
+          "reference": "ValueSet/document-reference-relates-to"
+        }
+      },
+      {
+        "description": "Ferlab.bio ValueSet task-priority",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio ValueSet/task-priority",
+        "reference": {
+          "reference": "ValueSet/task-priority"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem document-reference-relates-to",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/document-reference-relates-to",
+        "reference": {
+          "reference": "CodeSystem/document-reference-relates-to"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem v3-confidentiality",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/v3-confidentiality",
+        "reference": {
+          "reference": "CodeSystem/v3-confidentiality"
+        }
+      },
+      {
+        "description": "Ferlab.bio CodeSystem task-priority",
+        "exampleBoolean": false,
+        "name": "Ferlab.bio CodeSystem/task-priority",
+        "reference": {
+          "reference": "CodeSystem/task-priority"
+        }
       }
     ]
   },

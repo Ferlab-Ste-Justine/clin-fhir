@@ -1,9 +1,9 @@
 {
     "resourceType": "CodeSystem",
-    "id": "documentReference-relatesTo",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-relatesTo",
+    "id": "document-reference-relates-to",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-reference-relates-to",
     "version": "0.1.0",
-    "name": "documentReference-relatesTo",
+    "name": "document-reference-relates-to",
     "title": "documentReference relatesTo",
     "status": "draft",
     "experimental": false,

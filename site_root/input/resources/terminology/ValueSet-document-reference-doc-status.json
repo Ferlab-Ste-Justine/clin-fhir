@@ -1,9 +1,9 @@
 {
     "resourceType": "ValueSet",
-    "id": "documentReference-docStatus",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/documentReference-docStatus",
+    "id": "document-reference-doc-status",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/document-reference-doc-status",
     "version": "0.1.0",
-    "name": "documentReference-docStatus",
+    "name": "document-reference-doc-status",
     "title": "Document reference document status",
     "status": "draft",
     "experimental": false,
@@ -12,7 +12,7 @@
     "compose": {
       "include": [
         {
-          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/documentReference-docStatus"
+          "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-reference-doc-status"
         }
       ]
     },
