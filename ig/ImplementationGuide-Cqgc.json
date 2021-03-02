@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2021-02-12T15:22:49+00:00",
+  "date": "2021-03-02T14:36:47+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -298,20 +298,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/blood-relationship"
-        },
-        "name": "Ferlab.bio StructureDefinition/blood-relationship",
-        "description": "Ferlab.bio StructureDefinition blood-relationship, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -446,20 +432,6 @@
         },
         "name": "Ferlab.bio StructureDefinition/is-proband",
         "description": "Ferlab.bio StructureDefinition is-proband, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/qc-ethnicity"
-        },
-        "name": "Ferlab.bio StructureDefinition/qc-ethnicity",
-        "description": "Ferlab.bio StructureDefinition qc-ethnicity, Base: Extension",
         "exampleBoolean": false
       },
       {

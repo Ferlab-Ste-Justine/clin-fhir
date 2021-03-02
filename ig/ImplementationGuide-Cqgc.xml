@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-02-12T15:22:49+00:00"/>
+  <date value="2021-03-02T14:36:47+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -190,17 +190,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/blood-relationship"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/blood-relationship"/>
-      <description value="Ferlab.bio StructureDefinition blood-relationship, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -307,17 +296,6 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/is-proband"/>
       <description value="Ferlab.bio StructureDefinition is-proband, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/qc-ethnicity"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/qc-ethnicity"/>
-      <description value="Ferlab.bio StructureDefinition qc-ethnicity, Base: Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

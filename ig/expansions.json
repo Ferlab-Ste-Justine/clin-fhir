@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "dc46326d-40cb-471d-b90d-25a1118209ad",
+  "id" : "60097354-0781-46ec-af61-afaaff313a29",
   "meta" : {
-    "lastUpdated" : "2021-02-12T15:22:49.903+00:00"
+    "lastUpdated" : "2021-03-02T14:36:47.585+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -31,8 +31,8 @@
       }],
       "description" : "Values ​​assigned to relationship fields",
       "expansion" : {
-        "identifier" : "urn:uuid:9eab8e3a-6530-4423-a4c2-674cea5b3681",
-        "timestamp" : "2021-02-12T15:23:06+00:00",
+        "identifier" : "urn:uuid:fc688d25-1966-4af1-a147-be6462524391",
+        "timestamp" : "2021-03-02T14:37:03+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -179,7 +179,7 @@
       "title" : "Qc ethnicity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-12T15:22:49+00:00",
+      "date" : "2021-03-02T14:36:47+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -190,8 +190,8 @@
       }],
       "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
       "expansion" : {
-        "identifier" : "urn:uuid:350ec9b7-efc8-4a1c-b87e-6b2bd8c1374f",
-        "timestamp" : "2021-02-12T15:23:07+00:00",
+        "identifier" : "urn:uuid:1523ea3d-d24d-4d79-be28-53cca033b9fe",
+        "timestamp" : "2021-03-02T14:37:04+00:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -256,7 +256,7 @@
       "id" : "observation-code",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-observation-code.html\">observation code v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-observation-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CGH\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-CGH\">CGH</a></td><td>cgh</td><td>Comparative genomic hybridization</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-INDIC\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-INDIC\">INDIC</a></td><td>indications</td><td>Diagnostic hypothesis (s)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-INVES\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-INVES\">INVES</a></td><td>investigations</td><td>Clinical summary with all the investigations carried out in the context of the patient's pathology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-PHENO\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-PHENO\">PHENO</a></td><td>phenotype</td><td>Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-observation-code.html\">observation code v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-observation-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CGH\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-CGH\">CGH</a></td><td>cgh</td><td>Comparative genomic hybridization</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-INDIC\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-INDIC\">INDIC</a></td><td>indications</td><td>Diagnostic hypothesis (s)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-INVES\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-INVES\">INVES</a></td><td>investigations</td><td>Clinical summary with all the investigations carried out in the context of the patient's pathology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-PHENO\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-PHENO\">PHENO</a></td><td>phenotype</td><td>Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ETH\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-ETH\">ETH</a></td><td>ethnicity</td><td>Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CONS\"> </a><a href=\"CodeSystem-observation-code.html#observation-code-CONS\">CONS</a></td><td>consanguinité</td><td>Information if the parents are consanguineous</td></tr></table></div>"
       },
       "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
       "version" : "0.1.0",
@@ -264,7 +264,7 @@
       "title" : "observation code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-12T15:22:49+00:00",
+      "date" : "2021-03-02T14:36:47+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -275,9 +275,9 @@
       }],
       "description" : "Codes of observations in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:7dc49ef4-9467-47a3-b56c-ba542a231278",
-        "timestamp" : "2021-02-12T15:23:08+00:00",
-        "total" : 4,
+        "identifier" : "urn:uuid:4eadba96-2c54-47df-945f-c5fbbe7e0262",
+        "timestamp" : "2021-03-02T14:37:05+00:00",
+        "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -305,6 +305,16 @@
           "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
           "code" : "PHENO",
           "display" : "phenotype"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "ETH",
+          "display" : "ethnicity"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "CONS",
+          "display" : "consanguinité"
         }]
       }
     }
@@ -324,7 +334,7 @@
       "title" : "Service request code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-12T15:22:49+00:00",
+      "date" : "2021-03-02T14:36:47+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -335,8 +345,8 @@
       }],
       "description" : "Codes of service request in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:62b03d41-3ed3-4005-a53d-d8ac56783946",
-        "timestamp" : "2021-02-12T15:23:09+00:00",
+        "identifier" : "urn:uuid:e9fd0b0f-7b69-46e1-8ff7-fd12bb88df7f",
+        "timestamp" : "2021-03-02T14:37:06+00:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -454,7 +464,7 @@
       "title" : "Blood relationship",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2021-02-12T15:22:49+00:00",
+      "date" : "2021-03-02T14:36:47+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -465,8 +475,8 @@
       }],
       "description" : "This field gives us information if the parents of the patient are inbred",
       "expansion" : {
-        "identifier" : "urn:uuid:610c6dbd-5b1d-4053-a7a9-552e0c60fa86",
-        "timestamp" : "2021-02-12T15:23:09+00:00",
+        "identifier" : "urn:uuid:274a0e09-3a22-487a-aeeb-74e13b914722",
+        "timestamp" : "2021-03-02T14:37:06+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -520,8 +530,8 @@
       }],
       "description" : "This field gives possible valueSet of the family structure",
       "expansion" : {
-        "identifier" : "urn:uuid:31b3281a-030e-47bd-b90f-24df440ac473",
-        "timestamp" : "2021-02-12T15:23:09+00:00",
+        "identifier" : "urn:uuid:d1e810b5-5495-4606-9d71-71b2d455def4",
+        "timestamp" : "2021-03-02T14:37:07+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -610,8 +620,8 @@
       }],
       "description" : "Types of organization",
       "expansion" : {
-        "identifier" : "urn:uuid:5863c7fd-9923-447f-8221-de013f0b15d0",
-        "timestamp" : "2021-02-12T15:23:10+00:00",
+        "identifier" : "urn:uuid:f1cf039b-9a27-43d0-9973-4cb6fc17bdd7",
+        "timestamp" : "2021-03-02T14:37:07+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -674,8 +684,8 @@
       }],
       "description" : "Values ​​assigned to the request status",
       "expansion" : {
-        "identifier" : "urn:uuid:cfc511cf-dba8-4e9a-8284-7ac79d1c9f15",
-        "timestamp" : "2021-02-12T15:23:10+00:00",
+        "identifier" : "urn:uuid:72f8d7c9-7ec8-4561-9e28-d6e93f71874c",
+        "timestamp" : "2021-03-02T14:37:07+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",

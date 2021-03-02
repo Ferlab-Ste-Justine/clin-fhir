@@ -84,13 +84,6 @@
     "name": "age-at-onset"
   },
   {
-    "id": "blood-relationship",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/blood-relationship",
-    "version": "0.1.0",
-    "name": "blood-relationship"
-  },
-  {
     "id": "cqgc-clinical-impression",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression",
@@ -187,13 +180,6 @@
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted",
     "version": "0.1.0",
     "name": "is-submitted"
-  },
-  {
-    "id": "qc-ethnicity",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/qc-ethnicity",
-    "version": "0.1.0",
-    "name": "qc-ethnicity"
   },
   {
     "id": "ref-clin-impression",
