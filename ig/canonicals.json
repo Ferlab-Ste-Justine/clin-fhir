@@ -7,11 +7,46 @@
     "name": "phenotype-codes"
   },
   {
+    "id": "analysis-type",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
+    "version": "0.1.0",
+    "name": "analysis-type"
+  },
+  {
     "id": "blood-relationship",
     "type": "CodeSystem",
     "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship",
     "version": "0.1.0",
     "name": "blood-relationship"
+  },
+  {
+    "id": "data-category",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+    "version": "0.1.0",
+    "name": "data-category"
+  },
+  {
+    "id": "data-type",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+    "version": "0.1.0",
+    "name": "data-type"
+  },
+  {
+    "id": "document-format",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+    "version": "0.1.0",
+    "name": "document-format"
+  },
+  {
+    "id": "experimental-strategy",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+    "version": "0.1.0",
+    "name": "experimental-strategy"
   },
   {
     "id": "fm-structure",
@@ -26,6 +61,13 @@
     "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
     "version": "0.1.0",
     "name": "fmh-relationship-plus"
+  },
+  {
+    "id": "genome-build",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
+    "version": "0.1.0",
+    "name": "genome-build"
   },
   {
     "id": "observation-code",
@@ -63,6 +105,20 @@
     "name": "service-request-code"
   },
   {
+    "id": "specimen-type",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+    "version": "0.1.0",
+    "name": "specimen-type"
+  },
+  {
+    "id": "variant-type",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
+    "version": "0.1.0",
+    "name": "variant-type"
+  },
+  {
     "id": "Cqgc",
     "type": "ImplementationGuide",
     "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
@@ -82,6 +138,20 @@
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
     "version": "0.1.0",
     "name": "age-at-onset"
+  },
+  {
+    "id": "analysis-type",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type",
+    "version": "0.1.0",
+    "name": "analysis-type"
+  },
+  {
+    "id": "cqgc-analysis-task",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task",
+    "version": "0.1.0",
+    "name": "cqgc-analysis-task"
   },
   {
     "id": "cqgc-clinical-impression",
@@ -189,11 +259,32 @@
     "name": "ref-clin-impression"
   },
   {
+    "id": "sequencing-experiment",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
+    "version": "0.1.0",
+    "name": "sequencing-experiment"
+  },
+  {
+    "id": "specimen-type",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type",
+    "version": "0.1.0",
+    "name": "specimen-type"
+  },
+  {
     "id": "status-history",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
     "version": "0.1.0",
     "name": "status-history"
+  },
+  {
+    "id": "workflow",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+    "version": "0.1.0",
+    "name": "Workflow"
   },
   {
     "id": "age-at-onset",
@@ -203,11 +294,46 @@
     "name": "age-at-onset"
   },
   {
+    "id": "analysis-type",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type",
+    "version": "0.1.0",
+    "name": "analysis-type"
+  },
+  {
     "id": "blood-relationship",
     "type": "ValueSet",
     "url": "http://fhir.cqgc.ferlab.bio/ValueSet/blood-relationship",
     "version": "0.1.0",
     "name": "blood-relationship"
+  },
+  {
+    "id": "data-category",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+    "version": "0.1.0",
+    "name": "data-category"
+  },
+  {
+    "id": "data-type",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
+    "version": "0.1.0",
+    "name": "data-type"
+  },
+  {
+    "id": "document-format",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
+    "version": "0.1.0",
+    "name": "document-format"
+  },
+  {
+    "id": "experimental-strategy",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+    "version": "0.1.0",
+    "name": "experimental-strategy"
   },
   {
     "id": "fm-structure",
@@ -222,6 +348,13 @@
     "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
     "version": "0.1.0",
     "name": "fmh-relationship"
+  },
+  {
+    "id": "genome-build",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
+    "version": "0.1.0",
+    "name": "genome-build"
   },
   {
     "id": "hpo-category",
@@ -264,5 +397,19 @@
     "url": "http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code",
     "version": "0.1.0",
     "name": "service-request-code"
+  },
+  {
+    "id": "specimen-type",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
+    "version": "0.1.0",
+    "name": "specimen-type"
+  },
+  {
+    "id": "variant-type",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
+    "version": "0.1.0",
+    "name": "variant-type"
   }
 ]

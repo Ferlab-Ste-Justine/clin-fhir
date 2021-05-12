@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 0, warn = 58, info = 0 -->
+<!-- broken links = 1, errors = 0, warn = 83, info = 0 -->
 <head>
   <title>CqgcImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,9 +23,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CqgcImplementationGuide</h1>
- <p>Generated Wed Mar 03 19:19:11 UTC 2021, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="/data/output/qa.min.html">Errors Only</a></p>
+ <p>Generated Wed May 12 14:58:55 UTC 2021, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="/data/output/qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.35, which is out of date. The current version is v1.1.60 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.35, which is out of date. The current version is v1.1.68 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cqgc, Canonical = http://fhir.cqgc.ferlab.bio</td></tr>
  <tr><td>Realm Check:</td><td> <span style="color: maroon; font-weight: bold"></span> : <ul><li>n/a</li></ul></td></tr>
  <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">No entry in the package-list.json file for this version</span></td></tr>
@@ -37,7 +37,7 @@
 </td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://fhir.cqgc.ferlab.bio (Problem #1 with package-list.json at http://fhir.cqgc.ferlab.bio: fhir.cqgc.ferlab.bio)</td></tr>
- <tr><td>Summary:</td><td> broken links = 1, errors = 0, warn = 58, info = 0</td></tr>
+ <tr><td>Summary:</td><td> broken links = 1, errors = 0, warn = 83, info = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -54,6 +54,9 @@
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_extensions_StructureDefinition-age-at-onset"><b>/data/input/resources/extensions/StructureDefinition-age-at-onset</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_extensions_StructureDefinition-analysis-type"><b>/data/input/resources/extensions/StructureDefinition-analysis-type</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_extensions_StructureDefinition-family-id"><b>/data/input/resources/extensions/StructureDefinition-family-id</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
@@ -80,7 +83,19 @@
      <td><a href="#_data_input_resources_extensions_StructureDefinition-ref-clin-impression"><b>/data/input/resources/extensions/StructureDefinition-ref-clin-impression</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_extensions_StructureDefinition-sequencing-experiment"><b>/data/input/resources/extensions/StructureDefinition-sequencing-experiment</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_extensions_StructureDefinition-specimen-type"><b>/data/input/resources/extensions/StructureDefinition-specimen-type</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_extensions_StructureDefinition-status-history"><b>/data/input/resources/extensions/StructureDefinition-status-history</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_extensions_StructureDefinition-workflow"><b>/data/input/resources/extensions/StructureDefinition-workflow</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_profiles_StructureDefinition-cqgc-analysis-task"><b>/data/input/resources/profiles/StructureDefinition-cqgc-analysis-task</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_profiles_StructureDefinition-cqgc-clinical-impression"><b>/data/input/resources/profiles/StructureDefinition-cqgc-clinical-impression</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
@@ -104,13 +119,31 @@
      <td><a href="#_data_input_resources_profiles_StructureDefinition-cqgc-service-request"><b>/data/input/resources/profiles/StructureDefinition-cqgc-service-request</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-analysis-type"><b>/data/input/resources/terminology/CodeSystem-analysis-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_CodeSystem-blood-relationship"><b>/data/input/resources/terminology/CodeSystem-blood-relationship</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-data-category"><b>/data/input/resources/terminology/CodeSystem-data-category</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-data-type"><b>/data/input/resources/terminology/CodeSystem-data-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-document-format"><b>/data/input/resources/terminology/CodeSystem-document-format</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-experimental-strategy"><b>/data/input/resources/terminology/CodeSystem-experimental-strategy</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_CodeSystem-fm-structure"><b>/data/input/resources/terminology/CodeSystem-fm-structure</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_CodeSystem-fmh-relationship-plus"><b>/data/input/resources/terminology/CodeSystem-fmh-relationship-plus</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-genome-build"><b>/data/input/resources/terminology/CodeSystem-genome-build</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_CodeSystem-observation-code"><b>/data/input/resources/terminology/CodeSystem-observation-code</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
@@ -128,16 +161,40 @@
      <td><a href="#_data_input_resources_terminology_CodeSystem-service-request-code"><b>/data/input/resources/terminology/CodeSystem-service-request-code</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-specimen-type"><b>/data/input/resources/terminology/CodeSystem-specimen-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_CodeSystem-variant-type"><b>/data/input/resources/terminology/CodeSystem-variant-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_ValueSet-age-at-onset"><b>/data/input/resources/terminology/ValueSet-age-at-onset</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-analysis-type"><b>/data/input/resources/terminology/ValueSet-analysis-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_ValueSet-blood-relationship"><b>/data/input/resources/terminology/ValueSet-blood-relationship</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-data-category"><b>/data/input/resources/terminology/ValueSet-data-category</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-data-type"><b>/data/input/resources/terminology/ValueSet-data-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-document-format"><b>/data/input/resources/terminology/ValueSet-document-format</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-experimental-strategy"><b>/data/input/resources/terminology/ValueSet-experimental-strategy</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_ValueSet-fm-structure"><b>/data/input/resources/terminology/ValueSet-fm-structure</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_ValueSet-fmh-relationship"><b>/data/input/resources/terminology/ValueSet-fmh-relationship</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-genome-build"><b>/data/input/resources/terminology/ValueSet-genome-build</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_ValueSet-hpo-category"><b>/data/input/resources/terminology/ValueSet-hpo-category</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
@@ -160,6 +217,12 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_data_input_resources_terminology_ValueSet-service-request-code"><b>/data/input/resources/terminology/ValueSet-service-request-code</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-specimen-type"><b>/data/input/resources/terminology/ValueSet-specimen-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_data_input_resources_terminology_ValueSet-variant-type"><b>/data/input/resources/terminology/ValueSet-variant-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="internal"> </a>
@@ -169,7 +232,7 @@
      <td><b>ImplementationGuide.id</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide Resource id should be cqgc</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="searchform.html#44dd9657-7cf3-4fc4-be16-268f02ab7dce">searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21</a></b></td><td><b>error</b></td><td><b>The link 'history.html' for &quot;History&quot; cannot be resolved</b></td>
+     <td><b><a href="searchform.html#0b8315e5-0510-4b92-99b2-981af8d9556f">searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21</a></b></td><td><b>error</b></td><td><b>The link 'history.html' for &quot;History&quot; cannot be resolved</b></td>
    </tr>
 </table>
 <hr/>
@@ -215,6 +278,23 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_extensions_StructureDefinition-analysis-type"> </a>
+<h2><a href="StructureDefinition-analysis-type.html">/data/input/resources/extensions/StructureDefinition-analysis-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/analysis-type: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/analysis-type: StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -345,6 +425,40 @@
    </tr>
 </table>
 <hr/>
+<a name="_data_input_resources_extensions_StructureDefinition-sequencing-experiment"> </a>
+<h2><a href="StructureDefinition-sequencing-experiment.html">/data/input/resources/extensions/StructureDefinition-sequencing-experiment.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/sequencing-experiment: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/sequencing-experiment: StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_extensions_StructureDefinition-specimen-type"> </a>
+<h2><a href="StructureDefinition-specimen-type.html">/data/input/resources/extensions/StructureDefinition-specimen-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/specimen-type: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/specimen-type: StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_data_input_resources_extensions_StructureDefinition-status-history"> </a>
 <h2><a href="StructureDefinition-status-history.html">/data/input/resources/extensions/StructureDefinition-status-history.json</a></h2>
  <table class="grid">
@@ -359,6 +473,37 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_extensions_StructureDefinition-workflow"> </a>
+<h2><a href="StructureDefinition-workflow.html">/data/input/resources/extensions/StructureDefinition-workflow.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/workflow: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_profiles_StructureDefinition-cqgc-analysis-task"> </a>
+<h2><a href="StructureDefinition-cqgc-analysis-task.html">/data/input/resources/profiles/StructureDefinition-cqgc-analysis-task.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/cqgc-analysis-task: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/cqgc-analysis-task: StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -481,6 +626,20 @@
    </tr>
 </table>
 <hr/>
+<a name="_data_input_resources_terminology_CodeSystem-analysis-type"> </a>
+<h2><a href="CodeSystem-analysis-type.html">/data/input/resources/terminology/CodeSystem-analysis-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/analysis-type: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/analysis-type: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_data_input_resources_terminology_CodeSystem-blood-relationship"> </a>
 <h2><a href="CodeSystem-blood-relationship.html">/data/input/resources/terminology/CodeSystem-blood-relationship.json</a></h2>
  <table class="grid">
@@ -492,6 +651,62 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>CodeSystem/blood-relationship: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_CodeSystem-data-category"> </a>
+<h2><a href="CodeSystem-data-category.html">/data/input/resources/terminology/CodeSystem-data-category.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/data-category: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/data-category: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_CodeSystem-data-type"> </a>
+<h2><a href="CodeSystem-data-type.html">/data/input/resources/terminology/CodeSystem-data-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/data-type: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/data-type: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_CodeSystem-document-format"> </a>
+<h2><a href="CodeSystem-document-format.html">/data/input/resources/terminology/CodeSystem-document-format.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/document-format: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/document-format: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_CodeSystem-experimental-strategy"> </a>
+<h2><a href="CodeSystem-experimental-strategy.html">/data/input/resources/terminology/CodeSystem-experimental-strategy.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/experimental-strategy: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/experimental-strategy: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
    </tr>
 </table>
 <hr/>
@@ -520,6 +735,20 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>CodeSystem/fmh-relationship-plus: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_CodeSystem-genome-build"> </a>
+<h2><a href="CodeSystem-genome-build.html">/data/input/resources/terminology/CodeSystem-genome-build.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/genome-build: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/genome-build: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
    </tr>
 </table>
 <hr/>
@@ -593,6 +822,34 @@
    </tr>
 </table>
 <hr/>
+<a name="_data_input_resources_terminology_CodeSystem-specimen-type"> </a>
+<h2><a href="CodeSystem-specimen-type.html">/data/input/resources/terminology/CodeSystem-specimen-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/specimen-type: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/specimen-type: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_CodeSystem-variant-type"> </a>
+<h2><a href="CodeSystem-variant-type.html">/data/input/resources/terminology/CodeSystem-variant-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/variant-type: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem/variant-type: CodeSystem</b></td><td><b>warning</b></td><td title="csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_data_input_resources_terminology_ValueSet-age-at-onset"> </a>
 <h2><a href="ValueSet-age-at-onset.html">/data/input/resources/terminology/ValueSet-age-at-onset.json</a></h2>
  <table class="grid">
@@ -613,6 +870,20 @@
    </tr>
 </table>
 <hr/>
+<a name="_data_input_resources_terminology_ValueSet-analysis-type"> </a>
+<h2><a href="ValueSet-analysis-type.html">/data/input/resources/terminology/ValueSet-analysis-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/analysis-type: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/analysis-type: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_data_input_resources_terminology_ValueSet-blood-relationship"> </a>
 <h2><a href="ValueSet-blood-relationship.html">/data/input/resources/terminology/ValueSet-blood-relationship.json</a></h2>
  <table class="grid">
@@ -624,6 +895,62 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ValueSet/blood-relationship: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-data-category"> </a>
+<h2><a href="ValueSet-data-category.html">/data/input/resources/terminology/ValueSet-data-category.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/data-category: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/data-category: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-data-type"> </a>
+<h2><a href="ValueSet-data-type.html">/data/input/resources/terminology/ValueSet-data-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/data-type: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/data-type: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-document-format"> </a>
+<h2><a href="ValueSet-document-format.html">/data/input/resources/terminology/ValueSet-document-format.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/document-format: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/document-format: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-experimental-strategy"> </a>
+<h2><a href="ValueSet-experimental-strategy.html">/data/input/resources/terminology/ValueSet-experimental-strategy.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/experimental-strategy: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/experimental-strategy: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
    </tr>
 </table>
 <hr/>
@@ -652,6 +979,20 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ValueSet/fmh-relationship: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-genome-build"> </a>
+<h2><a href="ValueSet-genome-build.html">/data/input/resources/terminology/ValueSet-genome-build.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/genome-build: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/genome-build: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
    </tr>
 </table>
 <hr/>
@@ -759,6 +1100,34 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ValueSet/service-request-code: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-specimen-type"> </a>
+<h2><a href="ValueSet-specimen-type.html">/data/input/resources/terminology/ValueSet-specimen-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/specimen-type: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/specimen-type: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_data_input_resources_terminology_ValueSet-variant-type"> </a>
+<h2><a href="ValueSet-variant-type.html">/data/input/resources/terminology/ValueSet-variant-type.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/variant-type: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/variant-type: ValueSet</b></td><td><b>warning</b></td><td title="vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>

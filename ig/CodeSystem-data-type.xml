@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="data-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">AR<a name="data-type-AR"> </a></td><td>Aligned Reads</td><td>Aligned reads</td></tr><tr><td style="white-space:nowrap">SNV<a name="data-type-SNV"> </a></td><td>Raw SNV Calls</td><td>Raw SNV calls</td></tr><tr><td style="white-space:nowrap">QC<a name="data-type-QC"> </a></td><td>QC Report</td><td>QC report</td></tr><tr><td style="white-space:nowrap">INDEX<a name="data-type-INDEX"> </a></td><td>Sequencing Data Index</td><td>Sequencing data index</td></tr><tr><td style="white-space:nowrap">CF<a name="data-type-CF"> </a></td><td>Consent Form</td><td>Consent form</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNVs sans annotation</td></tr><tr><td>QC</td><td>Rapport contrôle de qualité</td></tr><tr><td>INDEX</td><td>Index de données de séquençage</td></tr><tr><td>CF</td><td>Formulaire de consentement</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+  <version value="0.1.0"/>
+  <name value="data-type"/>
+  <title value="Data types"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Data types"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="AR"/>
+    <display value="Aligned Reads"/>
+    <definition value="Aligned reads"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fragments align&#xE9;s"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SNV"/>
+    <display value="Raw SNV Calls"/>
+    <definition value="Raw SNV calls"/>
+    <designation>
+      <language value="fr"/>
+      <value value="SNVs sans annotation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="QC"/>
+    <display value="QC Report"/>
+    <definition value="QC report"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Rapport contr&#xF4;le de qualit&#xE9;"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="INDEX"/>
+    <display value="Sequencing Data Index"/>
+    <definition value="Sequencing data index"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Index de donn&#xE9;es de s&#xE9;quen&#xE7;age"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CF"/>
+    <display value="Consent Form"/>
+    <definition value="Consent form"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Formulaire de consentement"/>
+    </designation>
+  </concept>
+</CodeSystem>

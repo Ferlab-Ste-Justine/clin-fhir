@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="specimen-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">DNA<a name="specimen-type-DNA"> </a></td><td>DNA Sample</td><td>DNA sample</td></tr><tr><td style="white-space:nowrap">NBL<a name="specimen-type-NBL"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td></tr><tr><td style="white-space:nowrap">TUMOR<a name="specimen-type-TUMOR"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>DNA</td><td>Échantillon d'ADN</td></tr><tr><td>NBL</td><td>Spécimen de sang normal</td></tr><tr><td>TUMOR</td><td>Spécimen tumoral</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
+  <version value="0.1.0"/>
+  <name value="specimen-type"/>
+  <title value="Specimen types"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Specimen types"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="DNA"/>
+    <display value="DNA Sample"/>
+    <definition value="DNA sample"/>
+    <designation>
+      <language value="fr"/>
+      <value value="&#xC9;chantillon d&#39;ADN"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NBL"/>
+    <display value="Normal Blood Specimen"/>
+    <definition value="Normal blood specimen"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Sp&#xE9;cimen de sang normal"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TUMOR"/>
+    <display value="Tumor Specimen"/>
+    <definition value="Tumor specimen"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Sp&#xE9;cimen tumoral"/>
+    </designation>
+  </concept>
+</CodeSystem>

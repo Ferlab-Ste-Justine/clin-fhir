@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="document-format"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/document-format defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">CRAM<a name="document-format-CRAM"> </a></td><td>CRAM File</td><td>CRAM file</td></tr><tr><td style="white-space:nowrap">CRAI<a name="document-format-CRAI"> </a></td><td>CRAI Index File</td><td>CRAI index file</td></tr><tr><td style="white-space:nowrap">VCF<a name="document-format-VCF"> </a></td><td>VCF File</td><td>VCF file</td></tr><tr><td style="white-space:nowrap">TBI<a name="document-format-TBI"> </a></td><td>TBI Index File</td><td>TBI index file</td></tr><tr><td style="white-space:nowrap">TGZ<a name="document-format-TGZ"> </a></td><td>TGZ Archive File</td><td>TGZ archive file</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
+  <version value="0.1.0"/>
+  <name value="document-format"/>
+  <title value="Document formats"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Document formats"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="CRAM"/>
+    <display value="CRAM File"/>
+    <definition value="CRAM file"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fichier CRAM"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CRAI"/>
+    <display value="CRAI Index File"/>
+    <definition value="CRAI index file"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fichier d&#39;index CRAI"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VCF"/>
+    <display value="VCF File"/>
+    <definition value="VCF file"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fichier VCF"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TBI"/>
+    <display value="TBI Index File"/>
+    <definition value="TBI index file"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fichier d&#39;index TBI"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TGZ"/>
+    <display value="TGZ Archive File"/>
+    <definition value="TGZ archive file"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fichier d&#39;archive TGZ"/>
+    </designation>
+  </concept>
+</CodeSystem>

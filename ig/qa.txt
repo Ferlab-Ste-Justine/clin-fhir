@@ -1,14 +1,15 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 0, warn = 58, info = 0
-IG Publisher Version: 1.1.35 Out of date - current version is 1.1.60
-Generated Wed Mar 03 19:19:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 0, warn = 83, info = 0
+IG Publisher Version: 1.1.35 Out of date - current version is 1.1.68
+Generated Wed May 12 14:58:55 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
 
  Build Errors : 1 / 1 / 0
  /data/input/ImplementationGuide-Clin : 0 / 0 / 1
  /data/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-analysis-type : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-family-id : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-fm-structure : 0 / 2 / 1
@@ -17,7 +18,11 @@ Generated Wed Mar 03 19:19:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /data/input/resources/extensions/StructureDefinition-is-proband : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-is-submitted : 0 / 1 / 1
  /data/input/resources/extensions/StructureDefinition-ref-clin-impression : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-sequencing-experiment : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-specimen-type : 0 / 2 / 1
  /data/input/resources/extensions/StructureDefinition-status-history : 0 / 2 / 1
+ /data/input/resources/extensions/StructureDefinition-workflow : 0 / 1 / 1
+ /data/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-family-group : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 2 / 1
@@ -25,18 +30,32 @@ Generated Wed Mar 03 19:19:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /data/input/resources/profiles/StructureDefinition-cqgc-organization : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-patient : 0 / 2 / 1
  /data/input/resources/profiles/StructureDefinition-cqgc-service-request : 0 / 2 / 1
+ /data/input/resources/terminology/CodeSystem-analysis-type : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-blood-relationship : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-data-category : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-data-type : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-document-format : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-experimental-strategy : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-fm-structure : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-fmh-relationship-plus : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-genome-build : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-observation-code : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-organization-type-plus : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-qc-ethnicity : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-request-status-plus : 0 / 1 / 1
  /data/input/resources/terminology/CodeSystem-service-request-code : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-specimen-type : 0 / 1 / 1
+ /data/input/resources/terminology/CodeSystem-variant-type : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-age-at-onset : 0 / 3 / 1
+ /data/input/resources/terminology/ValueSet-analysis-type : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-blood-relationship : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-data-category : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-data-type : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-document-format : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-experimental-strategy : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-fm-structure : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-fmh-relationship : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-genome-build : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-hpo-category : 0 / 3 / 1
  /data/input/resources/terminology/ValueSet-observation-code : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-organization-type : 0 / 1 / 1
@@ -44,6 +63,8 @@ Generated Wed Mar 03 19:19:11 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /data/input/resources/terminology/ValueSet-qc-ethnicity : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-request-status : 0 / 1 / 1
  /data/input/resources/terminology/ValueSet-service-request-code : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-specimen-type : 0 / 1 / 1
+ /data/input/resources/terminology/ValueSet-variant-type : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cqgc
@@ -58,6 +79,10 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 INFORMATION: StructureDefinition/age-at-onset: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/age-at-onset: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset'): The Implementation Guide contains no examples for this extension
+== /data/input/resources/extensions/StructureDefinition-analysis-type.json ==
+INFORMATION: StructureDefinition/analysis-type: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/analysis-type: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-family-id.json ==
 INFORMATION: StructureDefinition/family-id: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/family-id: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -87,10 +112,25 @@ WARNING: StructureDefinition/is-submitted: StructureDefinition: sdf-0: Name shou
 INFORMATION: StructureDefinition/ref-clin-impression: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/ref-clin-impression: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression'): The Implementation Guide contains no examples for this profile
+== /data/input/resources/extensions/StructureDefinition-sequencing-experiment.json ==
+INFORMATION: StructureDefinition/sequencing-experiment: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/sequencing-experiment: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment'): The Implementation Guide contains no examples for this extension
+== /data/input/resources/extensions/StructureDefinition-specimen-type.json ==
+INFORMATION: StructureDefinition/specimen-type: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/specimen-type: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type'): The Implementation Guide contains no examples for this extension
 == /data/input/resources/extensions/StructureDefinition-status-history.json ==
 INFORMATION: StructureDefinition/status-history: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/status-history: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history'): The Implementation Guide contains no examples for this profile
+== /data/input/resources/extensions/StructureDefinition-workflow.json ==
+INFORMATION: StructureDefinition/workflow: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow'): The Implementation Guide contains no examples for this extension
+== /data/input/resources/profiles/StructureDefinition-cqgc-analysis-task.json ==
+INFORMATION: StructureDefinition/cqgc-analysis-task: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/cqgc-analysis-task: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task'): The Implementation Guide contains no examples for this profile
 == /data/input/resources/profiles/StructureDefinition-cqgc-clinical-impression.json ==
 INFORMATION: StructureDefinition/cqgc-clinical-impression: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -119,15 +159,33 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 INFORMATION: StructureDefinition/cqgc-service-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/cqgc-service-request: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request'): The Implementation Guide contains no examples for this profile
+== /data/input/resources/terminology/CodeSystem-analysis-type.json ==
+INFORMATION: CodeSystem/analysis-type: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/analysis-type: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/CodeSystem-blood-relationship.json ==
 INFORMATION: CodeSystem/blood-relationship: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 WARNING: CodeSystem/blood-relationship: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-data-category.json ==
+INFORMATION: CodeSystem/data-category: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/data-category: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-data-type.json ==
+INFORMATION: CodeSystem/data-type: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/data-type: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-document-format.json ==
+INFORMATION: CodeSystem/document-format: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/document-format: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-experimental-strategy.json ==
+INFORMATION: CodeSystem/experimental-strategy: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/experimental-strategy: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/CodeSystem-fm-structure.json ==
 INFORMATION: CodeSystem/fm-structure: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 WARNING: CodeSystem/fm-structure: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/CodeSystem-fmh-relationship-plus.json ==
 INFORMATION: CodeSystem/fmh-relationship-plus: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 WARNING: CodeSystem/fmh-relationship-plus: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-genome-build.json ==
+INFORMATION: CodeSystem/genome-build: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/genome-build: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/CodeSystem-observation-code.json ==
 INFORMATION: CodeSystem/observation-code: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 WARNING: CodeSystem/observation-code: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -143,20 +201,44 @@ WARNING: CodeSystem/request-status-plus: CodeSystem: csd-0: Name should be usabl
 == /data/input/resources/terminology/CodeSystem-service-request-code.json ==
 INFORMATION: CodeSystem/service-request-code: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 WARNING: CodeSystem/service-request-code: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-specimen-type.json ==
+INFORMATION: CodeSystem/specimen-type: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/specimen-type: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/CodeSystem-variant-type.json ==
+INFORMATION: CodeSystem/variant-type: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+WARNING: CodeSystem/variant-type: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/ValueSet-age-at-onset.json ==
 INFORMATION: ValueSet/age-at-onset: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/age-at-onset: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
 WARNING: ValueSet.where(id = 'age-at-onset'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
+== /data/input/resources/terminology/ValueSet-analysis-type.json ==
+INFORMATION: ValueSet/analysis-type: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/analysis-type: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/ValueSet-blood-relationship.json ==
 INFORMATION: ValueSet/blood-relationship: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/blood-relationship: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-data-category.json ==
+INFORMATION: ValueSet/data-category: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/data-category: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-data-type.json ==
+INFORMATION: ValueSet/data-type: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/data-type: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-document-format.json ==
+INFORMATION: ValueSet/document-format: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/document-format: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-experimental-strategy.json ==
+INFORMATION: ValueSet/experimental-strategy: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/experimental-strategy: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/ValueSet-fm-structure.json ==
 INFORMATION: ValueSet/fm-structure: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/fm-structure: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/ValueSet-fmh-relationship.json ==
 INFORMATION: ValueSet/fmh-relationship: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/fmh-relationship: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-genome-build.json ==
+INFORMATION: ValueSet/genome-build: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/genome-build: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == /data/input/resources/terminology/ValueSet-hpo-category.json ==
 INFORMATION: ValueSet/hpo-category: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/hpo-category: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
@@ -181,3 +263,9 @@ WARNING: ValueSet/request-status: ValueSet: vsd-0: Name should be usable as an i
 == /data/input/resources/terminology/ValueSet-service-request-code.json ==
 INFORMATION: ValueSet/service-request-code: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/service-request-code: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-specimen-type.json ==
+INFORMATION: ValueSet/specimen-type: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/specimen-type: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/ValueSet-variant-type.json ==
+INFORMATION: ValueSet/variant-type: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/variant-type: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]

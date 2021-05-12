@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "document-format",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-document-format.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</code></a></li></ul></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
+  "version": "0.1.0",
+  "name": "document-format",
+  "title": "Document formats",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-05-12T14:57:53+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Document formats",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"
+      }
+    ]
+  }
+}

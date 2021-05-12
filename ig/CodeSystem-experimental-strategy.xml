@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="experimental-strategy"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">WXS<a name="experimental-strategy-WXS"> </a></td><td>Whole Exome Sequencing</td><td>Whole Exome Sequencing</td></tr><tr><td style="white-space:nowrap">WGS<a name="experimental-strategy-WGS"> </a></td><td>Whole Genome Sequencing</td><td>Whole Genome Sequencing</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>WXS</td><td>Séquençage d'exome complet</td></tr><tr><td>WGS</td><td>Séquençage de génome complet</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
+  <version value="0.1.0"/>
+  <name value="experimental-strategy"/>
+  <title value="Experimental strategies"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Experimental strategies"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="WXS"/>
+    <display value="Whole Exome Sequencing"/>
+    <definition value="Whole Exome Sequencing"/>
+    <designation>
+      <language value="fr"/>
+      <value value="S&#xE9;quen&#xE7;age d&#39;exome complet"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="WGS"/>
+    <display value="Whole Genome Sequencing"/>
+    <definition value="Whole Genome Sequencing"/>
+    <designation>
+      <language value="fr"/>
+      <value value="S&#xE9;quen&#xE7;age de g&#xE9;nome complet"/>
+    </designation>
+  </concept>
+</CodeSystem>

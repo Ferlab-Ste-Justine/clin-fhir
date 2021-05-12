@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="analysis-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-analysis-type.html"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type"/>
+  <version value="0.1.0"/>
+  <name value="analysis-type"/>
+  <title value="Analysis types"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Analysis types"/>
+  <compose>
+    <include>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type"/>
+    </include>
+  </compose>
+</ValueSet>

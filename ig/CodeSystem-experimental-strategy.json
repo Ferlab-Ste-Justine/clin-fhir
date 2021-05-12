@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "experimental-strategy",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"experimental-strategy-WXS\"> </a></td><td>Whole Exome Sequencing</td><td>Whole Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"experimental-strategy-WGS\"> </a></td><td>Whole Genome Sequencing</td><td>Whole Genome Sequencing</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>WXS</td><td>Séquençage d'exome complet</td></tr><tr><td>WGS</td><td>Séquençage de génome complet</td></tr></table></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+  "version": "0.1.0",
+  "name": "experimental-strategy",
+  "title": "Experimental strategies",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-05-12T14:57:53+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Experimental strategies",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "WXS",
+      "display": "Whole Exome Sequencing",
+      "definition": "Whole Exome Sequencing",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Séquençage d'exome complet"
+        }
+      ]
+    },
+    {
+      "code": "WGS",
+      "display": "Whole Genome Sequencing",
+      "definition": "Whole Genome Sequencing",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Séquençage de génome complet"
+        }
+      ]
+    }
+  ]
+}

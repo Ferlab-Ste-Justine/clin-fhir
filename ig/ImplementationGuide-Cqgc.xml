@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-03-03T19:18:23+00:00"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -582,6 +582,237 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/family-relation"/>
       <description value="Ferlab.bio StructureDefinition family-relation, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/specimen-type"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/specimen-type"/>
+      <description value="Ferlab.bio StructureDefinition specimen-type, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/analysis-type"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/analysis-type"/>
+      <description value="Ferlab.bio StructureDefinition analysis-type, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/data-category"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/data-category"/>
+      <description value="Ferlab.bio CodeSystem data-category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/specimen-type"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/specimen-type"/>
+      <description value="Ferlab.bio ValueSet specimen-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/document-format"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/document-format"/>
+      <description value="Ferlab.bio CodeSystem document-format"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/data-type"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/data-type"/>
+      <description value="Ferlab.bio ValueSet data-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/data-category"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/data-category"/>
+      <description value="Ferlab.bio ValueSet data-category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/experimental-strategy"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/experimental-strategy"/>
+      <description value="Ferlab.bio CodeSystem experimental-strategy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/document-format"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/document-format"/>
+      <description value="Ferlab.bio ValueSet document-format"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/specimen-type"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/specimen-type"/>
+      <description value="Ferlab.bio CodeSystem specimen-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/experimental-strategy"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/experimental-strategy"/>
+      <description value="Ferlab.bio ValueSet experimental-strategy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/data-type"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/data-type"/>
+      <description value="Ferlab.bio CodeSystem data-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/variant-type"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/variant-type"/>
+      <description value="Ferlab.bio ValueSet variant-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/analysis-type"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/analysis-type"/>
+      <description value="Ferlab.bio ValueSet analysis-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/variant-type"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/variant-type"/>
+      <description value="Ferlab.bio CodeSystem variant-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/genome-build"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/genome-build"/>
+      <description value="Ferlab.bio ValueSet genome-build"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/analysis-type"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/analysis-type"/>
+      <description value="Ferlab.bio CodeSystem analysis-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/genome-build"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/genome-build"/>
+      <description value="Ferlab.bio CodeSystem genome-build"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/workflow"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/workflow"/>
+      <description value="Ferlab.bio StructureDefinition workflow, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cqgc-analysis-task"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/cqgc-analysis-task"/>
+      <description value="Ferlab.bio StructureDefinition cqgc-analysis-task, Base: Task"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sequencing-experiment"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/sequencing-experiment"/>
+      <description value="Ferlab.bio StructureDefinition sequencing-experiment, Base: Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="analysis-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">SA<a name="analysis-type-SA"> </a></td><td>Sequencing Alignment Analysis</td><td>Sequencing alignement analysis</td></tr><tr><td style="white-space:nowrap">VC<a name="analysis-type-VC"> </a></td><td>Variant Calling Analysis</td><td>Variant calling analysis</td></tr><tr><td style="white-space:nowrap">QC<a name="analysis-type-QC"> </a></td><td>Sequencing QC Analysis</td><td>Sequencing QC analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SA</td><td>Alignement de fragments</td></tr><tr><td>VC</td><td>Identification de variants</td></tr><tr><td>QC</td><td>Contrôle de qualité de séquençage</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type"/>
+  <version value="0.1.0"/>
+  <name value="analysis-type"/>
+  <title value="Analysis types"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="SA"/>
+    <display value="Sequencing Alignment Analysis"/>
+    <definition value="Sequencing alignement analysis"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Alignement de fragments"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VC"/>
+    <display value="Variant Calling Analysis"/>
+    <definition value="Variant calling analysis"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Identification de variants"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="QC"/>
+    <display value="Sequencing QC Analysis"/>
+    <definition value="Sequencing QC analysis"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Contr&#xF4;le de qualit&#xE9; de s&#xE9;quen&#xE7;age"/>
+    </designation>
+  </concept>
+</CodeSystem>

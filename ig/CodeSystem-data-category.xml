@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="data-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-category defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">SR<a name="data-category-SR"> </a></td><td>Sequencing Reads</td><td>Sequencing reads</td></tr><tr><td style="white-space:nowrap">SNV<a name="data-category-SNV"> </a></td><td>Simple Nucleotide Variations</td><td>Simple nucleotide variations</td></tr><tr><td style="white-space:nowrap">CLIN<a name="data-category-CLIN"> </a></td><td>Clinical</td><td>Clinical</td></tr><tr><td style="white-space:nowrap">PA<a name="data-category-PA"> </a></td><td>Patient Consent</td><td>Patient consent</td></tr><tr><td style="white-space:nowrap">RE<a name="data-category-RE"> </a></td><td>Sequencing Report</td><td>Sequencing report</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SR</td><td>Fragments de séquençage</td></tr><tr><td>SNV</td><td>Variations nucléotidiques simples</td></tr><tr><td>CLIN</td><td>Clinique</td></tr><tr><td>PA</td><td>Consentement de patient</td></tr><tr><td>RE</td><td>Rapport de séquençage</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"/>
+  <version value="0.1.0"/>
+  <name value="data-category"/>
+  <title value="Data categories"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2021-05-12T14:57:53+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Data categories"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="SR"/>
+    <display value="Sequencing Reads"/>
+    <definition value="Sequencing reads"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Fragments de s&#xE9;quen&#xE7;age"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SNV"/>
+    <display value="Simple Nucleotide Variations"/>
+    <definition value="Simple nucleotide variations"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Variations nucl&#xE9;otidiques simples"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CLIN"/>
+    <display value="Clinical"/>
+    <definition value="Clinical"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Clinique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Patient Consent"/>
+    <definition value="Patient consent"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Consentement de patient"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RE"/>
+    <display value="Sequencing Report"/>
+    <definition value="Sequencing report"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Rapport de s&#xE9;quen&#xE7;age"/>
+    </designation>
+  </concept>
+</CodeSystem>

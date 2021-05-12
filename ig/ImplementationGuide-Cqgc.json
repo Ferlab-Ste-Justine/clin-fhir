@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2021-03-03T19:18:23+00:00",
+  "date": "2021-05-12T14:57:53+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -796,6 +796,300 @@
         },
         "name": "Ferlab.bio StructureDefinition/family-relation",
         "description": "Ferlab.bio StructureDefinition family-relation, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/specimen-type"
+        },
+        "name": "Ferlab.bio StructureDefinition/specimen-type",
+        "description": "Ferlab.bio StructureDefinition specimen-type, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/analysis-type"
+        },
+        "name": "Ferlab.bio StructureDefinition/analysis-type",
+        "description": "Ferlab.bio StructureDefinition analysis-type, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/data-category"
+        },
+        "name": "Ferlab.bio CodeSystem/data-category",
+        "description": "Ferlab.bio CodeSystem data-category",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/specimen-type"
+        },
+        "name": "Ferlab.bio ValueSet/specimen-type",
+        "description": "Ferlab.bio ValueSet specimen-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/document-format"
+        },
+        "name": "Ferlab.bio CodeSystem/document-format",
+        "description": "Ferlab.bio CodeSystem document-format",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/data-type"
+        },
+        "name": "Ferlab.bio ValueSet/data-type",
+        "description": "Ferlab.bio ValueSet data-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/data-category"
+        },
+        "name": "Ferlab.bio ValueSet/data-category",
+        "description": "Ferlab.bio ValueSet data-category",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/experimental-strategy"
+        },
+        "name": "Ferlab.bio CodeSystem/experimental-strategy",
+        "description": "Ferlab.bio CodeSystem experimental-strategy",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/document-format"
+        },
+        "name": "Ferlab.bio ValueSet/document-format",
+        "description": "Ferlab.bio ValueSet document-format",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/specimen-type"
+        },
+        "name": "Ferlab.bio CodeSystem/specimen-type",
+        "description": "Ferlab.bio CodeSystem specimen-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/experimental-strategy"
+        },
+        "name": "Ferlab.bio ValueSet/experimental-strategy",
+        "description": "Ferlab.bio ValueSet experimental-strategy",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/data-type"
+        },
+        "name": "Ferlab.bio CodeSystem/data-type",
+        "description": "Ferlab.bio CodeSystem data-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/variant-type"
+        },
+        "name": "Ferlab.bio ValueSet/variant-type",
+        "description": "Ferlab.bio ValueSet variant-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/analysis-type"
+        },
+        "name": "Ferlab.bio ValueSet/analysis-type",
+        "description": "Ferlab.bio ValueSet analysis-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/variant-type"
+        },
+        "name": "Ferlab.bio CodeSystem/variant-type",
+        "description": "Ferlab.bio CodeSystem variant-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/genome-build"
+        },
+        "name": "Ferlab.bio ValueSet/genome-build",
+        "description": "Ferlab.bio ValueSet genome-build",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/analysis-type"
+        },
+        "name": "Ferlab.bio CodeSystem/analysis-type",
+        "description": "Ferlab.bio CodeSystem analysis-type",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/genome-build"
+        },
+        "name": "Ferlab.bio CodeSystem/genome-build",
+        "description": "Ferlab.bio CodeSystem genome-build",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/workflow"
+        },
+        "name": "Ferlab.bio StructureDefinition/workflow",
+        "description": "Ferlab.bio StructureDefinition workflow, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/cqgc-analysis-task"
+        },
+        "name": "Ferlab.bio StructureDefinition/cqgc-analysis-task",
+        "description": "Ferlab.bio StructureDefinition cqgc-analysis-task, Base: Task",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/sequencing-experiment"
+        },
+        "name": "Ferlab.bio StructureDefinition/sequencing-experiment",
+        "description": "Ferlab.bio StructureDefinition sequencing-experiment, Base: Extension",
         "exampleBoolean": false
       }
     ],
