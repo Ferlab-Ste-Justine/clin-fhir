@@ -3,12 +3,12 @@
   "id": "output-documentreference",
   "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
   "version": "0.1.0",
-  "name": "output_documentreference",
+  "name": "output-documentreference",
   "status": "active",
   "experimental": true,
   "publisher": "Ferlab",
   "description": "Searches Document references by task output.",
-  "code": "output_documentreference",
+  "code": "output-documentreference",
   "base": [
     "Task"
   ],
