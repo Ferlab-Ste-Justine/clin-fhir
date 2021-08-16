@@ -1,0 +1,18 @@
+{
+  "resourceType": "SearchParameter",
+  "id":"batch-name",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/batch-name",
+  "version": "0.1.0",
+  "name": "batch_name",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Ferlab",
+  "description": "Searches Task by batch name.",
+  "code": "batch_name",
+  "base": [
+    "Task"
+  ],
+  "type": "string",
+  "expression": "Task.extension.where(url='http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment').extension.where(url = 'runName').value",
+  "xpathUsage": "normal"
+}
