@@ -3,12 +3,12 @@
   "id":"batch-name",
   "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/batch-name",
   "version": "0.1.0",
-  "name": "batch_name",
+  "name": "batch-name",
   "status": "active",
   "experimental": true,
   "publisher": "Ferlab",
   "description": "Searches Task by batch name.",
-  "code": "batch_name",
+  "code": "batch-name",
   "base": [
     "Task"
   ],
