@@ -1,0 +1,21 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "input-specimen",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/input-specimen",
+  "version": "0.1.0",
+  "name": "input_specimen",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Ferlab",
+  "description": "Searches Document references by task output.",
+  "code": "input_specimen",
+  "base": [
+    "Task"
+  ],
+  "type": "reference",
+  "expression": "Task.input.value",
+  "target": [
+    "Specimen"
+  ],
+  "date": "2020-07-20T20:58:16.044037+00:00"
+}
