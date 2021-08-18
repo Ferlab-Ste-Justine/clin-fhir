@@ -1,14 +1,14 @@
 {
   "resourceType": "SearchParameter",
-  "id":"batch-name",
-  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/batch-name",
+  "id":"run-name",
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/run-name",
   "version": "0.1.0",
-  "name": "batch-name",
+  "name": "run-name",
   "status": "active",
   "experimental": true,
   "publisher": "Ferlab",
-  "description": "Searches Task by batch name.",
-  "code": "batch-name",
+  "description": "Searches Task by run name.",
+  "code": "run-name",
   "base": [
     "Task"
   ],
