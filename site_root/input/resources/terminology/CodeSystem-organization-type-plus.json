@@ -23,6 +23,17 @@
               "value":"Laboratoire de diagnostic"
             }
         ]
+      },
+      {
+        "code": "labseq",
+        "display": "Sequencing Laboratory",
+        "definition":"Sequencing laboratory",
+        "designation":[
+            {
+              "language":"fr",
+              "value":"Laboratoire de séquençage"
+            }
+        ]
       }
     ],
     "date": "2020-08-20T09:46:56-04:00"
