@@ -29,7 +29,7 @@
         <display value="Abnormality of prenatal development or birth"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du d&#xE9;veloppement pr&#xE9;natal ou de la naissance"/>
+          <value value="Anomalie du développement prénatal ou de la naissance"/>
         </designation>
       </concept>
       <concept>
@@ -61,7 +61,7 @@
         <display value="Abnormality of the integument"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie des t&#xE9;guments"/>
+          <value value="Anomalie des téguments"/>
         </designation>
       </concept>
       <concept>
@@ -69,7 +69,7 @@
         <display value="Abnormality of the cardiovascular system"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du syst&#xE8;me cardiovasculaire"/>
+          <value value="Anomalie du système cardiovasculaire"/>
         </designation>
       </concept>
       <concept>
@@ -77,7 +77,7 @@
         <display value="Abnormality of the respiratory system"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du syst&#xE8;me respiratoire"/>
+          <value value="Anomalie du système respiratoire"/>
         </designation>
       </concept>
       <concept>
@@ -85,7 +85,7 @@
         <display value="Abnormality of the skeletal system"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du syst&#xE8;me musculosquelettique"/>
+          <value value="Anomalie du système musculosquelettique"/>
         </designation>
       </concept>
       <concept>
@@ -101,7 +101,7 @@
         <display value="Abnormality of the genitourinary system"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du syst&#xE8;me g&#xE9;nito-urinaire"/>
+          <value value="Anomalie du système génito-urinaire"/>
         </designation>
       </concept>
       <concept>
@@ -109,7 +109,7 @@
         <display value="Abnormality of the digestive system"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du syst&#xE8;me digestif"/>
+          <value value="Anomalie du système digestif"/>
         </designation>
       </concept>
       <concept>
@@ -117,7 +117,7 @@
         <display value="Abnormality of head or neck"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie de la t&#xEA;te ou du cou"/>
+          <value value="Anomalie de la tête ou du cou"/>
         </designation>
       </concept>
       <concept>
@@ -125,7 +125,7 @@
         <display value="Abnormality of the nervous system"/>
         <designation>
           <language value="fr"/>
-          <value value="Anomalie du syst&#xE8;me nerveux"/>
+          <value value="Anomalie du système nerveux"/>
         </designation>
       </concept>
     </include>

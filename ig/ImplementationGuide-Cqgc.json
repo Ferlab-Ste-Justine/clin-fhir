@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2021-05-12T14:57:53+00:00",
+  "date": "2021-11-15T01:19:57+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -1090,6 +1090,20 @@
         },
         "name": "Ferlab.bio StructureDefinition/sequencing-experiment",
         "description": "Ferlab.bio StructureDefinition sequencing-experiment, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/output-documentreference"
+        },
+        "name": "Ferlab.bio SearchParameter/output-documentreference",
+        "description": "Ferlab.bio SearchParameter output-documentreference",
         "exampleBoolean": false
       }
     ],

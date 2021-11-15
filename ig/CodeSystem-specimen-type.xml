@@ -11,7 +11,7 @@
   <title value="Specimen types"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-05-12T14:57:53+00:00"/>
+  <date value="2021-11-15T01:19:57+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -30,7 +30,7 @@
     <definition value="DNA sample"/>
     <designation>
       <language value="fr"/>
-      <value value="&#xC9;chantillon d&#39;ADN"/>
+      <value value="Échantillon d&#39;ADN"/>
     </designation>
   </concept>
   <concept>
@@ -39,7 +39,7 @@
     <definition value="Normal blood specimen"/>
     <designation>
       <language value="fr"/>
-      <value value="Sp&#xE9;cimen de sang normal"/>
+      <value value="Spécimen de sang normal"/>
     </designation>
   </concept>
   <concept>
@@ -48,7 +48,7 @@
     <definition value="Tumor specimen"/>
     <designation>
       <language value="fr"/>
-      <value value="Sp&#xE9;cimen tumoral"/>
+      <value value="Spécimen tumoral"/>
     </designation>
   </concept>
 </CodeSystem>

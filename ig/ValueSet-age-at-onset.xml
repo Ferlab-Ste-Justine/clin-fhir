@@ -29,7 +29,7 @@
         <display value="Pediatric onset"/>
         <designation>
           <language value="fr"/>
-          <value value="Apparition p&#xE9;diatrique"/>
+          <value value="Apparition pédiatrique"/>
         </designation>
       </concept>
       <concept>
@@ -45,7 +45,7 @@
         <display value="Juvenile onset"/>
         <designation>
           <language value="fr"/>
-          <value value="Apparition juv&#xE9;nile"/>
+          <value value="Apparition juvénile"/>
         </designation>
       </concept>
       <concept>
@@ -61,7 +61,7 @@
         <display value="Antenatal onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition ant&#xE9;natale"/>
+          <value value="d&#39;apparition anténatale"/>
         </designation>
       </concept>
       <concept>
@@ -85,7 +85,7 @@
         <display value="Congenital onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition cong&#xE9;nitale"/>
+          <value value="d&#39;apparition congénitale"/>
         </designation>
       </concept>
       <concept>
@@ -93,7 +93,7 @@
         <display value="Neonatal onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition n&#xE9;onatale"/>
+          <value value="d&#39;apparition néonatale"/>
         </designation>
       </concept>
       <concept>
@@ -101,7 +101,7 @@
         <display value="Adult onset"/>
         <designation>
           <language value="fr"/>
-          <value value="D&#xE9;but &#xE0; l&#39;&#xE2;ge adulte"/>
+          <value value="Début à l&#39;âge adulte"/>
         </designation>
       </concept>
       <concept>
@@ -109,7 +109,7 @@
         <display value="Middle age onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition &#xE0; l&#39;&#xE2;ge moyen"/>
+          <value value="d&#39;apparition à l&#39;âge moyen"/>
         </designation>
       </concept>
       <concept>
@@ -125,7 +125,7 @@
         <display value="Late onset"/>
         <designation>
           <language value="fr"/>
-          <value value="D&#xE9;but tardif"/>
+          <value value="Début tardif"/>
         </designation>
       </concept>
     </include>

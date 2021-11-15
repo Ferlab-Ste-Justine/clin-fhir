@@ -29,7 +29,7 @@
         <display value="Healthcare Provider"/>
         <designation>
           <language value="fr"/>
-          <value value="Prestataire de sant&#xE9;"/>
+          <value value="Prestataire de santé"/>
         </designation>
       </concept>
       <concept>
@@ -37,7 +37,7 @@
         <display value="Hospital Department"/>
         <designation>
           <language value="fr"/>
-          <value value="D&#xE9;partement hospitalier"/>
+          <value value="Département hospitalier"/>
         </designation>
       </concept>
       <concept>

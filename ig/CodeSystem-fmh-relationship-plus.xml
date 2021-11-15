@@ -20,7 +20,7 @@
       <value value="mailto:support@ferlab.bio"/>
     </telecom>
   </contact>
-  <description value="The added values &#x200B;&#x200B;(specific to our systems) which extend the CodeSystem provided by HL7"/>
+  <description value="The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7"/>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="2"/>

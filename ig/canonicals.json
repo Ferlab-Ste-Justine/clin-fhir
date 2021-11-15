@@ -126,6 +126,13 @@
     "name": "CqgcImplementationGuide"
   },
   {
+    "id": "output-documentreference",
+    "type": "SearchParameter",
+    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
+    "version": "0.1.0",
+    "name": "output-documentreference"
+  },
+  {
     "id": "age-at-event",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",

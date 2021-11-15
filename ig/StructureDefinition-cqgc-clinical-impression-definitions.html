@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.3"}
-    h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.4"}
+    h3,h4,h5,h6{--heading-prefix:"2.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -93,14 +93,17 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
+
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ferlab.bio StructureDefinition/cqgc-clinical-impression</b></li>
+
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
 
+    <a name="top"> </a>
     <div id="segment-content" class="segment">  <!-- segment-content -->
       <div class="container">  <!-- container -->
         <div class="row">
@@ -213,7 +216,9 @@
   <tr><td>Definition</td><td><p>The base language in which the resource is written.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>A human language.<br/>The codes SHOULD be taken from <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/R4/valueset-all-languages.html">AllLanguages</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHOULD be taken from <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/R4/valueset-all-languages.html">AllLanguages</a>
+A human language.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td></tr>
   <tr><td>Comments</td><td><p>Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</p>
 </td></tr>
@@ -245,7 +250,7 @@
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))<br/><b title="Formal Invariant Identifier">ext-1</b>: Must have either extensions or value[x], not both (: extension.exists() != value.exists())</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/profiling.html#slicing">Slicing</a></td><td>This element introduces a set of slices on ClinicalImpression.extension. The slices are unordered and Open, and can be differentiated using the following discriminators: <ul> <li>value @ url</li></ul></td></tr>
-  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="ClinicalImpression.extension:age-at-event"> </a><span style="color: grey">9.</span> <b>ClinicalImpression.extension:age-at-event</b><a href="#ClinicalImpression.extension:age-at-event" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="ClinicalImpression.extension:age-at-event"> </a></a><span style="color: grey">9.</span> <b>ClinicalImpression.extension:age-at-event</b><a href="#ClinicalImpression.extension:age-at-event" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/profiling.html#slicing">SliceName</a></td><td>age-at-event</td></tr>
   <tr><td>Definition</td><td><p>Patient's age at the time of medical consultation</p>
 </td></tr>
@@ -284,7 +289,9 @@
   <tr><td>Definition</td><td><p>Identifies the workflow status of the assessment.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The workflow state of a clinical impression.<br/>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-clinicalimpression-status.html">ClinicalImpressionStatus</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-clinicalimpression-status.html">ClinicalImpressionStatus</a>
+The workflow state of a clinical impression.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>This element is labeled as a modifier because the status contains the code entered-in-error that marks the clinical impression as not currently valid.</p>
@@ -341,7 +348,7 @@
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
-  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="ClinicalImpression.effective[x]"> </a><a name="ClinicalImpression.effectiveDateTime"> </a><a name="ClinicalImpression.effectivePeriod"> </a><span style="color: grey">18.</span> <b>ClinicalImpression.effective[x]</b><a href="#ClinicalImpression.effective[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="ClinicalImpression.effective[x]"> </a><a name="ClinicalImpression.effectiveDateTime"> </a><a name="ClinicalImpression.effective[x]:effectiveDateTime"> </a><a name="ClinicalImpression.effectivePeriod"> </a><a name="ClinicalImpression.effective[x]:effectivePeriod"> </a><span style="color: grey">18.</span> <b>ClinicalImpression.effective[x]</b><a href="#ClinicalImpression.effective[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td>Definition</td><td><p>The point in time or period over which the subject was assessed.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
@@ -423,7 +430,9 @@
   <tr><td>Definition</td><td><p>A name/code for the group (&quot;set&quot;) of investigations. Typically, this will be something like &quot;signs&quot;, &quot;symptoms&quot;, &quot;clinical&quot;, &quot;diagnostic&quot;, but the list is not constrained, and others such groups such as (exposure|family|travel|nutritional) history may be used.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>A name/code for a set of investigations.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-investigation-sets.html">InvestigationType</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-investigation-sets.html">InvestigationType</a>
+A name/code for a set of investigations.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -490,7 +499,9 @@
   <tr><td>Definition</td><td><p>Specific text or code for finding or diagnosis, which may include ruled-out or resolved conditions.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Identification of the Condition or diagnosis.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a>
+Identification of the Condition or diagnosis.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -512,7 +523,9 @@
   <tr><td>Definition</td><td><p>Estimate of likely outcome.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..0</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Prognosis or outlook findings.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-clinicalimpression-prognosis.html">ClinicalImpressionPrognosis</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-clinicalimpression-prognosis.html">ClinicalImpressionPrognosis</a>
+Prognosis or outlook findings.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -587,15 +600,17 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
+
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 12, 2021 14:57+0000">2021-05-12</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 15, 2021 01:19+0000">2021-11-15</span>
           <br/>
-          <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
           </span>
@@ -630,3 +645,4 @@ anchors.add()</script>
   ================================================== -->
   </body>
 </html>
+

@@ -11,7 +11,7 @@
   <title value="Analysis types"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-05-12T14:57:53+00:00"/>
+  <date value="2021-11-15T01:19:57+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -20,6 +20,7 @@
       <value value="mailto:support@ferlab.bio"/>
     </telecom>
   </contact>
+  <description value="Analysis types code system"/>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="3"/>
@@ -47,7 +48,7 @@
     <definition value="Sequencing QC analysis"/>
     <designation>
       <language value="fr"/>
-      <value value="Contr&#xF4;le de qualit&#xE9; de s&#xE9;quen&#xE7;age"/>
+      <value value="Contrôle de qualité de séquençage"/>
     </designation>
   </concept>
 </CodeSystem>

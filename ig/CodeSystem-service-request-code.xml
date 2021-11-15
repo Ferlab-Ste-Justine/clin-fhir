@@ -11,7 +11,7 @@
   <title value="service request code"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-05-12T14:57:53+00:00"/>
+  <date value="2021-11-15T01:19:57+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -29,7 +29,7 @@
     <definition value="Process of determining the complete DNA sequence of the genome at a single time"/>
     <designation>
       <language value="fr"/>
-      <value value="S&#xE9;quen&#xE7;age du G&#xE9;nome Entier"/>
+      <value value="Séquençage du Génome Entier"/>
     </designation>
   </concept>
   <concept>
@@ -38,7 +38,7 @@
     <definition value="Process of determining all of the exons within the genome sequence at a single time"/>
     <designation>
       <language value="fr"/>
-      <value value="S&#xE9;quen&#xE7;age de l&#39;Exome Entier"/>
+      <value value="Séquençage de l&#39;Exome Entier"/>
     </designation>
   </concept>
   <concept>
@@ -47,39 +47,39 @@
     <definition value="Process of determining the complete sequences of the indicated gene panel at a single time"/>
     <designation>
       <language value="fr"/>
-      <value value="Panel de G&#xE8;nes"/>
+      <value value="Panel de Gènes"/>
     </designation>
   </concept>
   <concept>
     <code value="PCA"/>
-    <display value="Pr&#xE9;disposition aux cancers chez l&#39;adulte"/>
+    <display value="Prédisposition aux cancers chez l&#39;adulte"/>
     <designation>
       <language value="fr"/>
-      <value value="Pr&#xE9;disposition aux cancers chez l&#39;adulte"/>
+      <value value="Prédisposition aux cancers chez l&#39;adulte"/>
     </designation>
   </concept>
   <concept>
     <code value="PTSE"/>
-    <display value="Pr&#xE9;disposition aux tumeurs solides de l&#39;enfant"/>
+    <display value="Prédisposition aux tumeurs solides de l&#39;enfant"/>
     <designation>
       <language value="fr"/>
-      <value value="Pr&#xE9;disposition aux tumeurs solides de l&#39;enfant"/>
+      <value value="Prédisposition aux tumeurs solides de l&#39;enfant"/>
     </designation>
   </concept>
   <concept>
     <code value="PHME"/>
-    <display value="Pr&#xE9;disposition aux h&#xE9;matopathies malignes de l&#39;enfant"/>
+    <display value="Prédisposition aux hématopathies malignes de l&#39;enfant"/>
     <designation>
       <language value="fr"/>
-      <value value="Pr&#xE9;disposition aux h&#xE9;matopathies malignes de l&#39;enfant"/>
+      <value value="Prédisposition aux hématopathies malignes de l&#39;enfant"/>
     </designation>
   </concept>
   <concept>
     <code value="SED"/>
-    <display value="Syndrome d&#x2019;Ehlers-Danlos"/>
+    <display value="Syndrome d’Ehlers-Danlos"/>
     <designation>
       <language value="fr"/>
-      <value value="Syndrome d&#x2019;Ehlers-Danlos"/>
+      <value value="Syndrome d’Ehlers-Danlos"/>
     </designation>
   </concept>
   <concept>
@@ -100,10 +100,10 @@
   </concept>
   <concept>
     <code value="SLA"/>
-    <display value="Scl&#xE9;rose lat&#xE9;rale amyotrophique"/>
+    <display value="Sclérose latérale amyotrophique"/>
     <designation>
       <language value="fr"/>
-      <value value="Scl&#xE9;rose lat&#xE9;rale amyotrophique"/>
+      <value value="Sclérose latérale amyotrophique"/>
     </designation>
   </concept>
   <concept>
@@ -116,26 +116,26 @@
   </concept>
   <concept>
     <code value="SUR"/>
-    <display value="Surdit&#xE9;"/>
+    <display value="Surdité"/>
     <designation>
       <language value="fr"/>
-      <value value="Surdit&#xE9;"/>
+      <value value="Surdité"/>
     </designation>
   </concept>
   <concept>
     <code value="DI"/>
-    <display value="D&#xE9;ficience Intellectuelle (trio)"/>
+    <display value="Déficience Intellectuelle (trio)"/>
     <designation>
       <language value="fr"/>
-      <value value="D&#xE9;ficience Intellectuelle (trio)"/>
+      <value value="Déficience Intellectuelle (trio)"/>
     </designation>
   </concept>
   <concept>
     <code value="GMN"/>
-    <display value="G&#xE8;nes mitochondriaux nucl&#xE9;aires"/>
+    <display value="Gènes mitochondriaux nucléaires"/>
     <designation>
       <language value="fr"/>
-      <value value="G&#xE8;nes mitochondriaux nucl&#xE9;aires"/>
+      <value value="Gènes mitochondriaux nucléaires"/>
     </designation>
   </concept>
   <concept>
@@ -156,10 +156,10 @@
   </concept>
   <concept>
     <code value="AH"/>
-    <display value="Arythmies h&#xE9;r&#xE9;ditaires"/>
+    <display value="Arythmies héréditaires"/>
     <designation>
       <language value="fr"/>
-      <value value="Arythmies h&#xE9;r&#xE9;ditaires"/>
+      <value value="Arythmies héréditaires"/>
     </designation>
   </concept>
   <concept>

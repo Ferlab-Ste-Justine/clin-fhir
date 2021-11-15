@@ -1,0 +1,36 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "output-documentreference",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"output-documentreference\" </p></div><p><b>url</b>: <code>http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: output-documentreference</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: Jul 20, 2020, 8:58:16 PM</p><p><b>publisher</b>: Ferlab.bio</p><p><b>contact</b>: Cqgc: <a href=\"mailto:mailto:support@ferlab.bio\">mailto:support@ferlab.bio</a></p><p><b>description</b>: Searches Document references by task output.</p><p><b>code</b>: output-documentreference</p><p><b>base</b>: Task</p><p><b>type</b>: reference</p><p><b>expression</b>: Task.output.value</p><p><b>target</b>: DocumentReference</p></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
+  "version": "0.1.0",
+  "name": "output-documentreference",
+  "status": "active",
+  "experimental": true,
+  "date": "2020-07-20T20:58:16.044037+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Searches Document references by task output.",
+  "code": "output-documentreference",
+  "base": [
+    "Task"
+  ],
+  "type": "reference",
+  "expression": "Task.output.value",
+  "target": [
+    "DocumentReference"
+  ]
+}

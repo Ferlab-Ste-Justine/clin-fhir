@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c639a6fb-12f4-4c9a-a3b0-b6bec216f470"/>
+  <id value="d9f60970-e880-42da-afc6-3856ec53f9b0"/>
   <meta>
-    <lastUpdated value="2021-05-12T14:57:53.373+00:00"/>
+    <lastUpdated value="2021-11-15T01:19:57.904+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -266,10 +266,10 @@
             <value value="mailto:support@ferlab.bio"/>
           </telecom>
         </contact>
-        <description value="Values &#x200B;&#x200B;assigned to relationship fields"/>
+        <description value="Values ​​assigned to relationship fields"/>
         <expansion>
-          <identifier value="urn:uuid:68254d4e-7bc7-43da-be22-c73f8308eb1d"/>
-          <timestamp value="2021-05-12T14:58:21+00:00"/>
+          <identifier value="urn:uuid:48923432-bee6-4ce1-af42-bcbfea028e63"/>
+          <timestamp value="2021-11-15T01:20:15+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -414,7 +414,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-qc-ethnicity.html">Ethnicites in Quebec v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-qc-ethnicity.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</code>
               </a>
@@ -512,7 +512,7 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -523,8 +523,8 @@
         </contact>
         <description value="Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"/>
         <expansion>
-          <identifier value="urn:uuid:d785b38d-a0ab-4776-8389-4e4aebd1c3ff"/>
-          <timestamp value="2021-05-12T14:58:22+00:00"/>
+          <identifier value="urn:uuid:6b177e62-1397-420b-b3e0-f377203c62f3"/>
+          <timestamp value="2021-11-15T01:20:16+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -595,7 +595,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">observation code v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-observation-code.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code>
               </a>
@@ -669,7 +669,7 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -680,8 +680,8 @@
         </contact>
         <description value="Codes of observations in our system"/>
         <expansion>
-          <identifier value="urn:uuid:fa9ea392-9495-4abd-ade6-186f64ae6285"/>
-          <timestamp value="2021-05-12T14:58:23+00:00"/>
+          <identifier value="urn:uuid:788620b9-d804-456d-a5c2-c0725182df48"/>
+          <timestamp value="2021-11-15T01:20:18+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -737,7 +737,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-service-request-code.html">service request code v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-service-request-code.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code</code>
               </a>
@@ -907,7 +907,7 @@
         <title value="Service request code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -918,8 +918,8 @@
         </contact>
         <description value="Codes of service request in our system"/>
         <expansion>
-          <identifier value="urn:uuid:4062dfeb-121a-417b-a7aa-6d58395dfdea"/>
-          <timestamp value="2021-05-12T14:58:24+00:00"/>
+          <identifier value="urn:uuid:11a461e6-082a-4c6a-a226-b27f094d5263"/>
+          <timestamp value="2021-11-15T01:20:19+00:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -947,22 +947,22 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="PCA"/>
-            <display value="Pr&#xE9;disposition aux cancers chez l&#39;adulte"/>
+            <display value="Prédisposition aux cancers chez l&#39;adulte"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="PTSE"/>
-            <display value="Pr&#xE9;disposition aux tumeurs solides de l&#39;enfant"/>
+            <display value="Prédisposition aux tumeurs solides de l&#39;enfant"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="PHME"/>
-            <display value="Pr&#xE9;disposition aux h&#xE9;matopathies malignes de l&#39;enfant"/>
+            <display value="Prédisposition aux hématopathies malignes de l&#39;enfant"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="SED"/>
-            <display value="Syndrome d&#x2019;Ehlers-Danlos"/>
+            <display value="Syndrome d’Ehlers-Danlos"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
@@ -977,7 +977,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="SLA"/>
-            <display value="Scl&#xE9;rose lat&#xE9;rale amyotrophique"/>
+            <display value="Sclérose latérale amyotrophique"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
@@ -987,17 +987,17 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="SUR"/>
-            <display value="Surdit&#xE9;"/>
+            <display value="Surdité"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="DI"/>
-            <display value="D&#xE9;ficience Intellectuelle (trio)"/>
+            <display value="Déficience Intellectuelle (trio)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="GMN"/>
-            <display value="G&#xE8;nes mitochondriaux nucl&#xE9;aires"/>
+            <display value="Gènes mitochondriaux nucléaires"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
@@ -1012,7 +1012,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
             <code value="AH"/>
-            <display value="Arythmies h&#xE9;r&#xE9;ditaires"/>
+            <display value="Arythmies héréditaires"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"/>
@@ -1035,7 +1035,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-blood-relationship.html">Blood relationship v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-blood-relationship.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship</code>
               </a>
@@ -1085,7 +1085,7 @@
         <title value="Blood relationship"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1096,8 +1096,8 @@
         </contact>
         <description value="This field gives us information if the parents of the patient are inbred"/>
         <expansion>
-          <identifier value="urn:uuid:749bad23-ae9c-4b06-9e2d-94e371dfee32"/>
-          <timestamp value="2021-05-12T14:58:24+00:00"/>
+          <identifier value="urn:uuid:3a3caf94-44f1-46c1-bd5f-ed9be0a78a50"/>
+          <timestamp value="2021-11-15T01:20:19+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1138,7 +1138,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-fm-structure.html">Family structure code system v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-fm-structure.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure</code>
               </a>
@@ -1255,8 +1255,8 @@
         </contact>
         <description value="This field gives possible valueSet of the family structure"/>
         <expansion>
-          <identifier value="urn:uuid:c288f00b-9a80-472b-a61a-e1c336c788d8"/>
-          <timestamp value="2021-05-12T14:58:25+00:00"/>
+          <identifier value="urn:uuid:b6245934-0cee-4cba-b0be-0f2fdaa2d94a"/>
+          <timestamp value="2021-11-15T01:20:20+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1411,8 +1411,8 @@
         </contact>
         <description value="Types of organization"/>
         <expansion>
-          <identifier value="urn:uuid:f88884ab-65c2-413e-96e4-a3bd50da900c"/>
-          <timestamp value="2021-05-12T14:58:25+00:00"/>
+          <identifier value="urn:uuid:1cb44716-7c6c-443e-ae87-37ef26c619fd"/>
+          <timestamp value="2021-11-15T01:20:21+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1566,10 +1566,10 @@
             <value value="mailto:support@ferlab.bio"/>
           </telecom>
         </contact>
-        <description value="Values &#x200B;&#x200B;assigned to the request status"/>
+        <description value="Values ​​assigned to the request status"/>
         <expansion>
-          <identifier value="urn:uuid:02eca4c0-d570-4373-bc43-f081d686fcb5"/>
-          <timestamp value="2021-05-12T14:58:25+00:00"/>
+          <identifier value="urn:uuid:81522eff-eb91-498b-b699-67b40637f554"/>
+          <timestamp value="2021-11-15T01:20:21+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1634,7 +1634,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-specimen-type.html">Specimen types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-specimen-type.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code>
               </a>
@@ -1684,7 +1684,7 @@
         <title value="Specimen types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1695,8 +1695,8 @@
         </contact>
         <description value="Specimen types"/>
         <expansion>
-          <identifier value="urn:uuid:0b920db8-2d64-441c-aa08-99376f3a6a11"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:6413853c-34ae-4a8f-a193-ca3784485ed9"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1737,7 +1737,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-data-type.html">Data types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-data-type.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code>
               </a>
@@ -1803,7 +1803,7 @@
         <title value="Data types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1814,8 +1814,8 @@
         </contact>
         <description value="Data types"/>
         <expansion>
-          <identifier value="urn:uuid:cf313540-5cec-4a62-919d-6ae818b0084c"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:a1971204-fe56-4ed2-af61-d4a4a33bac58"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1866,7 +1866,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-data-category.html">Data categories v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-data-category.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-category</code>
               </a>
@@ -1932,7 +1932,7 @@
         <title value="Data categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1943,8 +1943,8 @@
         </contact>
         <description value="Data categories"/>
         <expansion>
-          <identifier value="urn:uuid:c1c5d617-d486-4df0-83ee-c625f127dd8d"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:c940d498-3a3b-4da4-8839-df7f5d5b959f"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1995,7 +1995,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-document-format.html">Document formats v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-document-format.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</code>
               </a>
@@ -2061,7 +2061,7 @@
         <title value="Document formats"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2072,8 +2072,8 @@
         </contact>
         <description value="Document formats"/>
         <expansion>
-          <identifier value="urn:uuid:96d2e635-9a58-486b-88b8-48be79bb2473"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:896736a9-4676-4cee-b5ce-2a509bc0e0f4"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2124,7 +2124,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-experimental-strategy.html">Experimental strategies v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-experimental-strategy.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</code>
               </a>
@@ -2166,7 +2166,7 @@
         <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2177,8 +2177,8 @@
         </contact>
         <description value="Experimental strategies"/>
         <expansion>
-          <identifier value="urn:uuid:54246280-289f-4f51-a083-b373f40e96dd"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:9cfb5d4c-8dd4-48e5-80cf-d4fc88fed1bd"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2214,7 +2214,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-variant-type.html">Variant types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-variant-type.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</code>
               </a>
@@ -2256,7 +2256,7 @@
         <title value="Variant types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2267,8 +2267,8 @@
         </contact>
         <description value="Variant types"/>
         <expansion>
-          <identifier value="urn:uuid:48d88d15-a026-4464-b73c-625a1d36085a"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:a3040842-f42e-4379-a6c2-c563129bb15f"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2304,7 +2304,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-analysis-type.html">Analysis types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-analysis-type.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type</code>
               </a>
@@ -2354,7 +2354,7 @@
         <title value="Analysis types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2365,8 +2365,8 @@
         </contact>
         <description value="Analysis types"/>
         <expansion>
-          <identifier value="urn:uuid:9b030e41-70e9-4078-87c3-69912ad03871"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:4a2cbcaf-0c78-49ee-bbf7-47251d490d44"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2407,7 +2407,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-genome-build.html">Genome build v0.1.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-genome-build.html">
                 <code>http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build</code>
               </a>
@@ -2441,7 +2441,7 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-05-12T14:57:53+00:00"/>
+        <date value="2021-11-15T01:19:57+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2452,8 +2452,8 @@
         </contact>
         <description value="Genome build"/>
         <expansion>
-          <identifier value="urn:uuid:d4cf35b7-7d18-4ea2-95c4-01564f7b6df4"/>
-          <timestamp value="2021-05-12T14:58:26+00:00"/>
+          <identifier value="urn:uuid:d7788b34-dd93-450b-be2b-0480ef76ba6f"/>
+          <timestamp value="2021-11-15T01:20:22+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>

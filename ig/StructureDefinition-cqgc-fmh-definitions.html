@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.4"}
-    h3,h4,h5,h6{--heading-prefix:"2.4"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.5"}
+    h3,h4,h5,h6{--heading-prefix:"2.5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -93,14 +93,17 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
+
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ferlab.bio StructureDefinition/cqgc-fmh</b></li>
+
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
 
+    <a name="top"> </a>
     <div id="segment-content" class="segment">  <!-- segment-content -->
       <div class="container">  <!-- container -->
         <div class="row">
@@ -213,7 +216,9 @@
   <tr><td>Definition</td><td><p>The base language in which the resource is written.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>A human language.<br/>The codes SHOULD be taken from <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/R4/valueset-all-languages.html">AllLanguages</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHOULD be taken from <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><br/><a style="font-weight:bold" title="Max Value Set Extension" href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">Max Binding</a>: <a href="http://hl7.org/fhir/R4/valueset-all-languages.html">AllLanguages</a>
+A human language.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td></tr>
   <tr><td>Comments</td><td><p>Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</p>
 </td></tr>
@@ -293,7 +298,9 @@
   <tr><td>Definition</td><td><p>A code specifying the status of the record of the family history of a specific family member.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>A code that identifies the status of the family history record.<br/>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-history-status.html">FamilyHistoryStatus</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-history-status.html">FamilyHistoryStatus</a>
+A code that identifies the status of the family history record.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
   <tr><td>Comments</td><td><p>This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</p>
@@ -304,7 +311,9 @@
   <tr><td>Definition</td><td><p>Describes why the family member's history is not available.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..0</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Codes describing the reason why a family member's history is not available.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-history-absent-reason.html">FamilyHistoryAbsentReason</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-history-absent-reason.html">FamilyHistoryAbsentReason</a>
+Codes describing the reason why a family member's history is not available.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Requirements</td><td><p>This is a separate element to allow it to have a distinct binding from reasonCode.</p>
 </td></tr>
@@ -342,7 +351,9 @@
   <tr><td>Definition</td><td><p>The type of relationship this person has to the patient (father, mother, brother etc.).</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>FMH relashionship<br/>The codes SHALL be taken from <a href="ValueSet-fmh-relationship.html">Family Member Relationship</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="ValueSet-fmh-relationship.html">Family Member Relationship</a>
+FMH relashionship</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -350,7 +361,9 @@
   <tr><td>Definition</td><td><p>The birth sex of the family member.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Codes describing the sex assigned at birth as documented on the birth registration.<br/>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender</a>; other codes may be used where these codes are not suitable
+Codes describing the sex assigned at birth as documented on the birth registration.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Requirements</td><td><p>Not all relationship codes imply sex and the relative's sex can be relevant for risk assessments.</p>
 </td></tr>
@@ -358,7 +371,7 @@
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
-  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.born[x]"> </a><a name="FamilyMemberHistory.bornString"> </a><a name="FamilyMemberHistory.bornDate"> </a><a name="FamilyMemberHistory.bornPeriod"> </a><span style="color: grey">20.</span> <b>FamilyMemberHistory.born[x]</b><a href="#FamilyMemberHistory.born[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.born[x]"> </a><a name="FamilyMemberHistory.bornPeriod"> </a><a name="FamilyMemberHistory.born[x]:bornPeriod"> </a><a name="FamilyMemberHistory.bornDate"> </a><a name="FamilyMemberHistory.born[x]:bornDate"> </a><a name="FamilyMemberHistory.bornString"> </a><a name="FamilyMemberHistory.born[x]:bornString"> </a><span style="color: grey">20.</span> <b>FamilyMemberHistory.born[x]</b><a href="#FamilyMemberHistory.born[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td>Definition</td><td><p>The actual or approximate date of birth of the relative.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..0 This element is affected by the following invariants: fhs-1</td></tr>
@@ -368,7 +381,7 @@
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
-  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.age[x]"> </a><a name="FamilyMemberHistory.ageAge"> </a><a name="FamilyMemberHistory.ageString"> </a><a name="FamilyMemberHistory.ageRange"> </a><span style="color: grey">21.</span> <b>FamilyMemberHistory.age[x]</b><a href="#FamilyMemberHistory.age[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.age[x]"> </a><a name="FamilyMemberHistory.ageAge"> </a><a name="FamilyMemberHistory.age[x]:ageAge"> </a><a name="FamilyMemberHistory.ageRange"> </a><a name="FamilyMemberHistory.age[x]:ageRange"> </a><a name="FamilyMemberHistory.ageString"> </a><a name="FamilyMemberHistory.age[x]:ageString"> </a><span style="color: grey">21.</span> <b>FamilyMemberHistory.age[x]</b><a href="#FamilyMemberHistory.age[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td>Definition</td><td><p>The age of the relative at the time the family member history is recorded.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..0 This element is affected by the following invariants: fhs-1</td></tr>
@@ -392,7 +405,7 @@
   <tr><td>Meaning if Missing</td><td>It is unknown whether the age is an estimate or not</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
-  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.deceased[x]"> </a><a name="FamilyMemberHistory.deceasedString"> </a><a name="FamilyMemberHistory.deceasedRange"> </a><a name="FamilyMemberHistory.deceasedBoolean"> </a><a name="FamilyMemberHistory.deceasedDate"> </a><a name="FamilyMemberHistory.deceasedAge"> </a><span style="color: grey">23.</span> <b>FamilyMemberHistory.deceased[x]</b><a href="#FamilyMemberHistory.deceased[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.deceased[x]"> </a><a name="FamilyMemberHistory.deceasedBoolean"> </a><a name="FamilyMemberHistory.deceased[x]:deceasedBoolean"> </a><a name="FamilyMemberHistory.deceasedAge"> </a><a name="FamilyMemberHistory.deceased[x]:deceasedAge"> </a><a name="FamilyMemberHistory.deceasedRange"> </a><a name="FamilyMemberHistory.deceased[x]:deceasedRange"> </a><a name="FamilyMemberHistory.deceasedDate"> </a><a name="FamilyMemberHistory.deceased[x]:deceasedDate"> </a><a name="FamilyMemberHistory.deceasedString"> </a><a name="FamilyMemberHistory.deceased[x]:deceasedString"> </a><span style="color: grey">23.</span> <b>FamilyMemberHistory.deceased[x]</b><a href="#FamilyMemberHistory.deceased[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td>Definition</td><td><p>Deceased flag or the actual or approximate age of the relative at the time of death for the family member history record.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..0</td></tr>
@@ -404,7 +417,9 @@
   <tr><td>Definition</td><td><p>Describes why the family member history occurred in coded or textual form.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..0</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Codes indicating why the family member history was done.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-clinical-findings.html">SNOMEDCTClinicalFindings</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-clinical-findings.html">SNOMEDCTClinicalFindings</a>
+Codes indicating why the family member history was done.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Comments</td><td><p>Textual reasons can be captured using reasonCode.text.</p>
 </td></tr>
@@ -464,7 +479,9 @@
   <tr><td>Definition</td><td><p>The actual condition specified. Could be a coded condition (like MI or Diabetes) or a less specific string like 'cancer' depending on how much is known about the condition and the capabilities of the creating system.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Identification of the Condition or diagnosis.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a>
+Identification of the Condition or diagnosis.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -472,7 +489,9 @@
   <tr><td>Definition</td><td><p>Indicates what happened following the condition.  If the condition resulted in death, deceased date is captured on the relation.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The result of the condition for the patient; e.g. death, permanent disability, temporary disability, etc.<br/>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-condition-outcome.html">ConditionOutcomeCodes</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-condition-outcome.html">ConditionOutcomeCodes</a>
+The result of the condition for the patient; e.g. death, permanent disability, temporary disability, etc.</p>
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
@@ -483,7 +502,7 @@
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() or (children().count() &gt; id.count()))</td></tr>
-  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.condition.onset[x]"> </a><a name="FamilyMemberHistory.condition.onsetAge"> </a><a name="FamilyMemberHistory.condition.onsetPeriod"> </a><a name="FamilyMemberHistory.condition.onsetString"> </a><a name="FamilyMemberHistory.condition.onsetRange"> </a><span style="color: grey">34.</span> <b>FamilyMemberHistory.condition.onset[x]</b><a href="#FamilyMemberHistory.condition.onset[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
+  <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="FamilyMemberHistory.condition.onset[x]"> </a><a name="FamilyMemberHistory.condition.onsetAge"> </a><a name="FamilyMemberHistory.condition.onset[x]:onsetAge"> </a><a name="FamilyMemberHistory.condition.onsetRange"> </a><a name="FamilyMemberHistory.condition.onset[x]:onsetRange"> </a><a name="FamilyMemberHistory.condition.onsetPeriod"> </a><a name="FamilyMemberHistory.condition.onset[x]:onsetPeriod"> </a><a name="FamilyMemberHistory.condition.onsetString"> </a><a name="FamilyMemberHistory.condition.onset[x]:onsetString"> </a><span style="color: grey">34.</span> <b>FamilyMemberHistory.condition.onset[x]</b><a href="#FamilyMemberHistory.condition.onset[x]" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td>Definition</td><td><p>Either the age of onset, range of approximate age or descriptive string can be recorded.  For conditions with multiple occurrences, this describes the first known occurrence.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
@@ -548,15 +567,17 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
+
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 12, 2021 14:57+0000">2021-05-12</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 15, 2021 01:19+0000">2021-11-15</span>
           <br/>
-          <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
           </span>
@@ -591,3 +612,4 @@ anchors.add()</script>
   ================================================== -->
   </body>
 </html>
+

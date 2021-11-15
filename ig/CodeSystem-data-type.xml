@@ -11,7 +11,7 @@
   <title value="Data types"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-05-12T14:57:53+00:00"/>
+  <date value="2021-11-15T01:19:57+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -30,7 +30,7 @@
     <definition value="Aligned reads"/>
     <designation>
       <language value="fr"/>
-      <value value="Fragments align&#xE9;s"/>
+      <value value="Fragments alignés"/>
     </designation>
   </concept>
   <concept>
@@ -48,7 +48,7 @@
     <definition value="QC report"/>
     <designation>
       <language value="fr"/>
-      <value value="Rapport contr&#xF4;le de qualit&#xE9;"/>
+      <value value="Rapport contrôle de qualité"/>
     </designation>
   </concept>
   <concept>
@@ -57,7 +57,7 @@
     <definition value="Sequencing data index"/>
     <designation>
       <language value="fr"/>
-      <value value="Index de donn&#xE9;es de s&#xE9;quen&#xE7;age"/>
+      <value value="Index de données de séquençage"/>
     </designation>
   </concept>
   <concept>

@@ -11,7 +11,7 @@
   <title value="Ethnicites in Quebec"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-05-12T14:57:53+00:00"/>
+  <date value="2021-11-15T01:19:57+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -39,7 +39,7 @@
     <definition value="Anyone from or whose ancestors originate from the European continent (excluding French Canadians)."/>
     <designation>
       <language value="fr"/>
-      <value value="Caucasien Europ&#xE9;en"/>
+      <value value="Caucasien Européen"/>
     </designation>
   </concept>
   <concept>
@@ -48,7 +48,7 @@
     <definition value="Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa."/>
     <designation>
       <language value="fr"/>
-      <value value="Africain ou carib&#xE9;en"/>
+      <value value="Africain ou caribéen"/>
     </designation>
   </concept>
   <concept>
@@ -84,7 +84,7 @@
     <definition value="Person who are descendants of the natives or the indigenous peoples of the Americas"/>
     <designation>
       <language value="fr"/>
-      <value value="Am&#xE9;rindien"/>
+      <value value="Amérindien"/>
     </designation>
   </concept>
   <concept>

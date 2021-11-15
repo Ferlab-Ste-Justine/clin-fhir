@@ -20,7 +20,7 @@
       <value value="mailto:support@ferlab.bio"/>
     </telecom>
   </contact>
-  <description value="Values &#x200B;&#x200B;assigned to the request status"/>
+  <description value="Values ​​assigned to the request status"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/request-status"/>
