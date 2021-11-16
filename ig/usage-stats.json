@@ -197,6 +197,20 @@
       ]
     },
     {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size",
+      "title": "Full Size",
+      "types": [
+        "decimal"
+      ]
+    },
+    {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status",
+      "title": "Group member status",
+      "types": [
+        "Coding"
+      ]
+    },
+    {
       "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
       "title": "HPO category",
       "types": [
@@ -1203,6 +1217,9 @@
     ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure": [
       "Group"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status": [
+      "Group.member"
     ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category": [
       "Observation"

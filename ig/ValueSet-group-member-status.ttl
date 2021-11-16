@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "group-member-status"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>AFF</td><td>Affected</td><td>Atteint(e)</td></tr><tr><td>UNF</td><td>Unaffected</td><td>Non-atteint(e)</td></tr><tr><td>UNK</td><td>Juvenile onset</td><td>Inconnu</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "group-member-status"];
+  fhir:ValueSet.title [ fhir:value "Group member status"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2020-08-12T13:29:08-04:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "This value set includes age at onset codes from Human Phenotype Ontology."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AFF" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Affected" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Atteint(e)" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UNF" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Unaffected" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Non-atteint(e)" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "UNK" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Juvenile onset" ];
+         fhir:ValueSet.compose.include.concept.designation [
+           fhir:index 0;
+           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
+           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Inconnu" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

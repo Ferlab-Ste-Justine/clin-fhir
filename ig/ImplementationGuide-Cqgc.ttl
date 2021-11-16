@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "CqgcImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Cqgc Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-15T01:19:57+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-16T04:51:36+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Ferlab.bio"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1090,6 +1090,48 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio SearchParameter/output-documentreference" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter output-documentreference" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 59;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/full-size" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/full-size" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition full-size, Base: Extension" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 60;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status>;
+         fhir:Reference.reference [ fhir:value "ValueSet/group-member-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/group-member-status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet group-member-status" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 61;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/group-member-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/group-member-status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition group-member-status, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [

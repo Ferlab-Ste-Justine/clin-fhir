@@ -1,9 +1,9 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 0, warn = 85, info = 0
+err = 0, warn = 92, info = 0
 IG Publisher Version: 1.1.86
-Generated Mon Nov 15 01:20:38 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+Generated Tue Nov 16 04:52:22 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 1 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -12,6 +12,8 @@ Generated Mon Nov 15 01:20:38 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-id : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-fm-structure : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-full-size : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-group-member-status : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-hpo-category : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-is-fetus : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-is-proband : 0 / 1 / 1
@@ -56,6 +58,7 @@ Generated Mon Nov 15 01:20:38 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-fm-structure : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-fmh-relationship : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-genome-build : 0 / 1 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-group-member-status : 0 / 3 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-hpo-category : 0 / 3 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-observation-code : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-organization-type : 0 / 1 / 1
@@ -87,6 +90,12 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 == input/resources/extensions/StructureDefinition-fm-structure.json ==
 WARNING: StructureDefinition/fm-structure: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure'): The Implementation Guide contains no examples for this extension
+== input/resources/extensions/StructureDefinition-full-size.json ==
+WARNING: StructureDefinition/full-size: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size'): The Implementation Guide contains no examples for this extension
+== input/resources/extensions/StructureDefinition-group-member-status.json ==
+WARNING: StructureDefinition/group-member-status: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-hpo-category.json ==
 WARNING: StructureDefinition/hpo-category: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category'): The Implementation Guide contains no examples for this extension
@@ -191,6 +200,10 @@ WARNING: ValueSet/fm-structure: ValueSet: vsd-0: 'Name should be usable as an id
 WARNING: ValueSet/fmh-relationship: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-genome-build.json ==
 WARNING: ValueSet/genome-build: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== input/resources/terminology/ValueSet-group-member-status.json ==
+WARNING: ValueSet/group-member-status: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/group-member-status: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'group-member-status'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-hpo-category.json ==
 WARNING: ValueSet/hpo-category: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ValueSet/hpo-category: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked

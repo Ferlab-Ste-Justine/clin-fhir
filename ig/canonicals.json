@@ -231,6 +231,20 @@
     "name": "fm-structure"
   },
   {
+    "id": "full-size",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size",
+    "version": "0.1.0",
+    "name": "full-size"
+  },
+  {
+    "id": "group-member-status",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status",
+    "version": "0.1.0",
+    "name": "group-member-status"
+  },
+  {
     "id": "hpo-category",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category",
@@ -362,6 +376,13 @@
     "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
     "version": "0.1.0",
     "name": "genome-build"
+  },
+  {
+    "id": "group-member-status",
+    "type": "ValueSet",
+    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status",
+    "version": "0.1.0",
+    "name": "group-member-status"
   },
   {
     "id": "hpo-category",

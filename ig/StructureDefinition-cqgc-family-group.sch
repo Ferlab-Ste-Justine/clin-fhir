@@ -159,6 +159,13 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:Group/f:member</sch:title>
+    <sch:rule context="f:Group/f:member">
+      <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status']) &gt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status']) &lt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status': maximum cardinality of 'extension' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Group.member</sch:title>
     <sch:rule context="f:Group/f:member">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -167,8 +174,10 @@
   <sch:pattern>
     <sch:title>Group.member.extension</sch:title>
     <sch:rule context="f:Group/f:member/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

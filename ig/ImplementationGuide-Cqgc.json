@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2021-11-15T01:19:57+00:00",
+  "date": "2021-11-16T04:51:36+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -1104,6 +1104,48 @@
         },
         "name": "Ferlab.bio SearchParameter/output-documentreference",
         "description": "Ferlab.bio SearchParameter output-documentreference",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/full-size"
+        },
+        "name": "Ferlab.bio StructureDefinition/full-size",
+        "description": "Ferlab.bio StructureDefinition full-size, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/group-member-status"
+        },
+        "name": "Ferlab.bio ValueSet/group-member-status",
+        "description": "Ferlab.bio ValueSet group-member-status",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/group-member-status"
+        },
+        "name": "Ferlab.bio StructureDefinition/group-member-status",
+        "description": "Ferlab.bio StructureDefinition group-member-status, Base: Extension",
         "exampleBoolean": false
       }
     ],
