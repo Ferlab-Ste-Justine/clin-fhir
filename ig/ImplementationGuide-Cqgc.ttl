@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "CqgcImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Cqgc Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-16T04:51:36+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-17T13:47:01+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Ferlab.bio"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1132,6 +1132,62 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/group-member-status" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition group-member-status, Base: Extension" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 62;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/resident-supervisor" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/resident-supervisor" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition resident-supervisor, Base: Extension" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 63;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/SearchParameter/run-name>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/run-name" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio SearchParameter/run-name" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter run-name" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 64;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/SearchParameter/input-specimen>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/input-specimen" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio SearchParameter/input-specimen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter input-specimen" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 65;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/SearchParameter/contextspecimen>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/contextspecimen" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio SearchParameter/contextspecimen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter contextspecimen" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [

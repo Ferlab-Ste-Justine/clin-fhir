@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2021-11-16T04:51:36+00:00",
+  "date": "2021-11-17T13:47:01+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -1146,6 +1146,62 @@
         },
         "name": "Ferlab.bio StructureDefinition/group-member-status",
         "description": "Ferlab.bio StructureDefinition group-member-status, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/resident-supervisor"
+        },
+        "name": "Ferlab.bio StructureDefinition/resident-supervisor",
+        "description": "Ferlab.bio StructureDefinition resident-supervisor, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/run-name"
+        },
+        "name": "Ferlab.bio SearchParameter/run-name",
+        "description": "Ferlab.bio SearchParameter run-name",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/input-specimen"
+        },
+        "name": "Ferlab.bio SearchParameter/input-specimen",
+        "description": "Ferlab.bio SearchParameter input-specimen",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/contextspecimen"
+        },
+        "name": "Ferlab.bio SearchParameter/contextspecimen",
+        "description": "Ferlab.bio SearchParameter contextspecimen",
         "exampleBoolean": false
       }
     ],

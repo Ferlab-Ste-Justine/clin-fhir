@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-11-16T04:51:36+00:00"/>
+  <date value="2021-11-17T13:47:01+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -857,6 +857,50 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/group-member-status"/>
       <description value="Ferlab.bio StructureDefinition group-member-status, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/resident-supervisor"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/resident-supervisor"/>
+      <description value="Ferlab.bio StructureDefinition resident-supervisor, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/run-name"/>
+      </reference>
+      <name value="Ferlab.bio SearchParameter/run-name"/>
+      <description value="Ferlab.bio SearchParameter run-name"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/input-specimen"/>
+      </reference>
+      <name value="Ferlab.bio SearchParameter/input-specimen"/>
+      <description value="Ferlab.bio SearchParameter input-specimen"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/contextspecimen"/>
+      </reference>
+      <name value="Ferlab.bio SearchParameter/contextspecimen"/>
+      <description value="Ferlab.bio SearchParameter contextspecimen"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

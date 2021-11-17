@@ -246,6 +246,13 @@
       ]
     },
     {
+      "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor",
+      "title": "Resident Supervisor",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
       "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
       "title": "Sequencing expriment",
       "types": [
@@ -1234,6 +1241,9 @@
       "ServiceRequest"
     ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression": [
+      "ServiceRequest"
+    ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor": [
       "ServiceRequest"
     ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow": [

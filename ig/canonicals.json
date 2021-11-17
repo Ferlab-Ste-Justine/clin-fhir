@@ -126,11 +126,32 @@
     "name": "CqgcImplementationGuide"
   },
   {
+    "id": "contextspecimen",
+    "type": "SearchParameter",
+    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/contextspecimen",
+    "version": "0.1.0",
+    "name": "contextspecimen"
+  },
+  {
+    "id": "input-specimen",
+    "type": "SearchParameter",
+    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/input-specimen",
+    "version": "0.1.0",
+    "name": "input_specimen"
+  },
+  {
     "id": "output-documentreference",
     "type": "SearchParameter",
     "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
     "version": "0.1.0",
     "name": "output-documentreference"
+  },
+  {
+    "id": "run-name",
+    "type": "SearchParameter",
+    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/run-name",
+    "version": "0.1.0",
+    "name": "run-name"
   },
   {
     "id": "age-at-event",
@@ -278,6 +299,13 @@
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression",
     "version": "0.1.0",
     "name": "ref-clin-impression"
+  },
+  {
+    "id": "resident-supervisor",
+    "type": "StructureDefinition",
+    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor",
+    "version": "0.1.0",
+    "name": "resident-supervisor"
   },
   {
     "id": "sequencing-experiment",

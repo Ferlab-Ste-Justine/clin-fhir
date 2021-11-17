@@ -15,6 +15,7 @@
       <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted']) &gt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted']) &lt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression']) &lt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor']) &lt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -57,6 +58,8 @@
     <sch:rule context="f:ServiceRequest/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
