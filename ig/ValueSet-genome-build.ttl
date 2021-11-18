@@ -18,7 +18,7 @@
   fhir:ValueSet.title [ fhir:value "Genome build"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2021-11-17T13:47:01+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-11-18T22:04:47+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"];
   fhir:ValueSet.contact [
      fhir:index 0;

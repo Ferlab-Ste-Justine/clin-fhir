@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 97, info = 0
-IG Publisher Version: 1.1.86
-Generated Wed Nov 17 13:47:47 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+IG Publisher Version: 1.1.87
+Generated Thu Nov 18 22:05:41 UTC 2021. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 1 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -131,7 +131,7 @@ WARNING: StructureDefinition/cqgc-analysis-task: StructureDefinition: sdf-0: 'Na
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-clinical-impression.json ==
 WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition.snapshot.element[21].comment: The Unicode sequence has unterminated bi-di control characters (see CVE-2021-42574): {1} 
+WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition.snapshot.element[21].comment: The Unicode sequence has unterminated bi-di control characters (see CVE-2021-42574): {1}
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-family-group.json ==
 WARNING: StructureDefinition/cqgc-family-group: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
