@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "group-member-status"];
   fhir:StructureDefinition.title [ fhir:value "Group member status"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-19T18:00:23+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-11-19T18:02:16+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
