@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="analysis-type"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">SA<a name="analysis-type-SA"> </a></td><td>Sequencing Alignment Analysis</td><td>Sequencing alignement analysis</td></tr><tr><td style="white-space:nowrap">VC<a name="analysis-type-VC"> </a></td><td>Variant Calling Analysis</td><td>Variant calling analysis</td></tr><tr><td style="white-space:nowrap">QC<a name="analysis-type-QC"> </a></td><td>Sequencing QC Analysis</td><td>Sequencing QC analysis</td></tr><tr><td style="white-space:nowrap">EGA<a name="analysis-type-EGA"> </a></td><td>Exome germline analysis</td><td>Exome germline analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SA</td><td>Alignement de fragments</td></tr><tr><td>VC</td><td>Identification de variants</td></tr><tr><td>QC</td><td>Contrôle de qualité de séquençage</td></tr><tr><td>EGA</td><td>Analyse germinale d'exomes</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">SA<a name="analysis-type-SA"> </a></td><td>Sequencing Alignment Analysis</td><td>Sequencing alignement analysis</td></tr><tr><td style="white-space:nowrap">VC<a name="analysis-type-VC"> </a></td><td>Variant Calling Analysis</td><td>Variant calling analysis</td></tr><tr><td style="white-space:nowrap">QC<a name="analysis-type-QC"> </a></td><td>Sequencing QC Analysis</td><td>Sequencing QC analysis</td></tr><tr><td style="white-space:nowrap">GEAN<a name="analysis-type-GEAN"> </a></td><td>GEAN</td><td>Exome germline analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SA</td><td>Alignement de fragments</td></tr><tr><td>VC</td><td>Identification de variants</td></tr><tr><td>QC</td><td>Contrôle de qualité de séquençage</td></tr><tr><td>GEAN</td><td>Analyse germinale d'exomes</td></tr></table></div>
   </text>
   <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Analysis types"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-11-22T14:07:32+00:00"/>
+  <date value="2021-11-22T14:10:59+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -52,8 +52,8 @@
     </designation>
   </concept>
   <concept>
-    <code value="EGA"/>
-    <display value="Exome germline analysis"/>
+    <code value="GEAN"/>
+    <display value="GEAN"/>
     <definition value="Exome germline analysis"/>
     <designation>
       <language value="fr"/>
