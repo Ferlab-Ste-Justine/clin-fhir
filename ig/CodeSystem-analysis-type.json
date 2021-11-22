@@ -3,7 +3,7 @@
   "id": "analysis-type",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"analysis-type-SA\"> </a></td><td>Sequencing Alignment Analysis</td><td>Sequencing alignement analysis</td></tr><tr><td style=\"white-space:nowrap\">VC<a name=\"analysis-type-VC\"> </a></td><td>Variant Calling Analysis</td><td>Variant calling analysis</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"analysis-type-QC\"> </a></td><td>Sequencing QC Analysis</td><td>Sequencing QC analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SA</td><td>Alignement de fragments</td></tr><tr><td>VC</td><td>Identification de variants</td></tr><tr><td>QC</td><td>Contrôle de qualité de séquençage</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"analysis-type-SA\"> </a></td><td>Sequencing Alignment Analysis</td><td>Sequencing alignement analysis</td></tr><tr><td style=\"white-space:nowrap\">VC<a name=\"analysis-type-VC\"> </a></td><td>Variant Calling Analysis</td><td>Variant calling analysis</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"analysis-type-QC\"> </a></td><td>Sequencing QC Analysis</td><td>Sequencing QC analysis</td></tr><tr><td style=\"white-space:nowrap\">EGA<a name=\"analysis-type-EGA\"> </a></td><td>Exome germline analysis</td><td>Exome germline analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SA</td><td>Alignement de fragments</td></tr><tr><td>VC</td><td>Identification de variants</td></tr><tr><td>QC</td><td>Contrôle de qualité de séquençage</td></tr><tr><td>EGA</td><td>Analyse germinale d'exomes</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Analysis types",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-19T21:14:24+00:00",
+  "date": "2021-11-22T14:07:32+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -59,6 +59,17 @@
         {
           "language": "fr",
           "value": "Contrôle de qualité de séquençage"
+        }
+      ]
+    },
+    {
+      "code": "EGA",
+      "display": "Exome germline analysis",
+      "definition": "Exome germline analysis",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Analyse germinale d'exomes"
         }
       ]
     }
