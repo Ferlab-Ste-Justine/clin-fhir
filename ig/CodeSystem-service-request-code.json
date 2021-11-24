@@ -3,7 +3,7 @@
   "id": "service-request-code",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">WXS<a name=\"service-request-code-WXS\"> </a></td><td>Whole Exome Sequencing</td><td>Process of determining the complete DNA sequence of the genome at a single time</td></tr><tr><td style=\"white-space:nowrap\">WGS<a name=\"service-request-code-WGS\"> </a></td><td>Whole Genome Sequencing</td><td>Process of determining all of the exons within the genome sequence at a single time</td></tr><tr><td style=\"white-space:nowrap\">GP<a name=\"service-request-code-GP\"> </a></td><td>Gene Panel</td><td>Process of determining the complete sequences of the indicated gene panel at a single time</td></tr><tr><td style=\"white-space:nowrap\">PCA<a name=\"service-request-code-PCA\"> </a></td><td>Prédisposition aux cancers chez l'adulte</td><td/></tr><tr><td style=\"white-space:nowrap\">PTSE<a name=\"service-request-code-PTSE\"> </a></td><td>Prédisposition aux tumeurs solides de l'enfant</td><td/></tr><tr><td style=\"white-space:nowrap\">PHME<a name=\"service-request-code-PHME\"> </a></td><td>Prédisposition aux hématopathies malignes de l'enfant</td><td/></tr><tr><td style=\"white-space:nowrap\">SED<a name=\"service-request-code-SED\"> </a></td><td>Syndrome d’Ehlers-Danlos</td><td/></tr><tr><td style=\"white-space:nowrap\">SP<a name=\"service-request-code-SP\"> </a></td><td>Syndromes polymalformatifs (trio)</td><td/></tr><tr><td style=\"white-space:nowrap\">MM<a name=\"service-request-code-MM\"> </a></td><td>Maladies musculaires</td><td/></tr><tr><td style=\"white-space:nowrap\">SLA<a name=\"service-request-code-SLA\"> </a></td><td>Sclérose latérale amyotrophique</td><td/></tr><tr><td style=\"white-space:nowrap\">RET<a name=\"service-request-code-RET\"> </a></td><td>Retinopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">SUR<a name=\"service-request-code-SUR\"> </a></td><td>Surdité</td><td/></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience Intellectuelle (trio)</td><td/></tr><tr><td style=\"white-space:nowrap\">GMN<a name=\"service-request-code-GMN\"> </a></td><td>Gènes mitochondriaux nucléaires</td><td/></tr><tr><td style=\"white-space:nowrap\">RAS<a name=\"service-request-code-RAS\"> </a></td><td>Rasopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">CAR<a name=\"service-request-code-CAR\"> </a></td><td>Cardiomyopathies</td><td/></tr><tr><td style=\"white-space:nowrap\">AH<a name=\"service-request-code-AH\"> </a></td><td>Arythmies héréditaires</td><td/></tr><tr><td style=\"white-space:nowrap\">AOR<a name=\"service-request-code-AOR\"> </a></td><td>Aortopathies</td><td/></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>WXS</td><td>Séquençage du Génome Entier</td></tr><tr><td>WGS</td><td>Séquençage de l'Exome Entier</td></tr><tr><td>GP</td><td>Panel de Gènes</td></tr><tr><td>PCA</td><td>Prédisposition aux cancers chez l'adulte</td></tr><tr><td>PTSE</td><td>Prédisposition aux tumeurs solides de l'enfant</td></tr><tr><td>PHME</td><td>Prédisposition aux hématopathies malignes de l'enfant</td></tr><tr><td>SED</td><td>Syndrome d’Ehlers-Danlos</td></tr><tr><td>SP</td><td>Syndromes polymalformatifs (trio)</td></tr><tr><td>MM</td><td>Maladies musculaires</td></tr><tr><td>SLA</td><td>Sclérose latérale amyotrophique</td></tr><tr><td>RET</td><td>Retinopathies</td></tr><tr><td>SUR</td><td>Surdité</td></tr><tr><td>DI</td><td>Déficience Intellectuelle (trio)</td></tr><tr><td>GMN</td><td>Gènes mitochondriaux nucléaires</td></tr><tr><td>RAS</td><td>Rasopathies</td></tr><tr><td>CAR</td><td>Cardiomyopathies</td></tr><tr><td>AH</td><td>Arythmies héréditaires</td></tr><tr><td>AOR</td><td>Aortopathies</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MM-PG<a name=\"service-request-code-MM-PG\"> </a></td><td>Maladies musculaires (Panel global)</td></tr><tr><td style=\"white-space:nowrap\">MM-DYST<a name=\"service-request-code-MM-DYST\"> </a></td><td>Dystrophies Musculaires</td></tr><tr><td style=\"white-space:nowrap\">MM-RHAB<a name=\"service-request-code-MM-RHAB\"> </a></td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MM-MYOP<a name=\"service-request-code-MM-MYOP\"> </a></td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MM-MYAS<a name=\"service-request-code-MM-MYAS\"> </a></td><td>Myasthenias congénitales</td></tr><tr><td style=\"white-space:nowrap\">MM-HYP<a name=\"service-request-code-MM-HYP\"> </a></td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience intellectuelle (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MM-PG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>MM-DYST</td><td>Dystrophies Musculaires</td></tr><tr><td>MM-RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MM-MYOP</td><td>Myopathies congénitales</td></tr><tr><td>MM-MYAS</td><td>Myasthenias congénitales</td></tr><tr><td>MM-HYP</td><td>Hyperthermie maligne</td></tr><tr><td>DI</td><td>Déficience intellectuelle (Trio)</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "service request code",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-23T21:25:23+00:00",
+  "date": "2021-11-24T19:02:36+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -29,185 +29,72 @@
   "content": "complete",
   "concept": [
     {
-      "code": "WXS",
-      "display": "Whole Exome Sequencing",
-      "definition": "Process of determining the complete DNA sequence of the genome at a single time",
+      "code": "MM-PG",
+      "display": "Maladies musculaires (Panel global)",
       "designation": [
         {
           "language": "fr",
-          "value": "Séquençage du Génome Entier"
+          "value": "Maladies musculaires (Panel global)"
         }
       ]
     },
     {
-      "code": "WGS",
-      "display": "Whole Genome Sequencing",
-      "definition": "Process of determining all of the exons within the genome sequence at a single time",
+      "code": "MM-DYST",
+      "display": "Dystrophies Musculaires",
       "designation": [
         {
           "language": "fr",
-          "value": "Séquençage de l'Exome Entier"
+          "value": "Dystrophies Musculaires"
         }
       ]
     },
     {
-      "code": "GP",
-      "display": "Gene Panel",
-      "definition": "Process of determining the complete sequences of the indicated gene panel at a single time",
+      "code": "MM-RHAB",
+      "display": "Rhabdomyolyse",
       "designation": [
         {
           "language": "fr",
-          "value": "Panel de Gènes"
+          "value": "Rhabdomyolyse"
         }
       ]
     },
     {
-      "code": "PCA",
-      "display": "Prédisposition aux cancers chez l'adulte",
+      "code": "MM-MYOP",
+      "display": "Myopathies congénitales",
       "designation": [
         {
           "language": "fr",
-          "value": "Prédisposition aux cancers chez l'adulte"
+          "value": "Myopathies congénitales"
         }
       ]
     },
     {
-      "code": "PTSE",
-      "display": "Prédisposition aux tumeurs solides de l'enfant",
+      "code": "MM-MYAS",
+      "display": "Myasthenias congénitales",
       "designation": [
         {
           "language": "fr",
-          "value": "Prédisposition aux tumeurs solides de l'enfant"
+          "value": "Myasthenias congénitales"
         }
       ]
     },
     {
-      "code": "PHME",
-      "display": "Prédisposition aux hématopathies malignes de l'enfant",
+      "code": "MM-HYP",
+      "display": "Hyperthermie maligne",
       "designation": [
         {
           "language": "fr",
-          "value": "Prédisposition aux hématopathies malignes de l'enfant"
-        }
-      ]
-    },
-    {
-      "code": "SED",
-      "display": "Syndrome d’Ehlers-Danlos",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Syndrome d’Ehlers-Danlos"
-        }
-      ]
-    },
-    {
-      "code": "SP",
-      "display": "Syndromes polymalformatifs (trio)",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Syndromes polymalformatifs (trio)"
-        }
-      ]
-    },
-    {
-      "code": "MM",
-      "display": "Maladies musculaires",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Maladies musculaires"
-        }
-      ]
-    },
-    {
-      "code": "SLA",
-      "display": "Sclérose latérale amyotrophique",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Sclérose latérale amyotrophique"
-        }
-      ]
-    },
-    {
-      "code": "RET",
-      "display": "Retinopathies",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Retinopathies"
-        }
-      ]
-    },
-    {
-      "code": "SUR",
-      "display": "Surdité",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Surdité"
+          "value": "Hyperthermie maligne"
         }
       ]
     },
     {
       "code": "DI",
-      "display": "Déficience Intellectuelle (trio)",
+      "display": "Déficience intellectuelle (Trio)",
       "designation": [
         {
           "language": "fr",
-          "value": "Déficience Intellectuelle (trio)"
-        }
-      ]
-    },
-    {
-      "code": "GMN",
-      "display": "Gènes mitochondriaux nucléaires",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Gènes mitochondriaux nucléaires"
-        }
-      ]
-    },
-    {
-      "code": "RAS",
-      "display": "Rasopathies",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Rasopathies"
-        }
-      ]
-    },
-    {
-      "code": "CAR",
-      "display": "Cardiomyopathies",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Cardiomyopathies"
-        }
-      ]
-    },
-    {
-      "code": "AH",
-      "display": "Arythmies héréditaires",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Arythmies héréditaires"
-        }
-      ]
-    },
-    {
-      "code": "AOR",
-      "display": "Aortopathies",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Aortopathies"
+          "value": "Déficience intellectuelle (Trio)"
         }
       ]
     }
