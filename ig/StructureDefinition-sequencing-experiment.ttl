@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "sequencing-experiment"];
   fhir:StructureDefinition.title [ fhir:value "Sequencing expriment"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-24T19:02:36+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-11-24T22:31:44+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
