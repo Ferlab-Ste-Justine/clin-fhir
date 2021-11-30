@@ -3,7 +3,7 @@
   "id": "data-type",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"data-type-AR\"> </a></td><td>Aligned Reads</td><td>Aligned reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Raw SNV Calls</td><td>Raw SNV calls</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"data-type-QC\"> </a></td><td>QC Report</td><td>QC report</td></tr><tr><td style=\"white-space:nowrap\">INDEX<a name=\"data-type-INDEX\"> </a></td><td>Sequencing Data Index</td><td>Sequencing data index</td></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"data-type-CF\"> </a></td><td>Consent Form</td><td>Consent form</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNVs sans annotation</td></tr><tr><td>QC</td><td>Rapport contrôle de qualité</td></tr><tr><td>INDEX</td><td>Index de données de séquençage</td></tr><tr><td>CF</td><td>Formulaire de consentement</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"data-type-AR\"> </a></td><td>Aligned Reads</td><td>Aligned reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Raw SNV Calls</td><td>Raw SNV calls</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Raw CNV calls</td><td>Raw CNV calls</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"data-type-QC\"> </a></td><td>QC Report</td><td>QC report</td></tr><tr><td style=\"white-space:nowrap\">INDEX<a name=\"data-type-INDEX\"> </a></td><td>Sequencing Data Index</td><td>Sequencing data index</td></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"data-type-CF\"> </a></td><td>Consent Form</td><td>Consent form</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNVs sans annotation</td></tr><tr><td>CNV</td><td>Variabilité du nombre de copies</td></tr><tr><td>QC</td><td>Rapport contrôle de qualité</td></tr><tr><td>INDEX</td><td>Index de données de séquençage</td></tr><tr><td>CF</td><td>Formulaire de consentement</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Data types",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-24T22:31:44+00:00",
+  "date": "2021-11-30T21:05:25+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -48,6 +48,17 @@
         {
           "language": "fr",
           "value": "SNVs sans annotation"
+        }
+      ]
+    },
+    {
+      "code": "CNV",
+      "display": "Raw CNV calls",
+      "definition": "Raw CNV calls",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Variabilité du nombre de copies"
         }
       ]
     },

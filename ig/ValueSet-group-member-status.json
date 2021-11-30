@@ -3,7 +3,7 @@
   "id": "group-member-status",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status</code></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-group-member-status.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status</code></a></li></ul></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status",
   "version": "0.1.0",

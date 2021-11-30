@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "data-type"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"data-type-AR\"> </a></td><td>Aligned Reads</td><td>Aligned reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Raw SNV Calls</td><td>Raw SNV calls</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"data-type-QC\"> </a></td><td>QC Report</td><td>QC report</td></tr><tr><td style=\"white-space:nowrap\">INDEX<a name=\"data-type-INDEX\"> </a></td><td>Sequencing Data Index</td><td>Sequencing data index</td></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"data-type-CF\"> </a></td><td>Consent Form</td><td>Consent form</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNVs sans annotation</td></tr><tr><td>QC</td><td>Rapport contrôle de qualité</td></tr><tr><td>INDEX</td><td>Index de données de séquençage</td></tr><tr><td>CF</td><td>Formulaire de consentement</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"data-type-AR\"> </a></td><td>Aligned Reads</td><td>Aligned reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Raw SNV Calls</td><td>Raw SNV calls</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Raw CNV calls</td><td>Raw CNV calls</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"data-type-QC\"> </a></td><td>QC Report</td><td>QC report</td></tr><tr><td style=\"white-space:nowrap\">INDEX<a name=\"data-type-INDEX\"> </a></td><td>Sequencing Data Index</td><td>Sequencing data index</td></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"data-type-CF\"> </a></td><td>Consent Form</td><td>Consent form</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNVs sans annotation</td></tr><tr><td>CNV</td><td>Variabilité du nombre de copies</td></tr><tr><td>QC</td><td>Rapport contrôle de qualité</td></tr><tr><td>INDEX</td><td>Index de données de séquençage</td></tr><tr><td>CF</td><td>Formulaire de consentement</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Data types"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2021-11-24T22:31:44+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-11-30T21:05:25+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -55,6 +55,16 @@
      ]
   ], [
      fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "CNV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Raw CNV calls" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Raw CNV calls" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Variabilité du nombre de copies" ]
+     ]
+  ], [
+     fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "QC" ];
      fhir:CodeSystem.concept.display [ fhir:value "QC Report" ];
      fhir:CodeSystem.concept.definition [ fhir:value "QC report" ];
@@ -64,7 +74,7 @@
        fhir:CodeSystem.concept.designation.value [ fhir:value "Rapport contrôle de qualité" ]
      ]
   ], [
-     fhir:index 3;
+     fhir:index 4;
      fhir:CodeSystem.concept.code [ fhir:value "INDEX" ];
      fhir:CodeSystem.concept.display [ fhir:value "Sequencing Data Index" ];
      fhir:CodeSystem.concept.definition [ fhir:value "Sequencing data index" ];
@@ -74,7 +84,7 @@
        fhir:CodeSystem.concept.designation.value [ fhir:value "Index de données de séquençage" ]
      ]
   ], [
-     fhir:index 4;
+     fhir:index 5;
      fhir:CodeSystem.concept.code [ fhir:value "CF" ];
      fhir:CodeSystem.concept.display [ fhir:value "Consent Form" ];
      fhir:CodeSystem.concept.definition [ fhir:value "Consent form" ];

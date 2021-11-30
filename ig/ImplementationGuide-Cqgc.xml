@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2021-11-24T22:31:44+00:00"/>
+  <date value="2021-11-30T21:05:25+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -903,6 +903,17 @@
       <description value="Ferlab.bio SearchParameter contextspecimen"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/group-member-status"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/group-member-status"/>
+      <description value="Ferlab.bio CodeSystem group-member-status"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
@@ -916,10 +927,6 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input/resources/profiles"/>
-    </parameter>
-    <parameter>
-      <code value="path-resource"/>
-      <value value="input/resources/examples"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

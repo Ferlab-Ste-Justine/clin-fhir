@@ -70,6 +70,13 @@
     "name": "genome-build"
   },
   {
+    "id": "group-member-status",
+    "type": "CodeSystem",
+    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status",
+    "version": "0.1.0",
+    "name": "group-member-status"
+  },
+  {
     "id": "observation-code",
     "type": "CodeSystem",
     "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",

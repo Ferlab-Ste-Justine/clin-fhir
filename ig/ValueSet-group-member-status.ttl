@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "group-member-status"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status</code></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-group-member-status.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];

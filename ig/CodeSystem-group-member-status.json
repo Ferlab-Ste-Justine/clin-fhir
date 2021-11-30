@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "group-member-status",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AFF<a name=\"group-member-status-AFF\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">UNF<a name=\"group-member-status-UNF\"> </a></td><td>Unaffected</td></tr><tr><td style=\"white-space:nowrap\">UNK<a name=\"group-member-status-UNK\"> </a></td><td>Unknown</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AFF</td><td>Atteint(e)</td></tr><tr><td>UNF</td><td>Non-atteint(e)</td></tr><tr><td>UNK</td><td>Inconnu</td></tr></table></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status",
+  "version": "0.1.0",
+  "name": "group-member-status",
+  "title": "Group member status",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-11-30T21:05:25+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Group member status",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "AFF",
+      "display": "Affected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Atteint(e)"
+        }
+      ]
+    },
+    {
+      "code": "UNF",
+      "display": "Unaffected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Non-atteint(e)"
+        }
+      ]
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}

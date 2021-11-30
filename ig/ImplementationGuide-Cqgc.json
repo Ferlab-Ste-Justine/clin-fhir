@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2021-11-24T22:31:44+00:00",
+  "date": "2021-11-30T21:05:25+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -1203,6 +1203,20 @@
         "name": "Ferlab.bio SearchParameter/contextspecimen",
         "description": "Ferlab.bio SearchParameter contextspecimen",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/group-member-status"
+        },
+        "name": "Ferlab.bio CodeSystem/group-member-status",
+        "description": "Ferlab.bio CodeSystem group-member-status",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -1221,10 +1235,6 @@
       {
         "code": "path-resource",
         "value": "input/resources/profiles"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/resources/examples"
       },
       {
         "code": "path-resource",

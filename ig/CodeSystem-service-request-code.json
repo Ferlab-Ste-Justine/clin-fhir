@@ -3,7 +3,7 @@
   "id": "service-request-code",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MM-PG<a name=\"service-request-code-MM-PG\"> </a></td><td>Maladies musculaires (Panel global)</td></tr><tr><td style=\"white-space:nowrap\">MM-DYST<a name=\"service-request-code-MM-DYST\"> </a></td><td>Dystrophies Musculaires</td></tr><tr><td style=\"white-space:nowrap\">MM-RHAB<a name=\"service-request-code-MM-RHAB\"> </a></td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MM-MYOP<a name=\"service-request-code-MM-MYOP\"> </a></td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MM-MYAS<a name=\"service-request-code-MM-MYAS\"> </a></td><td>Myasthenias congénitales</td></tr><tr><td style=\"white-space:nowrap\">MM-HYP<a name=\"service-request-code-MM-HYP\"> </a></td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience intellectuelle (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MM-PG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>MM-DYST</td><td>Dystrophies Musculaires</td></tr><tr><td>MM-RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MM-MYOP</td><td>Myopathies congénitales</td></tr><tr><td>MM-MYAS</td><td>Myasthenias congénitales</td></tr><tr><td>MM-HYP</td><td>Hyperthermie maligne</td></tr><tr><td>DI</td><td>Déficience intellectuelle (Trio)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MMG<a name=\"service-request-code-MMG\"> </a></td><td>Maladies musculaires (Panel global)</td></tr><tr><td style=\"white-space:nowrap\">DYSTM<a name=\"service-request-code-DYSTM\"> </a></td><td>Dystrophies Musculaires</td></tr><tr><td style=\"white-space:nowrap\">RHAB<a name=\"service-request-code-RHAB\"> </a></td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MYOPC<a name=\"service-request-code-MYOPC\"> </a></td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MYASC<a name=\"service-request-code-MYASC\"> </a></td><td>Myasthenias congénitales</td></tr><tr><td style=\"white-space:nowrap\">HYPM<a name=\"service-request-code-HYPM\"> </a></td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience intellectuelle (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MMG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>DYSTM</td><td>Dystrophies Musculaires</td></tr><tr><td>RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MYOPC</td><td>Myopathies congénitales</td></tr><tr><td>MYASC</td><td>Myasthenias congénitales</td></tr><tr><td>HYPM</td><td>Hyperthermie maligne</td></tr><tr><td>DI</td><td>Déficience intellectuelle (Trio)</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "service request code",
   "status": "draft",
   "experimental": false,
-  "date": "2021-11-24T22:31:44+00:00",
+  "date": "2021-11-30T21:05:25+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -29,7 +29,7 @@
   "content": "complete",
   "concept": [
     {
-      "code": "MM-PG",
+      "code": "MMG",
       "display": "Maladies musculaires (Panel global)",
       "designation": [
         {
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "code": "MM-DYST",
+      "code": "DYSTM",
       "display": "Dystrophies Musculaires",
       "designation": [
         {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "code": "MM-RHAB",
+      "code": "RHAB",
       "display": "Rhabdomyolyse",
       "designation": [
         {
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "code": "MM-MYOP",
+      "code": "MYOPC",
       "display": "Myopathies congénitales",
       "designation": [
         {
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "code": "MM-MYAS",
+      "code": "MYASC",
       "display": "Myasthenias congénitales",
       "designation": [
         {
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "code": "MM-HYP",
+      "code": "HYPM",
       "display": "Hyperthermie maligne",
       "designation": [
         {
