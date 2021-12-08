@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "is-fetus"];
   fhir:StructureDefinition.title [ fhir:value "Patient is a fetus"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-11-30T21:05:25+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-08T16:36:19+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

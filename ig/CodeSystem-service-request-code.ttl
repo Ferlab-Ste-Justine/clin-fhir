@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "service-request-code"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MMG<a name=\"service-request-code-MMG\"> </a></td><td>Maladies musculaires (Panel global)</td></tr><tr><td style=\"white-space:nowrap\">DYSTM<a name=\"service-request-code-DYSTM\"> </a></td><td>Dystrophies Musculaires</td></tr><tr><td style=\"white-space:nowrap\">RHAB<a name=\"service-request-code-RHAB\"> </a></td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MYOPC<a name=\"service-request-code-MYOPC\"> </a></td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MYASC<a name=\"service-request-code-MYASC\"> </a></td><td>Myasthenias congénitales</td></tr><tr><td style=\"white-space:nowrap\">HYPM<a name=\"service-request-code-HYPM\"> </a></td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience intellectuelle (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MMG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>DYSTM</td><td>Dystrophies Musculaires</td></tr><tr><td>RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MYOPC</td><td>Myopathies congénitales</td></tr><tr><td>MYASC</td><td>Myasthenias congénitales</td></tr><tr><td>HYPM</td><td>Hyperthermie maligne</td></tr><tr><td>DI</td><td>Déficience intellectuelle (Trio)</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MMG<a name=\"service-request-code-MMG\"> </a></td><td>Maladies musculaires (Panel global)</td></tr><tr><td style=\"white-space:nowrap\">DYSTM<a name=\"service-request-code-DYSTM\"> </a></td><td>Dystrophies Musculaires</td></tr><tr><td style=\"white-space:nowrap\">RHAB<a name=\"service-request-code-RHAB\"> </a></td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MITN<a name=\"service-request-code-MITN\"> </a></td><td>Mitochondriopathie nucléaire</td></tr><tr><td style=\"white-space:nowrap\">MYOPC<a name=\"service-request-code-MYOPC\"> </a></td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MYASC<a name=\"service-request-code-MYASC\"> </a></td><td>Myasthenias congénitales</td></tr><tr><td style=\"white-space:nowrap\">HYPM<a name=\"service-request-code-HYPM\"> </a></td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">DI<a name=\"service-request-code-DI\"> </a></td><td>Déficience intellectuelle (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MMG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>DYSTM</td><td>Dystrophies Musculaires</td></tr><tr><td>RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MITN</td><td>Mitochondriopathie nucléaire</td></tr><tr><td>MYOPC</td><td>Myopathies congénitales</td></tr><tr><td>MYASC</td><td>Myasthenias congénitales</td></tr><tr><td>HYPM</td><td>Hyperthermie maligne</td></tr><tr><td>DI</td><td>Déficience intellectuelle (Trio)</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "service request code"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2021-11-30T21:05:25+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-08T16:36:19+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -61,6 +61,15 @@
      ]
   ], [
      fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "MITN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mitochondriopathie nucléaire" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Mitochondriopathie nucléaire" ]
+     ]
+  ], [
+     fhir:index 4;
      fhir:CodeSystem.concept.code [ fhir:value "MYOPC" ];
      fhir:CodeSystem.concept.display [ fhir:value "Myopathies congénitales" ];
      fhir:CodeSystem.concept.designation [
@@ -69,7 +78,7 @@
        fhir:CodeSystem.concept.designation.value [ fhir:value "Myopathies congénitales" ]
      ]
   ], [
-     fhir:index 4;
+     fhir:index 5;
      fhir:CodeSystem.concept.code [ fhir:value "MYASC" ];
      fhir:CodeSystem.concept.display [ fhir:value "Myasthenias congénitales" ];
      fhir:CodeSystem.concept.designation [
@@ -78,7 +87,7 @@
        fhir:CodeSystem.concept.designation.value [ fhir:value "Myasthenias congénitales" ]
      ]
   ], [
-     fhir:index 5;
+     fhir:index 6;
      fhir:CodeSystem.concept.code [ fhir:value "HYPM" ];
      fhir:CodeSystem.concept.display [ fhir:value "Hyperthermie maligne" ];
      fhir:CodeSystem.concept.designation [
@@ -87,7 +96,7 @@
        fhir:CodeSystem.concept.designation.value [ fhir:value "Hyperthermie maligne" ]
      ]
   ], [
-     fhir:index 6;
+     fhir:index 7;
      fhir:CodeSystem.concept.code [ fhir:value "DI" ];
      fhir:CodeSystem.concept.display [ fhir:value "Déficience intellectuelle (Trio)" ];
      fhir:CodeSystem.concept.designation [
