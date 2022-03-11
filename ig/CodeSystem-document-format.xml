@@ -11,7 +11,7 @@
   <title value="Document formats"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-14T20:47:31+00:00"/>
+  <date value="2022-03-11T19:19:27+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -39,7 +39,7 @@
     <definition value="CRAI index file"/>
     <designation>
       <language value="fr"/>
-      <value value="Fichier d&#39;index CRAI"/>
+      <value value="Fichier d'index CRAI"/>
     </designation>
   </concept>
   <concept>
@@ -57,7 +57,7 @@
     <definition value="TBI index file"/>
     <designation>
       <language value="fr"/>
-      <value value="Fichier d&#39;index TBI"/>
+      <value value="Fichier d'index TBI"/>
     </designation>
   </concept>
   <concept>
@@ -66,7 +66,7 @@
     <definition value="TGZ archive file"/>
     <designation>
       <language value="fr"/>
-      <value value="Fichier d&#39;archive TGZ"/>
+      <value value="Fichier d'archive TGZ"/>
     </designation>
   </concept>
 </CodeSystem>

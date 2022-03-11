@@ -27,7 +27,7 @@
   <concept>
     <code value="Y"/>
     <display value="Yes"/>
-    <definition value="Consanguinity relationship of the patient&#39;s parents"/>
+    <definition value="Consanguinity relationship of the patient's parents"/>
     <designation>
       <language value="fr"/>
       <value value="Oui"/>
@@ -36,7 +36,7 @@
   <concept>
     <code value="N"/>
     <display value="No"/>
-    <definition value="No consanguinity relationship of the patient&#39;s parents"/>
+    <definition value="No consanguinity relationship of the patient's parents"/>
     <designation>
       <language value="fr"/>
       <value value="Non"/>
@@ -45,7 +45,7 @@
   <concept>
     <code value="U"/>
     <display value="Unknown"/>
-    <definition value="Inbreeding relationship unknown to the patient&#39;s parents"/>
+    <definition value="Inbreeding relationship unknown to the patient's parents"/>
     <designation>
       <language value="fr"/>
       <value value="Inconnu"/>

@@ -37,7 +37,7 @@
         <display value="Infantile onset"/>
         <designation>
           <language value="fr"/>
-          <value value="Apparition dans l&#39;enfance"/>
+          <value value="Apparition dans l'enfance"/>
         </designation>
       </concept>
       <concept>
@@ -53,7 +53,7 @@
         <display value="Childhood onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition chez l&#39;enfant"/>
+          <value value="d'apparition chez l'enfant"/>
         </designation>
       </concept>
       <concept>
@@ -61,7 +61,7 @@
         <display value="Antenatal onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition anténatale"/>
+          <value value="d'apparition anténatale"/>
         </designation>
       </concept>
       <concept>
@@ -69,7 +69,7 @@
         <display value="Embryonal onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition embryonnaire"/>
+          <value value="d'apparition embryonnaire"/>
         </designation>
       </concept>
       <concept>
@@ -77,7 +77,7 @@
         <display value="Fetal onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition foetale"/>
+          <value value="d'apparition foetale"/>
         </designation>
       </concept>
       <concept>
@@ -85,7 +85,7 @@
         <display value="Congenital onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition congénitale"/>
+          <value value="d'apparition congénitale"/>
         </designation>
       </concept>
       <concept>
@@ -93,7 +93,7 @@
         <display value="Neonatal onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition néonatale"/>
+          <value value="d'apparition néonatale"/>
         </designation>
       </concept>
       <concept>
@@ -101,7 +101,7 @@
         <display value="Adult onset"/>
         <designation>
           <language value="fr"/>
-          <value value="Début à l&#39;âge adulte"/>
+          <value value="Début à l'âge adulte"/>
         </designation>
       </concept>
       <concept>
@@ -109,7 +109,7 @@
         <display value="Middle age onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition à l&#39;âge moyen"/>
+          <value value="d'apparition à l'âge moyen"/>
         </designation>
       </concept>
       <concept>
@@ -117,7 +117,7 @@
         <display value="Young adult onset"/>
         <designation>
           <language value="fr"/>
-          <value value="d&#39;apparition chez l&#39;adulte jeune"/>
+          <value value="d'apparition chez l'adulte jeune"/>
         </designation>
       </concept>
       <concept>

@@ -11,7 +11,7 @@
   <title value="Ethnicites in Quebec"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-14T20:47:31+00:00"/>
+  <date value="2022-03-11T19:19:27+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -66,7 +66,7 @@
     <definition value="Canadian or Quebecois who are descendants of people from east and southeast asia"/>
     <designation>
       <language value="fr"/>
-      <value value="Asiatique de l&#39;est et du sud-est"/>
+      <value value="Asiatique de l'est et du sud-est"/>
     </designation>
   </concept>
   <concept>

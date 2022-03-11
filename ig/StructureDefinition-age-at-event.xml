@@ -23,7 +23,7 @@
       <value value="mailto:support@ferlab.bio"/>
     </telecom>
   </contact>
-  <description value="Patient&#39;s age (in days since birth) at the time of medical consultation"/>
+  <description value="Patient's age (in days since birth) at the time of medical consultation"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -65,7 +65,7 @@
         <severity value="error"/>
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <mustSupport value="true"/>

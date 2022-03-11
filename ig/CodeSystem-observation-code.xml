@@ -11,7 +11,7 @@
   <title value="observation code"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-12-14T20:47:31+00:00"/>
+  <date value="2022-03-11T19:19:27+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -45,7 +45,7 @@
   <concept>
     <code value="INVES"/>
     <display value="investigations"/>
-    <definition value="Clinical summary with all the investigations carried out in the context of the patient&#39;s pathology"/>
+    <definition value="Clinical summary with all the investigations carried out in the context of the patient's pathology"/>
     <designation>
       <language value="fr"/>
       <value value="Résumé du tableau clinique avec l’ensemble des investigations réalisées dans le cadre de la pathologie du patient"/>
@@ -57,7 +57,7 @@
     <definition value="Clinical sign observed in the patient - reported by the doctor following the physical examination or questioning of the patient"/>
     <designation>
       <language value="fr"/>
-      <value value="Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l&#39;examen physique ou l&#39;interrogatoire du patient"/>
+      <value value="Signe clinique relevé chez le patient - rapporté par le médecin a la suite de l'examen physique ou l'interrogatoire du patient"/>
     </designation>
   </concept>
   <concept>
@@ -66,7 +66,7 @@
     <definition value="Concepts classifying people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"/>
     <designation>
       <language value="fr"/>
-      <value value="Concepts qui classent les personnes vivant au Québec dans une catégorie d&#39;humains ayant une histoire, une origine géographique ou une nationalité commune. Les codes ethniques utilisés pour représenter ces concepts sont basés sur une liste fournie par le centre de séquençage génomique"/>
+      <value value="Concepts qui classent les personnes vivant au Québec dans une catégorie d'humains ayant une histoire, une origine géographique ou une nationalité commune. Les codes ethniques utilisés pour représenter ces concepts sont basés sur une liste fournie par le centre de séquençage génomique"/>
     </designation>
   </concept>
   <concept>
