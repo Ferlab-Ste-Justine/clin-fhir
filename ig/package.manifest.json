@@ -1,6 +1,8 @@
 {
   "version": "0.1.0",
-  "fhirVersion": "[4.0.1]",
-  "date": "20220311195527",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "date": "20220411171126",
   "name": "cqgc"
 }
