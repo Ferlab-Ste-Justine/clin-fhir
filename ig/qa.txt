@@ -2,8 +2,8 @@
 =========================================
 
 err = 7, warn = 97, info = 0
-IG Publisher Version: 1.1.114
-Generated Mon Apr 11 17:13:10 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+IG Publisher Version: 1.1.115
+Generated Tue Apr 12 17:11:25 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 1 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
