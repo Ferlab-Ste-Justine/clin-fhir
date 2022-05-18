@@ -1,9 +1,9 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 23, warn = 109, info = 0
+err = 11, warn = 109, info = 0
 IG Publisher Version: 1.1.120
-Generated Wed May 18 18:58:34 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+Generated Wed May 18 19:11:51 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 2 / 1 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -19,13 +19,13 @@ Generated Wed May 18 18:58:34 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-specimen-type : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-status-history : 1 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 9 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 4 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 3 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-observation : 6 / 4 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-observation : 5 / 4 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-organization : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-sequencing-request : 5 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-sequencing-request : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-contextspecimen : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-input-specimen : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-output-documentreference : 0 / 1 / 1
@@ -120,11 +120,6 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 == input/resources/extensions/StructureDefinition-workflow.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow'): The Implementation Guide contains no examples for this extension
 == input/resources/profiles/StructureDefinition-cqgc-analysis-request.json ==
-ERROR: StructureDefinition.differential.element[2].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[3].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[4].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[6].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[9].max: Error parsing JSON: the primitive value must be a string
 WARNING: StructureDefinition/cqgc-analysis-request: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: StructureDefinition/cqgc-analysis-request: StructureDefinition.snapshot.element[24].binding.valueSet: Canonical URL 'http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
 ERROR: StructureDefinition/cqgc-analysis-request: StructureDefinition.differential.element[7].binding.valueSet: Canonical URL 'http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
@@ -132,7 +127,6 @@ ERROR: StructureDefinition/cqgc-analysis-request: StructureDefinition.differenti
 ERROR: StructureDefinition/cqgc-analysis-request: StructureDefinition.snapshot.element[24].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code on element ServiceRequest.code points to something that is not a value set (CodeSystem) 
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-analysis-task.json ==
-ERROR: StructureDefinition.differential.element[2].max: Error parsing JSON: the primitive value must be a string
 WARNING: StructureDefinition/cqgc-analysis-task: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-clinical-impression.json ==
@@ -143,7 +137,6 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 WARNING: StructureDefinition/cqgc-fmh: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-observation.json ==
-ERROR: StructureDefinition.differential.element[2].max: Error parsing JSON: the primitive value must be a string
 ERROR: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation'): The element Observation.code is out of order (and maybe others after it)
 WARNING: StructureDefinition/cqgc-observation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: StructureDefinition/cqgc-observation: StructureDefinition.snapshot.element[24].binding.valueSet: Canonical URL 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
@@ -157,11 +150,6 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 WARNING: StructureDefinition/cqgc-organization: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-sequencing-request.json ==
-ERROR: StructureDefinition.differential.element[2].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[3].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[4].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[5].max: Error parsing JSON: the primitive value must be a string
-ERROR: StructureDefinition.differential.element[7].max: Error parsing JSON: the primitive value must be a string
 WARNING: StructureDefinition/cqgc-sequencing-request: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request'): The Implementation Guide contains no examples for this profile
 == input/resources/search/SearchParameter-contextspecimen.json ==
