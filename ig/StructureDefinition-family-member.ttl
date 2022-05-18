@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "family-member"];
   fhir:StructureDefinition.title [ fhir:value "Family Member"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-18T17:38:26+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-18T18:03:18+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -41,7 +41,7 @@
   fhir:StructureDefinition.context [
      fhir:index 0;
      fhir:StructureDefinition.context.type [ fhir:value "element" ];
-     fhir:StructureDefinition.context.expression [ fhir:value "Patient" ]
+     fhir:StructureDefinition.context.expression [ fhir:value "ServiceRequest" ]
   ];
   fhir:StructureDefinition.type [ fhir:value "Extension"];
   fhir:StructureDefinition.baseDefinition [

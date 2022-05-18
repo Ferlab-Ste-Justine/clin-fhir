@@ -10,7 +10,7 @@
   "name": "family-member",
   "title": "Family Member",
   "status": "draft",
-  "date": "2022-05-18T17:38:26+00:00",
+  "date": "2022-05-18T18:03:18+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -37,7 +37,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Patient"
+      "expression": "ServiceRequest"
     }
   ],
   "type": "Extension",
