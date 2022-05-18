@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 28, warn = 111, info = 0, 4 -->
+<!-- broken links = errors = 22, warn = 111, info = 0, 2 -->
 <head>
   <title>CqgcImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CqgcImplementationGuide</h1>
- <p>Generated Wed May 18 18:05:03 UTC 2022, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Wed May 18 18:26:15 UTC 2022, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.120</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cqgc, Canonical = http://fhir.cqgc.ferlab.bio</td></tr>
@@ -53,14 +53,14 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://fhir.cqgc.ferlab.bio (Problem #1 with package-list.json at http://fhir.cqgc.ferlab.bio: fhir.cqgc.ferlab.bio)</td></tr>
- <tr><td>Summary:</td><td> errors = 28, warn = 111, info = 0, broken links = 4</td></tr>
+ <tr><td>Summary:</td><td> errors = 22, warn = 111, info = 0, broken links = 2</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-age-at-event"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -71,8 +71,8 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-analysis-type"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-analysis-type</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-family-member"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member</b></a></td><td><b>6</b></td><td><b>2</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-family-member"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-family-relation"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -267,12 +267,6 @@
      <td><b>ImplementationGuide.id</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide Resource id should be cqgc</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-family-member.html#l484">output/StructureDefinition-family-member.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 259, column 735</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-family-member-definitions.html#Extension.extension:parent.parent[x]' for &quot;parent[x]&quot; cannot be resolved (valid targets: 230 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-family-member.html#l1959">output/StructureDefinition-family-member.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 461, column 735</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-family-member-definitions.html#Extension.extension:parent.parent[x]' for &quot;parent[x]&quot; cannot be resolved (valid targets: 230 targets)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
      <td><b><a href="ValueSet-nmit-default-exam.html#l392">output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 183, column 790</a></b></td><td><b>error</b></td><td><b>The link 'CodeSystem-observation-code.html#observation-code-CGH' for &quot;CGH&quot; cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -342,26 +336,8 @@
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member')</b></td><td><b>error</b></td><td title=""><b>StructureDefinition profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member: Differential contains path Extension.extension.parent[x] which is actually Extension.parent[x], which is not found in the in base profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member')</b></td><td><b>error</b></td><td title=""><b>The element Extension.url is out of order (and maybe others after it)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member#Extension.extension:parent.parent[x]</b></td><td><b>error</b></td><td title=""><b>No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member</b></td><td><b>error</b></td><td title=""><b>The profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member has 1 element in the differential (id: Extension.extension:parent.parent[x]) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.differential.element.where(path = 'Extension.extension:parent.parent[x]')</b></td><td><b>error</b></td><td title=""><b>No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition</b></td><td><b>error</b></td><td title=""><b>The profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member has 1 element in the differential (id: Extension.extension:parent.parent[x]) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>

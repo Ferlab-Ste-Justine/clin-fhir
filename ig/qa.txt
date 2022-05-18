@@ -1,15 +1,15 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 28, warn = 111, info = 0
+err = 22, warn = 111, info = 0
 IG Publisher Version: 1.1.120
-Generated Wed May 18 18:05:04 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
- Build Errors : 4 / 1 / 0
+Generated Wed May 18 18:26:15 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+ Build Errors : 2 / 1 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-analysis-type : 0 / 4 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 6 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-full-size : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 0 / 2 / 1
@@ -74,8 +74,6 @@ Generated Wed May 18 18:05:04 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cqgc
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-family-member.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 259, column 735: The link 'StructureDefinition-family-member-definitions.html#Extension.extension:parent.parent[x]' for "parent[x]" cannot be resolved (valid targets: 230 targets)
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-family-member.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 461, column 735: The link 'StructureDefinition-family-member-definitions.html#Extension.extension:parent.parent[x]' for "parent[x]" cannot be resolved (valid targets: 230 targets)
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 183, column 790: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 189, column 1343: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
 == input/ImplementationGuide-Clin.json ==
@@ -91,13 +89,7 @@ WARNING: StructureDefinition/analysis-type: StructureDefinition.differential.ele
 WARNING: StructureDefinition/analysis-type: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-member.json ==
-ERROR: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member'): StructureDefinition profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member: Differential contains path Extension.extension.parent[x] which is actually Extension.parent[x], which is not found in the in base profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member
-ERROR: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member'): The element Extension.url is out of order (and maybe others after it)
-ERROR: http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member#Extension.extension:parent.parent[x]: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
-ERROR: http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member: The profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member has 1 element in the differential (id: Extension.extension:parent.parent[x]) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
 WARNING: StructureDefinition/family-member: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: StructureDefinition/family-member: StructureDefinition.differential.element.where(path = 'Extension.extension:parent.parent[x]'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
-ERROR: StructureDefinition/family-member: StructureDefinition: The profile http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member has 1 element in the differential (id: Extension.extension:parent.parent[x]) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-relation.json ==
 WARNING: StructureDefinition/family-relation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
