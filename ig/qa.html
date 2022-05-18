@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 11, warn = 109, info = 0, 2 -->
+<!-- broken links = errors = 7, warn = 109, info = 0, 2 -->
 <head>
   <title>CqgcImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CqgcImplementationGuide</h1>
- <p>Generated Wed May 18 19:11:51 UTC 2022, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Wed May 18 19:18:13 UTC 2022, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.120</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cqgc, Canonical = http://fhir.cqgc.ferlab.bio</td></tr>
@@ -53,7 +53,7 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://fhir.cqgc.ferlab.bio (Problem #1 with package-list.json at http://fhir.cqgc.ferlab.bio: fhir.cqgc.ferlab.bio)</td></tr>
- <tr><td>Summary:</td><td> errors = 11, warn = 109, info = 0, broken links = 2</td></tr>
+ <tr><td>Summary:</td><td> errors = 7, warn = 109, info = 0, broken links = 2</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -104,8 +104,8 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-workflow"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_profiles_StructureDefinition-cqgc-analysis-request"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request</b></a></td><td><b>4</b></td><td><b>2</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_profiles_StructureDefinition-cqgc-analysis-request"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_profiles_StructureDefinition-cqgc-analysis-task"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -513,18 +513,6 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.snapshot.element[24].binding.valueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.differential.element[7].binding.valueSet</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.differential.element[7].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code on element ServiceRequest.code points to something that is not a value set (CodeSystem) </b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.snapshot.element[24].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code on element ServiceRequest.code points to something that is not a value set (CodeSystem) </b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
@@ -1312,12 +1300,6 @@
 <h2>SD_ED_BIND_NOT_VS</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-cqgc-analysis-request.html">input/resources/profiles/StructureDefinition-cqgc-analysis-request.json</a></td><td><b>The valueSet reference http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code on element ServiceRequest.code points to something that is not a value set (CodeSystem) </b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-cqgc-analysis-request.html">input/resources/profiles/StructureDefinition-cqgc-analysis-request.json</a></td><td><b>The valueSet reference http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code on element ServiceRequest.code points to something that is not a value set (CodeSystem) </b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-cqgc-observation.html">input/resources/profiles/StructureDefinition-cqgc-observation.json</a></td><td><b>The valueSet reference http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation on element Observation.interpretation points to something that is not a value set (CodeSystem) </b></td>
    </tr>
    <tr style="background-color: #ffeeee">
@@ -1328,12 +1310,6 @@
 <a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"> </a>
 <h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</h2>
  <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-cqgc-analysis-request.html">input/resources/profiles/StructureDefinition-cqgc-analysis-request.json</a></td><td><b>Canonical URL 'http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-cqgc-analysis-request.html">input/resources/profiles/StructureDefinition-cqgc-analysis-request.json</a></td><td><b>Canonical URL 'http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-cqgc-observation.html">input/resources/profiles/StructureDefinition-cqgc-observation.json</a></td><td><b>Canonical URL 'http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
    </tr>
