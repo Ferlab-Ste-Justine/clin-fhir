@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="analysis-request-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">MMG<a name="analysis-request-code-MMG"> </a></td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style="white-space:nowrap">DYSM<a name="analysis-request-code-DYSM"> </a></td><td>Muscular Dystrophies</td></tr><tr><td style="white-space:nowrap">RHAB<a name="analysis-request-code-RHAB"> </a></td><td>Rhabdomyolysis</td></tr><tr><td style="white-space:nowrap">MITN<a name="analysis-request-code-MITN"> </a></td><td>Nuclear Mitochondriopathies</td></tr><tr><td style="white-space:nowrap">MYOC<a name="analysis-request-code-MYOC"> </a></td><td>Congenital Myopathies</td></tr><tr><td style="white-space:nowrap">MYAC<a name="analysis-request-code-MYAC"> </a></td><td>Congenital Myasthenia</td></tr><tr><td style="white-space:nowrap">HYPM<a name="analysis-request-code-HYPM"> </a></td><td>Malignant Hyperthermia</td></tr><tr><td style="white-space:nowrap">RGDI<a name="analysis-request-code-RGDI"> </a></td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MMG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>DYSM</td><td>Dystrophies musculaires</td></tr><tr><td>RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MITN</td><td>Mitochondriopathies nucléaires</td></tr><tr><td>MYOC</td><td>Myopathies congénitales</td></tr><tr><td>MYAC</td><td>Myasthénies congénitales</td></tr><tr><td>HYPM</td><td>Hyperthermie maligne</td></tr><tr><td>RGDI</td><td>Retard global de développement / Déficience intellectuelle (Trio)</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+  <version value="0.1.0"/>
+  <name value="analysis-request-code"/>
+  <title value="Analysis request code"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2022-05-18T17:38:26+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Gene panel requested for analysis"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="MMG"/>
+    <display value="Global Muscular diseases (Global Panel)"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Maladies musculaires (Panel global)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DYSM"/>
+    <display value="Muscular Dystrophies"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Dystrophies musculaires"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RHAB"/>
+    <display value="Rhabdomyolysis"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Rhabdomyolyse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MITN"/>
+    <display value="Nuclear Mitochondriopathies"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Mitochondriopathies nucléaires"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MYOC"/>
+    <display value="Congenital Myopathies"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Myopathies congénitales"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MYAC"/>
+    <display value="Congenital Myasthenia"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Myasthénies congénitales"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HYPM"/>
+    <display value="Malignant Hyperthermia"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Hyperthermie maligne"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RGDI"/>
+    <display value="Global Developmental Delay / Intellectual Deficiency (Trio)"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Retard global de développement / Déficience intellectuelle (Trio)"/>
+    </designation>
+  </concept>
+</CodeSystem>

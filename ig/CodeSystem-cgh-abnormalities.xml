@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cgh-abnormalities"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CNV0<a name="cgh-abnormalities-CNV0"> </a></td><td>CNVs not explaining phenotypes</td></tr><tr><td style="white-space:nowrap">CNV1<a name="cgh-abnormalities-CNV1"> </a></td><td>CNVs explaining phenotypes</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CNV0</td><td>CNVs n'expliquant pas le phénotype</td></tr><tr><td>CNV1</td><td>CNV expliquant le phénotype</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
+  <version value="0.1.0"/>
+  <name value="cgh-abnormalities"/>
+  <title value="CGH abnormalities"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2022-05-18T17:38:26+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="CGH abnormalities"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="CNV0"/>
+    <display value="CNVs not explaining phenotypes"/>
+    <designation>
+      <language value="fr"/>
+      <value value="CNVs n'expliquant pas le phénotype"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CNV1"/>
+    <display value="CNVs explaining phenotypes"/>
+    <designation>
+      <language value="fr"/>
+      <value value="CNV expliquant le phénotype"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,53 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cgh-abnormalities",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CNV0<a name=\"cgh-abnormalities-CNV0\"> </a></td><td>CNVs not explaining phenotypes</td></tr><tr><td style=\"white-space:nowrap\">CNV1<a name=\"cgh-abnormalities-CNV1\"> </a></td><td>CNVs explaining phenotypes</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CNV0</td><td>CNVs n'expliquant pas le phénotype</td></tr><tr><td>CNV1</td><td>CNV expliquant le phénotype</td></tr></table></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
+  "version": "0.1.0",
+  "name": "cgh-abnormalities",
+  "title": "CGH abnormalities",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-05-18T17:38:26+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "CGH abnormalities",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "CNV0",
+      "display": "CNVs not explaining phenotypes",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "CNVs n'expliquant pas le phénotype"
+        }
+      ]
+    },
+    {
+      "code": "CNV1",
+      "display": "CNVs explaining phenotypes",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "CNV expliquant le phénotype"
+        }
+      ]
+    }
+  ]
+}

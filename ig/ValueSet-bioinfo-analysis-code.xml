@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="bioinfo-analysis-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-bioinfo-analysis-code.html"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"/>
+  <version value="0.1.0"/>
+  <name value="bioinfo-analysis-code"/>
+  <title value="Bioinformatic analysis codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2022-05-18T17:38:26+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Bioinformatic analysis codes"/>
+  <compose>
+    <include>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
+    </include>
+  </compose>
+</ValueSet>

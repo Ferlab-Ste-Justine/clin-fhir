@@ -3,7 +3,7 @@
   "id": "data-type",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AR<a name=\"data-type-AR\"> </a></td><td>Aligned Reads</td><td>Aligned reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>Raw SNV Calls</td><td>Raw SNV calls</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-type-CNV\"> </a></td><td>Raw CNV calls</td><td>Raw CNV calls</td></tr><tr><td style=\"white-space:nowrap\">QC<a name=\"data-type-QC\"> </a></td><td>QC Report</td><td>QC report</td></tr><tr><td style=\"white-space:nowrap\">INDEX<a name=\"data-type-INDEX\"> </a></td><td>Sequencing Data Index</td><td>Sequencing data index</td></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"data-type-CF\"> </a></td><td>Consent Form</td><td>Consent form</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNVs sans annotation</td></tr><tr><td>CNV</td><td>Variabilité du nombre de copies</td></tr><tr><td>QC</td><td>Rapport contrôle de qualité</td></tr><tr><td>INDEX</td><td>Index de données de séquençage</td></tr><tr><td>CF</td><td>Formulaire de consentement</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinale</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Data types",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-12T17:10:33+00:00",
+  "date": "2022-05-18T17:38:26+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -27,12 +27,11 @@
   "description": "Data types",
   "caseSensitive": true,
   "content": "complete",
-  "count": 5,
+  "count": 4,
   "concept": [
     {
-      "code": "AR",
+      "code": "ALIR",
       "display": "Aligned Reads",
-      "definition": "Aligned reads",
       "designation": [
         {
           "language": "fr",
@@ -42,56 +41,41 @@
     },
     {
       "code": "SNV",
-      "display": "Raw SNV Calls",
-      "definition": "Raw SNV calls",
+      "display": "SNV",
       "designation": [
         {
           "language": "fr",
-          "value": "SNVs sans annotation"
+          "value": "SNV"
         }
       ]
     },
     {
-      "code": "CNV",
-      "display": "Raw CNV calls",
-      "definition": "Raw CNV calls",
+      "code": "GCNV",
+      "display": "Germline CNV",
       "designation": [
         {
           "language": "fr",
-          "value": "Variabilité du nombre de copies"
+          "value": "CNV germinale"
         }
       ]
     },
     {
-      "code": "QC",
-      "display": "QC Report",
-      "definition": "QC report",
+      "code": "SSUP",
+      "display": "Sequencing Data Supplement",
       "designation": [
         {
           "language": "fr",
-          "value": "Rapport contrôle de qualité"
+          "value": "Données de séquençage supplémentaires"
         }
       ]
     },
     {
-      "code": "INDEX",
+      "code": "INDX",
       "display": "Sequencing Data Index",
-      "definition": "Sequencing data index",
       "designation": [
         {
           "language": "fr",
           "value": "Index de données de séquençage"
-        }
-      ]
-    },
-    {
-      "code": "CF",
-      "display": "Consent Form",
-      "definition": "Consent form",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Formulaire de consentement"
         }
       ]
     }

@@ -10,7 +10,7 @@
   "name": "CqgcImplementationGuide",
   "title": "Cqgc Implementation Guide",
   "status": "active",
-  "date": "2022-04-12T17:10:33+00:00",
+  "date": "2022-05-18T17:38:26+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -28,6 +28,14 @@
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    }
   ],
   "definition": {
     "extension": [
@@ -284,20 +292,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/cqgc-patient"
-        },
-        "name": "Ferlab.bio StructureDefinition/cqgc-patient",
-        "description": "Ferlab.bio StructureDefinition cqgc-patient, Base: Patient",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -386,20 +380,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/cqgc-service-request"
-        },
-        "name": "Ferlab.bio StructureDefinition/cqgc-service-request",
-        "description": "Ferlab.bio StructureDefinition cqgc-service-request, Base: ServiceRequest",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/cqgc-clinical-impression"
         },
         "name": "Ferlab.bio StructureDefinition/cqgc-clinical-impression",
@@ -418,34 +398,6 @@
         },
         "name": "Ferlab.bio StructureDefinition/cqgc-fmh",
         "description": "Ferlab.bio StructureDefinition cqgc-fmh, Base: FamilyMemberHistory",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/is-proband"
-        },
-        "name": "Ferlab.bio StructureDefinition/is-proband",
-        "description": "Ferlab.bio StructureDefinition is-proband, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/ref-clin-impression"
-        },
-        "name": "Ferlab.bio StructureDefinition/ref-clin-impression",
-        "description": "Ferlab.bio StructureDefinition ref-clin-impression, Base: Extension",
         "exampleBoolean": false
       },
       {
@@ -526,192 +478,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/service-request-code"
-        },
-        "name": "Ferlab.bio ValueSet/service-request-code",
-        "description": "Ferlab.bio ValueSet service-request-code",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/service-request-code"
-        },
-        "name": "Ferlab.bio CodeSystem/service-request-code",
-        "description": "Ferlab.bio CodeSystem service-request-code",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/blood-relationship"
-        },
-        "name": "Ferlab.bio CodeSystem/blood-relationship",
-        "description": "Ferlab.bio CodeSystem blood-relationship",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/blood-relationship"
-        },
-        "name": "Ferlab.bio ValueSet/blood-relationship",
-        "description": "Ferlab.bio ValueSet blood-relationship",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/hpo-category"
-        },
-        "name": "Ferlab.bio ValueSet/hpo-category",
-        "description": "Ferlab.bio ValueSet hpo-category",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/hpo-category"
-        },
-        "name": "Ferlab.bio StructureDefinition/hpo-category",
-        "description": "Ferlab.bio StructureDefinition hpo-category, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/fm-structure"
-        },
-        "name": "Ferlab.bio CodeSystem/fm-structure",
-        "description": "Ferlab.bio CodeSystem fm-structure",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/fm-structure"
-        },
-        "name": "Ferlab.bio ValueSet/fm-structure",
-        "description": "Ferlab.bio ValueSet fm-structure",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/cqgc-family-group"
-        },
-        "name": "Ferlab.bio StructureDefinition/cqgc-family-group",
-        "description": "Ferlab.bio StructureDefinition cqgc-family-group, Base: Group",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/fm-structure"
-        },
-        "name": "Ferlab.bio StructureDefinition/fm-structure",
-        "description": "Ferlab.bio StructureDefinition fm-structure, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/family-id"
-        },
-        "name": "Ferlab.bio StructureDefinition/family-id",
-        "description": "Ferlab.bio StructureDefinition family-id, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/organization-type"
         },
         "name": "Ferlab.bio ValueSet/organization-type",
         "description": "Ferlab.bio ValueSet organization-type",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/request-status"
-        },
-        "name": "Ferlab.bio ValueSet/request-status",
-        "description": "Ferlab.bio ValueSet request-status",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/request-status-plus"
-        },
-        "name": "Ferlab.bio CodeSystem/request-status-plus",
-        "description": "Ferlab.bio CodeSystem request-status-plus",
         "exampleBoolean": false
       },
       {
@@ -754,34 +524,6 @@
         },
         "name": "Ferlab.bio StructureDefinition/status-history",
         "description": "Ferlab.bio StructureDefinition status-history, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/is-submitted"
-        },
-        "name": "Ferlab.bio StructureDefinition/is-submitted",
-        "description": "Ferlab.bio StructureDefinition is-submitted, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/is-fetus"
-        },
-        "name": "Ferlab.bio StructureDefinition/is-fetus",
-        "description": "Ferlab.bio StructureDefinition is-fetus, Base: Extension",
         "exampleBoolean": false
       },
       {
@@ -984,20 +726,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/analysis-type"
-        },
-        "name": "Ferlab.bio ValueSet/analysis-type",
-        "description": "Ferlab.bio ValueSet analysis-type",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -1020,20 +748,6 @@
         },
         "name": "Ferlab.bio ValueSet/genome-build",
         "description": "Ferlab.bio ValueSet genome-build",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
-          "reference": "CodeSystem/analysis-type"
-        },
-        "name": "Ferlab.bio CodeSystem/analysis-type",
-        "description": "Ferlab.bio CodeSystem analysis-type",
         "exampleBoolean": false
       },
       {
@@ -1124,34 +838,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/group-member-status"
-        },
-        "name": "Ferlab.bio ValueSet/group-member-status",
-        "description": "Ferlab.bio ValueSet group-member-status",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/group-member-status"
-        },
-        "name": "Ferlab.bio StructureDefinition/group-member-status",
-        "description": "Ferlab.bio StructureDefinition group-member-status, Base: Extension",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:extension"
           }
         ],
@@ -1208,14 +894,308 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/cqgc-analysis-request"
+        },
+        "name": "Ferlab.bio StructureDefinition/cqgc-analysis-request",
+        "description": "Ferlab.bio StructureDefinition cqgc-analysis-request, Base: ServiceRequest",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/cqgc-sequencing-request"
+        },
+        "name": "Ferlab.bio StructureDefinition/cqgc-sequencing-request",
+        "description": "Ferlab.bio StructureDefinition cqgc-sequencing-request, Base: ServiceRequest",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/procedure-directed-by"
+        },
+        "name": "Ferlab.bio StructureDefinition/procedure-directed-by",
+        "description": "Ferlab.bio StructureDefinition procedure-directed-by, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/request-status-reason"
+        },
+        "name": "Ferlab.bio StructureDefinition/request-status-reason",
+        "description": "Ferlab.bio StructureDefinition request-status-reason, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/family-member"
+        },
+        "name": "Ferlab.bio StructureDefinition/family-member",
+        "description": "Ferlab.bio StructureDefinition family-member, Base: Extension",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/group-member-status"
+          "reference": "CodeSystem/bioinfo-analysis-code"
         },
-        "name": "Ferlab.bio CodeSystem/group-member-status",
-        "description": "Ferlab.bio CodeSystem group-member-status",
+        "name": "Ferlab.bio CodeSystem/bioinfo-analysis-code",
+        "description": "Ferlab.bio CodeSystem bioinfo-analysis-code",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/common-observation"
+        },
+        "name": "Ferlab.bio ValueSet/common-observation",
+        "description": "Ferlab.bio ValueSet common-observation",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/mitn-default-hpo"
+        },
+        "name": "Ferlab.bio ValueSet/mitn-default-hpo",
+        "description": "Ferlab.bio ValueSet mitn-default-hpo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/mmg-default-hpo"
+        },
+        "name": "Ferlab.bio ValueSet/mmg-default-hpo",
+        "description": "Ferlab.bio ValueSet mmg-default-hpo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/rgdi-default-hpo"
+        },
+        "name": "Ferlab.bio ValueSet/rgdi-default-hpo",
+        "description": "Ferlab.bio ValueSet rgdi-default-hpo",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/analysis-request-code"
+        },
+        "name": "Ferlab.bio ValueSet/analysis-request-code",
+        "description": "Ferlab.bio ValueSet analysis-request-code",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nmit-default-exam"
+        },
+        "name": "Ferlab.bio ValueSet/nmit-default-exam",
+        "description": "Ferlab.bio ValueSet nmit-default-exam",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/bioinfo-analysis-code"
+        },
+        "name": "Ferlab.bio ValueSet/bioinfo-analysis-code",
+        "description": "Ferlab.bio ValueSet bioinfo-analysis-code",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/cgh-abnormalities"
+        },
+        "name": "Ferlab.bio ValueSet/cgh-abnormalities",
+        "description": "Ferlab.bio ValueSet cgh-abnormalities",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/mmg-default-exam"
+        },
+        "name": "Ferlab.bio ValueSet/mmg-default-exam",
+        "description": "Ferlab.bio ValueSet mmg-default-exam",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/bmus-abnormalities"
+        },
+        "name": "Ferlab.bio ValueSet/bmus-abnormalities",
+        "description": "Ferlab.bio ValueSet bmus-abnormalities",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/rgdi-default-exam"
+        },
+        "name": "Ferlab.bio ValueSet/rgdi-default-exam",
+        "description": "Ferlab.bio ValueSet rgdi-default-exam",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/emg-abnormalities"
+        },
+        "name": "Ferlab.bio ValueSet/emg-abnormalities",
+        "description": "Ferlab.bio ValueSet emg-abnormalities",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/analysis-request-code"
+        },
+        "name": "Ferlab.bio CodeSystem/analysis-request-code",
+        "description": "Ferlab.bio CodeSystem analysis-request-code",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/disease-status"
+        },
+        "name": "Ferlab.bio CodeSystem/disease-status",
+        "description": "Ferlab.bio CodeSystem disease-status",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cgh-abnormalities"
+        },
+        "name": "Ferlab.bio CodeSystem/cgh-abnormalities",
+        "description": "Ferlab.bio CodeSystem cgh-abnormalities",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/disease-status"
+        },
+        "name": "Ferlab.bio ValueSet/disease-status",
+        "description": "Ferlab.bio ValueSet disease-status",
         "exampleBoolean": false
       }
     ],

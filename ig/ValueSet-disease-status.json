@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "disease-status",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-disease-status.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</code></a></li></ul></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+  "version": "0.1.0",
+  "name": "disease-status",
+  "title": "Disease status",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-05-18T17:38:26+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Disease status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"
+      }
+    ]
+  }
+}

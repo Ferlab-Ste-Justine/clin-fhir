@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="bmus-abnormalities"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030089</td><td>Abnormal muscle fiber protein expression</td><td>Expression anormale des protéines des fibres musculaires</td></tr><tr><td>HP:0100299</td><td>Muscle fiber inclusion bodies</td><td>Corps d'inclusion de fibres musculaires</td></tr><tr><td>HP:0012269</td><td>Abnormal muscle glycogen content</td><td>Teneur anormale en glycogène musculaire</td></tr><tr><td>HP:0020201</td><td>Abnormal sarcomere morphology</td><td>Morphologie anormale des sarcomères</td></tr><tr><td>HP:0033684</td><td>Abnormal muscle fiber-type distribution</td><td>Distribution anormale des types de fibres musculaires</td></tr><tr><td>HP:0100295</td><td>Muscle fiber atrophy</td><td>Atrophie des fibres musculaires</td></tr><tr><td>HP:0012084</td><td>Abnormality of skeletal muscle fiber size</td><td>Anomalie de la taille des fibres des muscles squelettiques</td></tr><tr><td>HP:0009058</td><td>Increased muscle lipid content</td><td>Augmentation de la teneur en lipides musculaires</td></tr><tr><td>HP:0003200</td><td>Ragged-red muscle fibers</td><td>Fibres musculaires rouges en lambeaux</td></tr><tr><td>HP:0003687</td><td>Centrally nucleated skeletal muscle fibers</td><td>Fibres musculaires squelettiques à nucléation centrale</td></tr><tr><td>HP:0003736</td><td>Autophagic vacuoles</td><td>Vacuoles autophagiques</td></tr><tr><td>HP:0003555</td><td>Muscle fiber splitting</td><td>Fractionnement des fibres musculaires</td></tr><tr><td>HP:0003791</td><td>Deposits immunoreactive to beta-amyloid protein</td><td>Dépôts immunoréactifs à la protéine bêta-amyloïde</td></tr><tr><td>HP:0031542</td><td>Myelin-like whorls in vacuolated fibers</td><td>Verticilles ressemblant à de la myéline dans des fibres vacuolées</td></tr><tr><td>HP:0100298</td><td>Motheaten muscle fibers</td><td>Fibres musculaires mâchées</td></tr><tr><td>HP:0030362</td><td>Reduced muscle carnitine level</td><td>Réduction du niveau de carnitine musculaire</td></tr><tr><td>HP:0003805</td><td>Rimmed vacuoles</td><td>Vacuoles bordées</td></tr><tr><td>HP:0100293</td><td>Muscle fiber hypertrophy</td><td>Hypertrophie des fibres musculaires</td></tr><tr><td>HP:0100297</td><td>Increased endomysial connective tissue</td><td>Augmentation du tissu conjonctif endomysial</td></tr><tr><td>HP:0030230</td><td>Central core regions in muscle fibers</td><td>Régions du noyau central des fibres musculaires</td></tr><tr><td>HP:0100305</td><td>Ring fibers</td><td>Fibres annulaires</td></tr><tr><td>HP:0100296</td><td>Perifascicular muscle fiber atrophy</td><td>Atrophie des fibres musculaires périfasciculaires</td></tr><tr><td>HP:0031238</td><td>Necklace skeletal muscle fibers</td><td>Collier de fibres musculaires squelettiques</td></tr><tr><td>HP:0003713</td><td>Muscle fiber necrosis</td><td>Nécrose des fibres musculaires</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities"/>
+  <version value="0.1.0"/>
+  <name value="bmus-abnormalities"/>
+  <title value="Muscle biopsy abnormalities"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-13T10:49:27-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Category of mucle biopsy abnormalities (HPO code)"/>
+  <compose>
+    <include>
+      <system value="http://purl.obolibrary.org/obo/hp.owl"/>
+      <concept>
+        <code value="HP:0030089"/>
+        <display value="Abnormal muscle fiber protein expression"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Expression anormale des protéines des fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100299"/>
+        <display value="Muscle fiber inclusion bodies"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Corps d'inclusion de fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0012269"/>
+        <display value="Abnormal muscle glycogen content"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Teneur anormale en glycogène musculaire"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0020201"/>
+        <display value="Abnormal sarcomere morphology"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Morphologie anormale des sarcomères"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0033684"/>
+        <display value="Abnormal muscle fiber-type distribution"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Distribution anormale des types de fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100295"/>
+        <display value="Muscle fiber atrophy"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Atrophie des fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0012084"/>
+        <display value="Abnormality of skeletal muscle fiber size"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Anomalie de la taille des fibres des muscles squelettiques"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0009058"/>
+        <display value="Increased muscle lipid content"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Augmentation de la teneur en lipides musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003200"/>
+        <display value="Ragged-red muscle fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fibres musculaires rouges en lambeaux"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003687"/>
+        <display value="Centrally nucleated skeletal muscle fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fibres musculaires squelettiques à nucléation centrale"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003736"/>
+        <display value="Autophagic vacuoles"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Vacuoles autophagiques"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003555"/>
+        <display value="Muscle fiber splitting"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fractionnement des fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003791"/>
+        <display value="Deposits immunoreactive to beta-amyloid protein"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Dépôts immunoréactifs à la protéine bêta-amyloïde"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0031542"/>
+        <display value="Myelin-like whorls in vacuolated fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Verticilles ressemblant à de la myéline dans des fibres vacuolées"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100298"/>
+        <display value="Motheaten muscle fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fibres musculaires mâchées"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0030362"/>
+        <display value="Reduced muscle carnitine level"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Réduction du niveau de carnitine musculaire"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003805"/>
+        <display value="Rimmed vacuoles"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Vacuoles bordées"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100293"/>
+        <display value="Muscle fiber hypertrophy"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Hypertrophie des fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100297"/>
+        <display value="Increased endomysial connective tissue"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Augmentation du tissu conjonctif endomysial"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0030230"/>
+        <display value="Central core regions in muscle fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Régions du noyau central des fibres musculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100305"/>
+        <display value="Ring fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Fibres annulaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0100296"/>
+        <display value="Perifascicular muscle fiber atrophy"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Atrophie des fibres musculaires périfasciculaires"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0031238"/>
+        <display value="Necklace skeletal muscle fibers"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Collier de fibres musculaires squelettiques"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0003713"/>
+        <display value="Muscle fiber necrosis"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Nécrose des fibres musculaires"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

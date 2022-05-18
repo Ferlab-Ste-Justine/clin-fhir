@@ -3,7 +3,7 @@
   "id": "data-category",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-category defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">SR<a name=\"data-category-SR\"> </a></td><td>Sequencing Reads</td><td>Sequencing reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-category-SNV\"> </a></td><td>Simple Nucleotide Variations</td><td>Simple nucleotide variations</td></tr><tr><td style=\"white-space:nowrap\">CNV<a name=\"data-category-CNV\"> </a></td><td>Copy Number Variations</td><td> Copy number variations</td></tr><tr><td style=\"white-space:nowrap\">CLIN<a name=\"data-category-CLIN\"> </a></td><td>Clinical</td><td>Clinical</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"data-category-PA\"> </a></td><td>Patient Consent</td><td>Patient consent</td></tr><tr><td style=\"white-space:nowrap\">RE<a name=\"data-category-RE\"> </a></td><td>Sequencing Report</td><td>Sequencing report</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>SR</td><td>Fragments de séquençage</td></tr><tr><td>SNV</td><td>Variations nucléotidiques simples</td></tr><tr><td>CNV</td><td>Variabilité du nombre de copies</td></tr><tr><td>CLIN</td><td>Clinique</td></tr><tr><td>PA</td><td>Consentement de patient</td></tr><tr><td>RE</td><td>Rapport de séquençage</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-category defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">GENO<a name=\"data-category-GENO\"> </a></td><td>Genomics</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>GENO</td><td>Génomique</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Data categories",
   "status": "draft",
   "experimental": false,
-  "date": "2022-04-12T17:10:33+00:00",
+  "date": "2022-05-18T17:38:26+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
@@ -27,71 +27,15 @@
   "description": "Data categories",
   "caseSensitive": true,
   "content": "complete",
-  "count": 5,
+  "count": 1,
   "concept": [
     {
-      "code": "SR",
-      "display": "Sequencing Reads",
-      "definition": "Sequencing reads",
+      "code": "GENO",
+      "display": "Genomics",
       "designation": [
         {
           "language": "fr",
-          "value": "Fragments de séquençage"
-        }
-      ]
-    },
-    {
-      "code": "SNV",
-      "display": "Simple Nucleotide Variations",
-      "definition": "Simple nucleotide variations",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Variations nucléotidiques simples"
-        }
-      ]
-    },
-    {
-      "code": "CNV",
-      "display": "Copy Number Variations",
-      "definition": " Copy number variations",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Variabilité du nombre de copies"
-        }
-      ]
-    },
-    {
-      "code": "CLIN",
-      "display": "Clinical",
-      "definition": "Clinical",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Clinique"
-        }
-      ]
-    },
-    {
-      "code": "PA",
-      "display": "Patient Consent",
-      "definition": "Patient consent",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Consentement de patient"
-        }
-      ]
-    },
-    {
-      "code": "RE",
-      "display": "Sequencing Report",
-      "definition": "Sequencing report",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Rapport de séquençage"
+          "value": "Génomique"
         }
       ]
     }

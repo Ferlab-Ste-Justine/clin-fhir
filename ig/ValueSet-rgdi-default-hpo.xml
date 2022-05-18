@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="rgdi-default-hpo"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0001249</td><td>Intellectual disability</td><td>Déficience intellectuelle</td></tr><tr><td>HP:0000729</td><td>Autistic behavior</td><td>Comportement autistique</td></tr><tr><td>HP:0001344</td><td>Absent speech</td><td>Discours absent</td></tr><tr><td>HP:0011344</td><td>Severe global developmental delay</td><td>Retard de développement global sévère</td></tr><tr><td>HP:0011343</td><td>Moderate global developmental delay</td><td>Retard de développement global modéré</td></tr><tr><td>HP:0011342</td><td>Mild global developmental delay</td><td>Léger retard de développement global</td></tr><tr><td>HP:0000256</td><td>Macrocephaly</td><td>Macrocéphalie</td></tr><tr><td>HP:0000252</td><td>Microcephaly</td><td>Microcéphalie</td></tr><tr><td>HP:0001250</td><td>Seizure</td><td>Crise d'épilepsie</td></tr><tr><td>HP:0031375</td><td>Refractory</td><td>Réfractaire</td></tr><tr><td>HP:0001510</td><td>Growth delay</td><td>Retard de croissance</td></tr><tr><td>HP:0012443</td><td>Abnormality of brain morphology</td><td>Anomalie de la morphologie cérébrale</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo"/>
+  <version value="0.1.0"/>
+  <name value="rgdi-default-hpo"/>
+  <title value="Global developmental Delay / intellectual deficiency default clinical signs (HPO code)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-13T10:49:27-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Global developmental Delay / intellectual deficiency default clinical signs (HPO code)"/>
+  <compose>
+    <include>
+      <system value="http://purl.obolibrary.org/obo/hp.owl"/>
+      <concept>
+        <code value="HP:0001249"/>
+        <display value="Intellectual disability"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Déficience intellectuelle"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0000729"/>
+        <display value="Autistic behavior"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Comportement autistique"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0001344"/>
+        <display value="Absent speech"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Discours absent"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0011344"/>
+        <display value="Severe global developmental delay"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Retard de développement global sévère"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0011343"/>
+        <display value="Moderate global developmental delay"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Retard de développement global modéré"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0011342"/>
+        <display value="Mild global developmental delay"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Léger retard de développement global"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0000256"/>
+        <display value="Macrocephaly"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Macrocéphalie"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0000252"/>
+        <display value="Microcephaly"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Microcéphalie"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0001250"/>
+        <display value="Seizure"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Crise d'épilepsie"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0031375"/>
+        <display value="Refractory"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Réfractaire"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0001510"/>
+        <display value="Growth delay"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Retard de croissance"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="HP:0012443"/>
+        <display value="Abnormality of brain morphology"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Anomalie de la morphologie cérébrale"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

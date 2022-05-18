@@ -13,20 +13,6 @@
     <sch:title>f:ClinicalImpression</sch:title>
     <sch:rule context="f:ClinicalImpression">
       <sch:assert test="count(f:extension[@url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event']) &lt;= 1">extension with URL = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:statusReason) &lt;= 0">statusReason: maximum cardinality of 'statusReason' is 0</sch:assert>
-      <sch:assert test="count(f:code) &lt;= 0">code: maximum cardinality of 'code' is 0</sch:assert>
-      <sch:assert test="count(f:encounter) &lt;= 0">encounter: maximum cardinality of 'encounter' is 0</sch:assert>
-      <sch:assert test="count(f:date) &gt;= 1">date: minimum cardinality of 'date' is 1</sch:assert>
-      <sch:assert test="count(f:assessor) &gt;= 1">assessor: minimum cardinality of 'assessor' is 1</sch:assert>
-      <sch:assert test="count(f:previous) &lt;= 0">previous: maximum cardinality of 'previous' is 0</sch:assert>
-      <sch:assert test="count(f:problem) &lt;= 0">problem: maximum cardinality of 'problem' is 0</sch:assert>
-      <sch:assert test="count(f:protocol) &lt;= 0">protocol: maximum cardinality of 'protocol' is 0</sch:assert>
-      <sch:assert test="count(f:summary) &lt;= 0">summary: maximum cardinality of 'summary' is 0</sch:assert>
-      <sch:assert test="count(f:finding) &lt;= 0">finding: maximum cardinality of 'finding' is 0</sch:assert>
-      <sch:assert test="count(f:prognosisCodeableConcept) &lt;= 0">prognosisCodeableConcept: maximum cardinality of 'prognosisCodeableConcept' is 0</sch:assert>
-      <sch:assert test="count(f:prognosisReference) &lt;= 0">prognosisReference: maximum cardinality of 'prognosisReference' is 0</sch:assert>
-      <sch:assert test="count(f:supportingInfo) &lt;= 0">supportingInfo: maximum cardinality of 'supportingInfo' is 0</sch:assert>
-      <sch:assert test="count(f:note) &lt;= 0">note: maximum cardinality of 'note' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

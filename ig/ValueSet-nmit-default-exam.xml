@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nmit-default-exam"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-observation-code.html"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-CAAP">CAAP</a></td><td>Plasma amino acid chromatography</td><td>Chromatographie acides aminés plasmatiques</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-ACYL">ACYL</a></td><td>Acylcarnitines</td><td>Acylcarnitines</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-IRMC">IRMC</a></td><td>Cerebral MRI</td><td>IRM cérébrale</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-CGH">CGH</a></td><td>Comparative Genomic Hybridization</td><td>Hybridation génomique comparative</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-SRMN">SRMN</a></td><td>NMR Spectroscopy</td><td>Spectroscopie RMN</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-ECAR">ECAR</a></td><td>Cardiac Ultrasound</td><td>Échographie cardiaque</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-EABD">EABD</a></td><td>Abdominal Ultrasound</td><td>Échographie abdominale</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-EEG">EEG</a></td><td>Electroencephalogram (EEG)</td><td>Électroencéphalogramme (EEG)</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-OPHT">OPHT</a></td><td>Ophthalmological Examination</td><td>Examen ophtalmologique</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-BMET">BMET</a></td><td>Metabolic work-up</td><td>Bilan métabolique</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-BMUS">BMUS</a></td><td>Muscle biopsy</td><td>Biopsie musculaire</td></tr><tr><td><a href="CodeSystem-observation-code.html#observation-code-EMG">EMG</a></td><td>Electromyography (EMG)</td><td>Electromyographie (EMG)</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/ValueSet/nmit-default-exam"/>
+  <version value="0.1.0"/>
+  <name value="nmit-default-exam"/>
+  <title value="Nuclear Mitochondriopathies default para-clinic exams"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-08-13T10:49:27-04:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Nuclear Mitochondriopathies default para-clinic exams"/>
+  <compose>
+    <include>
+      <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+      <concept>
+        <code value="CAAP"/>
+        <display value="Plasma amino acid chromatography"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Chromatographie acides aminés plasmatiques"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ACYL"/>
+        <display value="Acylcarnitines"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Acylcarnitines"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="IRMC"/>
+        <display value="Cerebral MRI"/>
+        <designation>
+          <language value="fr"/>
+          <value value="IRM cérébrale"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="CGH"/>
+        <display value="Comparative Genomic Hybridization"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Hybridation génomique comparative"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="SRMN"/>
+        <display value="NMR Spectroscopy"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Spectroscopie RMN"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="ECAR"/>
+        <display value="Cardiac Ultrasound"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Échographie cardiaque"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EABD"/>
+        <display value="Abdominal Ultrasound"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Échographie abdominale"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EEG"/>
+        <display value="Electroencephalogram (EEG)"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Électroencéphalogramme (EEG)"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="OPHT"/>
+        <display value="Ophthalmological Examination"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Examen ophtalmologique"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="BMET"/>
+        <display value="Metabolic work-up"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Bilan métabolique"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="BMUS"/>
+        <display value="Muscle biopsy"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Biopsie musculaire"/>
+        </designation>
+      </concept>
+      <concept>
+        <code value="EMG"/>
+        <display value="Electromyography (EMG)"/>
+        <designation>
+          <language value="fr"/>
+          <value value="Electromyographie (EMG)"/>
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

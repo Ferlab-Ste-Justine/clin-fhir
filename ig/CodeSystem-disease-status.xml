@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="disease-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">AFFE<a name="disease-status-AFFE"> </a></td><td>Affected</td></tr><tr><td style="white-space:nowrap">NAFF<a name="disease-status-NAFF"> </a></td><td>Non-affected</td></tr><tr><td style="white-space:nowrap">UNKN<a name="disease-status-UNKN"> </a></td><td>Unknow</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AFFE</td><td>Atteint</td></tr><tr><td>NAFF</td><td>Non-atteint</td></tr><tr><td>UNKN</td><td>Inconnu</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"/>
+  <version value="0.1.0"/>
+  <name value="disease-status"/>
+  <title value="Disease status"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2022-05-18T17:38:26+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Disease status"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="AFFE"/>
+    <display value="Affected"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Atteint"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NAFF"/>
+    <display value="Non-affected"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Non-atteint"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="UNKN"/>
+    <display value="Unknow"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Inconnu"/>
+    </designation>
+  </concept>
+</CodeSystem>

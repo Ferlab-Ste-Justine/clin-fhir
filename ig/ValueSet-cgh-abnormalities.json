@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "cgh-abnormalities",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cgh-abnormalities.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</code></a></li></ul></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+  "version": "0.1.0",
+  "name": "cgh-abnormalities",
+  "title": "CGH abnormalities",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-05-18T17:38:26+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "CGH abnormalities",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"
+      }
+    ]
+  }
+}

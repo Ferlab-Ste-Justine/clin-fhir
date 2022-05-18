@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-04-12T17:10:33+00:00"/>
+  <date value="2022-05-18T17:38:26+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -24,6 +24,11 @@
   <packageId value="cqgc"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -179,17 +184,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cqgc-patient"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/cqgc-patient"/>
-      <description value="Ferlab.bio StructureDefinition cqgc-patient, Base: Patient"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -259,17 +253,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cqgc-service-request"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/cqgc-service-request"/>
-      <description value="Ferlab.bio StructureDefinition cqgc-service-request, Base: ServiceRequest"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cqgc-clinical-impression"/>
       </reference>
       <name value="Ferlab.bio StructureDefinition/cqgc-clinical-impression"/>
@@ -285,28 +268,6 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/cqgc-fmh"/>
       <description value="Ferlab.bio StructureDefinition cqgc-fmh, Base: FamilyMemberHistory"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/is-proband"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/is-proband"/>
-      <description value="Ferlab.bio StructureDefinition is-proband, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ref-clin-impression"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/ref-clin-impression"/>
-      <description value="Ferlab.bio StructureDefinition ref-clin-impression, Base: Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -369,153 +330,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/service-request-code"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/service-request-code"/>
-      <description value="Ferlab.bio ValueSet service-request-code"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/service-request-code"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/service-request-code"/>
-      <description value="Ferlab.bio CodeSystem service-request-code"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/blood-relationship"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/blood-relationship"/>
-      <description value="Ferlab.bio CodeSystem blood-relationship"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/blood-relationship"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/blood-relationship"/>
-      <description value="Ferlab.bio ValueSet blood-relationship"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/hpo-category"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/hpo-category"/>
-      <description value="Ferlab.bio ValueSet hpo-category"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hpo-category"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/hpo-category"/>
-      <description value="Ferlab.bio StructureDefinition hpo-category, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/fm-structure"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/fm-structure"/>
-      <description value="Ferlab.bio CodeSystem fm-structure"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/fm-structure"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/fm-structure"/>
-      <description value="Ferlab.bio ValueSet fm-structure"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cqgc-family-group"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/cqgc-family-group"/>
-      <description value="Ferlab.bio StructureDefinition cqgc-family-group, Base: Group"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fm-structure"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/fm-structure"/>
-      <description value="Ferlab.bio StructureDefinition fm-structure, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/family-id"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/family-id"/>
-      <description value="Ferlab.bio StructureDefinition family-id, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/organization-type"/>
       </reference>
       <name value="Ferlab.bio ValueSet/organization-type"/>
       <description value="Ferlab.bio ValueSet organization-type"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/request-status"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/request-status"/>
-      <description value="Ferlab.bio ValueSet request-status"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/request-status-plus"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/request-status-plus"/>
-      <description value="Ferlab.bio CodeSystem request-status-plus"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -549,28 +367,6 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/status-history"/>
       <description value="Ferlab.bio StructureDefinition status-history, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/is-submitted"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/is-submitted"/>
-      <description value="Ferlab.bio StructureDefinition is-submitted, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/is-fetus"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/is-fetus"/>
-      <description value="Ferlab.bio StructureDefinition is-fetus, Base: Extension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -729,17 +525,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/analysis-type"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/analysis-type"/>
-      <description value="Ferlab.bio ValueSet analysis-type"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -758,17 +543,6 @@
       </reference>
       <name value="Ferlab.bio ValueSet/genome-build"/>
       <description value="Ferlab.bio ValueSet genome-build"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/analysis-type"/>
-      </reference>
-      <name value="Ferlab.bio CodeSystem/analysis-type"/>
-      <description value="Ferlab.bio CodeSystem analysis-type"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -839,28 +613,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/group-member-status"/>
-      </reference>
-      <name value="Ferlab.bio ValueSet/group-member-status"/>
-      <description value="Ferlab.bio ValueSet group-member-status"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/group-member-status"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/group-member-status"/>
-      <description value="Ferlab.bio StructureDefinition group-member-status, Base: Extension"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -905,13 +657,244 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cqgc-analysis-request"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/cqgc-analysis-request"/>
+      <description value="Ferlab.bio StructureDefinition cqgc-analysis-request, Base: ServiceRequest"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cqgc-sequencing-request"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/cqgc-sequencing-request"/>
+      <description value="Ferlab.bio StructureDefinition cqgc-sequencing-request, Base: ServiceRequest"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/procedure-directed-by"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/procedure-directed-by"/>
+      <description value="Ferlab.bio StructureDefinition procedure-directed-by, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/request-status-reason"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/request-status-reason"/>
+      <description value="Ferlab.bio StructureDefinition request-status-reason, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/family-member"/>
+      </reference>
+      <name value="Ferlab.bio StructureDefinition/family-member"/>
+      <description value="Ferlab.bio StructureDefinition family-member, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/group-member-status"/>
+        <reference value="CodeSystem/bioinfo-analysis-code"/>
       </reference>
-      <name value="Ferlab.bio CodeSystem/group-member-status"/>
-      <description value="Ferlab.bio CodeSystem group-member-status"/>
+      <name value="Ferlab.bio CodeSystem/bioinfo-analysis-code"/>
+      <description value="Ferlab.bio CodeSystem bioinfo-analysis-code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/common-observation"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/common-observation"/>
+      <description value="Ferlab.bio ValueSet common-observation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mitn-default-hpo"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/mitn-default-hpo"/>
+      <description value="Ferlab.bio ValueSet mitn-default-hpo"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmg-default-hpo"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/mmg-default-hpo"/>
+      <description value="Ferlab.bio ValueSet mmg-default-hpo"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/rgdi-default-hpo"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/rgdi-default-hpo"/>
+      <description value="Ferlab.bio ValueSet rgdi-default-hpo"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/analysis-request-code"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/analysis-request-code"/>
+      <description value="Ferlab.bio ValueSet analysis-request-code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/nmit-default-exam"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/nmit-default-exam"/>
+      <description value="Ferlab.bio ValueSet nmit-default-exam"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bioinfo-analysis-code"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/bioinfo-analysis-code"/>
+      <description value="Ferlab.bio ValueSet bioinfo-analysis-code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/cgh-abnormalities"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/cgh-abnormalities"/>
+      <description value="Ferlab.bio ValueSet cgh-abnormalities"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mmg-default-exam"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/mmg-default-exam"/>
+      <description value="Ferlab.bio ValueSet mmg-default-exam"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/bmus-abnormalities"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/bmus-abnormalities"/>
+      <description value="Ferlab.bio ValueSet bmus-abnormalities"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/rgdi-default-exam"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/rgdi-default-exam"/>
+      <description value="Ferlab.bio ValueSet rgdi-default-exam"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/emg-abnormalities"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/emg-abnormalities"/>
+      <description value="Ferlab.bio ValueSet emg-abnormalities"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/analysis-request-code"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/analysis-request-code"/>
+      <description value="Ferlab.bio CodeSystem analysis-request-code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/disease-status"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/disease-status"/>
+      <description value="Ferlab.bio CodeSystem disease-status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cgh-abnormalities"/>
+      </reference>
+      <name value="Ferlab.bio CodeSystem/cgh-abnormalities"/>
+      <description value="Ferlab.bio CodeSystem cgh-abnormalities"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/disease-status"/>
+      </reference>
+      <name value="Ferlab.bio ValueSet/disease-status"/>
+      <description value="Ferlab.bio ValueSet disease-status"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

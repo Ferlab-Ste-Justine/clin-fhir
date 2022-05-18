@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "document-format"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/document-format defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM File</td><td>CRAM file</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td><td>CRAI index file</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF File</td><td>VCF file</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td><td>TBI index file</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td><td>TGZ archive file</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/document-format defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM File</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF File</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Document formats"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-04-12T17:10:33+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-18T17:38:26+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -37,7 +37,6 @@
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "CRAM" ];
      fhir:CodeSystem.concept.display [ fhir:value "CRAM File" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "CRAM file" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
@@ -47,7 +46,6 @@
      fhir:index 1;
      fhir:CodeSystem.concept.code [ fhir:value "CRAI" ];
      fhir:CodeSystem.concept.display [ fhir:value "CRAI Index File" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "CRAI index file" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
@@ -57,7 +55,6 @@
      fhir:index 2;
      fhir:CodeSystem.concept.code [ fhir:value "VCF" ];
      fhir:CodeSystem.concept.display [ fhir:value "VCF File" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "VCF file" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
@@ -67,7 +64,6 @@
      fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "TBI" ];
      fhir:CodeSystem.concept.display [ fhir:value "TBI Index File" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "TBI index file" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
@@ -77,7 +73,6 @@
      fhir:index 4;
      fhir:CodeSystem.concept.code [ fhir:value "TGZ" ];
      fhir:CodeSystem.concept.display [ fhir:value "TGZ Archive File" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "TGZ archive file" ];
      fhir:CodeSystem.concept.designation [
        fhir:index 0;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];

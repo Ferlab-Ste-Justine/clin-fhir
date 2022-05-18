@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "CqgcImplementationGuide"];
   fhir:ImplementationGuide.title [ fhir:value "Cqgc Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-12T17:10:33+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-18T17:38:26+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Ferlab.bio"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -34,6 +34,16 @@
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
      fhir:index 0
+  ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "hl7tx" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology";
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -270,20 +280,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cqgc-patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/cqgc-patient" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-patient, Base: Patient" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -294,7 +290,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem qc-ethnicity" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -308,7 +304,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet age-at-onset" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -322,7 +318,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet fmh-relationship" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -336,7 +332,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet phenotype-codes" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -350,7 +346,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem fmh-relationship-plus" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -364,21 +360,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet qc-ethnicity" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-service-request>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cqgc-service-request" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/cqgc-service-request" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-service-request, Base: ServiceRequest" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 8;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -392,7 +374,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-clinical-impression, Base: ClinicalImpression" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -406,35 +388,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-fmh, Base: FamilyMemberHistory" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/is-proband>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/is-proband" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/is-proband" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition is-proband, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/ref-clin-impression>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/ref-clin-impression" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/ref-clin-impression" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition ref-clin-impression, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 12;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -448,7 +402,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition age-at-onset, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -462,7 +416,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition age-at-event, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -476,7 +430,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet observation-code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -490,7 +444,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem observation-code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -504,161 +458,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-observation, Base: Observation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/service-request-code>;
-         fhir:Reference.reference [ fhir:value "ValueSet/service-request-code" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/service-request-code" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet service-request-code" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 18;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/service-request-code>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/service-request-code" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/service-request-code" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem service-request-code" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 19;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/blood-relationship>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/blood-relationship" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/blood-relationship" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem blood-relationship" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 20;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/blood-relationship>;
-         fhir:Reference.reference [ fhir:value "ValueSet/blood-relationship" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/blood-relationship" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet blood-relationship" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 21;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/hpo-category>;
-         fhir:Reference.reference [ fhir:value "ValueSet/hpo-category" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/hpo-category" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet hpo-category" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 22;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/hpo-category>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/hpo-category" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/hpo-category" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition hpo-category, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 23;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/fm-structure>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/fm-structure" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/fm-structure" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem fm-structure" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 24;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/fm-structure>;
-         fhir:Reference.reference [ fhir:value "ValueSet/fm-structure" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/fm-structure" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet fm-structure" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 25;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-family-group>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cqgc-family-group" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/cqgc-family-group" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-family-group, Base: Group" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 26;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/fm-structure>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fm-structure" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/fm-structure" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition fm-structure, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 27;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/family-id>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/family-id" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/family-id" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition family-id, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 28;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -672,35 +472,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet organization-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 29;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/request-status>;
-         fhir:Reference.reference [ fhir:value "ValueSet/request-status" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/request-status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet request-status" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 30;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/request-status-plus>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/request-status-plus" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/request-status-plus" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem request-status-plus" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 31;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -714,7 +486,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem organization-type-plus" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 32;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -728,7 +500,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-organization, Base: Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 33;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -742,35 +514,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition status-history, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 34;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/is-submitted>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/is-submitted" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/is-submitted" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition is-submitted, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 35;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/is-fetus>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/is-fetus" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/is-fetus" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition is-fetus, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 36;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -784,7 +528,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition family-relation, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 37;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -798,7 +542,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition specimen-type, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 38;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -812,7 +556,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition analysis-type, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 39;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -826,7 +570,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem data-category" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 40;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -840,7 +584,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet specimen-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 41;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -854,7 +598,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem document-format" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 42;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -868,7 +612,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet data-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 43;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -882,7 +626,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet data-category" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 44;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -896,7 +640,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem experimental-strategy" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 45;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -910,7 +654,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet document-format" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 46;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -924,7 +668,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem specimen-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 47;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -938,7 +682,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet experimental-strategy" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 48;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -952,7 +696,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem data-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 49;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -966,21 +710,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet variant-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 50;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type>;
-         fhir:Reference.reference [ fhir:value "ValueSet/analysis-type" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/analysis-type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet analysis-type" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 51;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -994,7 +724,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem variant-type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 52;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1008,21 +738,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet genome-build" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 53;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-type>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/analysis-type" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/analysis-type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem analysis-type" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 54;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1036,7 +752,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem genome-build" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 55;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1050,7 +766,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition workflow, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 56;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1064,7 +780,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-analysis-task, Base: Task" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 57;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1078,7 +794,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition sequencing-experiment, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 58;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1092,7 +808,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter output-documentreference" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 59;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1106,35 +822,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition full-size, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 60;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/group-member-status>;
-         fhir:Reference.reference [ fhir:value "ValueSet/group-member-status" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/group-member-status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet group-member-status" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 61;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/group-member-status>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/group-member-status" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/group-member-status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition group-member-status, Base: Extension" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 62;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1148,7 +836,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition resident-supervisor, Base: Extension" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 63;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1162,7 +850,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter run-name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 64;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1176,7 +864,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter input-specimen" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 65;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1190,18 +878,312 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio SearchParameter contextspecimen" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 66;
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cqgc-analysis-request" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/cqgc-analysis-request" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-analysis-request, Base: ServiceRequest" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cqgc-sequencing-request" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/cqgc-sequencing-request" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition cqgc-sequencing-request, Base: ServiceRequest" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/procedure-directed-by>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/procedure-directed-by" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/procedure-directed-by" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition procedure-directed-by, Base: Extension" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/request-status-reason>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/request-status-reason" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/request-status-reason" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition request-status-reason, Base: Extension" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/family-member" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio StructureDefinition/family-member" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio StructureDefinition family-member, Base: Extension" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/group-member-status>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/group-member-status" ]
+         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/bioinfo-analysis-code" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/group-member-status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem group-member-status" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/bioinfo-analysis-code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem bioinfo-analysis-code" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/common-observation>;
+         fhir:Reference.reference [ fhir:value "ValueSet/common-observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/common-observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet common-observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mitn-default-hpo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/mitn-default-hpo" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet mitn-default-hpo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmg-default-hpo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/mmg-default-hpo" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet mmg-default-hpo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo>;
+         fhir:Reference.reference [ fhir:value "ValueSet/rgdi-default-hpo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/rgdi-default-hpo" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet rgdi-default-hpo" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code>;
+         fhir:Reference.reference [ fhir:value "ValueSet/analysis-request-code" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/analysis-request-code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet analysis-request-code" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/nmit-default-exam>;
+         fhir:Reference.reference [ fhir:value "ValueSet/nmit-default-exam" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/nmit-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet nmit-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code>;
+         fhir:Reference.reference [ fhir:value "ValueSet/bioinfo-analysis-code" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/bioinfo-analysis-code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet bioinfo-analysis-code" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 56;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities>;
+         fhir:Reference.reference [ fhir:value "ValueSet/cgh-abnormalities" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/cgh-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet cgh-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 57;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mmg-default-exam" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/mmg-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet mmg-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 58;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities>;
+         fhir:Reference.reference [ fhir:value "ValueSet/bmus-abnormalities" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/bmus-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet bmus-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 59;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam>;
+         fhir:Reference.reference [ fhir:value "ValueSet/rgdi-default-exam" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/rgdi-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet rgdi-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 60;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities>;
+         fhir:Reference.reference [ fhir:value "ValueSet/emg-abnormalities" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/emg-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet emg-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 61;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/analysis-request-code" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/analysis-request-code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem analysis-request-code" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 62;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/disease-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/disease-status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem disease-status" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 63;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cgh-abnormalities" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio CodeSystem/cgh-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio CodeSystem cgh-abnormalities" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 64;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/disease-status>;
+         fhir:Reference.reference [ fhir:value "ValueSet/disease-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/disease-status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet disease-status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [

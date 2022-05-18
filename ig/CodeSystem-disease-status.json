@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "disease-status",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AFFE<a name=\"disease-status-AFFE\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">NAFF<a name=\"disease-status-NAFF\"> </a></td><td>Non-affected</td></tr><tr><td style=\"white-space:nowrap\">UNKN<a name=\"disease-status-UNKN\"> </a></td><td>Unknow</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AFFE</td><td>Atteint</td></tr><tr><td>NAFF</td><td>Non-atteint</td></tr><tr><td>UNKN</td><td>Inconnu</td></tr></table></div>"
+  },
+  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+  "version": "0.1.0",
+  "name": "disease-status",
+  "title": "Disease status",
+  "status": "draft",
+  "experimental": false,
+  "date": "2022-05-18T17:38:26+00:00",
+  "publisher": "Ferlab.bio",
+  "contact": [
+    {
+      "name": "Cqgc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ferlab.bio"
+        }
+      ]
+    }
+  ],
+  "description": "Disease status",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "AFFE",
+      "display": "Affected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Atteint"
+        }
+      ]
+    },
+    {
+      "code": "NAFF",
+      "display": "Non-affected",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Non-atteint"
+        }
+      ]
+    },
+    {
+      "code": "UNKN",
+      "display": "Unknow",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Inconnu"
+        }
+      ]
+    }
+  ]
+}
