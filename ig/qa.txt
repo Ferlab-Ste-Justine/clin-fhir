@@ -1,9 +1,9 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 2, warn = 111, info = 0
+err = 2, warn = 109, info = 0
 IG Publisher Version: 1.1.120
-Generated Thu May 19 05:08:54 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+Generated Thu May 19 05:32:57 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 2 / 1 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -22,7 +22,6 @@ Generated Thu May 19 05:08:54 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 3 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-document-reference : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-observation : 0 / 4 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-organization : 0 / 2 / 1
@@ -130,9 +129,6 @@ WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureD
 WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition.snapshot.element[21].comment: The Unicode sequence has unterminated bi-di control characters (see CVE-2021-42574): {1}
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression'): The Implementation Guide contains no examples for this profile
-== input/resources/profiles/StructureDefinition-cqgc-document-reference.json ==
-WARNING: StructureDefinition/cqgc-document-reference: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-document-reference'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-fmh.json ==
 WARNING: StructureDefinition/cqgc-fmh: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh'): The Implementation Guide contains no examples for this profile

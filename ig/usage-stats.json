@@ -345,12 +345,6 @@
         "title": "cqgc Clinical Impression"
       }
     ],
-    "DocumentReference": [
-      {
-        "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-document-reference",
-        "title": "cqgc-document-reference"
-      }
-    ],
     "FamilyMemberHistory": [
       {
         "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",

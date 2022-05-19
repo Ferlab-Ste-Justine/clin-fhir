@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-05-19T05:06:22+00:00"/>
+  <date value="2022-05-19T05:30:54+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -675,17 +675,6 @@
       </reference>
       <name value="Ferlab.bio StructureDefinition/cqgc-sequencing-request"/>
       <description value="Ferlab.bio StructureDefinition cqgc-sequencing-request, Base: ServiceRequest"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cqgc-document-reference"/>
-      </reference>
-      <name value="Ferlab.bio StructureDefinition/cqgc-document-reference"/>
-      <description value="Ferlab.bio StructureDefinition cqgc-document-reference, Base: DocumentReference"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -189,13 +189,6 @@
     "name": "cqgc-clinical-impression"
   },
   {
-    "id": "cqgc-document-reference",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-document-reference",
-    "version": "0.1.0",
-    "name": "cqgc-document-reference"
-  },
-  {
     "id": "cqgc-fmh",
     "type": "StructureDefinition",
     "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",
