@@ -377,6 +377,9 @@
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor": [
       "ServiceRequest"
     ],
+    "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment": [
+      "Task"
+    ],
     "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow": [
       "Task"
     ],
