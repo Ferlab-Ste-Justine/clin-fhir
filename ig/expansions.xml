@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ed310d92-fb36-4b90-9797-f4709a92158e"/>
+  <id value="c9ee7007-f151-4307-9155-9de42ac892ec"/>
   <meta>
-    <lastUpdated value="2022-07-20T15:55:58.589+00:00"/>
+    <lastUpdated value="2022-07-26T14:00:32.252+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -268,8 +268,8 @@
         </contact>
         <description value="Values ​​assigned to relationship fields"/>
         <expansion>
-          <identifier value="urn:uuid:465ec0ad-27f8-4f04-a910-e55c3abc2c29"/>
-          <timestamp value="2022-07-20T15:56:35+00:00"/>
+          <identifier value="urn:uuid:474dc024-0e38-4d8e-8dde-6343b15b1068"/>
+          <timestamp value="2022-07-26T14:00:45+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -512,7 +512,7 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -523,8 +523,8 @@
         </contact>
         <description value="Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"/>
         <expansion>
-          <identifier value="urn:uuid:d5ae1533-67e2-4e6a-a235-efb8d446a3b4"/>
-          <timestamp value="2022-07-20T15:56:43+00:00"/>
+          <identifier value="urn:uuid:40f31b2f-8a81-4469-babc-f8befc16360c"/>
+          <timestamp value="2022-07-26T14:00:46+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -591,7 +591,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 25 concepts</p>
+            <p>This value set contains 26 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">Observation codes v0.1.0 (CodeSystem)</a>
             </p>
@@ -784,6 +784,13 @@
                 </td>
                 <td>Ethnicity</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-PHEN"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-PHEN">PHEN</a>
+                </td>
+                <td>Clinical Sign (HPO)</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -793,7 +800,7 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -804,9 +811,9 @@
         </contact>
         <description value="Codes of observations in our system"/>
         <expansion>
-          <identifier value="urn:uuid:71435c53-198b-48f0-9840-897d10c36326"/>
-          <timestamp value="2022-07-20T15:56:49+00:00"/>
-          <total value="25"/>
+          <identifier value="urn:uuid:c6924e1d-9ffa-4d15-baae-20353e0753b2"/>
+          <timestamp value="2022-07-26T14:00:49+00:00"/>
+          <total value="26"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -940,6 +947,11 @@
             <code value="ETHN"/>
             <display value="Ethnicity"/>
           </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="PHEN"/>
+            <display value="Clinical Sign (HPO)"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -1035,8 +1047,8 @@
         </contact>
         <description value="Types of organization"/>
         <expansion>
-          <identifier value="urn:uuid:4e975acd-aa98-4ca8-ad3f-2b1c59e5d241"/>
-          <timestamp value="2022-07-20T15:56:50+00:00"/>
+          <identifier value="urn:uuid:45b5c422-656d-4376-be3b-335e8409f57c"/>
+          <timestamp value="2022-07-26T14:00:50+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1136,7 +1148,7 @@
         <title value="Specimen types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1147,8 +1159,8 @@
         </contact>
         <description value="Specimen types"/>
         <expansion>
-          <identifier value="urn:uuid:724f5085-08af-4106-8b5a-69b34804174a"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:1635f7c0-c295-4617-bc48-1735d60f5377"/>
+          <timestamp value="2022-07-26T14:00:50+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1254,7 +1266,7 @@
         <title value="Data types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1265,8 +1277,8 @@
         </contact>
         <description value="Data types"/>
         <expansion>
-          <identifier value="urn:uuid:b63c5ffa-58e3-46a8-b11f-0a8683c0b6d3"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:879fc1a8-dde6-4733-a23b-732d12750533"/>
+          <timestamp value="2022-07-26T14:00:50+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1352,7 +1364,7 @@
         <title value="Data categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1363,8 +1375,8 @@
         </contact>
         <description value="Data categories"/>
         <expansion>
-          <identifier value="urn:uuid:9136db63-99db-4622-85f9-b614768223c8"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:be8cd817-5296-4d07-ba45-a50bba3a21c2"/>
+          <timestamp value="2022-07-26T14:00:51+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1453,7 +1465,7 @@
         <title value="Document formats"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1464,8 +1476,8 @@
         </contact>
         <description value="Document formats"/>
         <expansion>
-          <identifier value="urn:uuid:2084df7e-ce1f-4bc0-b2aa-7e48ee762ba1"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:41a680b7-cace-4a93-bae2-b4fdd54abd47"/>
+          <timestamp value="2022-07-26T14:00:51+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1566,7 +1578,7 @@
         <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1577,8 +1589,8 @@
         </contact>
         <description value="Experimental strategies"/>
         <expansion>
-          <identifier value="urn:uuid:37ac5072-7164-4abb-8bfe-eb44aa08c254"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:7bb28984-5fb1-4fc0-9751-48f77b926630"/>
+          <timestamp value="2022-07-26T14:00:51+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1661,7 +1673,7 @@
         <title value="Variant types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1672,8 +1684,8 @@
         </contact>
         <description value="Variant types"/>
         <expansion>
-          <identifier value="urn:uuid:d8aae05b-009e-4b9d-afd2-f46778306ce3"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:3c02ae04-a0f0-4454-a475-f78171036751"/>
+          <timestamp value="2022-07-26T14:00:51+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1743,7 +1755,7 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1754,8 +1766,8 @@
         </contact>
         <description value="Genome build"/>
         <expansion>
-          <identifier value="urn:uuid:58c445c0-260a-4323-8111-b56440a7de0e"/>
-          <timestamp value="2022-07-20T15:56:51+00:00"/>
+          <identifier value="urn:uuid:1bcf680a-9946-46e0-ba64-e1088bb7b2e6"/>
+          <timestamp value="2022-07-26T14:00:51+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1865,7 +1877,7 @@
         <title value="Analysis request code "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1876,8 +1888,8 @@
         </contact>
         <description value="Codes of analysis request in our system"/>
         <expansion>
-          <identifier value="urn:uuid:275c2dd3-8b14-4954-b830-e21150af2c58"/>
-          <timestamp value="2022-07-20T15:57:29+00:00"/>
+          <identifier value="urn:uuid:a1c1e311-cb4b-4250-b1c8-eb244511cb0f"/>
+          <timestamp value="2022-07-26T14:00:57+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2061,8 +2073,8 @@
         </contact>
         <description value="Nuclear Mitochondriopathies default para-clinic exams"/>
         <expansion>
-          <identifier value="urn:uuid:8c0a3dbd-76e8-43dd-a797-ea506f1d2ac0"/>
-          <timestamp value="2022-07-20T15:57:29+00:00"/>
+          <identifier value="urn:uuid:05a5894c-5992-4916-b678-1ea900422f24"/>
+          <timestamp value="2022-07-26T14:00:57+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2199,7 +2211,7 @@
         <title value="Bioinformatic analysis codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2210,8 +2222,8 @@
         </contact>
         <description value="Bioinformatic analysis codes"/>
         <expansion>
-          <identifier value="urn:uuid:687b2ebd-bd89-46bb-bba1-8663ec6a0ce8"/>
-          <timestamp value="2022-07-20T15:57:29+00:00"/>
+          <identifier value="urn:uuid:a37dcc04-d489-4b41-a2f9-b909be2ddec0"/>
+          <timestamp value="2022-07-26T14:00:57+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2294,7 +2306,7 @@
         <title value="CGH abnormalities"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2305,8 +2317,8 @@
         </contact>
         <description value="CGH abnormalities"/>
         <expansion>
-          <identifier value="urn:uuid:193d33f5-009f-4adc-8556-9fafbc5fd93f"/>
-          <timestamp value="2022-07-20T15:57:29+00:00"/>
+          <identifier value="urn:uuid:0c33dc61-092b-4ac0-8fe8-0dd81bdbe06b"/>
+          <timestamp value="2022-07-26T14:00:57+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2425,8 +2437,8 @@
         </contact>
         <description value="Muscle disease  default para-clinic exams"/>
         <expansion>
-          <identifier value="urn:uuid:8e6e9608-0d7a-4543-9149-9563810b2b11"/>
-          <timestamp value="2022-07-20T15:57:29+00:00"/>
+          <identifier value="urn:uuid:1960db5f-d529-4c27-a604-a946f25a52a1"/>
+          <timestamp value="2022-07-26T14:00:57+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2531,7 +2543,7 @@
         <title value="Disease status"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2022-07-20T15:55:58+00:00"/>
+        <date value="2022-07-26T14:00:32+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2542,8 +2554,8 @@
         </contact>
         <description value="Disease status"/>
         <expansion>
-          <identifier value="urn:uuid:95cfbc4f-7a1a-45be-a44a-7a834aa18e69"/>
-          <timestamp value="2022-07-20T15:57:51+00:00"/>
+          <identifier value="urn:uuid:cd4edf7a-0120-4c0e-a636-97fbc3b369db"/>
+          <timestamp value="2022-07-26T14:00:59+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
