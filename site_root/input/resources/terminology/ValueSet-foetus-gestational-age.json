@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "id": "foetus-gestational-age",
+  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/foetus-gestational-age",
+  "version": "0.1.0",
+  "name": "foetus-gestational-age",
+  "title": "Foetus Gestational Age",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Ferlab.bio",
+  "description": "TODO",
+  "compose": {
+    "include": [
+      {
+        "system": "https://loinc.org",
+        "concept": [
+          {
+            "code": "18185-9",
+            "display": "TODO",
+            "designation": [
+              {
+                "language": "fr",
+                "value": "TODO"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

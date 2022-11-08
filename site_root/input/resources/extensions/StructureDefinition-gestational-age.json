@@ -1,0 +1,65 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "gestational-age",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/gestational-age",
+  "version": "0.1.0",
+  "name": "gestational-age",
+  "title": "Gestational age",
+  "status": "draft",
+  "description": "TODO",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Gestational Age",
+        "definition": "Patient's gestational age (ddm/dpa/deceased)",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "http://fhir.cqgc.ferlab.bio/StructureDefinition/gestational-age"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "TODO",
+          "valueSet": "http://fhir.cqgc.ferlab.bio/ValueSet/foetus-gestational-age"
+        }
+      }
+    ]
+  },
+  "date": "2020-08-04T15:39:58-04:00"
+}
