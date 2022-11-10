@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="document-format"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/document-format defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CRAM<a name="document-format-CRAM"> </a></td><td>CRAM File</td></tr><tr><td style="white-space:nowrap">CRAI<a name="document-format-CRAI"> </a></td><td>CRAI Index File</td></tr><tr><td style="white-space:nowrap">VCF<a name="document-format-VCF"> </a></td><td>VCF File</td></tr><tr><td style="white-space:nowrap">TBI<a name="document-format-TBI"> </a></td><td>TBI Index File</td></tr><tr><td style="white-space:nowrap">TGZ<a name="document-format-TGZ"> </a></td><td>TGZ Archive File</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">CRAM<a name="document-format-CRAM"> </a></td><td>CRAM File</td></tr><tr><td style="white-space:nowrap">CRAI<a name="document-format-CRAI"> </a></td><td>CRAI Index File</td></tr><tr><td style="white-space:nowrap">VCF<a name="document-format-VCF"> </a></td><td>VCF File</td></tr><tr><td style="white-space:nowrap">TBI<a name="document-format-TBI"> </a></td><td>TBI Index File</td></tr><tr><td style="white-space:nowrap">TGZ<a name="document-format-TGZ"> </a></td><td>TGZ Archive File</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr></table></div>
   </text>
   <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Document formats"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-07-26T14:00:32+00:00"/>
+  <date value="2022-11-10T16:33:20+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>

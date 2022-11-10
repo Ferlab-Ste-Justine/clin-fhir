@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="data-category"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/data-category defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">GENO<a name="data-category-GENO"> </a></td><td>Genomics</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>GENO</td><td>Génomique</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">GENO<a name="data-category-GENO"> </a></td><td>Genomics</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>GENO</td><td>Génomique</td></tr></table></div>
   </text>
   <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Data categories"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-07-26T14:00:32+00:00"/>
+  <date value="2022-11-10T16:33:20+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>

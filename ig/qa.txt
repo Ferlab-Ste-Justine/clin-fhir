@@ -1,10 +1,10 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 2, warn = 109, info = 0
-IG Publisher Version: 1.1.127
-Generated Tue Jul 26 14:01:13 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
- Build Errors : 2 / 1 / 0
+err = 10, warn = 113, info = 0
+IG Publisher Version: 1.2.14
+Generated Thu Nov 10 16:34:13 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+ Build Errors : 2 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
@@ -12,12 +12,12 @@ Generated Tue Jul 26 14:01:13 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-full-size : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-resident-supervisor : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 2 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason : 2 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-resident-supervisor : 2 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-sequencing-experiment : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-specimen-type : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-status-history : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-status-history : 2 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 1
@@ -65,7 +65,7 @@ Generated Tue Jul 26 14:01:13 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-nmit-default-exam : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-observation-code : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-organization-type : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes : 2 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-qc-ethnicity : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-rgdi-default-exam : 0 / 3 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-rgdi-default-hpo : 0 / 3 / 1
@@ -75,180 +75,192 @@ Generated Tue Jul 26 14:01:13 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cqgc
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 183, column 790: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 189, column 1343: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 189, column 1391: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == input/ImplementationGuide-Clin.json ==
 == input/resources/extensions/StructureDefinition-age-at-event.json ==
-WARNING: StructureDefinition/age-at-event: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/age-at-event: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-age-at-onset.json ==
-WARNING: StructureDefinition/age-at-onset: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/age-at-onset: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-analysis-type.json ==
-WARNING: StructureDefinition/analysis-type: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/analysis-type: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition/analysis-type: StructureDefinition.differential.element[3].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition/analysis-type: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-member.json ==
-WARNING: StructureDefinition/family-member: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/family-member: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-relation.json ==
-WARNING: StructureDefinition/family-relation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/family-relation: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-full-size.json ==
-WARNING: StructureDefinition/full-size: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/full-size: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-procedure-directed-by.json ==
-WARNING: StructureDefinition/procedure-directed-by: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/procedure-directed-by'): Conformance resource /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by.json - the canonical URL (http://fhir.cqgc.ferlab.bio/StructureDefinition/procedure-directed-by) does not match the URL (http://hl7.org/fhir/StructureDefinition/procedure-directed-by)
+WARNING: StructureDefinition/procedure-directed-by: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/procedure-directed-by'): The Implementation Guide contains no examples for this extension
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by: URL Mismatch http://fhir.cqgc.ferlab.bio/StructureDefinition/procedure-directed-by vs http://hl7.org/fhir/StructureDefinition/procedure-directed-by
 == input/resources/extensions/StructureDefinition-request-status-reason.json ==
-WARNING: StructureDefinition/request-status-reason: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/request-status-reason'): Conformance resource /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason.json - the canonical URL (http://fhir.cqgc.ferlab.bio/StructureDefinition/request-status-reason) does not match the URL (http://hl7.org/fhir/StructureDefinition/request-status-reason)
+WARNING: StructureDefinition/request-status-reason: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/request-status-reason'): The Implementation Guide contains no examples for this extension
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason: URL Mismatch http://fhir.cqgc.ferlab.bio/StructureDefinition/request-status-reason vs http://hl7.org/fhir/StructureDefinition/request-status-reason
 == input/resources/extensions/StructureDefinition-resident-supervisor.json ==
-WARNING: StructureDefinition/resident-supervisor: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/resident-supervisor: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure Extension
 ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-sequencing-experiment.json ==
-WARNING: StructureDefinition/sequencing-experiment: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/sequencing-experiment: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-specimen-type.json ==
-WARNING: StructureDefinition/specimen-type: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/specimen-type: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-status-history.json ==
-WARNING: StructureDefinition/status-history: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/status-history: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: StructureDefinition/status-history: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure Extension
 ERROR: StructureDefinition/status-history: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-workflow.json ==
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow'): The Implementation Guide contains no examples for this extension
 == input/resources/profiles/StructureDefinition-cqgc-analysis-request.json ==
-WARNING: StructureDefinition/cqgc-analysis-request: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-analysis-request: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-analysis-task.json ==
-WARNING: StructureDefinition/cqgc-analysis-task: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-analysis-task: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-clinical-impression.json ==
-WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition.snapshot.element[21].comment: The Unicode sequence has unterminated bi-di control characters (see CVE-2021-42574): {1}
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-fmh.json ==
-WARNING: StructureDefinition/cqgc-fmh: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-fmh: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-observation.json ==
-WARNING: StructureDefinition/cqgc-observation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-observation: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition/cqgc-observation: StructureDefinition.differential.element[3].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/ValueSet/observation-category on element Observation.category could not be resolved
 WARNING: StructureDefinition/cqgc-observation: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/ValueSet/observation-category on element Observation.category could not be resolved
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-organization.json ==
-WARNING: StructureDefinition/cqgc-organization: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-organization: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-sequencing-request.json ==
-WARNING: StructureDefinition/cqgc-sequencing-request: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/cqgc-sequencing-request: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request'): The Implementation Guide contains no examples for this profile
 == input/resources/search/SearchParameter-contextspecimen.json ==
-WARNING: SearchParameter/contextspecimen: SearchParameter: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: SearchParameter/contextspecimen: SearchParameter: Rule spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/search/SearchParameter-input-specimen.json ==
-WARNING: SearchParameter/input-specimen: SearchParameter: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: SearchParameter/input-specimen: SearchParameter: Rule spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/search/SearchParameter-output-documentreference.json ==
-WARNING: SearchParameter/output-documentreference: SearchParameter: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: SearchParameter/output-documentreference: SearchParameter: Rule spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/search/SearchParameter-run-name.json ==
-WARNING: SearchParameter/run-name: SearchParameter: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: SearchParameter/run-name: SearchParameter: Rule spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-analysis-request-code.json ==
-WARNING: CodeSystem/analysis-request-code: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/analysis-request-code: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-bioinfo-analysis-code.json ==
-WARNING: CodeSystem/bioinfo-analysis-code: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/bioinfo-analysis-code: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-cgh-abnormalities.json ==
-WARNING: CodeSystem/cgh-abnormalities: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/cgh-abnormalities: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-data-category.json ==
-WARNING: CodeSystem/data-category: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/data-category: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-data-type.json ==
-WARNING: CodeSystem/data-type: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/data-type: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-disease-status.json ==
-WARNING: CodeSystem/disease-status: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/disease-status: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-document-format.json ==
-WARNING: CodeSystem/document-format: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/document-format: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-experimental-strategy.json ==
-WARNING: CodeSystem/experimental-strategy: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/experimental-strategy: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-fmh-relationship-plus.json ==
-WARNING: CodeSystem/fmh-relationship-plus: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/fmh-relationship-plus: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-genome-build.json ==
-WARNING: CodeSystem/genome-build: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/genome-build: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-observation-code.json ==
-WARNING: CodeSystem/observation-code: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/observation-code: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-organization-type-plus.json ==
-WARNING: CodeSystem/organization-type-plus: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/organization-type-plus: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-qc-ethnicity.json ==
-WARNING: CodeSystem/qc-ethnicity: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/qc-ethnicity: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-specimen-type.json ==
-WARNING: CodeSystem/specimen-type: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/specimen-type: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/CodeSystem-variant-type.json ==
-WARNING: CodeSystem/variant-type: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: CodeSystem/variant-type: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-age-at-onset.json ==
-WARNING: ValueSet/age-at-onset: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/age-at-onset: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'age-at-onset'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-analysis-request-code.json ==
-WARNING: ValueSet/analysis-request-code: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/analysis-request-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ValueSet/analysis-request-code: ValueSet.title: value should not start or finish with whitespace 'Analysis...code '
 == input/resources/terminology/ValueSet-bioinfo-analysis-code.json ==
-WARNING: ValueSet/bioinfo-analysis-code: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/bioinfo-analysis-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-bmus-abnormalities.json ==
-WARNING: ValueSet/bmus-abnormalities: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/bmus-abnormalities: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/bmus-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/bmus-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'bmus-abnormalities'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-cgh-abnormalities.json ==
-WARNING: ValueSet/cgh-abnormalities: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/cgh-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-common-observation.json ==
-WARNING: ValueSet/common-observation: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/common-observation: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/common-observation: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/common-observation: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'common-observation'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-data-category.json ==
-WARNING: ValueSet/data-category: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/data-category: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-data-type.json ==
-WARNING: ValueSet/data-type: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/data-type: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-disease-status.json ==
-WARNING: ValueSet/disease-status: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/disease-status: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-document-format.json ==
-WARNING: ValueSet/document-format: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/document-format: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-emg-abnormalities.json ==
-WARNING: ValueSet/emg-abnormalities: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/emg-abnormalities: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/emg-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/emg-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'emg-abnormalities'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-experimental-strategy.json ==
-WARNING: ValueSet/experimental-strategy: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/experimental-strategy: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-fmh-relationship.json ==
-WARNING: ValueSet/fmh-relationship: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/fmh-relationship: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-genome-build.json ==
-WARNING: ValueSet/genome-build: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/genome-build: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mitn-default-hpo.json ==
-WARNING: ValueSet/mitn-default-hpo: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/mitn-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'mitn-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-mmg-default-exam.json ==
-WARNING: ValueSet/mmg-default-exam: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/mmg-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mmg-default-hpo.json ==
-WARNING: ValueSet/mmg-default-hpo: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/mmg-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'mmg-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-nmit-default-exam.json ==
-WARNING: ValueSet/nmit-default-exam: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/nmit-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ValueSet/nmit-default-exam: ValueSet.compose[0].include[0].concept[3]: The code CGH is not valid in the system http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code
 == input/resources/terminology/ValueSet-observation-code.json ==
-WARNING: ValueSet/observation-code: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/observation-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-organization-type.json ==
-WARNING: ValueSet/organization-type: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/organization-type: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-phenotype-codes.json ==
-WARNING: ValueSet/phenotype-codes: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ValueSet.where(url = 'http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes'): Conformance resource /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes.json - the canonical URL (http://fhir.cqgc.ferlab.bio/ValueSet/phenotype-codes) does not match the URL (http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes)
+WARNING: ValueSet/phenotype-codes: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: ValueSet.where(id = 'phenotype-codes'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes: URL Mismatch http://fhir.cqgc.ferlab.bio/ValueSet/phenotype-codes vs http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes
 == input/resources/terminology/ValueSet-qc-ethnicity.json ==
-WARNING: ValueSet/qc-ethnicity: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/qc-ethnicity: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-rgdi-default-exam.json ==
-WARNING: ValueSet/rgdi-default-exam: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/rgdi-default-exam: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/rgdi-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/rgdi-default-exam: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'rgdi-default-exam'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-rgdi-default-hpo.json ==
-WARNING: ValueSet/rgdi-default-hpo: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/rgdi-default-hpo: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet/rgdi-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/rgdi-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
 WARNING: ValueSet.where(id = 'rgdi-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-specimen-type.json ==
-WARNING: ValueSet/specimen-type: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/specimen-type: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-variant-type.json ==
-WARNING: ValueSet/variant-type: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/variant-type: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

@@ -3,7 +3,7 @@
   "id": "specimen-type",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>DNA</td><td>Échantillon d'ADN</td></tr><tr><td>NBL</td><td>Spécimen de sang normal</td></tr><tr><td>TUMOR</td><td>Spécimen tumoral</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>DNA</td><td>Échantillon d'ADN</td></tr><tr><td>NBL</td><td>Spécimen de sang normal</td></tr><tr><td>TUMOR</td><td>Spécimen tumoral</td></tr></table></div>"
   },
   "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Specimen types",
   "status": "draft",
   "experimental": false,
-  "date": "2022-07-26T14:00:32+00:00",
+  "date": "2022-11-10T16:33:20+00:00",
   "publisher": "Ferlab.bio",
   "contact": [
     {
