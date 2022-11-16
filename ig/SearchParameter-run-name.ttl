@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "run-name"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SearchParameter</b><a name=\"run-name\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SearchParameter \"run-name\" </p></div><p><b>url</b>: <code>http://fhir.cqgc.ferlab.bio/SearchParameter/run-name</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: run-name</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-11-13 04:06:14+0000</p><p><b>publisher</b>: Ferlab.bio</p><p><b>contact</b>: Cqgc: <a href=\"mailto:mailto:support@ferlab.bio\">mailto:support@ferlab.bio</a></p><p><b>description</b>: Searches Task by run name.</p><p><b>code</b>: run-name</p><p><b>base</b>: Task</p><p><b>type</b>: string</p><p><b>expression</b>: Task.extension.where(url='http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment').extension.where(url = 'runName').value</p><p><b>xpathUsage</b>: normal</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SearchParameter</b><a name=\"run-name\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SearchParameter \"run-name\" </p></div><p><b>url</b>: <code>http://fhir.cqgc.ferlab.bio/SearchParameter/run-name</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: run-name</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-11-16 03:22:04+0000</p><p><b>publisher</b>: Ferlab.bio</p><p><b>contact</b>: Cqgc: <a href=\"mailto:mailto:support@ferlab.bio\">mailto:support@ferlab.bio</a></p><p><b>description</b>: Searches Task by run name.</p><p><b>code</b>: run-name</p><p><b>base</b>: Task</p><p><b>type</b>: string</p><p><b>expression</b>: Task.extension.where(url='http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment').extension.where(url = 'runName').value</p><p><b>xpathUsage</b>: normal</p></div>"
   ];
   fhir:SearchParameter.url [ fhir:value "http://fhir.cqgc.ferlab.bio/SearchParameter/run-name"];
   fhir:SearchParameter.version [ fhir:value "0.1.0"];
   fhir:SearchParameter.name [ fhir:value "run-name"];
   fhir:SearchParameter.status [ fhir:value "active"];
   fhir:SearchParameter.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:SearchParameter.date [ fhir:value "2022-11-13T16:06:14+00:00"^^xsd:dateTime];
+  fhir:SearchParameter.date [ fhir:value "2022-11-16T15:22:04+00:00"^^xsd:dateTime];
   fhir:SearchParameter.publisher [ fhir:value "Ferlab.bio"];
   fhir:SearchParameter.contact [
      fhir:index 0;
