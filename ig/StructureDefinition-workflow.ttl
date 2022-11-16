@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Workflow"];
   fhir:StructureDefinition.title [ fhir:value "Workflow Extension"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-11-16T15:22:04+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-11-16T21:33:27+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
