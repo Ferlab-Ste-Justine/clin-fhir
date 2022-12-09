@@ -1,464 +1,464 @@
 [
   {
-    "id": "phenotype-codes",
-    "type": "ValueSet",
-    "url": "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
-    "version": "0.1.0",
-    "name": "phenotype-codes"
+    "id" : "phenotype-codes",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
+    "version" : "0.1.0",
+    "name" : "phenotype-codes"
   },
   {
-    "id": "analysis-request-code",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-    "version": "0.1.0",
-    "name": "analysis-request-code"
+    "id" : "analysis-request-code",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+    "version" : "0.1.0",
+    "name" : "analysis-request-code"
   },
   {
-    "id": "bioinfo-analysis-code",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-    "version": "0.1.0",
-    "name": "bioinfo-analysis-code"
+    "id" : "bioinfo-analysis-code",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+    "version" : "0.1.0",
+    "name" : "bioinfo-analysis-code"
   },
   {
-    "id": "cgh-abnormalities",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
-    "version": "0.1.0",
-    "name": "cgh-abnormalities"
+    "id" : "cgh-abnormalities",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
+    "version" : "0.1.0",
+    "name" : "cgh-abnormalities"
   },
   {
-    "id": "data-category",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
-    "version": "0.1.0",
-    "name": "data-category"
+    "id" : "data-category",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+    "version" : "0.1.0",
+    "name" : "data-category"
   },
   {
-    "id": "data-type",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
-    "version": "0.1.0",
-    "name": "data-type"
+    "id" : "data-type",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+    "version" : "0.1.0",
+    "name" : "data-type"
   },
   {
-    "id": "disease-status",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
-    "version": "0.1.0",
-    "name": "disease-status"
+    "id" : "disease-status",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+    "version" : "0.1.0",
+    "name" : "disease-status"
   },
   {
-    "id": "document-format",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-    "version": "0.1.0",
-    "name": "document-format"
+    "id" : "document-format",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+    "version" : "0.1.0",
+    "name" : "document-format"
   },
   {
-    "id": "experimental-strategy",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
-    "version": "0.1.0",
-    "name": "experimental-strategy"
+    "id" : "experimental-strategy",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+    "version" : "0.1.0",
+    "name" : "experimental-strategy"
   },
   {
-    "id": "fmh-relationship-plus",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
-    "version": "0.1.0",
-    "name": "fmh-relationship-plus"
+    "id" : "fmh-relationship-plus",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
+    "version" : "0.1.0",
+    "name" : "fmh-relationship-plus"
   },
   {
-    "id": "genome-build",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
-    "version": "0.1.0",
-    "name": "genome-build"
+    "id" : "genome-build",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
+    "version" : "0.1.0",
+    "name" : "genome-build"
   },
   {
-    "id": "observation-code",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-    "version": "0.1.0",
-    "name": "observation-code"
+    "id" : "observation-code",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+    "version" : "0.1.0",
+    "name" : "observation-code"
   },
   {
-    "id": "organization-type-plus",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
-    "version": "0.1.0",
-    "name": "organization-type-plus"
+    "id" : "organization-type-plus",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
+    "version" : "0.1.0",
+    "name" : "organization-type-plus"
   },
   {
-    "id": "qc-ethnicity",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-    "version": "0.1.0",
-    "name": "qc-ethnicity"
+    "id" : "qc-ethnicity",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+    "version" : "0.1.0",
+    "name" : "qc-ethnicity"
   },
   {
-    "id": "specimen-type",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
-    "version": "0.1.0",
-    "name": "specimen-type"
+    "id" : "specimen-type",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+    "version" : "0.1.0",
+    "name" : "specimen-type"
   },
   {
-    "id": "variant-type",
-    "type": "CodeSystem",
-    "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
-    "version": "0.1.0",
-    "name": "variant-type"
+    "id" : "variant-type",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
+    "version" : "0.1.0",
+    "name" : "variant-type"
   },
   {
-    "id": "Cqgc",
-    "type": "ImplementationGuide",
-    "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
-    "version": "0.1.0",
-    "name": "CqgcImplementationGuide"
+    "id" : "Cqgc",
+    "type" : "ImplementationGuide",
+    "url" : "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
+    "version" : "0.1.0",
+    "name" : "CqgcImplementationGuide"
   },
   {
-    "id": "contextspecimen",
-    "type": "SearchParameter",
-    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/contextspecimen",
-    "version": "0.1.0",
-    "name": "contextspecimen"
+    "id" : "contextspecimen",
+    "type" : "SearchParameter",
+    "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/contextspecimen",
+    "version" : "0.1.0",
+    "name" : "contextspecimen"
   },
   {
-    "id": "input-specimen",
-    "type": "SearchParameter",
-    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/input-specimen",
-    "version": "0.1.0",
-    "name": "input_specimen"
+    "id" : "input-specimen",
+    "type" : "SearchParameter",
+    "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/input-specimen",
+    "version" : "0.1.0",
+    "name" : "input_specimen"
   },
   {
-    "id": "output-documentreference",
-    "type": "SearchParameter",
-    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
-    "version": "0.1.0",
-    "name": "output-documentreference"
+    "id" : "output-documentreference",
+    "type" : "SearchParameter",
+    "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
+    "version" : "0.1.0",
+    "name" : "output-documentreference"
   },
   {
-    "id": "run-name",
-    "type": "SearchParameter",
-    "url": "http://fhir.cqgc.ferlab.bio/SearchParameter/run-name",
-    "version": "0.1.0",
-    "name": "run-name"
+    "id" : "run-name",
+    "type" : "SearchParameter",
+    "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/run-name",
+    "version" : "0.1.0",
+    "name" : "run-name"
   },
   {
-    "id": "age-at-event",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
-    "version": "0.1.0",
-    "name": "age-at-event"
+    "id" : "age-at-event",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event",
+    "version" : "0.1.0",
+    "name" : "age-at-event"
   },
   {
-    "id": "age-at-onset",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
-    "version": "0.1.0",
-    "name": "age-at-onset"
+    "id" : "age-at-onset",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset",
+    "version" : "0.1.0",
+    "name" : "age-at-onset"
   },
   {
-    "id": "analysis-type",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type",
-    "version": "0.1.0",
-    "name": "analysis-type"
+    "id" : "analysis-type",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type",
+    "version" : "0.1.0",
+    "name" : "analysis-type"
   },
   {
-    "id": "cqgc-analysis-request",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request",
-    "version": "0.1.0",
-    "name": "cqgc-analysis-request"
+    "id" : "cqgc-analysis-request",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request",
+    "version" : "0.1.0",
+    "name" : "cqgc-analysis-request"
   },
   {
-    "id": "cqgc-analysis-task",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task",
-    "version": "0.1.0",
-    "name": "cqgc-analysis-task"
+    "id" : "cqgc-analysis-task",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task",
+    "version" : "0.1.0",
+    "name" : "cqgc-analysis-task"
   },
   {
-    "id": "cqgc-clinical-impression",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression",
-    "version": "0.1.0",
-    "name": "cqgc-clinical-impression"
+    "id" : "cqgc-clinical-impression",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression",
+    "version" : "0.1.0",
+    "name" : "cqgc-clinical-impression"
   },
   {
-    "id": "cqgc-fmh",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",
-    "version": "0.1.0",
-    "name": "cqgc-fmh"
+    "id" : "cqgc-fmh",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh",
+    "version" : "0.1.0",
+    "name" : "cqgc-fmh"
   },
   {
-    "id": "cqgc-observation",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation",
-    "version": "0.1.0",
-    "name": "cqgc-observation"
+    "id" : "cqgc-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation",
+    "version" : "0.1.0",
+    "name" : "cqgc-observation"
   },
   {
-    "id": "cqgc-organization",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization",
-    "version": "0.1.0",
-    "name": "cqgc-service-request"
+    "id" : "cqgc-organization",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization",
+    "version" : "0.1.0",
+    "name" : "cqgc-service-request"
   },
   {
-    "id": "cqgc-sequencing-request",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request",
-    "version": "0.1.0",
-    "name": "cqgc-sequencing-request"
+    "id" : "cqgc-sequencing-request",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request",
+    "version" : "0.1.0",
+    "name" : "cqgc-sequencing-request"
   },
   {
-    "id": "family-member",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member",
-    "version": "0.1.0",
-    "name": "family-member"
+    "id" : "family-member",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member",
+    "version" : "0.1.0",
+    "name" : "family-member"
   },
   {
-    "id": "family-relation",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation",
-    "version": "0.1.0",
-    "name": "family-relation"
+    "id" : "family-relation",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation",
+    "version" : "0.1.0",
+    "name" : "family-relation"
   },
   {
-    "id": "full-size",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size",
-    "version": "0.1.0",
-    "name": "full-size"
+    "id" : "full-size",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size",
+    "version" : "0.1.0",
+    "name" : "full-size"
   },
   {
-    "id": "resident-supervisor",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor",
-    "version": "0.1.0",
-    "name": "resident-supervisor"
+    "id" : "resident-supervisor",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor",
+    "version" : "0.1.0",
+    "name" : "resident-supervisor"
   },
   {
-    "id": "sequencing-experiment",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
-    "version": "0.1.0",
-    "name": "sequencing-experiment"
+    "id" : "sequencing-experiment",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment",
+    "version" : "0.1.0",
+    "name" : "sequencing-experiment"
   },
   {
-    "id": "specimen-type",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type",
-    "version": "0.1.0",
-    "name": "specimen-type"
+    "id" : "specimen-type",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type",
+    "version" : "0.1.0",
+    "name" : "specimen-type"
   },
   {
-    "id": "status-history",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
-    "version": "0.1.0",
-    "name": "status-history"
+    "id" : "status-history",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history",
+    "version" : "0.1.0",
+    "name" : "status-history"
   },
   {
-    "id": "workflow",
-    "type": "StructureDefinition",
-    "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
-    "version": "0.1.0",
-    "name": "Workflow"
+    "id" : "workflow",
+    "type" : "StructureDefinition",
+    "url" : "http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow",
+    "version" : "0.1.0",
+    "name" : "Workflow"
   },
   {
-    "id": "age-at-onset",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset",
-    "version": "0.1.0",
-    "name": "age-at-onset"
+    "id" : "age-at-onset",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset",
+    "version" : "0.1.0",
+    "name" : "age-at-onset"
   },
   {
-    "id": "analysis-request-code",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
-    "version": "0.1.0",
-    "name": "analysis-request-code"
+    "id" : "analysis-request-code",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
+    "version" : "0.1.0",
+    "name" : "analysis-request-code"
   },
   {
-    "id": "bioinfo-analysis-code",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
-    "version": "0.1.0",
-    "name": "bioinfo-analysis-code"
+    "id" : "bioinfo-analysis-code",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+    "version" : "0.1.0",
+    "name" : "bioinfo-analysis-code"
   },
   {
-    "id": "bmus-abnormalities",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities",
-    "version": "0.1.0",
-    "name": "bmus-abnormalities"
+    "id" : "bmus-abnormalities",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities",
+    "version" : "0.1.0",
+    "name" : "bmus-abnormalities"
   },
   {
-    "id": "cgh-abnormalities",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
-    "version": "0.1.0",
-    "name": "cgh-abnormalities"
+    "id" : "cgh-abnormalities",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+    "version" : "0.1.0",
+    "name" : "cgh-abnormalities"
   },
   {
-    "id": "common-observation",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
-    "version": "0.1.0",
-    "name": "common-observation"
+    "id" : "common-observation",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
+    "version" : "0.1.0",
+    "name" : "common-observation"
   },
   {
-    "id": "data-category",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
-    "version": "0.1.0",
-    "name": "data-category"
+    "id" : "data-category",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+    "version" : "0.1.0",
+    "name" : "data-category"
   },
   {
-    "id": "data-type",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
-    "version": "0.1.0",
-    "name": "data-type"
+    "id" : "data-type",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
+    "version" : "0.1.0",
+    "name" : "data-type"
   },
   {
-    "id": "disease-status",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
-    "version": "0.1.0",
-    "name": "disease-status"
+    "id" : "disease-status",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+    "version" : "0.1.0",
+    "name" : "disease-status"
   },
   {
-    "id": "document-format",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
-    "version": "0.1.0",
-    "name": "document-format"
+    "id" : "document-format",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
+    "version" : "0.1.0",
+    "name" : "document-format"
   },
   {
-    "id": "emg-abnormalities",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities",
-    "version": "0.1.0",
-    "name": "emg-abnormalities"
+    "id" : "emg-abnormalities",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities",
+    "version" : "0.1.0",
+    "name" : "emg-abnormalities"
   },
   {
-    "id": "experimental-strategy",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
-    "version": "0.1.0",
-    "name": "experimental-strategy"
+    "id" : "experimental-strategy",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+    "version" : "0.1.0",
+    "name" : "experimental-strategy"
   },
   {
-    "id": "fmh-relationship",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
-    "version": "0.1.0",
-    "name": "fmh-relationship"
+    "id" : "fmh-relationship",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
+    "version" : "0.1.0",
+    "name" : "fmh-relationship"
   },
   {
-    "id": "genome-build",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
-    "version": "0.1.0",
-    "name": "genome-build"
+    "id" : "genome-build",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
+    "version" : "0.1.0",
+    "name" : "genome-build"
   },
   {
-    "id": "mitn-default-hpo",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
-    "version": "0.1.0",
-    "name": "mitn-default-hpo"
+    "id" : "mitn-default-exam",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+    "version" : "0.1.0",
+    "name" : "mitn-default-exam"
   },
   {
-    "id": "mmg-default-exam",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
-    "version": "0.1.0",
-    "name": "mmg-default-exam"
+    "id" : "mitn-default-hpo",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
+    "version" : "0.1.0",
+    "name" : "mitn-default-hpo"
   },
   {
-    "id": "mmg-default-hpo",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
-    "version": "0.1.0",
-    "name": "mmg-default-hpo"
+    "id" : "mmg-default-exam",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
+    "version" : "0.1.0",
+    "name" : "mmg-default-exam"
   },
   {
-    "id": "nmit-default-exam",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/nmit-default-exam",
-    "version": "0.1.0",
-    "name": "nmit-default-exam"
+    "id" : "mmg-default-hpo",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
+    "version" : "0.1.0",
+    "name" : "mmg-default-hpo"
   },
   {
-    "id": "observation-code",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
-    "version": "0.1.0",
-    "name": "observation-code"
+    "id" : "observation-code",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
+    "version" : "0.1.0",
+    "name" : "observation-code"
   },
   {
-    "id": "organization-type",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
-    "version": "0.1.0",
-    "name": "organization-type"
+    "id" : "organization-type",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
+    "version" : "0.1.0",
+    "name" : "organization-type"
   },
   {
-    "id": "qc-ethnicity",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
-    "version": "0.1.0",
-    "name": "qc-ethnicity"
+    "id" : "qc-ethnicity",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+    "version" : "0.1.0",
+    "name" : "qc-ethnicity"
   },
   {
-    "id": "rgdi-default-exam",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam",
-    "version": "0.1.0",
-    "name": "rgdi-default-exam"
+    "id" : "rgdi-default-exam",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam",
+    "version" : "0.1.0",
+    "name" : "rgdi-default-exam"
   },
   {
-    "id": "rgdi-default-hpo",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
-    "version": "0.1.0",
-    "name": "rgdi-default-hpo"
+    "id" : "rgdi-default-hpo",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
+    "version" : "0.1.0",
+    "name" : "rgdi-default-hpo"
   },
   {
-    "id": "specimen-type",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
-    "version": "0.1.0",
-    "name": "specimen-type"
+    "id" : "specimen-type",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
+    "version" : "0.1.0",
+    "name" : "specimen-type"
   },
   {
-    "id": "variant-type",
-    "type": "ValueSet",
-    "url": "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
-    "version": "0.1.0",
-    "name": "variant-type"
+    "id" : "variant-type",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
+    "version" : "0.1.0",
+    "name" : "variant-type"
   },
   {
-    "id": "procedure-directed-by",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/procedure-directed-by",
-    "version": "0.1.0",
-    "name": "directedBy"
+    "id" : "procedure-directed-by",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/StructureDefinition/procedure-directed-by",
+    "version" : "0.1.0",
+    "name" : "directedBy"
   },
   {
-    "id": "request-status-reason",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/StructureDefinition/request-status-reason",
-    "version": "0.1.0",
-    "name": "statusReason"
+    "id" : "request-status-reason",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/StructureDefinition/request-status-reason",
+    "version" : "0.1.0",
+    "name" : "statusReason"
   }
 ]

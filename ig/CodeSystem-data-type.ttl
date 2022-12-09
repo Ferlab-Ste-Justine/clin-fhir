@@ -7,19 +7,19 @@
 
 <http://fhir.cqgc.ferlab.bio/CodeSystem/data-type> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "data-type"];
+  fhir:Resource.id [ fhir:value "data-type"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinale</td></tr><tr><td>GSV</td><td>SV germinale</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
-  fhir:CodeSystem.name [ fhir:value "data-type"];
-  fhir:CodeSystem.title [ fhir:value "Data types"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-11-16T21:33:27+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"]; # 
+  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
+  fhir:CodeSystem.name [ fhir:value "data-type"]; # 
+  fhir:CodeSystem.title [ fhir:value "Data types"]; # 
+  fhir:CodeSystem.status [ fhir:value "draft"]; # 
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.date [ fhir:value "2022-12-09T19:20:55+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Cqgc" ];
@@ -28,11 +28,11 @@
        fhir:ContactPoint.system [ fhir:value "email" ];
        fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
      ]
-  ];
-  fhir:CodeSystem.description [ fhir:value "Data types"];
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "Data types"]; # 
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger]; # 
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "ALIR" ];
@@ -87,7 +87,7 @@
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
        fhir:CodeSystem.concept.designation.value [ fhir:value "Index de données de séquençage" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

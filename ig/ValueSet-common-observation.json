@@ -1,107 +1,85 @@
 {
-  "resourceType": "ValueSet",
-  "id": "common-observation",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>OBSG</td><td>General Observation</td><td>Observation générale</td></tr><tr><td>INDIC</td><td>Indication</td><td>Indication</td></tr><tr><td>INVES</td><td>Investigation</td><td>Investigation</td></tr><tr><td>CONS</td><td>Consanguinity</td><td>Consanguinité</td></tr><tr><td>MFTH</td><td>Missing Mother</td><td>Mère manquante</td></tr><tr><td>MMTH</td><td>Missing Father</td><td>Père manquant</td></tr><tr><td>DSTA</td><td>Patient Disease Status</td><td>Statut de la maladie du patient</td></tr></table></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "common-observation",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>OBSG</td><td>General Observation</td><td>Observation générale</td></tr><tr><td>INDIC</td><td>Indication</td><td>Indication</td></tr><tr><td>INVES</td><td>Investigation</td><td>Investigation</td></tr><tr><td>CONS</td><td>Consanguinity</td><td>Consanguinité</td></tr><tr><td>MFTH</td><td>Missing Mother</td><td>Mère manquante</td></tr><tr><td>MMTH</td><td>Missing Father</td><td>Père manquant</td></tr><tr><td>DSTA</td><td>Patient Disease Status</td><td>Statut de la maladie du patient</td></tr></table></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
-  "version": "0.1.0",
-  "name": "common-observation",
-  "title": "Set of observations that are common to all analyses",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-08-13T10:49:27-04:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Set of observations that are common to all analyses",
-  "compose": {
-    "include": [
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
+  "version" : "0.1.0",
+  "name" : "common-observation",
+  "title" : "Set of observations that are common to all analyses",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-08-13T10:49:27-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Set of observations that are common to all analyses",
+  "compose" : {
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/hp.owl",
+      "concept" : [{
+        "code" : "OBSG",
+        "display" : "General Observation",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Observation générale"
+        }]
+      },
       {
-        "system": "http://purl.obolibrary.org/obo/hp.owl",
-        "concept": [
-          {
-            "code": "OBSG",
-            "display": "General Observation",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Observation générale"
-              }
-            ]
-          },
-          {
-            "code": "INDIC",
-            "display": "Indication",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Indication"
-              }
-            ]
-          },
-          {
-            "code": "INVES",
-            "display": "Investigation",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Investigation"
-              }
-            ]
-          },
-          {
-            "code": "CONS",
-            "display": "Consanguinity",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Consanguinité"
-              }
-            ]
-          },
-          {
-            "code": "MFTH",
-            "display": "Missing Mother",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Mère manquante"
-              }
-            ]
-          },
-          {
-            "code": "MMTH",
-            "display": "Missing Father",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Père manquant"
-              }
-            ]
-          },
-          {
-            "code": "DSTA",
-            "display": "Patient Disease Status",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Statut de la maladie du patient"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+        "code" : "INDIC",
+        "display" : "Indication",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Indication"
+        }]
+      },
+      {
+        "code" : "INVES",
+        "display" : "Investigation",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Investigation"
+        }]
+      },
+      {
+        "code" : "CONS",
+        "display" : "Consanguinity",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Consanguinité"
+        }]
+      },
+      {
+        "code" : "MFTH",
+        "display" : "Missing Mother",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Mère manquante"
+        }]
+      },
+      {
+        "code" : "MMTH",
+        "display" : "Missing Father",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Père manquant"
+        }]
+      },
+      {
+        "code" : "DSTA",
+        "display" : "Patient Disease Status",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Statut de la maladie du patient"
+        }]
+      }]
+    }]
   }
 }

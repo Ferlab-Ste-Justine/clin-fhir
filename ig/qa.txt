@@ -2,8 +2,8 @@
 =========================================
 
 err = 10, warn = 113, info = 0
-IG Publisher Version: 1.2.14
-Generated Wed Nov 16 21:34:38 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+IG Publisher Version: 1.2.22
+Generated Fri Dec 09 19:21:50 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 2 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -59,10 +59,10 @@ Generated Wed Nov 16 21:34:38 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-experimental-strategy : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-fmh-relationship : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-genome-build : 0 / 1 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mitn-default-exam : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mitn-default-hpo : 0 / 3 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mmg-default-exam : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mmg-default-hpo : 0 / 3 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-nmit-default-exam : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-observation-code : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-organization-type : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes : 2 / 2 / 1
@@ -74,8 +74,8 @@ Generated Wed Nov 16 21:34:38 UTC 2022. FHIR version 4.0.1 for cqgc#0.1.0 (canon
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cqgc
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 183, column 790: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-nmit-default-exam.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 189, column 1391: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-mitn-default-exam.html#/html/body/div/div/div/div/div/div/ul/li/table/tr/td/a at Line 183, column 790: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/ValueSet-mitn-default-exam.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 189, column 1391: The link 'CodeSystem-observation-code.html#observation-code-CGH' for "CGH" cannot be resolved (valid targets: [observation-code-EMG, publish-box, observation-code-MMTH, observation-code-EEG, segment-post-footer, observation-code-CTGR, observation-code-EABD, observation-code-GCNR, top, codesystem-ferlab-bio-codesystemobservation-code, root, stripe, observation-code-MFTH, segment-footer, observation-code-IRMM, segment-content, observation-code-CKIN, observation-code-CAAP, observation-code-ECAR, observation-code-CONS, segment-header, observation-code-TGDD, observation-code-ETHN, bottom, observation-code-BMUS, observation-code-SRMN, observation-code-INVES, observation-code-DSTA, observation-code-IRMC, ig-status, observation-code-INDIC, observation-code-OBSG, observation-code-TSXF, observation-code-BMET, observation-code-PHEN, observation-code-OPHT, segment-navbar, observation-code-ACYL, segment-breadcrumb])
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -113,7 +113,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinitio
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason: URL Mismatch http://fhir.cqgc.ferlab.bio/StructureDefinition/request-status-reason vs http://hl7.org/fhir/StructureDefinition/request-status-reason
 == input/resources/extensions/StructureDefinition-resident-supervisor.json ==
 WARNING: StructureDefinition/resident-supervisor: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure Extension
+ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure http://hl7.org/fhir/StructureDefinition/Extension (base type = Extension)
 ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-sequencing-experiment.json ==
@@ -124,7 +124,7 @@ WARNING: StructureDefinition/specimen-type: StructureDefinition: Rule sdf-0: 'Na
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-status-history.json ==
 WARNING: StructureDefinition/status-history: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: StructureDefinition/status-history: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure Extension
+ERROR: StructureDefinition/status-history: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure http://hl7.org/fhir/StructureDefinition/Extension (base type = Extension)
 ERROR: StructureDefinition/status-history: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-workflow.json ==
@@ -193,7 +193,7 @@ WARNING: CodeSystem/specimen-type: CodeSystem: Rule csd-0: 'Name should be usabl
 WARNING: CodeSystem/variant-type: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-age-at-onset.json ==
 WARNING: ValueSet/age-at-onset: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0410280'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0410280) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: ValueSet.where(id = 'age-at-onset'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-analysis-request-code.json ==
 WARNING: ValueSet/analysis-request-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -202,13 +202,13 @@ WARNING: ValueSet/analysis-request-code: ValueSet.title: value should not start 
 WARNING: ValueSet/bioinfo-analysis-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-bmus-abnormalities.json ==
 WARNING: ValueSet/bmus-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/bmus-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/bmus-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'bmus-abnormalities'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-cgh-abnormalities.json ==
 WARNING: ValueSet/cgh-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-common-observation.json ==
 WARNING: ValueSet/common-observation: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/common-observation: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/common-observation: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'common-observation'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-data-category.json ==
 WARNING: ValueSet/data-category: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -220,7 +220,7 @@ WARNING: ValueSet/disease-status: ValueSet: Rule vsd-0: 'Name should be usable a
 WARNING: ValueSet/document-format: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-emg-abnormalities.json ==
 WARNING: ValueSet/emg-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/emg-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/emg-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'emg-abnormalities'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-experimental-strategy.json ==
 WARNING: ValueSet/experimental-strategy: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -228,19 +228,19 @@ WARNING: ValueSet/experimental-strategy: ValueSet: Rule vsd-0: 'Name should be u
 WARNING: ValueSet/fmh-relationship: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-genome-build.json ==
 WARNING: ValueSet/genome-build: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== input/resources/terminology/ValueSet-mitn-default-exam.json ==
+WARNING: ValueSet/mitn-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ValueSet/mitn-default-exam: ValueSet.compose[0].include[0].concept[3]: The code CGH is not valid in the system http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code
 == input/resources/terminology/ValueSet-mitn-default-hpo.json ==
 WARNING: ValueSet/mitn-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'mitn-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-mmg-default-exam.json ==
 WARNING: ValueSet/mmg-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mmg-default-hpo.json ==
 WARNING: ValueSet/mmg-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'mmg-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
-== input/resources/terminology/ValueSet-nmit-default-exam.json ==
-WARNING: ValueSet/nmit-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/nmit-default-exam: ValueSet.compose[0].include[0].concept[3]: The code CGH is not valid in the system http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code
 == input/resources/terminology/ValueSet-observation-code.json ==
 WARNING: ValueSet/observation-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-organization-type.json ==
@@ -254,11 +254,11 @@ ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminolo
 WARNING: ValueSet/qc-ethnicity: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-rgdi-default-exam.json ==
 WARNING: ValueSet/rgdi-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/rgdi-default-exam: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/rgdi-default-exam: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'rgdi-default-exam'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-rgdi-default-hpo.json ==
 WARNING: ValueSet/rgdi-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/rgdi-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters cant be checked
+WARNING: ValueSet/rgdi-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'rgdi-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-specimen-type.json ==
 WARNING: ValueSet/specimen-type: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

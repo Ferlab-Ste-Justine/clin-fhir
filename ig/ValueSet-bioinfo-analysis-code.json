@@ -1,35 +1,29 @@
 {
-  "resourceType": "ValueSet",
-  "id": "bioinfo-analysis-code",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bioinfo-analysis-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code></a></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "bioinfo-analysis-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bioinfo-analysis-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code></a></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
-  "version": "0.1.0",
-  "name": "bioinfo-analysis-code",
-  "title": "Bioinformatic analysis codes",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Bioinformatic analysis codes",
-  "compose": {
-    "include": [
-      {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"
-      }
-    ]
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+  "version" : "0.1.0",
+  "name" : "bioinfo-analysis-code",
+  "title" : "Bioinformatic analysis codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Bioinformatic analysis codes",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"
+    }]
   }
 }

@@ -1,35 +1,29 @@
 {
-  "resourceType": "ValueSet",
-  "id": "experimental-strategy",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-experimental-strategy.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</code></a></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "experimental-strategy",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-experimental-strategy.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</code></a></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
-  "version": "0.1.0",
-  "name": "experimental-strategy",
-  "title": "Experimental strategies",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Experimental strategies",
-  "compose": {
-    "include": [
-      {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"
-      }
-    ]
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+  "version" : "0.1.0",
+  "name" : "experimental-strategy",
+  "title" : "Experimental strategies",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Experimental strategies",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"
+    }]
   }
 }

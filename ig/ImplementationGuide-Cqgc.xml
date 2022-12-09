@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-11-16T21:33:27+00:00"/>
+  <date value="2022-12-09T19:20:55+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -784,10 +784,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/nmit-default-exam"/>
+        <reference value="ValueSet/mitn-default-exam"/>
       </reference>
-      <name value="Ferlab.bio ValueSet/nmit-default-exam"/>
-      <description value="Ferlab.bio ValueSet nmit-default-exam"/>
+      <name value="Ferlab.bio ValueSet/mitn-default-exam"/>
+      <description value="Ferlab.bio ValueSet mitn-default-exam"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

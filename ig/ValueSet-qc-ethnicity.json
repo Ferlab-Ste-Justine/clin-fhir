@@ -1,35 +1,29 @@
 {
-  "resourceType": "ValueSet",
-  "id": "qc-ethnicity",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-qc-ethnicity.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</code></a></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "qc-ethnicity",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-qc-ethnicity.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</code></a></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
-  "version": "0.1.0",
-  "name": "qc-ethnicity",
-  "title": "Qc ethnicity",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
-  "compose": {
-    "include": [
-      {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity"
-      }
-    ]
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+  "version" : "0.1.0",
+  "name" : "qc-ethnicity",
+  "title" : "Qc ethnicity",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity"
+    }]
   }
 }

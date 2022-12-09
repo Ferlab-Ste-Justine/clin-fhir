@@ -1,73 +1,59 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "bioinfo-analysis-code",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>RABA</td><td>Analyse bioinformatique d'alignement de fragments</td></tr><tr><td>SNVC</td><td>Analyse bioinformatique d'appel de SNV</td></tr><tr><td>QCBA</td><td>Analyse bioinformatique de controle de qualité</td></tr><tr><td>GEBA</td><td>Analyse bioinformatique d'exomes germinales</td></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "bioinfo-analysis-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>RABA</td><td>Analyse bioinformatique d'alignement de fragments</td></tr><tr><td>SNVC</td><td>Analyse bioinformatique d'appel de SNV</td></tr><tr><td>QCBA</td><td>Analyse bioinformatique de controle de qualité</td></tr><tr><td>GEBA</td><td>Analyse bioinformatique d'exomes germinales</td></tr></table></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-  "version": "0.1.0",
-  "name": "bioinfo-analysis-code",
-  "title": "Bioinformatic analysis codes",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Bioinformatic analysis code system",
-  "caseSensitive": true,
-  "content": "complete",
-  "count": 4,
-  "concept": [
-    {
-      "code": "RABA",
-      "display": "Reads Alignement Bioinformatic Analysis",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Analyse bioinformatique d'alignement de fragments"
-        }
-      ]
-    },
-    {
-      "code": "SNVC",
-      "display": "SNV Calling Bioinformatic Analysis",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Analyse bioinformatique d'appel de SNV"
-        }
-      ]
-    },
-    {
-      "code": "QCBA",
-      "display": "Quality control Bioinformatic Analysis",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Analyse bioinformatique de controle de qualité"
-        }
-      ]
-    },
-    {
-      "code": "GEBA",
-      "display": "Germline Exome Bioinformatic Analysis",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Analyse bioinformatique d'exomes germinales"
-        }
-      ]
-    }
-  ]
+  "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+  "version" : "0.1.0",
+  "name" : "bioinfo-analysis-code",
+  "title" : "Bioinformatic analysis codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Bioinformatic analysis code system",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "RABA",
+    "display" : "Reads Alignement Bioinformatic Analysis",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Analyse bioinformatique d'alignement de fragments"
+    }]
+  },
+  {
+    "code" : "SNVC",
+    "display" : "SNV Calling Bioinformatic Analysis",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Analyse bioinformatique d'appel de SNV"
+    }]
+  },
+  {
+    "code" : "QCBA",
+    "display" : "Quality control Bioinformatic Analysis",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Analyse bioinformatique de controle de qualité"
+    }]
+  },
+  {
+    "code" : "GEBA",
+    "display" : "Germline Exome Bioinformatic Analysis",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Analyse bioinformatique d'exomes germinales"
+    }]
+  }]
 }

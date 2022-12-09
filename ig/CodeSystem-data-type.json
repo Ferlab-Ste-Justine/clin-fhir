@@ -1,93 +1,75 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "data-type",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinale</td></tr><tr><td>GSV</td><td>SV germinale</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "data-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinale</td></tr><tr><td>GSV</td><td>SV germinale</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr></table></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
-  "version": "0.1.0",
-  "name": "data-type",
-  "title": "Data types",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Data types",
-  "caseSensitive": true,
-  "content": "complete",
-  "count": 5,
-  "concept": [
-    {
-      "code": "ALIR",
-      "display": "Aligned Reads",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Fragments alignés"
-        }
-      ]
-    },
-    {
-      "code": "SNV",
-      "display": "SNV",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "SNV"
-        }
-      ]
-    },
-    {
-      "code": "GCNV",
-      "display": "Germline CNV",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "CNV germinale"
-        }
-      ]
-    },
-    {
-      "code": "GSV",
-      "display": "Germline SV",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "SV germinale"
-        }
-      ]
-    },
-    {
-      "code": "SSUP",
-      "display": "Sequencing Data Supplement",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Données de séquençage supplémentaires"
-        }
-      ]
-    },
-    {
-      "code": "INDX",
-      "display": "Sequencing Data Index",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Index de données de séquençage"
-        }
-      ]
-    }
-  ]
+  "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+  "version" : "0.1.0",
+  "name" : "data-type",
+  "title" : "Data types",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Data types",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "ALIR",
+    "display" : "Aligned Reads",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Fragments alignés"
+    }]
+  },
+  {
+    "code" : "SNV",
+    "display" : "SNV",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "SNV"
+    }]
+  },
+  {
+    "code" : "GCNV",
+    "display" : "Germline CNV",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "CNV germinale"
+    }]
+  },
+  {
+    "code" : "GSV",
+    "display" : "Germline SV",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "SV germinale"
+    }]
+  },
+  {
+    "code" : "SSUP",
+    "display" : "Sequencing Data Supplement",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Données de séquençage supplémentaires"
+    }]
+  },
+  {
+    "code" : "INDX",
+    "display" : "Sequencing Data Index",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Index de données de séquençage"
+    }]
+  }]
 }

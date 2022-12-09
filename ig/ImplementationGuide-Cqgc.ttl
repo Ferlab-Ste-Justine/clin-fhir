@@ -7,18 +7,18 @@
 
 <http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "Cqgc"];
+  fhir:Resource.id [ fhir:value "Cqgc"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CqgcImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc</pre><div><p>Documentation for the cqgc FHIR data model</p>\n</div></div>"
-  ];
-  fhir:ImplementationGuide.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "CqgcImplementationGuide"];
-  fhir:ImplementationGuide.title [ fhir:value "Cqgc Implementation Guide"];
-  fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-16T21:33:27+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "Ferlab.bio"];
+  ]; # 
+  fhir:ImplementationGuide.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc"]; # 
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"]; # 
+  fhir:ImplementationGuide.name [ fhir:value "CqgcImplementationGuide"]; # 
+  fhir:ImplementationGuide.title [ fhir:value "Cqgc Implementation Guide"]; # 
+  fhir:ImplementationGuide.status [ fhir:value "active"]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-09T19:20:55+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Cqgc" ];
@@ -27,14 +27,14 @@
        fhir:ContactPoint.system [ fhir:value "email" ];
        fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
      ]
-  ];
-  fhir:ImplementationGuide.description [ fhir:value "Documentation for the cqgc FHIR data model"];
-  fhir:ImplementationGuide.packageId [ fhir:value "cqgc"];
-  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  ]; # 
+  fhir:ImplementationGuide.description [ fhir:value "Documentation for the cqgc FHIR data model"]; # 
+  fhir:ImplementationGuide.packageId [ fhir:value "cqgc"]; # 
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"]; # 
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
      fhir:index 0
-  ];
+  ]; # 
   fhir:ImplementationGuide.dependsOn [
      fhir:index 0;
      fhir:Element.id [ fhir:value "hl7tx" ];
@@ -49,7 +49,7 @@
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
      fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.0.0" ]
-  ];
+  ]; # 
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
        fhir:index 0;
@@ -1044,11 +1044,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/nmit-default-exam>;
-         fhir:Reference.reference [ fhir:value "ValueSet/nmit-default-exam" ]
+         fhir:link <http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam>;
+         fhir:Reference.reference [ fhir:value "ValueSet/mitn-default-exam" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/nmit-default-exam" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet nmit-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ferlab.bio ValueSet/mitn-default-exam" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ferlab.bio ValueSet mitn-default-exam" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 55;
@@ -1285,7 +1285,7 @@
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
        fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

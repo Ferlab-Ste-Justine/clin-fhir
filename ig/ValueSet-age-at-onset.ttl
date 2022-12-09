@@ -7,19 +7,19 @@
 
 <http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "age-at-onset"];
+  fhir:Resource.id [ fhir:value "age-at-onset"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0410280</td><td>Pediatric onset</td><td>Apparition pédiatrique (&lt;= 15 ans)</td></tr><tr><td>HP:0003593</td><td>Infantile onset</td><td>Apparition dans l'enfance (28 jours &lt;= âge &lt; 1 an)</td></tr><tr><td>HP:0003621</td><td>Juvenile onset</td><td>Apparition juvénile (5 ans &lt;= âge &lt;= 15 ans)</td></tr><tr><td>HP:0011463</td><td>Childhood onset</td><td>Apparition chez l'enfant (1 an &lt;= âge &lt; 5 ans)</td></tr><tr><td>HP:0030674</td><td>Antenatal onset</td><td>Apparition anténatale</td></tr><tr><td>HP:0011460</td><td>Embryonal onset</td><td>Apparition embryonnaire (âge &lt; 10 semaines de gestation)</td></tr><tr><td>HP:0011461</td><td>Fetal onset</td><td>Apparition foetale (âge &gt;= 10 semaines de gestation)</td></tr><tr><td>HP:0003577</td><td>Congenital onset</td><td>Apparition congénitale</td></tr><tr><td>HP:0003623</td><td>Neonatal onset</td><td>Apparition néonatale (âge &lt; 28 jours)</td></tr><tr><td>HP:0003581</td><td>Adult onset</td><td>Apparition à l'âge adulte ( âge &gt;= 16 ans)</td></tr><tr><td>HP:0003596</td><td>Middle age onset</td><td>Apparition à l'âge moyen (40 ans &lt;= âge &lt; 60 ans)</td></tr><tr><td>HP:0011462</td><td>Young adult onset</td><td>Apparition chez le jeune adulte (16 ans &lt;= âge &lt; 40 ans)</td></tr><tr><td>HP:0003584</td><td>Late onset</td><td>Apparition tardive (âge &gt;= 60 ans)</td></tr></table></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
-  fhir:ValueSet.name [ fhir:value "age-at-onset"];
-  fhir:ValueSet.title [ fhir:value "Age at Onset Codes"];
-  fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2020-08-12T13:29:08-04:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"];
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"]; # 
+  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
+  fhir:ValueSet.name [ fhir:value "age-at-onset"]; # 
+  fhir:ValueSet.title [ fhir:value "Age at Onset Codes"]; # 
+  fhir:ValueSet.status [ fhir:value "draft"]; # 
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:ValueSet.date [ fhir:value "2020-08-12T13:29:08-04:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Cqgc" ];
@@ -28,8 +28,8 @@
        fhir:ContactPoint.system [ fhir:value "email" ];
        fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
      ]
-  ];
-  fhir:ValueSet.description [ fhir:value "This value set includes age at onset codes from Human Phenotype Ontology."];
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "This value set includes age at onset codes from Human Phenotype Ontology."]; # 
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
@@ -153,7 +153,7 @@
          ]
        ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

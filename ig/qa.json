@@ -1,12 +1,12 @@
 {
-  "url": "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
-  "name": "CqgcImplementationGuide",
-  "package-id": "cqgc",
-  "ig-ver": "0.1.0",
-  "date": "Wed, 16 Nov, 2022 21:33:27 +0000",
-  "errs": 10,
-  "warnings": 113,
-  "hints": 0,
-  "version": "4.0.1",
-  "tool": "5.0.0-ballot (3)"
+  "url" : "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
+  "name" : "CqgcImplementationGuide",
+  "package-id" : "cqgc",
+  "ig-ver" : "0.1.0",
+  "date" : "Fri, 09 Dec, 2022 19:20:55 +0000",
+  "errs" : 10,
+  "warnings" : 113,
+  "hints" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-ballot (3)"
 }

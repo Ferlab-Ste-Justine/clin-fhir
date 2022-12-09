@@ -7,19 +7,19 @@
 
 <http://fhir.cqgc.ferlab.bio/ValueSet/variant-type> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "variant-type"];
+  fhir:Resource.id [ fhir:value "variant-type"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-variant-type.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</code></a></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
-  fhir:ValueSet.name [ fhir:value "variant-type"];
-  fhir:ValueSet.title [ fhir:value "Variant types"];
-  fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2022-11-16T21:33:27+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"];
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type"]; # 
+  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
+  fhir:ValueSet.name [ fhir:value "variant-type"]; # 
+  fhir:ValueSet.title [ fhir:value "Variant types"]; # 
+  fhir:ValueSet.status [ fhir:value "draft"]; # 
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:ValueSet.date [ fhir:value "2022-12-09T19:20:55+00:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Cqgc" ];
@@ -28,14 +28,14 @@
        fhir:ContactPoint.system [ fhir:value "email" ];
        fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
      ]
-  ];
-  fhir:ValueSet.description [ fhir:value "Variant types"];
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "Variant types"]; # 
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
        fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

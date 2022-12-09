@@ -1,35 +1,29 @@
 {
-  "resourceType": "ValueSet",
-  "id": "phenotype-codes",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://purl.obolibrary.org/obo/hp.owl</code></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "phenotype-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://purl.obolibrary.org/obo/hp.owl</code></li></ul></div>"
   },
-  "url": "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
-  "version": "0.1.0",
-  "name": "phenotype-codes",
-  "title": "Phenotype Codes",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "This value set includes all codes from Human Phenotype Ontology.",
-  "compose": {
-    "include": [
-      {
-        "system": "http://purl.obolibrary.org/obo/hp.owl"
-      }
-    ]
+  "url" : "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
+  "version" : "0.1.0",
+  "name" : "phenotype-codes",
+  "title" : "Phenotype Codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "This value set includes all codes from Human Phenotype Ontology.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/hp.owl"
+    }]
   }
 }

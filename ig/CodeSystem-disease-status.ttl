@@ -7,19 +7,19 @@
 
 <http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "disease-status"];
+  fhir:Resource.id [ fhir:value "disease-status"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AFFE<a name=\"disease-status-AFFE\"> </a></td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\">NAFF<a name=\"disease-status-NAFF\"> </a></td><td>Non-affected</td></tr><tr><td style=\"white-space:nowrap\">UNKN<a name=\"disease-status-UNKN\"> </a></td><td>Unknow</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>AFFE</td><td>Atteint</td></tr><tr><td>NAFF</td><td>Non-atteint</td></tr><tr><td>UNKN</td><td>Inconnu</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
-  fhir:CodeSystem.name [ fhir:value "disease-status"];
-  fhir:CodeSystem.title [ fhir:value "Disease status"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-11-16T21:33:27+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"]; # 
+  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
+  fhir:CodeSystem.name [ fhir:value "disease-status"]; # 
+  fhir:CodeSystem.title [ fhir:value "Disease status"]; # 
+  fhir:CodeSystem.status [ fhir:value "draft"]; # 
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.date [ fhir:value "2022-12-09T19:20:55+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Cqgc" ];
@@ -28,11 +28,11 @@
        fhir:ContactPoint.system [ fhir:value "email" ];
        fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
      ]
-  ];
-  fhir:CodeSystem.description [ fhir:value "Disease status"];
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "Disease status"]; # 
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger]; # 
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "AFFE" ];
@@ -60,7 +60,7 @@
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
        fhir:CodeSystem.concept.designation.value [ fhir:value "Inconnu" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

@@ -7,19 +7,19 @@
 
 <http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "analysis-request-code"];
+  fhir:Resource.id [ fhir:value "analysis-request-code"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MMG<a name=\"analysis-request-code-MMG\"> </a></td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\">DYSM<a name=\"analysis-request-code-DYSM\"> </a></td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\">RHAB<a name=\"analysis-request-code-RHAB\"> </a></td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\">MITN<a name=\"analysis-request-code-MITN\"> </a></td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\">MYOC<a name=\"analysis-request-code-MYOC\"> </a></td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\">MYAC<a name=\"analysis-request-code-MYAC\"> </a></td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\">HYPM<a name=\"analysis-request-code-HYPM\"> </a></td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\">RGDI<a name=\"analysis-request-code-RGDI\"> </a></td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MMG</td><td>Maladies musculaires (Panel global)</td></tr><tr><td>DYSM</td><td>Dystrophies musculaires</td></tr><tr><td>RHAB</td><td>Rhabdomyolyse</td></tr><tr><td>MITN</td><td>Mitochondriopathies nucléaires</td></tr><tr><td>MYOC</td><td>Myopathies congénitales</td></tr><tr><td>MYAC</td><td>Myasthénies congénitales</td></tr><tr><td>HYPM</td><td>Hyperthermie maligne</td></tr><tr><td>RGDI</td><td>Retard global de développement / Déficience intellectuelle (Trio)</td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
-  fhir:CodeSystem.name [ fhir:value "analysis-request-code"];
-  fhir:CodeSystem.title [ fhir:value "Analysis request code"];
-  fhir:CodeSystem.status [ fhir:value "draft"];
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-11-16T21:33:27+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"];
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"]; # 
+  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
+  fhir:CodeSystem.name [ fhir:value "analysis-request-code"]; # 
+  fhir:CodeSystem.title [ fhir:value "Analysis request code"]; # 
+  fhir:CodeSystem.status [ fhir:value "draft"]; # 
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.date [ fhir:value "2022-12-09T19:20:55+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Cqgc" ];
@@ -28,10 +28,10 @@
        fhir:ContactPoint.system [ fhir:value "email" ];
        fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
      ]
-  ];
-  fhir:CodeSystem.description [ fhir:value "Gene panel requested for analysis"];
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.content [ fhir:value "complete"];
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "Gene panel requested for analysis"]; # 
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "MMG" ];
@@ -104,7 +104,7 @@
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
        fhir:CodeSystem.concept.designation.value [ fhir:value "Retard global de développement / Déficience intellectuelle (Trio)" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

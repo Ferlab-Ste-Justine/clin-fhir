@@ -1,35 +1,29 @@
 {
-  "resourceType": "ValueSet",
-  "id": "genome-build",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-genome-build.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build</code></a></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "genome-build",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-genome-build.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build</code></a></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
-  "version": "0.1.0",
-  "name": "genome-build",
-  "title": "Genome build",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-11-16T21:33:27+00:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Genome build",
-  "compose": {
-    "include": [
-      {
-        "system": "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build"
-      }
-    ]
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
+  "version" : "0.1.0",
+  "name" : "genome-build",
+  "title" : "Genome build",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2022-12-09T19:20:55+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Genome build",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build"
+    }]
   }
 }

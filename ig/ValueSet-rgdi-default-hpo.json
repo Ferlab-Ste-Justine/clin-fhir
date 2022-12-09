@@ -1,157 +1,125 @@
 {
-  "resourceType": "ValueSet",
-  "id": "rgdi-default-hpo",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0001249</td><td>Intellectual disability</td><td>Déficience intellectuelle</td></tr><tr><td>HP:0000729</td><td>Autistic behavior</td><td>Comportement autistique</td></tr><tr><td>HP:0001344</td><td>Absent speech</td><td>Discours absent</td></tr><tr><td>HP:0011344</td><td>Severe global developmental delay</td><td>Retard de développement global sévère</td></tr><tr><td>HP:0011343</td><td>Moderate global developmental delay</td><td>Retard de développement global modéré</td></tr><tr><td>HP:0011342</td><td>Mild global developmental delay</td><td>Léger retard de développement global</td></tr><tr><td>HP:0000256</td><td>Macrocephaly</td><td>Macrocéphalie</td></tr><tr><td>HP:0000252</td><td>Microcephaly</td><td>Microcéphalie</td></tr><tr><td>HP:0001250</td><td>Seizure</td><td>Crise d'épilepsie</td></tr><tr><td>HP:0031375</td><td>Refractory</td><td>Réfractaire</td></tr><tr><td>HP:0001510</td><td>Growth delay</td><td>Retard de croissance</td></tr><tr><td>HP:0012443</td><td>Abnormality of brain morphology</td><td>Anomalie de la morphologie cérébrale</td></tr></table></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "rgdi-default-hpo",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0001249</td><td>Intellectual disability</td><td>Déficience intellectuelle</td></tr><tr><td>HP:0000729</td><td>Autistic behavior</td><td>Comportement autistique</td></tr><tr><td>HP:0001344</td><td>Absent speech</td><td>Discours absent</td></tr><tr><td>HP:0011344</td><td>Severe global developmental delay</td><td>Retard de développement global sévère</td></tr><tr><td>HP:0011343</td><td>Moderate global developmental delay</td><td>Retard de développement global modéré</td></tr><tr><td>HP:0011342</td><td>Mild global developmental delay</td><td>Léger retard de développement global</td></tr><tr><td>HP:0000256</td><td>Macrocephaly</td><td>Macrocéphalie</td></tr><tr><td>HP:0000252</td><td>Microcephaly</td><td>Microcéphalie</td></tr><tr><td>HP:0001250</td><td>Seizure</td><td>Crise d'épilepsie</td></tr><tr><td>HP:0031375</td><td>Refractory</td><td>Réfractaire</td></tr><tr><td>HP:0001510</td><td>Growth delay</td><td>Retard de croissance</td></tr><tr><td>HP:0012443</td><td>Abnormality of brain morphology</td><td>Anomalie de la morphologie cérébrale</td></tr></table></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
-  "version": "0.1.0",
-  "name": "rgdi-default-hpo",
-  "title": "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-08-13T10:49:27-04:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
-  "compose": {
-    "include": [
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
+  "version" : "0.1.0",
+  "name" : "rgdi-default-hpo",
+  "title" : "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-08-13T10:49:27-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
+  "compose" : {
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/hp.owl",
+      "concept" : [{
+        "code" : "HP:0001249",
+        "display" : "Intellectual disability",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Déficience intellectuelle"
+        }]
+      },
       {
-        "system": "http://purl.obolibrary.org/obo/hp.owl",
-        "concept": [
-          {
-            "code": "HP:0001249",
-            "display": "Intellectual disability",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Déficience intellectuelle"
-              }
-            ]
-          },
-          {
-            "code": "HP:0000729",
-            "display": "Autistic behavior",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Comportement autistique"
-              }
-            ]
-          },
-          {
-            "code": "HP:0001344",
-            "display": "Absent speech",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Discours absent"
-              }
-            ]
-          },
-          {
-            "code": "HP:0011344",
-            "display": "Severe global developmental delay",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Retard de développement global sévère"
-              }
-            ]
-          },
-          {
-            "code": "HP:0011343",
-            "display": "Moderate global developmental delay",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Retard de développement global modéré"
-              }
-            ]
-          },
-          {
-            "code": "HP:0011342",
-            "display": "Mild global developmental delay",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Léger retard de développement global"
-              }
-            ]
-          },
-          {
-            "code": "HP:0000256",
-            "display": "Macrocephaly",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Macrocéphalie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0000252",
-            "display": "Microcephaly",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Microcéphalie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0001250",
-            "display": "Seizure",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Crise d'épilepsie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0031375",
-            "display": "Refractory",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Réfractaire"
-              }
-            ]
-          },
-          {
-            "code": "HP:0001510",
-            "display": "Growth delay",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Retard de croissance"
-              }
-            ]
-          },
-          {
-            "code": "HP:0012443",
-            "display": "Abnormality of brain morphology",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Anomalie de la morphologie cérébrale"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+        "code" : "HP:0000729",
+        "display" : "Autistic behavior",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Comportement autistique"
+        }]
+      },
+      {
+        "code" : "HP:0001344",
+        "display" : "Absent speech",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Discours absent"
+        }]
+      },
+      {
+        "code" : "HP:0011344",
+        "display" : "Severe global developmental delay",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Retard de développement global sévère"
+        }]
+      },
+      {
+        "code" : "HP:0011343",
+        "display" : "Moderate global developmental delay",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Retard de développement global modéré"
+        }]
+      },
+      {
+        "code" : "HP:0011342",
+        "display" : "Mild global developmental delay",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Léger retard de développement global"
+        }]
+      },
+      {
+        "code" : "HP:0000256",
+        "display" : "Macrocephaly",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Macrocéphalie"
+        }]
+      },
+      {
+        "code" : "HP:0000252",
+        "display" : "Microcephaly",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Microcéphalie"
+        }]
+      },
+      {
+        "code" : "HP:0001250",
+        "display" : "Seizure",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Crise d'épilepsie"
+        }]
+      },
+      {
+        "code" : "HP:0031375",
+        "display" : "Refractory",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Réfractaire"
+        }]
+      },
+      {
+        "code" : "HP:0001510",
+        "display" : "Growth delay",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Retard de croissance"
+        }]
+      },
+      {
+        "code" : "HP:0012443",
+        "display" : "Abnormality of brain morphology",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Anomalie de la morphologie cérébrale"
+        }]
+      }]
+    }]
   }
 }

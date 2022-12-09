@@ -1,197 +1,157 @@
 {
-  "resourceType": "ValueSet",
-  "id": "mmg-default-hpo",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0001319</td><td>Neonatal hypotonia</td><td>Hypotonie congénitale</td></tr><tr><td>HP:0002194</td><td>Delayed gross motor development</td><td>Retard de développement moteur</td></tr><tr><td>HP:0001324</td><td>Muscle weakness</td><td>Faiblesse musculaire</td></tr><tr><td>HP:0002093</td><td>Respiratory insufficiency</td><td>Insuffisance respiratoire</td></tr><tr><td>HP:0003546</td><td>Exercise intolerance</td><td>Intolérance à l’effort</td></tr><tr><td>HP:0003326</td><td>Myalgia</td><td>Myalgia</td></tr><tr><td>HP:0003394</td><td>Muscle spasm</td><td>Crampes musculaires</td></tr><tr><td>HP:0003201</td><td>Rhabdomyolysis</td><td>Rhabdomyolyse</td></tr><tr><td>HP:0002486</td><td>Myotonia</td><td>Myotonie</td></tr><tr><td>HP:0007819</td><td>Presenile cataracts</td><td>Cataractes précoces</td></tr><tr><td>HP:0002015</td><td>Dysphagia</td><td>Dysphagie</td></tr><tr><td>HP:0007838</td><td>Progressive ptosis</td><td>Ptose progressive</td></tr><tr><td>HP:0002047</td><td>Malignant hyperthermia</td><td>Hyperthermie maligne</td></tr><tr><td>HP:0001638</td><td>Cardiomyopathy</td><td>Cardiomyopathie</td></tr><tr><td>HP:0000602</td><td>Ophthalmoplegia</td><td>Ophtalmoplegie</td></tr><tr><td>HP:0001762</td><td>Talipes equinovarus</td><td>Pieds bots</td></tr></table></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "mmg-default-hpo",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0001319</td><td>Neonatal hypotonia</td><td>Hypotonie congénitale</td></tr><tr><td>HP:0002194</td><td>Delayed gross motor development</td><td>Retard de développement moteur</td></tr><tr><td>HP:0001324</td><td>Muscle weakness</td><td>Faiblesse musculaire</td></tr><tr><td>HP:0002093</td><td>Respiratory insufficiency</td><td>Insuffisance respiratoire</td></tr><tr><td>HP:0003546</td><td>Exercise intolerance</td><td>Intolérance à l’effort</td></tr><tr><td>HP:0003326</td><td>Myalgia</td><td>Myalgia</td></tr><tr><td>HP:0003394</td><td>Muscle spasm</td><td>Crampes musculaires</td></tr><tr><td>HP:0003201</td><td>Rhabdomyolysis</td><td>Rhabdomyolyse</td></tr><tr><td>HP:0002486</td><td>Myotonia</td><td>Myotonie</td></tr><tr><td>HP:0007819</td><td>Presenile cataracts</td><td>Cataractes précoces</td></tr><tr><td>HP:0002015</td><td>Dysphagia</td><td>Dysphagie</td></tr><tr><td>HP:0007838</td><td>Progressive ptosis</td><td>Ptose progressive</td></tr><tr><td>HP:0002047</td><td>Malignant hyperthermia</td><td>Hyperthermie maligne</td></tr><tr><td>HP:0001638</td><td>Cardiomyopathy</td><td>Cardiomyopathie</td></tr><tr><td>HP:0000602</td><td>Ophthalmoplegia</td><td>Ophtalmoplegie</td></tr><tr><td>HP:0001762</td><td>Talipes equinovarus</td><td>Pieds bots</td></tr></table></li></ul></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
-  "version": "0.1.0",
-  "name": "mmg-default-hpo",
-  "title": "Muscle disease  default clinical signs (HPO code)",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-08-13T10:49:27-04:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "Muscle disease  default clinical signs (HPO code)",
-  "compose": {
-    "include": [
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
+  "version" : "0.1.0",
+  "name" : "mmg-default-hpo",
+  "title" : "Muscle disease  default clinical signs (HPO code)",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-08-13T10:49:27-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Muscle disease  default clinical signs (HPO code)",
+  "compose" : {
+    "include" : [{
+      "system" : "http://purl.obolibrary.org/obo/hp.owl",
+      "concept" : [{
+        "code" : "HP:0001319",
+        "display" : "Neonatal hypotonia",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Hypotonie congénitale"
+        }]
+      },
       {
-        "system": "http://purl.obolibrary.org/obo/hp.owl",
-        "concept": [
-          {
-            "code": "HP:0001319",
-            "display": "Neonatal hypotonia",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Hypotonie congénitale"
-              }
-            ]
-          },
-          {
-            "code": "HP:0002194",
-            "display": "Delayed gross motor development",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Retard de développement moteur"
-              }
-            ]
-          },
-          {
-            "code": "HP:0001324",
-            "display": "Muscle weakness",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Faiblesse musculaire"
-              }
-            ]
-          },
-          {
-            "code": "HP:0002093",
-            "display": "Respiratory insufficiency",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Insuffisance respiratoire"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003546",
-            "display": "Exercise intolerance",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Intolérance à l’effort"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003326",
-            "display": "Myalgia",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Myalgia"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003394",
-            "display": "Muscle spasm",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Crampes musculaires"
-              }
-            ]
-          },
-          {
-            "code": "HP:0003201",
-            "display": "Rhabdomyolysis",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Rhabdomyolyse"
-              }
-            ]
-          },
-          {
-            "code": "HP:0002486",
-            "display": "Myotonia",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Myotonie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0007819",
-            "display": "Presenile cataracts",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Cataractes précoces"
-              }
-            ]
-          },
-          {
-            "code": "HP:0002015",
-            "display": "Dysphagia",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Dysphagie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0007838",
-            "display": "Progressive ptosis",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Ptose progressive"
-              }
-            ]
-          },
-          {
-            "code": "HP:0002047",
-            "display": "Malignant hyperthermia",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Hyperthermie maligne"
-              }
-            ]
-          },
-          {
-            "code": "HP:0001638",
-            "display": "Cardiomyopathy",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Cardiomyopathie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0000602",
-            "display": "Ophthalmoplegia",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Ophtalmoplegie"
-              }
-            ]
-          },
-          {
-            "code": "HP:0001762",
-            "display": "Talipes equinovarus",
-            "designation": [
-              {
-                "language": "fr",
-                "value": "Pieds bots"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+        "code" : "HP:0002194",
+        "display" : "Delayed gross motor development",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Retard de développement moteur"
+        }]
+      },
+      {
+        "code" : "HP:0001324",
+        "display" : "Muscle weakness",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Faiblesse musculaire"
+        }]
+      },
+      {
+        "code" : "HP:0002093",
+        "display" : "Respiratory insufficiency",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Insuffisance respiratoire"
+        }]
+      },
+      {
+        "code" : "HP:0003546",
+        "display" : "Exercise intolerance",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Intolérance à l’effort"
+        }]
+      },
+      {
+        "code" : "HP:0003326",
+        "display" : "Myalgia",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Myalgia"
+        }]
+      },
+      {
+        "code" : "HP:0003394",
+        "display" : "Muscle spasm",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Crampes musculaires"
+        }]
+      },
+      {
+        "code" : "HP:0003201",
+        "display" : "Rhabdomyolysis",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Rhabdomyolyse"
+        }]
+      },
+      {
+        "code" : "HP:0002486",
+        "display" : "Myotonia",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Myotonie"
+        }]
+      },
+      {
+        "code" : "HP:0007819",
+        "display" : "Presenile cataracts",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Cataractes précoces"
+        }]
+      },
+      {
+        "code" : "HP:0002015",
+        "display" : "Dysphagia",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Dysphagie"
+        }]
+      },
+      {
+        "code" : "HP:0007838",
+        "display" : "Progressive ptosis",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Ptose progressive"
+        }]
+      },
+      {
+        "code" : "HP:0002047",
+        "display" : "Malignant hyperthermia",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Hyperthermie maligne"
+        }]
+      },
+      {
+        "code" : "HP:0001638",
+        "display" : "Cardiomyopathy",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Cardiomyopathie"
+        }]
+      },
+      {
+        "code" : "HP:0000602",
+        "display" : "Ophthalmoplegia",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Ophtalmoplegie"
+        }]
+      },
+      {
+        "code" : "HP:0001762",
+        "display" : "Talipes equinovarus",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Pieds bots"
+        }]
+      }]
+    }]
   }
 }

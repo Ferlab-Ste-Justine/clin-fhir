@@ -1,55 +1,45 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "fmh-relationship-plus",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MATMEM<a name=\"fmh-relationship-plus-MATMEM\"> </a></td><td>Maternal Member</td><td>This value is indicated if the position of the member in the maternal branch is unknown</td></tr><tr><td style=\"white-space:nowrap\">PATMEM<a name=\"fmh-relationship-plus-PATMEM\"> </a></td><td>Paternal Member</td><td>This value is indicated if the position of the member in the paternal branch is unknown</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MATMEM</td><td>Membre de la branche maternelle</td></tr><tr><td>PATMEM</td><td>Membre de la branche paternelle</td></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "fmh-relationship-plus",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MATMEM<a name=\"fmh-relationship-plus-MATMEM\"> </a></td><td>Maternal Member</td><td>This value is indicated if the position of the member in the maternal branch is unknown</td></tr><tr><td style=\"white-space:nowrap\">PATMEM<a name=\"fmh-relationship-plus-PATMEM\"> </a></td><td>Paternal Member</td><td>This value is indicated if the position of the member in the paternal branch is unknown</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>MATMEM</td><td>Membre de la branche maternelle</td></tr><tr><td>PATMEM</td><td>Membre de la branche paternelle</td></tr></table></div>"
   },
-  "url": "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
-  "version": "0.1.0",
-  "name": "fmh-relationship-plus",
-  "title": "FMH relationship-plus",
-  "status": "draft",
-  "experimental": false,
-  "date": "2020-08-13T10:54:37-04:00",
-  "publisher": "Ferlab.bio",
-  "contact": [
-    {
-      "name": "Cqgc",
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mailto:support@ferlab.bio"
-        }
-      ]
-    }
-  ],
-  "description": "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7",
-  "caseSensitive": true,
-  "content": "complete",
-  "count": 2,
-  "concept": [
-    {
-      "code": "MATMEM",
-      "display": "Maternal Member",
-      "definition": "This value is indicated if the position of the member in the maternal branch is unknown",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Membre de la branche maternelle"
-        }
-      ]
-    },
-    {
-      "code": "PATMEM",
-      "display": "Paternal Member",
-      "definition": "This value is indicated if the position of the member in the paternal branch is unknown",
-      "designation": [
-        {
-          "language": "fr",
-          "value": "Membre de la branche paternelle"
-        }
-      ]
-    }
-  ]
+  "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
+  "version" : "0.1.0",
+  "name" : "fmh-relationship-plus",
+  "title" : "FMH relationship-plus",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2020-08-13T10:54:37-04:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "MATMEM",
+    "display" : "Maternal Member",
+    "definition" : "This value is indicated if the position of the member in the maternal branch is unknown",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Membre de la branche maternelle"
+    }]
+  },
+  {
+    "code" : "PATMEM",
+    "display" : "Paternal Member",
+    "definition" : "This value is indicated if the position of the member in the paternal branch is unknown",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Membre de la branche paternelle"
+    }]
+  }]
 }
