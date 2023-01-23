@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="mitn-default-hpo"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP.0003128</td><td>Lactic acidosis</td><td>Acidose lactique</td></tr><tr><td>HP.0001263</td><td>Global developmental delay</td><td>Retard global de développement</td></tr><tr><td>HP.0001290</td><td>Generalized hypotonia</td><td>Hypotonie généralisée</td></tr><tr><td>HP.0001250</td><td>Seizures</td><td>Crise d'épilepsie</td></tr><tr><td>HP.0006965</td><td>Acute necrotizing encephalopathy</td><td>Encéphalopathie nécrosante aiguë</td></tr><tr><td>HP.0001251</td><td>Ataxia</td><td>Ataxie</td></tr><tr><td>HP.0006554</td><td>Acute hepatic failure</td><td>Insuffisance hépatique aiguë</td></tr><tr><td>HP.0006582</td><td>Reye syndrome-like episodes</td><td>Épisodes de type syndrome de Reye</td></tr><tr><td>HP.0001638</td><td>Cardiomyopathy</td><td>Cardiomyopathie</td></tr><tr><td>HP.0001488</td><td>Bilateral ptosis</td><td>Ptose bilatérale</td></tr><tr><td>HP.0000508</td><td>Ptosis</td><td>Ptose</td></tr><tr><td>HP.0001138</td><td>Optic neuropathy</td><td>Neuropathie optique</td></tr><tr><td>HP.0000590</td><td>Progressive external ophthalmoplegia</td><td>Ophtalmoplégie externe progressive</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0003128</td><td>Lactic acidosis</td><td>Acidose lactique</td></tr><tr><td>HP:0001263</td><td>Global developmental delay</td><td>Retard global de développement</td></tr><tr><td>HP:0001290</td><td>Generalized hypotonia</td><td>Hypotonie généralisée</td></tr><tr><td>HP:0001250</td><td>Seizures</td><td>Crise d'épilepsie</td></tr><tr><td>HP:0006965</td><td>Acute necrotizing encephalopathy</td><td>Encéphalopathie nécrosante aiguë</td></tr><tr><td>HP:0001251</td><td>Ataxia</td><td>Ataxie</td></tr><tr><td>HP:0006554</td><td>Acute hepatic failure</td><td>Insuffisance hépatique aiguë</td></tr><tr><td>HP:0006582</td><td>Reye syndrome-like episodes</td><td>Épisodes de type syndrome de Reye</td></tr><tr><td>HP:0001638</td><td>Cardiomyopathy</td><td>Cardiomyopathie</td></tr><tr><td>HP:0001488</td><td>Bilateral ptosis</td><td>Ptose bilatérale</td></tr><tr><td>HP:0000508</td><td>Ptosis</td><td>Ptose</td></tr><tr><td>HP:0001138</td><td>Optic neuropathy</td><td>Neuropathie optique</td></tr><tr><td>HP:0000590</td><td>Progressive external ophthalmoplegia</td><td>Ophtalmoplégie externe progressive</td></tr></table></li></ul></div>
   </text>
   <url value="http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo"/>
   <version value="0.1.0"/>
@@ -25,7 +25,7 @@
     <include>
       <system value="http://purl.obolibrary.org/obo/hp.owl"/>
       <concept>
-        <code value="HP.0003128"/>
+        <code value="HP:0003128"/>
         <display value="Lactic acidosis"/>
         <designation>
           <language value="fr"/>
@@ -33,7 +33,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001263"/>
+        <code value="HP:0001263"/>
         <display value="Global developmental delay"/>
         <designation>
           <language value="fr"/>
@@ -41,7 +41,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001290"/>
+        <code value="HP:0001290"/>
         <display value="Generalized hypotonia"/>
         <designation>
           <language value="fr"/>
@@ -49,7 +49,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001250"/>
+        <code value="HP:0001250"/>
         <display value="Seizures"/>
         <designation>
           <language value="fr"/>
@@ -57,7 +57,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0006965"/>
+        <code value="HP:0006965"/>
         <display value="Acute necrotizing encephalopathy"/>
         <designation>
           <language value="fr"/>
@@ -65,7 +65,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001251"/>
+        <code value="HP:0001251"/>
         <display value="Ataxia"/>
         <designation>
           <language value="fr"/>
@@ -73,7 +73,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0006554"/>
+        <code value="HP:0006554"/>
         <display value="Acute hepatic failure"/>
         <designation>
           <language value="fr"/>
@@ -81,7 +81,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0006582"/>
+        <code value="HP:0006582"/>
         <display value="Reye syndrome-like episodes"/>
         <designation>
           <language value="fr"/>
@@ -89,7 +89,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001638"/>
+        <code value="HP:0001638"/>
         <display value="Cardiomyopathy"/>
         <designation>
           <language value="fr"/>
@@ -97,7 +97,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001488"/>
+        <code value="HP:0001488"/>
         <display value="Bilateral ptosis"/>
         <designation>
           <language value="fr"/>
@@ -105,7 +105,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0000508"/>
+        <code value="HP:0000508"/>
         <display value="Ptosis"/>
         <designation>
           <language value="fr"/>
@@ -113,7 +113,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0001138"/>
+        <code value="HP:0001138"/>
         <display value="Optic neuropathy"/>
         <designation>
           <language value="fr"/>
@@ -121,7 +121,7 @@
         </designation>
       </concept>
       <concept>
-        <code value="HP.0000590"/>
+        <code value="HP:0000590"/>
         <display value="Progressive external ophthalmoplegia"/>
         <designation>
           <language value="fr"/>

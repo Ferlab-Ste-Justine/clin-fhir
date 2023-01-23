@@ -47,7 +47,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Cqgc Implementation Guide</span><br/>0.1.0 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Cqgc Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - CI Build
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -107,8 +113,9 @@
 
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Cqgc Implementation Guide - Local Development build (v0.1.0). See the <a href="http://fhir.cqgc.ferlab.bio/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-
   
+
+
 
 
 
@@ -120,6 +127,7 @@
   <li class="active">
     <a href="#">Narrative Content</a>
   </li>
+
 
 
   
@@ -146,19 +154,66 @@
 
 </ul>
 
-
   <a name="root"> </a>
 
+  <h2 id="root">SearchParameter: Ferlab.bio SearchParameter/output-documentreference
+(Experimental)
+  </h2>
 
-  <h2 id="root">SearchParameter: Ferlab.bio SearchParameter/output-documentreference</h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
 
 
-  
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2020-07-20
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">output-documentreference</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+<p>
+<p>Searches Document references by task output.</p>
+
+</p>
 
 
   <!-- insert intro if present -->
   
 
+
+
+<!--  <p>
+  Formats: <a href="SearchParameter-output-documentreference.xml.html">XML</a>, <a href="SearchParameter-output-documentreference.json.html">JSON</a>, <a href="SearchParameter-output-documentreference.ttl.html">Turtle</a>
+  </p>-->
+
+  
 
 
   <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: SearchParameter</b><a name="output-documentreference"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource SearchParameter &quot;output-documentreference&quot; </p></div><p><b>url</b>: <code>http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: output-documentreference</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2020-07-20 20:58:16+0000</p><p><b>publisher</b>: Ferlab.bio</p><p><b>contact</b>: Cqgc: <a href="mailto:mailto:support@ferlab.bio">mailto:support@ferlab.bio</a></p><p><b>description</b>: Searches Document references by task output.</p><p><b>code</b>: output-documentreference</p><p><b>base</b>: Task</p><p><b>type</b>: reference</p><p><b>expression</b>: Task.output.value</p><p><b>target</b>: DocumentReference</p></div>
@@ -167,6 +222,8 @@
   
 
 
+
+  
 
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -190,9 +247,9 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 9, 2022 21:34+0000">2022-12-09</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 23, 2023 16:13+0000">2023-01-23</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
+          <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
@@ -215,6 +272,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   

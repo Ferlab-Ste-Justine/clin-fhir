@@ -1,0 +1,34 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "missing-parent-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">TEMPORARY<a name=\"missing-parent-status-TEMPORARY\"> </a></td><td>Temporary absent parent</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>TEMPORARY</td><td>Parent absent temporairement</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status",
+  "version" : "0.1.0",
+  "name" : "missing-parent-status",
+  "title" : "Missing parent status",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-01-23T16:13:19+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "type d'absence pour un parent",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "TEMPORARY",
+    "display" : "Temporary absent parent",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Parent absent temporairement"
+    }]
+  }]
+}

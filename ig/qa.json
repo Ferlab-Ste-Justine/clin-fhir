@@ -3,10 +3,10 @@
   "name" : "CqgcImplementationGuide",
   "package-id" : "cqgc",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 09 Dec, 2022 21:34:05 +0000",
+  "date" : "Mon, 23 Jan, 2023 16:13:19 +0000",
   "errs" : 10,
   "warnings" : 113,
   "hints" : 0,
   "version" : "4.0.1",
-  "tool" : "5.0.0-ballot (3)"
+  "tool" : "5.0.0-snapshot2 (3)"
 }

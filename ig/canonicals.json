@@ -77,6 +77,13 @@
     "name" : "genome-build"
   },
   {
+    "id" : "missing-parent-status",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status",
+    "version" : "0.1.0",
+    "name" : "missing-parent-status"
+  },
+  {
     "id" : "observation-code",
     "type" : "CodeSystem",
     "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
