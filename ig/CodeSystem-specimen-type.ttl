@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "specimen-type"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>DNA</td><td>Échantillon d'ADN</td></tr><tr><td>NBL</td><td>Spécimen de sang normal</td></tr><tr><td>TUMOR</td><td>Spécimen tumoral</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td></tr><tr><td style=\"white-space:nowrap\">RNA<a name=\"specimen-type-RNA\"> </a></td><td>RNA Sample</td><td>RNA sample</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>DNA</td><td>Échantillon d'ADN</td></tr><tr><td>RNA</td><td>Échantillon d'ARN</td></tr><tr><td>NBL</td><td>Spécimen de sang normal</td></tr><tr><td>TUMOR</td><td>Spécimen tumoral</td></tr></table></div>"
   ]; # 
   fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"]; # 
   fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Specimen types"]; # 
   fhir:CodeSystem.status [ fhir:value "draft"]; # 
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:CodeSystem.date [ fhir:value "2023-01-23T16:13:19+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.date [ fhir:value "2023-01-27T17:12:17+00:00"^^xsd:dateTime]; # 
   fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -45,6 +45,16 @@
      ]
   ], [
      fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "RNA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "RNA Sample" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "RNA sample" ];
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Échantillon d'ARN" ]
+     ]
+  ], [
+     fhir:index 2;
      fhir:CodeSystem.concept.code [ fhir:value "NBL" ];
      fhir:CodeSystem.concept.display [ fhir:value "Normal Blood Specimen" ];
      fhir:CodeSystem.concept.definition [ fhir:value "Normal blood specimen" ];
@@ -54,7 +64,7 @@
        fhir:CodeSystem.concept.designation.value [ fhir:value "Spécimen de sang normal" ]
      ]
   ], [
-     fhir:index 2;
+     fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "TUMOR" ];
      fhir:CodeSystem.concept.display [ fhir:value "Tumor Specimen" ];
      fhir:CodeSystem.concept.definition [ fhir:value "Tumor specimen" ];
