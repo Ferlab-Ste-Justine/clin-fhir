@@ -3,14 +3,14 @@
   "id" : "run-name",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SearchParameter</b><a name=\"run-name\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SearchParameter &quot;run-name&quot; </p></div><p><b>url</b>: <code>http://fhir.cqgc.ferlab.bio/SearchParameter/run-name</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: run-name</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2023-01-27 17:12:17+0000</p><p><b>publisher</b>: Ferlab.bio</p><p><b>contact</b>: Cqgc: <a href=\"mailto:mailto:support@ferlab.bio\">mailto:support@ferlab.bio</a></p><p><b>description</b>: Searches Task by run name.</p><p><b>code</b>: run-name</p><p><b>base</b>: Task</p><p><b>type</b>: string</p><p><b>expression</b>: Task.extension.where(url='http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment').extension.where(url = 'runName').value</p><p><b>xpathUsage</b>: normal</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SearchParameter</b><a name=\"run-name\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SearchParameter &quot;run-name&quot; </p></div><p><b>url</b>: <code>http://fhir.cqgc.ferlab.bio/SearchParameter/run-name</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: run-name</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2023-01-30 21:30:05+0000</p><p><b>publisher</b>: Ferlab.bio</p><p><b>contact</b>: Cqgc: <a href=\"mailto:mailto:support@ferlab.bio\">mailto:support@ferlab.bio</a></p><p><b>description</b>: Searches Task by run name.</p><p><b>code</b>: run-name</p><p><b>base</b>: Task</p><p><b>type</b>: string</p><p><b>expression</b>: Task.extension.where(url='http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment').extension.where(url = 'runName').value</p><p><b>xpathUsage</b>: normal</p></div>"
   },
   "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/run-name",
   "version" : "0.1.0",
   "name" : "run-name",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-01-27T17:12:17+00:00",
+  "date" : "2023-01-30T21:30:05+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",
