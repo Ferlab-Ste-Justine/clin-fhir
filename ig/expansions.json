@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "550ac654-911e-49f3-b127-a0f08e57bf6f",
+  "id" : "0c576446-ac20-4e27-bee5-68d84bbe1ff4",
   "meta" : {
-    "lastUpdated" : "2023-01-30T21:30:05.276+00:00"
+    "lastUpdated" : "2023-02-09T16:19:35.941+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -20,7 +20,7 @@
       "title" : "observation code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -31,8 +31,8 @@
       }],
       "description" : "Codes of observations in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:df782b2b-6eba-4c3b-9fac-39962a3f30ab",
-        "timestamp" : "2023-01-30T21:30:47+00:00",
+        "identifier" : "urn:uuid:42b27e76-02c8-4a8a-a7c5-aa34568c6126",
+        "timestamp" : "2023-02-09T16:20:10+00:00",
         "total" : 27,
         "parameter" : [{
           "name" : "excludeNested",
@@ -195,7 +195,7 @@
       "title" : "Data types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -206,8 +206,8 @@
       }],
       "description" : "Data types",
       "expansion" : {
-        "identifier" : "urn:uuid:250de3a0-e948-47b1-bd14-9974259600e2",
-        "timestamp" : "2023-01-30T21:30:48+00:00",
+        "identifier" : "urn:uuid:6e5ce9bd-0d67-4d5b-bb67-f5ef3e6f3183",
+        "timestamp" : "2023-02-09T16:20:12+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -257,7 +257,7 @@
       "id" : "analysis-request-code",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-analysis-request-code.html\">Analysis request code v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MMG\">MMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-DYSM\">DYSM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RHAB\">RHAB</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MITN\">MITN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYOC\">MYOC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYAC\">MYAC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-HYPM\">HYPM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI\">RGDI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-analysis-request-code.html\">Analysis request code v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MMG\">MMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-DYSM\">DYSM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RHAB\">RHAB</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MITN\">MITN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYOC\">MYOC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYAC\">MYAC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-HYPM\">HYPM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI\">RGDI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-\"> </a>  <a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43\">RGDI+</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>RGDI+</td></tr></table></div>"
       },
       "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
       "version" : "0.1.0",
@@ -265,7 +265,7 @@
       "title" : "Analysis request code ",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -276,9 +276,9 @@
       }],
       "description" : "Codes of analysis request in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:25b90303-ae9a-4e0d-bf6b-01299b77b4ea",
-        "timestamp" : "2023-01-30T21:30:48+00:00",
-        "total" : 8,
+        "identifier" : "urn:uuid:4fd6a584-8d12-41fd-a603-383c523b5bfd",
+        "timestamp" : "2023-02-09T16:20:12+00:00",
+        "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -326,6 +326,11 @@
           "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
           "code" : "RGDI",
           "display" : "Global Developmental Delay / Intellectual Deficiency (Trio)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RGDI+",
+          "display" : "RGDI+"
         }]
       }
     }
@@ -356,8 +361,8 @@
       }],
       "description" : "Nuclear Mitochondriopathies default para-clinic exams",
       "expansion" : {
-        "identifier" : "urn:uuid:70edbb26-1a5f-4ac0-bf5d-0ef21960ae22",
-        "timestamp" : "2023-01-30T21:30:48+00:00",
+        "identifier" : "urn:uuid:85ed973e-61ee-4466-8dc6-7be4b01ea5af",
+        "timestamp" : "2023-02-09T16:20:12+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -445,7 +450,7 @@
       "title" : "Bioinformatic analysis codes",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -456,8 +461,8 @@
       }],
       "description" : "Bioinformatic analysis codes",
       "expansion" : {
-        "identifier" : "urn:uuid:e755a015-2547-4d7a-97a4-f17b1c3eecf8",
-        "timestamp" : "2023-01-30T21:30:49+00:00",
+        "identifier" : "urn:uuid:bebb21e4-469a-425f-a29e-4188ada81cc5",
+        "timestamp" : "2023-02-09T16:20:12+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -516,8 +521,8 @@
       }],
       "description" : "Muscle disease  default para-clinic exams",
       "expansion" : {
-        "identifier" : "urn:uuid:95c22e0d-7120-4142-9c08-88a547cecd0d",
-        "timestamp" : "2023-01-30T21:30:51+00:00",
+        "identifier" : "urn:uuid:8271f714-3037-4a8d-ae4f-f2251ee4eaa0",
+        "timestamp" : "2023-02-09T16:20:15+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -580,7 +585,7 @@
       "title" : "Specimen types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -591,8 +596,8 @@
       }],
       "description" : "Specimen types",
       "expansion" : {
-        "identifier" : "urn:uuid:67ebb1cc-cf73-4c24-a358-5449a0b2b43a",
-        "timestamp" : "2023-01-30T21:30:51+00:00",
+        "identifier" : "urn:uuid:6fd2b057-a28e-428e-bc1f-12675509f158",
+        "timestamp" : "2023-02-09T16:20:15+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -645,7 +650,7 @@
       "title" : "Data categories",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -656,8 +661,8 @@
       }],
       "description" : "Data categories",
       "expansion" : {
-        "identifier" : "urn:uuid:9407f694-a379-4ecf-963c-e098bcb3e165",
-        "timestamp" : "2023-01-30T21:30:52+00:00",
+        "identifier" : "urn:uuid:3119adfd-6f08-49c8-aca5-fb37e80e7baa",
+        "timestamp" : "2023-02-09T16:20:16+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -690,7 +695,7 @@
       "title" : "Experimental strategies",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -701,8 +706,8 @@
       }],
       "description" : "Experimental strategies",
       "expansion" : {
-        "identifier" : "urn:uuid:6988e77e-7f33-481b-b4e0-2f5462592f82",
-        "timestamp" : "2023-01-30T21:30:53+00:00",
+        "identifier" : "urn:uuid:cae861e7-90d3-404e-abc6-31d99cf2f874",
+        "timestamp" : "2023-02-09T16:20:17+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -745,7 +750,7 @@
       "title" : "Qc ethnicity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -756,8 +761,8 @@
       }],
       "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
       "expansion" : {
-        "identifier" : "urn:uuid:e7620c31-7885-470b-9cbf-e99876d9bb96",
-        "timestamp" : "2023-01-30T21:30:53+00:00",
+        "identifier" : "urn:uuid:7b22186c-298f-4191-bebd-fd7607dc6909",
+        "timestamp" : "2023-02-09T16:20:17+00:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -830,7 +835,7 @@
       "title" : "Document formats",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -841,8 +846,8 @@
       }],
       "description" : "Document formats",
       "expansion" : {
-        "identifier" : "urn:uuid:62d0b547-eb4f-4949-be58-dd9963a19399",
-        "timestamp" : "2023-01-30T21:30:53+00:00",
+        "identifier" : "urn:uuid:7be6ccd7-2d49-4b03-a7aa-c4a90ee247e9",
+        "timestamp" : "2023-02-09T16:20:17+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -895,7 +900,7 @@
       "title" : "Genome build",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -906,8 +911,8 @@
       }],
       "description" : "Genome build",
       "expansion" : {
-        "identifier" : "urn:uuid:e4052062-8c03-41ac-906a-de2b02bf8e8c",
-        "timestamp" : "2023-01-30T21:30:53+00:00",
+        "identifier" : "urn:uuid:c60f52d4-5c79-4378-a85f-b85aaa7fd113",
+        "timestamp" : "2023-02-09T16:20:17+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -940,7 +945,7 @@
       "title" : "Disease status",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -951,8 +956,8 @@
       }],
       "description" : "Disease status",
       "expansion" : {
-        "identifier" : "urn:uuid:2d7007e8-cba9-4cfa-ab4b-527b3be64c3f",
-        "timestamp" : "2023-01-30T21:30:54+00:00",
+        "identifier" : "urn:uuid:f89c4246-492b-4fee-b888-758bcd559800",
+        "timestamp" : "2023-02-09T16:20:20+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1006,8 +1011,8 @@
       }],
       "description" : "Values ​​assigned to relationship fields",
       "expansion" : {
-        "identifier" : "urn:uuid:53fada20-ea0c-4c24-bfc0-c8212e4697dd",
-        "timestamp" : "2023-01-30T21:30:55+00:00",
+        "identifier" : "urn:uuid:eef3017d-55a4-4bd7-9532-f945e4cdd72a",
+        "timestamp" : "2023-02-09T16:20:21+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1154,7 +1159,7 @@
       "title" : "Variant types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -1165,8 +1170,8 @@
       }],
       "description" : "Variant types",
       "expansion" : {
-        "identifier" : "urn:uuid:b5bbab1a-ec16-4278-9ce2-9d356b7cdc84",
-        "timestamp" : "2023-01-30T21:30:55+00:00",
+        "identifier" : "urn:uuid:ec21ff05-df9c-4302-be8c-90259ab35728",
+        "timestamp" : "2023-02-09T16:20:21+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1204,7 +1209,7 @@
       "title" : "CGH abnormalities",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-01-30T21:30:05+00:00",
+      "date" : "2023-02-09T16:19:35+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -1215,8 +1220,8 @@
       }],
       "description" : "CGH abnormalities",
       "expansion" : {
-        "identifier" : "urn:uuid:2d7960e2-5baf-45a5-8ae1-89e641eb7021",
-        "timestamp" : "2023-01-30T21:30:55+00:00",
+        "identifier" : "urn:uuid:3c20b3bd-a82c-4364-8b0b-162a49f2a87a",
+        "timestamp" : "2023-02-09T16:20:21+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1265,8 +1270,8 @@
       }],
       "description" : "Types of organization",
       "expansion" : {
-        "identifier" : "urn:uuid:b6b2efd4-9cd5-4193-820f-c934c28f7c6f",
-        "timestamp" : "2023-01-30T21:30:57+00:00",
+        "identifier" : "urn:uuid:034ba431-fe9e-4bd9-9e3f-f94c88be6f7d",
+        "timestamp" : "2023-02-09T16:20:22+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
