@@ -2,8 +2,8 @@
 =========================================
 
 err = 10, warn = 113, info = 0
-IG Publisher Version: 1.2.35
-Generated Tue Feb 14 19:16:12 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+IG Publisher Version: 1.2.37
+Generated Mon Feb 20 18:53:09 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -239,7 +239,7 @@ WARNING: ValueSet.where(id = 'mitn-default-hpo'): Error from server: Unable to p
 WARNING: ValueSet/mmg-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mmg-default-hpo.json ==
 WARNING: ValueSet/mmg-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
+WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0001319'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0001319) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: ValueSet.where(id = 'mmg-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-observation-code.json ==
 WARNING: ValueSet/observation-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -254,7 +254,7 @@ ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminolo
 WARNING: ValueSet/qc-ethnicity: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-rgdi-default-exam.json ==
 WARNING: ValueSet/rgdi-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/rgdi-default-exam: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'CGH'); The code provided (http://purl.obolibrary.org/obo/hp.owl#CGH) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet/rgdi-default-exam: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'rgdi-default-exam'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-rgdi-default-hpo.json ==
 WARNING: ValueSet/rgdi-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

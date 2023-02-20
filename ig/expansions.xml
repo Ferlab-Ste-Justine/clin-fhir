@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="3ba70cae-0d3d-4c86-a44c-cae0a330b563"/>
+  <id value="78c4706f-dfb4-4005-9545-65e03f017291"/>
   <meta>
-    <lastUpdated value="2023-02-14T19:15:12.350+00:00"/>
+    <lastUpdated value="2023-02-20T18:51:53.248+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -255,7 +255,7 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -266,8 +266,8 @@
         </contact>
         <description value="Codes of observations in our system"/>
         <expansion>
-          <identifier value="urn:uuid:4386ca4d-c35a-40a2-aee0-2b86c3fb852c"/>
-          <timestamp value="2023-02-14T19:15:45+00:00"/>
+          <identifier value="urn:uuid:9f0174f9-db25-4d8d-8f76-edbcd668fcf9"/>
+          <timestamp value="2023-02-20T18:52:35+00:00"/>
           <total value="27"/>
           <parameter>
             <name value="excludeNested"/>
@@ -417,658 +417,6 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/data-type"/>
-    <resource>
-      <ValueSet>
-        <id value="data-type"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 6 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-data-type.html">Data types v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-ALIR"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-ALIR">ALIR</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>Aligned Reads</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SNV"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-SNV">SNV</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>SNV</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GCNV"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-GCNV">GCNV</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>Germline CNV</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GSV"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-GSV">GSV</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>Germline SV</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SSUP"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-SSUP">SSUP</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>Sequencing Data Supplement</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-INDX"> </a>  
-                  <a href="CodeSystem-data-type.html#data-type-INDX">INDX</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>Sequencing Data Index</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/data-type"/>
-        <version value="0.1.0"/>
-        <name value="data-type"/>
-        <title value="Data types"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="Data types"/>
-        <expansion>
-          <identifier value="urn:uuid:866f66da-4d93-4af3-a419-623f6c447fe0"/>
-          <timestamp value="2023-02-14T19:15:47+00:00"/>
-          <total value="6"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
-            <code value="ALIR"/>
-            <display value="Aligned Reads"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
-            <code value="SNV"/>
-            <display value="SNV"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
-            <code value="GCNV"/>
-            <display value="Germline CNV"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
-            <code value="GSV"/>
-            <display value="Germline SV"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
-            <code value="SSUP"/>
-            <display value="Sequencing Data Supplement"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
-            <code value="INDX"/>
-            <display value="Sequencing Data Index"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"/>
-    <resource>
-      <ValueSet>
-        <id value="analysis-request-code"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 10 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-analysis-request-code.html">Analysis request code v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MMG">MMG</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Global Muscular diseases (Global Panel)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-DYSM">DYSM</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Muscular Dystrophies</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RHAB">RHAB</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Rhabdomyolysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MITN">MITN</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Nuclear Mitochondriopathies</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MYOC">MYOC</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Congenital Myopathies</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MYAC">MYAC</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Congenital Myasthenia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-HYPM">HYPM</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Malignant Hyperthermia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RGDI">RGDI</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Global Developmental Delay / Intellectual Deficiency (Trio)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43">RGDI+</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>RGDI+</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-POLYM"> </a>  
-                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-POLYM">POLYM</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Polymalformation</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"/>
-        <version value="0.1.0"/>
-        <name value="analysis-request-code"/>
-        <title value="Analysis request code "/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="Codes of analysis request in our system"/>
-        <expansion>
-          <identifier value="urn:uuid:5939eac1-e965-4dbb-a4f5-285ba301cd35"/>
-          <timestamp value="2023-02-14T19:15:47+00:00"/>
-          <total value="10"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="MMG"/>
-            <display value="Global Muscular diseases (Global Panel)"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="DYSM"/>
-            <display value="Muscular Dystrophies"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="RHAB"/>
-            <display value="Rhabdomyolysis"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="MITN"/>
-            <display value="Nuclear Mitochondriopathies"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="MYOC"/>
-            <display value="Congenital Myopathies"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="MYAC"/>
-            <display value="Congenital Myasthenia"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="HYPM"/>
-            <display value="Malignant Hyperthermia"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="RGDI"/>
-            <display value="Global Developmental Delay / Intellectual Deficiency (Trio)"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="RGDI+"/>
-            <display value="RGDI+"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
-            <code value="POLYM"/>
-            <display value="Polymalformation"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam"/>
-    <resource>
-      <ValueSet>
-        <id value="mitn-default-exam"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 12 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-observation-code.html">Observation codes v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CAAP"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-CAAP">CAAP</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Plasma amino acid chromatography</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ACYL"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-ACYL">ACYL</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Acylcarnitines</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-IRMC"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-IRMC">IRMC</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Cerebral MRI</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CGH"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-CGH">CGH</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Comparative Genomic Hybridization</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-SRMN"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-SRMN">SRMN</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>NMR Spectroscopy</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ECAR"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-ECAR">ECAR</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Cardiac Ultrasound</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EABD"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-EABD">EABD</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Abdominal Ultrasound</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EEG"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-EEG">EEG</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Electroencephalogram (EEG)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-OPHT"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-OPHT">OPHT</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Ophthalmological Examination</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMET"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-BMET">BMET</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Metabolic work-up</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMUS"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-BMUS">BMUS</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Muscle biopsy</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EMG"> </a>  
-                  <a href="CodeSystem-observation-code.html#observation-code-EMG">EMG</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Electromyography (EMG)</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam"/>
-        <version value="0.1.0"/>
-        <name value="mitn-default-exam"/>
-        <title value="Nuclear Mitochondriopathies default para-clinic exams"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2020-08-13T10:49:27-04:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="Nuclear Mitochondriopathies default para-clinic exams"/>
-        <expansion>
-          <identifier value="urn:uuid:5b4cfd18-7008-45ba-b724-7f1c8fbd010f"/>
-          <timestamp value="2023-02-14T19:15:47+00:00"/>
-          <total value="12"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="CAAP"/>
-            <display value="Plasma amino acid chromatography"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="ACYL"/>
-            <display value="Acylcarnitines"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="IRMC"/>
-            <display value="Cerebral MRI"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="CGH"/>
-            <display value="Comparative Genomic Hybridization"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="SRMN"/>
-            <display value="NMR Spectroscopy"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="ECAR"/>
-            <display value="Cardiac Ultrasound"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="EABD"/>
-            <display value="Abdominal Ultrasound"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="EEG"/>
-            <display value="Electroencephalogram (EEG)"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="OPHT"/>
-            <display value="Ophthalmological Examination"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="BMET"/>
-            <display value="Metabolic work-up"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="BMUS"/>
-            <display value="Muscle biopsy"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
-            <code value="EMG"/>
-            <display value="Electromyography (EMG)"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"/>
-    <resource>
-      <ValueSet>
-        <id value="bioinfo-analysis-code"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-bioinfo-analysis-code.html">Bioinformatic analysis codes v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-RABA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA">RABA</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
-                <td>Reads Alignement Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-SNVC"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC">SNVC</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
-                <td>SNV Calling Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-QCBA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA">QCBA</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
-                <td>Quality control Bioinformatic Analysis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-GEBA"> </a>  
-                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA">GEBA</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
-                <td>Germline Exome Bioinformatic Analysis</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"/>
-        <version value="0.1.0"/>
-        <name value="bioinfo-analysis-code"/>
-        <title value="Bioinformatic analysis codes"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="Bioinformatic analysis codes"/>
-        <expansion>
-          <identifier value="urn:uuid:651c04c5-8d05-4c40-9c15-337b50f97cce"/>
-          <timestamp value="2023-02-14T19:15:47+00:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
-            <code value="RABA"/>
-            <display value="Reads Alignement Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
-            <code value="SNVC"/>
-            <display value="SNV Calling Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
-            <code value="QCBA"/>
-            <display value="Quality control Bioinformatic Analysis"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
-            <code value="GEBA"/>
-            <display value="Germline Exome Bioinformatic Analysis"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam"/>
     <resource>
       <ValueSet>
@@ -1168,8 +516,8 @@
         </contact>
         <description value="Muscle disease  default para-clinic exams"/>
         <expansion>
-          <identifier value="urn:uuid:c2868ee2-9b22-4ccd-acc7-851308e9c92b"/>
-          <timestamp value="2023-02-14T19:15:49+00:00"/>
+          <identifier value="urn:uuid:5215567b-8bed-4e55-9fad-b3625eafb668"/>
+          <timestamp value="2023-02-20T18:52:36+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1219,173 +567,16 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type"/>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"/>
     <resource>
       <ValueSet>
-        <id value="specimen-type"/>
+        <id value="bioinfo-analysis-code"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
+            <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-specimen-type.html">Specimen types v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-DNA"> </a>  
-                  <a href="CodeSystem-specimen-type.html#specimen-type-DNA">DNA</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
-                <td>DNA Sample</td>
-                <td>
-                  <div>
-                    <p>DNA sample</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-RNA"> </a>  
-                  <a href="CodeSystem-specimen-type.html#specimen-type-RNA">RNA</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
-                <td>RNA Sample</td>
-                <td>
-                  <div>
-                    <p>RNA sample</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NBL"> </a>  
-                  <a href="CodeSystem-specimen-type.html#specimen-type-NBL">NBL</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
-                <td>Normal Blood Specimen</td>
-                <td>
-                  <div>
-                    <p>Normal blood specimen</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-TUMOR"> </a>  
-                  <a href="CodeSystem-specimen-type.html#specimen-type-TUMOR">TUMOR</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
-                <td>Tumor Specimen</td>
-                <td>
-                  <div>
-                    <p>Tumor specimen</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NORMAL"> </a>  
-                  <a href="CodeSystem-specimen-type.html#specimen-type-NORMAL">NORMAL</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
-                <td>Normal Specimen</td>
-                <td>
-                  <div>
-                    <p>Normal specimen</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type"/>
-        <version value="0.1.0"/>
-        <name value="specimen-type"/>
-        <title value="Specimen types"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="Specimen types"/>
-        <expansion>
-          <identifier value="urn:uuid:94cd8df2-1e08-4676-8bf5-2a6dccbe0284"/>
-          <timestamp value="2023-02-14T19:15:49+00:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
-            <code value="DNA"/>
-            <display value="DNA Sample"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
-            <code value="RNA"/>
-            <display value="RNA Sample"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
-            <code value="NBL"/>
-            <display value="Normal Blood Specimen"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
-            <code value="TUMOR"/>
-            <display value="Tumor Specimen"/>
-          </contains>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
-            <code value="NORMAL"/>
-            <display value="Normal Specimen"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/data-category"/>
-    <resource>
-      <ValueSet>
-        <id value="data-category"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-data-category.html">Data categories v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-bioinfo-analysis-code.html">Bioinformatic analysis codes v0.1.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -1401,22 +592,46 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-category-GENO"> </a>  
-                  <a href="CodeSystem-data-category.html#data-category-GENO">GENO</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-RABA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA">RABA</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-category</td>
-                <td>Genomics</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
+                <td>Reads Alignement Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-SNVC"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC">SNVC</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
+                <td>SNV Calling Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-QCBA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA">QCBA</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
+                <td>Quality control Bioinformatic Analysis</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-GEBA"> </a>  
+                  <a href="CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA">GEBA</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td>
+                <td>Germline Exome Bioinformatic Analysis</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/data-category"/>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"/>
         <version value="0.1.0"/>
-        <name value="data-category"/>
-        <title value="Data categories"/>
+        <name value="bioinfo-analysis-code"/>
+        <title value="Bioinformatic analysis codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1425,142 +640,38 @@
             <value value="mailto:support@ferlab.bio"/>
           </telecom>
         </contact>
-        <description value="Data categories"/>
+        <description value="Bioinformatic analysis codes"/>
         <expansion>
-          <identifier value="urn:uuid:65d625e6-db00-4a5d-bf26-ede7e914d63a"/>
-          <timestamp value="2023-02-14T19:15:49+00:00"/>
-          <total value="1"/>
+          <identifier value="urn:uuid:d644b9b5-a21c-4a34-975d-fcf8916c1fcd"/>
+          <timestamp value="2023-02-20T18:52:37+00:00"/>
+          <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-category|0.1.0"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"/>
-            <code value="GENO"/>
-            <display value="Genomics"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy"/>
-    <resource>
-      <ValueSet>
-        <id value="experimental-strategy"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-experimental-strategy.html">Experimental strategies v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WXS"> </a>  
-                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WXS">WXS</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td>
-                <td>Whole Exome Sequencing</td>
-                <td>
-                  <div>
-                    <p>Whole Exome Sequencing</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WGS"> </a>  
-                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WGS">WGS</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td>
-                <td>Whole Genome Sequencing</td>
-                <td>
-                  <div>
-                    <p>Whole Genome Sequencing</p>
-
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-TARS"> </a>  
-                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-TARS">TARS</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td>
-                <td>Targeted Sequencing</td>
-                <td>
-                  <div>
-                    <p>Tarteted Sequencing</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy"/>
-        <version value="0.1.0"/>
-        <name value="experimental-strategy"/>
-        <title value="Experimental strategies"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="Experimental strategies"/>
-        <expansion>
-          <identifier value="urn:uuid:01efb125-fe9f-4095-88a4-9e0b6cf535fe"/>
-          <timestamp value="2023-02-14T19:15:51+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
-            <code value="WXS"/>
-            <display value="Whole Exome Sequencing"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
+            <code value="RABA"/>
+            <display value="Reads Alignement Bioinformatic Analysis"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
-            <code value="WGS"/>
-            <display value="Whole Genome Sequencing"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
+            <code value="SNVC"/>
+            <display value="SNV Calling Bioinformatic Analysis"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
-            <code value="TARS"/>
-            <display value="Targeted Sequencing"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
+            <code value="QCBA"/>
+            <display value="Quality control Bioinformatic Analysis"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"/>
+            <code value="GEBA"/>
+            <display value="Germline Exome Bioinformatic Analysis"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1728,7 +839,7 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1739,8 +850,8 @@
         </contact>
         <description value="Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"/>
         <expansion>
-          <identifier value="urn:uuid:4d6b5e64-985e-40e4-a5ed-9281b3e5e24b"/>
-          <timestamp value="2023-02-14T19:15:51+00:00"/>
+          <identifier value="urn:uuid:a9e3fadc-6fbf-477f-bb56-9212d33d5b40"/>
+          <timestamp value="2023-02-20T18:52:39+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1800,16 +911,116 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/document-format"/>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/variant-type"/>
     <resource>
       <ValueSet>
-        <id value="document-format"/>
+        <id value="variant-type"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
+            <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-document-format.html">Document formats v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-variant-type.html">Variant types v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-S"> </a>  
+                  <a href="CodeSystem-variant-type.html#variant-type-S">S</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td>
+                <td>Somatic</td>
+                <td>
+                  <div>
+                    <p>Somatic variant</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-G"> </a>  
+                  <a href="CodeSystem-variant-type.html#variant-type-G">G</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td>
+                <td>Germline</td>
+                <td>
+                  <div>
+                    <p>Germline variant</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/variant-type"/>
+        <version value="0.1.0"/>
+        <name value="variant-type"/>
+        <title value="Variant types"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="Variant types"/>
+        <expansion>
+          <identifier value="urn:uuid:581cd039-901c-4585-89d8-50fc186171ef"/>
+          <timestamp value="2023-02-20T18:52:40+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"/>
+            <code value="S"/>
+            <display value="Somatic"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"/>
+            <code value="G"/>
+            <display value="Germline"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"/>
+    <resource>
+      <ValueSet>
+        <id value="analysis-request-code"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-analysis-request-code.html">Analysis request code v0.1.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -1825,54 +1036,94 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAM"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-CRAM">CRAM</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MMG">MMG</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
-                <td>CRAM File</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Global Muscular diseases (Global Panel)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAI"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-CRAI">CRAI</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-DYSM">DYSM</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
-                <td>CRAI Index File</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Muscular Dystrophies</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-VCF"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-VCF">VCF</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RHAB">RHAB</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
-                <td>VCF File</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Rhabdomyolysis</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TBI"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-TBI">TBI</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MITN">MITN</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
-                <td>TBI Index File</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Nuclear Mitochondriopathies</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TGZ"> </a>  
-                  <a href="CodeSystem-document-format.html#document-format-TGZ">TGZ</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MYOC">MYOC</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
-                <td>TGZ Archive File</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Congenital Myopathies</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MYAC">MYAC</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Congenital Myasthenia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-HYPM">HYPM</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Malignant Hyperthermia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RGDI">RGDI</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Global Developmental Delay / Intellectual Deficiency (Trio)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43">RGDI+</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>RGDI+</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-POLYM"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-POLYM">POLYM</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Polymalformation</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/document-format"/>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code"/>
         <version value="0.1.0"/>
-        <name value="document-format"/>
-        <title value="Document formats"/>
+        <name value="analysis-request-code"/>
+        <title value="Analysis request code "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1881,43 +1132,225 @@
             <value value="mailto:support@ferlab.bio"/>
           </telecom>
         </contact>
-        <description value="Document formats"/>
+        <description value="Codes of analysis request in our system"/>
         <expansion>
-          <identifier value="urn:uuid:ae795784-be2f-4da8-8d02-0809b8d5799e"/>
-          <timestamp value="2023-02-14T19:15:51+00:00"/>
-          <total value="5"/>
+          <identifier value="urn:uuid:ae9626f4-3400-4b6c-acbc-7f52b30e5af6"/>
+          <timestamp value="2023-02-20T18:52:40+00:00"/>
+          <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format|0.1.0"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
-            <code value="CRAM"/>
-            <display value="CRAM File"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="MMG"/>
+            <display value="Global Muscular diseases (Global Panel)"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
-            <code value="CRAI"/>
-            <display value="CRAI Index File"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="DYSM"/>
+            <display value="Muscular Dystrophies"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
-            <code value="VCF"/>
-            <display value="VCF File"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="RHAB"/>
+            <display value="Rhabdomyolysis"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
-            <code value="TBI"/>
-            <display value="TBI Index File"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="MITN"/>
+            <display value="Nuclear Mitochondriopathies"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
-            <code value="TGZ"/>
-            <display value="TGZ Archive File"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="MYOC"/>
+            <display value="Congenital Myopathies"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="MYAC"/>
+            <display value="Congenital Myasthenia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="HYPM"/>
+            <display value="Malignant Hyperthermia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="RGDI"/>
+            <display value="Global Developmental Delay / Intellectual Deficiency (Trio)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="RGDI+"/>
+            <display value="RGDI+"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="POLYM"/>
+            <display value="Polymalformation"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/data-category"/>
+    <resource>
+      <ValueSet>
+        <id value="data-category"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-data-category.html">Data categories v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-category-GENO"> </a>  
+                  <a href="CodeSystem-data-category.html#data-category-GENO">GENO</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-category</td>
+                <td>Genomics</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/data-category"/>
+        <version value="0.1.0"/>
+        <name value="data-category"/>
+        <title value="Data categories"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="Data categories"/>
+        <expansion>
+          <identifier value="urn:uuid:dbede6ca-2fbb-4509-8fc6-440abb7d4355"/>
+          <timestamp value="2023-02-20T18:52:40+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-category|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"/>
+            <code value="GENO"/>
+            <display value="Genomics"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities"/>
+    <resource>
+      <ValueSet>
+        <id value="cgh-abnormalities"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-cgh-abnormalities.html">CGH abnormalities v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV0"> </a>  
+                  <a href="CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV0">CNV0</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td>
+                <td>CNVs not explaining phenotypes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV1"> </a>  
+                  <a href="CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV1">CNV1</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td>
+                <td>CNVs explaining phenotypes</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities"/>
+        <version value="0.1.0"/>
+        <name value="cgh-abnormalities"/>
+        <title value="CGH abnormalities"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="CGH abnormalities"/>
+        <expansion>
+          <identifier value="urn:uuid:51d8037d-d7e4-4671-a780-7713c2da8230"/>
+          <timestamp value="2023-02-20T18:52:40+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
+            <code value="CNV0"/>
+            <display value="CNVs not explaining phenotypes"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
+            <code value="CNV1"/>
+            <display value="CNVs explaining phenotypes"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1973,7 +1406,7 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -1984,8 +1417,8 @@
         </contact>
         <description value="Genome build"/>
         <expansion>
-          <identifier value="urn:uuid:7db5ddc2-d98b-40ba-a1fa-012aac0f84a3"/>
-          <timestamp value="2023-02-14T19:15:51+00:00"/>
+          <identifier value="urn:uuid:8ea532ad-28c9-4dc3-877c-7ce36b0ee857"/>
+          <timestamp value="2023-02-20T18:52:40+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2061,7 +1494,7 @@
         <title value="Disease status"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2072,8 +1505,8 @@
         </contact>
         <description value="Disease status"/>
         <expansion>
-          <identifier value="urn:uuid:f5f607d5-8a1e-40a9-b6ac-2c4af464629d"/>
-          <timestamp value="2023-02-14T19:15:52+00:00"/>
+          <identifier value="urn:uuid:afda7444-079b-44dd-af80-dccad2b777de"/>
+          <timestamp value="2023-02-20T18:52:40+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2097,6 +1530,156 @@
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"/>
             <code value="UNKN"/>
             <display value="Unknow"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/data-type"/>
+    <resource>
+      <ValueSet>
+        <id value="data-type"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-data-type.html">Data types v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-ALIR"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-ALIR">ALIR</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Aligned Reads</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SNV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-SNV">SNV</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>SNV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GCNV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-GCNV">GCNV</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Germline CNV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GSV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-GSV">GSV</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Germline SV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SSUP"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-SSUP">SSUP</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Sequencing Data Supplement</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-INDX"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-INDX">INDX</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Sequencing Data Index</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-EXOR"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-EXOR">EXOR</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Exomiser Report</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/data-type"/>
+        <version value="0.1.0"/>
+        <name value="data-type"/>
+        <title value="Data types"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="Data types"/>
+        <expansion>
+          <identifier value="urn:uuid:05a85e75-a28c-4de7-b803-2c6689d8c804"/>
+          <timestamp value="2023-02-20T18:52:41+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="ALIR"/>
+            <display value="Aligned Reads"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="SNV"/>
+            <display value="SNV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="GCNV"/>
+            <display value="Germline CNV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="GSV"/>
+            <display value="Germline SV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="SSUP"/>
+            <display value="Sequencing Data Supplement"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="INDX"/>
+            <display value="Sequencing Data Index"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="EXOR"/>
+            <display value="Exomiser Report"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2481,8 +2064,8 @@
         </contact>
         <description value="Values ​​assigned to relationship fields"/>
         <expansion>
-          <identifier value="urn:uuid:8096583a-5905-4486-8f0c-e08ffcd8a8d6"/>
-          <timestamp value="2023-02-14T19:15:53+00:00"/>
+          <identifier value="urn:uuid:f759fc4a-ce10-4729-bd45-3866e48438b0"/>
+          <timestamp value="2023-02-20T18:52:41+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2616,16 +2199,231 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/variant-type"/>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam"/>
     <resource>
       <ValueSet>
-        <id value="variant-type"/>
+        <id value="mitn-default-exam"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
+            <p>This value set contains 12 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-variant-type.html">Variant types v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-observation-code.html">Observation codes v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CAAP"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-CAAP">CAAP</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Plasma amino acid chromatography</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ACYL"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-ACYL">ACYL</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Acylcarnitines</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-IRMC"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-IRMC">IRMC</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Cerebral MRI</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CGH"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-CGH">CGH</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Comparative Genomic Hybridization</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-SRMN"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-SRMN">SRMN</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>NMR Spectroscopy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ECAR"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-ECAR">ECAR</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Cardiac Ultrasound</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EABD"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-EABD">EABD</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Abdominal Ultrasound</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EEG"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-EEG">EEG</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Electroencephalogram (EEG)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-OPHT"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-OPHT">OPHT</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Ophthalmological Examination</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMET"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-BMET">BMET</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Metabolic work-up</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMUS"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-BMUS">BMUS</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Muscle biopsy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EMG"> </a>  
+                  <a href="CodeSystem-observation-code.html#observation-code-EMG">EMG</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
+                <td>Electromyography (EMG)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam"/>
+        <version value="0.1.0"/>
+        <name value="mitn-default-exam"/>
+        <title value="Nuclear Mitochondriopathies default para-clinic exams"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2020-08-13T10:49:27-04:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="Nuclear Mitochondriopathies default para-clinic exams"/>
+        <expansion>
+          <identifier value="urn:uuid:2225c7ef-4779-40eb-bcb5-3a24fc2fa81d"/>
+          <timestamp value="2023-02-20T18:52:41+00:00"/>
+          <total value="12"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="CAAP"/>
+            <display value="Plasma amino acid chromatography"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="ACYL"/>
+            <display value="Acylcarnitines"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="IRMC"/>
+            <display value="Cerebral MRI"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="CGH"/>
+            <display value="Comparative Genomic Hybridization"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="SRMN"/>
+            <display value="NMR Spectroscopy"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="ECAR"/>
+            <display value="Cardiac Ultrasound"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="EABD"/>
+            <display value="Abdominal Ultrasound"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="EEG"/>
+            <display value="Electroencephalogram (EEG)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="OPHT"/>
+            <display value="Ophthalmological Examination"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="BMET"/>
+            <display value="Metabolic work-up"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="BMUS"/>
+            <display value="Muscle biopsy"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
+            <code value="EMG"/>
+            <display value="Electromyography (EMG)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy"/>
+    <resource>
+      <ValueSet>
+        <id value="experimental-strategy"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-experimental-strategy.html">Experimental strategies v0.1.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -2644,28 +2442,42 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-S"> </a>  
-                  <a href="CodeSystem-variant-type.html#variant-type-S">S</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WXS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WXS">WXS</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td>
-                <td>Somatic</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td>
+                <td>Whole Exome Sequencing</td>
                 <td>
                   <div>
-                    <p>Somatic variant</p>
+                    <p>Whole Exome Sequencing</p>
 
                   </div>
                 </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-G"> </a>  
-                  <a href="CodeSystem-variant-type.html#variant-type-G">G</a>
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WGS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-WGS">WGS</a>
                 </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td>
-                <td>Germline</td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td>
+                <td>Whole Genome Sequencing</td>
                 <td>
                   <div>
-                    <p>Germline variant</p>
+                    <p>Whole Genome Sequencing</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-TARS"> </a>  
+                  <a href="CodeSystem-experimental-strategy.html#experimental-strategy-TARS">TARS</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td>
+                <td>Targeted Sequencing</td>
+                <td>
+                  <div>
+                    <p>Tarteted Sequencing</p>
 
                   </div>
                 </td>
@@ -2673,13 +2485,13 @@
             </table>
           </div>
         </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/variant-type"/>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy"/>
         <version value="0.1.0"/>
-        <name value="variant-type"/>
-        <title value="Variant types"/>
+        <name value="experimental-strategy"/>
+        <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
         <publisher value="Ferlab.bio"/>
         <contact>
           <name value="Cqgc"/>
@@ -2688,113 +2500,33 @@
             <value value="mailto:support@ferlab.bio"/>
           </telecom>
         </contact>
-        <description value="Variant types"/>
+        <description value="Experimental strategies"/>
         <expansion>
-          <identifier value="urn:uuid:41da398b-0faa-47ea-bc28-ae5040dd1309"/>
-          <timestamp value="2023-02-14T19:15:53+00:00"/>
-          <total value="2"/>
+          <identifier value="urn:uuid:a030e75f-47b4-47d7-8623-32613f766715"/>
+          <timestamp value="2023-02-20T18:52:42+00:00"/>
+          <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type|0.1.0"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"/>
-            <code value="S"/>
-            <display value="Somatic"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
+            <code value="WXS"/>
+            <display value="Whole Exome Sequencing"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"/>
-            <code value="G"/>
-            <display value="Germline"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities"/>
-    <resource>
-      <ValueSet>
-        <id value="cgh-abnormalities"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-cgh-abnormalities.html">CGH abnormalities v0.1.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV0"> </a>  
-                  <a href="CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV0">CNV0</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td>
-                <td>CNVs not explaining phenotypes</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV1"> </a>  
-                  <a href="CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV1">CNV1</a>
-                </td>
-                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td>
-                <td>CNVs explaining phenotypes</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities"/>
-        <version value="0.1.0"/>
-        <name value="cgh-abnormalities"/>
-        <title value="CGH abnormalities"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2023-02-14T19:15:12+00:00"/>
-        <publisher value="Ferlab.bio"/>
-        <contact>
-          <name value="Cqgc"/>
-          <telecom>
-            <system value="email"/>
-            <value value="mailto:support@ferlab.bio"/>
-          </telecom>
-        </contact>
-        <description value="CGH abnormalities"/>
-        <expansion>
-          <identifier value="urn:uuid:4833b127-bcbb-4d9b-a33f-f7a6425c64d1"/>
-          <timestamp value="2023-02-14T19:15:53+00:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
-            <code value="CNV0"/>
-            <display value="CNVs not explaining phenotypes"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
+            <code value="WGS"/>
+            <display value="Whole Genome Sequencing"/>
           </contains>
           <contains>
-            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
-            <code value="CNV1"/>
-            <display value="CNVs explaining phenotypes"/>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"/>
+            <code value="TARS"/>
+            <display value="Targeted Sequencing"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -2911,8 +2643,8 @@
         </contact>
         <description value="Types of organization"/>
         <expansion>
-          <identifier value="urn:uuid:f11b24c9-9856-46f5-b78f-42c18f133b83"/>
-          <timestamp value="2023-02-14T19:15:54+00:00"/>
+          <identifier value="urn:uuid:4b55f976-fc24-4352-8ea3-6bb02ac52ba2"/>
+          <timestamp value="2023-02-20T18:52:43+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2945,6 +2677,287 @@
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus"/>
             <code value="labdx"/>
             <display value="Diagnostic Laboratory"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type"/>
+    <resource>
+      <ValueSet>
+        <id value="specimen-type"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-specimen-type.html">Specimen types v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-DNA"> </a>  
+                  <a href="CodeSystem-specimen-type.html#specimen-type-DNA">DNA</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
+                <td>DNA Sample</td>
+                <td>
+                  <div>
+                    <p>DNA sample</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-RNA"> </a>  
+                  <a href="CodeSystem-specimen-type.html#specimen-type-RNA">RNA</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
+                <td>RNA Sample</td>
+                <td>
+                  <div>
+                    <p>RNA sample</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NBL"> </a>  
+                  <a href="CodeSystem-specimen-type.html#specimen-type-NBL">NBL</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
+                <td>Normal Blood Specimen</td>
+                <td>
+                  <div>
+                    <p>Normal blood specimen</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-TUMOR"> </a>  
+                  <a href="CodeSystem-specimen-type.html#specimen-type-TUMOR">TUMOR</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
+                <td>Tumor Specimen</td>
+                <td>
+                  <div>
+                    <p>Tumor specimen</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NORMAL"> </a>  
+                  <a href="CodeSystem-specimen-type.html#specimen-type-NORMAL">NORMAL</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td>
+                <td>Normal Specimen</td>
+                <td>
+                  <div>
+                    <p>Normal specimen</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type"/>
+        <version value="0.1.0"/>
+        <name value="specimen-type"/>
+        <title value="Specimen types"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="Specimen types"/>
+        <expansion>
+          <identifier value="urn:uuid:9b255a83-bd10-4a40-9202-36259531efea"/>
+          <timestamp value="2023-02-20T18:52:43+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
+            <code value="DNA"/>
+            <display value="DNA Sample"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
+            <code value="RNA"/>
+            <display value="RNA Sample"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
+            <code value="NBL"/>
+            <display value="Normal Blood Specimen"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
+            <code value="TUMOR"/>
+            <display value="Tumor Specimen"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"/>
+            <code value="NORMAL"/>
+            <display value="Normal Specimen"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.cqgc.ferlab.bio/ValueSet/document-format"/>
+    <resource>
+      <ValueSet>
+        <id value="document-format"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-document-format.html">Document formats v0.1.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAM"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-CRAM">CRAM</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
+                <td>CRAM File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAI"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-CRAI">CRAI</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
+                <td>CRAI Index File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-VCF"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-VCF">VCF</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
+                <td>VCF File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TBI"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-TBI">TBI</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
+                <td>TBI Index File</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TGZ"> </a>  
+                  <a href="CodeSystem-document-format.html#document-format-TGZ">TGZ</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td>
+                <td>TGZ Archive File</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.cqgc.ferlab.bio/ValueSet/document-format"/>
+        <version value="0.1.0"/>
+        <name value="document-format"/>
+        <title value="Document formats"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-02-20T18:51:53+00:00"/>
+        <publisher value="Ferlab.bio"/>
+        <contact>
+          <name value="Cqgc"/>
+          <telecom>
+            <system value="email"/>
+            <value value="mailto:support@ferlab.bio"/>
+          </telecom>
+        </contact>
+        <description value="Document formats"/>
+        <expansion>
+          <identifier value="urn:uuid:63305945-d7f7-434e-8993-3fb5adeb4553"/>
+          <timestamp value="2023-02-20T18:52:44+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
+            <code value="CRAM"/>
+            <display value="CRAM File"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
+            <code value="CRAI"/>
+            <display value="CRAI Index File"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
+            <code value="VCF"/>
+            <display value="VCF File"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
+            <code value="TBI"/>
+            <display value="TBI Index File"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"/>
+            <code value="TGZ"/>
+            <display value="TGZ Archive File"/>
           </contains>
         </expansion>
       </ValueSet>
