@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Experimental strategies"]; # 
   fhir:CodeSystem.status [ fhir:value "draft"]; # 
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:CodeSystem.date [ fhir:value "2023-02-20T19:32:51+00:00"^^xsd:dateTime]; # 
+  fhir:CodeSystem.date [ fhir:value "2023-02-21T11:59:56+00:00"^^xsd:dateTime]; # 
   fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
