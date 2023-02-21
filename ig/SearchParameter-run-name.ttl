@@ -17,7 +17,7 @@
   fhir:SearchParameter.name [ fhir:value "run-name"]; # 
   fhir:SearchParameter.status [ fhir:value "active"]; # 
   fhir:SearchParameter.experimental [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:SearchParameter.date [ fhir:value "2023-02-21T11:59:56+00:00"^^xsd:dateTime]; # 
+  fhir:SearchParameter.date [ fhir:value "2023-02-21T12:43:59+00:00"^^xsd:dateTime]; # 
   fhir:SearchParameter.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:SearchParameter.contact [
      fhir:index 0;

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "92f6a159-eb5f-4dd0-ba21-955c72cecf4c",
+  "id" : "76d43970-cd88-4b3e-bcbc-91f8ad3f4721",
   "meta" : {
-    "lastUpdated" : "2023-02-21T11:59:56.189+00:00"
+    "lastUpdated" : "2023-02-21T12:43:59.488+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -20,7 +20,7 @@
       "title" : "observation code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -31,8 +31,8 @@
       }],
       "description" : "Codes of observations in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:1ff208ba-db21-4026-969b-a1261ca9bab6",
-        "timestamp" : "2023-02-21T12:00:24+00:00",
+        "identifier" : "urn:uuid:f7fd2e72-4bd4-4e6e-9c0c-e218b053d537",
+        "timestamp" : "2023-02-21T12:44:35+00:00",
         "total" : 27,
         "parameter" : [{
           "name" : "excludeNested",
@@ -206,8 +206,8 @@
       }],
       "description" : "Muscle disease  default para-clinic exams",
       "expansion" : {
-        "identifier" : "urn:uuid:d1263a42-117f-4383-899c-08685db5012b",
-        "timestamp" : "2023-02-21T12:00:25+00:00",
+        "identifier" : "urn:uuid:5a47a899-75bf-4099-9086-54bd07bf781f",
+        "timestamp" : "2023-02-21T12:44:37+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -270,7 +270,7 @@
       "title" : "Bioinformatic analysis codes",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -281,8 +281,8 @@
       }],
       "description" : "Bioinformatic analysis codes",
       "expansion" : {
-        "identifier" : "urn:uuid:b9533d85-c404-4ad8-a6f7-c2b66e4ff0be",
-        "timestamp" : "2023-02-21T12:00:26+00:00",
+        "identifier" : "urn:uuid:6ef71d11-6dea-4cd8-8b10-831246f23375",
+        "timestamp" : "2023-02-21T12:44:38+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -335,7 +335,7 @@
       "title" : "Qc ethnicity",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -346,8 +346,8 @@
       }],
       "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
       "expansion" : {
-        "identifier" : "urn:uuid:115f22eb-07ae-4939-9a66-06df7e83a825",
-        "timestamp" : "2023-02-21T12:00:27+00:00",
+        "identifier" : "urn:uuid:1c15c568-06d4-4f01-8079-03577cd2702d",
+        "timestamp" : "2023-02-21T12:44:40+00:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -420,7 +420,7 @@
       "title" : "Variant types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -431,8 +431,8 @@
       }],
       "description" : "Variant types",
       "expansion" : {
-        "identifier" : "urn:uuid:d2dc2e9d-93e8-4198-9a45-1e4ea5c76eae",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:e13e45a2-7368-4a5d-807e-1d9272f3bacb",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -470,7 +470,7 @@
       "title" : "Analysis request code ",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -481,8 +481,8 @@
       }],
       "description" : "Codes of analysis request in our system",
       "expansion" : {
-        "identifier" : "urn:uuid:60c30232-89fa-4cdf-97d7-54db4c83b705",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:5402dddf-bedd-476a-b585-2bed1cc7d8c4",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -560,7 +560,7 @@
       "title" : "Data categories",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -571,8 +571,8 @@
       }],
       "description" : "Data categories",
       "expansion" : {
-        "identifier" : "urn:uuid:54ffa0f3-3520-4227-a817-6584816db4b0",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:2a1424a9-bd34-4596-8c63-b11b51008dd1",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -605,7 +605,7 @@
       "title" : "CGH abnormalities",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -616,8 +616,8 @@
       }],
       "description" : "CGH abnormalities",
       "expansion" : {
-        "identifier" : "urn:uuid:3fd61245-94e9-4319-a16d-3ee327aecbe5",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:f3dd3e6f-dfe8-4212-845e-e0f47b58ae83",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -655,7 +655,7 @@
       "title" : "Genome build",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -666,8 +666,8 @@
       }],
       "description" : "Genome build",
       "expansion" : {
-        "identifier" : "urn:uuid:cf35b61d-0ec9-473e-a51c-0019f580fa9d",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:afa40591-b633-4d26-857b-c990c8de9a16",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -700,7 +700,7 @@
       "title" : "Disease status",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -711,8 +711,8 @@
       }],
       "description" : "Disease status",
       "expansion" : {
-        "identifier" : "urn:uuid:39b07d10-093f-44dd-8305-c44354513a63",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:123d1bfe-9588-4fcc-b353-770a5c434e6a",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -747,7 +747,7 @@
       "id" : "data-type",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-type.html\">Data types v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-ALIR\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-ALIR\">ALIR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SNV\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-SNV\">SNV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GCNV\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-GCNV\">GCNV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GSV\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-GSV\">GSV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SSUP\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-SSUP\">SSUP</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-INDX\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-INDX\">INDX</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-EXOR\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-EXOR\">EXOR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Exomiser Report</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-OTHER\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-OTHER\">OTHER</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Undefined Data Type</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-type.html\">Data types v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-ALIR\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-ALIR\">ALIR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SNV\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-SNV\">SNV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GCNV\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-GCNV\">GCNV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GSV\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-GSV\">GSV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SSUP\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-SSUP\">SSUP</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-INDX\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-INDX\">INDX</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-REPORT\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-REPORT\">REPORT</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Data Report</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-OTHER\"> </a>  <a href=\"CodeSystem-data-type.html#data-type-OTHER\">OTHER</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td><td>Undefined Data Type</td></tr></table></div>"
       },
       "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
       "version" : "0.1.0",
@@ -755,7 +755,7 @@
       "title" : "Data types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -766,8 +766,8 @@
       }],
       "description" : "Data types",
       "expansion" : {
-        "identifier" : "urn:uuid:289af624-3d5c-4201-90bf-54b9c58e840b",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:05ad66a6-f4a5-41e6-bc1d-640a2c8716be",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -809,8 +809,8 @@
         },
         {
           "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
-          "code" : "EXOR",
-          "display" : "Exomiser Report"
+          "code" : "REPORT",
+          "display" : "Data Report"
         },
         {
           "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
@@ -846,8 +846,8 @@
       }],
       "description" : "Values ​​assigned to relationship fields",
       "expansion" : {
-        "identifier" : "urn:uuid:ba9d50b4-bd56-447f-8c04-623d06914529",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:e97201bd-1781-4b63-86f9-53cd8ba1e962",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1005,8 +1005,8 @@
       }],
       "description" : "Nuclear Mitochondriopathies default para-clinic exams",
       "expansion" : {
-        "identifier" : "urn:uuid:8fe3c04a-1032-4ab6-9903-34e5e351f9bc",
-        "timestamp" : "2023-02-21T12:00:28+00:00",
+        "identifier" : "urn:uuid:3fa166f9-b6cf-4ff4-93aa-58ee4dde34bc",
+        "timestamp" : "2023-02-21T12:44:41+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1094,7 +1094,7 @@
       "title" : "Experimental strategies",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -1105,8 +1105,8 @@
       }],
       "description" : "Experimental strategies",
       "expansion" : {
-        "identifier" : "urn:uuid:3a1f957a-da9e-4acd-acaf-7f544b6b4be2",
-        "timestamp" : "2023-02-21T12:00:29+00:00",
+        "identifier" : "urn:uuid:7a763c52-515c-4889-865a-9a660fe8f252",
+        "timestamp" : "2023-02-21T12:44:44+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1160,8 +1160,8 @@
       }],
       "description" : "Types of organization",
       "expansion" : {
-        "identifier" : "urn:uuid:f4053ce7-0804-497f-89aa-d42976dee627",
-        "timestamp" : "2023-02-21T12:00:30+00:00",
+        "identifier" : "urn:uuid:e831d3b7-545a-4522-b919-e33777dca67b",
+        "timestamp" : "2023-02-21T12:44:45+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1213,7 +1213,7 @@
       "title" : "Specimen types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -1224,8 +1224,8 @@
       }],
       "description" : "Specimen types",
       "expansion" : {
-        "identifier" : "urn:uuid:95a34c16-c733-451e-aecb-4cc8e3388e3e",
-        "timestamp" : "2023-02-21T12:00:30+00:00",
+        "identifier" : "urn:uuid:5349f83f-329f-4e36-b9d7-c54f30233710",
+        "timestamp" : "2023-02-21T12:44:45+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1278,7 +1278,7 @@
       "title" : "Document formats",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-02-21T11:59:56+00:00",
+      "date" : "2023-02-21T12:43:59+00:00",
       "publisher" : "Ferlab.bio",
       "contact" : [{
         "name" : "Cqgc",
@@ -1289,8 +1289,8 @@
       }],
       "description" : "Document formats",
       "expansion" : {
-        "identifier" : "urn:uuid:34f0050b-b6ed-46b2-a6e6-08d7a416408e",
-        "timestamp" : "2023-02-21T12:00:30+00:00",
+        "identifier" : "urn:uuid:0c643b67-2f2e-4c08-95bc-d5f9ef9c3a10",
+        "timestamp" : "2023-02-21T12:44:46+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
