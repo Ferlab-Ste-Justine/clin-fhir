@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "resident-supervisor"]; # 
   fhir:StructureDefinition.title [ fhir:value "Resident Supervisor"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-02-21T12:43:59+00:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-02-28T17:04:12+00:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

@@ -1,9 +1,9 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 10, warn = 113, info = 0
-IG Publisher Version: 1.2.37
-Generated Tue Feb 21 12:45:07 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 18, warn = 113, info = 0
+IG Publisher Version: 1.2.38
+Generated Tue Feb 28 17:05:14 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -15,10 +15,10 @@ Generated Tue Feb 21 12:45:07 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 2 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason : 2 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-resident-supervisor : 2 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-sequencing-experiment : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-sequencing-experiment : 4 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-specimen-type : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-status-history : 2 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow : 0 / 1 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow : 4 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 3 / 1
@@ -116,7 +116,11 @@ ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The kind re
 ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-sequencing-experiment.json ==
+ERROR: Sequencing expriment.extension.Extension.extension.url: Element Extension.extension.url: derived min (0) cannot be less than base min (1)
+ERROR: Sequencing expriment.Extension.url: Element Extension.url: derived min (0) cannot be less than base min (1)
 WARNING: StructureDefinition/sequencing-experiment: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: StructureDefinition/sequencing-experiment: StructureDefinition: Element Extension.extension.url: derived min (0) cannot be less than base min (1)
+ERROR: StructureDefinition/sequencing-experiment: StructureDefinition: Element Extension.url: derived min (0) cannot be less than base min (1)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-specimen-type.json ==
 WARNING: StructureDefinition/specimen-type: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -127,6 +131,10 @@ ERROR: StructureDefinition/status-history: StructureDefinition: The kind resourc
 ERROR: StructureDefinition/status-history: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-workflow.json ==
+ERROR: Workflow Extension.extension.Extension.extension.url: Element Extension.extension.url: derived min (0) cannot be less than base min (1)
+ERROR: Workflow Extension.extension.Extension.extension.url: Element Extension.extension.url: derived min (0) cannot be less than base min (1)
+ERROR: StructureDefinition/workflow: StructureDefinition: Element Extension.extension.url: derived min (0) cannot be less than base min (1)
+ERROR: StructureDefinition/workflow: StructureDefinition: Element Extension.extension.url: derived min (0) cannot be less than base min (1)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow'): The Implementation Guide contains no examples for this extension
 == input/resources/profiles/StructureDefinition-cqgc-analysis-request.json ==
 WARNING: StructureDefinition/cqgc-analysis-request: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
