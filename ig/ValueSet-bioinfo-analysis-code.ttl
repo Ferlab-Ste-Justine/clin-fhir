@@ -5,42 +5,34 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "bioinfo-analysis-code"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bioinfo-analysis-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code></a></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "bioinfo-analysis-code"]; # 
-  fhir:ValueSet.title [ fhir:value "Bioinformatic analysis codes"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2023-02-28T17:04:12+00:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Bioinformatic analysis codes"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code" ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bioinfo-analysis-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-bioinfo-analysis-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "bioinfo-analysis-code"] ; # 
+  fhir:title [ fhir:v "Bioinformatic analysis codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-09T16:02:20+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Bioinformatic analysis codes"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI ]
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

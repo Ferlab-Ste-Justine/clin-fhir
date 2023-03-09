@@ -5,955 +5,776 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation> a fhir:StructureDefinition;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "family-relation"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension\" title=\"Patient from the same family.\">Extension</a><a name=\"Extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient from the same family<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:subject\" title=\"Slice subject: Reference to the related patient or person (Patient | Person).\">extension:subject</a><a name=\"Extension.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to the related patient (membre de la famille)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:subject.url\">url</a><a name=\"Extension.extension.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"color: darkgreen\">&quot;subject&quot;</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:subject.value[x]\">value[x]</a><a name=\"Extension.extension.value_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a> | <a href=\"http://hl7.org/fhir/R4/person.html\">Person</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Value of extension</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:relation\" title=\"Slice relation: Type of the relationship with the related patient.\">extension:relation</a><a name=\"Extension.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Type of the relationship with the related patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:relation.url\">url</a><a name=\"Extension.extension.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"color: darkgreen\">&quot;relation&quot;</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:relation.value[x]\">value[x]</a><a name=\"Extension.extension.value_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Value of extension</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://terminology.hl7.org/5.0.0/ValueSet-v3-FamilyMember.html\">FamilyMember</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>): A relationship between two people characterizing their 'biological' relationship.<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.url\">url</a><a name=\"Extension.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"color: darkgreen\">&quot;http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation&quot;</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">value[x]</span><a name=\"Extension.value_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
-  ]; # 
-  fhir:StructureDefinition.url [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation"]; # 
-  fhir:StructureDefinition.version [ fhir:value "0.1.0"]; # 
-  fhir:StructureDefinition.name [ fhir:value "family-relation"]; # 
-  fhir:StructureDefinition.title [ fhir:value "Family Relation"]; # 
-  fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-02-28T17:04:12+00:00"^^xsd:dateTime]; # 
-  fhir:StructureDefinition.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:StructureDefinition.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:StructureDefinition.description [ fhir:value "Patient from the same family."]; # 
-  fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"]; # 
-  fhir:StructureDefinition.mapping [
-     fhir:index 0;
-     fhir:StructureDefinition.mapping.identity [ fhir:value "rim" ];
-     fhir:StructureDefinition.mapping.uri [ fhir:value "http://hl7.org/v3" ];
-     fhir:StructureDefinition.mapping.name [ fhir:value "RIM Mapping" ]
-  ]; # 
-  fhir:StructureDefinition.kind [ fhir:value "complex-type"]; # 
-  fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:StructureDefinition.context [
-     fhir:index 0;
-     fhir:StructureDefinition.context.type [ fhir:value "element" ];
-     fhir:StructureDefinition.context.expression [ fhir:value "Patient" ]
-  ]; # 
-  fhir:StructureDefinition.type [ fhir:value "Extension"]; # 
-  fhir:StructureDefinition.baseDefinition [
-     fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+<http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation> a fhir:StructureDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "family-relation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension\" title=\"Patient from the same family.\">Extension</a><a name=\"Extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient from the same family<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:subject\" title=\"Slice subject: Reference to the related patient or person (Patient | Person).\">extension:subject</a><a name=\"Extension.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reference to the related patient (membre de la famille)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:subject.url\">url</a><a name=\"Extension.extension.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"color: darkgreen\">&quot;subject&quot;</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:subject.value[x]\">value[x]</a><a name=\"Extension.extension.value_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a> | <a href=\"http://hl7.org/fhir/R4/person.html\">Person</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Value of extension</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:relation\" title=\"Slice relation: Type of the relationship with the related patient.\">extension:relation</a><a name=\"Extension.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Type of the relationship with the related patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:relation.url\">url</a><a name=\"Extension.extension.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"color: darkgreen\">&quot;relation&quot;</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slice.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.extension:relation.value[x]\">value[x]</a><a name=\"Extension.extension.value_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Value of extension</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://terminology.hl7.org/5.0.0/ValueSet-v3-FamilyMember.html\">FamilyMember</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>): A relationship between two people characterizing their 'biological' relationship.<br/><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-family-relation-definitions.html#Extension.url\">url</a><a name=\"Extension.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"color: darkgreen\">&quot;http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation&quot;</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <span style=\"text-decoration:line-through\">value[x]</span><a name=\"Extension.value_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"text-decoration:line-through\"/><span style=\"text-decoration:line-through\">0</span><span style=\"text-decoration:line-through\">..</span><span style=\"text-decoration:line-through\">0</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "family-relation"] ; # 
+  fhir:title [ fhir:v "Family Relation"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-03-09T16:02:20+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Patient from the same family."] ; # 
+  fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
+  fhir:mapping ( [
+     fhir:identity [ fhir:v "rim" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/v3"^^xsd:anyURI ] ;
+     fhir:name [ fhir:v "RIM Mapping" ]
+  ] ) ; # 
+  fhir:kind [ fhir:v "complex-type"] ; # 
+  fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:context ( [
+     fhir:type [ fhir:v "element" ] ;
+     fhir:expression [ fhir:v "Patient" ]
+  ] ) ; # 
+  fhir:type [ fhir:v "Extension"^^xsd:anyURI] ; # 
+  fhir:baseDefinition [
+     fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
      fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-  ]; # 
-  fhir:StructureDefinition.derivation [ fhir:value "constraint"]; # 
-  fhir:StructureDefinition.snapshot [
-     fhir:StructureDefinition.snapshot.element [
-       fhir:index 0;
-       fhir:Element.id [ fhir:value "Extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension" ];
-       fhir:ElementDefinition.short [ fhir:value "Patient from the same family" ];
-       fhir:ElementDefinition.definition [ fhir:value "Patient from the same family." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.condition [
-         fhir:value "ele-1";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+  ] ; # 
+  fhir:derivation [ fhir:v "constraint"] ; # 
+  fhir:snapshot [
+     fhir:element ( [
+       fhir:id [ fhir:v "Extension" ] ;
+       fhir:path [ fhir:v "Extension" ] ;
+       fhir:short [ fhir:v "Patient from the same family" ] ;
+       fhir:definition [ fhir:v "Patient from the same family." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:condition ( [ fhir:v "ele-1" ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
-       ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 1;
-       fhir:Element.id [ fhir:value "Extension.id" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.id" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
-       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 2;
-       fhir:Element.id [ fhir:value "Extension.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension" ];
-       fhir:ElementDefinition.slicing [
-         fhir:ElementDefinition.slicing.discriminator [
-           fhir:index 0;
-           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
-           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
-         ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
-       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
-       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "extensions";
-         fhir:index 0
-       ], [
-         fhir:value "user content";
-         fhir:index 1
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ) ;
+       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Extension.id" ] ;
+       fhir:path [ fhir:v "Extension.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension" ] ;
+       fhir:path [ fhir:v "Extension.extension" ] ;
+       fhir:slicing [
+         fhir:discriminator ( [
+           fhir:type [ fhir:v "value" ] ;
+           fhir:path [ fhir:v "url" ]
+         ] ) ;
+         fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
+         fhir:rules [ fhir:v "open" ]
+       ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 3;
-       fhir:Element.id [ fhir:value "Extension.extension:subject" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "subject" ];
-       fhir:ElementDefinition.short [ fhir:value "Reference to the related patient (membre de la famille)" ];
-       fhir:ElementDefinition.definition [ fhir:value "Reference to the related patient or person (Patient | Person)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject" ] ;
+       fhir:path [ fhir:v "Extension.extension" ] ;
+       fhir:sliceName [ fhir:v "subject" ] ;
+       fhir:short [ fhir:v "Reference to the related patient (membre de la famille)" ] ;
+       fhir:definition [ fhir:v "Reference to the related patient or person (Patient | Person)." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 4;
-       fhir:Element.id [ fhir:value "Extension.extension:subject.id" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.id" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
-       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 5;
-       fhir:Element.id [ fhir:value "Extension.extension:subject.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.extension" ];
-       fhir:ElementDefinition.slicing [
-         fhir:ElementDefinition.slicing.discriminator [
-           fhir:index 0;
-           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
-           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
-         ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
-       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
-       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "extensions";
-         fhir:index 0
-       ], [
-         fhir:value "user content";
-         fhir:index 1
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject.id" ] ;
+       fhir:path [ fhir:v "Extension.extension.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject.extension" ] ;
+       fhir:path [ fhir:v "Extension.extension.extension" ] ;
+       fhir:slicing [
+         fhir:discriminator ( [
+           fhir:type [ fhir:v "value" ] ;
+           fhir:path [ fhir:v "url" ]
+         ] ) ;
+         fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
+         fhir:rules [ fhir:v "open" ]
+       ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 6;
-       fhir:Element.id [ fhir:value "Extension.extension:subject.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.url" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
-       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
-         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "subject" ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 7;
-       fhir:Element.id [ fhir:value "Extension.extension:subject.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Value of extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
-           fhir:index 0;
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject.url" ] ;
+       fhir:path [ fhir:v "Extension.extension.url" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "identifies the meaning of the extension" ] ;
+       fhir:definition [ fhir:v "Source of the definition for the extension code - a logical name or a URL." ] ;
+       fhir:comment [ fhir:v "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension.url" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "uri"^^xsd:anyURI ]
+       ] ) ;
+       fhir:fixed [ fhir:v "subject"^^xsd:anyURI ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject.value[x]" ] ;
+       fhir:path [ fhir:v "Extension.extension.value[x]" ] ;
+       fhir:short [ fhir:v "Value of extension" ] ;
+       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension.value[x]" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
+         fhir:targetProfile ( [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
-         ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Person";
-           fhir:index 1;
+         ] [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Person"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Person>
-         ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+         ] )
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 8;
-       fhir:Element.id [ fhir:value "Extension.extension:relation" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "relation" ];
-       fhir:ElementDefinition.short [ fhir:value "Type of the relationship with the related patient" ];
-       fhir:ElementDefinition.definition [ fhir:value "Type of the relationship with the related patient." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation" ] ;
+       fhir:path [ fhir:v "Extension.extension" ] ;
+       fhir:sliceName [ fhir:v "relation" ] ;
+       fhir:short [ fhir:v "Type of the relationship with the related patient" ] ;
+       fhir:definition [ fhir:v "Type of the relationship with the related patient." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 9;
-       fhir:Element.id [ fhir:value "Extension.extension:relation.id" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.id" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
-       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 10;
-       fhir:Element.id [ fhir:value "Extension.extension:relation.extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.extension" ];
-       fhir:ElementDefinition.slicing [
-         fhir:ElementDefinition.slicing.discriminator [
-           fhir:index 0;
-           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
-           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
-         ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
-       ];
-       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
-       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
-       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "extensions";
-         fhir:index 0
-       ], [
-         fhir:value "user content";
-         fhir:index 1
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation.id" ] ;
+       fhir:path [ fhir:v "Extension.extension.id" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.id" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "string"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation.extension" ] ;
+       fhir:path [ fhir:v "Extension.extension.extension" ] ;
+       fhir:slicing [
+         fhir:discriminator ( [
+           fhir:type [ fhir:v "value" ] ;
+           fhir:path [ fhir:v "url" ]
+         ] ) ;
+         fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
+         fhir:rules [ fhir:v "open" ]
+       ] ;
+       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Element.extension" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+       ] [
+         fhir:key [ fhir:v "ext-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
+         fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Extension"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
-       ]
-     ], [
-       fhir:index 11;
-       fhir:Element.id [ fhir:value "Extension.extension:relation.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.url" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
-       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
-         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "relation" ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 12;
-       fhir:Element.id [ fhir:value "Extension.extension:relation.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Value of extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "n/a" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation.url" ] ;
+       fhir:path [ fhir:v "Extension.extension.url" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "identifies the meaning of the extension" ] ;
+       fhir:definition [ fhir:v "Source of the definition for the extension code - a logical name or a URL." ] ;
+       fhir:comment [ fhir:v "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension.url" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "uri"^^xsd:anyURI ]
+       ] ) ;
+       fhir:fixed [ fhir:v "relation"^^xsd:anyURI ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation.value[x]" ] ;
+       fhir:path [ fhir:v "Extension.extension.value[x]" ] ;
+       fhir:short [ fhir:v "Value of extension" ] ;
+       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension.value[x]" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "A relationship between two people characterizing their 'biological' relationship." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://terminology.hl7.org/ValueSet/v3-FamilyMember";
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:strength [ fhir:v "required" ] ;
+         fhir:description [ fhir:v "A relationship between two people characterizing their 'biological' relationship." ] ;
+         fhir:valueSet [
+           fhir:v "http://terminology.hl7.org/ValueSet/v3-FamilyMember"^^xsd:anyURI ;
            fhir:link <http://terminology.hl7.org/ValueSet/v3-FamilyMember>
          ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 13;
-       fhir:Element.id [ fhir:value "Extension.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.url" ];
-       fhir:ElementDefinition.representation [
-         fhir:value "xmlAttr";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
-       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
-         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "uri" ]
-         ];
-         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation" ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ], [
-       fhir:index 14;
-       fhir:Element.id [ fhir:value "Extension.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Value of extension" ];
-       fhir:ElementDefinition.definition [ fhir:value "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "0" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "1" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "base64Binary" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.type.code [ fhir:value "boolean" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.type.code [ fhir:value "canonical" ]
-       ], [
-         fhir:index 3;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ], [
-         fhir:index 4;
-         fhir:ElementDefinition.type.code [ fhir:value "date" ]
-       ], [
-         fhir:index 5;
-         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ], [
-         fhir:index 6;
-         fhir:ElementDefinition.type.code [ fhir:value "decimal" ]
-       ], [
-         fhir:index 7;
-         fhir:ElementDefinition.type.code [ fhir:value "id" ]
-       ], [
-         fhir:index 8;
-         fhir:ElementDefinition.type.code [ fhir:value "instant" ]
-       ], [
-         fhir:index 9;
-         fhir:ElementDefinition.type.code [ fhir:value "integer" ]
-       ], [
-         fhir:index 10;
-         fhir:ElementDefinition.type.code [ fhir:value "markdown" ]
-       ], [
-         fhir:index 11;
-         fhir:ElementDefinition.type.code [ fhir:value "oid" ]
-       ], [
-         fhir:index 12;
-         fhir:ElementDefinition.type.code [ fhir:value "positiveInt" ]
-       ], [
-         fhir:index 13;
-         fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ], [
-         fhir:index 14;
-         fhir:ElementDefinition.type.code [ fhir:value "time" ]
-       ], [
-         fhir:index 15;
-         fhir:ElementDefinition.type.code [ fhir:value "unsignedInt" ]
-       ], [
-         fhir:index 16;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ], [
-         fhir:index 17;
-         fhir:ElementDefinition.type.code [ fhir:value "url" ]
-       ], [
-         fhir:index 18;
-         fhir:ElementDefinition.type.code [ fhir:value "uuid" ]
-       ], [
-         fhir:index 19;
-         fhir:ElementDefinition.type.code [ fhir:value "Address" ]
-       ], [
-         fhir:index 20;
-         fhir:ElementDefinition.type.code [ fhir:value "Age" ]
-       ], [
-         fhir:index 21;
-         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
-       ], [
-         fhir:index 22;
-         fhir:ElementDefinition.type.code [ fhir:value "Attachment" ]
-       ], [
-         fhir:index 23;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ], [
-         fhir:index 24;
-         fhir:ElementDefinition.type.code [ fhir:value "Coding" ]
-       ], [
-         fhir:index 25;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ]
-       ], [
-         fhir:index 26;
-         fhir:ElementDefinition.type.code [ fhir:value "Count" ]
-       ], [
-         fhir:index 27;
-         fhir:ElementDefinition.type.code [ fhir:value "Distance" ]
-       ], [
-         fhir:index 28;
-         fhir:ElementDefinition.type.code [ fhir:value "Duration" ]
-       ], [
-         fhir:index 29;
-         fhir:ElementDefinition.type.code [ fhir:value "HumanName" ]
-       ], [
-         fhir:index 30;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ], [
-         fhir:index 31;
-         fhir:ElementDefinition.type.code [ fhir:value "Money" ]
-       ], [
-         fhir:index 32;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ], [
-         fhir:index 33;
-         fhir:ElementDefinition.type.code [ fhir:value "Quantity" ]
-       ], [
-         fhir:index 34;
-         fhir:ElementDefinition.type.code [ fhir:value "Range" ]
-       ], [
-         fhir:index 35;
-         fhir:ElementDefinition.type.code [ fhir:value "Ratio" ]
-       ], [
-         fhir:index 36;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
-       ], [
-         fhir:index 37;
-         fhir:ElementDefinition.type.code [ fhir:value "SampledData" ]
-       ], [
-         fhir:index 38;
-         fhir:ElementDefinition.type.code [ fhir:value "Signature" ]
-       ], [
-         fhir:index 39;
-         fhir:ElementDefinition.type.code [ fhir:value "Timing" ]
-       ], [
-         fhir:index 40;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactDetail" ]
-       ], [
-         fhir:index 41;
-         fhir:ElementDefinition.type.code [ fhir:value "Contributor" ]
-       ], [
-         fhir:index 42;
-         fhir:ElementDefinition.type.code [ fhir:value "DataRequirement" ]
-       ], [
-         fhir:index 43;
-         fhir:ElementDefinition.type.code [ fhir:value "Expression" ]
-       ], [
-         fhir:index 44;
-         fhir:ElementDefinition.type.code [ fhir:value "ParameterDefinition" ]
-       ], [
-         fhir:index 45;
-         fhir:ElementDefinition.type.code [ fhir:value "RelatedArtifact" ]
-       ], [
-         fhir:index 46;
-         fhir:ElementDefinition.type.code [ fhir:value "TriggerDefinition" ]
-       ], [
-         fhir:index 47;
-         fhir:ElementDefinition.type.code [ fhir:value "UsageContext" ]
-       ], [
-         fhir:index 48;
-         fhir:ElementDefinition.type.code [ fhir:value "Dosage" ]
-       ], [
-         fhir:index 49;
-         fhir:ElementDefinition.type.code [ fhir:value "Meta" ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+       ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.url" ] ;
+       fhir:path [ fhir:v "Extension.url" ] ;
+       fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
+       fhir:short [ fhir:v "identifies the meaning of the extension" ] ;
+       fhir:definition [ fhir:v "Source of the definition for the extension code - a logical name or a URL." ] ;
+       fhir:comment [ fhir:v "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension.url" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "uri"^^xsd:anyURI ]
+         ] ) ;
+         fhir:code [ fhir:v "http://hl7.org/fhirpath/System.String"^^xsd:anyURI ]
+       ] ) ;
+       fhir:fixed [ fhir:v "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation"^^xsd:anyURI ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.value[x]" ] ;
+       fhir:path [ fhir:v "Extension.value[x]" ] ;
+       fhir:short [ fhir:v "Value of extension" ] ;
+       fhir:definition [ fhir:v "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "0" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Extension.value[x]" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "base64Binary"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "canonical"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "dateTime"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "id"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "instant"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "integer"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "markdown"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "oid"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "positiveInt"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "time"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "unsignedInt"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "uri"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "url"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "uuid"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Address"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Age"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Annotation"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Attachment"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Coding"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Count"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Distance"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Duration"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "HumanName"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Identifier"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Money"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Period"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Quantity"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Range"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Ratio"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Reference"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "SampledData"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Signature"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Timing"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "ContactDetail"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Contributor"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "DataRequirement"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Expression"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "ParameterDefinition"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "RelatedArtifact"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "TriggerDefinition"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "UsageContext"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Dosage"^^xsd:anyURI ]
+       ] [
+         fhir:code [ fhir:v "Meta"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
-     ]
-  ]; # 
-  fhir:StructureDefinition.differential [
-     fhir:StructureDefinition.differential.element [
-       fhir:index 0;
-       fhir:Element.id [ fhir:value "Extension" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension" ];
-       fhir:ElementDefinition.short [ fhir:value "Patient from the same family" ];
-       fhir:ElementDefinition.definition [ fhir:value "Patient from the same family." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 1;
-       fhir:Element.id [ fhir:value "Extension.extension:subject" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "subject" ];
-       fhir:ElementDefinition.short [ fhir:value "Reference to the related patient (membre de la famille)" ];
-       fhir:ElementDefinition.definition [ fhir:value "Reference to the related patient or person (Patient | Person)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ]
-     ], [
-       fhir:index 2;
-       fhir:Element.id [ fhir:value "Extension.extension:subject.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.url" ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "subject" ]
-     ], [
-       fhir:index 3;
-       fhir:Element.id [ fhir:value "Extension.extension:subject.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.value[x]" ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
-           fhir:index 0;
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "rim" ] ;
+         fhir:map [ fhir:v "N/A" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:differential [
+     fhir:element ( [
+       fhir:id [ fhir:v "Extension" ] ;
+       fhir:path [ fhir:v "Extension" ] ;
+       fhir:short [ fhir:v "Patient from the same family" ] ;
+       fhir:definition [ fhir:v "Patient from the same family." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:mustSupport [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject" ] ;
+       fhir:path [ fhir:v "Extension.extension" ] ;
+       fhir:sliceName [ fhir:v "subject" ] ;
+       fhir:short [ fhir:v "Reference to the related patient (membre de la famille)" ] ;
+       fhir:definition [ fhir:v "Reference to the related patient or person (Patient | Person)." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject.url" ] ;
+       fhir:path [ fhir:v "Extension.extension.url" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "uri"^^xsd:anyURI ]
+       ] ) ;
+       fhir:fixed [ fhir:v "subject"^^xsd:anyURI ]
+     ] [
+       fhir:id [ fhir:v "Extension.extension:subject.value[x]" ] ;
+       fhir:path [ fhir:v "Extension.extension.value[x]" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
+         fhir:targetProfile ( [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
-         ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Person";
-           fhir:index 1;
+         ] [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Person"^^xsd:anyURI ;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Person>
-         ]
-       ]
-     ], [
-       fhir:index 4;
-       fhir:Element.id [ fhir:value "Extension.extension:relation" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "relation" ];
-       fhir:ElementDefinition.short [ fhir:value "Type of the relationship with the related patient" ];
-       fhir:ElementDefinition.definition [ fhir:value "Type of the relationship with the related patient." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
-       ]
-     ], [
-       fhir:index 5;
-       fhir:Element.id [ fhir:value "Extension.extension:relation.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.url" ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "relation" ]
-     ], [
-       fhir:index 6;
-       fhir:Element.id [ fhir:value "Extension.extension:relation.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.extension.value[x]" ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.binding [
-         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "A relationship between two people characterizing their 'biological' relationship." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://terminology.hl7.org/ValueSet/v3-FamilyMember";
+         ] )
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation" ] ;
+       fhir:path [ fhir:v "Extension.extension" ] ;
+       fhir:sliceName [ fhir:v "relation" ] ;
+       fhir:short [ fhir:v "Type of the relationship with the related patient" ] ;
+       fhir:definition [ fhir:v "Type of the relationship with the related patient." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Extension"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation.url" ] ;
+       fhir:path [ fhir:v "Extension.extension.url" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "uri"^^xsd:anyURI ]
+       ] ) ;
+       fhir:fixed [ fhir:v "relation"^^xsd:anyURI ]
+     ] [
+       fhir:id [ fhir:v "Extension.extension:relation.value[x]" ] ;
+       fhir:path [ fhir:v "Extension.extension.value[x]" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:binding [
+         fhir:strength [ fhir:v "required" ] ;
+         fhir:description [ fhir:v "A relationship between two people characterizing their 'biological' relationship." ] ;
+         fhir:valueSet [
+           fhir:v "http://terminology.hl7.org/ValueSet/v3-FamilyMember"^^xsd:anyURI ;
            fhir:link <http://terminology.hl7.org/ValueSet/v3-FamilyMember>
          ]
        ]
-     ], [
-       fhir:index 7;
-       fhir:Element.id [ fhir:value "Extension.url" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.url" ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.fixedUri [ fhir:value "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation" ]
-     ], [
-       fhir:index 8;
-       fhir:Element.id [ fhir:value "Extension.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Extension.value[x]" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "0" ]
-     ]
+     ] [
+       fhir:id [ fhir:v "Extension.url" ] ;
+       fhir:path [ fhir:v "Extension.url" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:fixed [ fhir:v "http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation"^^xsd:anyURI ]
+     ] [
+       fhir:id [ fhir:v "Extension.value[x]" ] ;
+       fhir:path [ fhir:v "Extension.value[x]" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "0" ]
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

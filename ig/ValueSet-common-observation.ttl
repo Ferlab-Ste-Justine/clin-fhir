@@ -5,106 +5,84 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/common-observation> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "common-observation"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>OBSG</td><td>General Observation</td><td>Observation générale</td></tr><tr><td>INDIC</td><td>Indication</td><td>Indication</td></tr><tr><td>INVES</td><td>Investigation</td><td>Investigation</td></tr><tr><td>CONS</td><td>Consanguinity</td><td>Consanguinité</td></tr><tr><td>MFTH</td><td>Missing Mother</td><td>Mère manquante</td></tr><tr><td>MMTH</td><td>Missing Father</td><td>Père manquant</td></tr><tr><td>DSTA</td><td>Patient Disease Status</td><td>Statut de la maladie du patient</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "common-observation"]; # 
-  fhir:ValueSet.title [ fhir:value "Set of observations that are common to all analyses"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-13T10:49:27-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Set of observations that are common to all analyses"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "OBSG" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "General Observation" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Observation générale" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "INDIC" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indication" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Indication" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "INVES" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Investigation" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Investigation" ]
-         ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "CONS" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Consanguinity" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Consanguinité" ]
-         ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "MFTH" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Missing Mother" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Mère manquante" ]
-         ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "MMTH" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Missing Father" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Père manquant" ]
-         ]
-       ], [
-         fhir:index 6;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "DSTA" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Patient Disease Status" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Statut de la maladie du patient" ]
-         ]
-       ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/common-observation> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "common-observation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>OBSG</td><td>General Observation</td><td>Observation générale</td></tr><tr><td>INDIC</td><td>Indication</td><td>Indication</td></tr><tr><td>INVES</td><td>Investigation</td><td>Investigation</td></tr><tr><td>CONS</td><td>Consanguinity</td><td>Consanguinité</td></tr><tr><td>MFTH</td><td>Missing Mother</td><td>Mère manquante</td></tr><tr><td>MMTH</td><td>Missing Father</td><td>Père manquant</td></tr><tr><td>DSTA</td><td>Patient Disease Status</td><td>Statut de la maladie du patient</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "common-observation"] ; # 
+  fhir:title [ fhir:v "Set of observations that are common to all analyses"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-13T10:49:27-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Set of observations that are common to all analyses"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "OBSG" ] ;
+         fhir:display [ fhir:v "General Observation" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Observation générale" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "INDIC" ] ;
+         fhir:display [ fhir:v "Indication" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Indication" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "INVES" ] ;
+         fhir:display [ fhir:v "Investigation" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Investigation" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "CONS" ] ;
+         fhir:display [ fhir:v "Consanguinity" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Consanguinité" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "MFTH" ] ;
+         fhir:display [ fhir:v "Missing Mother" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Mère manquante" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "MMTH" ] ;
+         fhir:display [ fhir:v "Missing Father" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Père manquant" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "DSTA" ] ;
+         fhir:display [ fhir:v "Patient Disease Status" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Statut de la maladie du patient" ]
+         ] )
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/common-observation.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

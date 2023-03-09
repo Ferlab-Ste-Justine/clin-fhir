@@ -5,73 +5,58 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/organization-type> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "organization-type"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html\"><code>http://terminology.hl7.org/CodeSystem/organization-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-prov\">prov</a></td><td>Healthcare Provider</td><td>An organization that provides healthcare services.</td><td>Prestataire de santé</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-dept\">dept</a></td><td>Hospital Department</td><td>A department or ward within a hospital (Generally is not applicable to top level organizations)</td><td>Département hospitalier</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-other\">other</a></td><td>Other</td><td>Other type of organization not already specified.</td><td>Autre</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-organization-type-plus.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus</code></a></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "organization-type"]; # 
-  fhir:ValueSet.title [ fhir:value "Organization type"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-20T11:23:24-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Types of organization"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/organization-type" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "prov" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Healthcare Provider" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Prestataire de santé" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "dept" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hospital Department" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Département hospitalier" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "other" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Other" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Autre" ]
-         ]
-       ]
-     ], [
-       fhir:index 1;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus" ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/organization-type> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "organization-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html\"><code>http://terminology.hl7.org/CodeSystem/organization-type</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-prov\">prov</a></td><td>Healthcare Provider</td><td>An organization that provides healthcare services.</td><td>Prestataire de santé</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-dept\">dept</a></td><td>Hospital Department</td><td>A department or ward within a hospital (Generally is not applicable to top level organizations)</td><td>Département hospitalier</td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-other\">other</a></td><td>Other</td><td>Other type of organization not already specified.</td><td>Autre</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-organization-type-plus.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "organization-type"] ; # 
+  fhir:title [ fhir:v "Organization type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-20T11:23:24-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types of organization"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "prov" ] ;
+         fhir:display [ fhir:v "Healthcare Provider" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Prestataire de santé" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "dept" ] ;
+         fhir:display [ fhir:v "Hospital Department" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Département hospitalier" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "other" ] ;
+         fhir:display [ fhir:v "Other" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Autre" ]
+         ] )
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus"^^xsd:anyURI ]
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/organization-type.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

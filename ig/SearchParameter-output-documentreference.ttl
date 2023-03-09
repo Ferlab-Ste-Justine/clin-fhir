@@ -5,46 +5,33 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference> a fhir:SearchParameter;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "output-documentreference"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>output-documentreference</h2><p>Parameter <code>output-documentreference</code>:<code>reference</code></p><div><p>Searches Document references by task output.</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/task.html\">Task</a></td></tr><tr><td>Expression</td><td><code>Task.output.value</code></td></tr><tr><td>Target Resources</td><td><a href=\"http://hl7.org/fhir/R4/documentreference.html\">DocumentReference</a></td></tr><tr><td>Multiples</td><td>The parameter cannot repeat or have multiple values</td></tr></table></div>"
-  ]; # 
-  fhir:SearchParameter.url [ fhir:value "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference"]; # 
-  fhir:SearchParameter.version [ fhir:value "0.1.0"]; # 
-  fhir:SearchParameter.name [ fhir:value "output-documentreference"]; # 
-  fhir:SearchParameter.status [ fhir:value "active"]; # 
-  fhir:SearchParameter.experimental [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:SearchParameter.date [ fhir:value "2020-07-20T20:58:16.044037+00:00"^^xsd:dateTime]; # 
-  fhir:SearchParameter.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:SearchParameter.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:SearchParameter.description [ fhir:value "Searches Document references by task output."]; # 
-  fhir:SearchParameter.code [ fhir:value "output-documentreference"]; # 
-  fhir:SearchParameter.base [
-     fhir:value "Task";
-     fhir:index 0
-  ]; # 
-  fhir:SearchParameter.type [ fhir:value "reference"]; # 
-  fhir:SearchParameter.expression [ fhir:value "Task.output.value"]; # 
-  fhir:SearchParameter.target [
-     fhir:value "DocumentReference";
-     fhir:index 0
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference> a fhir:SearchParameter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "output-documentreference"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>output-documentreference</h2><p>Parameter <code>output-documentreference</code>:<code>reference</code></p><div><p>Searches Document references by task output.</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R4/task.html\">Task</a></td></tr><tr><td>Expression</td><td><code>Task.output.value</code></td></tr><tr><td>Target Resources</td><td><a href=\"http://hl7.org/fhir/R4/documentreference.html\">DocumentReference</a></td></tr><tr><td>Multiples</td><td>The parameter cannot repeat or have multiple values</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "output-documentreference"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-07-20T20:58:16.044037+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Searches Document references by task output."] ; # 
+  fhir:code [ fhir:v "output-documentreference"] ; # 
+  fhir:base ( [ fhir:v "Task"] ) ; # 
+  fhir:type [ fhir:v "reference"] ; # 
+  fhir:expression [ fhir:v "Task.output.value"] ; # 
+  fhir:target ( [ fhir:v "DocumentReference"] ) . # 
 
 # -------------------------------------------------------------------------------------
 

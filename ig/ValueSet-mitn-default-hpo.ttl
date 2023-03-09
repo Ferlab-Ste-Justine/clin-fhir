@@ -5,160 +5,126 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "mitn-default-hpo"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0003128</td><td>Lactic acidosis</td><td>Acidose lactique</td></tr><tr><td>HP:0001263</td><td>Global developmental delay</td><td>Retard global de développement</td></tr><tr><td>HP:0001290</td><td>Generalized hypotonia</td><td>Hypotonie généralisée</td></tr><tr><td>HP:0001250</td><td>Seizures</td><td>Crise d'épilepsie</td></tr><tr><td>HP:0006965</td><td>Acute necrotizing encephalopathy</td><td>Encéphalopathie nécrosante aiguë</td></tr><tr><td>HP:0001251</td><td>Ataxia</td><td>Ataxie</td></tr><tr><td>HP:0006554</td><td>Acute hepatic failure</td><td>Insuffisance hépatique aiguë</td></tr><tr><td>HP:0006582</td><td>Reye syndrome-like episodes</td><td>Épisodes de type syndrome de Reye</td></tr><tr><td>HP:0001638</td><td>Cardiomyopathy</td><td>Cardiomyopathie</td></tr><tr><td>HP:0001488</td><td>Bilateral ptosis</td><td>Ptose bilatérale</td></tr><tr><td>HP:0000508</td><td>Ptosis</td><td>Ptose</td></tr><tr><td>HP:0001138</td><td>Optic neuropathy</td><td>Neuropathie optique</td></tr><tr><td>HP:0000590</td><td>Progressive external ophthalmoplegia</td><td>Ophtalmoplégie externe progressive</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "mitn-default-hpo"]; # 
-  fhir:ValueSet.title [ fhir:value "Nuclear Mitochondriopathies default clinical signs (HPO code)"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-13T10:49:27-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Category of Nuclear Mitochondriopathies default clinical signs (HPO code)"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003128" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lactic acidosis" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Acidose lactique" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001263" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Global developmental delay" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Retard global de développement" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001290" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Generalized hypotonia" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Hypotonie généralisée" ]
-         ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001250" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seizures" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Crise d'épilepsie" ]
-         ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0006965" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Acute necrotizing encephalopathy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Encéphalopathie nécrosante aiguë" ]
-         ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001251" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ataxia" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Ataxie" ]
-         ]
-       ], [
-         fhir:index 6;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0006554" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Acute hepatic failure" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Insuffisance hépatique aiguë" ]
-         ]
-       ], [
-         fhir:index 7;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0006582" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Reye syndrome-like episodes" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Épisodes de type syndrome de Reye" ]
-         ]
-       ], [
-         fhir:index 8;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001638" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cardiomyopathy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Cardiomyopathie" ]
-         ]
-       ], [
-         fhir:index 9;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001488" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bilateral ptosis" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Ptose bilatérale" ]
-         ]
-       ], [
-         fhir:index 10;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0000508" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ptosis" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Ptose" ]
-         ]
-       ], [
-         fhir:index 11;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0001138" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Optic neuropathy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Neuropathie optique" ]
-         ]
-       ], [
-         fhir:index 12;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0000590" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Progressive external ophthalmoplegia" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Ophtalmoplégie externe progressive" ]
-         ]
-       ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mitn-default-hpo"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0003128</td><td>Lactic acidosis</td><td>Acidose lactique</td></tr><tr><td>HP:0001263</td><td>Global developmental delay</td><td>Retard global de développement</td></tr><tr><td>HP:0001290</td><td>Generalized hypotonia</td><td>Hypotonie généralisée</td></tr><tr><td>HP:0001250</td><td>Seizures</td><td>Crise d'épilepsie</td></tr><tr><td>HP:0006965</td><td>Acute necrotizing encephalopathy</td><td>Encéphalopathie nécrosante aiguë</td></tr><tr><td>HP:0001251</td><td>Ataxia</td><td>Ataxie</td></tr><tr><td>HP:0006554</td><td>Acute hepatic failure</td><td>Insuffisance hépatique aiguë</td></tr><tr><td>HP:0006582</td><td>Reye syndrome-like episodes</td><td>Épisodes de type syndrome de Reye</td></tr><tr><td>HP:0001638</td><td>Cardiomyopathy</td><td>Cardiomyopathie</td></tr><tr><td>HP:0001488</td><td>Bilateral ptosis</td><td>Ptose bilatérale</td></tr><tr><td>HP:0000508</td><td>Ptosis</td><td>Ptose</td></tr><tr><td>HP:0001138</td><td>Optic neuropathy</td><td>Neuropathie optique</td></tr><tr><td>HP:0000590</td><td>Progressive external ophthalmoplegia</td><td>Ophtalmoplégie externe progressive</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "mitn-default-hpo"] ; # 
+  fhir:title [ fhir:v "Nuclear Mitochondriopathies default clinical signs (HPO code)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-13T10:49:27-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Category of Nuclear Mitochondriopathies default clinical signs (HPO code)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "HP:0003128" ] ;
+         fhir:display [ fhir:v "Lactic acidosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Acidose lactique" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001263" ] ;
+         fhir:display [ fhir:v "Global developmental delay" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Retard global de développement" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001290" ] ;
+         fhir:display [ fhir:v "Generalized hypotonia" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Hypotonie généralisée" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001250" ] ;
+         fhir:display [ fhir:v "Seizures" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Crise d'épilepsie" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0006965" ] ;
+         fhir:display [ fhir:v "Acute necrotizing encephalopathy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Encéphalopathie nécrosante aiguë" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001251" ] ;
+         fhir:display [ fhir:v "Ataxia" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Ataxie" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0006554" ] ;
+         fhir:display [ fhir:v "Acute hepatic failure" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Insuffisance hépatique aiguë" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0006582" ] ;
+         fhir:display [ fhir:v "Reye syndrome-like episodes" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Épisodes de type syndrome de Reye" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001638" ] ;
+         fhir:display [ fhir:v "Cardiomyopathy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Cardiomyopathie" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001488" ] ;
+         fhir:display [ fhir:v "Bilateral ptosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Ptose bilatérale" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0000508" ] ;
+         fhir:display [ fhir:v "Ptosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Ptose" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0001138" ] ;
+         fhir:display [ fhir:v "Optic neuropathy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Neuropathie optique" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0000590" ] ;
+         fhir:display [ fhir:v "Progressive external ophthalmoplegia" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Ophtalmoplégie externe progressive" ]
+         ] )
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

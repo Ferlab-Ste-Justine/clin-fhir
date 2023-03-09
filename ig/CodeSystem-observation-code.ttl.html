@@ -168,7 +168,7 @@
         
           Draft
           
-            as of 2023-02-28
+            as of 2023-03-09
           
         
       </td>
@@ -192,255 +192,194 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:CodeSystem;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;observation-code&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This code system &lt;code&gt;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OBSG&lt;a name=\&quot;observation-code-OBSG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;General Observation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INDIC&lt;a name=\&quot;observation-code-INDIC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INVES&lt;a name=\&quot;observation-code-INVES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Investigation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BMUS&lt;a name=\&quot;observation-code-BMUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BMET&lt;a name=\&quot;observation-code-BMET\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Metabolic work-up&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CKIN&lt;a name=\&quot;observation-code-CKIN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serum creatine kinase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAAP&lt;a name=\&quot;observation-code-CAAP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plasma amino acid chromatography&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ACYL&lt;a name=\&quot;observation-code-ACYL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Acylcarnitines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IRMC&lt;a name=\&quot;observation-code-IRMC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cerebral MRI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IRMM&lt;a name=\&quot;observation-code-IRMM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle MRI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SRMN&lt;a name=\&quot;observation-code-SRMN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NMR Spectroscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ECAR&lt;a name=\&quot;observation-code-ECAR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cardiac Ultrasound&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EABD&lt;a name=\&quot;observation-code-EABD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abdominal Ultrasound&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EEG&lt;a name=\&quot;observation-code-EEG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electroencephalogram (EEG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EMG&lt;a name=\&quot;observation-code-EMG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electromyography (EMG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OPHT&lt;a name=\&quot;observation-code-OPHT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ophthalmological Examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONS&lt;a name=\&quot;observation-code-CONS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Consanguinity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DSTA&lt;a name=\&quot;observation-code-DSTA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient Disease Status&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CTGR&lt;a name=\&quot;observation-code-CTGR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CTG Repeat Testing (Steinert Disease)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GCNR&lt;a name=\&quot;observation-code-GCNR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TGDD&lt;a name=\&quot;observation-code-TGDD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CGH&lt;a name=\&quot;observation-code-CGH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Comparative Genomic Hybridization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TSXF&lt;a name=\&quot;observation-code-TSXF\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fragile X Syndrome Testing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MMTH&lt;a name=\&quot;observation-code-MMTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Missing Mother&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MFTH&lt;a name=\&quot;observation-code-MFTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Missing Father&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ETHN&lt;a name=\&quot;observation-code-ETHN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ethnicity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHEN&lt;a name=\&quot;observation-code-PHEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Clinical Sign (HPO)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Additional Language Displays&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OBSG&lt;/td&gt;&lt;td&gt;Observation générale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;INDIC&lt;/td&gt;&lt;td&gt;Indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;INVES&lt;/td&gt;&lt;td&gt;Investigation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;BMUS&lt;/td&gt;&lt;td&gt;Biopsie musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;BMET&lt;/td&gt;&lt;td&gt;Bilan métabolique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CKIN&lt;/td&gt;&lt;td&gt;Créatine kinase sérique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAAP&lt;/td&gt;&lt;td&gt;Chromatographie acides aminés plasmatiques&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ACYL&lt;/td&gt;&lt;td&gt;Acylcarnitines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IRMC&lt;/td&gt;&lt;td&gt;IRM cérébrale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IRMM&lt;/td&gt;&lt;td&gt;IRM musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SRMN&lt;/td&gt;&lt;td&gt;Spectroscopie RMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ECAR&lt;/td&gt;&lt;td&gt;Échographie cardiaque&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EABD&lt;/td&gt;&lt;td&gt;Échographie abdominale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EEG&lt;/td&gt;&lt;td&gt;Électroencéphalogramme (EEG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EMG&lt;/td&gt;&lt;td&gt;Electromyographie (EMG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OPHT&lt;/td&gt;&lt;td&gt;Examen ophtalmologique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CONS&lt;/td&gt;&lt;td&gt;Consanguinité&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DSTA&lt;/td&gt;&lt;td&gt;Statut de la maladie du patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CTGR&lt;/td&gt;&lt;td&gt;Test répétitions CTG (maladie de Steinert)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GCNR&lt;/td&gt;&lt;td&gt;Test répétitions GCN (dystrophie musculaire oculopharyngée)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TGDD&lt;/td&gt;&lt;td&gt;Test délétions et duplication (dystrophies Duchenne et Becker)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CGH&lt;/td&gt;&lt;td&gt;Hybridation génomique comparative&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TSXF&lt;/td&gt;&lt;td&gt;Test syndrome de X fragile&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MMTH&lt;/td&gt;&lt;td&gt;Mère manquante&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MFTH&lt;/td&gt;&lt;td&gt;Père manquant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ETHN&lt;/td&gt;&lt;td&gt;Ethnicité&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PHEN&lt;/td&gt;&lt;td&gt;Signe clinique (HPO)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;0.1.0&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;observation-code&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:CodeSystem.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation codes&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;draft&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:CodeSystem.experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2023-02-28T17:04:12+00:00&quot;^^xsd:dateTime]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:CodeSystem.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ferlab.bio&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:CodeSystem.contact</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cqgc&quot; ];
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mailto:support@ferlab.bio&quot; ]     ]
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Codes of observations in our system&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;complete&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:CodeSystem.count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:value</a> &quot;25&quot;^^xsd:nonNegativeInteger]; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;OBSG&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;General Observation&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Observation générale&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;INDIC&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Indication&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Indication&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;INVES&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Investigation&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Investigation&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BMUS&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Muscle biopsy&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Biopsie musculaire&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BMET&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Metabolic work-up&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Bilan métabolique&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CKIN&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Serum creatine kinase&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Créatine kinase sérique&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CAAP&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plasma amino acid chromatography&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chromatographie acides aminés plasmatiques&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ACYL&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Acylcarnitines&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Acylcarnitines&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;IRMC&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cerebral MRI&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IRM cérébrale&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;IRMM&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Muscle MRI&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IRM musculaire&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SRMN&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;NMR Spectroscopy&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Spectroscopie RMN&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ECAR&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cardiac Ultrasound&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Échographie cardiaque&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;EABD&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Abdominal Ultrasound&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Échographie abdominale&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 13;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;EEG&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Electroencephalogram (EEG)&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Électroencéphalogramme (EEG)&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 14;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;EMG&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Electromyography (EMG)&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Electromyographie (EMG)&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 15;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;OPHT&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ophthalmological Examination&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Examen ophtalmologique&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 16;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CONS&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Consanguinity&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Consanguinité&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 17;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;DSTA&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient Disease Status&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Statut de la maladie du patient&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 18;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CTGR&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CTG Repeat Testing (Steinert Disease)&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test répétitions CTG (maladie de Steinert)&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 19;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;GCNR&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test répétitions GCN (dystrophie musculaire oculopharyngée)&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 20;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TGDD&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test délétions et duplication (dystrophies Duchenne et Becker)&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 21;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CGH&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Comparative Genomic Hybridization&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Hybridation génomique comparative&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 22;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TSXF&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Fragile X Syndrome Testing&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test syndrome de X fragile&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 23;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MMTH&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Missing Mother&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mère manquante&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 24;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MFTH&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Missing Father&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Père manquant&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 25;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ETHN&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ethnicity&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ethnicité&quot; ]     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 26;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PHEN&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Clinical Sign (HPO)&quot; ];
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:CodeSystem.concept.designation</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:CodeSystem.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:CodeSystem.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Signe clinique (HPO)&quot; ]     ]
-  ]. # 
-
-# - ontology header ------------------------------------------------------------
-
- a owl:Ontology;
-  owl:imports fhir:fhir.ttl.
+ a fhir:CodeSystem ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;observation-code&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This code system &lt;code&gt;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OBSG&lt;a name=\&quot;observation-code-OBSG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;General Observation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INDIC&lt;a name=\&quot;observation-code-INDIC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;INVES&lt;a name=\&quot;observation-code-INVES\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Investigation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BMUS&lt;a name=\&quot;observation-code-BMUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BMET&lt;a name=\&quot;observation-code-BMET\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Metabolic work-up&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CKIN&lt;a name=\&quot;observation-code-CKIN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serum creatine kinase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAAP&lt;a name=\&quot;observation-code-CAAP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plasma amino acid chromatography&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ACYL&lt;a name=\&quot;observation-code-ACYL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Acylcarnitines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IRMC&lt;a name=\&quot;observation-code-IRMC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cerebral MRI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;IRMM&lt;a name=\&quot;observation-code-IRMM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle MRI&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SRMN&lt;a name=\&quot;observation-code-SRMN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;NMR Spectroscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ECAR&lt;a name=\&quot;observation-code-ECAR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cardiac Ultrasound&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EABD&lt;a name=\&quot;observation-code-EABD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Abdominal Ultrasound&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EEG&lt;a name=\&quot;observation-code-EEG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electroencephalogram (EEG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EMG&lt;a name=\&quot;observation-code-EMG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electromyography (EMG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;OPHT&lt;a name=\&quot;observation-code-OPHT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ophthalmological Examination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CONS&lt;a name=\&quot;observation-code-CONS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Consanguinity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DSTA&lt;a name=\&quot;observation-code-DSTA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Patient Disease Status&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CTGR&lt;a name=\&quot;observation-code-CTGR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;CTG Repeat Testing (Steinert Disease)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;GCNR&lt;a name=\&quot;observation-code-GCNR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TGDD&lt;a name=\&quot;observation-code-TGDD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CGH&lt;a name=\&quot;observation-code-CGH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Comparative Genomic Hybridization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TSXF&lt;a name=\&quot;observation-code-TSXF\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fragile X Syndrome Testing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MMTH&lt;a name=\&quot;observation-code-MMTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Missing Mother&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MFTH&lt;a name=\&quot;observation-code-MFTH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Missing Father&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ETHN&lt;a name=\&quot;observation-code-ETHN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ethnicity&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PHEN&lt;a name=\&quot;observation-code-PHEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Clinical Sign (HPO)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Additional Language Displays&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OBSG&lt;/td&gt;&lt;td&gt;Observation générale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;INDIC&lt;/td&gt;&lt;td&gt;Indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;INVES&lt;/td&gt;&lt;td&gt;Investigation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;BMUS&lt;/td&gt;&lt;td&gt;Biopsie musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;BMET&lt;/td&gt;&lt;td&gt;Bilan métabolique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CKIN&lt;/td&gt;&lt;td&gt;Créatine kinase sérique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CAAP&lt;/td&gt;&lt;td&gt;Chromatographie acides aminés plasmatiques&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ACYL&lt;/td&gt;&lt;td&gt;Acylcarnitines&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IRMC&lt;/td&gt;&lt;td&gt;IRM cérébrale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;IRMM&lt;/td&gt;&lt;td&gt;IRM musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SRMN&lt;/td&gt;&lt;td&gt;Spectroscopie RMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ECAR&lt;/td&gt;&lt;td&gt;Échographie cardiaque&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EABD&lt;/td&gt;&lt;td&gt;Échographie abdominale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EEG&lt;/td&gt;&lt;td&gt;Électroencéphalogramme (EEG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;EMG&lt;/td&gt;&lt;td&gt;Electromyographie (EMG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;OPHT&lt;/td&gt;&lt;td&gt;Examen ophtalmologique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CONS&lt;/td&gt;&lt;td&gt;Consanguinité&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DSTA&lt;/td&gt;&lt;td&gt;Statut de la maladie du patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CTGR&lt;/td&gt;&lt;td&gt;Test répétitions CTG (maladie de Steinert)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;GCNR&lt;/td&gt;&lt;td&gt;Test répétitions GCN (dystrophie musculaire oculopharyngée)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TGDD&lt;/td&gt;&lt;td&gt;Test délétions et duplication (dystrophies Duchenne et Becker)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;CGH&lt;/td&gt;&lt;td&gt;Hybridation génomique comparative&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;TSXF&lt;/td&gt;&lt;td&gt;Test syndrome de X fragile&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MMTH&lt;/td&gt;&lt;td&gt;Mère manquante&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;MFTH&lt;/td&gt;&lt;td&gt;Père manquant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ETHN&lt;/td&gt;&lt;td&gt;Ethnicité&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;PHEN&lt;/td&gt;&lt;td&gt;Signe clinique (HPO)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;observation-code&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Observation codes&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;false&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-03-09T16:02:20+00:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ferlab.bio&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Cqgc&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mailto:support@ferlab.bio&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Codes of observations in our system&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;true&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:v</a> &quot;25&quot;^^xsd:nonNegativeInteger] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:concept</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;OBSG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;General Observation&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Observation générale&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;INDIC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Indication&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Indication&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;INVES&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Investigation&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Investigation&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BMUS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Muscle biopsy&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Biopsie musculaire&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BMET&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Metabolic work-up&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Bilan métabolique&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CKIN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Serum creatine kinase&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Créatine kinase sérique&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CAAP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plasma amino acid chromatography&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chromatographie acides aminés plasmatiques&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ACYL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Acylcarnitines&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Acylcarnitines&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;IRMC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Cerebral MRI&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;IRM cérébrale&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;IRMM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Muscle MRI&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;IRM musculaire&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;SRMN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NMR Spectroscopy&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Spectroscopie RMN&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ECAR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Cardiac Ultrasound&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Échographie cardiaque&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EABD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Abdominal Ultrasound&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Échographie abdominale&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EEG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Electroencephalogram (EEG)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Électroencéphalogramme (EEG)&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EMG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Electromyography (EMG)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Electromyographie (EMG)&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;OPHT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ophthalmological Examination&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Examen ophtalmologique&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CONS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Consanguinity&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Consanguinité&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;DSTA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient Disease Status&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Statut de la maladie du patient&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CTGR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CTG Repeat Testing (Steinert Disease)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test répétitions CTG (maladie de Steinert)&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;GCNR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test répétitions GCN (dystrophie musculaire oculopharyngée)&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TGDD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test délétions et duplication (dystrophies Duchenne et Becker)&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CGH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Comparative Genomic Hybridization&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hybridation génomique comparative&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TSXF&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Fragile X Syndrome Testing&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test syndrome de X fragile&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MMTH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Missing Mother&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mère manquante&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MFTH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Missing Father&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Père manquant&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ETHN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ethnicity&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ethnicité&quot; ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PHEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Clinical Sign (HPO)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Signe clinique (HPO)&quot; ]     ] )
+  ] ) . # 
 
 </code></pre>
 
@@ -473,7 +412,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 28, 2023 17:04+0000">2023-02-28</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 9, 2023 16:02+0000">2023-03-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

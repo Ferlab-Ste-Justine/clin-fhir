@@ -192,132 +192,98 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:ValueSet;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;age-at-onset&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;http://purl.obolibrary.org/obo/hp.owl&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003577&lt;/td&gt;&lt;td&gt;Congenital onset&lt;/td&gt;&lt;td&gt;Apparition congénitale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0030674&lt;/td&gt;&lt;td&gt;Antenatal onset&lt;/td&gt;&lt;td&gt;Apparition anténatale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011460&lt;/td&gt;&lt;td&gt;Embryonal onset&lt;/td&gt;&lt;td&gt;Apparition embryonnaire (âge &amp;lt; 10 semaines de gestation)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011461&lt;/td&gt;&lt;td&gt;Fetal onset&lt;/td&gt;&lt;td&gt;Apparition foetale (âge &amp;gt;= 10 semaines de gestation)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003623&lt;/td&gt;&lt;td&gt;Neonatal onset&lt;/td&gt;&lt;td&gt;Apparition néonatale (âge &amp;lt; 28 jours)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003593&lt;/td&gt;&lt;td&gt;Infantile onset&lt;/td&gt;&lt;td&gt;Apparition dans l'enfance (28 jours &amp;lt;= âge &amp;lt; 1 an)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011463&lt;/td&gt;&lt;td&gt;Childhood onset&lt;/td&gt;&lt;td&gt;Apparition chez l'enfant (1 an &amp;lt;= âge &amp;lt; 5 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003621&lt;/td&gt;&lt;td&gt;Juvenile onset&lt;/td&gt;&lt;td&gt;Apparition juvénile (5 ans &amp;lt;= âge &amp;lt;= 15 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0410280&lt;/td&gt;&lt;td&gt;Pediatric onset&lt;/td&gt;&lt;td&gt;Apparition pédiatrique (âge &amp;lt;= 15 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003581&lt;/td&gt;&lt;td&gt;Adult onset&lt;/td&gt;&lt;td&gt;Apparition à l'âge adulte (âge &amp;gt;= 16 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011462&lt;/td&gt;&lt;td&gt;Young adult onset&lt;/td&gt;&lt;td&gt;Apparition chez le jeune adulte (16 ans &amp;lt;= âge &amp;lt; 40 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003596&lt;/td&gt;&lt;td&gt;Middle age onset&lt;/td&gt;&lt;td&gt;Apparition à l'âge moyen (40 ans &amp;lt;= âge &amp;lt; 60 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003584&lt;/td&gt;&lt;td&gt;Late onset&lt;/td&gt;&lt;td&gt;Apparition tardive (âge &amp;gt;= 60 ans)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;0.1.0&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;age-at-onset&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Age at Onset Codes&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;draft&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:ValueSet.experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2020-08-12T13:29:08-04:00&quot;^^xsd:dateTime]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ferlab.bio&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cqgc&quot; ];
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mailto:support@ferlab.bio&quot; ]     ]
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;This value set includes age at onset codes from Human Phenotype Ontology.&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
-     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://purl.obolibrary.org/obo/hp.owl&quot; ];
-       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003577&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Congenital onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition congénitale&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0030674&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Antenatal onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition anténatale&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0011460&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Embryonal onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition embryonnaire (âge &lt; 10 semaines de gestation)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0011461&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Fetal onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition foetale (âge &gt;= 10 semaines de gestation)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003623&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neonatal onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition néonatale (âge &lt; 28 jours)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003593&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Infantile onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition dans l'enfance (28 jours &lt;= âge &lt; 1 an)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0011463&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Childhood onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition chez l'enfant (1 an &lt;= âge &lt; 5 ans)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003621&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Juvenile onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition juvénile (5 ans &lt;= âge &lt;= 15 ans)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0410280&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pediatric onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition pédiatrique (âge &lt;= 15 ans)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003581&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Adult onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition à l'âge adulte (âge &gt;= 16 ans)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0011462&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Young adult onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition chez le jeune adulte (16 ans &lt;= âge &lt; 40 ans)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003596&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Middle age onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition à l'âge moyen (40 ans &lt;= âge &lt; 60 ans)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;HP:0003584&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Late onset&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Apparition tardive (âge &gt;= 60 ans)&quot; ]         ]       ]     ]
-  ]. # 
-
-# - ontology header ------------------------------------------------------------
-
- a owl:Ontology;
-  owl:imports fhir:fhir.ttl.
+ a fhir:ValueSet ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;age-at-onset&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;http://purl.obolibrary.org/obo/hp.owl&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003577&lt;/td&gt;&lt;td&gt;Congenital onset&lt;/td&gt;&lt;td&gt;Apparition congénitale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0030674&lt;/td&gt;&lt;td&gt;Antenatal onset&lt;/td&gt;&lt;td&gt;Apparition anténatale&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011460&lt;/td&gt;&lt;td&gt;Embryonal onset&lt;/td&gt;&lt;td&gt;Apparition embryonnaire (âge &amp;lt; 10 semaines de gestation)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011461&lt;/td&gt;&lt;td&gt;Fetal onset&lt;/td&gt;&lt;td&gt;Apparition foetale (âge &amp;gt;= 10 semaines de gestation)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003623&lt;/td&gt;&lt;td&gt;Neonatal onset&lt;/td&gt;&lt;td&gt;Apparition néonatale (âge &amp;lt; 28 jours)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003593&lt;/td&gt;&lt;td&gt;Infantile onset&lt;/td&gt;&lt;td&gt;Apparition dans l'enfance (28 jours &amp;lt;= âge &amp;lt; 1 an)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011463&lt;/td&gt;&lt;td&gt;Childhood onset&lt;/td&gt;&lt;td&gt;Apparition chez l'enfant (1 an &amp;lt;= âge &amp;lt; 5 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003621&lt;/td&gt;&lt;td&gt;Juvenile onset&lt;/td&gt;&lt;td&gt;Apparition juvénile (5 ans &amp;lt;= âge &amp;lt;= 15 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0410280&lt;/td&gt;&lt;td&gt;Pediatric onset&lt;/td&gt;&lt;td&gt;Apparition pédiatrique (âge &amp;lt;= 15 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003581&lt;/td&gt;&lt;td&gt;Adult onset&lt;/td&gt;&lt;td&gt;Apparition à l'âge adulte (âge &amp;gt;= 16 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0011462&lt;/td&gt;&lt;td&gt;Young adult onset&lt;/td&gt;&lt;td&gt;Apparition chez le jeune adulte (16 ans &amp;lt;= âge &amp;lt; 40 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003596&lt;/td&gt;&lt;td&gt;Middle age onset&lt;/td&gt;&lt;td&gt;Apparition à l'âge moyen (40 ans &amp;lt;= âge &amp;lt; 60 ans)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;HP:0003584&lt;/td&gt;&lt;td&gt;Late onset&lt;/td&gt;&lt;td&gt;Apparition tardive (âge &amp;gt;= 60 ans)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;age-at-onset&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Age at Onset Codes&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;false&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-08-12T13:29:08-04:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ferlab.bio&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Cqgc&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mailto:support@ferlab.bio&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;This value set includes age at onset codes from Human Phenotype Ontology.&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
+    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://purl.obolibrary.org/obo/hp.owl&quot;^^xsd:anyURI ] ;
+      ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003577&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Congenital onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition congénitale&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0030674&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Antenatal onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition anténatale&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0011460&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Embryonal onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition embryonnaire (âge &lt; 10 semaines de gestation)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0011461&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Fetal onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition foetale (âge &gt;= 10 semaines de gestation)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003623&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Neonatal onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition néonatale (âge &lt; 28 jours)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003593&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Infantile onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition dans l'enfance (28 jours &lt;= âge &lt; 1 an)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0011463&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Childhood onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition chez l'enfant (1 an &lt;= âge &lt; 5 ans)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003621&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Juvenile onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition juvénile (5 ans &lt;= âge &lt;= 15 ans)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0410280&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pediatric onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition pédiatrique (âge &lt;= 15 ans)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003581&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Adult onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition à l'âge adulte (âge &gt;= 16 ans)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0011462&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Young adult onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition chez le jeune adulte (16 ans &lt;= âge &lt; 40 ans)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003596&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Middle age onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition à l'âge moyen (40 ans &lt;= âge &lt; 60 ans)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;HP:0003584&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Late onset&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Apparition tardive (âge &gt;= 60 ans)&quot; ]         ] )       ] )     ] )
+  ] . # 
 
 </code></pre>
 
@@ -350,7 +316,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 28, 2023 17:04+0000">2023-02-28</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 9, 2023 16:02+0000">2023-03-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

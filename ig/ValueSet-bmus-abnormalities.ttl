@@ -5,259 +5,203 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "bmus-abnormalities"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030089</td><td>Abnormal muscle fiber protein expression</td><td>Expression anormale des protéines des fibres musculaires</td></tr><tr><td>HP:0100299</td><td>Muscle fiber inclusion bodies</td><td>Corps d'inclusion de fibres musculaires</td></tr><tr><td>HP:0012269</td><td>Abnormal muscle glycogen content</td><td>Teneur anormale en glycogène musculaire</td></tr><tr><td>HP:0020201</td><td>Abnormal sarcomere morphology</td><td>Morphologie anormale des sarcomères</td></tr><tr><td>HP:0033684</td><td>Abnormal muscle fiber-type distribution</td><td>Distribution anormale des types de fibres musculaires</td></tr><tr><td>HP:0100295</td><td>Muscle fiber atrophy</td><td>Atrophie des fibres musculaires</td></tr><tr><td>HP:0012084</td><td>Abnormality of skeletal muscle fiber size</td><td>Anomalie de la taille des fibres des muscles squelettiques</td></tr><tr><td>HP:0009058</td><td>Increased muscle lipid content</td><td>Augmentation de la teneur en lipides musculaires</td></tr><tr><td>HP:0003200</td><td>Ragged-red muscle fibers</td><td>Fibres musculaires rouges en lambeaux</td></tr><tr><td>HP:0003687</td><td>Centrally nucleated skeletal muscle fibers</td><td>Fibres musculaires squelettiques à nucléation centrale</td></tr><tr><td>HP:0003736</td><td>Autophagic vacuoles</td><td>Vacuoles autophagiques</td></tr><tr><td>HP:0003555</td><td>Muscle fiber splitting</td><td>Fractionnement des fibres musculaires</td></tr><tr><td>HP:0003791</td><td>Deposits immunoreactive to beta-amyloid protein</td><td>Dépôts immunoréactifs à la protéine bêta-amyloïde</td></tr><tr><td>HP:0031542</td><td>Myelin-like whorls in vacuolated fibers</td><td>Verticilles ressemblant à de la myéline dans des fibres vacuolées</td></tr><tr><td>HP:0100298</td><td>Motheaten muscle fibers</td><td>Fibres musculaires mâchées</td></tr><tr><td>HP:0030362</td><td>Reduced muscle carnitine level</td><td>Réduction du niveau de carnitine musculaire</td></tr><tr><td>HP:0003805</td><td>Rimmed vacuoles</td><td>Vacuoles bordées</td></tr><tr><td>HP:0100293</td><td>Muscle fiber hypertrophy</td><td>Hypertrophie des fibres musculaires</td></tr><tr><td>HP:0100297</td><td>Increased endomysial connective tissue</td><td>Augmentation du tissu conjonctif endomysial</td></tr><tr><td>HP:0030230</td><td>Central core regions in muscle fibers</td><td>Régions du noyau central des fibres musculaires</td></tr><tr><td>HP:0100305</td><td>Ring fibers</td><td>Fibres annulaires</td></tr><tr><td>HP:0100296</td><td>Perifascicular muscle fiber atrophy</td><td>Atrophie des fibres musculaires périfasciculaires</td></tr><tr><td>HP:0031238</td><td>Necklace skeletal muscle fibers</td><td>Collier de fibres musculaires squelettiques</td></tr><tr><td>HP:0003713</td><td>Muscle fiber necrosis</td><td>Nécrose des fibres musculaires</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "bmus-abnormalities"]; # 
-  fhir:ValueSet.title [ fhir:value "Muscle biopsy abnormalities"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-13T10:49:27-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Category of mucle biopsy abnormalities (HPO code)"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0030089" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abnormal muscle fiber protein expression" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Expression anormale des protéines des fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100299" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle fiber inclusion bodies" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Corps d'inclusion de fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0012269" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abnormal muscle glycogen content" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Teneur anormale en glycogène musculaire" ]
-         ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0020201" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abnormal sarcomere morphology" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Morphologie anormale des sarcomères" ]
-         ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0033684" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abnormal muscle fiber-type distribution" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Distribution anormale des types de fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100295" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle fiber atrophy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Atrophie des fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 6;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0012084" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abnormality of skeletal muscle fiber size" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Anomalie de la taille des fibres des muscles squelettiques" ]
-         ]
-       ], [
-         fhir:index 7;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0009058" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Increased muscle lipid content" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Augmentation de la teneur en lipides musculaires" ]
-         ]
-       ], [
-         fhir:index 8;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003200" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ragged-red muscle fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Fibres musculaires rouges en lambeaux" ]
-         ]
-       ], [
-         fhir:index 9;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003687" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Centrally nucleated skeletal muscle fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Fibres musculaires squelettiques à nucléation centrale" ]
-         ]
-       ], [
-         fhir:index 10;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003736" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autophagic vacuoles" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Vacuoles autophagiques" ]
-         ]
-       ], [
-         fhir:index 11;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003555" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle fiber splitting" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Fractionnement des fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 12;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003791" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Deposits immunoreactive to beta-amyloid protein" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Dépôts immunoréactifs à la protéine bêta-amyloïde" ]
-         ]
-       ], [
-         fhir:index 13;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0031542" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Myelin-like whorls in vacuolated fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Verticilles ressemblant à de la myéline dans des fibres vacuolées" ]
-         ]
-       ], [
-         fhir:index 14;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100298" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Motheaten muscle fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Fibres musculaires mâchées" ]
-         ]
-       ], [
-         fhir:index 15;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0030362" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Reduced muscle carnitine level" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Réduction du niveau de carnitine musculaire" ]
-         ]
-       ], [
-         fhir:index 16;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003805" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rimmed vacuoles" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Vacuoles bordées" ]
-         ]
-       ], [
-         fhir:index 17;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100293" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle fiber hypertrophy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Hypertrophie des fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 18;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100297" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Increased endomysial connective tissue" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Augmentation du tissu conjonctif endomysial" ]
-         ]
-       ], [
-         fhir:index 19;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0030230" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Central core regions in muscle fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Régions du noyau central des fibres musculaires" ]
-         ]
-       ], [
-         fhir:index 20;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100305" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ring fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Fibres annulaires" ]
-         ]
-       ], [
-         fhir:index 21;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0100296" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Perifascicular muscle fiber atrophy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Atrophie des fibres musculaires périfasciculaires" ]
-         ]
-       ], [
-         fhir:index 22;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0031238" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Necklace skeletal muscle fibers" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Collier de fibres musculaires squelettiques" ]
-         ]
-       ], [
-         fhir:index 23;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003713" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle fiber necrosis" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Nécrose des fibres musculaires" ]
-         ]
-       ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bmus-abnormalities"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030089</td><td>Abnormal muscle fiber protein expression</td><td>Expression anormale des protéines des fibres musculaires</td></tr><tr><td>HP:0100299</td><td>Muscle fiber inclusion bodies</td><td>Corps d'inclusion de fibres musculaires</td></tr><tr><td>HP:0012269</td><td>Abnormal muscle glycogen content</td><td>Teneur anormale en glycogène musculaire</td></tr><tr><td>HP:0020201</td><td>Abnormal sarcomere morphology</td><td>Morphologie anormale des sarcomères</td></tr><tr><td>HP:0033684</td><td>Abnormal muscle fiber-type distribution</td><td>Distribution anormale des types de fibres musculaires</td></tr><tr><td>HP:0100295</td><td>Muscle fiber atrophy</td><td>Atrophie des fibres musculaires</td></tr><tr><td>HP:0012084</td><td>Abnormality of skeletal muscle fiber size</td><td>Anomalie de la taille des fibres des muscles squelettiques</td></tr><tr><td>HP:0009058</td><td>Increased muscle lipid content</td><td>Augmentation de la teneur en lipides musculaires</td></tr><tr><td>HP:0003200</td><td>Ragged-red muscle fibers</td><td>Fibres musculaires rouges en lambeaux</td></tr><tr><td>HP:0003687</td><td>Centrally nucleated skeletal muscle fibers</td><td>Fibres musculaires squelettiques à nucléation centrale</td></tr><tr><td>HP:0003736</td><td>Autophagic vacuoles</td><td>Vacuoles autophagiques</td></tr><tr><td>HP:0003555</td><td>Muscle fiber splitting</td><td>Fractionnement des fibres musculaires</td></tr><tr><td>HP:0003791</td><td>Deposits immunoreactive to beta-amyloid protein</td><td>Dépôts immunoréactifs à la protéine bêta-amyloïde</td></tr><tr><td>HP:0031542</td><td>Myelin-like whorls in vacuolated fibers</td><td>Verticilles ressemblant à de la myéline dans des fibres vacuolées</td></tr><tr><td>HP:0100298</td><td>Motheaten muscle fibers</td><td>Fibres musculaires mâchées</td></tr><tr><td>HP:0030362</td><td>Reduced muscle carnitine level</td><td>Réduction du niveau de carnitine musculaire</td></tr><tr><td>HP:0003805</td><td>Rimmed vacuoles</td><td>Vacuoles bordées</td></tr><tr><td>HP:0100293</td><td>Muscle fiber hypertrophy</td><td>Hypertrophie des fibres musculaires</td></tr><tr><td>HP:0100297</td><td>Increased endomysial connective tissue</td><td>Augmentation du tissu conjonctif endomysial</td></tr><tr><td>HP:0030230</td><td>Central core regions in muscle fibers</td><td>Régions du noyau central des fibres musculaires</td></tr><tr><td>HP:0100305</td><td>Ring fibers</td><td>Fibres annulaires</td></tr><tr><td>HP:0100296</td><td>Perifascicular muscle fiber atrophy</td><td>Atrophie des fibres musculaires périfasciculaires</td></tr><tr><td>HP:0031238</td><td>Necklace skeletal muscle fibers</td><td>Collier de fibres musculaires squelettiques</td></tr><tr><td>HP:0003713</td><td>Muscle fiber necrosis</td><td>Nécrose des fibres musculaires</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "bmus-abnormalities"] ; # 
+  fhir:title [ fhir:v "Muscle biopsy abnormalities"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-13T10:49:27-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Category of mucle biopsy abnormalities (HPO code)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "HP:0030089" ] ;
+         fhir:display [ fhir:v "Abnormal muscle fiber protein expression" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Expression anormale des protéines des fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100299" ] ;
+         fhir:display [ fhir:v "Muscle fiber inclusion bodies" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Corps d'inclusion de fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0012269" ] ;
+         fhir:display [ fhir:v "Abnormal muscle glycogen content" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Teneur anormale en glycogène musculaire" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0020201" ] ;
+         fhir:display [ fhir:v "Abnormal sarcomere morphology" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Morphologie anormale des sarcomères" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0033684" ] ;
+         fhir:display [ fhir:v "Abnormal muscle fiber-type distribution" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Distribution anormale des types de fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100295" ] ;
+         fhir:display [ fhir:v "Muscle fiber atrophy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Atrophie des fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0012084" ] ;
+         fhir:display [ fhir:v "Abnormality of skeletal muscle fiber size" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Anomalie de la taille des fibres des muscles squelettiques" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0009058" ] ;
+         fhir:display [ fhir:v "Increased muscle lipid content" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Augmentation de la teneur en lipides musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003200" ] ;
+         fhir:display [ fhir:v "Ragged-red muscle fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Fibres musculaires rouges en lambeaux" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003687" ] ;
+         fhir:display [ fhir:v "Centrally nucleated skeletal muscle fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Fibres musculaires squelettiques à nucléation centrale" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003736" ] ;
+         fhir:display [ fhir:v "Autophagic vacuoles" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Vacuoles autophagiques" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003555" ] ;
+         fhir:display [ fhir:v "Muscle fiber splitting" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Fractionnement des fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003791" ] ;
+         fhir:display [ fhir:v "Deposits immunoreactive to beta-amyloid protein" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Dépôts immunoréactifs à la protéine bêta-amyloïde" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0031542" ] ;
+         fhir:display [ fhir:v "Myelin-like whorls in vacuolated fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Verticilles ressemblant à de la myéline dans des fibres vacuolées" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100298" ] ;
+         fhir:display [ fhir:v "Motheaten muscle fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Fibres musculaires mâchées" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0030362" ] ;
+         fhir:display [ fhir:v "Reduced muscle carnitine level" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Réduction du niveau de carnitine musculaire" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003805" ] ;
+         fhir:display [ fhir:v "Rimmed vacuoles" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Vacuoles bordées" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100293" ] ;
+         fhir:display [ fhir:v "Muscle fiber hypertrophy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Hypertrophie des fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100297" ] ;
+         fhir:display [ fhir:v "Increased endomysial connective tissue" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Augmentation du tissu conjonctif endomysial" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0030230" ] ;
+         fhir:display [ fhir:v "Central core regions in muscle fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Régions du noyau central des fibres musculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100305" ] ;
+         fhir:display [ fhir:v "Ring fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Fibres annulaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0100296" ] ;
+         fhir:display [ fhir:v "Perifascicular muscle fiber atrophy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Atrophie des fibres musculaires périfasciculaires" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0031238" ] ;
+         fhir:display [ fhir:v "Necklace skeletal muscle fibers" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Collier de fibres musculaires squelettiques" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003713" ] ;
+         fhir:display [ fhir:v "Muscle fiber necrosis" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Nécrose des fibres musculaires" ]
+         ] )
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

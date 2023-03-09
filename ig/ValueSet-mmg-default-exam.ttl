@@ -5,106 +5,84 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "mmg-default-exam"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-observation-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-CKIN\">CKIN</a></td><td>Serum creatine kinase</td><td>Créatine kinase sérique</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-BMUS\">BMUS</a></td><td>Muscle biopsy</td><td>Biopsie musculaire</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-IRMM\">IRMM</a></td><td>Muscle MRI</td><td>IRM musculaire</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-EMG\">EMG</a></td><td>Electromyography (EMG)</td><td>Electromyographie (EMG)</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-CTGR\">CTGR</a></td><td>CTG Repeat Testing (Steinert Disease)</td><td>Test répétitions CTG (maladie de Steinert)</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-GCNR\">GCNR</a></td><td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td><td>Test répétitions GCN (dystrophie musculaire oculopharyngée)</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-TGDD\">TGDD</a></td><td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td><td>Test délétions et duplications (dystrophies Duchenne et Becker)</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "mmg-default-exam"]; # 
-  fhir:ValueSet.title [ fhir:value "Muscle disease  default para-clinic exams"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-13T10:49:27-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Muscle disease  default para-clinic exams"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "CKIN" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Serum creatine kinase" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Créatine kinase sérique" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "BMUS" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle biopsy" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Biopsie musculaire" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "IRMM" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Muscle MRI" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "IRM musculaire" ]
-         ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "EMG" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electromyography (EMG)" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Electromyographie (EMG)" ]
-         ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "CTGR" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "CTG Repeat Testing (Steinert Disease)" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Test répétitions CTG (maladie de Steinert)" ]
-         ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "GCNR" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "GCN Repeat Testing (oculopharyngeal muscular dystrophy)" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Test répétitions GCN (dystrophie musculaire oculopharyngée)" ]
-         ]
-       ], [
-         fhir:index 6;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "TGDD" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Deletions and Duplications Testing (Duchenne and Becker dystrophies)" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Test délétions et duplications (dystrophies Duchenne et Becker)" ]
-         ]
-       ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mmg-default-exam"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-observation-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-CKIN\">CKIN</a></td><td>Serum creatine kinase</td><td>Créatine kinase sérique</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-BMUS\">BMUS</a></td><td>Muscle biopsy</td><td>Biopsie musculaire</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-IRMM\">IRMM</a></td><td>Muscle MRI</td><td>IRM musculaire</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-EMG\">EMG</a></td><td>Electromyography (EMG)</td><td>Electromyographie (EMG)</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-CTGR\">CTGR</a></td><td>CTG Repeat Testing (Steinert Disease)</td><td>Test répétitions CTG (maladie de Steinert)</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-GCNR\">GCNR</a></td><td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td><td>Test répétitions GCN (dystrophie musculaire oculopharyngée)</td></tr><tr><td><a href=\"CodeSystem-observation-code.html#observation-code-TGDD\">TGDD</a></td><td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td><td>Test délétions et duplications (dystrophies Duchenne et Becker)</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "mmg-default-exam"] ; # 
+  fhir:title [ fhir:v "Muscle disease  default para-clinic exams"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-13T10:49:27-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Muscle disease  default para-clinic exams"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "CKIN" ] ;
+         fhir:display [ fhir:v "Serum creatine kinase" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Créatine kinase sérique" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "BMUS" ] ;
+         fhir:display [ fhir:v "Muscle biopsy" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Biopsie musculaire" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "IRMM" ] ;
+         fhir:display [ fhir:v "Muscle MRI" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "IRM musculaire" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "EMG" ] ;
+         fhir:display [ fhir:v "Electromyography (EMG)" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Electromyographie (EMG)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "CTGR" ] ;
+         fhir:display [ fhir:v "CTG Repeat Testing (Steinert Disease)" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Test répétitions CTG (maladie de Steinert)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "GCNR" ] ;
+         fhir:display [ fhir:v "GCN Repeat Testing (oculopharyngeal muscular dystrophy)" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Test répétitions GCN (dystrophie musculaire oculopharyngée)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "TGDD" ] ;
+         fhir:display [ fhir:v "Deletions and Duplications Testing (Duchenne and Becker dystrophies)" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Test délétions et duplications (dystrophies Duchenne et Becker)" ]
+         ] )
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

@@ -5,283 +5,222 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "observation-code"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OBSG<a name=\"observation-code-OBSG\"> </a></td><td>General Observation</td></tr><tr><td style=\"white-space:nowrap\">INDIC<a name=\"observation-code-INDIC\"> </a></td><td>Indication</td></tr><tr><td style=\"white-space:nowrap\">INVES<a name=\"observation-code-INVES\"> </a></td><td>Investigation</td></tr><tr><td style=\"white-space:nowrap\">BMUS<a name=\"observation-code-BMUS\"> </a></td><td>Muscle biopsy</td></tr><tr><td style=\"white-space:nowrap\">BMET<a name=\"observation-code-BMET\"> </a></td><td>Metabolic work-up</td></tr><tr><td style=\"white-space:nowrap\">CKIN<a name=\"observation-code-CKIN\"> </a></td><td>Serum creatine kinase</td></tr><tr><td style=\"white-space:nowrap\">CAAP<a name=\"observation-code-CAAP\"> </a></td><td>Plasma amino acid chromatography</td></tr><tr><td style=\"white-space:nowrap\">ACYL<a name=\"observation-code-ACYL\"> </a></td><td>Acylcarnitines</td></tr><tr><td style=\"white-space:nowrap\">IRMC<a name=\"observation-code-IRMC\"> </a></td><td>Cerebral MRI</td></tr><tr><td style=\"white-space:nowrap\">IRMM<a name=\"observation-code-IRMM\"> </a></td><td>Muscle MRI</td></tr><tr><td style=\"white-space:nowrap\">SRMN<a name=\"observation-code-SRMN\"> </a></td><td>NMR Spectroscopy</td></tr><tr><td style=\"white-space:nowrap\">ECAR<a name=\"observation-code-ECAR\"> </a></td><td>Cardiac Ultrasound</td></tr><tr><td style=\"white-space:nowrap\">EABD<a name=\"observation-code-EABD\"> </a></td><td>Abdominal Ultrasound</td></tr><tr><td style=\"white-space:nowrap\">EEG<a name=\"observation-code-EEG\"> </a></td><td>Electroencephalogram (EEG)</td></tr><tr><td style=\"white-space:nowrap\">EMG<a name=\"observation-code-EMG\"> </a></td><td>Electromyography (EMG)</td></tr><tr><td style=\"white-space:nowrap\">OPHT<a name=\"observation-code-OPHT\"> </a></td><td>Ophthalmological Examination</td></tr><tr><td style=\"white-space:nowrap\">CONS<a name=\"observation-code-CONS\"> </a></td><td>Consanguinity</td></tr><tr><td style=\"white-space:nowrap\">DSTA<a name=\"observation-code-DSTA\"> </a></td><td>Patient Disease Status</td></tr><tr><td style=\"white-space:nowrap\">CTGR<a name=\"observation-code-CTGR\"> </a></td><td>CTG Repeat Testing (Steinert Disease)</td></tr><tr><td style=\"white-space:nowrap\">GCNR<a name=\"observation-code-GCNR\"> </a></td><td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td></tr><tr><td style=\"white-space:nowrap\">TGDD<a name=\"observation-code-TGDD\"> </a></td><td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td></tr><tr><td style=\"white-space:nowrap\">CGH<a name=\"observation-code-CGH\"> </a></td><td>Comparative Genomic Hybridization</td></tr><tr><td style=\"white-space:nowrap\">TSXF<a name=\"observation-code-TSXF\"> </a></td><td>Fragile X Syndrome Testing</td></tr><tr><td style=\"white-space:nowrap\">MMTH<a name=\"observation-code-MMTH\"> </a></td><td>Missing Mother</td></tr><tr><td style=\"white-space:nowrap\">MFTH<a name=\"observation-code-MFTH\"> </a></td><td>Missing Father</td></tr><tr><td style=\"white-space:nowrap\">ETHN<a name=\"observation-code-ETHN\"> </a></td><td>Ethnicity</td></tr><tr><td style=\"white-space:nowrap\">PHEN<a name=\"observation-code-PHEN\"> </a></td><td>Clinical Sign (HPO)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>OBSG</td><td>Observation générale</td></tr><tr><td>INDIC</td><td>Indication</td></tr><tr><td>INVES</td><td>Investigation</td></tr><tr><td>BMUS</td><td>Biopsie musculaire</td></tr><tr><td>BMET</td><td>Bilan métabolique</td></tr><tr><td>CKIN</td><td>Créatine kinase sérique</td></tr><tr><td>CAAP</td><td>Chromatographie acides aminés plasmatiques</td></tr><tr><td>ACYL</td><td>Acylcarnitines</td></tr><tr><td>IRMC</td><td>IRM cérébrale</td></tr><tr><td>IRMM</td><td>IRM musculaire</td></tr><tr><td>SRMN</td><td>Spectroscopie RMN</td></tr><tr><td>ECAR</td><td>Échographie cardiaque</td></tr><tr><td>EABD</td><td>Échographie abdominale</td></tr><tr><td>EEG</td><td>Électroencéphalogramme (EEG)</td></tr><tr><td>EMG</td><td>Electromyographie (EMG)</td></tr><tr><td>OPHT</td><td>Examen ophtalmologique</td></tr><tr><td>CONS</td><td>Consanguinité</td></tr><tr><td>DSTA</td><td>Statut de la maladie du patient</td></tr><tr><td>CTGR</td><td>Test répétitions CTG (maladie de Steinert)</td></tr><tr><td>GCNR</td><td>Test répétitions GCN (dystrophie musculaire oculopharyngée)</td></tr><tr><td>TGDD</td><td>Test délétions et duplication (dystrophies Duchenne et Becker)</td></tr><tr><td>CGH</td><td>Hybridation génomique comparative</td></tr><tr><td>TSXF</td><td>Test syndrome de X fragile</td></tr><tr><td>MMTH</td><td>Mère manquante</td></tr><tr><td>MFTH</td><td>Père manquant</td></tr><tr><td>ETHN</td><td>Ethnicité</td></tr><tr><td>PHEN</td><td>Signe clinique (HPO)</td></tr></table></div>"
-  ]; # 
-  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"]; # 
-  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
-  fhir:CodeSystem.name [ fhir:value "observation-code"]; # 
-  fhir:CodeSystem.title [ fhir:value "Observation codes"]; # 
-  fhir:CodeSystem.status [ fhir:value "draft"]; # 
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:CodeSystem.date [ fhir:value "2023-02-28T17:04:12+00:00"^^xsd:dateTime]; # 
-  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:CodeSystem.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:CodeSystem.description [ fhir:value "Codes of observations in our system"]; # 
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:CodeSystem.content [ fhir:value "complete"]; # 
-  fhir:CodeSystem.count [ fhir:value "25"^^xsd:nonNegativeInteger]; # 
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "OBSG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "General Observation" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Observation générale" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "INDIC" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Indication" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Indication" ]
-     ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "INVES" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Investigation" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Investigation" ]
-     ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "BMUS" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Muscle biopsy" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Biopsie musculaire" ]
-     ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "BMET" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Metabolic work-up" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Bilan métabolique" ]
-     ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "CKIN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Serum creatine kinase" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Créatine kinase sérique" ]
-     ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "CAAP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Plasma amino acid chromatography" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Chromatographie acides aminés plasmatiques" ]
-     ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "ACYL" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Acylcarnitines" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Acylcarnitines" ]
-     ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "IRMC" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Cerebral MRI" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "IRM cérébrale" ]
-     ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "IRMM" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Muscle MRI" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "IRM musculaire" ]
-     ]
-  ], [
-     fhir:index 10;
-     fhir:CodeSystem.concept.code [ fhir:value "SRMN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "NMR Spectroscopy" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Spectroscopie RMN" ]
-     ]
-  ], [
-     fhir:index 11;
-     fhir:CodeSystem.concept.code [ fhir:value "ECAR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Cardiac Ultrasound" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Échographie cardiaque" ]
-     ]
-  ], [
-     fhir:index 12;
-     fhir:CodeSystem.concept.code [ fhir:value "EABD" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Abdominal Ultrasound" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Échographie abdominale" ]
-     ]
-  ], [
-     fhir:index 13;
-     fhir:CodeSystem.concept.code [ fhir:value "EEG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Electroencephalogram (EEG)" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Électroencéphalogramme (EEG)" ]
-     ]
-  ], [
-     fhir:index 14;
-     fhir:CodeSystem.concept.code [ fhir:value "EMG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Electromyography (EMG)" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Electromyographie (EMG)" ]
-     ]
-  ], [
-     fhir:index 15;
-     fhir:CodeSystem.concept.code [ fhir:value "OPHT" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ophthalmological Examination" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Examen ophtalmologique" ]
-     ]
-  ], [
-     fhir:index 16;
-     fhir:CodeSystem.concept.code [ fhir:value "CONS" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Consanguinity" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Consanguinité" ]
-     ]
-  ], [
-     fhir:index 17;
-     fhir:CodeSystem.concept.code [ fhir:value "DSTA" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Patient Disease Status" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Statut de la maladie du patient" ]
-     ]
-  ], [
-     fhir:index 18;
-     fhir:CodeSystem.concept.code [ fhir:value "CTGR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "CTG Repeat Testing (Steinert Disease)" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Test répétitions CTG (maladie de Steinert)" ]
-     ]
-  ], [
-     fhir:index 19;
-     fhir:CodeSystem.concept.code [ fhir:value "GCNR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "GCN Repeat Testing (oculopharyngeal muscular dystrophy)" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Test répétitions GCN (dystrophie musculaire oculopharyngée)" ]
-     ]
-  ], [
-     fhir:index 20;
-     fhir:CodeSystem.concept.code [ fhir:value "TGDD" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Deletions and Duplications Testing (Duchenne and Becker dystrophies)" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Test délétions et duplication (dystrophies Duchenne et Becker)" ]
-     ]
-  ], [
-     fhir:index 21;
-     fhir:CodeSystem.concept.code [ fhir:value "CGH" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Comparative Genomic Hybridization" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Hybridation génomique comparative" ]
-     ]
-  ], [
-     fhir:index 22;
-     fhir:CodeSystem.concept.code [ fhir:value "TSXF" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Fragile X Syndrome Testing" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Test syndrome de X fragile" ]
-     ]
-  ], [
-     fhir:index 23;
-     fhir:CodeSystem.concept.code [ fhir:value "MMTH" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Missing Mother" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Mère manquante" ]
-     ]
-  ], [
-     fhir:index 24;
-     fhir:CodeSystem.concept.code [ fhir:value "MFTH" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Missing Father" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Père manquant" ]
-     ]
-  ], [
-     fhir:index 25;
-     fhir:CodeSystem.concept.code [ fhir:value "ETHN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Ethnicity" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Ethnicité" ]
-     ]
-  ], [
-     fhir:index 26;
-     fhir:CodeSystem.concept.code [ fhir:value "PHEN" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Clinical Sign (HPO)" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Signe clinique (HPO)" ]
-     ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "observation-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OBSG<a name=\"observation-code-OBSG\"> </a></td><td>General Observation</td></tr><tr><td style=\"white-space:nowrap\">INDIC<a name=\"observation-code-INDIC\"> </a></td><td>Indication</td></tr><tr><td style=\"white-space:nowrap\">INVES<a name=\"observation-code-INVES\"> </a></td><td>Investigation</td></tr><tr><td style=\"white-space:nowrap\">BMUS<a name=\"observation-code-BMUS\"> </a></td><td>Muscle biopsy</td></tr><tr><td style=\"white-space:nowrap\">BMET<a name=\"observation-code-BMET\"> </a></td><td>Metabolic work-up</td></tr><tr><td style=\"white-space:nowrap\">CKIN<a name=\"observation-code-CKIN\"> </a></td><td>Serum creatine kinase</td></tr><tr><td style=\"white-space:nowrap\">CAAP<a name=\"observation-code-CAAP\"> </a></td><td>Plasma amino acid chromatography</td></tr><tr><td style=\"white-space:nowrap\">ACYL<a name=\"observation-code-ACYL\"> </a></td><td>Acylcarnitines</td></tr><tr><td style=\"white-space:nowrap\">IRMC<a name=\"observation-code-IRMC\"> </a></td><td>Cerebral MRI</td></tr><tr><td style=\"white-space:nowrap\">IRMM<a name=\"observation-code-IRMM\"> </a></td><td>Muscle MRI</td></tr><tr><td style=\"white-space:nowrap\">SRMN<a name=\"observation-code-SRMN\"> </a></td><td>NMR Spectroscopy</td></tr><tr><td style=\"white-space:nowrap\">ECAR<a name=\"observation-code-ECAR\"> </a></td><td>Cardiac Ultrasound</td></tr><tr><td style=\"white-space:nowrap\">EABD<a name=\"observation-code-EABD\"> </a></td><td>Abdominal Ultrasound</td></tr><tr><td style=\"white-space:nowrap\">EEG<a name=\"observation-code-EEG\"> </a></td><td>Electroencephalogram (EEG)</td></tr><tr><td style=\"white-space:nowrap\">EMG<a name=\"observation-code-EMG\"> </a></td><td>Electromyography (EMG)</td></tr><tr><td style=\"white-space:nowrap\">OPHT<a name=\"observation-code-OPHT\"> </a></td><td>Ophthalmological Examination</td></tr><tr><td style=\"white-space:nowrap\">CONS<a name=\"observation-code-CONS\"> </a></td><td>Consanguinity</td></tr><tr><td style=\"white-space:nowrap\">DSTA<a name=\"observation-code-DSTA\"> </a></td><td>Patient Disease Status</td></tr><tr><td style=\"white-space:nowrap\">CTGR<a name=\"observation-code-CTGR\"> </a></td><td>CTG Repeat Testing (Steinert Disease)</td></tr><tr><td style=\"white-space:nowrap\">GCNR<a name=\"observation-code-GCNR\"> </a></td><td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td></tr><tr><td style=\"white-space:nowrap\">TGDD<a name=\"observation-code-TGDD\"> </a></td><td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td></tr><tr><td style=\"white-space:nowrap\">CGH<a name=\"observation-code-CGH\"> </a></td><td>Comparative Genomic Hybridization</td></tr><tr><td style=\"white-space:nowrap\">TSXF<a name=\"observation-code-TSXF\"> </a></td><td>Fragile X Syndrome Testing</td></tr><tr><td style=\"white-space:nowrap\">MMTH<a name=\"observation-code-MMTH\"> </a></td><td>Missing Mother</td></tr><tr><td style=\"white-space:nowrap\">MFTH<a name=\"observation-code-MFTH\"> </a></td><td>Missing Father</td></tr><tr><td style=\"white-space:nowrap\">ETHN<a name=\"observation-code-ETHN\"> </a></td><td>Ethnicity</td></tr><tr><td style=\"white-space:nowrap\">PHEN<a name=\"observation-code-PHEN\"> </a></td><td>Clinical Sign (HPO)</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>OBSG</td><td>Observation générale</td></tr><tr><td>INDIC</td><td>Indication</td></tr><tr><td>INVES</td><td>Investigation</td></tr><tr><td>BMUS</td><td>Biopsie musculaire</td></tr><tr><td>BMET</td><td>Bilan métabolique</td></tr><tr><td>CKIN</td><td>Créatine kinase sérique</td></tr><tr><td>CAAP</td><td>Chromatographie acides aminés plasmatiques</td></tr><tr><td>ACYL</td><td>Acylcarnitines</td></tr><tr><td>IRMC</td><td>IRM cérébrale</td></tr><tr><td>IRMM</td><td>IRM musculaire</td></tr><tr><td>SRMN</td><td>Spectroscopie RMN</td></tr><tr><td>ECAR</td><td>Échographie cardiaque</td></tr><tr><td>EABD</td><td>Échographie abdominale</td></tr><tr><td>EEG</td><td>Électroencéphalogramme (EEG)</td></tr><tr><td>EMG</td><td>Electromyographie (EMG)</td></tr><tr><td>OPHT</td><td>Examen ophtalmologique</td></tr><tr><td>CONS</td><td>Consanguinité</td></tr><tr><td>DSTA</td><td>Statut de la maladie du patient</td></tr><tr><td>CTGR</td><td>Test répétitions CTG (maladie de Steinert)</td></tr><tr><td>GCNR</td><td>Test répétitions GCN (dystrophie musculaire oculopharyngée)</td></tr><tr><td>TGDD</td><td>Test délétions et duplication (dystrophies Duchenne et Becker)</td></tr><tr><td>CGH</td><td>Hybridation génomique comparative</td></tr><tr><td>TSXF</td><td>Test syndrome de X fragile</td></tr><tr><td>MMTH</td><td>Mère manquante</td></tr><tr><td>MFTH</td><td>Père manquant</td></tr><tr><td>ETHN</td><td>Ethnicité</td></tr><tr><td>PHEN</td><td>Signe clinique (HPO)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "observation-code"] ; # 
+  fhir:title [ fhir:v "Observation codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-09T16:02:20+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes of observations in our system"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "25"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "OBSG" ] ;
+     fhir:display [ fhir:v "General Observation" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Observation générale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "INDIC" ] ;
+     fhir:display [ fhir:v "Indication" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Indication" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "INVES" ] ;
+     fhir:display [ fhir:v "Investigation" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Investigation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BMUS" ] ;
+     fhir:display [ fhir:v "Muscle biopsy" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Biopsie musculaire" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BMET" ] ;
+     fhir:display [ fhir:v "Metabolic work-up" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Bilan métabolique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CKIN" ] ;
+     fhir:display [ fhir:v "Serum creatine kinase" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Créatine kinase sérique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CAAP" ] ;
+     fhir:display [ fhir:v "Plasma amino acid chromatography" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Chromatographie acides aminés plasmatiques" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ACYL" ] ;
+     fhir:display [ fhir:v "Acylcarnitines" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Acylcarnitines" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "IRMC" ] ;
+     fhir:display [ fhir:v "Cerebral MRI" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "IRM cérébrale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "IRMM" ] ;
+     fhir:display [ fhir:v "Muscle MRI" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "IRM musculaire" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SRMN" ] ;
+     fhir:display [ fhir:v "NMR Spectroscopy" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Spectroscopie RMN" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ECAR" ] ;
+     fhir:display [ fhir:v "Cardiac Ultrasound" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Échographie cardiaque" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EABD" ] ;
+     fhir:display [ fhir:v "Abdominal Ultrasound" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Échographie abdominale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EEG" ] ;
+     fhir:display [ fhir:v "Electroencephalogram (EEG)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Électroencéphalogramme (EEG)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EMG" ] ;
+     fhir:display [ fhir:v "Electromyography (EMG)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Electromyographie (EMG)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "OPHT" ] ;
+     fhir:display [ fhir:v "Ophthalmological Examination" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Examen ophtalmologique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CONS" ] ;
+     fhir:display [ fhir:v "Consanguinity" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Consanguinité" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DSTA" ] ;
+     fhir:display [ fhir:v "Patient Disease Status" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Statut de la maladie du patient" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CTGR" ] ;
+     fhir:display [ fhir:v "CTG Repeat Testing (Steinert Disease)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Test répétitions CTG (maladie de Steinert)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GCNR" ] ;
+     fhir:display [ fhir:v "GCN Repeat Testing (oculopharyngeal muscular dystrophy)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Test répétitions GCN (dystrophie musculaire oculopharyngée)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TGDD" ] ;
+     fhir:display [ fhir:v "Deletions and Duplications Testing (Duchenne and Becker dystrophies)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Test délétions et duplication (dystrophies Duchenne et Becker)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CGH" ] ;
+     fhir:display [ fhir:v "Comparative Genomic Hybridization" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Hybridation génomique comparative" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TSXF" ] ;
+     fhir:display [ fhir:v "Fragile X Syndrome Testing" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Test syndrome de X fragile" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MMTH" ] ;
+     fhir:display [ fhir:v "Missing Mother" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Mère manquante" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MFTH" ] ;
+     fhir:display [ fhir:v "Missing Father" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Père manquant" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ETHN" ] ;
+     fhir:display [ fhir:v "Ethnicity" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Ethnicité" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PHEN" ] ;
+     fhir:display [ fhir:v "Clinical Sign (HPO)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Signe clinique (HPO)" ]
+     ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

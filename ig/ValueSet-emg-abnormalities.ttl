@@ -5,79 +5,63 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "emg-abnormalities"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030006</td><td>Single fiber EMG abnormality</td><td>Anomalie EMG à fibre unique</td></tr><tr><td>HP:0030000</td><td>EMG: repetitive nerve stimulation abnormality</td><td>EMG : anomalie de la stimulation nerveuse répétitive</td></tr><tr><td>HP:0003445</td><td>EMG: neuropathic changes</td><td>EMG : modifications neuropathiques</td></tr><tr><td>HP:0003458</td><td>EMG: myopathic abnormalities</td><td>EMG : anomalies myopathiques</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "emg-abnormalities"]; # 
-  fhir:ValueSet.title [ fhir:value "EMG abnormalities"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-13T10:49:27-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "Category of EMG abnormalities (HPO code)"]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0030006" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Single fiber EMG abnormality" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Anomalie EMG à fibre unique" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0030000" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "EMG: repetitive nerve stimulation abnormality" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "EMG : anomalie de la stimulation nerveuse répétitive" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003445" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "EMG: neuropathic changes" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "EMG : modifications neuropathiques" ]
-         ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003458" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "EMG: myopathic abnormalities" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "EMG : anomalies myopathiques" ]
-         ]
-       ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "emg-abnormalities"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030006</td><td>Single fiber EMG abnormality</td><td>Anomalie EMG à fibre unique</td></tr><tr><td>HP:0030000</td><td>EMG: repetitive nerve stimulation abnormality</td><td>EMG : anomalie de la stimulation nerveuse répétitive</td></tr><tr><td>HP:0003445</td><td>EMG: neuropathic changes</td><td>EMG : modifications neuropathiques</td></tr><tr><td>HP:0003458</td><td>EMG: myopathic abnormalities</td><td>EMG : anomalies myopathiques</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "emg-abnormalities"] ; # 
+  fhir:title [ fhir:v "EMG abnormalities"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-13T10:49:27-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Category of EMG abnormalities (HPO code)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "HP:0030006" ] ;
+         fhir:display [ fhir:v "Single fiber EMG abnormality" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Anomalie EMG à fibre unique" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0030000" ] ;
+         fhir:display [ fhir:v "EMG: repetitive nerve stimulation abnormality" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "EMG : anomalie de la stimulation nerveuse répétitive" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003445" ] ;
+         fhir:display [ fhir:v "EMG: neuropathic changes" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "EMG : modifications neuropathiques" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003458" ] ;
+         fhir:display [ fhir:v "EMG: myopathic abnormalities" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "EMG : anomalies myopathiques" ]
+         ] )
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

@@ -5,139 +5,110 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/CodeSystem/document-format> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "document-format"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM File</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF File</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td></tr><tr><td style=\"white-space:nowrap\">JSON<a name=\"document-format-JSON\"> </a></td><td>JSON File</td></tr><tr><td style=\"white-space:nowrap\">HTML<a name=\"document-format-HTML\"> </a></td><td>HTML File</td></tr><tr><td style=\"white-space:nowrap\">BW<a name=\"document-format-BW\"> </a></td><td>BW File</td></tr><tr><td style=\"white-space:nowrap\">BED<a name=\"document-format-BED\"> </a></td><td>BED File</td></tr><tr><td style=\"white-space:nowrap\">PNG<a name=\"document-format-PNG\"> </a></td><td>PNG File</td></tr><tr><td style=\"white-space:nowrap\">CSV<a name=\"document-format-CSV\"> </a></td><td>CSV File</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr><tr><td>JSON</td><td>Fichier JSON</td></tr><tr><td>HTML</td><td>Fichier HTML</td></tr><tr><td>BW</td><td>Fichier BW</td></tr><tr><td>BED</td><td>Fichier BED</td></tr><tr><td>PNG</td><td>Fichier PNG</td></tr><tr><td>CSV</td><td>Fichier CSV</td></tr></table></div>"
-  ]; # 
-  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"]; # 
-  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
-  fhir:CodeSystem.name [ fhir:value "document-format"]; # 
-  fhir:CodeSystem.title [ fhir:value "Document formats"]; # 
-  fhir:CodeSystem.status [ fhir:value "draft"]; # 
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:CodeSystem.date [ fhir:value "2023-02-28T17:04:12+00:00"^^xsd:dateTime]; # 
-  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:CodeSystem.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:CodeSystem.description [ fhir:value "Document formats"]; # 
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:CodeSystem.content [ fhir:value "complete"]; # 
-  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger]; # 
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "CRAM" ];
-     fhir:CodeSystem.concept.display [ fhir:value "CRAM File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier CRAM" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "CRAI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "CRAI Index File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier d'index CRAI" ]
-     ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "VCF" ];
-     fhir:CodeSystem.concept.display [ fhir:value "VCF File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier VCF" ]
-     ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "TBI" ];
-     fhir:CodeSystem.concept.display [ fhir:value "TBI Index File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier d'index TBI" ]
-     ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "TGZ" ];
-     fhir:CodeSystem.concept.display [ fhir:value "TGZ Archive File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier d'archive TGZ" ]
-     ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "JSON" ];
-     fhir:CodeSystem.concept.display [ fhir:value "JSON File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier JSON" ]
-     ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "HTML" ];
-     fhir:CodeSystem.concept.display [ fhir:value "HTML File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier HTML" ]
-     ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "BW" ];
-     fhir:CodeSystem.concept.display [ fhir:value "BW File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier BW" ]
-     ]
-  ], [
-     fhir:index 8;
-     fhir:CodeSystem.concept.code [ fhir:value "BED" ];
-     fhir:CodeSystem.concept.display [ fhir:value "BED File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier BED" ]
-     ]
-  ], [
-     fhir:index 9;
-     fhir:CodeSystem.concept.code [ fhir:value "PNG" ];
-     fhir:CodeSystem.concept.display [ fhir:value "PNG File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier PNG" ]
-     ]
-  ], [
-     fhir:index 10;
-     fhir:CodeSystem.concept.code [ fhir:value "CSV" ];
-     fhir:CodeSystem.concept.display [ fhir:value "CSV File" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fichier CSV" ]
-     ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/CodeSystem/document-format.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://fhir.cqgc.ferlab.bio/CodeSystem/document-format> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "document-format"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"document-format-CRAM\"> </a></td><td>CRAM File</td></tr><tr><td style=\"white-space:nowrap\">CRAI<a name=\"document-format-CRAI\"> </a></td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"document-format-VCF\"> </a></td><td>VCF File</td></tr><tr><td style=\"white-space:nowrap\">TBI<a name=\"document-format-TBI\"> </a></td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\">TGZ<a name=\"document-format-TGZ\"> </a></td><td>TGZ Archive File</td></tr><tr><td style=\"white-space:nowrap\">JSON<a name=\"document-format-JSON\"> </a></td><td>JSON File</td></tr><tr><td style=\"white-space:nowrap\">HTML<a name=\"document-format-HTML\"> </a></td><td>HTML File</td></tr><tr><td style=\"white-space:nowrap\">BW<a name=\"document-format-BW\"> </a></td><td>BW File</td></tr><tr><td style=\"white-space:nowrap\">BED<a name=\"document-format-BED\"> </a></td><td>BED File</td></tr><tr><td style=\"white-space:nowrap\">PNG<a name=\"document-format-PNG\"> </a></td><td>PNG File</td></tr><tr><td style=\"white-space:nowrap\">CSV<a name=\"document-format-CSV\"> </a></td><td>CSV File</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CRAM</td><td>Fichier CRAM</td></tr><tr><td>CRAI</td><td>Fichier d'index CRAI</td></tr><tr><td>VCF</td><td>Fichier VCF</td></tr><tr><td>TBI</td><td>Fichier d'index TBI</td></tr><tr><td>TGZ</td><td>Fichier d'archive TGZ</td></tr><tr><td>JSON</td><td>Fichier JSON</td></tr><tr><td>HTML</td><td>Fichier HTML</td></tr><tr><td>BW</td><td>Fichier BW</td></tr><tr><td>BED</td><td>Fichier BED</td></tr><tr><td>PNG</td><td>Fichier PNG</td></tr><tr><td>CSV</td><td>Fichier CSV</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "document-format"] ; # 
+  fhir:title [ fhir:v "Document formats"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-09T16:02:20+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Document formats"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "CRAM" ] ;
+     fhir:display [ fhir:v "CRAM File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier CRAM" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CRAI" ] ;
+     fhir:display [ fhir:v "CRAI Index File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier d'index CRAI" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VCF" ] ;
+     fhir:display [ fhir:v "VCF File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier VCF" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TBI" ] ;
+     fhir:display [ fhir:v "TBI Index File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier d'index TBI" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TGZ" ] ;
+     fhir:display [ fhir:v "TGZ Archive File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier d'archive TGZ" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "JSON" ] ;
+     fhir:display [ fhir:v "JSON File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier JSON" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HTML" ] ;
+     fhir:display [ fhir:v "HTML File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier HTML" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BW" ] ;
+     fhir:display [ fhir:v "BW File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier BW" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BED" ] ;
+     fhir:display [ fhir:v "BED File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier BED" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PNG" ] ;
+     fhir:display [ fhir:v "PNG File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier PNG" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CSV" ] ;
+     fhir:display [ fhir:v "CSV File" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fichier CSV" ]
+     ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

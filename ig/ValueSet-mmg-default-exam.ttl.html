@@ -192,90 +192,68 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:ValueSet;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mmg-default-exam&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;CodeSystem-observation-code.html\&quot;&gt;&lt;code&gt;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-CKIN\&quot;&gt;CKIN&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serum creatine kinase&lt;/td&gt;&lt;td&gt;Créatine kinase sérique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-BMUS\&quot;&gt;BMUS&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle biopsy&lt;/td&gt;&lt;td&gt;Biopsie musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-IRMM\&quot;&gt;IRMM&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle MRI&lt;/td&gt;&lt;td&gt;IRM musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-EMG\&quot;&gt;EMG&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electromyography (EMG)&lt;/td&gt;&lt;td&gt;Electromyographie (EMG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-CTGR\&quot;&gt;CTGR&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CTG Repeat Testing (Steinert Disease)&lt;/td&gt;&lt;td&gt;Test répétitions CTG (maladie de Steinert)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-GCNR\&quot;&gt;GCNR&lt;/a&gt;&lt;/td&gt;&lt;td&gt;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&lt;/td&gt;&lt;td&gt;Test répétitions GCN (dystrophie musculaire oculopharyngée)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-TGDD\&quot;&gt;TGDD&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&lt;/td&gt;&lt;td&gt;Test délétions et duplications (dystrophies Duchenne et Becker)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;0.1.0&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mmg-default-exam&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Muscle disease  default para-clinic exams&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;draft&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:ValueSet.experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2020-08-13T10:49:27-04:00&quot;^^xsd:dateTime]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ferlab.bio&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cqgc&quot; ];
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mailto:support@ferlab.bio&quot; ]     ]
-  ]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Muscle disease  default para-clinic exams&quot;]; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
-     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&quot; ];
-       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CKIN&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Serum creatine kinase&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Créatine kinase sérique&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BMUS&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Muscle biopsy&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Biopsie musculaire&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;IRMM&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Muscle MRI&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IRM musculaire&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;EMG&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Electromyography (EMG)&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Electromyographie (EMG)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CTGR&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CTG Repeat Testing (Steinert Disease)&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test répétitions CTG (maladie de Steinert)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;GCNR&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test répétitions GCN (dystrophie musculaire oculopharyngée)&quot; ]         ]       ], [
-         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TGDD&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&quot; ];
-         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:ValueSet.compose.include.concept.designation</a> [
-           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:ValueSet.compose.include.concept.designation.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr&quot; ];
-           <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:ValueSet.compose.include.concept.designation.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Test délétions et duplications (dystrophies Duchenne et Becker)&quot; ]         ]       ]     ]
-  ]. # 
-
-# - ontology header ------------------------------------------------------------
-
- a owl:Ontology;
-  owl:imports fhir:fhir.ttl.
+ a fhir:ValueSet ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mmg-default-exam&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;CodeSystem-observation-code.html\&quot;&gt;&lt;code&gt;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-CKIN\&quot;&gt;CKIN&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Serum creatine kinase&lt;/td&gt;&lt;td&gt;Créatine kinase sérique&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-BMUS\&quot;&gt;BMUS&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle biopsy&lt;/td&gt;&lt;td&gt;Biopsie musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-IRMM\&quot;&gt;IRMM&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Muscle MRI&lt;/td&gt;&lt;td&gt;IRM musculaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-EMG\&quot;&gt;EMG&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Electromyography (EMG)&lt;/td&gt;&lt;td&gt;Electromyographie (EMG)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-CTGR\&quot;&gt;CTGR&lt;/a&gt;&lt;/td&gt;&lt;td&gt;CTG Repeat Testing (Steinert Disease)&lt;/td&gt;&lt;td&gt;Test répétitions CTG (maladie de Steinert)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-GCNR\&quot;&gt;GCNR&lt;/a&gt;&lt;/td&gt;&lt;td&gt;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&lt;/td&gt;&lt;td&gt;Test répétitions GCN (dystrophie musculaire oculopharyngée)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-observation-code.html#observation-code-TGDD\&quot;&gt;TGDD&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&lt;/td&gt;&lt;td&gt;Test délétions et duplications (dystrophies Duchenne et Becker)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mmg-default-exam&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Muscle disease  default para-clinic exams&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;false&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-08-13T10:49:27-04:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ferlab.bio&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Cqgc&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mailto:support@ferlab.bio&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Muscle disease  default para-clinic exams&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
+    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code&quot;^^xsd:anyURI ] ;
+      ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CKIN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Serum creatine kinase&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Créatine kinase sérique&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BMUS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Muscle biopsy&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Biopsie musculaire&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;IRMM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Muscle MRI&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;IRM musculaire&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EMG&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Electromyography (EMG)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Electromyographie (EMG)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CTGR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CTG Repeat Testing (Steinert Disease)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test répétitions CTG (maladie de Steinert)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;GCNR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GCN Repeat Testing (oculopharyngeal muscular dystrophy)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test répétitions GCN (dystrophie musculaire oculopharyngée)&quot; ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TGDD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Deletions and Duplications Testing (Duchenne and Becker dystrophies)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation">fhir:designation</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.designation.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Test délétions et duplications (dystrophies Duchenne et Becker)&quot; ]         ] )       ] )     ] )
+  ] . # 
 
 </code></pre>
 
@@ -308,7 +286,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 28, 2023 17:04+0000">2023-02-28</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="mailto:support@ferlab.bio">Ferlab.bio</a>.  Package cqgc#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 9, 2023 16:02+0000">2023-03-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

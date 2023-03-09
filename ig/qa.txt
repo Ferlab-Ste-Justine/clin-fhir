@@ -2,8 +2,8 @@
 =========================================
 
 err = 18, warn = 113, info = 0
-IG Publisher Version: 1.2.38
-Generated Tue Feb 28 17:05:14 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+IG Publisher Version: 1.2.41
+Generated Thu Mar 09 16:03:34 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
@@ -206,7 +206,7 @@ WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System '
 WARNING: ValueSet.where(id = 'age-at-onset'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-analysis-request-code.json ==
 WARNING: ValueSet/analysis-request-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/analysis-request-code: ValueSet.title: value should not start or finish with whitespace 'Analysis...code '
+WARNING: ValueSet/analysis-request-code: ValueSet.title: value should not start or finish with whitespace 'Analysis request code '
 == input/resources/terminology/ValueSet-bioinfo-analysis-code.json ==
 WARNING: ValueSet/bioinfo-analysis-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-bmus-abnormalities.json ==
@@ -241,13 +241,13 @@ WARNING: ValueSet/genome-build: ValueSet: Rule vsd-0: 'Name should be usable as 
 WARNING: ValueSet/mitn-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mitn-default-hpo.json ==
 WARNING: ValueSet/mitn-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
+WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0003128'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0003128) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: ValueSet.where(id = 'mitn-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-mmg-default-exam.json ==
 WARNING: ValueSet/mmg-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mmg-default-hpo.json ==
 WARNING: ValueSet/mmg-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0001319'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0001319) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'mmg-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-observation-code.json ==
 WARNING: ValueSet/observation-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

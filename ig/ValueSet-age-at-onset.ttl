@@ -5,160 +5,126 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "age-at-onset"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0003577</td><td>Congenital onset</td><td>Apparition congénitale</td></tr><tr><td>HP:0030674</td><td>Antenatal onset</td><td>Apparition anténatale</td></tr><tr><td>HP:0011460</td><td>Embryonal onset</td><td>Apparition embryonnaire (âge &lt; 10 semaines de gestation)</td></tr><tr><td>HP:0011461</td><td>Fetal onset</td><td>Apparition foetale (âge &gt;= 10 semaines de gestation)</td></tr><tr><td>HP:0003623</td><td>Neonatal onset</td><td>Apparition néonatale (âge &lt; 28 jours)</td></tr><tr><td>HP:0003593</td><td>Infantile onset</td><td>Apparition dans l'enfance (28 jours &lt;= âge &lt; 1 an)</td></tr><tr><td>HP:0011463</td><td>Childhood onset</td><td>Apparition chez l'enfant (1 an &lt;= âge &lt; 5 ans)</td></tr><tr><td>HP:0003621</td><td>Juvenile onset</td><td>Apparition juvénile (5 ans &lt;= âge &lt;= 15 ans)</td></tr><tr><td>HP:0410280</td><td>Pediatric onset</td><td>Apparition pédiatrique (âge &lt;= 15 ans)</td></tr><tr><td>HP:0003581</td><td>Adult onset</td><td>Apparition à l'âge adulte (âge &gt;= 16 ans)</td></tr><tr><td>HP:0011462</td><td>Young adult onset</td><td>Apparition chez le jeune adulte (16 ans &lt;= âge &lt; 40 ans)</td></tr><tr><td>HP:0003596</td><td>Middle age onset</td><td>Apparition à l'âge moyen (40 ans &lt;= âge &lt; 60 ans)</td></tr><tr><td>HP:0003584</td><td>Late onset</td><td>Apparition tardive (âge &gt;= 60 ans)</td></tr></table></li></ul></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"]; # 
-  fhir:ValueSet.version [ fhir:value "0.1.0"]; # 
-  fhir:ValueSet.name [ fhir:value "age-at-onset"]; # 
-  fhir:ValueSet.title [ fhir:value "Age at Onset Codes"]; # 
-  fhir:ValueSet.status [ fhir:value "draft"]; # 
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ValueSet.date [ fhir:value "2020-08-12T13:29:08-04:00"^^xsd:dateTime]; # 
-  fhir:ValueSet.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "This value set includes age at onset codes from Human Phenotype Ontology."]; # 
-  fhir:ValueSet.compose [
-     fhir:ValueSet.compose.include [
-       fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.owl" ];
-       fhir:ValueSet.compose.include.concept [
-         fhir:index 0;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003577" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Congenital onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition congénitale" ]
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0030674" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Antenatal onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition anténatale" ]
-         ]
-       ], [
-         fhir:index 2;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0011460" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Embryonal onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition embryonnaire (âge < 10 semaines de gestation)" ]
-         ]
-       ], [
-         fhir:index 3;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0011461" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fetal onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition foetale (âge >= 10 semaines de gestation)" ]
-         ]
-       ], [
-         fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003623" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Neonatal onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition néonatale (âge < 28 jours)" ]
-         ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003593" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Infantile onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition dans l'enfance (28 jours <= âge < 1 an)" ]
-         ]
-       ], [
-         fhir:index 6;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0011463" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Childhood onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition chez l'enfant (1 an <= âge < 5 ans)" ]
-         ]
-       ], [
-         fhir:index 7;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003621" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Juvenile onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition juvénile (5 ans <= âge <= 15 ans)" ]
-         ]
-       ], [
-         fhir:index 8;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0410280" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pediatric onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition pédiatrique (âge <= 15 ans)" ]
-         ]
-       ], [
-         fhir:index 9;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003581" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Adult onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition à l'âge adulte (âge >= 16 ans)" ]
-         ]
-       ], [
-         fhir:index 10;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0011462" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Young adult onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition chez le jeune adulte (16 ans <= âge < 40 ans)" ]
-         ]
-       ], [
-         fhir:index 11;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003596" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Middle age onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition à l'âge moyen (40 ans <= âge < 60 ans)" ]
-         ]
-       ], [
-         fhir:index 12;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "HP:0003584" ];
-         fhir:ValueSet.compose.include.concept.display [ fhir:value "Late onset" ];
-         fhir:ValueSet.compose.include.concept.designation [
-           fhir:index 0;
-           fhir:ValueSet.compose.include.concept.designation.language [ fhir:value "fr" ];
-           fhir:ValueSet.compose.include.concept.designation.value [ fhir:value "Apparition tardive (âge >= 60 ans)" ]
-         ]
-       ]
-     ]
+<http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "age-at-onset"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0003577</td><td>Congenital onset</td><td>Apparition congénitale</td></tr><tr><td>HP:0030674</td><td>Antenatal onset</td><td>Apparition anténatale</td></tr><tr><td>HP:0011460</td><td>Embryonal onset</td><td>Apparition embryonnaire (âge &lt; 10 semaines de gestation)</td></tr><tr><td>HP:0011461</td><td>Fetal onset</td><td>Apparition foetale (âge &gt;= 10 semaines de gestation)</td></tr><tr><td>HP:0003623</td><td>Neonatal onset</td><td>Apparition néonatale (âge &lt; 28 jours)</td></tr><tr><td>HP:0003593</td><td>Infantile onset</td><td>Apparition dans l'enfance (28 jours &lt;= âge &lt; 1 an)</td></tr><tr><td>HP:0011463</td><td>Childhood onset</td><td>Apparition chez l'enfant (1 an &lt;= âge &lt; 5 ans)</td></tr><tr><td>HP:0003621</td><td>Juvenile onset</td><td>Apparition juvénile (5 ans &lt;= âge &lt;= 15 ans)</td></tr><tr><td>HP:0410280</td><td>Pediatric onset</td><td>Apparition pédiatrique (âge &lt;= 15 ans)</td></tr><tr><td>HP:0003581</td><td>Adult onset</td><td>Apparition à l'âge adulte (âge &gt;= 16 ans)</td></tr><tr><td>HP:0011462</td><td>Young adult onset</td><td>Apparition chez le jeune adulte (16 ans &lt;= âge &lt; 40 ans)</td></tr><tr><td>HP:0003596</td><td>Middle age onset</td><td>Apparition à l'âge moyen (40 ans &lt;= âge &lt; 60 ans)</td></tr><tr><td>HP:0003584</td><td>Late onset</td><td>Apparition tardive (âge &gt;= 60 ans)</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "age-at-onset"] ; # 
+  fhir:title [ fhir:v "Age at Onset Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-08-12T13:29:08-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes age at onset codes from Human Phenotype Ontology."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://purl.obolibrary.org/obo/hp.owl"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "HP:0003577" ] ;
+         fhir:display [ fhir:v "Congenital onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition congénitale" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0030674" ] ;
+         fhir:display [ fhir:v "Antenatal onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition anténatale" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0011460" ] ;
+         fhir:display [ fhir:v "Embryonal onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition embryonnaire (âge < 10 semaines de gestation)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0011461" ] ;
+         fhir:display [ fhir:v "Fetal onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition foetale (âge >= 10 semaines de gestation)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003623" ] ;
+         fhir:display [ fhir:v "Neonatal onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition néonatale (âge < 28 jours)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003593" ] ;
+         fhir:display [ fhir:v "Infantile onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition dans l'enfance (28 jours <= âge < 1 an)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0011463" ] ;
+         fhir:display [ fhir:v "Childhood onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition chez l'enfant (1 an <= âge < 5 ans)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003621" ] ;
+         fhir:display [ fhir:v "Juvenile onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition juvénile (5 ans <= âge <= 15 ans)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0410280" ] ;
+         fhir:display [ fhir:v "Pediatric onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition pédiatrique (âge <= 15 ans)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003581" ] ;
+         fhir:display [ fhir:v "Adult onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition à l'âge adulte (âge >= 16 ans)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0011462" ] ;
+         fhir:display [ fhir:v "Young adult onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition chez le jeune adulte (16 ans <= âge < 40 ans)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003596" ] ;
+         fhir:display [ fhir:v "Middle age onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition à l'âge moyen (40 ans <= âge < 60 ans)" ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "HP:0003584" ] ;
+         fhir:display [ fhir:v "Late onset" ] ;
+         fhir:designation ( [
+           fhir:language [ fhir:v "fr" ] ;
+           fhir:value [ fhir:v "Apparition tardive (âge >= 60 ans)" ]
+         ] )
+       ] )
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

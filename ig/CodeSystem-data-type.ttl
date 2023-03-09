@@ -5,112 +5,117 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.cqgc.ferlab.bio/CodeSystem/data-type> a fhir:CodeSystem;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "data-type"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">REPORT<a name=\"data-type-REPORT\"> </a></td><td>Data Report</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"data-type-OTHER\"> </a></td><td>Undefined Data Type</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinale</td></tr><tr><td>GSV</td><td>SV germinale</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr><tr><td>REPORT</td><td>Rapport sur les données</td></tr><tr><td>OTHER</td><td>Type de données indéfini</td></tr></table></div>"
-  ]; # 
-  fhir:CodeSystem.url [ fhir:value "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"]; # 
-  fhir:CodeSystem.version [ fhir:value "0.1.0"]; # 
-  fhir:CodeSystem.name [ fhir:value "data-type"]; # 
-  fhir:CodeSystem.title [ fhir:value "Data types"]; # 
-  fhir:CodeSystem.status [ fhir:value "draft"]; # 
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:CodeSystem.date [ fhir:value "2023-02-28T17:04:12+00:00"^^xsd:dateTime]; # 
-  fhir:CodeSystem.publisher [ fhir:value "Ferlab.bio"]; # 
-  fhir:CodeSystem.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Cqgc" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "email" ];
-       fhir:ContactPoint.value [ fhir:value "mailto:support@ferlab.bio" ]
-     ]
-  ]; # 
-  fhir:CodeSystem.description [ fhir:value "Data types"]; # 
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:CodeSystem.content [ fhir:value "complete"]; # 
-  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger]; # 
-  fhir:CodeSystem.concept [
-     fhir:index 0;
-     fhir:CodeSystem.concept.code [ fhir:value "ALIR" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Aligned Reads" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Fragments alignés" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:CodeSystem.concept.code [ fhir:value "SNV" ];
-     fhir:CodeSystem.concept.display [ fhir:value "SNV" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "SNV" ]
-     ]
-  ], [
-     fhir:index 2;
-     fhir:CodeSystem.concept.code [ fhir:value "GCNV" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Germline CNV" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "CNV germinale" ]
-     ]
-  ], [
-     fhir:index 3;
-     fhir:CodeSystem.concept.code [ fhir:value "GSV" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Germline SV" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "SV germinale" ]
-     ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "SSUP" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Sequencing Data Supplement" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Données de séquençage supplémentaires" ]
-     ]
-  ], [
-     fhir:index 5;
-     fhir:CodeSystem.concept.code [ fhir:value "INDX" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Sequencing Data Index" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Index de données de séquençage" ]
-     ]
-  ], [
-     fhir:index 6;
-     fhir:CodeSystem.concept.code [ fhir:value "REPORT" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Data Report" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Rapport sur les données" ]
-     ]
-  ], [
-     fhir:index 7;
-     fhir:CodeSystem.concept.code [ fhir:value "OTHER" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Undefined Data Type" ];
-     fhir:CodeSystem.concept.designation [
-       fhir:index 0;
-       fhir:CodeSystem.concept.designation.language [ fhir:value "fr" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Type de données indéfini" ]
-     ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://fhir.cqgc.ferlab.bio/CodeSystem/data-type.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<http://fhir.cqgc.ferlab.bio/CodeSystem/data-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "data-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">EXOMIZER<a name=\"data-type-EXOMIZER\"> </a></td><td>Exomizer Report</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV Track</td></tr><tr><td style=\"white-space:nowrap\">CNVVIZ<a name=\"data-type-CNVVIZ\"> </a></td><td>CNV Visualization</td></tr><tr><td style=\"white-space:nowrap\">COVGENE<a name=\"data-type-COVGENE\"> </a></td><td>Coverage by Gene Report</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"data-type-OTHER\"> </a></td><td>Undefined Data Type</td></tr><tr><td style=\"white-space:nowrap\">FUSG<a name=\"data-type-FUSG\"> </a></td><td>Gene fusion</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinale</td></tr><tr><td>GSV</td><td>SV germinale</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr><tr><td>EXOMIZER</td><td>Rapport Exomizer</td></tr><tr><td>IGV</td><td>Track IGV</td></tr><tr><td>CNVVIZ</td><td>Visualization de CNVs</td></tr><tr><td>COVGENE</td><td>Rapport de couverture par gène</td></tr><tr><td>OTHER</td><td>Type de données indéfini</td></tr><tr><td>FUSG</td><td>Fusion de gènes</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "data-type"] ; # 
+  fhir:title [ fhir:v "Data types"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-09T16:02:20+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Data types"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ALIR" ] ;
+     fhir:display [ fhir:v "Aligned Reads" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fragments alignés" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SNV" ] ;
+     fhir:display [ fhir:v "SNV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "SNV" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GCNV" ] ;
+     fhir:display [ fhir:v "Germline CNV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "CNV germinale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "GSV" ] ;
+     fhir:display [ fhir:v "Germline SV" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "SV germinale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SSUP" ] ;
+     fhir:display [ fhir:v "Sequencing Data Supplement" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Données de séquençage supplémentaires" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "INDX" ] ;
+     fhir:display [ fhir:v "Sequencing Data Index" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Index de données de séquençage" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EXOMIZER" ] ;
+     fhir:display [ fhir:v "Exomizer Report" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Rapport Exomizer" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "IGV" ] ;
+     fhir:display [ fhir:v "IGV Track" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Track IGV" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNVVIZ" ] ;
+     fhir:display [ fhir:v "CNV Visualization" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Visualization de CNVs" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "COVGENE" ] ;
+     fhir:display [ fhir:v "Coverage by Gene Report" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Rapport de couverture par gène" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "OTHER" ] ;
+     fhir:display [ fhir:v "Undefined Data Type" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Type de données indéfini" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FUSG" ] ;
+     fhir:display [ fhir:v "Gene fusion" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Fusion de gènes" ]
+     ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 
