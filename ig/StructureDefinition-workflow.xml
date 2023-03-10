@@ -16,9 +16,9 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:genomeBuildVersion" title="Slice genomeBuildVersion: Genome Build Version">extension:genomeBuildVersion</a><a name="Extension.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Genome Build Version</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:genomeBuildVersion.url">url</a><a name="Extension.extension.url"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="color: darkgreen">&quot;genomeBuildVersion&quot;</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:genomeBuildVersion.valueString">valueString</a><a name="Extension.extension.valueString"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:gencodeVersion" title="Slice gencodeVersion: Gencode Version">extension:gencodeVersion</a><a name="Extension.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Gencode Version</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:gencodeVersion.url">url</a><a name="Extension.extension.url"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="color: darkgreen">&quot;gencodeVersion&quot;</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:gencodeVersion.valueString">valueString</a><a name="Extension.extension.valueString"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck15.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:vepVersion" title="Slice vepVersion: Vep Version">extension:vepVersion</a><a name="Extension.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">VEP Version</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck150.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:vepVersion.url">url</a><a name="Extension.extension.url"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="color: darkgreen">&quot;gencodeVersion&quot;</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck140.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.extension:vepVersion.valueString">valueString</a><a name="Extension.extension.valueString"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-workflow-definitions.html#Extension.url">url</a><a name="Extension.url"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="color: darkgreen">&quot;http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow&quot;</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <span style="text-decoration:line-through">value[x]</span><a name="Extension.value_x_"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="text-decoration:line-through"/><span style="text-decoration:line-through">0</span><span style="text-decoration:line-through">..</span><span style="text-decoration:line-through">0</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
@@ -28,7 +28,7 @@
   <name value="Workflow"/>
   <title value="Workflow Extension"/>
   <status value="draft"/>
-  <date value="2023-03-10T16:37:58+00:00"/>
+  <date value="2023-03-10T16:43:52+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -956,11 +956,11 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Extension.extension:gencodeVersion">
+    <element id="Extension.extension:vepVersion">
       <path value="Extension.extension"/>
-      <sliceName value="gencodeVersion"/>
-      <short value="Gencode Version"/>
-      <definition value="Gencode Version"/>
+      <sliceName value="vepVersion"/>
+      <short value="VEP Version"/>
+      <definition value="Vep Version"/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -991,7 +991,7 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
-    <element id="Extension.extension:gencodeVersion.id">
+    <element id="Extension.extension:vepVersion.id">
       <path value="Extension.extension.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1016,7 +1016,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Extension.extension:gencodeVersion.extension">
+    <element id="Extension.extension:vepVersion.extension">
       <path value="Extension.extension.extension"/>
       <slicing>
         <discriminator>
@@ -1064,7 +1064,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Extension.extension:gencodeVersion.url">
+    <element id="Extension.extension:vepVersion.url">
       <path value="Extension.extension.url"/>
       <representation value="xmlAttr"/>
       <short value="identifies the meaning of the extension"/>
@@ -1088,7 +1088,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Extension.extension:gencodeVersion.value[x]">
+    <element id="Extension.extension:vepVersion.value[x]">
       <path value="Extension.extension.value[x]"/>
       <slicing>
         <discriminator>
@@ -1125,7 +1125,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Extension.extension:gencodeVersion.value[x]:valueString">
+    <element id="Extension.extension:vepVersion.value[x]:valueString">
       <path value="Extension.extension.value[x]"/>
       <sliceName value="valueString"/>
       <short value="Value of extension"/>
@@ -1484,11 +1484,11 @@
         <code value="string"/>
       </type>
     </element>
-    <element id="Extension.extension:gencodeVersion">
+    <element id="Extension.extension:vepVersion">
       <path value="Extension.extension"/>
-      <sliceName value="gencodeVersion"/>
-      <short value="Gencode Version"/>
-      <definition value="Gencode Version"/>
+      <sliceName value="vepVersion"/>
+      <short value="VEP Version"/>
+      <definition value="Vep Version"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -1496,7 +1496,7 @@
       </type>
       <mustSupport value="true"/>
     </element>
-    <element id="Extension.extension:gencodeVersion.url">
+    <element id="Extension.extension:vepVersion.url">
       <path value="Extension.extension.url"/>
       <min value="1"/>
       <max value="1"/>
@@ -1505,7 +1505,7 @@
       </type>
       <fixedUri value="gencodeVersion"/>
     </element>
-    <element id="Extension.extension:gencodeVersion.valueString">
+    <element id="Extension.extension:vepVersion.valueString">
       <path value="Extension.extension.valueString"/>
       <min value="1"/>
       <max value="1"/>
