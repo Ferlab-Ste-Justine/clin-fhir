@@ -3,7 +3,7 @@
   "id" : "data-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">EXOMIZER<a name=\"data-type-EXOMIZER\"> </a></td><td>Exomizer Report</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV Track</td></tr><tr><td style=\"white-space:nowrap\">CNVVIS<a name=\"data-type-CNVVIS\"> </a></td><td>CNV Visualization</td></tr><tr><td style=\"white-space:nowrap\">COVGENE<a name=\"data-type-COVGENE\"> </a></td><td>Coverage by Gene Report</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"data-type-OTHER\"> </a></td><td>Undefined Data Type</td></tr><tr><td style=\"white-space:nowrap\">QCRUN<a name=\"data-type-QCRUN\"> </a></td><td>Sequencing Run QC Report</td></tr><tr><td style=\"white-space:nowrap\">FUSG<a name=\"data-type-FUSG\"> </a></td><td>Gene fusion</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinal</td></tr><tr><td>GSV</td><td>SV germinal</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr><tr><td>EXOMIZER</td><td>Rapport Exomizer</td></tr><tr><td>IGV</td><td>Track IGV</td></tr><tr><td>CNVVIS</td><td>Visualization de CNVs</td></tr><tr><td>COVGENE</td><td>Rapport de couverture par gène</td></tr><tr><td>OTHER</td><td>Type de données indéfini</td></tr><tr><td>QCRUN</td><td>Rapport de controle de qualité de la run de séquençage</td></tr><tr><td>FUSG</td><td>Fusion de gènes</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ALIR<a name=\"data-type-ALIR\"> </a></td><td>Aligned Reads</td></tr><tr><td style=\"white-space:nowrap\">SNV<a name=\"data-type-SNV\"> </a></td><td>SNV</td></tr><tr><td style=\"white-space:nowrap\">GCNV<a name=\"data-type-GCNV\"> </a></td><td>Germline CNV</td></tr><tr><td style=\"white-space:nowrap\">GSV<a name=\"data-type-GSV\"> </a></td><td>Germline SV</td></tr><tr><td style=\"white-space:nowrap\">SSUP<a name=\"data-type-SSUP\"> </a></td><td>Sequencing Data Supplement</td></tr><tr><td style=\"white-space:nowrap\">INDX<a name=\"data-type-INDX\"> </a></td><td>Sequencing Data Index</td></tr><tr><td style=\"white-space:nowrap\">EXOMISER<a name=\"data-type-EXOMISER\"> </a></td><td>Exomiser Report</td></tr><tr><td style=\"white-space:nowrap\">IGV<a name=\"data-type-IGV\"> </a></td><td>IGV Track</td></tr><tr><td style=\"white-space:nowrap\">CNVVIS<a name=\"data-type-CNVVIS\"> </a></td><td>CNV Visualization</td></tr><tr><td style=\"white-space:nowrap\">COVGENE<a name=\"data-type-COVGENE\"> </a></td><td>Coverage by Gene Report</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"data-type-OTHER\"> </a></td><td>Undefined Data Type</td></tr><tr><td style=\"white-space:nowrap\">QCRUN<a name=\"data-type-QCRUN\"> </a></td><td>Sequencing Run QC Report</td></tr><tr><td style=\"white-space:nowrap\">FUSG<a name=\"data-type-FUSG\"> </a></td><td>Gene fusion</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>ALIR</td><td>Fragments alignés</td></tr><tr><td>SNV</td><td>SNV</td></tr><tr><td>GCNV</td><td>CNV germinal</td></tr><tr><td>GSV</td><td>SV germinal</td></tr><tr><td>SSUP</td><td>Données de séquençage supplémentaires</td></tr><tr><td>INDX</td><td>Index de données de séquençage</td></tr><tr><td>EXOMISER</td><td>Rapport Exomiser</td></tr><tr><td>IGV</td><td>Track IGV</td></tr><tr><td>CNVVIS</td><td>Visualization de CNVs</td></tr><tr><td>COVGENE</td><td>Rapport de couverture par gène</td></tr><tr><td>OTHER</td><td>Type de données indéfini</td></tr><tr><td>QCRUN</td><td>Rapport de controle de qualité de la run de séquençage</td></tr><tr><td>FUSG</td><td>Fusion de gènes</td></tr></table></div>"
   },
   "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Data types",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-10T16:43:52+00:00",
+  "date" : "2023-03-16T01:14:24+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",
@@ -73,11 +73,11 @@
     }]
   },
   {
-    "code" : "EXOMIZER",
-    "display" : "Exomizer Report",
+    "code" : "EXOMISER",
+    "display" : "Exomiser Report",
     "designation" : [{
       "language" : "fr",
-      "value" : "Rapport Exomizer"
+      "value" : "Rapport Exomiser"
     }]
   },
   {
