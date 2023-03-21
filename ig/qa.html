@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 10, warn = 113, info = 0-->
+<!-- broken links = 0, errors = 60, warn = 113, info = 0-->
 <head>
   <title>CqgcImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,9 +36,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CqgcImplementationGuide</h1>
- <p>Generated Thu Mar 16 01:24:41 UTC 2023, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Tue Mar 21 11:44:15 UTC 2023, FHIR version 4.0.1 for cqgc#0.1.0 (canonical = <a href="http://fhir.cqgc.ferlab.bio">http://fhir.cqgc.ferlab.bio</a> (<a href="http://fhir.cqgc.ferlab.bio/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.48</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.54</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cqgc, Canonical = http://fhir.cqgc.ferlab.bio</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Publication Request:</td><td><ul><li>The file package-list.json should not exist in the root folder <img src="icon-error.gif" height="16px" width="16px"/></li>
@@ -58,7 +58,7 @@
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://fhir.cqgc.ferlab.bio (Problem #1 with package-list.json at http://fhir.cqgc.ferlab.bio: fhir.cqgc.ferlab.bio)</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 10, warn = 113, info = 0, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 60, warn = 113, info = 0, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -67,8 +67,8 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_ImplementationGuide-Clin"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_ImplementationGuide-Clin"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin</b></a></td><td><b>50</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_clin-fhir_clin-fhir_site_root_input_resources_extensions_StructureDefinition-age-at-event"><b>/home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -296,7 +296,157 @@
  <div style="border: 1px grey solid; display: none" id="vi1"></div>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[0].url (l1/c1340)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[1].url (l1/c1508)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[2].url (l1/c1678)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[3].url (l1/c1852)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[4].url (l1/c2023)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[5].url (l1/c2185)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[6].url (l1/c2352)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[7].url (l1/c2517)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[8].url (l1/c2713)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[9].url (l1/c2913)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[10].url (l1/c3092)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[11].url (l1/c3272)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[12].url (l1/c3437)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[13].url (l1/c3602)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[14].url (l1/c3769)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[15].url (l1/c3939)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[16].url (l1/c4104)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[17].url (l1/c4271)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[18].url (l1/c4436)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[19].url (l1/c4601)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[20].url (l1/c4805)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[21].url (l1/c4973)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[22].url (l1/c5147)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[23].url (l1/c5315)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[24].url (l1/c5481)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[25].url (l1/c5649)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[26].url (l1/c5819)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[27].url (l1/c5993)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[28].url (l1/c6164)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[29].url (l1/c6326)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[30].url (l1/c6493)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[31].url (l1/c6658)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[32].url (l1/c6854)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[33].url (l1/c7054)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[34].url (l1/c7233)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[35].url (l1/c7413)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[36].url (l1/c7578)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[37].url (l1/c7743)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[38].url (l1/c7910)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[39].url (l1/c8080)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[40].url (l1/c8245)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[41].url (l1/c8412)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[42].url (l1/c8577)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[43].url (l1/c8742)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[44].url (l1/c8946)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[45].url (l1/c9114)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[46].url (l1/c9288)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.extension[47].url (l1/c9456)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.page.extension[0].url (l1/c30554)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.page.page[0].extension[0].url (l1/c30737)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve</b></td>
    </tr>
 </table>
 <hr/>
@@ -717,7 +867,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c4054)</b></td><td><b>warning</b></td><td title="Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+     <td><b>CodeSystem (l1/c5029)</b></td><td><b>warning</b></td><td title="Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
    </tr>
 </table>
 <hr/>
@@ -931,7 +1081,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'age-at-onset')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l35">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'age-at-onset')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l25">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -979,7 +1129,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'bmus-abnormalities')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l23">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'bmus-abnormalities')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l27">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1011,7 +1161,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'common-observation')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l21">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'common-observation')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l31">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1079,10 +1229,10 @@
      <td><b>ValueSet (l1/c1891)</b></td><td><b>warning</b></td><td title="Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
+     <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0030006'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0030006) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'emg-abnormalities')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l25">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'emg-abnormalities')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l19">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1150,10 +1300,10 @@
      <td><b>ValueSet (l1/c3599)</b></td><td><b>warning</b></td><td title="Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0003128'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0003128) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))</b></td>
+     <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'mitn-default-hpo')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l19">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'mitn-default-hpo')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l29">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1185,7 +1335,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'mmg-default-hpo')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l29">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'mmg-default-hpo')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l23">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1265,7 +1415,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'rgdi-default-exam')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l27">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'rgdi-default-exam')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l21">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1284,7 +1434,7 @@
      <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'rgdi-default-hpo')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l31">see Tx log</a>)</td>
+     <td><b>ValueSet.where(id = 'rgdi-default-hpo')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl</b> (<a href="qa-tx.html#l35">see Tx log</a>)</td>
    </tr>
 </table>
 <hr/>
@@ -1359,6 +1509,161 @@
  <table class="grid">
    <tr style="background-color: #fff4ee">
      <td><a href="ValueSet-analysis-request-code.html">input/resources/terminology/ValueSet-analysis-request-code.json</a></td><td><b>value should not start or finish with whitespace 'Analysis request code '</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_URL_Resolve"> </a>
+<h2>Type_Specific_Checks_DT_URL_Resolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-Cqgc.html">input/ImplementationGuide-Clin.json</a></td><td><b>URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve</b></td>
    </tr>
 </table>
 <hr/>

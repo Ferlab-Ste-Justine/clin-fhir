@@ -1,11 +1,11 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 10, warn = 113, info = 0
-IG Publisher Version: 1.2.48
-Generated Thu Mar 16 01:24:42 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 60, warn = 113, info = 0
+IG Publisher Version: 1.2.54
+Generated Tue Mar 21 11:44:16 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 5 / 0
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 50 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-analysis-type : 0 / 4 / 1
@@ -80,6 +80,56 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == input/ImplementationGuide-Clin.json ==
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[1].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[2].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[3].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[4].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[5].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[6].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[7].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[8].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[9].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[10].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[11].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[12].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[13].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[14].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[15].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[16].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[17].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[18].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[19].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[20].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[21].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[22].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[23].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[24].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[25].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[26].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[27].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[28].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[29].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[30].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[31].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[32].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[33].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[34].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[35].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[36].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[37].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[38].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[39].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[40].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[41].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[42].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[43].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[44].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[45].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[46].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.extension[47].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.page.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/Cqgc: ImplementationGuide.definition.page.page[0].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
 == input/resources/extensions/StructureDefinition-age-at-event.json ==
 WARNING: StructureDefinition/age-at-event: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event'): The Implementation Guide contains no examples for this extension
@@ -221,7 +271,7 @@ WARNING: ValueSet/disease-status: ValueSet: Rule vsd-0: 'Name should be usable a
 WARNING: ValueSet/document-format: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-emg-abnormalities.json ==
 WARNING: ValueSet/emg-abnormalities: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/emg-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
+WARNING: ValueSet/emg-abnormalities: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0030006'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0030006) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 WARNING: ValueSet.where(id = 'emg-abnormalities'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-experimental-strategy.json ==
 WARNING: ValueSet/experimental-strategy: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -233,7 +283,7 @@ WARNING: ValueSet/genome-build: ValueSet: Rule vsd-0: 'Name should be usable as 
 WARNING: ValueSet/mitn-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mitn-default-hpo.json ==
 WARNING: ValueSet/mitn-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://purl.obolibrary.org/obo/hp.owl. Server Error: The code system 'http://purl.obolibrary.org/obo/hp.owl' is not known (encountered paired with code = 'HP:0003128'); The code provided (http://purl.obolibrary.org/obo/hp.owl#HP:0003128) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet/mitn-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'mitn-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-mmg-default-exam.json ==
 WARNING: ValueSet/mmg-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
