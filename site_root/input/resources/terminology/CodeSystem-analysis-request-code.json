@@ -111,6 +111,26 @@
           "value": "Polymalformation"
         }
       ]
+    },
+    {
+      "code": "TUHEM",
+      "display": "Hematological malignancies predisposition",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition hémopathies malignes pédiatriques"
+        }
+      ]
+    },
+    {
+      "code": "TUPED",
+      "display": "Pediatric cancer predisposition",
+      "designation": [
+        {
+          "language": "fr",
+          "value": "Prédisposition cancers pédiatriques"
+        }
+      ]
     }
   ]
 }
