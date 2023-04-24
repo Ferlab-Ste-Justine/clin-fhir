@@ -1,0 +1,59 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cqgc-patient-foetus",
+  "url": "http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-patient-foetus",
+  "version": "0.1.0",
+  "name": "cqgc-patient-foetus",
+  "title": "CQGC Patient Foetus",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient",
+        "path": "Patient"
+      },
+      {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.extension:gestational-age",
+        "path": "Patient.extension",
+        "sliceName": "gestational-age",
+        "sliceIsConstraining": false,
+        "label": "gestational-age-text",
+        "short": "gestational-age-text",
+        "definition": "Foetus gestational age",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.cqgc.ferlab.bio/StructureDefinition/gestational-age"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
+      }
+    ]
+  },
+  "date": "2020-08-20T13:18:01-04:00"
+}
