@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sequencing-request-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">75020<a name="sequencing-request-code-75020"> </a></td><td>Normal Exome Sequencing</td><td>Séquençage d'exome normal</td></tr><tr><td style="white-space:nowrap">65241<a name="sequencing-request-code-65241"> </a></td><td>Tumoral Exome Sequencing</td><td>Séquençage d'exome tumoral</td></tr><tr><td style="white-space:nowrap">65240<a name="sequencing-request-code-65240"> </a></td><td>Tumoral Trancriptome Sequencing </td><td>Séquençage de transcriptome tumoral</td></tr></table></div>
+  </text>
+  <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code"/>
+  <version value="0.1.0"/>
+  <name value="sequencing-request-code"/>
+  <title value="sequencing request codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-05-30T18:28:01+00:00"/>
+  <publisher value="Ferlab.bio"/>
+  <contact>
+    <name value="Cqgc"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ferlab.bio"/>
+    </telecom>
+  </contact>
+  <description value="Sequencing request codes"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="75020"/>
+    <display value="Normal Exome Sequencing"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Séquençage d'exome normal"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="65241"/>
+    <display value="Tumoral Exome Sequencing"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Séquençage d'exome tumoral"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="65240"/>
+    <display value="Tumoral Trancriptome Sequencing "/>
+    <designation>
+      <language value="fr"/>
+      <value value="Séquençage de transcriptome tumoral"/>
+    </designation>
+  </concept>
+</CodeSystem>

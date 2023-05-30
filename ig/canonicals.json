@@ -105,6 +105,13 @@
     "name" : "qc-ethnicity"
   },
   {
+    "id" : "sequencing-request-code",
+    "type" : "CodeSystem",
+    "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+    "version" : "0.1.0",
+    "name" : "sequencing-request-code"
+  },
+  {
     "id" : "specimen-type",
     "type" : "CodeSystem",
     "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
@@ -439,6 +446,13 @@
     "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
     "version" : "0.1.0",
     "name" : "rgdi-default-hpo"
+  },
+  {
+    "id" : "sequencing-request-code",
+    "type" : "ValueSet",
+    "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+    "version" : "0.1.0",
+    "name" : "sequencing-request-codes"
   },
   {
     "id" : "specimen-type",

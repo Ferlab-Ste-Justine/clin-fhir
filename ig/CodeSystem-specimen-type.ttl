@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "specimen-type"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td></tr><tr><td style=\"white-space:nowrap\">RNA<a name=\"specimen-type-RNA\"> </a></td><td>RNA Sample</td><td>RNA sample</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td></tr><tr><td style=\"white-space:nowrap\">NORMAL<a name=\"specimen-type-NORMAL\"> </a></td><td>Normal Specimen</td><td>Normal specimen</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>DNA</td><td>Échantillon d'ADN</td></tr><tr><td>RNA</td><td>Échantillon d'ARN</td></tr><tr><td>NBL</td><td>Spécimen de sang normal</td></tr><tr><td>TUMOR</td><td>Spécimen tumoral</td></tr><tr><td>NORMAL</td><td>Spécimen de tissue normal</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td><td>Échantillon d'ADN</td></tr><tr><td style=\"white-space:nowrap\">RNA<a name=\"specimen-type-RNA\"> </a></td><td>RNA Sample</td><td>RNA sample</td><td>Échantillon d'ARN</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td><td>Spécimen de sang normal</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td><td>Spécimen tumoral</td></tr><tr><td style=\"white-space:nowrap\">NORMAL<a name=\"specimen-type-NORMAL\"> </a></td><td>Normal Specimen</td><td>Normal specimen</td><td>Spécimen de tissue normal</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Specimen types"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-04T14:29:08+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-30T18:28:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

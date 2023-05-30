@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "sequencing-request-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-sequencing-request-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-analysis-request-code.html\"><code>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+  "version" : "0.1.0",
+  "name" : "sequencing-request-codes",
+  "title" : "Sequencing request codes ",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-05-30T18:28:01+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Sequencing request codes",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code"
+    },
+    {
+      "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+    }]
+  }
+}

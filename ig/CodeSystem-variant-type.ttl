@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "variant-type"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"variant-type-S\"> </a></td><td>Somatic</td><td>Somatic variant</td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"variant-type-G\"> </a></td><td>Germline</td><td>Germline variant</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>S</td><td>Somatique</td></tr><tr><td>G</td><td>Germinale</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"variant-type-S\"> </a></td><td>Somatic</td><td>Somatic variant</td><td>Somatique</td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"variant-type-G\"> </a></td><td>Germline</td><td>Germline variant</td><td>Germinale</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Variant types"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-04T14:29:08+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-30T18:28:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

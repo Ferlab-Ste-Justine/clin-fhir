@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "sequencing-request-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">75020<a name=\"sequencing-request-code-75020\"> </a></td><td>Normal Exome Sequencing</td><td>Séquençage d'exome normal</td></tr><tr><td style=\"white-space:nowrap\">65241<a name=\"sequencing-request-code-65241\"> </a></td><td>Tumoral Exome Sequencing</td><td>Séquençage d'exome tumoral</td></tr><tr><td style=\"white-space:nowrap\">65240<a name=\"sequencing-request-code-65240\"> </a></td><td>Tumoral Trancriptome Sequencing </td><td>Séquençage de transcriptome tumoral</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "sequencing-request-code"] ; # 
+  fhir:title [ fhir:v "sequencing request codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-05-30T18:28:01+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Cqgc" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mailto:support@ferlab.bio" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Sequencing request codes"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "75020" ] ;
+     fhir:display [ fhir:v "Normal Exome Sequencing" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Séquençage d'exome normal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "65241" ] ;
+     fhir:display [ fhir:v "Tumoral Exome Sequencing" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Séquençage d'exome tumoral" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "65240" ] ;
+     fhir:display [ fhir:v "Tumoral Trancriptome Sequencing " ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Séquençage de transcriptome tumoral" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "sequencing-request-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">75020<a name=\"sequencing-request-code-75020\"> </a></td><td>Normal Exome Sequencing</td><td>Séquençage d'exome normal</td></tr><tr><td style=\"white-space:nowrap\">65241<a name=\"sequencing-request-code-65241\"> </a></td><td>Tumoral Exome Sequencing</td><td>Séquençage d'exome tumoral</td></tr><tr><td style=\"white-space:nowrap\">65240<a name=\"sequencing-request-code-65240\"> </a></td><td>Tumoral Trancriptome Sequencing </td><td>Séquençage de transcriptome tumoral</td></tr></table></div>"
+  },
+  "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+  "version" : "0.1.0",
+  "name" : "sequencing-request-code",
+  "title" : "sequencing request codes",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-05-30T18:28:01+00:00",
+  "publisher" : "Ferlab.bio",
+  "contact" : [{
+    "name" : "Cqgc",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mailto:support@ferlab.bio"
+    }]
+  }],
+  "description" : "Sequencing request codes",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "75020",
+    "display" : "Normal Exome Sequencing",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Séquençage d'exome normal"
+    }]
+  },
+  {
+    "code" : "65241",
+    "display" : "Tumoral Exome Sequencing",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Séquençage d'exome tumoral"
+    }]
+  },
+  {
+    "code" : "65240",
+    "display" : "Tumoral Trancriptome Sequencing ",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Séquençage de transcriptome tumoral"
+    }]
+  }]
+}

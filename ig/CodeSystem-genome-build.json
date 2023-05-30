@@ -3,7 +3,7 @@
   "id" : "genome-build",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td><td>GRCh38</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>GRCh38</td><td>GRCh38</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">GRCh38<a name=\"genome-build-GRCh38\"> </a></td><td>GRCh38</td><td>GRCh38</td></tr></table></div>"
   },
   "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Genome build",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-04-04T14:29:08+00:00",
+  "date" : "2023-05-30T18:28:01+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",

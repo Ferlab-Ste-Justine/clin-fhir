@@ -10,7 +10,7 @@
   "name" : "CqgcImplementationGuide",
   "title" : "Cqgc Implementation Guide",
   "status" : "active",
-  "date" : "2023-04-04T14:29:08+00:00",
+  "date" : "2023-05-30T18:28:01+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",
@@ -32,6 +32,16 @@
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
     "version" : "5.0.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "1.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -297,6 +307,10 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools#current"
     },
     {
       "extension" : [{
@@ -1350,8 +1364,33 @@
       "reference" : {
         "reference" : "CodeSystem/missing-parent-status"
       },
-      "name" : "Missing parent status",
-      "description" : "type d'absence pour un parent"
+      "name" : "Ferlab.bio CodeSystem/missing-parent-status",
+      "description" : "Ferlab.bio CodeSystem missing-parent-status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/sequencing-request-code"
+      },
+      "name" : "Ferlab.bio CodeSystem/sequencing-request-code",
+      "description" : "Ferlab.bio CodeSystem sequencing-request-code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/sequencing-request-code"
+      },
+      "name" : "Ferlab.bio ValueSet/sequencing-request-code",
+      "description" : "Ferlab.bio ValueSet sequencing-request-code",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

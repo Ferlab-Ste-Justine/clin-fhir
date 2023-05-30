@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "cgh-abnormalities"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CNV0<a name=\"cgh-abnormalities-CNV0\"> </a></td><td>CNVs not explaining phenotypes</td></tr><tr><td style=\"white-space:nowrap\">CNV1<a name=\"cgh-abnormalities-CNV1\"> </a></td><td>CNVs explaining phenotypes</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td></tr><tr><td>CNV0</td><td>CNVs n'expliquant pas le phénotype</td></tr><tr><td>CNV1</td><td>CNV expliquant le phénotype</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">CNV0<a name=\"cgh-abnormalities-CNV0\"> </a></td><td>CNVs not explaining phenotypes</td><td>CNVs n'expliquant pas le phénotype</td></tr><tr><td style=\"white-space:nowrap\">CNV1<a name=\"cgh-abnormalities-CNV1\"> </a></td><td>CNVs explaining phenotypes</td><td>CNV expliquant le phénotype</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "CGH abnormalities"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-04-04T14:29:08+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-30T18:28:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;
