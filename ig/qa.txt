@@ -1,15 +1,15 @@
 ﻿CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 12, warn = 117, info = 0
-IG Publisher Version: 1.3.13
-Generated Tue May 30 18:28:55 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 10, warn = 118, info = 0
+IG Publisher Version: 1.3.23
+Generated Wed Jul 19 14:02:28 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 0 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-analysis-type : 0 / 4 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 2 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-full-size : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 2 / 2 / 1
@@ -47,7 +47,7 @@ Generated Tue May 30 18:28:55 UTC 2023. FHIR version 4.0.1 for cqgc#0.1.0 (canon
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-sequencing-request-code : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-specimen-type : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-variant-type : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-age-at-onset : 0 / 3 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-age-at-onset : 0 / 4 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-analysis-request-code : 0 / 2 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-bioinfo-analysis-code : 0 / 1 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-bmus-abnormalities : 0 / 3 / 1
@@ -94,9 +94,7 @@ WARNING: StructureDefinition/analysis-type: StructureDefinition.differential.ele
 WARNING: StructureDefinition/analysis-type: StructureDefinition.snapshot.element[4].binding: The valueSet reference http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type on element Extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-member.json ==
-ERROR: http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member#Extension.url: The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
 WARNING: StructureDefinition/family-member: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: StructureDefinition/family-member: StructureDefinition.differential.element.where(path = 'Extension.url'): The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-relation.json ==
 WARNING: StructureDefinition/family-relation: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -201,7 +199,8 @@ WARNING: CodeSystem/specimen-type: CodeSystem: Rule csd-0: 'Name should be usabl
 WARNING: CodeSystem/variant-type: CodeSystem: Rule csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-age-at-onset.json ==
 WARNING: ValueSet/age-at-onset: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
+WARNING: ValueSet/age-at-onset: ValueSet.compose.include[0].concept[6].display: value should not start or finish with whitespace 'Juvenile '
+WARNING: ValueSet/age-at-onset: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://purl.obolibrary.org/obo/hp.owl is unknown (from Tx-Server))
 WARNING: ValueSet.where(id = 'age-at-onset'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-analysis-request-code.json ==
 WARNING: ValueSet/analysis-request-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -246,7 +245,7 @@ WARNING: ValueSet.where(id = 'mitn-default-hpo'): Error from server: Unable to p
 WARNING: ValueSet/mmg-default-exam: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == input/resources/terminology/ValueSet-mmg-default-hpo.json ==
 WARNING: ValueSet/mmg-default-hpo: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: The CodeSystem http://purl.obolibrary.org/obo/hp.owl is unknown (from Tx-Server))
+WARNING: ValueSet/mmg-default-hpo: ValueSet.compose[0].include[0]: Unknown System 'http://purl.obolibrary.org/obo/hp.owl' specified, so Concepts and Filters can't be checked (Details: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated)
 WARNING: ValueSet.where(id = 'mmg-default-hpo'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.owl
 == input/resources/terminology/ValueSet-observation-code.json ==
 WARNING: ValueSet/observation-code: ValueSet: Rule vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "family-member"] ; # 
   fhir:title [ fhir:v "Family Member"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-05-30T18:28:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-19T14:01:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;
@@ -123,7 +123,7 @@
        fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
        fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
-       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:min [ fhir:v "2"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Element.extension" ] ;

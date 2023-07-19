@@ -1,11 +1,405 @@
 {
   "resourceType" : "Bundle",
-  "id" : "0673d58e-8166-40d1-8b3b-f18466f2b9b2",
+  "id" : "7523f893-0a84-4966-8b8b-4889fb620649",
   "meta" : {
-    "lastUpdated" : "2023-05-30T18:28:01.213+00:00"
+    "lastUpdated" : "2023-07-19T14:01:19.851+00:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 14 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-analysis-request-code.html\">Analysis request code v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MMG\">MMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-DYSM\">DYSM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RHAB\">RHAB</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MITN\">MITN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYOC\">MYOC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYAC\">MYAC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-HYPM\">HYPM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI\">RGDI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43\">RGDI+</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>RGDI+</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-POLYM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-POLYM\">POLYM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Polymalformation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TRATU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TRATU\">TRATU</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Transcriptome</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUHEM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUHEM\">TUHEM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Hematological malignancies predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUPED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUPED\">TUPED</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Pediatric cancer predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-EXTUM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-EXTUM\">EXTUM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Exome</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
+      "version" : "0.1.0",
+      "name" : "analysis-request-code",
+      "title" : "Analysis request code ",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f7db34f0-7fcf-4254-9708-f153d20998e5",
+        "timestamp" : "2023-07-19T14:01:55+00:00",
+        "total" : 14,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MMG",
+          "display" : "Global Muscular diseases (Global Panel)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "DYSM",
+          "display" : "Muscular Dystrophies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RHAB",
+          "display" : "Rhabdomyolysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MITN",
+          "display" : "Nuclear Mitochondriopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MYOC",
+          "display" : "Congenital Myopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MYAC",
+          "display" : "Congenital Myasthenia"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "HYPM",
+          "display" : "Malignant Hyperthermia"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RGDI",
+          "display" : "Global Developmental Delay / Intellectual Deficiency (Trio)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RGDI+",
+          "display" : "RGDI+"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "POLYM",
+          "display" : "Polymalformation"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "TRATU",
+          "display" : "Tumoral Transcriptome"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "TUHEM",
+          "display" : "Hematological malignancies predisposition"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "TUPED",
+          "display" : "Pediatric cancer predisposition"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "EXTUM",
+          "display" : "Tumoral Exome"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-disease-status.html\">Disease status v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-disease-status-AFFE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-AFFE\">AFFE</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-disease-status-NAFF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-NAFF\">NAFF</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</td><td>Non-affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-disease-status-UNKN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-UNKN\">UNKN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</td><td>Unknow</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+      "version" : "0.1.0",
+      "name" : "disease-status",
+      "title" : "Disease status",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:a6fa986d-22dc-4369-9fe5-9898abcdf03f",
+        "timestamp" : "2023-07-19T14:01:55+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+          "code" : "AFFE",
+          "display" : "Affected"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+          "code" : "NAFF",
+          "display" : "Non-affected"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+          "code" : "UNKN",
+          "display" : "Unknow"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cgh-abnormalities.html\">CGH abnormalities v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV0\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV0\">CNV0</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td><td>CNVs not explaining phenotypes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV1\">CNV1</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td><td>CNVs explaining phenotypes</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+      "version" : "0.1.0",
+      "name" : "cgh-abnormalities",
+      "title" : "CGH abnormalities",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d5db41bf-eb84-4db4-bc99-5f6d8367f565",
+        "timestamp" : "2023-07-19T14:01:55+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
+          "code" : "CNV0",
+          "display" : "CNVs not explaining phenotypes"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
+          "code" : "CNV1",
+          "display" : "CNVs explaining phenotypes"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 17 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-sequencing-request-code.html\">sequencing request codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-analysis-request-code.html\">Analysis request code v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-sequencing-request-code-75020\"> </a>\u00a0\u00a0<a href=\"CodeSystem-sequencing-request-code.html#sequencing-request-code-75020\">75020</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</td><td>Normal Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-sequencing-request-code-65241\"> </a>\u00a0\u00a0<a href=\"CodeSystem-sequencing-request-code.html#sequencing-request-code-65241\">65241</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</td><td>Tumoral Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-sequencing-request-code-65240\"> </a>\u00a0\u00a0<a href=\"CodeSystem-sequencing-request-code.html#sequencing-request-code-65240\">65240</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</td><td>Tumoral Trancriptome Sequencing </td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MMG\">MMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-DYSM\">DYSM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RHAB\">RHAB</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MITN\">MITN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYOC\">MYOC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYAC\">MYAC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-HYPM\">HYPM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI\">RGDI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43\">RGDI+</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>RGDI+</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-POLYM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-POLYM\">POLYM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Polymalformation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TRATU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TRATU\">TRATU</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Transcriptome</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUHEM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUHEM\">TUHEM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Hematological malignancies predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUPED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUPED\">TUPED</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Pediatric cancer predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-EXTUM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-EXTUM\">EXTUM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Exome</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+      "version" : "0.1.0",
+      "name" : "sequencing-request-codes",
+      "title" : "Sequencing request codes ",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:753d6502-f1fa-4510-9ce7-97dffaf84dc7",
+        "timestamp" : "2023-07-19T14:01:55+00:00",
+        "total" : 17,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code|0.1.0"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+          "code" : "75020",
+          "display" : "Normal Exome Sequencing"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+          "code" : "65241",
+          "display" : "Tumoral Exome Sequencing"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+          "code" : "65240",
+          "display" : "Tumoral Trancriptome Sequencing "
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MMG",
+          "display" : "Global Muscular diseases (Global Panel)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "DYSM",
+          "display" : "Muscular Dystrophies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RHAB",
+          "display" : "Rhabdomyolysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MITN",
+          "display" : "Nuclear Mitochondriopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MYOC",
+          "display" : "Congenital Myopathies"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "MYAC",
+          "display" : "Congenital Myasthenia"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "HYPM",
+          "display" : "Malignant Hyperthermia"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RGDI",
+          "display" : "Global Developmental Delay / Intellectual Deficiency (Trio)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "RGDI+",
+          "display" : "RGDI+"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "POLYM",
+          "display" : "Polymalformation"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "TRATU",
+          "display" : "Tumoral Transcriptome"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "TUHEM",
+          "display" : "Hematological malignancies predisposition"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "TUPED",
+          "display" : "Pediatric cancer predisposition"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+          "code" : "EXTUM",
+          "display" : "Tumoral Exome"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-observation-code.html\">Observation codes v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CAAP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CAAP\">CAAP</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Plasma amino acid chromatography</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ACYL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-ACYL\">ACYL</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Acylcarnitines</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-IRMC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-IRMC\">IRMC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Cerebral MRI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CGH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CGH\">CGH</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Comparative Genomic Hybridization</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-SRMN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-SRMN\">SRMN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>NMR Spectroscopy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ECAR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-ECAR\">ECAR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Cardiac Ultrasound</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EABD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EABD\">EABD</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Abdominal Ultrasound</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EEG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EEG\">EEG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Electroencephalogram (EEG)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-OPHT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-OPHT\">OPHT</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Ophthalmological Examination</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMET\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-BMET\">BMET</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Metabolic work-up</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMUS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-BMUS\">BMUS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Muscle biopsy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EMG\">EMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Electromyography (EMG)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+      "version" : "0.1.0",
+      "name" : "mitn-default-exam",
+      "title" : "Nuclear Mitochondriopathies default para-clinic exams",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2020-08-13T10:49:27-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:619f3bd7-37ab-47b4-88ee-2fe37e2e779d",
+        "timestamp" : "2023-07-19T14:01:55+00:00",
+        "total" : 12,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "CAAP",
+          "display" : "Plasma amino acid chromatography"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "ACYL",
+          "display" : "Acylcarnitines"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "IRMC",
+          "display" : "Cerebral MRI"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "CGH",
+          "display" : "Comparative Genomic Hybridization"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "SRMN",
+          "display" : "NMR Spectroscopy"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "ECAR",
+          "display" : "Cardiac Ultrasound"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "EABD",
+          "display" : "Abdominal Ultrasound"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "EEG",
+          "display" : "Electroencephalogram (EEG)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "OPHT",
+          "display" : "Ophthalmological Examination"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "BMET",
+          "display" : "Metabolic work-up"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "BMUS",
+          "display" : "Muscle biopsy"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "EMG",
+          "display" : "Electromyography (EMG)"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -19,10 +413,10 @@
       "title" : "Genome build",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
+      "date" : "2023-07-19T14:01:19+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:23ea3e3f-753e-491d-aed7-59bcd29361b0",
-        "timestamp" : "2023-05-30T18:28:33+00:00",
+        "identifier" : "urn:uuid:a439e337-2fdb-494f-be3b-c01dafc896de",
+        "timestamp" : "2023-07-19T14:01:56+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -41,6 +435,116 @@
     }
   },
   {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-experimental-strategy.html\">Experimental strategies v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WXS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WXS\">WXS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Whole Exome Sequencing</td><td><div><p>Whole Exome Sequencing</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WGS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WGS\">WGS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Whole Genome Sequencing</td><td><div><p>Whole Genome Sequencing</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-TGS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-TGS\">TGS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Targeted Sequencing</td><td><div><p>Tarteted Sequencing</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WTS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WTS\">WTS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Whole Transcriptome Sequencing</td><td><div></div></td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+      "version" : "0.1.0",
+      "name" : "experimental-strategy",
+      "title" : "Experimental strategies",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:80503e3b-c545-4ab6-8007-b4a0f37a3b4d",
+        "timestamp" : "2023-07-19T14:01:56+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+          "code" : "WXS",
+          "display" : "Whole Exome Sequencing"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+          "code" : "WGS",
+          "display" : "Whole Genome Sequencing"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+          "code" : "TGS",
+          "display" : "Targeted Sequencing"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+          "code" : "WTS",
+          "display" : "Whole Transcriptome Sequencing"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-bioinfo-analysis-code.html\">Bioinformatic analysis codes v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-RABA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA\">RABA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-SNVC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC\">SNVC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-QCBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA\">QCBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Quality control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-GEBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA\">GEBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-TRBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-TRBA\">TRBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Transcriptome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-TEBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-TEBA\">TEBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Tumoral Exome Bioinformatic Analysis</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+      "version" : "0.1.0",
+      "name" : "bioinfo-analysis-code",
+      "title" : "Bioinformatic analysis codes",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:e7e63137-ff6f-47ba-a43d-edb8a355883c",
+        "timestamp" : "2023-07-19T14:01:56+00:00",
+        "total" : 6,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+          "code" : "RABA",
+          "display" : "Reads Alignement Bioinformatic Analysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+          "code" : "SNVC",
+          "display" : "SNV Calling Bioinformatic Analysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+          "code" : "QCBA",
+          "display" : "Quality control Bioinformatic Analysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+          "code" : "GEBA",
+          "display" : "Germline Exome Bioinformatic Analysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+          "code" : "TRBA",
+          "display" : "Transcriptome Bioinformatic Analysis"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+          "code" : "TEBA",
+          "display" : "Tumoral Exome Bioinformatic Analysis"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -54,10 +558,10 @@
       "title" : "Data types",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
+      "date" : "2023-07-19T14:01:19+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e14bcb7d-850a-4191-9690-5a0b511315f7",
-        "timestamp" : "2023-05-30T18:28:33+00:00",
+        "identifier" : "urn:uuid:9cb36b03-5f17-4cef-a1a7-246295f7ce9d",
+        "timestamp" : "2023-07-19T14:01:56+00:00",
         "total" : 13,
         "parameter" : [{
           "name" : "excludeNested",
@@ -136,46 +640,415 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
     "resource" : {
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-disease-status.html\">Disease status v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-disease-status-AFFE\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-AFFE\">AFFE</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</td><td>Affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-disease-status-NAFF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-NAFF\">NAFF</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</td><td>Non-affected</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-disease-status-UNKN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-disease-status.html#disease-status-UNKN\">UNKN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status</td><td>Unknow</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-document-format.html\">Document formats v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAM\">CRAM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>CRAM File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAI\">CRAI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-VCF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-VCF\">VCF</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>VCF File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TBI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TBI\">TBI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TGZ\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TGZ\">TGZ</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>TGZ Archive File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-JSON\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-JSON\">JSON</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>JSON File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-HTML\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-HTML\">HTML</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>HTML File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TSV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TSV\">TSV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>TSV File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-BW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BW\">BW</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>BW File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-BED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BED\">BED</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>BED File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-PNG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-PNG\">PNG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>PNG File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CSV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CSV\">CSV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>CSV File</td></tr></table></div>"
       },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
       "version" : "0.1.0",
-      "name" : "disease-status",
-      "title" : "Disease status",
+      "name" : "document-format",
+      "title" : "Document formats",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
+      "date" : "2023-07-19T14:01:19+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c428cd62-430e-4475-83ee-8c0908bd9c81",
-        "timestamp" : "2023-05-30T18:28:33+00:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:2d407f9a-b976-4de7-875c-32e87b0fcb0f",
+        "timestamp" : "2023-07-19T14:01:56+00:00",
+        "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
         },
         {
           "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status|0.1.0"
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
-          "code" : "AFFE",
-          "display" : "Affected"
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "CRAM",
+          "display" : "CRAM File"
         },
         {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
-          "code" : "NAFF",
-          "display" : "Non-affected"
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "CRAI",
+          "display" : "CRAI Index File"
         },
         {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
-          "code" : "UNKN",
-          "display" : "Unknow"
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "VCF",
+          "display" : "VCF File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "TBI",
+          "display" : "TBI Index File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "TGZ",
+          "display" : "TGZ Archive File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "JSON",
+          "display" : "JSON File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "HTML",
+          "display" : "HTML File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "TSV",
+          "display" : "TSV File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "BW",
+          "display" : "BW File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "BED",
+          "display" : "BED File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "PNG",
+          "display" : "PNG File"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+          "code" : "CSV",
+          "display" : "CSV File"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-ethnicity.html\">Ethnicites in Quebec v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-CA-FR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-CA-FR\">CA-FR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>French Canadian</td><td><div><p>Descendants of the First Nations of the St. Lawrence Valley</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-EU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EU\">EU</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>European Caucasian</td><td><div><p>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-AFR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-AFR\">AFR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>African or Caribbean</td><td><div><p>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-LAT-AM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-LAT-AM\">LAT-AM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Hispanic and Latino American</td><td><div><p>Canadian or Quebecois who are descendants of people from Latin America</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-ES-AS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-ES-AS\">ES-AS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>East and Southeast Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from east and southeast asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-SO-AS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-SO-AS\">SO-AS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>South Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from south asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-ABOR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-ABOR\">ABOR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Aboriginal</td><td><div><p>Person who are descendants of the natives or the indigenous peoples of the Americas</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-MIX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-MIX\">MIX</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Mixted Ethnicities</td><td><div><p>Individual descending from more than one ethnic group</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-OTH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-OTH\">OTH</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Other</td><td><div><p>Other ethnicity</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+      "version" : "0.1.0",
+      "name" : "qc-ethnicity",
+      "title" : "Qc ethnicity",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:dd435bbd-2c30-42e9-8613-3e7783e75ad1",
+        "timestamp" : "2023-07-19T14:01:56+00:00",
+        "total" : 9,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "CA-FR",
+          "display" : "French Canadian"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "EU",
+          "display" : "European Caucasian"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "AFR",
+          "display" : "African or Caribbean"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "LAT-AM",
+          "display" : "Hispanic and Latino American"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "ES-AS",
+          "display" : "East and Southeast Asian"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "SO-AS",
+          "display" : "South Asian"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "ABOR",
+          "display" : "Aboriginal"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "MIX",
+          "display" : "Mixted Ethnicities"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+          "code" : "OTH",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-variant-type.html\">Variant types v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-S\"> </a>\u00a0\u00a0<a href=\"CodeSystem-variant-type.html#variant-type-S\">S</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td><td>Somatic</td><td><div><p>Somatic variant</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-G\"> </a>\u00a0\u00a0<a href=\"CodeSystem-variant-type.html#variant-type-G\">G</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td><td>Germline</td><td><div><p>Germline variant</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
+      "version" : "0.1.0",
+      "name" : "variant-type",
+      "title" : "Variant types",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f6921beb-0f45-41ed-95c1-58ca20f7ef93",
+        "timestamp" : "2023-07-19T14:01:57+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
+          "code" : "S",
+          "display" : "Somatic"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
+          "code" : "G",
+          "display" : "Germline"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-observation-code.html\">Observation codes v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CKIN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CKIN\">CKIN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Serum creatine kinase</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMUS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-BMUS\">BMUS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Muscle biopsy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-IRMM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-IRMM\">IRMM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Muscle MRI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EMG\">EMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Electromyography (EMG)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CTGR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CTGR\">CTGR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>CTG Repeat Testing (Steinert Disease)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-GCNR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-GCNR\">GCNR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-TGDD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-TGDD\">TGDD</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
+      "version" : "0.1.0",
+      "name" : "mmg-default-exam",
+      "title" : "Muscle disease  default para-clinic exams",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2020-08-13T10:49:27-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:1640caf1-5187-4af4-b143-162527252ada",
+        "timestamp" : "2023-07-19T14:01:57+00:00",
+        "total" : 7,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "CKIN",
+          "display" : "Serum creatine kinase"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "BMUS",
+          "display" : "Muscle biopsy"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "IRMM",
+          "display" : "Muscle MRI"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "EMG",
+          "display" : "Electromyography (EMG)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "CTGR",
+          "display" : "CTG Repeat Testing (Steinert Disease)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "GCNR",
+          "display" : "GCN Repeat Testing (oculopharyngeal muscular dystrophy)"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+          "code" : "TGDD",
+          "display" : "Deletions and Duplications Testing (Duchenne and Becker dystrophies)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-specimen-type.html\">Specimen types v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-DNA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-DNA\">DNA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>DNA Sample</td><td><div><p>DNA sample</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-RNA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-RNA\">RNA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>RNA Sample</td><td><div><p>RNA sample</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NBL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-NBL\">NBL</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>Normal Blood Specimen</td><td><div><p>Normal blood specimen</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-TUMOR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-TUMOR\">TUMOR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>Tumor Specimen</td><td><div><p>Tumor specimen</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NORMAL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-NORMAL\">NORMAL</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>Normal Specimen</td><td><div><p>Normal specimen</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
+      "version" : "0.1.0",
+      "name" : "specimen-type",
+      "title" : "Specimen types",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d4a25dcf-5be0-49eb-ba0b-4f9bf2645f2f",
+        "timestamp" : "2023-07-19T14:01:57+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+          "code" : "DNA",
+          "display" : "DNA Sample"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+          "code" : "RNA",
+          "display" : "RNA Sample"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+          "code" : "NBL",
+          "display" : "Normal Blood Specimen"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+          "code" : "TUMOR",
+          "display" : "Tumor Specimen"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+          "code" : "NORMAL",
+          "display" : "Normal Specimen"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html\">Organization type v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-organization-type-plus.html\">Organization type-plus v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-organization-type-prov\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-prov\">prov</a></td><td>http://terminology.hl7.org/CodeSystem/organization-type</td><td>Healthcare Provider</td><td><div><p>An organization that provides healthcare services.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-organization-type-dept\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-dept\">dept</a></td><td>http://terminology.hl7.org/CodeSystem/organization-type</td><td>Hospital Department</td><td><div><p>A department or ward within a hospital (Generally is not applicable to top level organizations)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-organization-type-other\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-other\">other</a></td><td>http://terminology.hl7.org/CodeSystem/organization-type</td><td>Other</td><td><div><p>Other type of organization not already specified.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-organization-type-plus-labdx\"> </a>\u00a0\u00a0<a href=\"CodeSystem-organization-type-plus.html#organization-type-plus-labdx\">labdx</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus</td><td>Diagnostic Laboratory</td><td><div><p>Laboratory that processes the sample sent by medical service</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
+      "version" : "0.1.0",
+      "name" : "organization-type",
+      "title" : "Organization type",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2020-08-20T11:23:24-04:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:08ab5899-c007-49a4-8131-3df010aeba4e",
+        "timestamp" : "2023-07-19T14:01:57+00:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/organization-type|0.1.0"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code" : "prov",
+          "display" : "Healthcare Provider"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code" : "dept",
+          "display" : "Hospital Department"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code" : "other",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
+          "code" : "labdx",
+          "display" : "Diagnostic Laboratory"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-category.html\">Data categories v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-category-GENO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-category.html#data-category-GENO\">GENO</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-category</td><td>Genomics</td></tr></table></div>"
+      },
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+      "version" : "0.1.0",
+      "name" : "data-category",
+      "title" : "Data categories",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2023-07-19T14:01:19+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:596aa3cc-a67a-4fdf-8283-7bb11961287b",
+        "timestamp" : "2023-07-19T14:01:59+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+          "code" : "GENO",
+          "display" : "Genomics"
         }]
       }
     }
@@ -196,8 +1069,8 @@
       "experimental" : false,
       "date" : "2020-08-20T10:53:21-04:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c9eed184-04fc-41d5-8a5f-5e55b928dfa9",
-        "timestamp" : "2023-05-30T18:28:34+00:00",
+        "identifier" : "urn:uuid:142957d2-3d1a-4fa9-b7e6-734c7ce3f37d",
+        "timestamp" : "2023-07-19T14:01:59+00:00",
         "total" : 23,
         "parameter" : [{
           "name" : "excludeNested",
@@ -330,679 +1203,6 @@
     }
   },
   {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-observation-code.html\">Observation codes v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CAAP\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CAAP\">CAAP</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Plasma amino acid chromatography</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ACYL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-ACYL\">ACYL</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Acylcarnitines</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-IRMC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-IRMC\">IRMC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Cerebral MRI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CGH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CGH\">CGH</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Comparative Genomic Hybridization</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-SRMN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-SRMN\">SRMN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>NMR Spectroscopy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-ECAR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-ECAR\">ECAR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Cardiac Ultrasound</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EABD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EABD\">EABD</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Abdominal Ultrasound</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EEG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EEG\">EEG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Electroencephalogram (EEG)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-OPHT\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-OPHT\">OPHT</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Ophthalmological Examination</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMET\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-BMET\">BMET</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Metabolic work-up</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMUS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-BMUS\">BMUS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Muscle biopsy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EMG\">EMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Electromyography (EMG)</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
-      "version" : "0.1.0",
-      "name" : "mitn-default-exam",
-      "title" : "Nuclear Mitochondriopathies default para-clinic exams",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2020-08-13T10:49:27-04:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:fc28ae3f-932a-4134-8500-603042525ba3",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 12,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "CAAP",
-          "display" : "Plasma amino acid chromatography"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "ACYL",
-          "display" : "Acylcarnitines"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "IRMC",
-          "display" : "Cerebral MRI"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "CGH",
-          "display" : "Comparative Genomic Hybridization"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "SRMN",
-          "display" : "NMR Spectroscopy"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "ECAR",
-          "display" : "Cardiac Ultrasound"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "EABD",
-          "display" : "Abdominal Ultrasound"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "EEG",
-          "display" : "Electroencephalogram (EEG)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "OPHT",
-          "display" : "Ophthalmological Examination"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "BMET",
-          "display" : "Metabolic work-up"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "BMUS",
-          "display" : "Muscle biopsy"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "EMG",
-          "display" : "Electromyography (EMG)"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-organization-type-plus.html\">Organization type-plus v0.1.0 (CodeSystem)</a></li><li><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html\">Organization type v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-organization-type-prov\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-prov\">prov</a></td><td>http://terminology.hl7.org/CodeSystem/organization-type</td><td>Healthcare Provider</td><td><div><p>An organization that provides healthcare services.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-organization-type-dept\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-dept\">dept</a></td><td>http://terminology.hl7.org/CodeSystem/organization-type</td><td>Hospital Department</td><td><div><p>A department or ward within a hospital (Generally is not applicable to top level organizations)</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-organization-type-other\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-organization-type.html#organization-type-other\">other</a></td><td>http://terminology.hl7.org/CodeSystem/organization-type</td><td>Other</td><td><div><p>Other type of organization not already specified.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-organization-type-plus-labdx\"> </a>\u00a0\u00a0<a href=\"CodeSystem-organization-type-plus.html#organization-type-plus-labdx\">labdx</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus</td><td>Diagnostic Laboratory</td><td><div><p>Laboratory that processes the sample sent by medical service</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
-      "version" : "0.1.0",
-      "name" : "organization-type",
-      "title" : "Organization type",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2020-08-20T11:23:24-04:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:443216d6-bbf7-43eb-a9e9-49fa3bd8682e",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 4,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://terminology.hl7.org/CodeSystem/organization-type|0.1.0"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
-          "code" : "prov",
-          "display" : "Healthcare Provider"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
-          "code" : "dept",
-          "display" : "Hospital Department"
-        },
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
-          "code" : "other",
-          "display" : "Other"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
-          "code" : "labdx",
-          "display" : "Diagnostic Laboratory"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-experimental-strategy.html\">Experimental strategies v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WXS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WXS\">WXS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Whole Exome Sequencing</td><td><div><p>Whole Exome Sequencing</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WGS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WGS\">WGS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Whole Genome Sequencing</td><td><div><p>Whole Genome Sequencing</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-TGS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-TGS\">TGS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Targeted Sequencing</td><td><div><p>Tarteted Sequencing</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-experimental-strategy-WTS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-experimental-strategy.html#experimental-strategy-WTS\">WTS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy</td><td>Whole Transcriptome Sequencing</td><td><div></div></td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
-      "version" : "0.1.0",
-      "name" : "experimental-strategy",
-      "title" : "Experimental strategies",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:6d478218-be7a-4d36-9a3a-497cb65b812f",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 4,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
-          "code" : "WXS",
-          "display" : "Whole Exome Sequencing"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
-          "code" : "WGS",
-          "display" : "Whole Genome Sequencing"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
-          "code" : "TGS",
-          "display" : "Targeted Sequencing"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
-          "code" : "WTS",
-          "display" : "Whole Transcriptome Sequencing"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 17 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-sequencing-request-code.html\">sequencing request codes v0.1.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-analysis-request-code.html\">Analysis request code v0.1.0 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-sequencing-request-code-75020\"> </a>\u00a0\u00a0<a href=\"CodeSystem-sequencing-request-code.html#sequencing-request-code-75020\">75020</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</td><td>Normal Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-sequencing-request-code-65241\"> </a>\u00a0\u00a0<a href=\"CodeSystem-sequencing-request-code.html#sequencing-request-code-65241\">65241</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</td><td>Tumoral Exome Sequencing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-sequencing-request-code-65240\"> </a>\u00a0\u00a0<a href=\"CodeSystem-sequencing-request-code.html#sequencing-request-code-65240\">65240</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code</td><td>Tumoral Trancriptome Sequencing </td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MMG\">MMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-DYSM\">DYSM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RHAB\">RHAB</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MITN\">MITN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYOC\">MYOC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYAC\">MYAC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-HYPM\">HYPM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI\">RGDI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43\">RGDI+</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>RGDI+</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-POLYM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-POLYM\">POLYM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Polymalformation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TRATU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TRATU\">TRATU</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Transcriptome</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUHEM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUHEM\">TUHEM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Hematological malignancies predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUPED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUPED\">TUPED</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Pediatric cancer predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-EXTUM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-EXTUM\">EXTUM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Exome</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
-      "version" : "0.1.0",
-      "name" : "sequencing-request-codes",
-      "title" : "Sequencing request codes ",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:4368703a-4537-4e77-b007-89fadfe71f9d",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 17,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code|0.1.0"
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
-          "code" : "75020",
-          "display" : "Normal Exome Sequencing"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
-          "code" : "65241",
-          "display" : "Tumoral Exome Sequencing"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
-          "code" : "65240",
-          "display" : "Tumoral Trancriptome Sequencing "
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MMG",
-          "display" : "Global Muscular diseases (Global Panel)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "DYSM",
-          "display" : "Muscular Dystrophies"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "RHAB",
-          "display" : "Rhabdomyolysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MITN",
-          "display" : "Nuclear Mitochondriopathies"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MYOC",
-          "display" : "Congenital Myopathies"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MYAC",
-          "display" : "Congenital Myasthenia"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "HYPM",
-          "display" : "Malignant Hyperthermia"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "RGDI",
-          "display" : "Global Developmental Delay / Intellectual Deficiency (Trio)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "RGDI+",
-          "display" : "RGDI+"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "POLYM",
-          "display" : "Polymalformation"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "TRATU",
-          "display" : "Tumoral Transcriptome"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "TUHEM",
-          "display" : "Hematological malignancies predisposition"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "TUPED",
-          "display" : "Pediatric cancer predisposition"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "EXTUM",
-          "display" : "Tumoral Exome"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-document-format.html\">Document formats v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAM\">CRAM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>CRAM File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CRAI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CRAI\">CRAI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>CRAI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-VCF\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-VCF\">VCF</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>VCF File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TBI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TBI\">TBI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>TBI Index File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TGZ\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TGZ\">TGZ</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>TGZ Archive File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-JSON\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-JSON\">JSON</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>JSON File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-HTML\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-HTML\">HTML</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>HTML File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-TSV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-TSV\">TSV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>TSV File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-BW\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BW\">BW</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>BW File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-BED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-BED\">BED</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>BED File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-PNG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-PNG\">PNG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>PNG File</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-document-format-CSV\"> </a>\u00a0\u00a0<a href=\"CodeSystem-document-format.html#document-format-CSV\">CSV</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/document-format</td><td>CSV File</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
-      "version" : "0.1.0",
-      "name" : "document-format",
-      "title" : "Document formats",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:579859b1-d5a7-4a35-bc57-f7fc853ecc93",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 12,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "CRAM",
-          "display" : "CRAM File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "CRAI",
-          "display" : "CRAI Index File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "VCF",
-          "display" : "VCF File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "TBI",
-          "display" : "TBI Index File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "TGZ",
-          "display" : "TGZ Archive File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "JSON",
-          "display" : "JSON File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "HTML",
-          "display" : "HTML File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "TSV",
-          "display" : "TSV File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "BW",
-          "display" : "BW File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "BED",
-          "display" : "BED File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "PNG",
-          "display" : "PNG File"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
-          "code" : "CSV",
-          "display" : "CSV File"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cgh-abnormalities.html\">CGH abnormalities v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV0\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV0\">CNV0</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td><td>CNVs not explaining phenotypes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-cgh-abnormalities-CNV1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV1\">CNV1</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td><td>CNVs explaining phenotypes</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
-      "version" : "0.1.0",
-      "name" : "cgh-abnormalities",
-      "title" : "CGH abnormalities",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:37a44793-ea5e-4490-a921-9859bd0183c5",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 2,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
-          "code" : "CNV0",
-          "display" : "CNVs not explaining phenotypes"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
-          "code" : "CNV1",
-          "display" : "CNVs explaining phenotypes"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-specimen-type.html\">Specimen types v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-DNA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-DNA\">DNA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>DNA Sample</td><td><div><p>DNA sample</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-RNA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-RNA\">RNA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>RNA Sample</td><td><div><p>RNA sample</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NBL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-NBL\">NBL</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>Normal Blood Specimen</td><td><div><p>Normal blood specimen</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-TUMOR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-TUMOR\">TUMOR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>Tumor Specimen</td><td><div><p>Tumor specimen</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-specimen-type-NORMAL\"> </a>\u00a0\u00a0<a href=\"CodeSystem-specimen-type.html#specimen-type-NORMAL\">NORMAL</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</td><td>Normal Specimen</td><td><div><p>Normal specimen</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
-      "version" : "0.1.0",
-      "name" : "specimen-type",
-      "title" : "Specimen types",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:f09d4cb6-6c5e-41ee-9f2e-a31070f58fa9",
-        "timestamp" : "2023-05-30T18:28:35+00:00",
-        "total" : 5,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
-          "code" : "DNA",
-          "display" : "DNA Sample"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
-          "code" : "RNA",
-          "display" : "RNA Sample"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
-          "code" : "NBL",
-          "display" : "Normal Blood Specimen"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
-          "code" : "TUMOR",
-          "display" : "Tumor Specimen"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
-          "code" : "NORMAL",
-          "display" : "Normal Specimen"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 14 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-analysis-request-code.html\">Analysis request code v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MMG\">MMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Muscular diseases (Global Panel)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-DYSM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-DYSM\">DYSM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Muscular Dystrophies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RHAB\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RHAB\">RHAB</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Rhabdomyolysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MITN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MITN\">MITN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Nuclear Mitochondriopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYOC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYOC\">MYOC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myopathies</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-MYAC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-MYAC\">MYAC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Congenital Myasthenia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-HYPM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-HYPM\">HYPM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Malignant Hyperthermia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI\">RGDI</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-RGDI-\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-RGDI.43\">RGDI+</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>RGDI+</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-POLYM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-POLYM\">POLYM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Polymalformation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TRATU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TRATU\">TRATU</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Transcriptome</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUHEM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUHEM\">TUHEM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Hematological malignancies predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-TUPED\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-TUPED\">TUPED</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Pediatric cancer predisposition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-EXTUM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-analysis-request-code.html#analysis-request-code-EXTUM\">EXTUM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td><td>Tumoral Exome</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
-      "version" : "0.1.0",
-      "name" : "analysis-request-code",
-      "title" : "Analysis request code ",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:1ded9d58-630f-4360-8360-01808287aef6",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
-        "total" : 14,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MMG",
-          "display" : "Global Muscular diseases (Global Panel)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "DYSM",
-          "display" : "Muscular Dystrophies"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "RHAB",
-          "display" : "Rhabdomyolysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MITN",
-          "display" : "Nuclear Mitochondriopathies"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MYOC",
-          "display" : "Congenital Myopathies"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "MYAC",
-          "display" : "Congenital Myasthenia"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "HYPM",
-          "display" : "Malignant Hyperthermia"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "RGDI",
-          "display" : "Global Developmental Delay / Intellectual Deficiency (Trio)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "RGDI+",
-          "display" : "RGDI+"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "POLYM",
-          "display" : "Polymalformation"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "TRATU",
-          "display" : "Tumoral Transcriptome"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "TUHEM",
-          "display" : "Hematological malignancies predisposition"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "TUPED",
-          "display" : "Pediatric cancer predisposition"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
-          "code" : "EXTUM",
-          "display" : "Tumoral Exome"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-qc-ethnicity.html\">Ethnicites in Quebec v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-CA-FR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-CA-FR\">CA-FR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>French Canadian</td><td><div><p>Descendants of the First Nations of the St. Lawrence Valley</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-EU\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-EU\">EU</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>European Caucasian</td><td><div><p>Anyone from or whose ancestors originate from the European continent (excluding French Canadians).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-AFR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-AFR\">AFR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>African or Caribbean</td><td><div><p>Person belonging to ethnic group with total or partial ancestry from any of the black racial groups of Africa.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-LAT-AM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-LAT-AM\">LAT-AM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Hispanic and Latino American</td><td><div><p>Canadian or Quebecois who are descendants of people from Latin America</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-ES-AS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-ES-AS\">ES-AS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>East and Southeast Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from east and southeast asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-SO-AS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-SO-AS\">SO-AS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>South Asian</td><td><div><p>Canadian or Quebecois who are descendants of people from south asia</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-ABOR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-ABOR\">ABOR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Aboriginal</td><td><div><p>Person who are descendants of the natives or the indigenous peoples of the Americas</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-MIX\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-MIX\">MIX</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Mixted Ethnicities</td><td><div><p>Individual descending from more than one ethnic group</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-qc-ethnicity-OTH\"> </a>\u00a0\u00a0<a href=\"CodeSystem-qc-ethnicity.html#qc-ethnicity-OTH\">OTH</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity</td><td>Other</td><td><div><p>Other ethnicity</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
-      "version" : "0.1.0",
-      "name" : "qc-ethnicity",
-      "title" : "Qc ethnicity",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:3f5306ab-6b2f-4e2b-9b16-5481328465ab",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
-        "total" : 9,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "CA-FR",
-          "display" : "French Canadian"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "EU",
-          "display" : "European Caucasian"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "AFR",
-          "display" : "African or Caribbean"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "LAT-AM",
-          "display" : "Hispanic and Latino American"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "ES-AS",
-          "display" : "East and Southeast Asian"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "SO-AS",
-          "display" : "South Asian"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "ABOR",
-          "display" : "Aboriginal"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "MIX",
-          "display" : "Mixted Ethnicities"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
-          "code" : "OTH",
-          "display" : "Other"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -1016,10 +1216,10 @@
       "title" : "observation code",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
+      "date" : "2023-07-19T14:01:19+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8133b0fe-7b74-4578-934a-6404d136cfad",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
+        "identifier" : "urn:uuid:07f806cf-7c26-429c-b5b9-35bff3ec69bd",
+        "timestamp" : "2023-07-19T14:01:59+00:00",
         "total" : 27,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1163,206 +1363,6 @@
           "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
           "code" : "PHEN",
           "display" : "Clinical Sign (HPO)"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-variant-type.html\">Variant types v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-S\"> </a>\u00a0\u00a0<a href=\"CodeSystem-variant-type.html#variant-type-S\">S</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td><td>Somatic</td><td><div><p>Somatic variant</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-variant-type-G\"> </a>\u00a0\u00a0<a href=\"CodeSystem-variant-type.html#variant-type-G\">G</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type</td><td>Germline</td><td><div><p>Germline variant</p>\n</div></td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
-      "version" : "0.1.0",
-      "name" : "variant-type",
-      "title" : "Variant types",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:84c7594c-47e1-44a9-a755-478aaed5b376",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
-        "total" : 2,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
-          "code" : "S",
-          "display" : "Somatic"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
-          "code" : "G",
-          "display" : "Germline"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-observation-code.html\">Observation codes v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CKIN\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CKIN\">CKIN</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Serum creatine kinase</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-BMUS\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-BMUS\">BMUS</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Muscle biopsy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-IRMM\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-IRMM\">IRMM</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Muscle MRI</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-EMG\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-EMG\">EMG</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Electromyography (EMG)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-CTGR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-CTGR\">CTGR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>CTG Repeat Testing (Steinert Disease)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-GCNR\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-GCNR\">GCNR</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-observation-code-TGDD\"> </a>\u00a0\u00a0<a href=\"CodeSystem-observation-code.html#observation-code-TGDD\">TGDD</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td><td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
-      "version" : "0.1.0",
-      "name" : "mmg-default-exam",
-      "title" : "Muscle disease  default para-clinic exams",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2020-08-13T10:49:27-04:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:3938ea0b-6810-4dd3-971f-de8c4020e4c6",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
-        "total" : 7,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "CKIN",
-          "display" : "Serum creatine kinase"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "BMUS",
-          "display" : "Muscle biopsy"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "IRMM",
-          "display" : "Muscle MRI"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "EMG",
-          "display" : "Electromyography (EMG)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "CTGR",
-          "display" : "CTG Repeat Testing (Steinert Disease)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "GCNR",
-          "display" : "GCN Repeat Testing (oculopharyngeal muscular dystrophy)"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
-          "code" : "TGDD",
-          "display" : "Deletions and Duplications Testing (Duchenne and Becker dystrophies)"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-bioinfo-analysis-code.html\">Bioinformatic analysis codes v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-RABA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-RABA\">RABA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Reads Alignement Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-SNVC\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-SNVC\">SNVC</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>SNV Calling Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-QCBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-QCBA\">QCBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Quality control Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-GEBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-GEBA\">GEBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Germline Exome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-TRBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-TRBA\">TRBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Transcriptome Bioinformatic Analysis</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-bioinfo-analysis-code-TEBA\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bioinfo-analysis-code.html#bioinfo-analysis-code-TEBA\">TEBA</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</td><td>Tumoral Exome Bioinformatic Analysis</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
-      "version" : "0.1.0",
-      "name" : "bioinfo-analysis-code",
-      "title" : "Bioinformatic analysis codes",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:eefb4260-dbdc-4bf6-bd57-4c14c31c55c5",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
-        "total" : 6,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-          "code" : "RABA",
-          "display" : "Reads Alignement Bioinformatic Analysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-          "code" : "SNVC",
-          "display" : "SNV Calling Bioinformatic Analysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-          "code" : "QCBA",
-          "display" : "Quality control Bioinformatic Analysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-          "code" : "GEBA",
-          "display" : "Germline Exome Bioinformatic Analysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-          "code" : "TRBA",
-          "display" : "Transcriptome Bioinformatic Analysis"
-        },
-        {
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
-          "code" : "TEBA",
-          "display" : "Tumoral Exome Bioinformatic Analysis"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-data-category.html\">Data categories v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---fhir.cqgc.ferlab.bio-CodeSystem-data-category-GENO\"> </a>\u00a0\u00a0<a href=\"CodeSystem-data-category.html#data-category-GENO\">GENO</a></td><td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-category</td><td>Genomics</td></tr></table></div>"
-      },
-      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
-      "version" : "0.1.0",
-      "name" : "data-category",
-      "title" : "Data categories",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2023-05-30T18:28:01+00:00",
-      "expansion" : {
-        "identifier" : "urn:uuid:82e73a7f-0328-47cf-9444-24f1de76edae",
-        "timestamp" : "2023-05-30T18:28:36+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
-          "code" : "GENO",
-          "display" : "Genomics"
         }]
       }
     }
