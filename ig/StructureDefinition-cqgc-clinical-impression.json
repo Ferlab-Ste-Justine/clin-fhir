@@ -856,7 +856,7 @@
       "path" : "ClinicalImpression.problem",
       "short" : "Relevant impressions of patient state",
       "definition" : "A list of the relevant problems/conditions for a patient.",
-      "comment" : "e.g. The patient is a pregnant, has congestive heart failure, has an ‎Adenocarcinoma, and is allergic to penicillin.",
+      "comment" : "e.g. The patient is a pregnant, has congestive heart failure, has an Adenocarcinoma, and is allergic to penicillin.",
       "min" : 0,
       "max" : "*",
       "base" : {

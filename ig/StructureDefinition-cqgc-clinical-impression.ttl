@@ -914,7 +914,7 @@
        fhir:path [ fhir:v "ClinicalImpression.problem" ] ;
        fhir:short [ fhir:v "Relevant impressions of patient state" ] ;
        fhir:definition [ fhir:v "A list of the relevant problems/conditions for a patient." ] ;
-       fhir:comment [ fhir:v "e.g. The patient is a pregnant, has congestive heart failure, has an ‎Adenocarcinoma, and is allergic to penicillin." ] ;
+       fhir:comment [ fhir:v "e.g. The patient is a pregnant, has congestive heart failure, has an Adenocarcinoma, and is allergic to penicillin." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
