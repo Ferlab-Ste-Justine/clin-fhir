@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "missing-parent-status"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">TEMPORARY<a name=\"missing-parent-status-TEMPORARY\"> </a></td><td>Temporary absent parent</td><td>Parent absent temporairement</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">TEMPORARY<a name=\"missing-parent-status-TEMPORARY\"> </a></td><td>Temporary absent parent</td><td>Parent absent temporairement</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Missing parent status"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-08-02T16:54:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-10-18T17:21:54+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

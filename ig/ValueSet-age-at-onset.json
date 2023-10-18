@@ -3,7 +3,7 @@
   "id" : "age-at-onset",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030674</td><td>Antenatal</td><td>Anténatale</td></tr><tr><td>HP:0003577</td><td>Congenital</td><td>Congénitale</td></tr><tr><td>HP:0410280</td><td>Pediatric (&lt;= 15 years)</td><td>Pédiatrique (&lt;= 15 ans)</td></tr><tr><td>HP:0003623</td><td>Neonatal (&lt; 28 days)</td><td>Néonatale (&lt; 28 jours)</td></tr><tr><td>HP:0003593</td><td>Infantile (&gt;= 28 days and &lt; 1 year)</td><td>Enfant en bas âge (&gt;= 28 jours et &lt; 1 an)</td></tr><tr><td>HP:0011463</td><td>Childhood (&gt;= 1 year and &lt; 5 years)</td><td>Enfance (&gt;= 1 an et &lt; 5 ans)</td></tr><tr><td>HP:0003621</td><td>Juvenile </td><td>Juvénile (&gt;= 5 ans et &lt;= 15 ans)</td></tr><tr><td>HP:0003581</td><td>Adult (&gt;= 16 years)</td><td>Adulte (&gt;= 16 ans)</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>HP:0030674</td><td>Antenatal</td><td>Anténatale</td></tr><tr><td>HP:0003577</td><td>Congenital</td><td>Congénitale</td></tr><tr><td>HP:0003623</td><td>Neonatal (&lt; 28 days)</td><td>Néonatale (&lt; 28 jours)</td></tr><tr><td>HP:0003593</td><td>Infantile (&gt;= 28 days and &lt; 1 year)</td><td>Enfant en bas âge (&gt;= 28 jours et &lt; 1 an)</td></tr><tr><td>HP:0011463</td><td>Childhood (&gt;= 1 year and &lt; 5 years)</td><td>Enfance (&gt;= 1 an et &lt; 5 ans)</td></tr><tr><td>HP:0003621</td><td>Juvenile (&gt;= 5 years and &lt; 16 years)</td><td>Juvénile (&gt;= 5 ans et &lt; 16 ans)</td></tr><tr><td>HP:0011462</td><td>Young Adult (&gt;= 16 years and &lt; 40 years)</td><td>Jeune adulte (&gt;= 16 ans et &lt; 40 ans)</td></tr><tr><td>HP:0003596</td><td>Middle Age (&gt;= 40 years and &lt; 60 years)</td><td>Adulte d'âge moyen (&gt;= 40 ans et &lt; 60 ans)</td></tr><tr><td>HP:0003584</td><td>Senior (&gt;= 60 years)</td><td>Adulte sénior (&gt;= 60 ans)</td></tr></table></li></ul></div>"
   },
   "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset",
   "version" : "0.1.0",
@@ -41,14 +41,6 @@
         }]
       },
       {
-        "code" : "HP:0410280",
-        "display" : "Pediatric (<= 15 years)",
-        "designation" : [{
-          "language" : "fr",
-          "value" : "Pédiatrique (<= 15 ans)"
-        }]
-      },
-      {
         "code" : "HP:0003623",
         "display" : "Neonatal (< 28 days)",
         "designation" : [{
@@ -74,18 +66,34 @@
       },
       {
         "code" : "HP:0003621",
-        "display" : "Juvenile ",
+        "display" : "Juvenile (>= 5 years and < 16 years)",
         "designation" : [{
           "language" : "fr",
-          "value" : "Juvénile (>= 5 ans et <= 15 ans)"
+          "value" : "Juvénile (>= 5 ans et < 16 ans)"
         }]
       },
       {
-        "code" : "HP:0003581",
-        "display" : "Adult (>= 16 years)",
+        "code" : "HP:0011462",
+        "display" : "Young Adult (>= 16 years and < 40 years)",
         "designation" : [{
           "language" : "fr",
-          "value" : "Adulte (>= 16 ans)"
+          "value" : "Jeune adulte (>= 16 ans et < 40 ans)"
+        }]
+      },
+      {
+        "code" : "HP:0003596",
+        "display" : "Middle Age (>= 40 years and < 60 years)",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Adulte d'âge moyen (>= 40 ans et < 60 ans)"
+        }]
+      },
+      {
+        "code" : "HP:0003584",
+        "display" : "Senior (>= 60 years)",
+        "designation" : [{
+          "language" : "fr",
+          "value" : "Adulte sénior (>= 60 ans)"
         }]
       }]
     }]

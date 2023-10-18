@@ -3,7 +3,7 @@
   "id" : "specimen-type",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td><td>Échantillon d'ADN</td></tr><tr><td style=\"white-space:nowrap\">RNA<a name=\"specimen-type-RNA\"> </a></td><td>RNA Sample</td><td>RNA sample</td><td>Échantillon d'ARN</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td><td>Spécimen de sang normal</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td><td>Spécimen tumoral</td></tr><tr><td style=\"white-space:nowrap\">NORMAL<a name=\"specimen-type-NORMAL\"> </a></td><td>Normal Specimen</td><td>Normal specimen</td><td>Spécimen de tissue normal</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DNA<a name=\"specimen-type-DNA\"> </a></td><td>DNA Sample</td><td>DNA sample</td><td>Échantillon d'ADN</td></tr><tr><td style=\"white-space:nowrap\">RNA<a name=\"specimen-type-RNA\"> </a></td><td>RNA Sample</td><td>RNA sample</td><td>Échantillon d'ARN</td></tr><tr><td style=\"white-space:nowrap\">NBL<a name=\"specimen-type-NBL\"> </a></td><td>Normal Blood Specimen</td><td>Normal blood specimen</td><td>Spécimen de sang normal</td></tr><tr><td style=\"white-space:nowrap\">TUMOR<a name=\"specimen-type-TUMOR\"> </a></td><td>Tumor Specimen</td><td>Tumor specimen</td><td>Spécimen tumoral</td></tr><tr><td style=\"white-space:nowrap\">NORMAL<a name=\"specimen-type-NORMAL\"> </a></td><td>Normal Specimen</td><td>Normal specimen</td><td>Spécimen de tissue normal</td></tr></table></div>"
   },
   "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
   "version" : "0.1.0",
@@ -11,7 +11,7 @@
   "title" : "Specimen types",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-08-02T16:54:26+00:00",
+  "date" : "2023-10-18T17:21:54+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",

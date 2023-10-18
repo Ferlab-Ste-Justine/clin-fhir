@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="organization-type-plus"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">labdx<a name="organization-type-plus-labdx"> </a></td><td>Diagnostic Laboratory</td><td>Laboratory that processes the sample sent by medical service</td><td>Laboratoire de diagnostic</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">labdx<a name="organization-type-plus-labdx"> </a></td><td>Diagnostic Laboratory</td><td>Laboratory that processes the sample sent by medical service</td><td>Laboratoire de diagnostic</td></tr></table></div>
   </text>
   <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus"/>
   <version value="0.1.0"/>
