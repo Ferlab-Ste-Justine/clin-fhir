@@ -1,0 +1,304 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "phenotype-codes",
+      "title" : "Phenotype Codes",
+      "description" : "This value set includes all codes from Human Phenotype Ontology.",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "age-at-onset",
+      "title" : "Age at Onset Codes",
+      "description" : "This value set includes age at onset codes from Human Phenotype Ontology.",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"],
+      "uses" : {
+      },
+      "StructureDefinition-age-at-onset.html" : "Age At Onset"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "analysis-request-code",
+      "title" : "Analysis request code ",
+      "description" : "Codes of analysis request in our system",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "bioinfo-analysis-code",
+      "title" : "Bioinformatic analysis codes",
+      "description" : "Bioinformatic analysis codes",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"
+      ]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "bmus-abnormalities",
+      "title" : "Muscle biopsy abnormalities",
+      "description" : "Category of mucle biopsy abnormalities (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "cgh-abnormalities",
+      "title" : "CGH abnormalities",
+      "description" : "CGH abnormalities",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "common-observation",
+      "title" : "Set of observations that are common to all analyses",
+      "description" : "Set of observations that are common to all analyses",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "data-category",
+      "title" : "Data categories",
+      "description" : "Data categories",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "data-type",
+      "title" : "Data types",
+      "description" : "Data types",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "disease-status",
+      "title" : "Disease status",
+      "description" : "Disease status",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "document-format",
+      "title" : "Document formats",
+      "description" : "Document formats",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "emg-abnormalities",
+      "title" : "EMG abnormalities",
+      "description" : "Category of EMG abnormalities (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "experimental-strategy",
+      "title" : "Experimental strategies",
+      "description" : "Experimental strategies",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-sequencing-experiment.html" : "Sequencing expriment"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "fmh-relationship",
+      "title" : "Family Member Relationship",
+      "description" : "Values ​​assigned to relationship fields",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "genome-build",
+      "title" : "Genome build",
+      "description" : "Genome build",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build"],
+      "uses" : {
+      },
+      "StructureDefinition-workflow.html" : "Workflow Extension"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mitn-default-exam",
+      "title" : "Nuclear Mitochondriopathies default para-clinic exams",
+      "description" : "Nuclear Mitochondriopathies default para-clinic exams",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mitn-default-hpo",
+      "title" : "Nuclear Mitochondriopathies default clinical signs (HPO code)",
+      "description" : "Category of Nuclear Mitochondriopathies default clinical signs (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mmg-default-exam",
+      "title" : "Muscle disease  default para-clinic exams",
+      "description" : "Muscle disease  default para-clinic exams",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mmg-default-hpo",
+      "title" : "Muscle disease  default clinical signs (HPO code)",
+      "description" : "Muscle disease  default clinical signs (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "observation-code",
+      "title" : "observation code",
+      "description" : "Codes of observations in our system",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "organization-type",
+      "title" : "Organization type",
+      "description" : "Types of organization",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/organization-type",
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-organization.html" : "cqgc Service Request"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "qc-ethnicity",
+      "title" : "Qc ethnicity",
+      "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "rgdi-default-exam",
+      "title" : "Global developmental Delay / intellectual deficiency default para-clinical exams",
+      "description" : "Global developmental Delay / intellectual deficiency default para-clinical exams",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "rgdi-default-hpo",
+      "title" : "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
+      "description" : "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "sequencing-request-codes",
+      "title" : "Sequencing request codes ",
+      "description" : "Sequencing request codes",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "specimen-type",
+      "title" : "Specimen types",
+      "description" : "Specimen types",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"],
+      "uses" : {
+      },
+      "StructureDefinition-specimen-type.html" : "Specimen types"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "variant-type",
+      "title" : "Variant types",
+      "description" : "Variant types",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"]
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-FamilyMember",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "FamilyMember",
+      "title" : "FamilyMember",
+      "description" : "A relationship between two people characterizing their \"familial\" relationship",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19579"],
+      "sources" : ["2.16.840.1.113883.1.11.19579"],
+      "uses" : {
+      },
+      "StructureDefinition-family-member.html" : "Family Member",
+      "StructureDefinition-family-relation.html" : "Family Relation"
+    }
+  ]
+}

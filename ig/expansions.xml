@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ac6bdaa6-f099-42c0-96e2-1aed210e214f"/>
+  <id value="5bd8b0f0-4a9e-4b3f-99f8-d80321c2374b"/>
   <meta>
-    <lastUpdated value="2023-10-18T17:21:54.619+00:00"/>
+    <lastUpdated value="2023-11-09T20:21:55.004+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,7 +13,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 16 concepts</p>
+            <p>This value set contains 17 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-analysis-request-code.html">codesystem Analysis request code v0.1.0 (CodeSystem)</a>
             </p>
@@ -157,6 +157,14 @@
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
                 <td>Leukemia (somatic)</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-SCID"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-SCID">SCID</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Severe Combined Immune Deficiency</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -166,11 +174,11 @@
         <title value="Analysis request code "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:a9cc89fc-3183-4b1d-84e1-d6b6b92b5b33"/>
-          <timestamp value="2023-10-18T17:22:38+00:00"/>
-          <total value="16"/>
+          <identifier value="urn:uuid:7a918f7c-9782-4176-989a-4f2c90288d95"/>
+          <timestamp value="2023-11-09T20:22:39+00:00"/>
+          <total value="17"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -259,6 +267,11 @@
             <code value="SHEMA"/>
             <display value="Leukemia (somatic)"/>
           </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="SCID"/>
+            <display value="Severe Combined Immune Deficiency"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -343,10 +356,10 @@
         <title value="Bioinformatic analysis codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:0e0f0057-cb74-4a40-a345-5f12b9e44eed"/>
-          <timestamp value="2023-10-18T17:22:38+00:00"/>
+          <identifier value="urn:uuid:c016fec9-1f13-4002-a686-c785d8ca66d7"/>
+          <timestamp value="2023-11-09T20:22:39+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -438,10 +451,10 @@
         <title value="CGH abnormalities"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:cbb246a6-97b9-4ea6-9a96-cbb6913e03de"/>
-          <timestamp value="2023-10-18T17:22:38+00:00"/>
+          <identifier value="urn:uuid:bd91241c-29d4-465d-8eb9-171669ef9595"/>
+          <timestamp value="2023-11-09T20:22:39+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -505,10 +518,10 @@
         <title value="Data categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f47847e7-2cde-4291-897e-289dcb796891"/>
-          <timestamp value="2023-10-18T17:22:39+00:00"/>
+          <identifier value="urn:uuid:ae513e72-79ee-43a9-82cf-495bc3c171ca"/>
+          <timestamp value="2023-11-09T20:22:40+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -663,10 +676,10 @@
         <title value="Data types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:cbd768e1-38dd-4295-8f35-5531826ca38b"/>
-          <timestamp value="2023-10-18T17:22:39+00:00"/>
+          <identifier value="urn:uuid:3da14097-bcb7-418e-91bb-82151bbf0d37"/>
+          <timestamp value="2023-11-09T20:22:40+00:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -801,10 +814,10 @@
         <title value="Disease status"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:107a7f2a-8e41-499a-862e-c553b5a5c25e"/>
-          <timestamp value="2023-10-18T17:22:39+00:00"/>
+          <identifier value="urn:uuid:1cc9b2bb-0adf-4661-aa9c-63f05b85320c"/>
+          <timestamp value="2023-11-09T20:22:40+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -961,10 +974,10 @@
         <title value="Document formats"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:83f6f19b-509d-4902-b7aa-0cda619a6694"/>
-          <timestamp value="2023-10-18T17:22:39+00:00"/>
+          <identifier value="urn:uuid:5f669fa4-4ec1-4686-a839-75bc903241c6"/>
+          <timestamp value="2023-11-09T20:22:40+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1126,10 +1139,10 @@
         <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f0cd6762-ee94-4130-9c1e-49499c025824"/>
-          <timestamp value="2023-10-18T17:22:40+00:00"/>
+          <identifier value="urn:uuid:86a13003-11e4-4be9-b486-534cc2b4ab9e"/>
+          <timestamp value="2023-11-09T20:22:40+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1532,8 +1545,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T10:53:21-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:10e7d3ef-d3f5-48c0-bc87-ff35381f5c5f"/>
-          <timestamp value="2023-10-18T17:22:40+00:00"/>
+          <identifier value="urn:uuid:52641189-8d8b-430d-99e1-0849b5c2c81f"/>
+          <timestamp value="2023-11-09T20:22:41+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1715,10 +1728,10 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:68b1b3b1-0b94-489f-b250-7be07f00dda9"/>
-          <timestamp value="2023-10-18T17:22:40+00:00"/>
+          <identifier value="urn:uuid:4943a9db-09c5-421e-a288-961de0242cea"/>
+          <timestamp value="2023-11-09T20:22:41+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1867,8 +1880,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:e665a333-499f-4842-8b92-b20c4f25f409"/>
-          <timestamp value="2023-10-18T17:22:40+00:00"/>
+          <identifier value="urn:uuid:bb7c45d7-6cfb-49c3-8e19-01f18d241832"/>
+          <timestamp value="2023-11-09T20:22:41+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2032,8 +2045,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:9f163bd3-f51f-4ac5-afd4-78e0603ffb8a"/>
-          <timestamp value="2023-10-18T17:22:41+00:00"/>
+          <identifier value="urn:uuid:56188512-236e-4536-b6dd-9961f2501783"/>
+          <timestamp value="2023-11-09T20:22:41+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2330,10 +2343,10 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1d10e2d3-d95d-4a41-a9f0-c81d70db3b68"/>
-          <timestamp value="2023-10-18T17:22:41+00:00"/>
+          <identifier value="urn:uuid:9913b35e-1c84-4b46-9c45-a74db494ad59"/>
+          <timestamp value="2023-11-09T20:22:42+00:00"/>
           <total value="27"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2583,8 +2596,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T11:23:24-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:f404542d-f918-4fb8-bdb1-6815f47b908f"/>
-          <timestamp value="2023-10-18T17:22:41+00:00"/>
+          <identifier value="urn:uuid:e36348ec-bdc4-414c-ac43-26077c1fdfa3"/>
+          <timestamp value="2023-11-09T20:22:42+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2783,10 +2796,10 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:98915ab3-ec31-4d8b-8d36-81064fd4f649"/>
-          <timestamp value="2023-10-18T17:22:42+00:00"/>
+          <identifier value="urn:uuid:6c0680be-e21d-4240-becd-f5c553f2dfd6"/>
+          <timestamp value="2023-11-09T20:22:42+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2852,7 +2865,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 19 concepts</p>
+            <p>This value set contains 20 concepts</p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
@@ -3028,6 +3041,14 @@
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
                 <td>Leukemia (somatic)</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-analysis-request-code-SCID"> </a>  
+                  <a href="CodeSystem-analysis-request-code.html#analysis-request-code-SCID">SCID</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
+                <td>Severe Combined Immune Deficiency</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -3037,11 +3058,11 @@
         <title value="Sequencing request codes "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:55d80a3f-dfcf-4a5c-a9b4-24a3833a9476"/>
-          <timestamp value="2023-10-18T17:22:43+00:00"/>
-          <total value="19"/>
+          <identifier value="urn:uuid:e9ace5e1-68b7-4df7-9d96-fd5eaff2066a"/>
+          <timestamp value="2023-11-09T20:22:43+00:00"/>
+          <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -3148,6 +3169,11 @@
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="SHEMA"/>
             <display value="Leukemia (somatic)"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
+            <code value="SCID"/>
+            <display value="Severe Combined Immune Deficiency"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3258,10 +3284,10 @@
         <title value="Specimen types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7a542ed1-46c4-4b34-8972-0ec0383ac232"/>
-          <timestamp value="2023-10-18T17:22:43+00:00"/>
+          <identifier value="urn:uuid:4b7d87ff-51d7-4c76-b8df-34d80639edb2"/>
+          <timestamp value="2023-11-09T20:22:43+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3363,10 +3389,10 @@
         <title value="Variant types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-10-18T17:21:54+00:00"/>
+        <date value="2023-11-09T20:21:55+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4ab99e7e-cfee-449c-a112-cc1a4e95f2ad"/>
-          <timestamp value="2023-10-18T17:22:43+00:00"/>
+          <identifier value="urn:uuid:db59d288-67bb-4735-bd3e-e78e8ff262fd"/>
+          <timestamp value="2023-11-09T20:22:43+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

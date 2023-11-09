@@ -1,0 +1,783 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "phenotype-codes",
+      "title" : "Phenotype Codes",
+      "description" : "This value set includes all codes from Human Phenotype Ontology.",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/age-at-onset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "age-at-onset",
+      "title" : "Age at Onset Codes",
+      "description" : "This value set includes age at onset codes from Human Phenotype Ontology.",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"],
+      "uses" : {
+      },
+      "StructureDefinition-age-at-onset.html" : "Age At Onset"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-request-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "analysis-request-code",
+      "title" : "Analysis request code ",
+      "description" : "Codes of analysis request in our system",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bioinfo-analysis-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "bioinfo-analysis-code",
+      "title" : "Bioinformatic analysis codes",
+      "description" : "Bioinformatic analysis codes",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"
+      ]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/bmus-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "bmus-abnormalities",
+      "title" : "Muscle biopsy abnormalities",
+      "description" : "Category of mucle biopsy abnormalities (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/cgh-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "cgh-abnormalities",
+      "title" : "CGH abnormalities",
+      "description" : "CGH abnormalities",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/common-observation",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "common-observation",
+      "title" : "Set of observations that are common to all analyses",
+      "description" : "Set of observations that are common to all analyses",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "data-category",
+      "title" : "Data categories",
+      "description" : "Data categories",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/data-category"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/data-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "data-type",
+      "title" : "Data types",
+      "description" : "Data types",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/disease-status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "disease-status",
+      "title" : "Disease status",
+      "description" : "Disease status",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/document-format",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "document-format",
+      "title" : "Document formats",
+      "description" : "Document formats",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/document-format"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/emg-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "emg-abnormalities",
+      "title" : "EMG abnormalities",
+      "description" : "Category of EMG abnormalities (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/experimental-strategy",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "experimental-strategy",
+      "title" : "Experimental strategies",
+      "description" : "Experimental strategies",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-sequencing-experiment.html" : "Sequencing expriment"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/fmh-relationship",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "fmh-relationship",
+      "title" : "Family Member Relationship",
+      "description" : "Values ​​assigned to relationship fields",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/genome-build",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "genome-build",
+      "title" : "Genome build",
+      "description" : "Genome build",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build"],
+      "uses" : {
+      },
+      "StructureDefinition-workflow.html" : "Workflow Extension"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-exam",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mitn-default-exam",
+      "title" : "Nuclear Mitochondriopathies default para-clinic exams",
+      "description" : "Nuclear Mitochondriopathies default para-clinic exams",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mitn-default-hpo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mitn-default-hpo",
+      "title" : "Nuclear Mitochondriopathies default clinical signs (HPO code)",
+      "description" : "Category of Nuclear Mitochondriopathies default clinical signs (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-exam",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mmg-default-exam",
+      "title" : "Muscle disease  default para-clinic exams",
+      "description" : "Muscle disease  default para-clinic exams",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/mmg-default-hpo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "mmg-default-hpo",
+      "title" : "Muscle disease  default clinical signs (HPO code)",
+      "description" : "Muscle disease  default clinical signs (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/observation-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "observation-code",
+      "title" : "observation code",
+      "description" : "Codes of observations in our system",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/organization-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "organization-type",
+      "title" : "Organization type",
+      "description" : "Types of organization",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/organization-type",
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-organization.html" : "cqgc Service Request"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/qc-ethnicity",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "qc-ethnicity",
+      "title" : "Qc ethnicity",
+      "description" : "Classification og people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "rgdi-default-exam",
+      "title" : "Global developmental Delay / intellectual deficiency default para-clinical exams",
+      "description" : "Global developmental Delay / intellectual deficiency default para-clinical exams",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "rgdi-default-hpo",
+      "title" : "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
+      "description" : "Global developmental Delay / intellectual deficiency default clinical signs (HPO code)",
+      "systems" : ["http://purl.obolibrary.org/obo/hp.owl"]
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "sequencing-request-codes",
+      "title" : "Sequencing request codes ",
+      "description" : "Sequencing request codes",
+      "systems" : [
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+        "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "specimen-type",
+      "title" : "Specimen types",
+      "description" : "Specimen types",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type"],
+      "uses" : {
+      },
+      "StructureDefinition-specimen-type.html" : "Specimen types"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/ValueSet/variant-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "variant-type",
+      "title" : "Variant types",
+      "description" : "Variant types",
+      "systems" : ["http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinicalimpression-prognosis",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClinicalImpressionPrognosis",
+      "title" : "Clinical Impression Prognosis",
+      "description" : "Example value set for clinical impression prognosis.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.160"],
+      "sources" : ["2.16.840.1.113883.4.642.3.160"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinicalimpression-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClinicalImpressionStatus",
+      "title" : "Clinical Impression Status",
+      "description" : "Codes that reflect the current state of a clinical impression within its overall lifecycle.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1046"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1046"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH",
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionOutcomeCodes",
+      "title" : "Condition Outcome Codes",
+      "description" : "Example value set for condition outcomes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.967"],
+      "sources" : ["2.16.840.1.113883.4.642.3.967"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ContactEntityType",
+      "title" : "Contact entity type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/contactentity-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.416"],
+      "sources" : ["2.16.840.1.113883.4.642.3.416"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-organization.html" : "cqgc Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/history-absent-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FamilyHistoryAbsentReason",
+      "title" : "FamilyHistoryAbsentReason",
+      "description" : "Codes describing the reason why a family member's history is not available.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/history-absent-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.269"],
+      "sources" : ["2.16.840.1.113883.4.642.3.269"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/history-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FamilyHistoryStatus",
+      "title" : "FamilyHistoryStatus",
+      "description" : "A code that identifies the status of the family history record.",
+      "systems" : ["http://hl7.org/fhir/history-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.267"],
+      "sources" : ["2.16.840.1.113883.4.642.3.267"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/investigation-sets",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "InvestigationType",
+      "title" : "Investigation Type",
+      "description" : "Example value set for investigation type.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.157"],
+      "sources" : ["2.16.840.1.113883.4.642.3.157"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task",
+      "StructureDefinition-cqgc-organization.html" : "cqgc Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH",
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression",
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationAsNeededReasonCodes",
+      "title" : "SNOMED CT Medication As Needed Reason Codes",
+      "description" : "This value set includes all clinical findings from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.96"],
+      "sources" : ["2.16.840.1.113883.4.642.3.96"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participant-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantRoles",
+      "title" : "Participant Roles",
+      "description" : "Roles of participants that may be included in a care team.  Defined as: Is a Person, Healthcare professional (occupation) or Healthcare related organization (qualifier value).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.152"],
+      "sources" : ["2.16.840.1.113883.4.642.3.152"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureReasonCodes",
+      "title" : "Procedure Reason Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.432"],
+      "sources" : ["2.16.840.1.113883.4.642.3.432"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestIntent",
+      "title" : "RequestIntent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.113"],
+      "sources" : ["2.16.840.1.113883.4.642.3.113"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.111"],
+      "sources" : ["2.16.840.1.113883.4.642.3.111"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestCategoryCodes",
+      "title" : "Service Request Category Codes",
+      "description" : "An example value set of SNOMED CT concepts that can classify a requested service",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.434"],
+      "sources" : ["2.16.840.1.113883.4.642.3.434"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestOrderDetailsCodes",
+      "title" : "Service Request Order Details Codes",
+      "description" : "An example value set of Codified order entry details concepts.  These concepts only make sense in the context of what is being ordered.  This example is for a patient ventilation order",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.435"],
+      "sources" : ["2.16.840.1.113883.4.642.3.435"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-code",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "TaskCode",
+      "title" : "Task Codes",
+      "description" : "Codes indicating the type of action that is expected to be performed",
+      "systems" : ["http://hl7.org/fhir/CodeSystem/task-code"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1396"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TaskIntent",
+      "title" : "TaskIntent",
+      "description" : "Distinguishes whether the task is a proposal, plan or full order.",
+      "systems" : [
+        "http://hl7.org/fhir/request-intent",
+        "http://hl7.org/fhir/task-intent"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1240"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1240"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/task-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "TaskStatus",
+      "title" : "TaskStatus",
+      "description" : "The current status of the task.",
+      "systems" : ["http://hl7.org/fhir/task-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.790"],
+      "sources" : ["2.16.840.1.113883.4.642.3.790"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-FamilyMember",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "FamilyMember",
+      "title" : "FamilyMember",
+      "description" : "A relationship between two people characterizing their \"familial\" relationship",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.19579"],
+      "sources" : ["2.16.840.1.113883.1.11.19579"],
+      "uses" : {
+      },
+      "StructureDefinition-family-member.html" : "Family Member",
+      "StructureDefinition-family-relation.html" : "Family Relation"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ServiceDeliveryLocationRoleType",
+      "title" : "ServiceDeliveryLocationRoleType",
+      "description" : "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.17660"],
+      "sources" : ["2.16.840.1.113883.1.11.17660"],
+      "uses" : {
+      },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
+    }
+  ]
+}

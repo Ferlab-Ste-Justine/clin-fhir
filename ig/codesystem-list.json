@@ -1,0 +1,140 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "analysis-request-code",
+      "title" : "Analysis request code",
+      "description" : "Gene panel requested for analysis"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "bioinfo-analysis-code",
+      "title" : "Bioinformatic analysis codes",
+      "description" : "Bioinformatic analysis code system"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "cgh-abnormalities",
+      "title" : "CGH abnormalities",
+      "description" : "CGH abnormalities"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "data-category",
+      "title" : "Data categories",
+      "description" : "Data categories"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/data-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "data-type",
+      "title" : "Data types",
+      "description" : "Data types"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/disease-status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "disease-status",
+      "title" : "Disease status",
+      "description" : "Disease status"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/document-format",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "document-format",
+      "title" : "Document formats",
+      "description" : "Document formats"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/experimental-strategy",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "experimental-strategy",
+      "title" : "Experimental strategies",
+      "description" : "Experimental strategies"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/fmh-relationship-plus",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "fmh-relationship-plus",
+      "title" : "FMH relationship-plus",
+      "description" : "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/genome-build",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "genome-build",
+      "title" : "Genome build",
+      "description" : "Genome build"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/missing-parent-status",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "missing-parent-status",
+      "title" : "Missing parent status",
+      "description" : "type d'absence pour un parent"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "observation-code",
+      "title" : "Observation codes",
+      "description" : "Codes of observations in our system"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "organization-type-plus",
+      "title" : "Organization type-plus",
+      "description" : "The added values ​​(specific to our systems) which extend the CodeSystem provided by HL7"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/qc-ethnicity",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "qc-ethnicity",
+      "title" : "Ethnicites in Quebec",
+      "description" : "Classification of people living in Quebec in a named category of humans sharing a common history, geographic origin or nationality. The ethnic codes used to represent these concepts are based on a list provided by the genomic sequencing center"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/sequencing-request-code",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "sequencing-request-code",
+      "title" : "sequencing request codes",
+      "description" : "Sequencing request codes"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/specimen-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "specimen-type",
+      "title" : "Specimen types",
+      "description" : "Specimen types"
+    },
+    {
+      "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/variant-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "variant-type",
+      "title" : "Variant types",
+      "description" : "Variant types"
+    }
+  ]
+}
