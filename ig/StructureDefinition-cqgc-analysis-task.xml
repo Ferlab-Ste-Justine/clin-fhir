@@ -235,9 +235,6 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
         </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
-        </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
@@ -1793,9 +1790,6 @@
       </mapping>
     </element>
     <element id="Task.input">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Parameter"/>
-      </extension>
       <path value="Task.input"/>
       <short value="Information used to perform task"/>
       <definition value="Additional information that may be needed in the execution of the task."/>

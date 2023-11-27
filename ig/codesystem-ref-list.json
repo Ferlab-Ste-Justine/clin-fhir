@@ -9,8 +9,8 @@
       "description" : "Gene panel requested for analysis",
       "uses" : {
       },
-      "ValueSet-analysis-request-code.html" : "Analysis request code ",
-      "ValueSet-sequencing-request-code.html" : "Sequencing request codes "
+      "ValueSet-sequencing-request-code.html" : "Sequencing request codes ",
+      "ValueSet-analysis-request-code.html" : "Analysis request code "
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
@@ -201,8 +201,8 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-FamilyMember.html" : "FamilyMember",
-      "ValueSet-fmh-relationship.html" : "Family Member Relationship"
+      "ValueSet-fmh-relationship.html" : "Family Member Relationship",
+      "http://terminology.hl7.org/5.3.0/ValueSet-v3-FamilyMember.html" : "FamilyMember"
     }
   ]
 }

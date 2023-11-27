@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Experimental strategies"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-09T20:21:55+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-27T16:21:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

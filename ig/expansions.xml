@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5bd8b0f0-4a9e-4b3f-99f8-d80321c2374b"/>
+  <id value="39ed8698-1682-4127-86d1-eca18ead4425"/>
   <meta>
-    <lastUpdated value="2023-11-09T20:21:55.004+00:00"/>
+    <lastUpdated value="2023-11-27T16:21:02.487+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,10 +13,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 17 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-analysis-request-code.html">codesystem Analysis request code v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 17 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -174,10 +174,10 @@
         <title value="Analysis request code "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7a918f7c-9782-4176-989a-4f2c90288d95"/>
-          <timestamp value="2023-11-09T20:22:39+00:00"/>
+          <identifier value="urn:uuid:2b7c0d11-3f27-4a72-8d40-3529f5f16c98"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
           <total value="17"/>
           <parameter>
             <name value="excludeNested"/>
@@ -283,10 +283,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 6 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-bioinfo-analysis-code.html">codesystem Bioinformatic analysis codes v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 6 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -356,10 +356,10 @@
         <title value="Bioinformatic analysis codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c016fec9-1f13-4002-a686-c785d8ca66d7"/>
-          <timestamp value="2023-11-09T20:22:39+00:00"/>
+          <identifier value="urn:uuid:7f43985a-4795-4088-b1ca-306ab8812eb3"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -410,10 +410,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-cgh-abnormalities.html">codesystem CGH abnormalities v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -451,10 +451,10 @@
         <title value="CGH abnormalities"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:bd91241c-29d4-465d-8eb9-171669ef9595"/>
-          <timestamp value="2023-11-09T20:22:39+00:00"/>
+          <identifier value="urn:uuid:728ba9e4-485c-4aee-901d-e7a62bdccccc"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -485,10 +485,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-data-category.html">codesystem Data categories v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -518,10 +518,10 @@
         <title value="Data categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ae513e72-79ee-43a9-82cf-495bc3c171ca"/>
-          <timestamp value="2023-11-09T20:22:40+00:00"/>
+          <identifier value="urn:uuid:d4decf8c-c2ba-437a-86b0-444c7da0a46e"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -547,10 +547,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 13 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-data-type.html">codesystem Data types v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 16 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -577,7 +577,15 @@
                   <a href="CodeSystem-data-type.html#data-type-SNV">SNV</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
-                <td>SNV</td>
+                <td>Germline SNV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SSNV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-SSNV">SSNV</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Somatic SNV</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -589,11 +597,27 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SCNV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-SCNV">SCNV</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Somatic CNV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
                   <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-GSV"> </a>  
                   <a href="CodeSystem-data-type.html#data-type-GSV">GSV</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
                 <td>Germline SV</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---fhir.cqgc.ferlab.bio-CodeSystem-data-type-SSV"> </a>  
+                  <a href="CodeSystem-data-type.html#data-type-SSV">SSV</a>
+                </td>
+                <td>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</td>
+                <td>Somatic SV</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -676,11 +700,11 @@
         <title value="Data types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3da14097-bcb7-418e-91bb-82151bbf0d37"/>
-          <timestamp value="2023-11-09T20:22:40+00:00"/>
-          <total value="13"/>
+          <identifier value="urn:uuid:892c817b-036d-4a00-9d89-b4dc99d1fe26"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
+          <total value="16"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -697,7 +721,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
             <code value="SNV"/>
-            <display value="SNV"/>
+            <display value="Germline SNV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="SSNV"/>
+            <display value="Somatic SNV"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
@@ -706,8 +735,18 @@
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="SCNV"/>
+            <display value="Somatic CNV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
             <code value="GSV"/>
             <display value="Germline SV"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
+            <code value="SSV"/>
+            <display value="Somatic SV"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
@@ -765,10 +804,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-disease-status.html">codesystem Disease status v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -814,10 +853,10 @@
         <title value="Disease status"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:1cc9b2bb-0adf-4661-aa9c-63f05b85320c"/>
-          <timestamp value="2023-11-09T20:22:40+00:00"/>
+          <identifier value="urn:uuid:5794e1df-ff7a-4276-be16-80f5d64d8c4b"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -853,10 +892,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 12 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-document-format.html">codesystem Document formats v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -974,10 +1013,10 @@
         <title value="Document formats"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:5f669fa4-4ec1-4686-a839-75bc903241c6"/>
-          <timestamp value="2023-11-09T20:22:40+00:00"/>
+          <identifier value="urn:uuid:f401cdca-0bab-4514-9e1d-2d4f85cbf3cc"/>
+          <timestamp value="2023-11-27T16:21:30+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1058,10 +1097,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-experimental-strategy.html">codesystem Experimental strategies v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1139,10 +1178,10 @@
         <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:86a13003-11e4-4be9-b486-534cc2b4ab9e"/>
-          <timestamp value="2023-11-09T20:22:40+00:00"/>
+          <identifier value="urn:uuid:20e3edc3-7430-486e-9992-2139e647f55a"/>
+          <timestamp value="2023-11-27T16:21:31+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1183,7 +1222,6 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 23 concepts</p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
@@ -1195,6 +1233,7 @@
                 </li>
               </ul>
             </div>
+            <p>This value set contains 23 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1545,8 +1584,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T10:53:21-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:52641189-8d8b-430d-99e1-0849b5c2c81f"/>
-          <timestamp value="2023-11-09T20:22:41+00:00"/>
+          <identifier value="urn:uuid:098907be-9434-472b-af0f-5f9846d09703"/>
+          <timestamp value="2023-11-27T16:21:31+00:00"/>
           <total value="23"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1686,10 +1725,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-genome-build.html">codesystem Genome build v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1728,10 +1767,10 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4943a9db-09c5-421e-a288-961de0242cea"/>
-          <timestamp value="2023-11-09T20:22:41+00:00"/>
+          <identifier value="urn:uuid:83323568-17ca-4a03-b435-7404469c98ff"/>
+          <timestamp value="2023-11-27T16:21:31+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1757,10 +1796,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 12 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">codesystem Observation codes v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1880,8 +1919,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:bb7c45d7-6cfb-49c3-8e19-01f18d241832"/>
-          <timestamp value="2023-11-09T20:22:41+00:00"/>
+          <identifier value="urn:uuid:c677b221-c4fd-407f-b299-80e63b81485c"/>
+          <timestamp value="2023-11-27T16:21:31+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1962,10 +2001,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">codesystem Observation codes v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 7 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2045,8 +2084,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:56188512-236e-4536-b6dd-9961f2501783"/>
-          <timestamp value="2023-11-09T20:22:41+00:00"/>
+          <identifier value="urn:uuid:0a38823d-2699-4bb1-8072-a809eb876465"/>
+          <timestamp value="2023-11-27T16:21:31+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2102,10 +2141,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 27 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">codesystem Observation codes v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 27 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2343,10 +2382,10 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:9913b35e-1c84-4b46-9c45-a74db494ad59"/>
-          <timestamp value="2023-11-09T20:22:42+00:00"/>
+          <identifier value="urn:uuid:e6286caf-44d5-4d2a-9a0b-dd5f7beef04c"/>
+          <timestamp value="2023-11-27T16:21:32+00:00"/>
           <total value="27"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2502,7 +2541,6 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 4 concepts</p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
@@ -2514,6 +2552,7 @@
                 </li>
               </ul>
             </div>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2596,8 +2635,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T11:23:24-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:e36348ec-bdc4-414c-ac43-26077c1fdfa3"/>
-          <timestamp value="2023-11-09T20:22:42+00:00"/>
+          <identifier value="urn:uuid:1b2e8418-1a3e-40dc-898d-52b355696c0a"/>
+          <timestamp value="2023-11-27T16:21:32+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2642,10 +2681,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 9 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-qc-ethnicity.html">codesystem Ethnicites in Quebec v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 9 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2796,10 +2835,10 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6c0680be-e21d-4240-becd-f5c553f2dfd6"/>
-          <timestamp value="2023-11-09T20:22:42+00:00"/>
+          <identifier value="urn:uuid:ad399c79-4cc2-4f00-92fa-dbdb35ebfd1e"/>
+          <timestamp value="2023-11-27T16:21:32+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2865,7 +2904,6 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 20 concepts</p>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
@@ -2877,6 +2915,7 @@
                 </li>
               </ul>
             </div>
+            <p>This value set contains 20 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3058,10 +3097,10 @@
         <title value="Sequencing request codes "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e9ace5e1-68b7-4df7-9d96-fd5eaff2066a"/>
-          <timestamp value="2023-11-09T20:22:43+00:00"/>
+          <identifier value="urn:uuid:5f81665e-d4f3-44e5-8e0e-5af7e41a7376"/>
+          <timestamp value="2023-11-27T16:21:32+00:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3186,10 +3225,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-specimen-type.html">codesystem Specimen types v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 5 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3284,10 +3323,10 @@
         <title value="Specimen types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4b7d87ff-51d7-4c76-b8df-34d80639edb2"/>
-          <timestamp value="2023-11-09T20:22:43+00:00"/>
+          <identifier value="urn:uuid:614574ad-30be-4b25-ad71-8483422528b9"/>
+          <timestamp value="2023-11-27T16:21:32+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3333,10 +3372,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-variant-type.html">codesystem Variant types v0.1.0 (CodeSystem)</a>
             </p>
+            <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3389,10 +3428,10 @@
         <title value="Variant types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-11-09T20:21:55+00:00"/>
+        <date value="2023-11-27T16:21:02+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:db59d288-67bb-4735-bd3e-e78e8ff262fd"/>
-          <timestamp value="2023-11-09T20:22:43+00:00"/>
+          <identifier value="urn:uuid:e8fb348e-7c0b-4ce7-86ca-7400a3cb832f"/>
+          <timestamp value="2023-11-27T16:21:32+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

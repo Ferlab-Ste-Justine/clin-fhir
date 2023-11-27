@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="data-type"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">ALIR<a name="data-type-ALIR"> </a></td><td>Aligned Reads</td><td>Fragments alignés</td></tr><tr><td style="white-space:nowrap">SNV<a name="data-type-SNV"> </a></td><td>SNV</td><td>SNV</td></tr><tr><td style="white-space:nowrap">GCNV<a name="data-type-GCNV"> </a></td><td>Germline CNV</td><td>CNV germinal</td></tr><tr><td style="white-space:nowrap">GSV<a name="data-type-GSV"> </a></td><td>Germline SV</td><td>SV germinal</td></tr><tr><td style="white-space:nowrap">SSUP<a name="data-type-SSUP"> </a></td><td>Sequencing Data Supplement</td><td>Données de séquençage supplémentaires</td></tr><tr><td style="white-space:nowrap">INDX<a name="data-type-INDX"> </a></td><td>Sequencing Data Index</td><td>Index de données de séquençage</td></tr><tr><td style="white-space:nowrap">EXOMISER<a name="data-type-EXOMISER"> </a></td><td>Exomiser Report</td><td>Rapport Exomiser</td></tr><tr><td style="white-space:nowrap">IGV<a name="data-type-IGV"> </a></td><td>IGV Track</td><td>Track IGV</td></tr><tr><td style="white-space:nowrap">CNVVIS<a name="data-type-CNVVIS"> </a></td><td>CNV Visualization</td><td>Visualization de CNVs</td></tr><tr><td style="white-space:nowrap">COVGENE<a name="data-type-COVGENE"> </a></td><td>Coverage by Gene Report</td><td>Rapport de couverture par gène</td></tr><tr><td style="white-space:nowrap">OTHER<a name="data-type-OTHER"> </a></td><td>Undefined Data Type</td><td>Type de données indéfini</td></tr><tr><td style="white-space:nowrap">QCRUN<a name="data-type-QCRUN"> </a></td><td>Sequencing Run QC Report</td><td>Rapport de controle de qualité de la run de séquençage</td></tr><tr><td style="white-space:nowrap">FUSG<a name="data-type-FUSG"> </a></td><td>Gene fusion</td><td>Fusion de gènes</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/data-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style="white-space:nowrap">ALIR<a name="data-type-ALIR"> </a></td><td>Aligned Reads</td><td>Fragments alignés</td></tr><tr><td style="white-space:nowrap">SNV<a name="data-type-SNV"> </a></td><td>Germline SNV</td><td>SNV germinal</td></tr><tr><td style="white-space:nowrap">SSNV<a name="data-type-SSNV"> </a></td><td>Somatic SNV</td><td>SNV somatic</td></tr><tr><td style="white-space:nowrap">GCNV<a name="data-type-GCNV"> </a></td><td>Germline CNV</td><td>CNV germinal</td></tr><tr><td style="white-space:nowrap">SCNV<a name="data-type-SCNV"> </a></td><td>Somatic CNV</td><td>CNV somatic</td></tr><tr><td style="white-space:nowrap">GSV<a name="data-type-GSV"> </a></td><td>Germline SV</td><td>SV germinal</td></tr><tr><td style="white-space:nowrap">SSV<a name="data-type-SSV"> </a></td><td>Somatic SV</td><td>SV somatic</td></tr><tr><td style="white-space:nowrap">SSUP<a name="data-type-SSUP"> </a></td><td>Sequencing Data Supplement</td><td>Données de séquençage supplémentaires</td></tr><tr><td style="white-space:nowrap">INDX<a name="data-type-INDX"> </a></td><td>Sequencing Data Index</td><td>Index de données de séquençage</td></tr><tr><td style="white-space:nowrap">EXOMISER<a name="data-type-EXOMISER"> </a></td><td>Exomiser Report</td><td>Rapport Exomiser</td></tr><tr><td style="white-space:nowrap">IGV<a name="data-type-IGV"> </a></td><td>IGV Track</td><td>Track IGV</td></tr><tr><td style="white-space:nowrap">CNVVIS<a name="data-type-CNVVIS"> </a></td><td>CNV Visualization</td><td>Visualization de CNVs</td></tr><tr><td style="white-space:nowrap">COVGENE<a name="data-type-COVGENE"> </a></td><td>Coverage by Gene Report</td><td>Rapport de couverture par gène</td></tr><tr><td style="white-space:nowrap">OTHER<a name="data-type-OTHER"> </a></td><td>Undefined Data Type</td><td>Type de données indéfini</td></tr><tr><td style="white-space:nowrap">QCRUN<a name="data-type-QCRUN"> </a></td><td>Sequencing Run QC Report</td><td>Rapport de controle de qualité de la run de séquençage</td></tr><tr><td style="white-space:nowrap">FUSG<a name="data-type-FUSG"> </a></td><td>Gene fusion</td><td>Fusion de gènes</td></tr></table></div>
   </text>
   <url value="http://fhir.cqgc.ferlab.bio/CodeSystem/data-type"/>
   <version value="0.1.0"/>
@@ -11,7 +11,7 @@
   <title value="Data types"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-11-09T20:21:55+00:00"/>
+  <date value="2023-11-27T16:21:02+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -34,10 +34,18 @@
   </concept>
   <concept>
     <code value="SNV"/>
-    <display value="SNV"/>
+    <display value="Germline SNV"/>
     <designation>
       <language value="fr"/>
-      <value value="SNV"/>
+      <value value="SNV germinal"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SSNV"/>
+    <display value="Somatic SNV"/>
+    <designation>
+      <language value="fr"/>
+      <value value="SNV somatic"/>
     </designation>
   </concept>
   <concept>
@@ -49,11 +57,27 @@
     </designation>
   </concept>
   <concept>
+    <code value="SCNV"/>
+    <display value="Somatic CNV"/>
+    <designation>
+      <language value="fr"/>
+      <value value="CNV somatic"/>
+    </designation>
+  </concept>
+  <concept>
     <code value="GSV"/>
     <display value="Germline SV"/>
     <designation>
       <language value="fr"/>
       <value value="SV germinal"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SSV"/>
+    <display value="Somatic SV"/>
+    <designation>
+      <language value="fr"/>
+      <value value="SV somatic"/>
     </designation>
   </concept>
   <concept>

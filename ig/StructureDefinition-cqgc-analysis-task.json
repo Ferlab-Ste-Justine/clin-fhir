@@ -240,10 +240,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -1851,10 +1847,6 @@
     },
     {
       "id" : "Task.input",
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
-        "valueString" : "Parameter"
-      }],
       "path" : "Task.input",
       "short" : "Information used to perform task",
       "definition" : "Additional information that may be needed in the execution of the task.",

@@ -264,9 +264,6 @@
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
@@ -2008,10 +2005,6 @@
        ] )
      ] [
        fhir:id [ fhir:v "Task.input" ] ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Parameter" ]
-       ] ) ;
        fhir:path [ fhir:v "Task.input" ] ;
        fhir:short [ fhir:v "Information used to perform task" ] ;
        fhir:definition [ fhir:v "Additional information that may be needed in the execution of the task." ] ;
