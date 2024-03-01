@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Genome build"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-27T16:21:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-01T18:52:33+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

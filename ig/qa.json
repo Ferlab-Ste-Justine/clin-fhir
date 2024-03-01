@@ -1,13 +1,18 @@
 {
   "url" : "http://fhir.cqgc.ferlab.bio/ImplementationGuide/Cqgc",
   "name" : "CqgcImplementationGuide",
+  "title" : "Cqgc Implementation Guide",
+  "description" : "Documentation for the cqgc FHIR data model",
+  "status" : "active",
   "package-id" : "cqgc",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 27 Nov, 2023 16:21:02 +0000",
-  "errs" : 17,
-  "warnings" : 120,
-  "hints" : 0,
+  "date" : "Fri, 01 Mar, 2024 18:52:33 +0000",
+  "errs" : 19,
+  "warnings" : 109,
+  "hints" : 3,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1004021808
+  "maxMemory" : 1020428424
 }

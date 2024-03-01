@@ -11,7 +11,7 @@
   <name value="CqgcImplementationGuide"/>
   <title value="Cqgc Implementation Guide"/>
   <status value="active"/>
-  <date value="2023-11-27T16:21:02+00:00"/>
+  <date value="2024-03-01T18:52:33+00:00"/>
   <publisher value="Ferlab.bio"/>
   <contact>
     <name value="Cqgc"/>
@@ -242,7 +242,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#current"/>
+      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
