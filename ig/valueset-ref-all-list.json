@@ -312,8 +312,8 @@
       "uses" : {
       },
       "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-observation.html" : "cqgc observation",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -369,8 +369,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression",
-      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH"
+      "StructureDefinition-cqgc-fmh.html" : "cqgc FMH",
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-outcome",
@@ -471,11 +471,11 @@
       "uses" : {
       },
       "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task",
-      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression",
       "StructureDefinition-cqgc-fmh.html" : "cqgc FMH",
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression",
       "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-observation.html" : "cqgc observation",
       "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation",
       "StructureDefinition-cqgc-organization.html" : "cqgc Service Request"
     },
     {

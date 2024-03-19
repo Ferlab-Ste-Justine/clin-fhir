@@ -9,8 +9,8 @@
       "description" : "Gene panel requested for analysis",
       "uses" : {
       },
-      "ValueSet-sequencing-request-code.html" : "Sequencing request codes ",
-      "ValueSet-analysis-request-code.html" : "Analysis request code "
+      "ValueSet-analysis-request-code.html" : "Analysis request code ",
+      "ValueSet-sequencing-request-code.html" : "Sequencing request codes "
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
@@ -121,8 +121,8 @@
       "uses" : {
       },
       "ValueSet-mitn-default-exam.html" : "Nuclear Mitochondriopathies default para-clinic exams",
-      "ValueSet-mmg-default-exam.html" : "Muscle disease  default para-clinic exams",
-      "ValueSet-observation-code.html" : "observation code"
+      "ValueSet-observation-code.html" : "observation code",
+      "ValueSet-mmg-default-exam.html" : "Muscle disease  default para-clinic exams"
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
@@ -249,8 +249,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.114"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-request-intent.html" : "RequestIntent",
-      "http://hl7.org/fhir/R4/valueset-task-intent.html" : "TaskIntent"
+      "http://hl7.org/fhir/R4/valueset-task-intent.html" : "TaskIntent",
+      "http://hl7.org/fhir/R4/valueset-request-intent.html" : "RequestIntent"
     },
     {
       "url" : "http://hl7.org/fhir/request-priority",
@@ -322,20 +322,20 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
-      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4/valueset-investigation-sets.html" : "Investigation Type",
+      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes",
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
       "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4/valueset-clinicalimpression-prognosis.html" : "Clinical Impression Prognosis",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
       "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
       "http://hl7.org/fhir/R4/valueset-participant-role.html" : "Participant Roles",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
-      "http://hl7.org/fhir/R4/valueset-investigation-sets.html" : "Investigation Type",
       "http://hl7.org/fhir/R4/valueset-condition-outcome.html" : "Condition Outcome Codes",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-category.html" : "Service Request Category Codes"
+      "http://hl7.org/fhir/R4/valueset-clinicalimpression-prognosis.html" : "Clinical Impression Prognosis"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/contactentity-type",
@@ -419,8 +419,8 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-FamilyMember.html" : "FamilyMember",
       "ValueSet-fmh-relationship.html" : "Family Member Relationship",
+      "http://terminology.hl7.org/5.3.0/ValueSet-v3-FamilyMember.html" : "FamilyMember",
       "http://terminology.hl7.org/5.3.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
     },
     {

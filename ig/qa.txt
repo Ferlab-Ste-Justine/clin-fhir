@@ -1,128 +1,135 @@
 CqgcImplementationGuide : Validation Results
 =========================================
 
-err = 19, warn = 109, info = 3
-IG Publisher Version: 1.6.0
-Generated Fri Mar 01 18:53:27 UTC 2024. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+err = 19, warn = 153, info = 28
+IG Publisher Version: 1.6.2
+Generated Tue Mar 19 14:10:16 UTC 2024. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 23 / 5 / 0
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-analysis-type : 1 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-full-size : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 3 / 4 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason : 3 / 4 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-resident-supervisor : 2 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-sequencing-experiment : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-specimen-type : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-status-history : 2 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-observation : 1 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-organization : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-sequencing-request : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-contextspecimen : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-input-specimen : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-output-documentreference : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-run-name : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-analysis-request-code : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-bioinfo-analysis-code : 1 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-cgh-abnormalities : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-data-category : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-data-type : 1 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-disease-status : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-document-format : 1 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-experimental-strategy : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-fmh-relationship-plus : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-genome-build : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-missing-parent-status : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-observation-code : 1 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-organization-type-plus : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-qc-ethnicity : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-sequencing-request-code : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-specimen-type : 1 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-variant-type : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-age-at-onset : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-analysis-request-code : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-bioinfo-analysis-code : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-bmus-abnormalities : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-cgh-abnormalities : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-common-observation : 0 / 8 / 2
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-data-category : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-data-type : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-disease-status : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-document-format : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-emg-abnormalities : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-experimental-strategy : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-fmh-relationship : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-genome-build : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mitn-default-exam : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mitn-default-hpo : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mmg-default-exam : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mmg-default-hpo : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-observation-code : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-organization-type : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes : 2 / 1 / 2
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-qc-ethnicity : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-rgdi-default-exam : 0 / 4 / 2
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-rgdi-default-hpo : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-sequencing-request-code : 0 / 2 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-specimen-type : 0 / 1 / 1
- /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-variant-type : 0 / 1 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-onset : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-analysis-type : 1 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-member : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-family-relation : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-full-size : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by : 3 / 4 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason : 3 / 4 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-resident-supervisor : 2 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-sequencing-experiment : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-specimen-type : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-status-history : 2 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-workflow : 0 / 1 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-request : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-analysis-task : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-clinical-impression : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-fmh : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-observation : 1 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-organization : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/profiles/StructureDefinition-cqgc-sequencing-request : 0 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-contextspecimen : 0 / 1 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-input-specimen : 0 / 1 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-output-documentreference : 0 / 1 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/search/SearchParameter-run-name : 0 / 1 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-analysis-request-code : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-bioinfo-analysis-code : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-cgh-abnormalities : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-data-category : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-data-type : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-disease-status : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-document-format : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-experimental-strategy : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-fmh-relationship-plus : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-genome-build : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-missing-parent-status : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-observation-code : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-organization-type-plus : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-qc-ethnicity : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-sequencing-request-code : 0 / 3 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-specimen-type : 1 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/CodeSystem-variant-type : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-age-at-onset : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-analysis-request-code : 0 / 3 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-bioinfo-analysis-code : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-bmus-abnormalities : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-cgh-abnormalities : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-common-observation : 0 / 9 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-data-category : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-data-type : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-disease-status : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-document-format : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-emg-abnormalities : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-experimental-strategy : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-fmh-relationship : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-genome-build : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mitn-default-exam : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mitn-default-hpo : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mmg-default-exam : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-mmg-default-hpo : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-observation-code : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-organization-type : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes : 2 / 2 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-qc-ethnicity : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-rgdi-default-exam : 0 / 5 / 2
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-rgdi-default-hpo : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-sequencing-request-code : 0 / 3 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-specimen-type : 0 / 2 / 1
+ /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-variant-type : 0 / 2 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cqgc
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 229, column 1410: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 229, column 1416: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 251, column 561: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 273, column 373: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 303, column 1663: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 316, column 1665: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 384, column 1663: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 397, column 1665: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 303, column 1667: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 316, column 1669: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 384, column 1667: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 397, column 1669: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-analysis-type.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 451, column 163: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' for "http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 229, column 1404: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 229, column 1410: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 272, column 493: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 354, column 295: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 291, column 1636: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 291, column 1640: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 303, column 175: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 326, column 1628: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 326, column 1632: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 338, column 175: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 386, column 1626: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 386, column 1630: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 468, column 175: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 647, column 1636: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 647, column 1640: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 658, column 175: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 681, column 1628: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 681, column 1632: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 693, column 175: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
-ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 741, column 1626: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
+ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 741, column 1630: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/output/StructureDefinition-cqgc-observation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 823, column 175: The link 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' for "http://fhir.cqgc.ferlab.bio/ValueSet/observation-category" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == input/ImplementationGuide-Clin.json ==
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/extensions/StructureDefinition-age-at-event.json ==
 WARNING: StructureDefinition/age-at-event: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-event'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-age-at-onset.json ==
 WARNING: StructureDefinition/age-at-onset: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/age-at-onset'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-analysis-type.json ==
 WARNING: StructureDefinition/analysis-type: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/analysis-type'): The Implementation Guide contains no examples for this extension
 ERROR: StructureDefinition.text.div: Hyperlink 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' at 'div/table/tr/td/a' for 'http://fhir.cqgc.ferlab.bio/ValueSet/analysis-type' does not resolve
 == input/resources/extensions/StructureDefinition-family-member.json ==
 WARNING: StructureDefinition/family-member: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-member'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-family-relation.json ==
 WARNING: StructureDefinition/family-relation: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/family-relation'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-full-size.json ==
 WARNING: StructureDefinition/full-size: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/full-size'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-procedure-directed-by.json ==
 ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/procedure-directed-by'): Conformance resource /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by.json - the canonical URL (http://fhir.cqgc.ferlab.bio/StructureDefinition/procedure-directed-by) does not match the URL (http://hl7.org/fhir/StructureDefinition/procedure-directed-by)
@@ -130,6 +137,7 @@ WARNING: StructureDefinition/procedure-directed-by: StructureDefinition: Constra
 WARNING: StructureDefinition/procedure-directed-by: StructureDefinition: The nominated WG 'pc' means that the publisher should be 'HL7 International / Patient Care' but 'Ferlab.bio' was found
 WARNING: StructureDefinition/procedure-directed-by: StructureDefinition: The nominated WG 'pc' means that the contact url should be 'http://www.hl7.org/Special/committees/patientcare' but it was not found
 ERROR: StructureDefinition/procedure-directed-by: StructureDefinition: The fixed value for the extension URL is http://hl7.org/fhir/StructureDefinition/procedure-directedBy which doesn't match the canonical URL http://hl7.org/fhir/StructureDefinition/procedure-directed-by
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/procedure-directed-by'): The Implementation Guide contains no examples for this extension
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-procedure-directed-by: URL Mismatch http://fhir.cqgc.ferlab.bio/StructureDefinition/procedure-directed-by vs http://hl7.org/fhir/StructureDefinition/procedure-directed-by
 == input/resources/extensions/StructureDefinition-request-status-reason.json ==
@@ -138,107 +146,146 @@ WARNING: StructureDefinition/request-status-reason: StructureDefinition: Constra
 WARNING: StructureDefinition/request-status-reason: StructureDefinition: The nominated WG 'fhir' means that the publisher should be 'HL7 International / FHIR Infrastructure' but 'Ferlab.bio' was found
 WARNING: StructureDefinition/request-status-reason: StructureDefinition: The nominated WG 'fhir' means that the contact url should be 'http://www.hl7.org/Special/committees/fiwg' but it was not found
 ERROR: StructureDefinition/request-status-reason: StructureDefinition: The fixed value for the extension URL is http://hl7.org/fhir/StructureDefinition/request-statusReason which doesn't match the canonical URL http://hl7.org/fhir/StructureDefinition/request-status-reason
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/request-status-reason'): The Implementation Guide contains no examples for this extension
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-request-status-reason: URL Mismatch http://fhir.cqgc.ferlab.bio/StructureDefinition/request-status-reason vs http://hl7.org/fhir/StructureDefinition/request-status-reason
 == input/resources/extensions/StructureDefinition-resident-supervisor.json ==
 WARNING: StructureDefinition/resident-supervisor: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure http://hl7.org/fhir/StructureDefinition/Extension (base type = Extension)
 ERROR: StructureDefinition/resident-supervisor: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/resident-supervisor'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-sequencing-experiment.json ==
 WARNING: StructureDefinition/sequencing-experiment: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/sequencing-experiment'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-specimen-type.json ==
 WARNING: StructureDefinition/specimen-type: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/specimen-type'): The Implementation Guide contains no examples for this extension
 == input/resources/extensions/StructureDefinition-status-history.json ==
 WARNING: StructureDefinition/status-history: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: StructureDefinition/status-history: StructureDefinition: The kind resource must be the same as the kind complex-type in the base structure http://hl7.org/fhir/StructureDefinition/Extension (base type = Extension)
 ERROR: StructureDefinition/status-history: StructureDefinition: The structure definition constrains a kind of complex-type, but has a different kind (resource)
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/status-history'): The Implementation Guide contains no examples for this profile
 == input/resources/extensions/StructureDefinition-workflow.json ==
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/workflow'): The Implementation Guide contains no examples for this extension
 == input/resources/profiles/StructureDefinition-cqgc-analysis-request.json ==
 WARNING: StructureDefinition/cqgc-analysis-request: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-request'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-analysis-task.json ==
 WARNING: StructureDefinition/cqgc-analysis-task: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-analysis-task'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-clinical-impression.json ==
 WARNING: StructureDefinition/cqgc-clinical-impression: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-clinical-impression'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-fmh.json ==
 WARNING: StructureDefinition/cqgc-fmh: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-fmh'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-observation.json ==
 WARNING: StructureDefinition/cqgc-observation: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-observation'): The Implementation Guide contains no examples for this profile
 ERROR: StructureDefinition.text.div: Hyperlink 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' at 'div/table/tr/td/a' for 'http://fhir.cqgc.ferlab.bio/ValueSet/observation-category' does not resolve
 == input/resources/profiles/StructureDefinition-cqgc-organization.json ==
 WARNING: StructureDefinition/cqgc-organization: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-organization'): The Implementation Guide contains no examples for this profile
 == input/resources/profiles/StructureDefinition-cqgc-sequencing-request.json ==
 WARNING: StructureDefinition/cqgc-sequencing-request: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'http://fhir.cqgc.ferlab.bio/StructureDefinition/cqgc-sequencing-request'): The Implementation Guide contains no examples for this profile
 == input/resources/search/SearchParameter-contextspecimen.json ==
 WARNING: SearchParameter/contextspecimen: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/search/SearchParameter-input-specimen.json ==
 WARNING: SearchParameter/input-specimen: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/search/SearchParameter-output-documentreference.json ==
 WARNING: SearchParameter/output-documentreference: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/search/SearchParameter-run-name.json ==
 WARNING: SearchParameter/run-name: SearchParameter: Constraint failed: spd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+INFORMATION: Resource: This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-analysis-request-code.json ==
 WARNING: CodeSystem/analysis-request-code: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-bioinfo-analysis-code.json ==
 WARNING: CodeSystem/bioinfo-analysis-code: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: CodeSystem/bioinfo-analysis-code: CodeSystem.count: The code system is complete, but the number of concepts (6) does not match the stated total number (4)
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-cgh-abnormalities.json ==
 WARNING: CodeSystem/cgh-abnormalities: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-data-category.json ==
 WARNING: CodeSystem/data-category: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-data-type.json ==
 WARNING: CodeSystem/data-type: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: CodeSystem/data-type: CodeSystem.count: The code system is complete, but the number of concepts (16) does not match the stated total number (5)
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-disease-status.json ==
 WARNING: CodeSystem/disease-status: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-document-format.json ==
 WARNING: CodeSystem/document-format: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: CodeSystem/document-format: CodeSystem.count: The code system is complete, but the number of concepts (12) does not match the stated total number (5)
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-experimental-strategy.json ==
 WARNING: CodeSystem/experimental-strategy: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-fmh-relationship-plus.json ==
 WARNING: CodeSystem/fmh-relationship-plus: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-genome-build.json ==
 WARNING: CodeSystem/genome-build: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-missing-parent-status.json ==
 WARNING: CodeSystem/missing-parent-status: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-observation-code.json ==
 WARNING: CodeSystem/observation-code: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: CodeSystem/observation-code: CodeSystem.count: The code system is complete, but the number of concepts (27) does not match the stated total number (25)
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-organization-type-plus.json ==
 WARNING: CodeSystem/organization-type-plus: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-qc-ethnicity.json ==
 WARNING: CodeSystem/qc-ethnicity: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-sequencing-request-code.json ==
 WARNING: CodeSystem/sequencing-request-code: CodeSystem.concept[2].display: value should not start or finish with whitespace 'Tumoral Trancriptome Sequencing '
 WARNING: CodeSystem/sequencing-request-code: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-specimen-type.json ==
 WARNING: CodeSystem/specimen-type: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 ERROR: CodeSystem/specimen-type: CodeSystem.count: The code system is complete, but the number of concepts (5) does not match the stated total number (3)
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/CodeSystem-variant-type.json ==
 WARNING: CodeSystem/variant-type: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-age-at-onset.json ==
 WARNING: ValueSet/age-at-onset: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-analysis-request-code.json ==
 WARNING: ValueSet/analysis-request-code: ValueSet.title: value should not start or finish with whitespace 'Analysis request code '
 WARNING: ValueSet/analysis-request-code: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-bioinfo-analysis-code.json ==
 WARNING: ValueSet/bioinfo-analysis-code: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-bmus-abnormalities.json ==
 WARNING: ValueSet/bmus-abnormalities: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-cgh-abnormalities.json ==
 WARNING: ValueSet/cgh-abnormalities: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-common-observation.json ==
 WARNING: ValueSet/common-observation: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 WARNING: ValueSet/common-observation: ValueSet.compose.include[0].concept[0]: The code 'OBSG' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
@@ -249,53 +296,75 @@ WARNING: ValueSet/common-observation: ValueSet.compose.include[0].concept[3]: Th
 WARNING: ValueSet/common-observation: ValueSet.compose.include[0].concept[4]: The code 'MFTH' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
 WARNING: ValueSet/common-observation: ValueSet.compose.include[0].concept[5]: The code 'MMTH' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
 WARNING: ValueSet/common-observation: ValueSet.compose.include[0].concept[6]: The code 'DSTA' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-data-category.json ==
 WARNING: ValueSet/data-category: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-data-type.json ==
 WARNING: ValueSet/data-type: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-disease-status.json ==
 WARNING: ValueSet/disease-status: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-document-format.json ==
 WARNING: ValueSet/document-format: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-emg-abnormalities.json ==
 WARNING: ValueSet/emg-abnormalities: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-experimental-strategy.json ==
 WARNING: ValueSet/experimental-strategy: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-fmh-relationship.json ==
 WARNING: ValueSet/fmh-relationship: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-genome-build.json ==
 WARNING: ValueSet/genome-build: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-mitn-default-exam.json ==
 WARNING: ValueSet/mitn-default-exam: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-mitn-default-hpo.json ==
 WARNING: ValueSet/mitn-default-hpo: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-mmg-default-exam.json ==
 WARNING: ValueSet/mmg-default-exam: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-mmg-default-hpo.json ==
 WARNING: ValueSet/mmg-default-hpo: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-observation-code.json ==
 WARNING: ValueSet/observation-code: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-organization-type.json ==
 WARNING: ValueSet/organization-type: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-phenotype-codes.json ==
 ERROR: ValueSet.where(url = 'http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes'): Conformance resource /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes.json - the canonical URL (http://fhir.cqgc.ferlab.bio/ValueSet/phenotype-codes) does not match the URL (http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes)
 WARNING: ValueSet/phenotype-codes: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 INFORMATION: ValueSet.where(id = 'phenotype-codes'): The value set expansion is too large, and only a subset has been displayed
 ERROR: /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/terminology/ValueSet-phenotype-codes: URL Mismatch http://fhir.cqgc.ferlab.bio/ValueSet/phenotype-codes vs http://fhir.cqdg.ferlab.bio/ValueSet/phenotype-codes
 == input/resources/terminology/ValueSet-qc-ethnicity.json ==
 WARNING: ValueSet/qc-ethnicity: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-rgdi-default-exam.json ==
 WARNING: ValueSet/rgdi-default-exam: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 WARNING: ValueSet/rgdi-default-exam: ValueSet.compose.include[0].concept[0]: The code 'CGH' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
 INFORMATION: ValueSet/rgdi-default-exam: ValueSet.compose.include[0].concept[0]: Unknown code 'CGH' in the CodeSystem 'http://purl.obolibrary.org/obo/hp.owl' version '20221005'
 WARNING: ValueSet/rgdi-default-exam: ValueSet.compose.include[0].concept[1]: The code 'TSXF' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
 WARNING: ValueSet/rgdi-default-exam: ValueSet.compose.include[0].concept[2]: The code 'BMET' is not valid in the system http://purl.obolibrary.org/obo/hp.owl
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-rgdi-default-hpo.json ==
 WARNING: ValueSet/rgdi-default-hpo: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-sequencing-request-code.json ==
 WARNING: ValueSet/sequencing-request-code: ValueSet.title: value should not start or finish with whitespace 'Sequencing request codes '
 WARNING: ValueSet/sequencing-request-code: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-specimen-type.json ==
 WARNING: ValueSet/specimen-type: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/terminology/ValueSet-variant-type.json ==
 WARNING: ValueSet/variant-type: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+WARNING: Resource: This resource should have an OID assigned to cater for possible e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
