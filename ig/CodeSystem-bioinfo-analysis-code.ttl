@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "bioinfo-analysis-code"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td><td>Analyse bioinformatique d'alignement de fragments</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td><td>Analyse bioinformatique d'appel de SNV</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality control Bioinformatic Analysis</td><td>Analyse bioinformatique de controle de qualité</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td><td>Analyse bioinformatique d'exomes germinales</td></tr><tr><td style=\"white-space:nowrap\">TRBA<a name=\"bioinfo-analysis-code-TRBA\"> </a></td><td>Transcriptome Bioinformatic Analysis</td><td>Analyse bioinformatique de transcriptomes</td></tr><tr><td style=\"white-space:nowrap\">TEBA<a name=\"bioinfo-analysis-code-TEBA\"> </a></td><td>Tumoral Exome Bioinformatic Analysis</td><td>Analyse bioinformatique d'exomes tumoraux</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">RABA<a name=\"bioinfo-analysis-code-RABA\"> </a></td><td>Reads Alignement Bioinformatic Analysis</td><td>Analyse bioinformatique d'alignement de fragments</td></tr><tr><td style=\"white-space:nowrap\">SNVC<a name=\"bioinfo-analysis-code-SNVC\"> </a></td><td>SNV Calling Bioinformatic Analysis</td><td>Analyse bioinformatique d'appel de SNV</td></tr><tr><td style=\"white-space:nowrap\">QCBA<a name=\"bioinfo-analysis-code-QCBA\"> </a></td><td>Quality control Bioinformatic Analysis</td><td>Analyse bioinformatique de controle de qualité</td></tr><tr><td style=\"white-space:nowrap\">GEBA<a name=\"bioinfo-analysis-code-GEBA\"> </a></td><td>Germline Exome Bioinformatic Analysis</td><td>Analyse bioinformatique d'exomes germinales</td></tr><tr><td style=\"white-space:nowrap\">TRBA<a name=\"bioinfo-analysis-code-TRBA\"> </a></td><td>Transcriptome Bioinformatic Analysis</td><td>Analyse bioinformatique de transcriptomes</td></tr><tr><td style=\"white-space:nowrap\">TEBA<a name=\"bioinfo-analysis-code-TEBA\"> </a></td><td>Tumoral Exome Bioinformatic Analysis</td><td>Analyse bioinformatique d'exomes tumoraux</td></tr><tr><td style=\"white-space:nowrap\">TNEBA<a name=\"bioinfo-analysis-code-TNEBA\"> </a></td><td>Tumor-Normal Exomes Bioinformatic Analysis</td><td>Analyse bioinformatique des exomes tumoraux et normaux</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Bioinformatic analysis codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-03-19T14:09:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-25T15:25:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;
@@ -72,6 +72,13 @@
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Analyse bioinformatique d'exomes tumoraux" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TNEBA" ] ;
+     fhir:display [ fhir:v "Tumor-Normal Exomes Bioinformatic Analysis" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr" ] ;
+       fhir:value [ fhir:v "Analyse bioinformatique des exomes tumoraux et normaux" ]
      ] )
   ] ) . # 
 

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CqgcImplementationGuide"] ; # 
   fhir:title [ fhir:v "Cqgc Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-03-19T14:09:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-25T15:25:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;
