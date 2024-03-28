@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6fa722b9-2846-401a-b339-0d7eb6a4505e"/>
+  <id value="23b1d150-02f2-40f7-8bc0-663e7bd08f79"/>
   <meta>
-    <lastUpdated value="2024-03-25T15:25:45.473+00:00"/>
+    <lastUpdated value="2024-03-28T12:52:30.317+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -101,8 +101,8 @@
         <experimental value="false"/>
         <date value="2020-08-12T13:29:08-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:65222715-8ac4-4cb7-8085-1030f301b35b"/>
-          <timestamp value="2024-03-25T15:26:20+00:00"/>
+          <identifier value="urn:uuid:0093485c-4336-4695-b2ee-70462d35a797"/>
+          <timestamp value="2024-03-28T12:53:06+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -346,10 +346,10 @@
         <title value="Analysis request code "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4e986738-954a-4b21-a4cb-48017c0d0ea9"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:46092d8c-0178-4c71-9b40-2b43fc082159"/>
+          <timestamp value="2024-03-28T12:53:07+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -545,10 +545,10 @@
         <title value="Bioinformatic analysis codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:44f9d823-1df7-411a-837f-486ae4a59807"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:4040f6b6-8554-4d73-963a-5c3920169fb1"/>
+          <timestamp value="2024-03-28T12:53:07+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -806,8 +806,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:bc6b8a98-de56-4560-b1d7-9f191939fbcb"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:58a5c1ff-e57a-4fda-85d3-42fdc6686c62"/>
+          <timestamp value="2024-03-28T12:53:07+00:00"/>
           <total value="24"/>
           <offset value="0"/>
           <parameter>
@@ -987,7 +987,7 @@
                   <a href="CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV0">CNV0</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td>
-                <td>CNVs not explaining phenotypes</td>
+                <td>CNV that does not explain the phenotype</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -995,7 +995,7 @@
                   <a href="CodeSystem-cgh-abnormalities.html#cgh-abnormalities-CNV1">CNV1</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities</td>
-                <td>CNVs explaining phenotypes</td>
+                <td>CNV that does explain the phenotype</td>
               </tr>
             </table>
           </div>
@@ -1006,10 +1006,10 @@
         <title value="CGH abnormalities"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:8f46c007-51b2-4365-823a-d20451e0f143"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:8e600968-907e-4570-9a44-e0d04704c8fe"/>
+          <timestamp value="2024-03-28T12:53:07+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1031,12 +1031,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
             <code value="CNV0"/>
-            <display value="CNVs not explaining phenotypes"/>
+            <display value="CNV that does not explain the phenotype"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/cgh-abnormalities"/>
             <code value="CNV1"/>
-            <display value="CNVs explaining phenotypes"/>
+            <display value="CNV that does explain the phenotype"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1074,8 +1074,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:8fb6b5f9-c0f6-46d5-9d16-84ac29dcc154"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:132ffa4f-5821-4dff-a4c7-429bfa8d8f15"/>
+          <timestamp value="2024-03-28T12:53:07+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1146,10 +1146,10 @@
         <title value="Data categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4cbe629f-e49a-4474-a6be-0718a110cd35"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:5db89080-2f09-4041-8da3-c2dc7dc38c54"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -1337,10 +1337,10 @@
         <title value="Data types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:38178a90-8c4d-4ea5-a715-4dbe8619c3d8"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:93b971c2-55a6-4e43-a296-51f7beeffae3"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -1499,10 +1499,10 @@
         <title value="Disease status"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:87785816-8820-4f99-bd02-04ac0bdfbcc4"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:7abc28ed-eaad-4524-a2f6-22de9062c688"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1668,10 +1668,10 @@
         <title value="Document formats"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6105deac-df0a-4485-97fd-124171d768d2"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:25d4362c-a4f2-4023-bbf4-c4b7c583fd1c"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1814,8 +1814,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:f91a4033-8c31-46ef-8ef9-0be0d571dfbd"/>
-          <timestamp value="2024-03-25T15:26:21+00:00"/>
+          <identifier value="urn:uuid:5bec9aa0-d578-4218-9163-ac5d8e38b583"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1954,10 +1954,10 @@
         <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:db90e521-53bc-49d6-b073-73be816bcfcd"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:66f27d1c-4a06-494a-8a7b-4e5db594646a"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2369,8 +2369,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T10:53:21-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:823d0bec-c0ee-4b76-8ec3-57c3eda3bc0e"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:3670cb97-f15a-4df2-a166-26d387de2e96"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -2561,10 +2561,10 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:064e227f-36f1-4258-8435-0bfe9942efe5"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:9f7cd220-dcc9-4062-9987-d9dd90f07c46"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2722,8 +2722,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:2f84548a-797b-4d06-a626-586b66c0a37e"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:33eb62ca-849b-4e47-8573-f192d8aebb1b"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -2929,8 +2929,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:2d8ce688-67c3-4e6f-840d-0e73c7a7c52c"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:5c97cfe1-b904-434c-ac10-c4097cd46c40"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -3116,8 +3116,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:7bc86108-888c-4c7d-9d73-65c3dc2256a1"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:d0a1e6f1-a700-4613-a1ef-0f0ed6a6464c"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -3319,8 +3319,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:49c49f98-db83-4d4a-877c-88600e8ab5d0"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:c02cf0fe-651c-46c2-90fc-d2f7246d5566"/>
+          <timestamp value="2024-03-28T12:53:08+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -3679,10 +3679,10 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:71168133-7851-4ca3-bc96-fe0ba1acc68b"/>
-          <timestamp value="2024-03-25T15:26:22+00:00"/>
+          <identifier value="urn:uuid:67503a15-651d-456e-a140-4605f5948fac"/>
+          <timestamp value="2024-03-28T12:53:09+00:00"/>
           <total value="27"/>
           <offset value="0"/>
           <parameter>
@@ -3941,8 +3941,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T11:23:24-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:dd018799-0668-4c5c-afe3-74663ed6b27e"/>
-          <timestamp value="2024-03-25T15:26:23+00:00"/>
+          <identifier value="urn:uuid:b9359fcb-fcf1-4077-ba13-b48d03001e41"/>
+          <timestamp value="2024-03-28T12:53:09+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -11019,10 +11019,10 @@
         <title value="Phenotype Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b9c9c996-f861-424a-b189-fc3de2b30a44"/>
-          <timestamp value="2024-03-25T15:26:23+00:00"/>
+          <identifier value="urn:uuid:fa3a0349-a558-4181-92ef-76c737e02a4d"/>
+          <timestamp value="2024-03-28T12:53:09+00:00"/>
           <total value="30971"/>
           <offset value="0"/>
           <parameter>
@@ -16214,10 +16214,10 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:b44a5b70-d9e7-47a3-9307-6c1b1923c998"/>
-          <timestamp value="2024-03-25T15:26:24+00:00"/>
+          <identifier value="urn:uuid:af80a1ad-7e3a-4047-a020-eb76e516f909"/>
+          <timestamp value="2024-03-28T12:53:10+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -16317,8 +16317,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:dc9da94b-21de-4346-b215-39f21a8bc331"/>
-          <timestamp value="2024-03-25T15:26:24+00:00"/>
+          <identifier value="urn:uuid:230f288d-b82d-4308-8b20-c3cc3bee9833"/>
+          <timestamp value="2024-03-28T12:53:10+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -16465,8 +16465,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:82724106-55d4-4046-a132-f6c7b62faca1"/>
-          <timestamp value="2024-03-25T15:26:24+00:00"/>
+          <identifier value="urn:uuid:42d91ced-edae-4be8-8d91-9c8c7b318167"/>
+          <timestamp value="2024-03-28T12:53:10+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -16757,10 +16757,10 @@
         <title value="Sequencing request codes "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c2c7a3bb-4c45-4f8c-8385-2826084c7ac2"/>
-          <timestamp value="2024-03-25T15:26:25+00:00"/>
+          <identifier value="urn:uuid:7bcb60e3-3b5b-4012-8bfc-fcdec773b386"/>
+          <timestamp value="2024-03-28T12:53:10+00:00"/>
           <total value="20"/>
           <offset value="0"/>
           <parameter>
@@ -16992,10 +16992,10 @@
         <title value="Specimen types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:6545ef5f-9864-407c-abf4-c007a8fa2716"/>
-          <timestamp value="2024-03-25T15:26:25+00:00"/>
+          <identifier value="urn:uuid:d416e0bb-a074-4d5d-85af-9e828c6ce9b7"/>
+          <timestamp value="2024-03-28T12:53:10+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -17106,10 +17106,10 @@
         <title value="Variant types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-03-25T15:25:45+00:00"/>
+        <date value="2024-03-28T12:52:30+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:fc924996-a298-4ee6-a7b8-e0bca61fcea6"/>
-          <timestamp value="2024-03-25T15:26:25+00:00"/>
+          <identifier value="urn:uuid:c30f3106-ad79-4553-9b1a-a55b10b60228"/>
+          <timestamp value="2024-03-28T12:53:11+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

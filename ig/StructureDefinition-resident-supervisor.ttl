@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "resident-supervisor"] ; # 
   fhir:title [ fhir:v "Resident Supervisor"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-03-25T15:25:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-28T12:52:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

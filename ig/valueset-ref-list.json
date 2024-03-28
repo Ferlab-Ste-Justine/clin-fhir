@@ -297,8 +297,8 @@
       "sources" : ["2.16.840.1.113883.1.11.19579"],
       "uses" : {
       },
-      "StructureDefinition-family-member.html" : "Family Member",
-      "StructureDefinition-family-relation.html" : "Family Relation"
+      "StructureDefinition-family-relation.html" : "Family Relation",
+      "StructureDefinition-family-member.html" : "Family Member"
     }
   ]
 }

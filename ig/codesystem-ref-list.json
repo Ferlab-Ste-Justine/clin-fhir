@@ -120,8 +120,8 @@
       "description" : "Codes of observations in our system",
       "uses" : {
       },
-      "ValueSet-observation-code.html" : "observation code",
       "ValueSet-mitn-default-exam.html" : "Nuclear Mitochondriopathies default para-clinic exams",
+      "ValueSet-observation-code.html" : "observation code",
       "ValueSet-mmg-default-exam.html" : "Muscle disease  default para-clinic exams"
     },
     {

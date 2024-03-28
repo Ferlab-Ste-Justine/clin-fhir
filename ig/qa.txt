@@ -3,7 +3,7 @@ CqgcImplementationGuide : Validation Results
 
 err = 19, warn = 109, info = 3
 IG Publisher Version: 1.6.3
-Generated Mon Mar 25 15:26:45 UTC 2024. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
+Generated Thu Mar 28 12:53:26 UTC 2024. FHIR version 4.0.1 for cqgc#0.1.0 (canonical = http://fhir.cqgc.ferlab.bio)
  Build Errors : 23 / 5 / 0
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/ImplementationGuide-Clin : 0 / 0 / 1
  /home/runner/work/clin-fhir/clin-fhir/site_root/input/resources/extensions/StructureDefinition-age-at-event : 0 / 2 / 1

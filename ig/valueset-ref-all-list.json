@@ -311,9 +311,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
       "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-observation.html" : "cqgc observation",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
@@ -471,12 +471,12 @@
       "uses" : {
       },
       "StructureDefinition-cqgc-fmh.html" : "cqgc FMH",
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression",
-      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task",
       "StructureDefinition-cqgc-organization.html" : "cqgc Service Request",
-      "StructureDefinition-cqgc-observation.html" : "cqgc observation",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task",
+      "StructureDefinition-cqgc-clinical-impression.html" : "cqgc Clinical Impression",
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
+      "StructureDefinition-cqgc-observation.html" : "cqgc observation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -490,8 +490,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.96"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -563,8 +563,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.152"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/performer-role",
@@ -592,8 +592,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.432"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -640,8 +640,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.113"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -655,9 +655,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.115"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
       "StructureDefinition-cqgc-analysis-task.html" : "cqgc analysis task",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -671,8 +671,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.111"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
@@ -686,8 +686,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.434"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
@@ -701,8 +701,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.435"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/task-code",
@@ -761,8 +761,8 @@
       "sources" : ["2.16.840.1.113883.1.11.19579"],
       "uses" : {
       },
-      "StructureDefinition-family-member.html" : "Family Member",
-      "StructureDefinition-family-relation.html" : "Family Relation"
+      "StructureDefinition-family-relation.html" : "Family Relation",
+      "StructureDefinition-family-member.html" : "Family Member"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
@@ -776,8 +776,8 @@
       "sources" : ["2.16.840.1.113883.1.11.17660"],
       "uses" : {
       },
-      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request",
-      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request"
+      "StructureDefinition-cqgc-analysis-request.html" : "CQGC Genetic Analysis Service Request",
+      "StructureDefinition-cqgc-sequencing-request.html" : "CQGC Sequencing Service Request"
     }
   ]
 }
