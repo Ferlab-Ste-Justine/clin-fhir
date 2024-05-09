@@ -154,25 +154,11 @@
     "name" : "input_specimen"
   },
   {
-    "id" : "mrn",
-    "type" : "SearchParameter",
-    "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/mrn",
-    "version" : "0.1.0",
-    "name" : "mrn"
-  },
-  {
     "id" : "output-documentreference",
     "type" : "SearchParameter",
     "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/output-documentreference",
     "version" : "0.1.0",
     "name" : "output-documentreference"
-  },
-  {
-    "id" : "ramq",
-    "type" : "SearchParameter",
-    "url" : "http://fhir.cqgc.ferlab.bio/SearchParameter/ramq",
-    "version" : "0.1.0",
-    "name" : "ramq"
   },
   {
     "id" : "run-name",

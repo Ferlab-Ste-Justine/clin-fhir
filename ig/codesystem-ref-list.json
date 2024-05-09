@@ -9,8 +9,8 @@
       "description" : "Gene panel requested for analysis",
       "uses" : {
       },
-      "ValueSet-sequencing-request-code.html" : "Sequencing request codes ",
-      "ValueSet-analysis-request-code.html" : "Analysis request code "
+      "ValueSet-analysis-request-code.html" : "Analysis request code ",
+      "ValueSet-sequencing-request-code.html" : "Sequencing request codes "
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
@@ -120,9 +120,9 @@
       "description" : "Codes of observations in our system",
       "uses" : {
       },
-      "ValueSet-observation-code.html" : "observation code",
+      "ValueSet-mitn-default-exam.html" : "Nuclear Mitochondriopathies default para-clinic exams",
       "ValueSet-mmg-default-exam.html" : "Muscle disease  default para-clinic exams",
-      "ValueSet-mitn-default-exam.html" : "Nuclear Mitochondriopathies default para-clinic exams"
+      "ValueSet-observation-code.html" : "observation code"
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",

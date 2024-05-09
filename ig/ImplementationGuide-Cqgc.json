@@ -10,7 +10,7 @@
   "name" : "CqgcImplementationGuide",
   "title" : "Cqgc Implementation Guide",
   "status" : "active",
-  "date" : "2024-05-09T16:24:25+00:00",
+  "date" : "2024-05-09T16:30:56+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",
@@ -1423,26 +1423,6 @@
         "reference" : "SearchParameter/aliquotid"
       },
       "description" : "Searches Task by aliquot ID(s)."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "SearchParameter"
-      }],
-      "reference" : {
-        "reference" : "SearchParameter/mrn"
-      },
-      "description" : "Searches Patient by mrn"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "SearchParameter"
-      }],
-      "reference" : {
-        "reference" : "SearchParameter/ramq"
-      },
-      "description" : "Searches Person by ramq"
     }],
     "page" : {
       "extension" : [{
