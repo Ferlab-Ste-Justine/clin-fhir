@@ -10,7 +10,7 @@
   "name" : "CqgcImplementationGuide",
   "title" : "Cqgc Implementation Guide",
   "status" : "active",
-  "date" : "2024-03-28T12:52:30+00:00",
+  "date" : "2024-05-09T16:24:25+00:00",
   "publisher" : "Ferlab.bio",
   "contact" : [{
     "name" : "Cqgc",
@@ -31,7 +31,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "5.5.0"
   },
   {
     "id" : "hl7ext",
@@ -41,7 +41,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -1413,6 +1413,36 @@
       "name" : "Ferlab.bio ValueSet/sequencing-request-code",
       "description" : "Ferlab.bio ValueSet sequencing-request-code",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/aliquotid"
+      },
+      "description" : "Searches Task by aliquot ID(s)."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/mrn"
+      },
+      "description" : "Searches Patient by mrn"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/ramq"
+      },
+      "description" : "Searches Person by ramq"
     }],
     "page" : {
       "extension" : [{

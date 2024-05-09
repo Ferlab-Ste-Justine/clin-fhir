@@ -26,4 +26,4 @@ http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-hpo,0.1.0,draft,,rgdi-default-
 http://fhir.cqgc.ferlab.bio/ValueSet/sequencing-request-code,0.1.0,draft,,sequencing-request-codes,Sequencing request codes ,"Sequencing request codes","StructureDefinition/cqgc-sequencing-request","Internal"
 http://fhir.cqgc.ferlab.bio/ValueSet/specimen-type,0.1.0,draft,,specimen-type,Specimen types,"Specimen types","StructureDefinition/specimen-type","Internal"
 http://fhir.cqgc.ferlab.bio/ValueSet/variant-type,0.1.0,draft,,variant-type,Variant types,"Variant types",,"Internal"
-http://terminology.hl7.org/ValueSet/v3-FamilyMember,2.0.0,active,"2.16.840.1.113883.1.11.19579",FamilyMember,FamilyMember,"A relationship between two people characterizing their ""familial"" relationship","StructureDefinition/family-member,StructureDefinition/family-relation","THO (V3)"
+http://terminology.hl7.org/ValueSet/v3-FamilyMember,3.0.0,active,"2.16.840.1.113883.1.11.19579",FamilyMember,FamilyMember,"A relationship between two people characterizing their ""familial"" relationship","StructureDefinition/family-member,StructureDefinition/family-relation","THO (V3)"

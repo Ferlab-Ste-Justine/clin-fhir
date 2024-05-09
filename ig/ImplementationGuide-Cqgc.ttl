@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CqgcImplementationGuide"] ; # 
   fhir:title [ fhir:v "Cqgc Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-03-28T12:52:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-09T16:24:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;
@@ -41,7 +41,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.3.0" ]
+     fhir:version [ fhir:v "5.5.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -53,7 +53,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "1.0.0" ]
+     fhir:version [ fhir:v "5.1.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -1326,6 +1326,36 @@
        fhir:name [ fhir:v "Ferlab.bio ValueSet/sequencing-request-code" ] ;
        fhir:description [ fhir:v "Ferlab.bio ValueSet sequencing-request-code" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SearchParameter" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/SearchParameter/aliquotid> ;
+         fhir:reference [ fhir:v "SearchParameter/aliquotid" ]
+       ] ;
+       fhir:description [ fhir:v "Searches Task by aliquot ID(s)." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SearchParameter" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/SearchParameter/mrn> ;
+         fhir:reference [ fhir:v "SearchParameter/mrn" ]
+       ] ;
+       fhir:description [ fhir:v "Searches Patient by mrn" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SearchParameter" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://fhir.cqgc.ferlab.bio/SearchParameter/ramq> ;
+         fhir:reference [ fhir:v "SearchParameter/ramq" ]
+       ] ;
+       fhir:description [ fhir:v "Searches Person by ramq" ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

@@ -9,8 +9,8 @@
       "description" : "Gene panel requested for analysis",
       "uses" : {
       },
-      "ValueSet-analysis-request-code.html" : "Analysis request code ",
-      "ValueSet-sequencing-request-code.html" : "Sequencing request codes "
+      "ValueSet-sequencing-request-code.html" : "Sequencing request codes ",
+      "ValueSet-analysis-request-code.html" : "Analysis request code "
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/bioinfo-analysis-code",
@@ -120,9 +120,9 @@
       "description" : "Codes of observations in our system",
       "uses" : {
       },
-      "ValueSet-mitn-default-exam.html" : "Nuclear Mitochondriopathies default para-clinic exams",
       "ValueSet-observation-code.html" : "observation code",
-      "ValueSet-mmg-default-exam.html" : "Muscle disease  default para-clinic exams"
+      "ValueSet-mmg-default-exam.html" : "Muscle disease  default para-clinic exams",
+      "ValueSet-mitn-default-exam.html" : "Nuclear Mitochondriopathies default para-clinic exams"
     },
     {
       "url" : "http://fhir.cqgc.ferlab.bio/CodeSystem/organization-type-plus",
@@ -181,7 +181,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/organization-type",
-      "version" : "0.1.0",
+      "version" : "2.0.0",
       "status" : "draft",
       "name" : "OrganizationType",
       "title" : "Organization type",
@@ -193,7 +193,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "version" : "2.2.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "RoleCode",
       "title" : "RoleCode",
@@ -201,7 +201,7 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-FamilyMember.html" : "FamilyMember",
+      "http://terminology.hl7.org/5.5.0/ValueSet-v3-FamilyMember.html" : "FamilyMember",
       "ValueSet-fmh-relationship.html" : "Family Member Relationship"
     }
   ]
