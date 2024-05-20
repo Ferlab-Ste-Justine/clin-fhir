@@ -1,2 +1,2 @@
 ncpi_fhir_utility @ git+https://github.com/Ferlab-Ste-Justine/ncpi-fhir-utility.git
-requests==2.22.0
+requests==2.32.0
