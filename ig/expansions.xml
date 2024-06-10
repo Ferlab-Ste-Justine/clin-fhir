@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8f8a92fd-97ab-4c1b-8a95-2d1f1d076223"/>
+  <id value="ff9a9d33-fb7b-479b-9cca-b6c8e57c9ee4"/>
   <meta>
-    <lastUpdated value="2024-05-09T16:30:56.596+00:00"/>
+    <lastUpdated value="2024-06-10T12:41:12.911+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,8 +13,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 9 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 9 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -101,8 +101,8 @@
         <experimental value="false"/>
         <date value="2020-08-12T13:29:08-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:cd9df05d-416a-4a4c-88ef-169c3aa67240"/>
-          <timestamp value="2024-05-09T16:31:35+00:00"/>
+          <identifier value="urn:uuid:c37de8e1-bca5-4853-9a13-3ae8c125c845"/>
+          <timestamp value="2024-06-10T12:41:46+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -188,7 +188,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-analysis-request-code.html">codesystem Analysis request code v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 17 concepts.</p>
+            <p>This value set contains 17 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -207,7 +207,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MMG">MMG</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Global Muscular diseases (Global Panel)</td>
+                <td>Global Muscular Diseases</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -263,7 +263,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RGDI">RGDI</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Global Developmental Delay / Intellectual Deficiency (Trio)</td>
+                <td>Global Developmental Delay / Intellectual Disability (Trio)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -295,7 +295,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-TUHEM">TUHEM</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Hematological malignancies predisposition</td>
+                <td>Hematological Malignancies Predisposition</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -303,7 +303,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-TUPED">TUPED</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Pediatric cancer predisposition</td>
+                <td>Pediatric Cancer Predisposition</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -319,7 +319,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-SSOLID">SSOLID</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Solid Tumor (somatic)</td>
+                <td>Solid Tumor (Somatic)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -327,7 +327,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-SHEMA">SHEMA</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Leukemia (somatic)</td>
+                <td>Leukemia (Somatic)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -346,10 +346,10 @@
         <title value="Analysis request code "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:4ab36e9f-b105-4901-a3d8-cbf5bc04f789"/>
-          <timestamp value="2024-05-09T16:31:36+00:00"/>
+          <identifier value="urn:uuid:cac3a99b-25c6-4f34-8303-94e0666e5ca2"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="17"/>
           <offset value="0"/>
           <parameter>
@@ -371,7 +371,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="MMG"/>
-            <display value="Global Muscular diseases (Global Panel)"/>
+            <display value="Global Muscular Diseases"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -406,7 +406,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="RGDI"/>
-            <display value="Global Developmental Delay / Intellectual Deficiency (Trio)"/>
+            <display value="Global Developmental Delay / Intellectual Disability (Trio)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -426,12 +426,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="TUHEM"/>
-            <display value="Hematological malignancies predisposition"/>
+            <display value="Hematological Malignancies Predisposition"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="TUPED"/>
-            <display value="Pediatric cancer predisposition"/>
+            <display value="Pediatric Cancer Predisposition"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -441,12 +441,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="SSOLID"/>
-            <display value="Solid Tumor (somatic)"/>
+            <display value="Solid Tumor (Somatic)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="SHEMA"/>
-            <display value="Leukemia (somatic)"/>
+            <display value="Leukemia (Somatic)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -467,7 +467,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-bioinfo-analysis-code.html">codesystem Bioinformatic analysis codes v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 7 concepts.</p>
+            <p>This value set contains 7 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -545,10 +545,10 @@
         <title value="Bioinformatic analysis codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2ec9f6ee-92f4-4fb4-bcb1-d622a0c86b67"/>
-          <timestamp value="2024-05-09T16:31:36+00:00"/>
+          <identifier value="urn:uuid:b89edf0e-ab9b-49f7-a248-fc8cf1ed5d7d"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -613,8 +613,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 24 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 24 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -806,8 +806,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:17bca4be-7264-41a0-9a00-84aacb38aadd"/>
-          <timestamp value="2024-05-09T16:31:36+00:00"/>
+          <identifier value="urn:uuid:ecdd0d90-128e-4a9a-9a7b-c8f53b593f14"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="24"/>
           <offset value="0"/>
           <parameter>
@@ -968,7 +968,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-cgh-abnormalities.html">codesystem CGH abnormalities v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 2 concepts.</p>
+            <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1006,10 +1006,10 @@
         <title value="CGH abnormalities"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:ced1ab8b-6d39-4376-8431-88ad2b72d613"/>
-          <timestamp value="2024-05-09T16:31:36+00:00"/>
+          <identifier value="urn:uuid:e9a50487-36a5-4081-bc3c-8bb5f00090be"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -1049,8 +1049,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 0 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 0 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1074,8 +1074,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:936c7b16-5e0c-4059-a7da-a01ae06fe792"/>
-          <timestamp value="2024-05-09T16:31:36+00:00"/>
+          <identifier value="urn:uuid:2c53529b-cd89-4d73-a603-d4216caf5372"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -1116,7 +1116,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-data-category.html">codesystem Data categories v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 1 concepts.</p>
+            <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1146,10 +1146,10 @@
         <title value="Data categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e9830ce3-2e02-4073-af89-1921786fe7a1"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:a4bf4cee-68e1-464f-ab3f-da23e6ecc9e4"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -1187,7 +1187,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-data-type.html">codesystem Data types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 16 concepts.</p>
+            <p>This value set contains 16 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1337,10 +1337,10 @@
         <title value="Data types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:7a49abd3-0e9c-44f0-935c-514f72e85f8e"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:812bd890-d76e-4367-891c-66342b4f2346"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -1453,7 +1453,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-disease-status.html">codesystem Disease status v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 3 concepts.</p>
+            <p>This value set contains 3 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1499,10 +1499,10 @@
         <title value="Disease status"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e2e5779e-b2b1-400a-9ff2-7dd5c3bf4232"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:82bcf962-a5da-4a74-8dd7-b2df43c354ae"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1550,7 +1550,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-document-format.html">codesystem Document formats v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 12 concepts.</p>
+            <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1668,10 +1668,10 @@
         <title value="Document formats"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:c124c174-00f2-46a8-a153-67c60c4901e5"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:7c6f100e-b2b0-4501-ad71-7454941115af"/>
+          <timestamp value="2024-06-10T12:41:47+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -1761,8 +1761,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 4 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1814,8 +1814,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:1e888558-aaf2-4777-9eec-e6f913aa5181"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:28ceb611-b15d-4f46-b735-576697885d2e"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1876,7 +1876,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-experimental-strategy.html">codesystem Experimental strategies v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 4 concepts.</p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1954,10 +1954,10 @@
         <title value="Experimental strategies"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f04dfa3a-b143-41ff-b7a8-677edd7288b7"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:93070ecb-4eed-4680-921e-e042c9f538bd"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -2008,7 +2008,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
+              <p>Expansion based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-fmh-relationship-plus.html">codesystem FMH relationship-plus v0.1.0 (CodeSystem)</a>
@@ -2018,7 +2018,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 23 concepts.</p>
+            <p>This value set contains 23 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2369,8 +2369,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T10:53:21-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:e5b73161-8c0c-4e8a-b778-a62e5b9f7b77"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:436ac948-fd18-4fe6-8573-8a2805abc559"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -2522,7 +2522,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-genome-build.html">codesystem Genome build v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 1 concepts.</p>
+            <p>This value set contains 1 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2561,10 +2561,10 @@
         <title value="Genome build"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:3616b17b-f964-4edf-8e77-146e58be7ad6"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:2e5a6af9-cb92-46c7-b708-c4b4b307d442"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -2602,7 +2602,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">codesystem Observation codes v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 12 concepts.</p>
+            <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2621,7 +2621,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-CAAP">CAAP</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Plasma amino acid chromatography</td>
+                <td>Plasma Amino Acid Chromatography</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2693,7 +2693,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-BMET">BMET</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Metabolic work-up</td>
+                <td>Metabolic Work-Up</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2701,7 +2701,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-BMUS">BMUS</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Muscle biopsy</td>
+                <td>Muscle Biopsy</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -2722,8 +2722,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:ed3165e5-09f9-4f2a-a20a-7e056aa722c4"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:b6e5aab0-7401-4e12-b7d3-f8ba2fbef5d7"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -2745,7 +2745,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="CAAP"/>
-            <display value="Plasma amino acid chromatography"/>
+            <display value="Plasma Amino Acid Chromatography"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
@@ -2790,12 +2790,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="BMET"/>
-            <display value="Metabolic work-up"/>
+            <display value="Metabolic Work-Up"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="BMUS"/>
-            <display value="Muscle biopsy"/>
+            <display value="Muscle Biopsy"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
@@ -2813,8 +2813,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 13 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 13 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2929,8 +2929,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:3ff73a29-b138-4a52-8f0e-3969216b6c74"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:6b1c8805-341c-494c-928a-c685319b2ae9"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="13"/>
           <offset value="0"/>
           <parameter>
@@ -3036,7 +3036,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">codesystem Observation codes v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 7 concepts.</p>
+            <p>This value set contains 7 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3055,7 +3055,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-CKIN">CKIN</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Serum creatine kinase</td>
+                <td>Serum Creatine Kinase</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3063,7 +3063,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-BMUS">BMUS</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Muscle biopsy</td>
+                <td>Muscle Biopsy</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3095,7 +3095,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-GCNR">GCNR</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td>
+                <td>GCN Repeat Testing (Oculopharyngeal Muscular Dystrophy)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3103,7 +3103,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-TGDD">TGDD</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td>
+                <td>Deletions and Duplications Testing (Duchenne and Becker Dystrophies)</td>
               </tr>
             </table>
           </div>
@@ -3116,8 +3116,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:0d8975eb-dae2-4dca-81c3-b16442f9737d"/>
-          <timestamp value="2024-05-09T16:31:37+00:00"/>
+          <identifier value="urn:uuid:6e88d624-f81b-477c-bf8b-23bb2413b542"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -3139,12 +3139,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="CKIN"/>
-            <display value="Serum creatine kinase"/>
+            <display value="Serum Creatine Kinase"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="BMUS"/>
-            <display value="Muscle biopsy"/>
+            <display value="Muscle Biopsy"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
@@ -3164,12 +3164,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="GCNR"/>
-            <display value="GCN Repeat Testing (oculopharyngeal muscular dystrophy)"/>
+            <display value="GCN Repeat Testing (Oculopharyngeal Muscular Dystrophy)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="TGDD"/>
-            <display value="Deletions and Duplications Testing (Duchenne and Becker dystrophies)"/>
+            <display value="Deletions and Duplications Testing (Duchenne and Becker Dystrophies)"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3182,8 +3182,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 16 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 16 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3319,8 +3319,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:33a3156c-e3d0-40b3-b5da-4cb1cd471017"/>
-          <timestamp value="2024-05-09T16:31:38+00:00"/>
+          <identifier value="urn:uuid:eb097471-1d49-4d36-aa67-36f94cd5e54b"/>
+          <timestamp value="2024-06-10T12:41:48+00:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -3441,7 +3441,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-observation-code.html">codesystem Observation codes v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 27 concepts.</p>
+            <p>This value set contains 27 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3484,7 +3484,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-BMUS">BMUS</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Muscle biopsy</td>
+                <td>Muscle Biopsy</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3492,7 +3492,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-BMET">BMET</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Metabolic work-up</td>
+                <td>Metabolic Work-Up</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3500,7 +3500,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-CKIN">CKIN</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Serum creatine kinase</td>
+                <td>Serum Creatine Kinase</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3508,7 +3508,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-CAAP">CAAP</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Plasma amino acid chromatography</td>
+                <td>Plasma Amino Acid Chromatography</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3612,7 +3612,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-GCNR">GCNR</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>GCN Repeat Testing (oculopharyngeal muscular dystrophy)</td>
+                <td>GCN Repeat Testing (Oculopharyngeal Muscular Dystrophy)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3620,7 +3620,7 @@
                   <a href="CodeSystem-observation-code.html#observation-code-TGDD">TGDD</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code</td>
-                <td>Deletions and Duplications Testing (Duchenne and Becker dystrophies)</td>
+                <td>Deletions and Duplications Testing (Duchenne and Becker Dystrophies)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3679,10 +3679,10 @@
         <title value="observation code"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2d9b6229-3f2a-4fae-9de9-825f55b77be6"/>
-          <timestamp value="2024-05-09T16:31:38+00:00"/>
+          <identifier value="urn:uuid:4d43194a-a70e-4d46-9179-c78776ab612b"/>
+          <timestamp value="2024-06-10T12:41:49+00:00"/>
           <total value="27"/>
           <offset value="0"/>
           <parameter>
@@ -3719,22 +3719,22 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="BMUS"/>
-            <display value="Muscle biopsy"/>
+            <display value="Muscle Biopsy"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="BMET"/>
-            <display value="Metabolic work-up"/>
+            <display value="Metabolic Work-Up"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="CKIN"/>
-            <display value="Serum creatine kinase"/>
+            <display value="Serum Creatine Kinase"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="CAAP"/>
-            <display value="Plasma amino acid chromatography"/>
+            <display value="Plasma Amino Acid Chromatography"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
@@ -3799,12 +3799,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="GCNR"/>
-            <display value="GCN Repeat Testing (oculopharyngeal muscular dystrophy)"/>
+            <display value="GCN Repeat Testing (Oculopharyngeal Muscular Dystrophy)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
             <code value="TGDD"/>
-            <display value="Deletions and Duplications Testing (Duchenne and Becker dystrophies)"/>
+            <display value="Deletions and Duplications Testing (Duchenne and Becker Dystrophies)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/observation-code"/>
@@ -3848,7 +3848,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
+              <p>Expansion based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-organization-type-plus.html">codesystem Organization type-plus v0.1.0 (CodeSystem)</a>
@@ -3858,7 +3858,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 4 concepts.</p>
+            <p>This value set contains 4 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3941,8 +3941,8 @@
         <experimental value="false"/>
         <date value="2020-08-20T11:23:24-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:07851484-061d-43fd-8d6e-5fea1fe416ad"/>
-          <timestamp value="2024-05-09T16:31:38+00:00"/>
+          <identifier value="urn:uuid:53d77f1e-6879-4cfd-af4d-58ae3cd1f3a2"/>
+          <timestamp value="2024-06-10T12:41:49+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -3996,8 +3996,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">This value set has 30971 codes in it. In order to keep the publication size manageable, only a selection (1000 codes) of the whole set of codes is shown.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">This value set has 30,971 codes in it. In order to keep the publication size manageable, only a selection ({1} codes) of the whole set of codes is shown.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -11019,10 +11019,10 @@
         <title value="Phenotype Codes"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:f5ef5a4d-4fdf-4a89-9dda-39f2e94e9abc"/>
-          <timestamp value="2024-05-09T16:31:38+00:00"/>
+          <identifier value="urn:uuid:06a45ee7-08b1-4a9a-85af-74078299cff8"/>
+          <timestamp value="2024-06-10T12:41:49+00:00"/>
           <total value="30971"/>
           <offset value="0"/>
           <parameter>
@@ -16063,7 +16063,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-qc-ethnicity.html">codesystem Ethnicites in Quebec v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 9 concepts.</p>
+            <p>This value set contains 9 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -16214,10 +16214,10 @@
         <title value="Qc ethnicity"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e94fee92-d279-4f5c-9fac-cd122de3d5d9"/>
-          <timestamp value="2024-05-09T16:31:39+00:00"/>
+          <identifier value="urn:uuid:3060c33f-71ec-4898-9e1f-01061f99131f"/>
+          <timestamp value="2024-06-10T12:41:51+00:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -16292,8 +16292,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 0 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 0 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -16317,8 +16317,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:fc15da32-b592-4acf-a359-c311ffa51cc2"/>
-          <timestamp value="2024-05-09T16:31:40+00:00"/>
+          <identifier value="urn:uuid:9b9c50f1-4ee1-4263-9ea5-3b4beff57067"/>
+          <timestamp value="2024-06-10T12:41:51+00:00"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -16356,8 +16356,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system http://purl.obolibrary.org/obo/hp.owl version 20221005</p>
-            <p>This value set contains 12 concepts.</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on system hp.owl version20221005</p>
+            <p>This value set contains 12 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -16465,8 +16465,8 @@
         <experimental value="false"/>
         <date value="2020-08-13T10:49:27-04:00"/>
         <expansion>
-          <identifier value="urn:uuid:33f896d0-8986-47a3-8909-b82284e9b594"/>
-          <timestamp value="2024-05-09T16:31:40+00:00"/>
+          <identifier value="urn:uuid:8fae4761-0b59-4324-b8a8-29b9d532091e"/>
+          <timestamp value="2024-06-10T12:41:52+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -16565,7 +16565,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
+              <p>Expansion based on:</p>
               <ul>
                 <li>
                   <a href="CodeSystem-analysis-request-code.html">codesystem Analysis request code v0.1.0 (CodeSystem)</a>
@@ -16575,7 +16575,7 @@
                 </li>
               </ul>
             </div>
-            <p>This value set contains 20 concepts.</p>
+            <p>This value set contains 20 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -16618,7 +16618,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-MMG">MMG</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Global Muscular diseases (Global Panel)</td>
+                <td>Global Muscular Diseases</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -16674,7 +16674,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-RGDI">RGDI</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Global Developmental Delay / Intellectual Deficiency (Trio)</td>
+                <td>Global Developmental Delay / Intellectual Disability (Trio)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -16706,7 +16706,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-TUHEM">TUHEM</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Hematological malignancies predisposition</td>
+                <td>Hematological Malignancies Predisposition</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -16714,7 +16714,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-TUPED">TUPED</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Pediatric cancer predisposition</td>
+                <td>Pediatric Cancer Predisposition</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -16730,7 +16730,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-SSOLID">SSOLID</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Solid Tumor (somatic)</td>
+                <td>Solid Tumor (Somatic)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -16738,7 +16738,7 @@
                   <a href="CodeSystem-analysis-request-code.html#analysis-request-code-SHEMA">SHEMA</a>
                 </td>
                 <td>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</td>
-                <td>Leukemia (somatic)</td>
+                <td>Leukemia (Somatic)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -16757,10 +16757,10 @@
         <title value="Sequencing request codes "/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:2e5b6ea3-4dae-4f41-86fb-9edebefacf94"/>
-          <timestamp value="2024-05-09T16:31:40+00:00"/>
+          <identifier value="urn:uuid:e1648e26-e7d2-4f60-8ff9-97700f3ae89b"/>
+          <timestamp value="2024-06-10T12:41:52+00:00"/>
           <total value="20"/>
           <offset value="0"/>
           <parameter>
@@ -16801,7 +16801,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="MMG"/>
-            <display value="Global Muscular diseases (Global Panel)"/>
+            <display value="Global Muscular Diseases"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -16836,7 +16836,7 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="RGDI"/>
-            <display value="Global Developmental Delay / Intellectual Deficiency (Trio)"/>
+            <display value="Global Developmental Delay / Intellectual Disability (Trio)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -16856,12 +16856,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="TUHEM"/>
-            <display value="Hematological malignancies predisposition"/>
+            <display value="Hematological Malignancies Predisposition"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="TUPED"/>
-            <display value="Pediatric cancer predisposition"/>
+            <display value="Pediatric Cancer Predisposition"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -16871,12 +16871,12 @@
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="SSOLID"/>
-            <display value="Solid Tumor (somatic)"/>
+            <display value="Solid Tumor (Somatic)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
             <code value="SHEMA"/>
-            <display value="Leukemia (somatic)"/>
+            <display value="Leukemia (Somatic)"/>
           </contains>
           <contains>
             <system value="http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"/>
@@ -16897,7 +16897,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-specimen-type.html">codesystem Specimen types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 5 concepts.</p>
+            <p>This value set contains 5 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -16992,10 +16992,10 @@
         <title value="Specimen types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:e82bda12-ce6a-498f-84b2-db61d77edc03"/>
-          <timestamp value="2024-05-09T16:31:40+00:00"/>
+          <identifier value="urn:uuid:3873023a-4a2a-467f-ad0a-b48042842fec"/>
+          <timestamp value="2024-06-10T12:41:52+00:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -17053,7 +17053,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-variant-type.html">codesystem Variant types v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 2 concepts.</p>
+            <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -17106,10 +17106,10 @@
         <title value="Variant types"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-05-09T16:30:56+00:00"/>
+        <date value="2024-06-10T12:41:12+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:25f8e47c-aa8a-48b3-9da9-897596c8d862"/>
-          <timestamp value="2024-05-09T16:31:40+00:00"/>
+          <identifier value="urn:uuid:cc5e37b3-ea5d-46b4-8e5a-884d3064fcf1"/>
+          <timestamp value="2024-06-10T12:41:52+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

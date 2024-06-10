@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Ethnicites in Quebec"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-05-09T16:30:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-06-10T12:41:12+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;

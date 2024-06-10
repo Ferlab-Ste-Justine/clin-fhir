@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "rgdi-default-exam"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>CGH</td><td>Comparative Genomic Hybridization</td><td>Hybridation génomique comparative</td></tr><tr><td>TSXF</td><td>Fragile X Syndrome Testing</td><td>Test syndrome de X fragile</td></tr><tr><td>BMET</td><td>Metabolic work-up</td><td>Bilan métabolique</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/hp.owl</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td>CGH</td><td>Comparative Genomic Hybridization</td><td>Hybridation génomique comparative</td></tr><tr><td>TSXF</td><td>Fragile X Syndrome Testing</td><td>Test syndrome de X fragile</td></tr><tr><td>BMET</td><td>Metabolic Work-Up</td><td>Bilan métabolique</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/ValueSet/rgdi-default-exam"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -47,7 +47,7 @@
          ] )
        ] [
          fhir:code [ fhir:v "BMET" ] ;
-         fhir:display [ fhir:v "Metabolic work-up" ] ;
+         fhir:display [ fhir:v "Metabolic Work-Up" ] ;
          fhir:designation ( [
            fhir:language [ fhir:v "fr" ] ;
            fhir:value [ fhir:v "Bilan métabolique" ]

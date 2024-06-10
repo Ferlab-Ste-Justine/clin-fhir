@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "analysis-request-code"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">MMG<a name=\"analysis-request-code-MMG\"> </a></td><td>Global Muscular diseases (Global Panel)</td><td>Maladies musculaires (Panel global)</td></tr><tr><td style=\"white-space:nowrap\">DYSM<a name=\"analysis-request-code-DYSM\"> </a></td><td>Muscular Dystrophies</td><td>Dystrophies musculaires</td></tr><tr><td style=\"white-space:nowrap\">RHAB<a name=\"analysis-request-code-RHAB\"> </a></td><td>Rhabdomyolysis</td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MITN<a name=\"analysis-request-code-MITN\"> </a></td><td>Nuclear Mitochondriopathies</td><td>Mitochondriopathies nucléaires</td></tr><tr><td style=\"white-space:nowrap\">MYOC<a name=\"analysis-request-code-MYOC\"> </a></td><td>Congenital Myopathies</td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MYAC<a name=\"analysis-request-code-MYAC\"> </a></td><td>Congenital Myasthenia</td><td>Myasthénies congénitales</td></tr><tr><td style=\"white-space:nowrap\">HYPM<a name=\"analysis-request-code-HYPM\"> </a></td><td>Malignant Hyperthermia</td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">RGDI<a name=\"analysis-request-code-RGDI\"> </a></td><td>Global Developmental Delay / Intellectual Deficiency (Trio)</td><td>Retard global de développement / Déficience intellectuelle (Trio)</td></tr><tr><td style=\"white-space:nowrap\">RGDI+<a name=\"analysis-request-code-RGDI.43\"> </a></td><td>RGDI+</td><td>RGDI+</td></tr><tr><td style=\"white-space:nowrap\">POLYM<a name=\"analysis-request-code-POLYM\"> </a></td><td>Polymalformation</td><td>Polymalformation</td></tr><tr><td style=\"white-space:nowrap\">TRATU<a name=\"analysis-request-code-TRATU\"> </a></td><td>Tumoral Transcriptome</td><td>Transcriptome tumoral</td></tr><tr><td style=\"white-space:nowrap\">TUHEM<a name=\"analysis-request-code-TUHEM\"> </a></td><td>Hematological malignancies predisposition</td><td>Prédisposition hémopathies malignes</td></tr><tr><td style=\"white-space:nowrap\">TUPED<a name=\"analysis-request-code-TUPED\"> </a></td><td>Pediatric cancer predisposition</td><td>Prédisposition cancers pédiatriques</td></tr><tr><td style=\"white-space:nowrap\">EXTUM<a name=\"analysis-request-code-EXTUM\"> </a></td><td>Tumoral Exome</td><td>Exome Tumoral</td></tr><tr><td style=\"white-space:nowrap\">SSOLID<a name=\"analysis-request-code-SSOLID\"> </a></td><td>Solid Tumor (somatic)</td><td>Tumeur solide (somatique)</td></tr><tr><td style=\"white-space:nowrap\">SHEMA<a name=\"analysis-request-code-SHEMA\"> </a></td><td>Leukemia (somatic)</td><td>Leucémie (somatique)</td></tr><tr><td style=\"white-space:nowrap\">SCID<a name=\"analysis-request-code-SCID\"> </a></td><td>Severe Combined Immune Deficiency</td><td>Déficit immunitaire combiné sévère</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>French (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">MMG<a name=\"analysis-request-code-MMG\"> </a></td><td>Global Muscular Diseases</td><td>Maladies musculaires globales</td></tr><tr><td style=\"white-space:nowrap\">DYSM<a name=\"analysis-request-code-DYSM\"> </a></td><td>Muscular Dystrophies</td><td>Dystrophies musculaires</td></tr><tr><td style=\"white-space:nowrap\">RHAB<a name=\"analysis-request-code-RHAB\"> </a></td><td>Rhabdomyolysis</td><td>Rhabdomyolyse</td></tr><tr><td style=\"white-space:nowrap\">MITN<a name=\"analysis-request-code-MITN\"> </a></td><td>Nuclear Mitochondriopathies</td><td>Mitochondriopathies nucléaires</td></tr><tr><td style=\"white-space:nowrap\">MYOC<a name=\"analysis-request-code-MYOC\"> </a></td><td>Congenital Myopathies</td><td>Myopathies congénitales</td></tr><tr><td style=\"white-space:nowrap\">MYAC<a name=\"analysis-request-code-MYAC\"> </a></td><td>Congenital Myasthenia</td><td>Myasthénies congénitales</td></tr><tr><td style=\"white-space:nowrap\">HYPM<a name=\"analysis-request-code-HYPM\"> </a></td><td>Malignant Hyperthermia</td><td>Hyperthermie maligne</td></tr><tr><td style=\"white-space:nowrap\">RGDI<a name=\"analysis-request-code-RGDI\"> </a></td><td>Global Developmental Delay / Intellectual Disability (Trio)</td><td>Retard global de développement / Déficience intellectuelle (Trio)</td></tr><tr><td style=\"white-space:nowrap\">RGDI+<a name=\"analysis-request-code-RGDI.43\"> </a></td><td>RGDI+</td><td>RGDI+</td></tr><tr><td style=\"white-space:nowrap\">POLYM<a name=\"analysis-request-code-POLYM\"> </a></td><td>Polymalformation</td><td>Polymalformation</td></tr><tr><td style=\"white-space:nowrap\">TRATU<a name=\"analysis-request-code-TRATU\"> </a></td><td>Tumoral Transcriptome</td><td>Transcriptome tumoral</td></tr><tr><td style=\"white-space:nowrap\">TUHEM<a name=\"analysis-request-code-TUHEM\"> </a></td><td>Hematological Malignancies Predisposition</td><td>Prédisposition hémopathies malignes</td></tr><tr><td style=\"white-space:nowrap\">TUPED<a name=\"analysis-request-code-TUPED\"> </a></td><td>Pediatric Cancer Predisposition</td><td>Prédisposition cancers pédiatriques</td></tr><tr><td style=\"white-space:nowrap\">EXTUM<a name=\"analysis-request-code-EXTUM\"> </a></td><td>Tumoral Exome</td><td>Exome tumoral</td></tr><tr><td style=\"white-space:nowrap\">SSOLID<a name=\"analysis-request-code-SSOLID\"> </a></td><td>Solid Tumor (Somatic)</td><td>Tumeur solide (somatique)</td></tr><tr><td style=\"white-space:nowrap\">SHEMA<a name=\"analysis-request-code-SHEMA\"> </a></td><td>Leukemia (Somatic)</td><td>Leucémie (somatique)</td></tr><tr><td style=\"white-space:nowrap\">SCID<a name=\"analysis-request-code-SCID\"> </a></td><td>Severe Combined Immune Deficiency</td><td>Déficit immunitaire combiné sévère</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://fhir.cqgc.ferlab.bio/CodeSystem/analysis-request-code"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Analysis request code"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-05-09T16:30:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-06-10T12:41:12+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Ferlab.bio"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Cqgc" ] ;
@@ -32,10 +32,10 @@
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "MMG" ] ;
-     fhir:display [ fhir:v "Global Muscular diseases (Global Panel)" ] ;
+     fhir:display [ fhir:v "Global Muscular Diseases" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "Maladies musculaires (Panel global)" ]
+       fhir:value [ fhir:v "Maladies musculaires globales" ]
      ] )
   ] [
      fhir:code [ fhir:v "DYSM" ] ;
@@ -81,7 +81,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "RGDI" ] ;
-     fhir:display [ fhir:v "Global Developmental Delay / Intellectual Deficiency (Trio)" ] ;
+     fhir:display [ fhir:v "Global Developmental Delay / Intellectual Disability (Trio)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Retard global de développement / Déficience intellectuelle (Trio)" ]
@@ -109,14 +109,14 @@
      ] )
   ] [
      fhir:code [ fhir:v "TUHEM" ] ;
-     fhir:display [ fhir:v "Hematological malignancies predisposition" ] ;
+     fhir:display [ fhir:v "Hematological Malignancies Predisposition" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Prédisposition hémopathies malignes" ]
      ] )
   ] [
      fhir:code [ fhir:v "TUPED" ] ;
-     fhir:display [ fhir:v "Pediatric cancer predisposition" ] ;
+     fhir:display [ fhir:v "Pediatric Cancer Predisposition" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Prédisposition cancers pédiatriques" ]
@@ -126,18 +126,18 @@
      fhir:display [ fhir:v "Tumoral Exome" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
-       fhir:value [ fhir:v "Exome Tumoral" ]
+       fhir:value [ fhir:v "Exome tumoral" ]
      ] )
   ] [
      fhir:code [ fhir:v "SSOLID" ] ;
-     fhir:display [ fhir:v "Solid Tumor (somatic)" ] ;
+     fhir:display [ fhir:v "Solid Tumor (Somatic)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Tumeur solide (somatique)" ]
      ] )
   ] [
      fhir:code [ fhir:v "SHEMA" ] ;
-     fhir:display [ fhir:v "Leukemia (somatic)" ] ;
+     fhir:display [ fhir:v "Leukemia (Somatic)" ] ;
      fhir:designation ( [
        fhir:language [ fhir:v "fr" ] ;
        fhir:value [ fhir:v "Leucémie (somatique)" ]
